@@ -1,15 +1,15 @@
 
 ********************************************************************************
-      Removed markets report report produced on 2022-03-28 21:40:51.357860      
+      Removed markets report report produced on 2022-03-29 21:37:00.846387      
 ********************************************************************************
 
 
 List of markets which should be marked as untradeable due to risk, liquidity or cost issues
-Following should be removed (add to config.bad_markets): ['US5', 'NZD', 'JPY', 'US10', 'EUR', 'RUR', 'BONO', 'OAT', 'US3', 'KR10', 'SGD', 'BUND', 'BTP3', 'GBPEUR', 'COTTON', 'BOBL', 'USIRS5ERIS', 'V2X', 'GBP', 'YENEUR', 'CAD', 'AUD', 'US10U', 'CNH', 'CHF', 'INR']
+Following should be removed (add to config.bad_markets): ['COTTON', 'V2X', 'RUR']
 
 
 
-Following should be added (delete from config.bad_markets): ['EU-DJ-UTIL', 'ETHEREUM', 'EU-MEDIA', 'EU-UTILS', 'EUROSTX200-LARGE', 'EU-RETAIL', 'EUROSTX-SMALL', 'EU-INSURE', 'BEL20', 'EU-FOOD', 'EU-REALESTATE', 'BBCOMM', 'DJSTX-SMALL', 'SMI-MID', 'EU-MID']
+Following should be added (delete from config.bad_markets): ['EUROSTX-SMALL', 'EU-DJ-TELECOM', 'EURCHF', 'EU-FOOD', 'EU-DJ-UTIL', 'EUROSTX200-LARGE', 'US2', 'BEL20', 'EDOLLAR', 'EU-UTILS', 'EU-REALESTATE', 'JGB', 'EU-MEDIA', 'EU-INSURE', 'SHATZ', 'EU-RETAIL', 'SMI-MID', 'JGB-SGX-mini', 'KR3', 'ETHEREUM', 'EU-MID', 'BBCOMM', 'DJSTX-SMALL']
 
 
 
@@ -17,19 +17,19 @@ Markets too expensive (SR cost per trade > 0.010): ['ALUMINIUM', 'BOVESPA', 'BUT
 
 
 
-Markets not enough risk volume (Volume in $m ann. risk per day < 1.50): ['BITCOIN', 'BOVESPA', 'BUTTER', 'CH10', 'CHEESE', 'COPPER-mini', 'CZK', 'ETHER-micro', 'EU-CHEM', 'EU-CONSTRUCTION', 'EU-DJ-OIL', 'EU-DJ-TECH', 'EU-DJ-TELECOM', 'EU-DJ-UTIL', 'EU-FOOD', 'EU-HOUSE', 'EU-MEDIA', 'EU-MID', 'EU-REALESTATE', 'EU-RETAIL', 'EURIBOR', 'EUROSTX-SMALL', 'EUROSTX200-LARGE', 'FTSEINDO', 'INR', 'IRS', 'JGB-SGX-mini', 'JP-REALESTATE', 'KRWUSD', 'MILKDRY', 'MILKWET', 'NOK', 'OATIES', 'OMX', 'R1000', 'RUR', 'SGD', 'SGX', 'SMI-MID', 'US-PROPERTY', 'VNKI']
+Markets not enough risk volume (Volume in $m ann. risk per day < 1.50): ['BITCOIN', 'BOVESPA', 'BUTTER', 'CH10', 'CHEESE', 'COPPER-mini', 'CZK', 'ETHER-micro', 'EU-CHEM', 'EU-CONSTRUCTION', 'EU-DJ-OIL', 'EU-DJ-TELECOM', 'EU-DJ-UTIL', 'EU-FOOD', 'EU-HOUSE', 'EU-MEDIA', 'EU-REALESTATE', 'EU-RETAIL', 'EURIBOR', 'EUROSTX-SMALL', 'INR', 'IRS', 'JGB-SGX-mini', 'JP-REALESTATE', 'KRWUSD', 'MILKDRY', 'MILKWET', 'NOK', 'OATIES', 'OMX', 'R1000', 'RUR', 'SGX', 'SMI-MID', 'US-PROPERTY', 'VNKI']
 
 
 
-Markets not enough contract volume (Volume in contracts per day < 100): ['BOVESPA', 'BUTTER', 'CH10', 'CHEESE', 'COPPER-mini', 'CZK', 'EU-CHEM', 'EU-CONSTRUCTION', 'EU-DJ-TELECOM', 'EU-HOUSE', 'EURIBOR', 'IRS', 'JP-REALESTATE', 'KRWUSD', 'MILKDRY', 'MILKWET', 'NOK', 'OMX', 'R1000', 'RUR', 'SEK', 'SGX', 'US-PROPERTY', 'VNKI']
+Markets not enough contract volume (Volume in contracts per day < 100): ['BOVESPA', 'BUTTER', 'CH10', 'CHEESE', 'COPPER-mini', 'CZK', 'EU-CHEM', 'EU-CONSTRUCTION', 'EU-HOUSE', 'EURIBOR', 'IRS', 'KRWUSD', 'MILKDRY', 'MILKWET', 'NOK', 'OMX', 'R1000', 'RUR', 'SEK', 'SGX', 'US-PROPERTY', 'VNKI']
 
 
 
-Markets too safe (Annual % std. dev < 10.0): ['AUD', 'BOBL', 'BONO', 'BTP3', 'BUND', 'CAD', 'CH10', 'CHF', 'CNH', 'CNH-onshore', 'EDOLLAR', 'ETHANOL', 'EUR', 'EURCHF', 'EURIBOR', 'GBP', 'GBPEUR', 'INR', 'IRS', 'JGB', 'JGB-SGX-mini', 'JPY', 'KR10', 'KR3', 'KRWUSD', 'NZD', 'OAT', 'SGD', 'SHATZ', 'US10', 'US10U', 'US2', 'US3', 'US5', 'USIRS5', 'USIRS5ERIS', 'YENEUR']
+Markets too safe (Annual % std. dev < 1.2): ['EURIBOR']
 
 
 
-(Minimum standard deviation 10.000 calculated as follows: = max_vs_average_forecast * approx_IDM * notional_instrument_weight * notional_risk_target /  raw_max_leverage= 2.0 * 2.50 * 0.100 * 0.200 / 1.000000
+(Minimum standard deviation 1.250 calculated as follows: = max_vs_average_forecast * approx_IDM * notional_instrument_weight * notional_risk_target /  raw_max_leverage= 2.0 * 2.50 * 0.010 * 0.250 / 1.000000
 
 
 
