@@ -1,15 +1,157 @@
 
 ********************************************************************************
-Trades report report produced on 05/04/2022 20:59 from 04/04/2022 20:59 to 05/04/2022 20:59
+Trades report report produced on 06/04/2022 21:00 from 05/04/2022 21:00 to 06/04/2022 21:00
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+================================================================================================
+                                         Broker orders                                          
+================================================================================================
+
+         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+order_id                                                                                        
+32076                DOW  dynamic_TF_carry    [20220600] 2022-04-06 15:00:43   [1]     34292.000
+32073             EU-OIL  dynamic_TF_carry    [20220600] 2022-04-06 08:00:44  [-1]       318.500
+32074         GOLD_micro  dynamic_TF_carry    [20220600] 2022-04-06 14:00:35   [1]      1929.800
+32072             KOSDAQ  dynamic_TF_carry    [20220600] 2022-04-06 02:00:38   [1]      1313.300
+32075             SILVER  dynamic_TF_carry    [20220500] 2022-04-06 14:01:37  [-1]        24.375
+32077             YENEUR  dynamic_TF_carry    [20220600] 2022-04-06 15:01:45   [1]       135.300
+
+
+=======================================================================================================================================================
+                                                                        Delays                                                                         
+=======================================================================================================================================================
+
+         instrument_code     strategy_name parent_reference_datetime     submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                               
+32072             KOSDAQ  dynamic_TF_carry                2022-04-05 2022-04-06 02:00:38 2022-04-06 02:00:38                  93638                   0
+32073             EU-OIL  dynamic_TF_carry                2022-04-05 2022-04-06 08:00:45 2022-04-06 08:00:44                 115245                 NaN
+32074         GOLD_micro  dynamic_TF_carry                2022-04-05 2022-04-06 14:00:38 2022-04-06 14:00:35                 136838                 NaN
+32075             SILVER  dynamic_TF_carry                2022-04-05 2022-04-06 14:01:39 2022-04-06 14:01:37                 136899                 NaN
+32076                DOW  dynamic_TF_carry                2022-04-05 2022-04-06 15:00:44 2022-04-06 15:00:43                 140444                 NaN
+32077             YENEUR  dynamic_TF_carry                2022-04-05 2022-04-06 15:01:46 2022-04-06 15:01:45                 140506                 NaN
+
+
+==============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                   
+==============================================================================================================================================================================================================================
+
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                      
+32072             KOSDAQ  dynamic_TF_carry   [1]                 1331.3               None   1312.45     1312.5        1312.4        None       1313.3  18.85   -0.05      -0.8          NaN                 NaN         -0.85
+32073             EU-OIL  dynamic_TF_carry  [-1]                  319.1               None    318.95      318.5         319.4        None        318.5  -0.15   -0.45        -0          NaN                 NaN         -0.45
+32074         GOLD_micro  dynamic_TF_carry   [1]                 1925.3               None    1929.8     1929.9        1929.7        None       1929.8   -4.5    -0.1       0.1          NaN                 NaN   2.27374e-13
+32075             SILVER  dynamic_TF_carry  [-1]                 24.445               None    24.385      24.38         24.39        None       24.375  -0.06  -0.005    -0.005          NaN                 NaN         -0.01
+32076                DOW  dynamic_TF_carry   [1]                  34798               None     34288      34289         34287        None        34292    510      -1        -3          NaN                 NaN            -4
+32077             YENEUR  dynamic_TF_carry   [1]                 134.95               None   135.285      135.3        135.27        None        135.3 -0.335  -0.015         0          NaN                 NaN        -0.015
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                       
+32072             KOSDAQ  dynamic_TF_carry   [1]         324.164   581.496    -1.54243      -24.6789              NaN                     NaN          -26.2213
+32073             EU-OIL  dynamic_TF_carry  [-1]         83.6477  -17.9323     -53.797            -0              NaN                     NaN           -53.797
+32074         GOLD_micro  dynamic_TF_carry   [1]         319.697  -140.758    -3.12796       3.12796              NaN                     NaN       7.11217e-12
+32075             SILVER  dynamic_TF_carry  [-1]         6.81205  -88.0793    -7.33994      -7.33994              NaN                     NaN          -14.6799
+32076                DOW  dynamic_TF_carry   [1]         5481.64   930.378    -1.82427      -5.47281              NaN                     NaN          -7.29708
+32077             YENEUR  dynamic_TF_carry   [1]          12.739  -262.973    -11.7749             0              NaN                     NaN          -11.7749
+
+
+==========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                        
+==========================================================================================================================================================================
+
+         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                  
+32072             KOSDAQ  dynamic_TF_carry   [1]              6.27206    118.228    -0.313603       -5.01765               NaN                      NaN           -5.33125
+32073             EU-OIL  dynamic_TF_carry  [-1]              41.7096   -6.25644     -18.7693             -0               NaN                      NaN           -18.7693
+32074         GOLD_micro  dynamic_TF_carry   [1]              7.63954   -34.3779    -0.763954       0.763954               NaN                      NaN        1.73703e-12
+32075             SILVER  dynamic_TF_carry  [-1]              763.954   -45.8372     -3.81977       -3.81977               NaN                      NaN           -7.63954
+32076                DOW  dynamic_TF_carry   [1]             0.381977    194.808    -0.381977       -1.14593               NaN                      NaN           -1.52791
+32077             YENEUR  dynamic_TF_carry   [1]              771.817   -258.559     -11.5773              0               NaN                      NaN           -11.5773
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry DOW              194.808171
+                 EU-OIL            -6.256436
+                 GOLD_micro       -34.377913
+                 KOSDAQ           118.228315
+                 SILVER           -45.837217
+                 YENEUR          -258.558656
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry  -31.993735
+bid_ask_cash Sum
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry DOW                 -0.381977
+                 EU-OIL             -18.769309
+                 GOLD_micro          -0.763954
+                 KOSDAQ              -0.313603
+                 SILVER              -3.819768
+                 YENEUR             -11.577253
+bid_ask_cash Total Sum
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry    -35.625864
+execution_cash Sum
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry DOW                   -1.145930
+                 EU-OIL                -0.000000
+                 GOLD_micro             0.763954
+                 KOSDAQ                -5.017647
+                 SILVER                -3.819768
+                 YENEUR                 0.000000
+execution_cash Total Sum
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry       -9.219392
+versus_limit_cash Sum
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry DOW                              0
+                 EU-OIL                           0
+                 GOLD_micro                       0
+                 KOSDAQ                           0
+                 SILVER                           0
+                 YENEUR                           0
+versus_limit_cash Total Sum
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry                  0
+versus_parent_limit_cash Sum
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry DOW                                     0
+                 EU-OIL                                  0
+                 GOLD_micro                              0
+                 KOSDAQ                                  0
+                 SILVER                                  0
+                 YENEUR                                  0
+versus_parent_limit_cash Total Sum
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
+total_trading_cash Sum
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry DOW                   -1.527907e+00
+                 EU-OIL                -1.876931e+01
+                 GOLD_micro             1.737029e-12
+                 KOSDAQ                -5.331250e+00
+                 SILVER                -7.639536e+00
+                 YENEUR                -1.157725e+01
+total_trading_cash Total Sum
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry          -44.845256
 
 ********************************************************************************
                                  END OF REPORT                                  
