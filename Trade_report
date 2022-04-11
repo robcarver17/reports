@@ -1,15 +1,146 @@
 
 ********************************************************************************
-Trades report report produced on 08/04/2022 21:00 from 07/04/2022 21:00 to 08/04/2022 21:00
+Trades report report produced on 11/04/2022 20:59 from 10/04/2022 20:59 to 11/04/2022 20:59
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+================================================================================================
+                                         Broker orders                                          
+================================================================================================
+
+         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+order_id                                                                                        
+32080             EU-OIL  dynamic_TF_carry    [20220600] 2022-04-11 08:00:44   [1]        324.30
+32079             KOSDAQ  dynamic_TF_carry    [20220600] 2022-04-11 02:00:32  [-1]       1296.90
+32078             NIKKEI  dynamic_TF_carry    [20220600] 2022-04-11 01:45:38  [-1]      26865.00
+32082             SOYOIL  dynamic_TF_carry    [20220800] 2022-04-11 15:30:33  [-1]         70.80
+32081                V2X  dynamic_TF_carry    [20220600] 2022-04-11 08:01:41   [1]         28.75
+
+
+=======================================================================================================================================================
+                                                                        Delays                                                                         
+=======================================================================================================================================================
+
+         instrument_code     strategy_name parent_reference_datetime     submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                               
+32078             NIKKEI  dynamic_TF_carry                2022-04-08 2022-04-11 01:45:38 2022-04-11 01:45:38                 265538                   0
+32079             KOSDAQ  dynamic_TF_carry                2022-04-08 2022-04-11 02:00:33 2022-04-11 02:00:32                 266433                 NaN
+32080             EU-OIL  dynamic_TF_carry                2022-04-08 2022-04-11 08:00:46 2022-04-11 08:00:44                 288046                 NaN
+32081                V2X  dynamic_TF_carry                2022-04-08 2022-04-11 08:01:43 2022-04-11 08:01:41                 288103                 NaN
+32082             SOYOIL  dynamic_TF_carry                2022-04-08 2022-04-11 15:30:36 2022-04-11 15:30:33                 315036                 NaN
+
+
+==============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                   
+==============================================================================================================================================================================================================================
+
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                      
+32078             NIKKEI  dynamic_TF_carry  [-1]                  27000               None   26872.5      26870         26875        None        26865 -127.5    -2.5        -5          NaN                 NaN          -7.5
+32079             KOSDAQ  dynamic_TF_carry  [-1]                   1311               None   1296.75     1296.6        1296.9        None       1296.9 -14.25   -0.15       0.3          NaN                 NaN          0.15
+32080             EU-OIL  dynamic_TF_carry   [1]                  324.7               None       322      324.3         319.7        None        324.3    2.7    -2.3         0          NaN                 NaN          -2.3
+32081                V2X  dynamic_TF_carry   [1]                  28.45               None    28.675       28.7         28.65        None        28.75 -0.225  -0.025     -0.05          NaN                 NaN        -0.075
+32082             SOYOIL  dynamic_TF_carry  [-1]                  71.45               None    70.835      70.82         70.85        None         70.8 -0.615  -0.015     -0.02          NaN                 NaN        -0.035
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                       
+32078             NIKKEI  dynamic_TF_carry  [-1]         5558.51  -229.378     -4.4976      -8.99521              NaN                     NaN          -13.4928
+32079             KOSDAQ  dynamic_TF_carry  [-1]         336.163  -423.901    -4.46212       8.92424              NaN                     NaN           4.46212
+32080             EU-OIL  dynamic_TF_carry   [1]         86.9378   310.567    -264.557             0              NaN                     NaN          -264.557
+32081                V2X  dynamic_TF_carry   [1]         14.8424  -151.593    -16.8436      -33.6873              NaN                     NaN          -50.5309
+32082             SOYOIL  dynamic_TF_carry  [-1]         18.3947  -334.335     -8.1545      -10.8727              NaN                     NaN          -19.0272
+
+
+==========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                        
+==========================================================================================================================================================================
+
+         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                  
+32078             NIKKEI  dynamic_TF_carry  [-1]             0.610938   -77.8945     -1.52734       -3.05469               NaN                      NaN           -4.58203
+32079             KOSDAQ  dynamic_TF_carry  [-1]              6.21215   -88.5231    -0.931822        1.86364               NaN                      NaN           0.931822
+32080             EU-OIL  dynamic_TF_carry   [1]              41.7726    112.786      -96.077              0               NaN                      NaN            -96.077
+32081                V2X  dynamic_TF_carry   [1]              83.5452   -18.7977     -2.08863       -4.17726               NaN                      NaN           -6.26589
+32082             SOYOIL  dynamic_TF_carry  [-1]              460.091   -282.956     -6.90136       -9.20182               NaN                      NaN           -16.1032
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry EU-OIL           112.786062
+                 KOSDAQ           -88.523108
+                 NIKKEI           -77.894535
+                 SOYOIL          -282.955931
+                 V2X              -18.797677
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry  -355.38519
+bid_ask_cash Sum
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry EU-OIL             -96.077015
+                 KOSDAQ              -0.931822
+                 NIKKEI              -1.527344
+                 SOYOIL              -6.901364
+                 V2X                 -2.088631
+bid_ask_cash Total Sum
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry   -107.526176
+execution_cash Sum
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry EU-OIL                 0.000000
+                 KOSDAQ                 1.863644
+                 NIKKEI                -3.054688
+                 SOYOIL                -9.201819
+                 V2X                   -4.177262
+execution_cash Total Sum
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry      -14.570124
+versus_limit_cash Sum
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry EU-OIL                           0
+                 KOSDAQ                           0
+                 NIKKEI                           0
+                 SOYOIL                           0
+                 V2X                              0
+versus_limit_cash Total Sum
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry                  0
+versus_parent_limit_cash Sum
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry EU-OIL                                  0
+                 KOSDAQ                                  0
+                 NIKKEI                                  0
+                 SOYOIL                                  0
+                 V2X                                     0
+versus_parent_limit_cash Total Sum
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
+total_trading_cash Sum
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry EU-OIL                   -96.077015
+                 KOSDAQ                     0.931822
+                 NIKKEI                    -4.582031
+                 SOYOIL                   -16.103183
+                 V2X                       -6.265892
+total_trading_cash Total Sum
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry           -122.0963
 
 ********************************************************************************
                                  END OF REPORT                                  
