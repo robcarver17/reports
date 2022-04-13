@@ -1,15 +1,146 @@
 
 ********************************************************************************
-Trades report report produced on 12/04/2022 20:59 from 11/04/2022 20:59 to 12/04/2022 20:59
+Trades report report produced on 13/04/2022 20:59 from 12/04/2022 20:59 to 13/04/2022 20:59
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+================================================================================================
+                                         Broker orders                                          
+================================================================================================
+
+         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+order_id                                                                                        
+32086                DOW  dynamic_TF_carry    [20220600] 2022-04-13 15:00:32  [-1]      34175.00
+32085             EU-OIL  dynamic_TF_carry    [20220600] 2022-04-13 08:00:31  [-1]        323.80
+32083             KOSDAQ  dynamic_TF_carry    [20220600] 2022-04-13 02:00:39   [1]       1269.00
+32084               KR10  dynamic_TF_carry    [20220600] 2022-04-13 02:01:46  [-1]        113.91
+32087             SOYOIL  dynamic_TF_carry    [20220800] 2022-04-13 15:30:33   [1]         72.16
+
+
+=======================================================================================================================================================
+                                                                        Delays                                                                         
+=======================================================================================================================================================
+
+         instrument_code     strategy_name parent_reference_datetime     submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                               
+32083             KOSDAQ  dynamic_TF_carry                2022-04-12 2022-04-13 02:00:40 2022-04-13 02:00:39                  93640                 NaN
+32084               KR10  dynamic_TF_carry                2022-04-12 2022-04-13 02:01:47 2022-04-13 02:01:46                  93707                 NaN
+32085             EU-OIL  dynamic_TF_carry                2022-04-12 2022-04-13 08:00:32 2022-04-13 08:00:31                 115232                 NaN
+32086                DOW  dynamic_TF_carry                2022-04-12 2022-04-13 15:00:34 2022-04-13 15:00:32                 140434                 NaN
+32087             SOYOIL  dynamic_TF_carry                2022-04-12 2022-04-13 15:30:33 2022-04-13 15:30:33                 142233                   0
+
+
+==============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                   
+==============================================================================================================================================================================================================================
+
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                      
+32083             KOSDAQ  dynamic_TF_carry   [1]                 1262.8               None    1268.4     1268.5        1268.3        None         1269   -5.6    -0.1      -0.5          NaN                 NaN          -0.6
+32084               KR10  dynamic_TF_carry  [-1]                 113.85               None   113.915     113.91        113.92        None       113.91  0.065  -0.005        -0          NaN                 NaN        -0.005
+32085             EU-OIL  dynamic_TF_carry  [-1]                  325.9               None     324.3      323.8         324.8        None        323.8   -1.6    -0.5        -0          NaN                 NaN          -0.5
+32086                DOW  dynamic_TF_carry  [-1]                  34337               None   34178.5      34178         34179        None        34175 -158.5    -0.5        -3          NaN                 NaN          -3.5
+32087             SOYOIL  dynamic_TF_carry   [1]                  71.99               None    72.165      72.18         72.15        None        72.16 -0.175  -0.015      0.02          NaN                 NaN         0.005
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                       
+32083             KOSDAQ  dynamic_TF_carry   [1]         337.714  -165.821    -2.96109      -14.8054              NaN                     NaN          -17.7665
+32084               KR10  dynamic_TF_carry  [-1]         7.94998   81.7612    -6.28933            -0              NaN                     NaN          -6.28933
+32085             EU-OIL  dynamic_TF_carry  [-1]         84.4203  -189.528    -59.2275            -0              NaN                     NaN          -59.2275
+32086                DOW  dynamic_TF_carry  [-1]         5161.31  -307.093   -0.968747      -5.81248              NaN                     NaN          -6.78123
+32087             SOYOIL  dynamic_TF_carry   [1]         18.4696  -94.7504    -8.12146       10.8286              NaN                     NaN           2.70715
+
+
+==========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                        
+==========================================================================================================================================================================
+
+         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                  
+32083             KOSDAQ  dynamic_TF_carry   [1]              6.25302   -35.0169    -0.625302       -3.12651               NaN                      NaN           -3.75181
+32084               KR10  dynamic_TF_carry  [-1]              625.302    40.6446     -3.12651             -0               NaN                      NaN           -3.12651
+32085             EU-OIL  dynamic_TF_carry  [-1]              41.6009   -66.5614     -20.8004             -0               NaN                      NaN           -20.8004
+32086                DOW  dynamic_TF_carry  [-1]             0.383503   -60.7853    -0.191752       -1.15051               NaN                      NaN           -1.34226
+32087             SOYOIL  dynamic_TF_carry   [1]              460.204   -80.5357     -6.90306        9.20408               NaN                      NaN            2.30102
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry DOW              -60.785261
+                 EU-OIL           -66.561433
+                 KOSDAQ           -35.016912
+                 KR10              40.644631
+                 SOYOIL           -80.535677
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -202.254654
+bid_ask_cash Sum
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry DOW                 -0.191752
+                 EU-OIL             -20.800448
+                 KOSDAQ              -0.625302
+                 KR10                -3.126510
+                 SOYOIL              -6.903058
+bid_ask_cash Total Sum
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry     -31.64707
+execution_cash Sum
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry DOW                   -1.150510
+                 EU-OIL                -0.000000
+                 KOSDAQ                -3.126510
+                 KR10                  -0.000000
+                 SOYOIL                 9.204077
+execution_cash Total Sum
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry        4.927058
+versus_limit_cash Sum
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry DOW                              0
+                 EU-OIL                           0
+                 KOSDAQ                           0
+                 KR10                             0
+                 SOYOIL                           0
+versus_limit_cash Total Sum
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry                  0
+versus_parent_limit_cash Sum
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry DOW                                     0
+                 EU-OIL                                  0
+                 KOSDAQ                                  0
+                 KR10                                    0
+                 SOYOIL                                  0
+versus_parent_limit_cash Total Sum
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
+total_trading_cash Sum
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry DOW                       -1.342261
+                 EU-OIL                   -20.800448
+                 KOSDAQ                    -3.751812
+                 KR10                      -3.126510
+                 SOYOIL                     2.301019
+total_trading_cash Total Sum
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry          -26.720012
 
 ********************************************************************************
                                  END OF REPORT                                  
