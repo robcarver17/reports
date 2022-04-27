@@ -1,157 +1,102 @@
 
 ********************************************************************************
-Trades report report produced on 26/04/2022 20:59 from 25/04/2022 20:59 to 26/04/2022 20:59
+Trades report report produced on 27/04/2022 20:59 from 26/04/2022 20:59 to 27/04/2022 20:59
 ********************************************************************************
 
 
 
-================================================================================================
-                                         Broker orders                                          
-================================================================================================
+================================================================================================================
+                                                 Broker orders                                                  
+================================================================================================================
 
-         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-order_id                                                                                        
-32099                AUD  dynamic_TF_carry    [20220600] 2022-04-26 15:01:12  [-1]       0.71805
-32096                DAX  dynamic_TF_carry    [20220600] 2022-04-26 08:00:30   [1]   14123.00000
-32100                DOW  dynamic_TF_carry    [20220600] 2022-04-26 15:01:56  [-1]   33703.00000
-32097         GOLD_micro  dynamic_TF_carry    [20220600] 2022-04-26 14:00:24  [-1]    1902.00000
-32095          NIKKEI400  dynamic_TF_carry    [20220600] 2022-04-26 01:45:28   [1]   16960.00000
-32098             YENEUR  dynamic_TF_carry    [20220600] 2022-04-26 15:00:23  [-1]     135.83000
+         instrument_code          strategy_name         contract_date       fill_datetime     fill  filled_price
+order_id                                                                                                        
+32101               IRON  _ROLL_PSEUDO_STRATEGY  [20220600, 20220700] 2022-04-27 01:25:34  [-1, 1]          -0.1
 
 
-=======================================================================================================================================================
-                                                                        Delays                                                                         
-=======================================================================================================================================================
+============================================================================================================================================================
+                                                                           Delays                                                                           
+============================================================================================================================================================
 
-         instrument_code     strategy_name parent_reference_datetime     submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
-order_id                                                                                                                                               
-32095          NIKKEI400  dynamic_TF_carry                2022-04-25 2022-04-26 01:45:28 2022-04-26 01:45:28                  92728                   0
-32096                DAX  dynamic_TF_carry                2022-04-25 2022-04-26 08:00:31 2022-04-26 08:00:30                 115231                 NaN
-32097         GOLD_micro  dynamic_TF_carry                2022-04-25 2022-04-26 14:00:25 2022-04-26 14:00:24                 136825                 NaN
-32098             YENEUR  dynamic_TF_carry                2022-04-25 2022-04-26 15:00:24 2022-04-26 15:00:23                 140424                 NaN
-32099                AUD  dynamic_TF_carry                2022-04-25 2022-04-26 15:01:13 2022-04-26 15:01:12                 140473                 NaN
-32100                DOW  dynamic_TF_carry                2022-04-25 2022-04-26 15:01:57 2022-04-26 15:01:56                 140517                 NaN
+         instrument_code          strategy_name parent_reference_datetime     submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                                    
+32101               IRON  _ROLL_PSEUDO_STRATEGY       2022-04-26 18:00:00 2022-04-27 01:25:34 2022-04-27 01:25:34                  26734                   0
 
 
-==================================================================================================================================================================================================================================
-                                                                                                     Slippage (ticks per lot)                                                                                                     
-==================================================================================================================================================================================================================================
+=========================================================================================================================================================================================================================================
+                                                                                                        Slippage (ticks per lot)                                                                                                         
+=========================================================================================================================================================================================================================================
 
-         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay  bid_ask execution versus_limit versus_parent_limit total_trading
-order_id                                                                                                                                                                                                                          
-32095          NIKKEI400  dynamic_TF_carry   [1]                  16895               None     16955      16960         16950        None        16960       -60       -5         0          NaN                 NaN            -5
-32096                DAX  dynamic_TF_carry   [1]                  13976               None     14119      14120         14118        None        14123      -143       -1        -3          NaN                 NaN            -4
-32097         GOLD_micro  dynamic_TF_carry  [-1]                 1896.8               None      1902     1901.9        1902.1        None         1902       5.2     -0.1       0.1          NaN                 NaN             0
-32098             YENEUR  dynamic_TF_carry  [-1]                  137.1               None   135.835     135.82        135.85        None       135.83    -1.265   -0.015      0.01          NaN                 NaN        -0.005
-32099                AUD  dynamic_TF_carry  [-1]                0.71685               None  0.718125     0.7181       0.71815        None      0.71805  0.001275 -2.5e-05    -5e-05          NaN                 NaN      -7.5e-05
-32100                DOW  dynamic_TF_carry  [-1]                  33494               None   33701.5      33701         33702        None        33703     207.5     -0.5         2          NaN                 NaN           1.5
+         instrument_code          strategy_name    trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask    execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                                 
+32101               IRON  _ROLL_PSEUDO_STRATEGY  [-1, 1]                   -0.2               None    -0.025       -0.1          0.05        None         -0.1  0.175  -0.075  5.68989e-15          NaN                 NaN        -0.075
 
 
-===============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
-===============================================================================================================================================================
+=======================================================================================================================================================================
+                                                         Slippage (normalised by annual vol, BP of annual SR)                                                          
+=======================================================================================================================================================================
 
-         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-order_id                                                                                                                                                       
-32095          NIKKEI400  dynamic_TF_carry   [1]         3144.65    -190.8       -15.9             0              NaN                     NaN             -15.9
-32096                DAX  dynamic_TF_carry   [1]         3265.24  -437.947    -3.06257       -9.1877              NaN                     NaN          -12.2503
-32097         GOLD_micro  dynamic_TF_carry  [-1]         301.403   172.526    -3.31782       3.31782              NaN                     NaN                 0
-32098             YENEUR  dynamic_TF_carry  [-1]         13.9711  -905.439    -10.7364       7.15762              NaN                     NaN          -3.57881
-32099                AUD  dynamic_TF_carry  [-1]       0.0821546   155.195    -3.04304      -6.08609              NaN                     NaN          -9.12913
-32100                DOW  dynamic_TF_carry  [-1]         6287.08   330.042   -0.795282       3.18113              NaN                     NaN           2.38585
+         instrument_code          strategy_name    trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                               
+32101               IRON  _ROLL_PSEUDO_STRATEGY  [-1, 1]         71.6037   24.4401    -10.4743   7.94637e-13              NaN                     NaN          -10.4743
 
 
-==========================================================================================================================================================================
-                                                                       Slippage (In base currency)                                                                        
-==========================================================================================================================================================================
+==================================================================================================================================================================================
+                                                                           Slippage (In base currency)                                                                            
+==================================================================================================================================================================================
 
-         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-order_id                                                                                                                                                                  
-32095          NIKKEI400  dynamic_TF_carry   [1]             0.623147   -37.3888     -3.11573              0               NaN                      NaN           -3.11573
-32096                DAX  dynamic_TF_carry   [1]              0.84381   -120.665     -0.84381       -2.53143               NaN                      NaN           -3.37524
-32097         GOLD_micro  dynamic_TF_carry  [-1]               7.9244    41.2069     -0.79244        0.79244               NaN                      NaN                  0
-32098             YENEUR  dynamic_TF_carry  [-1]              778.933   -985.351      -11.684        7.78933               NaN                      NaN           -3.89467
-32099                AUD  dynamic_TF_carry  [-1]                79244    101.036      -1.9811        -3.9622               NaN                      NaN            -5.9433
-32100                DOW  dynamic_TF_carry  [-1]              0.39622    82.2157     -0.19811        0.79244               NaN                      NaN            0.59433
+         instrument_code          strategy_name    trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                          
+32101               IRON  _ROLL_PSEUDO_STRATEGY  [-1, 1]              79.9536    13.9919     -5.99652    4.54928e-13               NaN                      NaN           -5.99652
 
 delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry AUD              101.036115
-                 DAX             -120.664837
-                 DOW               82.215663
-                 GOLD_micro        41.206886
-                 NIKKEI400        -37.388804
-                 YENEUR          -985.350771
+                                       delay_cash
+strategy_name         instrument_code            
+_ROLL_PSEUDO_STRATEGY IRON              13.991885
 delay_cash Total Sum
-                  delay_cash
-strategy_name               
-dynamic_TF_carry -918.945748
+                       delay_cash
+strategy_name                    
+_ROLL_PSEUDO_STRATEGY   13.991885
 bid_ask_cash Sum
-                                  bid_ask_cash
-strategy_name    instrument_code              
-dynamic_TF_carry AUD                 -1.981100
-                 DAX                 -0.843810
-                 DOW                 -0.198110
-                 GOLD_micro          -0.792440
-                 NIKKEI400           -3.115734
-                 YENEUR             -11.684001
+                                       bid_ask_cash
+strategy_name         instrument_code              
+_ROLL_PSEUDO_STRATEGY IRON                -5.996522
 bid_ask_cash Total Sum
-                  bid_ask_cash
-strategy_name                 
-dynamic_TF_carry    -18.615195
-execution_cash Sum
-                                  execution_cash
-strategy_name    instrument_code                
-dynamic_TF_carry AUD                   -3.962201
-                 DAX                   -2.531430
-                 DOW                    0.792440
-                 GOLD_micro             0.792440
-                 NIKKEI400              0.000000
-                 YENEUR                 7.789334
-execution_cash Total Sum
-                  execution_cash
-strategy_name                   
-dynamic_TF_carry        2.880584
-versus_limit_cash Sum
-                                  versus_limit_cash
-strategy_name    instrument_code                   
-dynamic_TF_carry AUD                              0
-                 DAX                              0
-                 DOW                              0
-                 GOLD_micro                       0
-                 NIKKEI400                        0
-                 YENEUR                           0
-versus_limit_cash Total Sum
-                  versus_limit_cash
+                       bid_ask_cash
 strategy_name                      
-dynamic_TF_carry                  0
+_ROLL_PSEUDO_STRATEGY     -5.996522
+execution_cash Sum
+                                       execution_cash
+strategy_name         instrument_code                
+_ROLL_PSEUDO_STRATEGY IRON               4.549276e-13
+execution_cash Total Sum
+                       execution_cash
+strategy_name                        
+_ROLL_PSEUDO_STRATEGY    4.549276e-13
+versus_limit_cash Sum
+                                       versus_limit_cash
+strategy_name         instrument_code                   
+_ROLL_PSEUDO_STRATEGY IRON                             0
+versus_limit_cash Total Sum
+                       versus_limit_cash
+strategy_name                           
+_ROLL_PSEUDO_STRATEGY                  0
 versus_parent_limit_cash Sum
-                                  versus_parent_limit_cash
-strategy_name    instrument_code                          
-dynamic_TF_carry AUD                                     0
-                 DAX                                     0
-                 DOW                                     0
-                 GOLD_micro                              0
-                 NIKKEI400                               0
-                 YENEUR                                  0
+                                       versus_parent_limit_cash
+strategy_name         instrument_code                          
+_ROLL_PSEUDO_STRATEGY IRON                                    0
 versus_parent_limit_cash Total Sum
-                  versus_parent_limit_cash
-strategy_name                             
-dynamic_TF_carry                         0
+                       versus_parent_limit_cash
+strategy_name                                  
+_ROLL_PSEUDO_STRATEGY                         0
 total_trading_cash Sum
-                                  total_trading_cash
-strategy_name    instrument_code                    
-dynamic_TF_carry AUD                       -5.943301
-                 DAX                       -3.375240
-                 DOW                        0.594330
-                 GOLD_micro                 0.000000
-                 NIKKEI400                 -3.115734
-                 YENEUR                    -3.894667
+                                       total_trading_cash
+strategy_name         instrument_code                    
+_ROLL_PSEUDO_STRATEGY IRON                      -5.996522
 total_trading_cash Total Sum
-                  total_trading_cash
-strategy_name                       
-dynamic_TF_carry          -15.734612
+                       total_trading_cash
+strategy_name                            
+_ROLL_PSEUDO_STRATEGY           -5.996522
 
 ********************************************************************************
                                  END OF REPORT                                  
