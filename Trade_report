@@ -1,102 +1,124 @@
 
 ********************************************************************************
-Trades report report produced on 27/04/2022 20:59 from 26/04/2022 20:59 to 27/04/2022 20:59
+Trades report report produced on 28/04/2022 21:00 from 27/04/2022 21:00 to 28/04/2022 21:00
 ********************************************************************************
 
 
 
-================================================================================================================
-                                                 Broker orders                                                  
-================================================================================================================
+================================================================================================
+                                         Broker orders                                          
+================================================================================================
 
-         instrument_code          strategy_name         contract_date       fill_datetime     fill  filled_price
-order_id                                                                                                        
-32101               IRON  _ROLL_PSEUDO_STRATEGY  [20220600, 20220700] 2022-04-27 01:25:34  [-1, 1]          -0.1
-
-
-============================================================================================================================================================
-                                                                           Delays                                                                           
-============================================================================================================================================================
-
-         instrument_code          strategy_name parent_reference_datetime     submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
-order_id                                                                                                                                                    
-32101               IRON  _ROLL_PSEUDO_STRATEGY       2022-04-26 18:00:00 2022-04-27 01:25:34 2022-04-27 01:25:34                  26734                   0
+         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+order_id                                                                                        
+32103             KOSDAQ  dynamic_TF_carry    [20220600] 2022-04-28 02:00:25  [-1]        1228.8
+32102          NIKKEI400  dynamic_TF_carry    [20220600] 2022-04-28 01:45:29  [-1]       16860.0
+32104                V2X  dynamic_TF_carry    [20220700] 2022-04-28 08:00:32   [1]          29.9
 
 
-=========================================================================================================================================================================================================================================
-                                                                                                        Slippage (ticks per lot)                                                                                                         
-=========================================================================================================================================================================================================================================
+=======================================================================================================================================================
+                                                                        Delays                                                                         
+=======================================================================================================================================================
 
-         instrument_code          strategy_name    trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask    execution versus_limit versus_parent_limit total_trading
-order_id                                                                                                                                                                                                                                 
-32101               IRON  _ROLL_PSEUDO_STRATEGY  [-1, 1]                   -0.2               None    -0.025       -0.1          0.05        None         -0.1  0.175  -0.075  5.68989e-15          NaN                 NaN        -0.075
-
-
-=======================================================================================================================================================================
-                                                         Slippage (normalised by annual vol, BP of annual SR)                                                          
-=======================================================================================================================================================================
-
-         instrument_code          strategy_name    trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-order_id                                                                                                                                                               
-32101               IRON  _ROLL_PSEUDO_STRATEGY  [-1, 1]         71.6037   24.4401    -10.4743   7.94637e-13              NaN                     NaN          -10.4743
+         instrument_code     strategy_name parent_reference_datetime     submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                               
+32102          NIKKEI400  dynamic_TF_carry                2022-04-27 2022-04-28 01:45:30 2022-04-28 01:45:29                  92730                 NaN
+32103             KOSDAQ  dynamic_TF_carry                2022-04-27 2022-04-28 02:00:26 2022-04-28 02:00:25                  93626                 NaN
+32104                V2X  dynamic_TF_carry                2022-04-27 2022-04-28 08:00:33 2022-04-28 08:00:32                 115233                 NaN
 
 
-==================================================================================================================================================================================
-                                                                           Slippage (In base currency)                                                                            
-==================================================================================================================================================================================
+==============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                   
+==============================================================================================================================================================================================================================
 
-         instrument_code          strategy_name    trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-order_id                                                                                                                                                                          
-32101               IRON  _ROLL_PSEUDO_STRATEGY  [-1, 1]              79.9536    13.9919     -5.99652    4.54928e-13               NaN                      NaN           -5.99652
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                      
+32102          NIKKEI400  dynamic_TF_carry  [-1]                  16855               None   16862.5      16860         16865        None        16860    7.5    -2.5        -0          NaN                 NaN          -2.5
+32103             KOSDAQ  dynamic_TF_carry  [-1]                 1232.8               None   1229.15       1229        1229.3        None       1228.8  -3.65   -0.15      -0.2          NaN                 NaN         -0.35
+32104                V2X  dynamic_TF_carry   [1]                     30               None    29.875       29.9         29.85        None         29.9  0.125  -0.025         0          NaN                 NaN        -0.025
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                       
+32102          NIKKEI400  dynamic_TF_carry  [-1]         3368.43   22.2656    -7.42185            -0              NaN                     NaN          -7.42185
+32103             KOSDAQ  dynamic_TF_carry  [-1]         329.689   -110.71    -4.54974      -6.06632              NaN                     NaN          -10.6161
+32104                V2X  dynamic_TF_carry   [1]         15.5715   80.2751     -16.055             0              NaN                     NaN           -16.055
+
+
+==========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                        
+==========================================================================================================================================================================
+
+         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                  
+32102          NIKKEI400  dynamic_TF_carry  [-1]             0.622898    4.67173     -1.55724             -0               NaN                      NaN           -1.55724
+32103             KOSDAQ  dynamic_TF_carry  [-1]              6.29435   -22.9744    -0.944152       -1.25887               NaN                      NaN           -2.20302
+32104                V2X  dynamic_TF_carry   [1]              84.1292    10.5162     -2.10323              0               NaN                      NaN           -2.10323
 
 delay_cash Sum
-                                       delay_cash
-strategy_name         instrument_code            
-_ROLL_PSEUDO_STRATEGY IRON              13.991885
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry KOSDAQ           -22.974375
+                 NIKKEI400          4.671735
+                 V2X               10.516151
 delay_cash Total Sum
-                       delay_cash
-strategy_name                    
-_ROLL_PSEUDO_STRATEGY   13.991885
+                  delay_cash
+strategy_name               
+dynamic_TF_carry   -7.786489
 bid_ask_cash Sum
-                                       bid_ask_cash
-strategy_name         instrument_code              
-_ROLL_PSEUDO_STRATEGY IRON                -5.996522
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry KOSDAQ              -0.944152
+                 NIKKEI400           -1.557245
+                 V2X                 -2.103230
 bid_ask_cash Total Sum
-                       bid_ask_cash
-strategy_name                      
-_ROLL_PSEUDO_STRATEGY     -5.996522
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry     -4.604627
 execution_cash Sum
-                                       execution_cash
-strategy_name         instrument_code                
-_ROLL_PSEUDO_STRATEGY IRON               4.549276e-13
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry KOSDAQ                 -1.25887
+                 NIKKEI400              -0.00000
+                 V2X                     0.00000
 execution_cash Total Sum
-                       execution_cash
-strategy_name                        
-_ROLL_PSEUDO_STRATEGY    4.549276e-13
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry        -1.25887
 versus_limit_cash Sum
-                                       versus_limit_cash
-strategy_name         instrument_code                   
-_ROLL_PSEUDO_STRATEGY IRON                             0
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry KOSDAQ                           0
+                 NIKKEI400                        0
+                 V2X                              0
 versus_limit_cash Total Sum
-                       versus_limit_cash
-strategy_name                           
-_ROLL_PSEUDO_STRATEGY                  0
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry                  0
 versus_parent_limit_cash Sum
-                                       versus_parent_limit_cash
-strategy_name         instrument_code                          
-_ROLL_PSEUDO_STRATEGY IRON                                    0
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry KOSDAQ                                  0
+                 NIKKEI400                               0
+                 V2X                                     0
 versus_parent_limit_cash Total Sum
-                       versus_parent_limit_cash
-strategy_name                                  
-_ROLL_PSEUDO_STRATEGY                         0
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
 total_trading_cash Sum
-                                       total_trading_cash
-strategy_name         instrument_code                    
-_ROLL_PSEUDO_STRATEGY IRON                      -5.996522
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry KOSDAQ                    -2.203022
+                 NIKKEI400                 -1.557245
+                 V2X                       -2.103230
 total_trading_cash Total Sum
-                       total_trading_cash
-strategy_name                            
-_ROLL_PSEUDO_STRATEGY           -5.996522
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry           -5.863497
 
 ********************************************************************************
                                  END OF REPORT                                  
