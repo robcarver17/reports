@@ -1,15 +1,201 @@
 
 ********************************************************************************
-Trades report report produced on 17/05/2022 21:00 from 16/05/2022 21:00 to 17/05/2022 21:00
+Trades report report produced on 18/05/2022 21:00 from 17/05/2022 21:00 to 18/05/2022 21:00
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+================================================================================================
+                                         Broker orders                                          
+================================================================================================
+
+         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+order_id                                                                                        
+32150            BITCOIN  dynamic_TF_carry    [20220600] 2022-05-18 15:03:37  [-1]    29300.0000
+32151                BRE  dynamic_TF_carry    [20220600] 2022-05-18 15:04:29  [-1]        0.2011
+32146       CRUDE_W_mini  dynamic_TF_carry    [20220800] 2022-05-18 14:00:29   [1]      108.2000
+32145                DAX  dynamic_TF_carry    [20220600] 2022-05-18 08:00:38   [1]    14192.0000
+32149                GBP  dynamic_TF_carry    [20220600] 2022-05-18 15:02:20   [1]        1.2396
+32147             GBPEUR  dynamic_TF_carry    [20220600] 2022-05-18 15:00:29   [1]        0.8497
+32153            LIVECOW  dynamic_TF_carry    [20220800] 2022-05-18 15:31:22  [-1]      132.3750
+32148            RUSSELL  dynamic_TF_carry    [20220600] 2022-05-18 15:01:28  [-1]     1818.2000
+32152             SOYOIL  dynamic_TF_carry    [20220900] 2022-05-18 15:30:29  [-1]       77.0900
+32144              TOPIX  dynamic_TF_carry    [20220600] 2022-05-18 01:45:32  [-1]     1888.2500
+
+
+=======================================================================================================================================================
+                                                                        Delays                                                                         
+=======================================================================================================================================================
+
+         instrument_code     strategy_name parent_reference_datetime     submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                               
+32144              TOPIX  dynamic_TF_carry                2022-05-17 2022-05-18 01:45:33 2022-05-18 01:45:32                  92733                 NaN
+32145                DAX  dynamic_TF_carry                2022-05-17 2022-05-18 08:00:39 2022-05-18 08:00:38                 115239                 NaN
+32146       CRUDE_W_mini  dynamic_TF_carry                2022-05-17 2022-05-18 14:00:30 2022-05-18 14:00:29                 136830                 NaN
+32147             GBPEUR  dynamic_TF_carry                2022-05-17 2022-05-18 15:00:30 2022-05-18 15:00:29                 140430                 NaN
+32148            RUSSELL  dynamic_TF_carry                2022-05-17 2022-05-18 15:01:29 2022-05-18 15:01:28                 140489                 NaN
+32149                GBP  dynamic_TF_carry                2022-05-17 2022-05-18 15:02:21 2022-05-18 15:02:20                 140541                 NaN
+32150            BITCOIN  dynamic_TF_carry                2022-05-17 2022-05-18 15:03:38 2022-05-18 15:03:37                 140618                 NaN
+32151                BRE  dynamic_TF_carry                2022-05-17 2022-05-18 15:04:30 2022-05-18 15:04:29                 140670                 NaN
+32152             SOYOIL  dynamic_TF_carry                2022-05-17 2022-05-18 15:30:30 2022-05-18 15:30:29                 142230                 NaN
+32153            LIVECOW  dynamic_TF_carry                2022-05-17 2022-05-18 15:31:23 2022-05-18 15:31:22                 142283                 NaN
+
+
+=================================================================================================================================================================================================================================
+                                                                                                    Slippage (ticks per lot)                                                                                                     
+=================================================================================================================================================================================================================================
+
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                         
+32144              TOPIX  dynamic_TF_carry  [-1]                 1877.5               None    1888.5    1888.25       1888.75        None      1888.25       11    -0.25        -0          NaN                 NaN         -0.25
+32145                DAX  dynamic_TF_carry   [1]                  14195               None     14193      14194         14192        None        14192        2       -1         2          NaN                 NaN             1
+32146       CRUDE_W_mini  dynamic_TF_carry   [1]                  108.7               None    108.15      108.2         108.1        None        108.2     0.55    -0.05         0          NaN                 NaN         -0.05
+32147             GBPEUR  dynamic_TF_carry   [1]                0.84605               None   0.84965     0.8497        0.8496        None       0.8497  -0.0036   -5e-05         0          NaN                 NaN        -5e-05
+32148            RUSSELL  dynamic_TF_carry  [-1]                 1829.6               None      1817     1816.9        1817.1        None       1818.2    -12.6     -0.1       1.3          NaN                 NaN           1.2
+32149                GBP  dynamic_TF_carry   [1]                 1.2481               None    1.2394     1.2395        1.2393        None       1.2396   0.0087  -0.0001   -0.0001          NaN                 NaN       -0.0002
+32150            BITCOIN  dynamic_TF_carry  [-1]                  29875               None   29312.5      29265         29360        None        29300   -562.5    -47.5        35          NaN                 NaN         -12.5
+32151                BRE  dynamic_TF_carry  [-1]                0.20105               None  0.201125     0.2011       0.20115        None       0.2011  7.5e-05 -2.5e-05        -0          NaN                 NaN      -2.5e-05
+32152             SOYOIL  dynamic_TF_carry  [-1]                   78.5               None    77.075      77.05          77.1        None        77.09   -1.425   -0.025      0.04          NaN                 NaN         0.015
+32153            LIVECOW  dynamic_TF_carry  [-1]                  133.6               None   132.387    132.375         132.4        None      132.375  -1.2125  -0.0125        -0          NaN                 NaN       -0.0125
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                       
+32144              TOPIX  dynamic_TF_carry  [-1]         387.404   283.941    -6.45321            -0              NaN                     NaN          -6.45321
+32145                DAX  dynamic_TF_carry   [1]         3328.73   6.00831    -3.00415       6.00831              NaN                     NaN           3.00415
+32146       CRUDE_W_mini  dynamic_TF_carry   [1]         47.0932    116.79    -10.6172             0              NaN                     NaN          -10.6172
+32147             GBPEUR  dynamic_TF_carry   [1]         0.06343  -567.555    -7.88271             0              NaN                     NaN          -7.88271
+32148            RUSSELL  dynamic_TF_carry  [-1]         610.829  -206.277    -1.63712       21.2825              NaN                     NaN           19.6454
+32149                GBP  dynamic_TF_carry   [1]        0.140976   617.127    -7.09342      -7.09342              NaN                     NaN          -14.1868
+32150            BITCOIN  dynamic_TF_carry  [-1]         25919.2  -217.021    -18.3262       13.5035              NaN                     NaN          -4.82268
+32151                BRE  dynamic_TF_carry  [-1]       0.0406901    18.432      -6.144            -0              NaN                     NaN            -6.144
+32152             SOYOIL  dynamic_TF_carry  [-1]         20.0877  -709.388    -12.4454       19.9127              NaN                     NaN           7.46725
+32153            LIVECOW  dynamic_TF_carry  [-1]         17.3292  -699.686    -7.21326            -0              NaN                     NaN          -7.21326
+
+
+==========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                        
+==========================================================================================================================================================================
+
+         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                  
+32144              TOPIX  dynamic_TF_carry  [-1]              6.27287    69.0016     -1.56822             -0               NaN                      NaN           -1.56822
+32145                DAX  dynamic_TF_carry   [1]             0.846942    1.69388    -0.846942        1.69388               NaN                      NaN           0.846942
+32146       CRUDE_W_mini  dynamic_TF_carry   [1]              402.836     221.56     -20.1418              0               NaN                      NaN           -20.1418
+32147             GBPEUR  dynamic_TF_carry   [1]               125000       -450        -6.25              0               NaN                      NaN              -6.25
+32148            RUSSELL  dynamic_TF_carry  [-1]              4.02836   -50.7573    -0.402836        5.23687               NaN                      NaN            4.83403
+32149                GBP  dynamic_TF_carry   [1]              50354.5    438.084     -5.03545       -5.03545               NaN                      NaN           -10.0709
+32150            BITCOIN  dynamic_TF_carry  [-1]            0.0805672    -45.319     -3.82694        2.81985               NaN                      NaN           -1.00709
+32151                BRE  dynamic_TF_carry  [-1]              80567.2    6.04254     -2.01418             -0               NaN                      NaN           -2.01418
+32152             SOYOIL  dynamic_TF_carry  [-1]              483.403    -688.85     -12.0851        19.3361               NaN                      NaN            7.25105
+32153            LIVECOW  dynamic_TF_carry  [-1]              322.269   -390.751     -4.02836             -0               NaN                      NaN           -4.02836
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry BITCOIN          -45.319046
+                 BRE                6.042539
+                 CRUDE_W_mini     221.559781
+                 DAX                1.693885
+                 GBP              438.084112
+                 GBPEUR          -450.000000
+                 LIVECOW         -390.750886
+                 RUSSELL          -50.757332
+                 SOYOIL          -688.849500
+                 TOPIX             69.001586
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -889.294861
+bid_ask_cash Sum
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry BITCOIN             -3.826942
+                 BRE                 -2.014180
+                 CRUDE_W_mini       -20.141798
+                 DAX                 -0.846942
+                 GBP                 -5.035450
+                 GBPEUR              -6.250000
+                 LIVECOW             -4.028360
+                 RUSSELL             -0.402836
+                 SOYOIL             -12.085079
+                 TOPIX               -1.568218
+bid_ask_cash Total Sum
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry    -56.199804
+execution_cash Sum
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry BITCOIN                2.819852
+                 BRE                   -0.000000
+                 CRUDE_W_mini           0.000000
+                 DAX                    1.693885
+                 GBP                   -5.035450
+                 GBPEUR                 0.000000
+                 LIVECOW               -0.000000
+                 RUSSELL                5.236868
+                 SOYOIL                19.336126
+                 TOPIX                 -0.000000
+execution_cash Total Sum
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry       24.051281
+versus_limit_cash Sum
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry BITCOIN                          0
+                 BRE                              0
+                 CRUDE_W_mini                     0
+                 DAX                              0
+                 GBP                              0
+                 GBPEUR                           0
+                 LIVECOW                          0
+                 RUSSELL                          0
+                 SOYOIL                           0
+                 TOPIX                            0
+versus_limit_cash Total Sum
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry                  0
+versus_parent_limit_cash Sum
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry BITCOIN                                 0
+                 BRE                                     0
+                 CRUDE_W_mini                            0
+                 DAX                                     0
+                 GBP                                     0
+                 GBPEUR                                  0
+                 LIVECOW                                 0
+                 RUSSELL                                 0
+                 SOYOIL                                  0
+                 TOPIX                                   0
+versus_parent_limit_cash Total Sum
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
+total_trading_cash Sum
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry BITCOIN                   -1.007090
+                 BRE                       -2.014180
+                 CRUDE_W_mini             -20.141798
+                 DAX                        0.846942
+                 GBP                      -10.070899
+                 GBPEUR                    -6.250000
+                 LIVECOW                   -4.028360
+                 RUSSELL                    4.834032
+                 SOYOIL                     7.251047
+                 TOPIX                     -1.568218
+total_trading_cash Total Sum
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry          -32.148523
 
 ********************************************************************************
                                  END OF REPORT                                  
