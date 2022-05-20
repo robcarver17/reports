@@ -1,15 +1,179 @@
 
 ********************************************************************************
-Trades report report produced on 19/05/2022 21:00 from 18/05/2022 21:00 to 19/05/2022 21:00
+Trades report report produced on 20/05/2022 21:00 from 19/05/2022 21:00 to 20/05/2022 21:00
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+================================================================================================
+                                         Broker orders                                          
+================================================================================================
+
+         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+order_id                                                                                        
+32159                DOW  dynamic_TF_carry    [20220600] 2022-05-20 15:00:29   [1]    31398.0000
+32158         GOLD_micro  dynamic_TF_carry    [20220600] 2022-05-20 14:00:29   [1]     1840.8000
+32154               IRON  dynamic_TF_carry    [20220700] 2022-05-20 01:25:34  [-1]      123.6500
+32157             KOSDAQ  dynamic_TF_carry    [20220600] 2022-05-20 02:00:31  [-1]     1242.1000
+32160                MXP  dynamic_TF_carry    [20220600] 2022-05-20 15:01:27  [-1]        0.0502
+32161       NASDAQ_micro  dynamic_TF_carry    [20220600] 2022-05-20 15:02:20   [1]    11969.2500
+32156          NIKKEI400  dynamic_TF_carry    [20220600] 2022-05-20 01:46:23  [-1]    16820.0000
+32155              TOPIX  dynamic_TF_carry    [20220600] 2022-05-20 01:45:31  [-1]     1867.0000
+
+
+=======================================================================================================================================================
+                                                                        Delays                                                                         
+=======================================================================================================================================================
+
+         instrument_code     strategy_name parent_reference_datetime     submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                               
+32154               IRON  dynamic_TF_carry                2022-05-19 2022-05-20 01:25:35 2022-05-20 01:25:34                  91535                 NaN
+32155              TOPIX  dynamic_TF_carry                2022-05-19 2022-05-20 01:45:32 2022-05-20 01:45:31                  92732                 NaN
+32156          NIKKEI400  dynamic_TF_carry                2022-05-19 2022-05-20 01:46:23 2022-05-20 01:46:23                  92783                   0
+32157             KOSDAQ  dynamic_TF_carry                2022-05-19 2022-05-20 02:00:31 2022-05-20 02:00:31                  93631                   0
+32158         GOLD_micro  dynamic_TF_carry                2022-05-19 2022-05-20 14:00:30 2022-05-20 14:00:29                 136830                 NaN
+32159                DOW  dynamic_TF_carry                2022-05-19 2022-05-20 15:00:31 2022-05-20 15:00:29                 140431                 NaN
+32160                MXP  dynamic_TF_carry                2022-05-19 2022-05-20 15:01:29 2022-05-20 15:01:27                 140489                 NaN
+32161       NASDAQ_micro  dynamic_TF_carry                2022-05-19 2022-05-20 15:02:22 2022-05-20 15:02:20                 140542                 NaN
+
+
+=================================================================================================================================================================================================================================
+                                                                                                    Slippage (ticks per lot)                                                                                                     
+=================================================================================================================================================================================================================================
+
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                         
+32154               IRON  dynamic_TF_carry  [-1]                  125.1               None     124.7     123.65        125.75        None       123.65      -0.4   -1.05        -0          NaN                 NaN         -1.05
+32155              TOPIX  dynamic_TF_carry  [-1]                 1858.5               None   1867.12       1867       1867.25        None         1867     8.625  -0.125        -0          NaN                 NaN        -0.125
+32156          NIKKEI400  dynamic_TF_carry  [-1]                  16780               None   16827.5      16825         16830        None        16820      47.5    -2.5        -5          NaN                 NaN          -7.5
+32157             KOSDAQ  dynamic_TF_carry  [-1]                 1213.4               None   1242.25     1242.2        1242.3        None       1242.1     28.85   -0.05      -0.1          NaN                 NaN         -0.15
+32158         GOLD_micro  dynamic_TF_carry   [1]                 1839.3               None    1840.7     1840.8        1840.6        None       1840.8      -1.4    -0.1         0          NaN                 NaN          -0.1
+32159                DOW  dynamic_TF_carry   [1]                  31140               None     31384      31385         31383        None        31398      -244      -1       -13          NaN                 NaN           -14
+32160                MXP  dynamic_TF_carry  [-1]                0.05003               None  0.050205     0.0502       0.05021        None       0.0502  0.000175  -5e-06        -0          NaN                 NaN        -5e-06
+32161       NASDAQ_micro  dynamic_TF_carry   [1]                  11985               None     11972    11972.2       11971.8        None      11969.2        13   -0.25         3          NaN                 NaN          2.75
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                       
+32154               IRON  dynamic_TF_carry  [-1]         72.6754  -55.0393    -144.478            -0              NaN                     NaN          -144.478
+32155              TOPIX  dynamic_TF_carry  [-1]         377.305   228.595    -3.31297            -0              NaN                     NaN          -3.31297
+32156          NIKKEI400  dynamic_TF_carry  [-1]         3474.87   136.696    -7.19452       -14.389              NaN                     NaN          -21.5836
+32157             KOSDAQ  dynamic_TF_carry  [-1]         403.794   714.474    -1.23826      -2.47651              NaN                     NaN          -3.71477
+32158         GOLD_micro  dynamic_TF_carry   [1]         285.178  -49.0922    -3.50658             0              NaN                     NaN          -3.50658
+32159                DOW  dynamic_TF_carry   [1]         7325.23  -333.095    -1.36514      -17.7469              NaN                     NaN           -19.112
+32160                MXP  dynamic_TF_carry  [-1]      0.00531131   329.485    -9.41387            -0              NaN                     NaN          -9.41387
+32161       NASDAQ_micro  dynamic_TF_carry   [1]         4628.97    28.084   -0.540076       6.48092              NaN                     NaN           5.94084
+
+
+==========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                        
+==========================================================================================================================================================================
+
+         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                  
+32154               IRON  dynamic_TF_carry  [-1]               80.223   -32.0892     -84.2342             -0               NaN                      NaN           -84.2342
+32155              TOPIX  dynamic_TF_carry  [-1]               6.2662     54.046    -0.783275             -0               NaN                      NaN          -0.783275
+32156          NIKKEI400  dynamic_TF_carry  [-1]              0.62662    29.7644     -1.56655        -3.1331               NaN                      NaN           -4.69965
+32157             KOSDAQ  dynamic_TF_carry  [-1]              6.31355    182.146    -0.315678      -0.631355               NaN                      NaN          -0.947033
+32158         GOLD_micro  dynamic_TF_carry   [1]               8.0223   -11.2312     -0.80223              0               NaN                      NaN           -0.80223
+32159                DOW  dynamic_TF_carry   [1]             0.401115   -97.8721    -0.401115        -5.2145               NaN                      NaN           -5.61561
+32160                MXP  dynamic_TF_carry  [-1]               401115    70.1951     -2.00558             -0               NaN                      NaN           -2.00558
+32161       NASDAQ_micro  dynamic_TF_carry   [1]              1.60446     20.858    -0.401115        4.81338               NaN                      NaN            4.41227
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry DOW              -97.872084
+                 GOLD_micro       -11.231223
+                 IRON             -32.089208
+                 KOSDAQ           182.145966
+                 MXP               70.195142
+                 NASDAQ_micro      20.857985
+                 NIKKEI400         29.764448
+                 TOPIX             54.045971
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry  215.816998
+bid_ask_cash Sum
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry DOW                 -0.401115
+                 GOLD_micro          -0.802230
+                 IRON               -84.234171
+                 KOSDAQ              -0.315678
+                 MXP                 -2.005575
+                 NASDAQ_micro        -0.401115
+                 NIKKEI400           -1.566550
+                 TOPIX               -0.783275
+bid_ask_cash Total Sum
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry    -90.509709
+execution_cash Sum
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry DOW                   -5.214496
+                 GOLD_micro             0.000000
+                 IRON                  -0.000000
+                 KOSDAQ                -0.631355
+                 MXP                   -0.000000
+                 NASDAQ_micro           4.813381
+                 NIKKEI400             -3.133100
+                 TOPIX                 -0.000000
+execution_cash Total Sum
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry        -4.16557
+versus_limit_cash Sum
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry DOW                              0
+                 GOLD_micro                       0
+                 IRON                             0
+                 KOSDAQ                           0
+                 MXP                              0
+                 NASDAQ_micro                     0
+                 NIKKEI400                        0
+                 TOPIX                            0
+versus_limit_cash Total Sum
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry                  0
+versus_parent_limit_cash Sum
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry DOW                                     0
+                 GOLD_micro                              0
+                 IRON                                    0
+                 KOSDAQ                                  0
+                 MXP                                     0
+                 NASDAQ_micro                            0
+                 NIKKEI400                               0
+                 TOPIX                                   0
+versus_parent_limit_cash Total Sum
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
+total_trading_cash Sum
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry DOW                       -5.615611
+                 GOLD_micro                -0.802230
+                 IRON                     -84.234171
+                 KOSDAQ                    -0.947033
+                 MXP                       -2.005575
+                 NASDAQ_micro               4.412266
+                 NIKKEI400                 -4.699650
+                 TOPIX                     -0.783275
+total_trading_cash Total Sum
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry          -94.675279
 
 ********************************************************************************
                                  END OF REPORT                                  
