@@ -1,15 +1,157 @@
 
 ********************************************************************************
-Trades report report produced on 31/05/2022 21:00 from 30/05/2022 21:00 to 31/05/2022 21:00
+Trades report report produced on 01/06/2022 21:00 from 31/05/2022 21:00 to 01/06/2022 21:00
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+================================================================================================
+                                         Broker orders                                          
+================================================================================================
+
+         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+order_id                                                                                        
+32172            BITCOIN  dynamic_TF_carry    [20220600] 2022-06-01 15:02:41   [1]   31805.00000
+32169         GOLD_micro  dynamic_TF_carry    [20220800] 2022-06-01 14:00:28   [1]    1847.70000
+32171                MXP  dynamic_TF_carry    [20220600] 2022-06-01 15:01:29   [1]       0.05072
+32170            RUSSELL  dynamic_TF_carry    [20220600] 2022-06-01 15:00:29   [1]    1858.70000
+32173             SOYOIL  dynamic_TF_carry    [20220900] 2022-06-01 15:30:29   [1]      75.91000
+32168                V2X  dynamic_TF_carry    [20220700] 2022-06-01 08:00:31  [-1]      26.60000
+
+
+=======================================================================================================================================================
+                                                                        Delays                                                                         
+=======================================================================================================================================================
+
+         instrument_code     strategy_name parent_reference_datetime     submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                               
+32168                V2X  dynamic_TF_carry                2022-05-31 2022-06-01 08:00:32 2022-06-01 08:00:31                 115232                 NaN
+32169         GOLD_micro  dynamic_TF_carry                2022-05-31 2022-06-01 14:00:30 2022-06-01 14:00:28                 136830                 NaN
+32170            RUSSELL  dynamic_TF_carry                2022-05-31 2022-06-01 15:00:30 2022-06-01 15:00:29                 140430                 NaN
+32171                MXP  dynamic_TF_carry                2022-05-31 2022-06-01 15:01:30 2022-06-01 15:01:29                 140490                 NaN
+32172            BITCOIN  dynamic_TF_carry                2022-05-31 2022-06-01 15:02:43 2022-06-01 15:02:41                 140563                 NaN
+32173             SOYOIL  dynamic_TF_carry                2022-05-31 2022-06-01 15:30:31 2022-06-01 15:30:29                 142231                 NaN
+
+
+================================================================================================================================================================================================================================
+                                                                                                    Slippage (ticks per lot)                                                                                                    
+================================================================================================================================================================================================================================
+
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                        
+32168                V2X  dynamic_TF_carry  [-1]                   26.7               None    26.625       26.6         26.65        None         26.6   -0.075  -0.025        -0          NaN                 NaN        -0.025
+32169         GOLD_micro  dynamic_TF_carry   [1]                 1846.9               None    1847.6     1847.7        1847.5        None       1847.7     -0.7    -0.1         0          NaN                 NaN          -0.1
+32170            RUSSELL  dynamic_TF_carry   [1]                 1875.1               None   1858.85       1859        1858.7        None       1858.7    16.25   -0.15       0.3          NaN                 NaN          0.15
+32171                MXP  dynamic_TF_carry   [1]                0.05073               None  0.050695     0.0507       0.05069        None      0.05072  3.5e-05  -5e-06    -2e-05          NaN                 NaN      -2.5e-05
+32172            BITCOIN  dynamic_TF_carry   [1]                  32190               None   31782.5      31795         31770        None        31805    407.5   -12.5       -10          NaN                 NaN         -22.5
+32173             SOYOIL  dynamic_TF_carry   [1]                  75.59               None     75.92      75.94          75.9        None        75.91    -0.33   -0.02      0.03          NaN                 NaN          0.01
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                       
+32168                V2X  dynamic_TF_carry  [-1]         16.3387  -45.9032    -15.3011            -0              NaN                     NaN          -15.3011
+32169         GOLD_micro  dynamic_TF_carry   [1]         264.543  -26.4607     -3.7801             0              NaN                     NaN           -3.7801
+32170            RUSSELL  dynamic_TF_carry   [1]         562.738   288.766    -2.66554       5.33107              NaN                     NaN           2.66554
+32171                MXP  dynamic_TF_carry   [1]      0.00486619   71.9248     -10.275      -41.0999              NaN                     NaN          -51.3749
+32172            BITCOIN  dynamic_TF_carry   [1]         24307.3   167.645     -5.1425        -4.114              NaN                     NaN           -9.2565
+32173             SOYOIL  dynamic_TF_carry   [1]         17.9845  -183.492    -11.1207       16.6811              NaN                     NaN           5.56035
+
+
+==========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                        
+==========================================================================================================================================================================
+
+         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                  
+32168                V2X  dynamic_TF_carry  [-1]              85.3613    -6.4021     -2.13403             -0               NaN                      NaN           -2.13403
+32169         GOLD_micro  dynamic_TF_carry   [1]              8.00256   -5.60179    -0.800256              0               NaN                      NaN          -0.800256
+32170            RUSSELL  dynamic_TF_carry   [1]              4.00128    65.0208    -0.600192        1.20038               NaN                      NaN           0.600192
+32171                MXP  dynamic_TF_carry   [1]               400128    14.0045     -2.00064       -8.00256               NaN                      NaN           -10.0032
+32172            BITCOIN  dynamic_TF_carry   [1]            0.0800256    32.6104     -1.00032      -0.800256               NaN                      NaN           -1.80058
+32173             SOYOIL  dynamic_TF_carry   [1]              480.154   -158.451     -9.60307        14.4046               NaN                      NaN            4.80154
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry BITCOIN           32.610435
+                 GOLD_micro        -5.601793
+                 MXP               14.004481
+                 RUSSELL           65.020807
+                 SOYOIL          -158.450704
+                 V2X               -6.402099
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry  -58.818872
+bid_ask_cash Sum
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry BITCOIN             -1.000320
+                 GOLD_micro          -0.800256
+                 MXP                 -2.000640
+                 RUSSELL             -0.600192
+                 SOYOIL              -9.603073
+                 V2X                 -2.134033
+bid_ask_cash Total Sum
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry    -16.138514
+execution_cash Sum
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry BITCOIN               -0.800256
+                 GOLD_micro             0.000000
+                 MXP                   -8.002561
+                 RUSSELL                1.200384
+                 SOYOIL                14.404609
+                 V2X                   -0.000000
+execution_cash Total Sum
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry        6.802177
+versus_limit_cash Sum
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry BITCOIN                          0
+                 GOLD_micro                       0
+                 MXP                              0
+                 RUSSELL                          0
+                 SOYOIL                           0
+                 V2X                              0
+versus_limit_cash Total Sum
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry                  0
+versus_parent_limit_cash Sum
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry BITCOIN                                 0
+                 GOLD_micro                              0
+                 MXP                                     0
+                 RUSSELL                                 0
+                 SOYOIL                                  0
+                 V2X                                     0
+versus_parent_limit_cash Total Sum
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
+total_trading_cash Sum
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry BITCOIN                   -1.800576
+                 GOLD_micro                -0.800256
+                 MXP                      -10.003201
+                 RUSSELL                    0.600192
+                 SOYOIL                     4.801536
+                 V2X                       -2.134033
+total_trading_cash Total Sum
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry           -9.336338
 
 ********************************************************************************
                                  END OF REPORT                                  
