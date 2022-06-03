@@ -1,15 +1,201 @@
 
 ********************************************************************************
-Trades report report produced on 02/06/2022 20:59 from 01/06/2022 20:59 to 02/06/2022 20:59
+Trades report report produced on 03/06/2022 21:00 from 02/06/2022 21:00 to 03/06/2022 21:00
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+================================================================================================
+                                         Broker orders                                          
+================================================================================================
+
+         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+order_id                                                                                        
+32181            BITCOIN  dynamic_TF_carry    [20220600] 2022-06-03 15:00:29  [-1]   29620.00000
+32177        DJSTX-SMALL  dynamic_TF_carry    [20220600] 2022-06-03 08:00:44   [1]     339.80000
+32178           EU-BASIC  dynamic_TF_carry    [20220600] 2022-06-03 08:02:24   [1]     706.50000
+32179             EU-OIL  dynamic_TF_carry    [20220600] 2022-06-03 08:02:48   [1]     347.10000
+32176              MUMMY  dynamic_TF_carry    [20220900] 2022-06-03 01:47:16  [-1]     666.00000
+32182                MXP  dynamic_TF_carry    [20220600] 2022-06-03 15:01:58  [-1]       0.05117
+32174          NIKKEI400  dynamic_TF_carry    [20220600] 2022-06-03 01:45:33  [-1]   17405.00000
+32180             SILVER  dynamic_TF_carry    [20220700] 2022-06-03 14:00:33   [1]      22.26000
+32183             SOYOIL  dynamic_TF_carry    [20220900] 2022-06-03 15:30:29  [-1]      77.10000
+32175              TOPIX  dynamic_TF_carry    [20220600] 2022-06-03 01:46:24  [-1]    1932.50000
+
+
+=======================================================================================================================================================
+                                                                        Delays                                                                         
+=======================================================================================================================================================
+
+         instrument_code     strategy_name parent_reference_datetime     submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                               
+32174          NIKKEI400  dynamic_TF_carry                2022-06-02 2022-06-03 01:45:34 2022-06-03 01:45:33                  92734                 NaN
+32175              TOPIX  dynamic_TF_carry                2022-06-02 2022-06-03 01:46:26 2022-06-03 01:46:24                  92786                 NaN
+32176              MUMMY  dynamic_TF_carry                2022-06-02 2022-06-03 01:47:17 2022-06-03 01:47:16                  92837                 NaN
+32177        DJSTX-SMALL  dynamic_TF_carry                2022-06-02 2022-06-03 08:00:39 2022-06-03 08:00:44                 115239                   5
+32178           EU-BASIC  dynamic_TF_carry                2022-06-02 2022-06-03 08:01:30 2022-06-03 08:02:24                 115290                  54
+32179             EU-OIL  dynamic_TF_carry                2022-06-02 2022-06-03 08:02:50 2022-06-03 08:02:48                 115370                 NaN
+32180             SILVER  dynamic_TF_carry                2022-06-02 2022-06-03 14:00:34 2022-06-03 14:00:33                 136834                 NaN
+32181            BITCOIN  dynamic_TF_carry                2022-06-02 2022-06-03 15:00:30 2022-06-03 15:00:29                 140430                 NaN
+32182                MXP  dynamic_TF_carry                2022-06-02 2022-06-03 15:02:01 2022-06-03 15:01:58                 140521                 NaN
+32183             SOYOIL  dynamic_TF_carry                2022-06-02 2022-06-03 15:30:31 2022-06-03 15:30:29                 142231                 NaN
+
+
+====================================================================================================================================================================================================================================
+                                                                                                      Slippage (ticks per lot)                                                                                                      
+====================================================================================================================================================================================================================================
+
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price        delay bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                            
+32174          NIKKEI400  dynamic_TF_carry  [-1]                  17485               None   17407.5      17405         17410        None        17405        -77.5    -2.5        -0          NaN                 NaN          -2.5
+32175              TOPIX  dynamic_TF_carry  [-1]                 1942.5               None   1932.75     1932.5          1933        None       1932.5        -9.75   -0.25        -0          NaN                 NaN         -0.25
+32176              MUMMY  dynamic_TF_carry  [-1]                    667               None     667.5        666           669        None          666          0.5    -1.5        -0          NaN                 NaN          -1.5
+32177        DJSTX-SMALL  dynamic_TF_carry   [1]                  336.3               None    337.95      340.4         335.5        None        339.8        -1.65   -2.45       0.6          NaN                 NaN         -1.85
+32178           EU-BASIC  dynamic_TF_carry   [1]                  700.2               None    705.25      719.4         691.1        None        706.5        -5.05  -14.15      12.9          NaN                 NaN         -1.25
+32179             EU-OIL  dynamic_TF_carry   [1]                  345.7               None     345.7      347.1         344.3        None        347.1 -5.68434e-14    -1.4         0          NaN                 NaN          -1.4
+32180             SILVER  dynamic_TF_carry   [1]                 22.315               None     22.25     22.255        22.245        None        22.26        0.065  -0.005    -0.005          NaN                 NaN         -0.01
+32181            BITCOIN  dynamic_TF_carry  [-1]                  30265               None     29620      29610         29630        None        29620         -645     -10        10          NaN                 NaN             0
+32182                MXP  dynamic_TF_carry  [-1]                0.05108               None  0.051175    0.05117       0.05118        None      0.05117      9.5e-05  -5e-06        -0          NaN                 NaN        -5e-06
+32183             SOYOIL  dynamic_TF_carry  [-1]                  78.34               None     77.11       77.1         77.12        None         77.1        -1.23   -0.01        -0          NaN                 NaN         -0.01
+
+
+==================================================================================================================================================================
+                                                       Slippage (normalised by annual vol, BP of annual SR)                                                       
+==================================================================================================================================================================
+
+         instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                          
+32174          NIKKEI400  dynamic_TF_carry  [-1]         3088.76      -250.91    -8.09387            -0              NaN                     NaN          -8.09387
+32175              TOPIX  dynamic_TF_carry  [-1]         341.106     -285.835    -7.32911            -0              NaN                     NaN          -7.32911
+32176              MUMMY  dynamic_TF_carry  [-1]         296.324      16.8734    -50.6202            -0              NaN                     NaN          -50.6202
+32177        DJSTX-SMALL  dynamic_TF_carry   [1]         70.3486     -234.546    -348.266       85.2896              NaN                     NaN          -262.976
+32178           EU-BASIC  dynamic_TF_carry   [1]         177.335     -284.771    -797.923       727.435              NaN                     NaN          -70.4879
+32179             EU-OIL  dynamic_TF_carry   [1]         84.9346 -6.69261e-12    -164.833             0              NaN                     NaN          -164.833
+32180             SILVER  dynamic_TF_carry   [1]          6.7026      96.9773     -7.4598       -7.4598              NaN                     NaN          -14.9196
+32181            BITCOIN  dynamic_TF_carry  [-1]         23921.9     -269.627    -4.18027       4.18027              NaN                     NaN                 0
+32182                MXP  dynamic_TF_carry  [-1]      0.00492007      193.087    -10.1625            -0              NaN                     NaN          -10.1625
+32183             SOYOIL  dynamic_TF_carry  [-1]         18.6154     -660.743     -5.3719            -0              NaN                     NaN           -5.3719
+
+
+============================================================================================================================================================================
+                                                                        Slippage (In base currency)                                                                         
+============================================================================================================================================================================
+
+         instrument_code     strategy_name trade value_of_price_point   delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                    
+32174          NIKKEI400  dynamic_TF_carry  [-1]             0.610958     -47.3492      -1.5274             -0               NaN                      NaN            -1.5274
+32175              TOPIX  dynamic_TF_carry  [-1]              6.10958     -59.5684      -1.5274             -0               NaN                      NaN            -1.5274
+32176              MUMMY  dynamic_TF_carry  [-1]              6.10958      3.05479     -9.16437             -0               NaN                      NaN           -9.16437
+32177        DJSTX-SMALL  dynamic_TF_carry   [1]              42.8148     -70.6444     -104.896        25.6889               NaN                      NaN           -79.2073
+32178           EU-BASIC  dynamic_TF_carry   [1]              42.8148     -216.215     -605.829        552.311               NaN                      NaN           -53.5185
+32179             EU-OIL  dynamic_TF_carry   [1]              42.8148 -2.43374e-12     -59.9407              0               NaN                      NaN           -59.9407
+32180             SILVER  dynamic_TF_carry   [1]               798.69      51.9149     -3.99345       -3.99345               NaN                      NaN            -7.9869
+32181            BITCOIN  dynamic_TF_carry  [-1]             0.079869     -51.5155     -0.79869        0.79869               NaN                      NaN                  0
+32182                MXP  dynamic_TF_carry  [-1]               399345      37.9378     -1.99673             -0               NaN                      NaN           -1.99673
+32183             SOYOIL  dynamic_TF_carry  [-1]              479.214     -589.433     -4.79214             -0               NaN                      NaN           -4.79214
+
+delay_cash Sum
+                                    delay_cash
+strategy_name    instrument_code              
+dynamic_TF_carry BITCOIN         -5.151551e+01
+                 DJSTX-SMALL     -7.064439e+01
+                 EU-BASIC        -2.162147e+02
+                 EU-OIL          -2.433739e-12
+                 MUMMY            3.054790e+00
+                 MXP              3.793778e+01
+                 NIKKEI400       -4.734925e+01
+                 SILVER           5.191486e+01
+                 SOYOIL          -5.894333e+02
+                 TOPIX           -5.956841e+01
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -941.818117
+bid_ask_cash Sum
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry BITCOIN             -0.798690
+                 DJSTX-SMALL       -104.896220
+                 EU-BASIC          -605.829190
+                 EU-OIL             -59.940697
+                 MUMMY               -9.164370
+                 MXP                 -1.996725
+                 NIKKEI400           -1.527395
+                 SILVER              -3.993451
+                 SOYOIL              -4.792141
+                 TOPIX               -1.527395
+bid_ask_cash Total Sum
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry   -794.466275
+execution_cash Sum
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry BITCOIN                0.798690
+                 DJSTX-SMALL           25.688870
+                 EU-BASIC             552.310710
+                 EU-OIL                 0.000000
+                 MUMMY                 -0.000000
+                 MXP                   -0.000000
+                 NIKKEI400             -0.000000
+                 SILVER                -3.993451
+                 SOYOIL                -0.000000
+                 TOPIX                 -0.000000
+execution_cash Total Sum
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry       574.80482
+versus_limit_cash Sum
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry BITCOIN                          0
+                 DJSTX-SMALL                      0
+                 EU-BASIC                         0
+                 EU-OIL                           0
+                 MUMMY                            0
+                 MXP                              0
+                 NIKKEI400                        0
+                 SILVER                           0
+                 SOYOIL                           0
+                 TOPIX                            0
+versus_limit_cash Total Sum
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry                  0
+versus_parent_limit_cash Sum
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry BITCOIN                                 0
+                 DJSTX-SMALL                             0
+                 EU-BASIC                                0
+                 EU-OIL                                  0
+                 MUMMY                                   0
+                 MXP                                     0
+                 NIKKEI400                               0
+                 SILVER                                  0
+                 SOYOIL                                  0
+                 TOPIX                                   0
+versus_parent_limit_cash Total Sum
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
+total_trading_cash Sum
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry BITCOIN                    0.000000
+                 DJSTX-SMALL              -79.207350
+                 EU-BASIC                 -53.518480
+                 EU-OIL                   -59.940697
+                 MUMMY                     -9.164370
+                 MXP                       -1.996725
+                 NIKKEI400                 -1.527395
+                 SILVER                    -7.986901
+                 SOYOIL                    -4.792141
+                 TOPIX                     -1.527395
+total_trading_cash Total Sum
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry         -219.661455
 
 ********************************************************************************
                                  END OF REPORT                                  
