@@ -1,15 +1,146 @@
 
 ********************************************************************************
-Trades report report produced on 06/06/2022 20:59 from 05/06/2022 20:59 to 06/06/2022 20:59
+Trades report report produced on 07/06/2022 20:59 from 06/06/2022 20:59 to 07/06/2022 20:59
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+================================================================================================
+                                         Broker orders                                          
+================================================================================================
+
+         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+order_id                                                                                        
+32185           MSCISING  dynamic_TF_carry    [20220600] 2022-06-07 02:30:28  [-1]        296.85
+32184              MUMMY  dynamic_TF_carry    [20220900] 2022-06-07 01:45:31   [1]        665.00
+32187             SOYOIL  dynamic_TF_carry    [20220900] 2022-06-07 15:30:30   [1]         78.29
+32186                V2X  dynamic_TF_carry    [20220800] 2022-06-07 08:00:37   [1]         26.05
+32188              WHEAT  dynamic_TF_carry    [20231200] 2022-06-07 15:31:22  [-1]       1062.00
+
+
+=======================================================================================================================================================
+                                                                        Delays                                                                         
+=======================================================================================================================================================
+
+         instrument_code     strategy_name parent_reference_datetime     submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                               
+32184              MUMMY  dynamic_TF_carry                2022-06-06 2022-06-07 01:45:31 2022-06-07 01:45:31                  92731                   0
+32185           MSCISING  dynamic_TF_carry                2022-06-06 2022-06-07 02:30:28 2022-06-07 02:30:28                  95428                   0
+32186                V2X  dynamic_TF_carry                2022-06-06 2022-06-07 08:00:38 2022-06-07 08:00:37                 115238                 NaN
+32187             SOYOIL  dynamic_TF_carry                2022-06-06 2022-06-07 15:30:32 2022-06-07 15:30:30                 142232                 NaN
+32188              WHEAT  dynamic_TF_carry                2022-06-06 2022-06-07 15:31:23 2022-06-07 15:31:22                 142283                 NaN
+
+
+==============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                   
+==============================================================================================================================================================================================================================
+
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                      
+32184              MUMMY  dynamic_TF_carry   [1]                    672               None       664        665           663        None          665      8      -1         0          NaN                 NaN            -1
+32185           MSCISING  dynamic_TF_carry  [-1]                 298.25               None   296.825      296.8        296.85        None       296.85 -1.425  -0.025      0.05          NaN                 NaN         0.025
+32186                V2X  dynamic_TF_carry   [1]                   25.9               None    26.025      26.05            26        None        26.05 -0.125  -0.025         0          NaN                 NaN        -0.025
+32187             SOYOIL  dynamic_TF_carry   [1]                  78.43               None    78.255      78.27         78.24        None        78.29  0.175  -0.015     -0.02          NaN                 NaN        -0.035
+32188              WHEAT  dynamic_TF_carry  [-1]                   1075               None   1062.75       1062        1063.5        None         1062 -12.25   -0.75        -0          NaN                 NaN         -0.75
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                       
+32184              MUMMY  dynamic_TF_carry   [1]         294.454    271.69    -33.9612             0              NaN                     NaN          -33.9612
+32185           MSCISING  dynamic_TF_carry  [-1]         59.0086   -241.49    -4.23667       8.47334              NaN                     NaN           4.23667
+32186                V2X  dynamic_TF_carry   [1]         15.3573  -81.3947    -16.2789             0              NaN                     NaN          -16.2789
+32187             SOYOIL  dynamic_TF_carry   [1]         17.8086   98.2673    -8.42291      -11.2305              NaN                     NaN          -19.6535
+32188              WHEAT  dynamic_TF_carry  [-1]         322.665  -379.651    -23.2439            -0              NaN                     NaN          -23.2439
+
+
+==========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                        
+==========================================================================================================================================================================
+
+         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                  
+32184              MUMMY  dynamic_TF_carry   [1]              5.99964    47.9971     -5.99964              0               NaN                      NaN           -5.99964
+32185           MSCISING  dynamic_TF_carry  [-1]              57.8491    -82.435     -1.44623        2.89246               NaN                      NaN            1.44623
+32186                V2X  dynamic_TF_carry   [1]              85.0833   -10.6354     -2.12708              0               NaN                      NaN           -2.12708
+32187             SOYOIL  dynamic_TF_carry   [1]              476.891    83.4559     -7.15336       -9.53781               NaN                      NaN           -16.6912
+32188              WHEAT  dynamic_TF_carry  [-1]              39.7409   -486.826     -29.8057             -0               NaN                      NaN           -29.8057
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry MSCISING         -82.434976
+                 MUMMY             47.997149
+                 SOYOIL            83.455868
+                 V2X              -10.635407
+                 WHEAT           -486.825895
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -448.443261
+bid_ask_cash Sum
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry MSCISING            -1.446228
+                 MUMMY               -5.999644
+                 SOYOIL              -7.153360
+                 V2X                 -2.127081
+                 WHEAT              -29.805667
+bid_ask_cash Total Sum
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry     -46.53198
+execution_cash Sum
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry MSCISING               2.892455
+                 MUMMY                  0.000000
+                 SOYOIL                -9.537813
+                 V2X                    0.000000
+                 WHEAT                 -0.000000
+execution_cash Total Sum
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry       -6.645358
+versus_limit_cash Sum
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry MSCISING                         0
+                 MUMMY                            0
+                 SOYOIL                           0
+                 V2X                              0
+                 WHEAT                            0
+versus_limit_cash Total Sum
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry                  0
+versus_parent_limit_cash Sum
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry MSCISING                                0
+                 MUMMY                                   0
+                 SOYOIL                                  0
+                 V2X                                     0
+                 WHEAT                                   0
+versus_parent_limit_cash Total Sum
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
+total_trading_cash Sum
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry MSCISING                   1.446228
+                 MUMMY                     -5.999644
+                 SOYOIL                   -16.691174
+                 V2X                       -2.127081
+                 WHEAT                    -29.805667
+total_trading_cash Total Sum
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry          -53.177338
 
 ********************************************************************************
                                  END OF REPORT                                  
