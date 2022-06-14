@@ -1,195 +1,234 @@
 
 ********************************************************************************
-Trades report report produced on 13/06/2022 21:00 from 12/06/2022 21:00 to 13/06/2022 21:00
+Trades report report produced on 14/06/2022 21:00 from 13/06/2022 21:00 to 14/06/2022 21:00
 ********************************************************************************
 
 
 
-================================================================================================================
-                                                 Broker orders                                                  
-================================================================================================================
+====================================================================================================
+                                           Broker orders                                            
+====================================================================================================
 
-         instrument_code          strategy_name         contract_date       fill_datetime     fill  filled_price
-order_id                                                                                                        
-32211            BITCOIN       dynamic_TF_carry            [20220700] 2022-06-13 15:00:27     [-1]      23580.00
-32203                DAX       dynamic_TF_carry            [20220900] 2022-06-13 09:17:51     [-1]      13470.00
-32205           EU-BASIC  _ROLL_PSEUDO_STRATEGY  [20220600, 20220900] 2022-06-13 09:25:14  [-1, 1]         14.50
-32208             EU-OIL  _ROLL_PSEUDO_STRATEGY  [20220600, 20220900] 2022-06-13 09:42:26  [-1, 1]          3.40
-32206             EU-OIL  _ROLL_PSEUDO_STRATEGY  [20220600, 20220900] 2022-06-13 09:31:11  [-1, 1]          3.40
-32209        GAS_US_mini       dynamic_TF_carry            [20220700] 2022-06-13 14:00:26     [-1]          8.74
-32210             SILVER       dynamic_TF_carry            [20220800] 2022-06-13 14:01:13     [-1]         21.54
-32204                V2X  _ROLL_PSEUDO_STRATEGY  [20220800, 20220900] 2022-06-13 09:19:19  [-1, 1]         -0.10
-32207                V2X  _ROLL_PSEUDO_STRATEGY  [20220800, 20220900] 2022-06-13 09:36:31  [-1, 1]         -0.05
-32212              WHEAT       dynamic_TF_carry            [20231200] 2022-06-13 15:30:27      [1]       1074.75
-
-
-============================================================================================================================================================
-                                                                           Delays                                                                           
-============================================================================================================================================================
-
-         instrument_code          strategy_name parent_reference_datetime     submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
-order_id                                                                                                                                                    
-32203                DAX       dynamic_TF_carry       2022-06-10 00:00:00 2022-06-13 09:17:11 2022-06-13 09:17:51                 292631                  40
-32205           EU-BASIC  _ROLL_PSEUDO_STRATEGY       2022-06-10 17:00:00 2022-06-13 09:19:55 2022-06-13 09:25:14                 231595                 319
-32204                V2X  _ROLL_PSEUDO_STRATEGY       2022-06-10 19:00:00 2022-06-13 09:18:30 2022-06-13 09:19:19                 224310                  49
-32207                V2X  _ROLL_PSEUDO_STRATEGY       2022-06-10 19:00:00 2022-06-13 09:35:57 2022-06-13 09:36:31                 225357                  34
-32208             EU-OIL  _ROLL_PSEUDO_STRATEGY       2022-06-10 17:00:00 2022-06-13 09:37:08 2022-06-13 09:42:26                 232628                 318
-32206             EU-OIL  _ROLL_PSEUDO_STRATEGY       2022-06-10 17:00:00 2022-06-13 09:25:52 2022-06-13 09:31:11                 231952                 319
-32209        GAS_US_mini       dynamic_TF_carry       2022-06-10 00:00:00 2022-06-13 14:00:28 2022-06-13 14:00:26                 309628                 NaN
-32210             SILVER       dynamic_TF_carry       2022-06-10 00:00:00 2022-06-13 14:01:14 2022-06-13 14:01:13                 309674                 NaN
-32211            BITCOIN       dynamic_TF_carry       2022-06-10 00:00:00 2022-06-13 15:00:28 2022-06-13 15:00:27                 313228                 NaN
-32212              WHEAT       dynamic_TF_carry       2022-06-10 00:00:00 2022-06-13 15:30:28 2022-06-13 15:30:27                 315028                 NaN
+         instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
+order_id                                                                                            
+32220            BITCOIN  dynamic_TF_carry    [20220600] 2022-06-14 15:00:27.000   [1]   22410.00000
+32221                BRE  dynamic_TF_carry    [20220800] 2022-06-14 15:01:53.000   [1]       0.19310
+32216                DAX  dynamic_TF_carry    [20220900] 2022-06-14 13:00:45.000   [1]   13323.00000
+32217             EU-OIL  dynamic_TF_carry    [20220900] 2022-06-14 13:01:55.000  [-1]     331.50000
+32223                EUR  dynamic_TF_carry    [20220900] 2022-06-14 15:04:17.000  [-1]       1.05130
+32219         GOLD_micro  dynamic_TF_carry    [20220800] 2022-06-14 14:01:43.000   [1]    1822.50000
+32214                JPY  dynamic_TF_carry    [20220600] 2022-06-14 09:53:31.109   [1]       0.00747
+32225            LIVECOW  dynamic_TF_carry    [20220800] 2022-06-14 15:31:40.000   [1]     133.72500
+32213              MUMMY  dynamic_TF_carry    [20220900] 2022-06-14 01:45:27.000  [-1]     638.00000
+32222                MXP  dynamic_TF_carry    [20220900] 2022-06-14 15:02:50.000  [-1]       0.04778
+32218             SILVER  dynamic_TF_carry    [20220800] 2022-06-14 14:00:35.000   [1]      21.31000
+32224             SOYOIL  dynamic_TF_carry    [20220900] 2022-06-14 15:30:34.000  [-1]      76.17000
+32215                V2X  dynamic_TF_carry    [20220900] 2022-06-14 12:59:30.000  [-1]      30.15000
 
 
-==========================================================================================================================================================================================================================================
-                                                                                                         Slippage (ticks per lot)                                                                                                         
-==========================================================================================================================================================================================================================================
+===========================================================================================================================================================
+                                                                          Delays                                                                           
+===========================================================================================================================================================
 
-         instrument_code          strategy_name    trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask    execution versus_limit versus_parent_limit total_trading
-order_id                                                                                                                                                                                                                                  
-32203                DAX       dynamic_TF_carry     [-1]                  13745               None     13480      13460         13500       13500        13470    -265     -20           10          -30                 NaN           -10
-32205           EU-BASIC  _ROLL_PSEUDO_STRATEGY  [-1, 1]                   16.2               None     14.55       14.5          14.6        14.6         14.5   -1.65   -0.05           -0         -0.1                 NaN         -0.05
-32204                V2X  _ROLL_PSEUDO_STRATEGY  [-1, 1]                  -0.35               None    -0.025       -0.1          0.05        0.05         -0.1   0.325  -0.075 -1.41553e-15        -0.15                 NaN        -0.075
-32207                V2X  _ROLL_PSEUDO_STRATEGY  [-1, 1]                  -0.35               None         0      -0.05          0.05        0.05        -0.05    0.35   -0.05 -7.07767e-16         -0.1                 NaN         -0.05
-32208             EU-OIL  _ROLL_PSEUDO_STRATEGY  [-1, 1]                    2.6               None      3.45        3.4           3.5         3.5          3.4    0.85   -0.05  3.41949e-14         -0.1                 NaN         -0.05
-32206             EU-OIL  _ROLL_PSEUDO_STRATEGY  [-1, 1]                    2.6               None      3.45        3.4           3.5         3.5          3.4    0.85   -0.05  3.41949e-14         -0.1                 NaN         -0.05
-32209        GAS_US_mini       dynamic_TF_carry     [-1]                  8.775               None    8.7525       8.75         8.755         NaN         8.74 -0.0225 -0.0025        -0.01          NaN                 NaN       -0.0125
-32210             SILVER       dynamic_TF_carry     [-1]                  21.91               None   21.5475      21.54        21.555         NaN        21.54 -0.3625 -0.0075           -0          NaN                 NaN       -0.0075
-32211            BITCOIN       dynamic_TF_carry     [-1]                  29375               None     23570      23525         23615         NaN        23580   -5805     -45           55          NaN                 NaN            10
-32212              WHEAT       dynamic_TF_carry      [1]                1068.75               None   1074.25    1074.75       1073.75         NaN      1074.75    -5.5    -0.5            0          NaN                 NaN          -0.5
-
-
-=======================================================================================================================================================================
-                                                         Slippage (normalised by annual vol, BP of annual SR)                                                          
-=======================================================================================================================================================================
-
-         instrument_code          strategy_name    trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-order_id                                                                                                                                                               
-32203                DAX       dynamic_TF_carry     [-1]         3074.81  -861.843    -65.0448       32.5224         -97.5671                     NaN          -32.5224
-32205           EU-BASIC  _ROLL_PSEUDO_STRATEGY  [-1, 1]         201.894   -81.726    -2.47655            -0         -4.95309                     NaN          -2.47655
-32204                V2X  _ROLL_PSEUDO_STRATEGY  [-1, 1]         15.4684   210.105    -48.4859  -9.15112e-13         -96.9718                     NaN          -48.4859
-32207                V2X  _ROLL_PSEUDO_STRATEGY  [-1, 1]         15.4684   226.267    -32.3239  -4.57556e-13         -64.6478                     NaN          -32.3239
-32208             EU-OIL  _ROLL_PSEUDO_STRATEGY  [-1, 1]         89.4317   95.0446    -5.59086   3.82357e-12         -11.1817                     NaN          -5.59086
-32206             EU-OIL  _ROLL_PSEUDO_STRATEGY  [-1, 1]         89.4317   95.0446    -5.59086   3.82357e-12         -11.1817                     NaN          -5.59086
-32209        GAS_US_mini       dynamic_TF_carry     [-1]         5.07707  -44.3169     -4.9241      -19.6964              NaN                     NaN          -24.6205
-32210             SILVER       dynamic_TF_carry     [-1]         7.03649  -515.171    -10.6587            -0              NaN                     NaN          -10.6587
-32211            BITCOIN       dynamic_TF_carry     [-1]         25814.3  -2248.75    -17.4322        21.306              NaN                     NaN           3.87382
-32212              WHEAT       dynamic_TF_carry      [1]         296.726  -185.356    -16.8505             0              NaN                     NaN          -16.8505
+         instrument_code     strategy_name parent_reference_datetime     submit_datetime           fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                                   
+32213              MUMMY  dynamic_TF_carry                2022-06-13 2022-06-14 01:45:27 2022-06-14 01:45:27.000                  92727                   0
+32214                JPY  dynamic_TF_carry                       NaT                 NaT 2022-06-14 09:53:31.109                    NaN                 NaN
+32215                V2X  dynamic_TF_carry                2022-06-13 2022-06-14 12:57:38 2022-06-14 12:59:30.000                 133058                 112
+32216                DAX  dynamic_TF_carry                2022-06-13 2022-06-14 13:00:16 2022-06-14 13:00:45.000                 133216                  29
+32217             EU-OIL  dynamic_TF_carry                2022-06-13 2022-06-14 13:01:31 2022-06-14 13:01:55.000                 133291                  24
+32218             SILVER  dynamic_TF_carry                2022-06-13 2022-06-14 14:00:37 2022-06-14 14:00:35.000                 136837                 NaN
+32219         GOLD_micro  dynamic_TF_carry                2022-06-13 2022-06-14 14:01:44 2022-06-14 14:01:43.000                 136904                 NaN
+32220            BITCOIN  dynamic_TF_carry                2022-06-13 2022-06-14 15:00:32 2022-06-14 15:00:27.000                 140432                 NaN
+32221                BRE  dynamic_TF_carry                2022-06-13 2022-06-14 15:01:54 2022-06-14 15:01:53.000                 140514                 NaN
+32222                MXP  dynamic_TF_carry                2022-06-13 2022-06-14 15:02:51 2022-06-14 15:02:50.000                 140571                 NaN
+32223                EUR  dynamic_TF_carry                2022-06-13 2022-06-14 15:04:20 2022-06-14 15:04:17.000                 140660                 NaN
+32224             SOYOIL  dynamic_TF_carry                2022-06-13 2022-06-14 15:30:37 2022-06-14 15:30:34.000                 142237                 NaN
+32225            LIVECOW  dynamic_TF_carry                2022-06-13 2022-06-14 15:31:42 2022-06-14 15:31:40.000                 142302                 NaN
 
 
-==================================================================================================================================================================================
-                                                                           Slippage (In base currency)                                                                            
-==================================================================================================================================================================================
+==================================================================================================================================================================================================================================
+                                                                                                     Slippage (ticks per lot)                                                                                                     
+==================================================================================================================================================================================================================================
 
-         instrument_code          strategy_name    trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-order_id                                                                                                                                                                          
-32203                DAX       dynamic_TF_carry     [-1]             0.859083   -227.657     -17.1817        8.59083          -25.7725                      NaN           -8.59083
-32205           EU-BASIC  _ROLL_PSEUDO_STRATEGY  [-1, 1]              42.9541   -70.8743     -2.14771             -0          -4.29541                      NaN           -2.14771
-32204                V2X  _ROLL_PSEUDO_STRATEGY  [-1, 1]              85.9083    27.9202     -6.44312   -1.21606e-13          -12.8862                      NaN           -6.44312
-32207                V2X  _ROLL_PSEUDO_STRATEGY  [-1, 1]              85.9083    30.0679     -4.29541   -6.08031e-14          -8.59083                      NaN           -4.29541
-32208             EU-OIL  _ROLL_PSEUDO_STRATEGY  [-1, 1]              42.9541     36.511     -2.14771    1.46881e-12          -4.29541                      NaN           -2.14771
-32206             EU-OIL  _ROLL_PSEUDO_STRATEGY  [-1, 1]              42.9541     36.511     -2.14771    1.46881e-12          -4.29541                      NaN           -2.14771
-32209        GAS_US_mini       dynamic_TF_carry     [-1]               2060.5   -46.3612     -5.15124        -20.605               NaN                      NaN           -25.7562
-32210             SILVER       dynamic_TF_carry     [-1]              824.198   -298.772     -6.18149             -0               NaN                      NaN           -6.18149
-32211            BITCOIN       dynamic_TF_carry     [-1]            0.0824198   -478.447     -3.70889        4.53309               NaN                      NaN           0.824198
-32212              WHEAT       dynamic_TF_carry      [1]              41.2099   -226.655      -20.605              0               NaN                      NaN            -20.605
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay  bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                          
+32213              MUMMY  dynamic_TF_carry  [-1]                    636               None     638.5        638           639         NaN          638       2.5     -0.5        -0          NaN                 NaN          -0.5
+32214                JPY  dynamic_TF_carry   [1]                    NaN               None       NaN        NaN           NaN         NaN      0.00747       NaN      NaN       NaN          NaN                 NaN           NaN
+32215                V2X  dynamic_TF_carry  [-1]                  29.35               None     30.15       30.1          30.2        30.2        30.15       0.8    -0.05      0.05        -0.05                 NaN             0
+32216                DAX  dynamic_TF_carry   [1]                  13505               None     13305      13323         13287       13287        13323       200      -18         0          -36                 NaN           -18
+32217             EU-OIL  dynamic_TF_carry  [-1]                  331.9               None    332.05      331.9         332.2       332.2        331.5      0.15    -0.15      -0.4         -0.7                 NaN         -0.55
+32218             SILVER  dynamic_TF_carry   [1]                 21.025               None   21.2975     21.305         21.29         NaN        21.31   -0.2725  -0.0075    -0.005          NaN                 NaN       -0.0125
+32219         GOLD_micro  dynamic_TF_carry   [1]                 1832.2               None   1822.75     1822.8        1822.7         NaN       1822.5      9.45    -0.05       0.3          NaN                 NaN          0.25
+32220            BITCOIN  dynamic_TF_carry   [1]                  23825               None     22390      22405         22375         NaN        22410      1435      -15        -5          NaN                 NaN           -20
+32221                BRE  dynamic_TF_carry   [1]                0.19285               None  0.193025     0.1931       0.19295         NaN       0.1931 -0.000175 -7.5e-05         0          NaN                 NaN      -7.5e-05
+32222                MXP  dynamic_TF_carry  [-1]                0.04795               None  0.047775    0.04777       0.04778         NaN      0.04778 -0.000175   -5e-06     1e-05          NaN                 NaN         5e-06
+32223                EUR  dynamic_TF_carry  [-1]                1.05035               None    1.0513    1.05125       1.05135         NaN       1.0513   0.00095   -5e-05     5e-05          NaN                 NaN             0
+32224             SOYOIL  dynamic_TF_carry  [-1]                  76.43               None    76.215       76.2         76.23         NaN        76.17    -0.215   -0.015     -0.03          NaN                 NaN        -0.045
+32225            LIVECOW  dynamic_TF_carry   [1]                133.725               None   133.712    133.725         133.7         NaN      133.725    0.0125  -0.0125         0          NaN                 NaN       -0.0125
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                       
+32213              MUMMY  dynamic_TF_carry  [-1]         294.889   84.7775    -16.9555            -0              NaN                     NaN          -16.9555
+32214                JPY  dynamic_TF_carry   [1]     0.000698504       NaN         NaN           NaN              NaN                     NaN               NaN
+32215                V2X  dynamic_TF_carry  [-1]         15.4684   517.183    -32.3239       32.3239         -32.3239                     NaN                 0
+32216                DAX  dynamic_TF_carry   [1]         3074.81   650.448    -58.5403             0         -117.081                     NaN          -58.5403
+32217             EU-OIL  dynamic_TF_carry  [-1]         89.4317   16.7726    -16.7726      -44.7269          -78.272                     NaN          -61.4995
+32218             SILVER  dynamic_TF_carry   [1]         7.03649  -387.267    -10.6587      -7.10581              NaN                     NaN          -17.7645
+32219         GOLD_micro  dynamic_TF_carry   [1]         305.129   309.705    -1.63865       9.83192              NaN                     NaN           8.19326
+32220            BITCOIN  dynamic_TF_carry   [1]         25814.3   555.893    -5.81072      -1.93691              NaN                     NaN          -7.74763
+32221                BRE  dynamic_TF_carry   [1]       0.0372947  -46.9236    -20.1101             0              NaN                     NaN          -20.1101
+32222                MXP  dynamic_TF_carry  [-1]      0.00632242  -276.793    -7.90837       15.8167              NaN                     NaN           7.90837
+32223                EUR  dynamic_TF_carry  [-1]       0.0977536   97.1831     -5.1149        5.1149              NaN                     NaN                 0
+32224             SOYOIL  dynamic_TF_carry  [-1]         18.5897  -115.656      -8.069       -16.138              NaN                     NaN           -24.207
+32225            LIVECOW  dynamic_TF_carry   [1]         20.9755   5.95933    -5.95933             0              NaN                     NaN          -5.95933
+
+
+==========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                        
+==========================================================================================================================================================================
+
+         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                  
+32213              MUMMY  dynamic_TF_carry  [-1]              6.18807    15.4702     -3.09404             -0               NaN                      NaN           -3.09404
+32214                JPY  dynamic_TF_carry   [1]           1.0413e+07        NaN          NaN            NaN               NaN                      NaN                NaN
+32215                V2X  dynamic_TF_carry  [-1]               86.763    69.4104     -4.33815        4.33815          -4.33815                      NaN                  0
+32216                DAX  dynamic_TF_carry   [1]              0.86763    173.526     -15.6173              0          -31.2347                      NaN           -15.6173
+32217             EU-OIL  dynamic_TF_carry  [-1]              43.3815    6.50723     -6.50723       -17.3526          -30.3671                      NaN           -23.8598
+32218             SILVER  dynamic_TF_carry   [1]              833.038   -227.003     -6.24779       -4.16519               NaN                      NaN            -10.413
+32219         GOLD_micro  dynamic_TF_carry   [1]              8.33038    78.7221    -0.416519        2.49911               NaN                      NaN             2.0826
+32220            BITCOIN  dynamic_TF_carry   [1]            0.0833038    119.541     -1.24956      -0.416519               NaN                      NaN           -1.66608
+32221                BRE  dynamic_TF_carry   [1]              83303.8   -14.5782     -6.24779              0               NaN                      NaN           -6.24779
+32222                MXP  dynamic_TF_carry  [-1]               416519   -72.8909      -2.0826        4.16519               NaN                      NaN             2.0826
+32223                EUR  dynamic_TF_carry  [-1]               104130    98.9233     -5.20649        5.20649               NaN                      NaN                  0
+32224             SOYOIL  dynamic_TF_carry  [-1]              499.823   -107.462     -7.49734       -14.9947               NaN                      NaN            -22.492
+32225            LIVECOW  dynamic_TF_carry   [1]              333.215    4.16519     -4.16519              0               NaN                      NaN           -4.16519
 
 delay_cash Sum
-                                       delay_cash
-strategy_name         instrument_code            
-_ROLL_PSEUDO_STRATEGY EU-BASIC         -70.874320
-                      EU-OIL            73.022027
-                      V2X               57.988080
-dynamic_TF_carry      BITCOIN         -478.447210
-                      DAX             -227.656907
-                      GAS_US_mini      -46.361164
-                      SILVER          -298.771944
-                      WHEAT           -226.654578
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry BITCOIN          119.540996
+                 BRE              -14.578170
+                 DAX              173.526043
+                 EU-OIL             6.507227
+                 EUR               98.923298
+                 GOLD_micro        78.722119
+                 JPY                0.000000
+                 LIVECOW            4.165191
+                 MUMMY             15.470181
+                 MXP              -72.890851
+                 SILVER          -227.002936
+                 SOYOIL          -107.461941
+                 V2X               69.410417
 delay_cash Total Sum
-                        delay_cash
-strategy_name                     
-_ROLL_PSEUDO_STRATEGY    60.135787
-dynamic_TF_carry      -1277.891803
+                  delay_cash
+strategy_name               
+dynamic_TF_carry  144.331574
 bid_ask_cash Sum
-                                       bid_ask_cash
-strategy_name         instrument_code              
-_ROLL_PSEUDO_STRATEGY EU-BASIC            -2.147707
-                      EU-OIL              -4.295413
-                      V2X                -10.738533
-dynamic_TF_carry      BITCOIN             -3.708893
-                      DAX                -17.181653
-                      GAS_US_mini         -5.151240
-                      SILVER              -6.181489
-                      WHEAT              -20.604962
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry BITCOIN             -1.249557
+                 BRE                 -6.247787
+                 DAX                -15.617344
+                 EU-OIL              -6.507227
+                 EUR                 -5.206489
+                 GOLD_micro          -0.416519
+                 JPY                  0.000000
+                 LIVECOW             -4.165191
+                 MUMMY               -3.094036
+                 MXP                 -2.082596
+                 SILVER              -6.247787
+                 SOYOIL              -7.497345
+                 V2X                 -4.338151
 bid_ask_cash Total Sum
-                       bid_ask_cash
-strategy_name                      
-_ROLL_PSEUDO_STRATEGY    -17.181653
-dynamic_TF_carry         -52.828237
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry     -62.67003
 execution_cash Sum
-                                       execution_cash
-strategy_name         instrument_code                
-_ROLL_PSEUDO_STRATEGY EU-BASIC          -0.000000e+00
-                      EU-OIL             2.937622e-12
-                      V2X               -1.824092e-13
-dynamic_TF_carry      BITCOIN            4.533092e+00
-                      DAX                8.590827e+00
-                      GAS_US_mini       -2.060496e+01
-                      SILVER            -0.000000e+00
-                      WHEAT              0.000000e+00
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry BITCOIN               -0.416519
+                 BRE                    0.000000
+                 DAX                    0.000000
+                 EU-OIL               -17.352604
+                 EUR                    5.206489
+                 GOLD_micro             2.499115
+                 JPY                    0.000000
+                 LIVECOW                0.000000
+                 MUMMY                 -0.000000
+                 MXP                    4.165191
+                 SILVER                -4.165191
+                 SOYOIL               -14.994689
+                 V2X                    4.338151
 execution_cash Total Sum
-                       execution_cash
-strategy_name                        
-_ROLL_PSEUDO_STRATEGY    2.755213e-12
-dynamic_TF_carry        -7.481043e+00
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry      -20.720057
 versus_limit_cash Sum
-                                       versus_limit_cash
-strategy_name         instrument_code                   
-_ROLL_PSEUDO_STRATEGY EU-BASIC                 -4.295413
-                      EU-OIL                   -8.590827
-                      V2X                     -21.477067
-dynamic_TF_carry      BITCOIN                   0.000000
-                      DAX                     -25.772480
-                      GAS_US_mini               0.000000
-                      SILVER                    0.000000
-                      WHEAT                     0.000000
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry BITCOIN                   0.000000
+                 BRE                       0.000000
+                 DAX                     -31.234688
+                 EU-OIL                  -30.367058
+                 EUR                       0.000000
+                 GOLD_micro                0.000000
+                 JPY                       0.000000
+                 LIVECOW                   0.000000
+                 MUMMY                     0.000000
+                 MXP                       0.000000
+                 SILVER                    0.000000
+                 SOYOIL                    0.000000
+                 V2X                      -4.338151
 versus_limit_cash Total Sum
-                       versus_limit_cash
-strategy_name                           
-_ROLL_PSEUDO_STRATEGY         -34.363307
-dynamic_TF_carry              -25.772480
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry         -65.939896
 versus_parent_limit_cash Sum
-                                       versus_parent_limit_cash
-strategy_name         instrument_code                          
-_ROLL_PSEUDO_STRATEGY EU-BASIC                                0
-                      EU-OIL                                  0
-                      V2X                                     0
-dynamic_TF_carry      BITCOIN                                 0
-                      DAX                                     0
-                      GAS_US_mini                             0
-                      SILVER                                  0
-                      WHEAT                                   0
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry BITCOIN                                 0
+                 BRE                                     0
+                 DAX                                     0
+                 EU-OIL                                  0
+                 EUR                                     0
+                 GOLD_micro                              0
+                 JPY                                     0
+                 LIVECOW                                 0
+                 MUMMY                                   0
+                 MXP                                     0
+                 SILVER                                  0
+                 SOYOIL                                  0
+                 V2X                                     0
 versus_parent_limit_cash Total Sum
-                       versus_parent_limit_cash
-strategy_name                                  
-_ROLL_PSEUDO_STRATEGY                         0
-dynamic_TF_carry                              0
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
 total_trading_cash Sum
-                                       total_trading_cash
-strategy_name         instrument_code                    
-_ROLL_PSEUDO_STRATEGY EU-BASIC                  -2.147707
-                      EU-OIL                    -4.295413
-                      V2X                      -10.738533
-dynamic_TF_carry      BITCOIN                    0.824198
-                      DAX                       -8.590827
-                      GAS_US_mini              -25.756202
-                      SILVER                    -6.181489
-                      WHEAT                    -20.604962
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry BITCOIN                   -1.666077
+                 BRE                       -6.247787
+                 DAX                      -15.617344
+                 EU-OIL                   -23.859831
+                 EUR                        0.000000
+                 GOLD_micro                 2.082596
+                 JPY                        0.000000
+                 LIVECOW                   -4.165191
+                 MUMMY                     -3.094036
+                 MXP                        2.082596
+                 SILVER                   -10.412979
+                 SOYOIL                   -22.492034
+                 V2X                        0.000000
 total_trading_cash Total Sum
-                       total_trading_cash
-strategy_name                            
-_ROLL_PSEUDO_STRATEGY          -17.181653
-dynamic_TF_carry               -60.309280
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry          -83.390088
 
 ********************************************************************************
                                  END OF REPORT                                  
