@@ -1,15 +1,173 @@
 
 ********************************************************************************
-Trades report report produced on 18/06/2022 10:07 from 17/06/2022 10:07 to 18/06/2022 10:07
+Trades report report produced on 20/06/2022 20:59 from 19/06/2022 20:59 to 20/06/2022 20:59
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+===================================================================================================================
+                                                   Broker orders                                                   
+===================================================================================================================
+
+         instrument_code          strategy_name         contract_date           fill_datetime    fill  filled_price
+order_id                                                                                                           
+32245                DOW       dynamic_TF_carry            [20220900] 2022-06-20 15:00:30.000    [-1]  30080.000000
+32244        GAS_US_mini       dynamic_TF_carry            [20220800] 2022-06-20 14:00:26.000    [-1]      6.680000
+32246                JPY       dynamic_TF_carry            [20220900] 2022-06-20 15:01:27.000     [1]      0.007451
+32240             KOSDAQ       dynamic_TF_carry            [20220900] 2022-06-20 02:00:28.000    [-1]   1114.800000
+32241               KR10  _ROLL_PSEUDO_STRATEGY  [20220600, 20220900] 2022-06-20 19:31:00.531  [0, 0]           NaN
+32242               KR10  _ROLL_PSEUDO_STRATEGY  [20220600, 20220900] 2022-06-20 19:31:00.547  [0, 0]           NaN
+32243               KR10  _ROLL_PSEUDO_STRATEGY  [20220600, 20220900] 2022-06-20 19:31:00.563  [0, 0]           NaN
+32247            RUSSELL       dynamic_TF_carry            [20220900] 2022-06-20 15:02:23.000    [-1]   1678.300000
+
+
+================================================================================================================================================================
+                                                                             Delays                                                                             
+================================================================================================================================================================
+
+         instrument_code          strategy_name parent_reference_datetime     submit_datetime           fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                                        
+32240             KOSDAQ       dynamic_TF_carry       2022-06-17 00:00:00 2022-06-20 02:00:28 2022-06-20 02:00:28.000                 266428                   0
+32244        GAS_US_mini       dynamic_TF_carry       2022-06-17 00:00:00 2022-06-20 14:00:27 2022-06-20 14:00:26.000                 309627                 NaN
+32245                DOW       dynamic_TF_carry       2022-06-17 00:00:00 2022-06-20 15:00:35 2022-06-20 15:00:30.000                 313235                 NaN
+32246                JPY       dynamic_TF_carry       2022-06-17 00:00:00 2022-06-20 15:01:31 2022-06-20 15:01:27.000                 313291                 NaN
+32247            RUSSELL       dynamic_TF_carry       2022-06-17 00:00:00 2022-06-20 15:02:24 2022-06-20 15:02:23.000                 313344                 NaN
+32241               KR10  _ROLL_PSEUDO_STRATEGY       2022-06-17 07:00:00 2022-06-20 02:01:13 2022-06-20 19:31:00.531                 241273             62987.5
+32242               KR10  _ROLL_PSEUDO_STRATEGY       2022-06-17 07:00:00 2022-06-20 02:13:50 2022-06-20 19:31:00.547                 242030             62230.5
+32243               KR10  _ROLL_PSEUDO_STRATEGY       2022-06-17 07:00:00 2022-06-20 02:24:50 2022-06-20 19:31:00.563                 242690             61570.6
+
+
+============================================================================================================================================================================================================================================
+                                                                                                          Slippage (ticks per lot)                                                                                                          
+============================================================================================================================================================================================================================================
+
+         instrument_code          strategy_name    trade parent_reference_price parent_limit_price   mid_price side_price offside_price limit_price filled_price     delay  bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                                    
+32240             KOSDAQ       dynamic_TF_carry     [-1]                 1127.3               None      1114.8     1114.7        1114.9        None       1114.8     -12.5     -0.1       0.1          NaN                 NaN  -2.27374e-13
+32244        GAS_US_mini       dynamic_TF_carry     [-1]                   6.95               None      6.6875       6.68         6.695        None         6.68   -0.2625  -0.0075        -0          NaN                 NaN       -0.0075
+32245                DOW       dynamic_TF_carry     [-1]                  29888               None       30079      30078         30080        None        30080       191       -1         2          NaN                 NaN             1
+32246                JPY       dynamic_TF_carry      [1]               0.007455               None  0.00745025  0.0074505       0.00745        None     0.007451  4.75e-06 -2.5e-07    -5e-07          NaN                 NaN      -7.5e-07
+32247            RUSSELL       dynamic_TF_carry     [-1]                 1669.5               None     1678.25     1678.2        1678.3        None       1678.3      8.75    -0.05       0.1          NaN                 NaN          0.05
+32241               KR10  _ROLL_PSEUDO_STRATEGY  [1, -1]                   0.52               None       0.515       0.52          0.51        None          NaN     0.005   -0.005       NaN          NaN                 NaN           NaN
+32242               KR10  _ROLL_PSEUDO_STRATEGY  [1, -1]                   0.52               None       0.515       0.52          0.51        None          NaN     0.005   -0.005       NaN          NaN                 NaN           NaN
+32243               KR10  _ROLL_PSEUDO_STRATEGY  [1, -1]                   0.52               None       0.515       0.52          0.51        None          NaN     0.005   -0.005       NaN          NaN                 NaN           NaN
+
+
+=======================================================================================================================================================================
+                                                         Slippage (normalised by annual vol, BP of annual SR)                                                          
+=======================================================================================================================================================================
+
+         instrument_code          strategy_name    trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                               
+32240             KOSDAQ       dynamic_TF_carry     [-1]         355.345  -351.771    -2.81417       2.81417              NaN                     NaN      -6.39868e-12
+32244        GAS_US_mini       dynamic_TF_carry     [-1]         6.21847   -422.13    -12.0608            -0              NaN                     NaN          -12.0608
+32245                DOW       dynamic_TF_carry     [-1]         6931.56   275.551    -1.44268       2.88536              NaN                     NaN           1.44268
+32246                JPY       dynamic_TF_carry      [1]     0.000877563   54.1271     -2.8488      -5.69759              NaN                     NaN          -8.54639
+32247            RUSSELL       dynamic_TF_carry     [-1]         591.795   147.855   -0.844886       1.68977              NaN                     NaN          0.844886
+32241               KR10  _ROLL_PSEUDO_STRATEGY  [1, -1]          8.7415   5.71984    -5.71984           NaN              NaN                     NaN               NaN
+32242               KR10  _ROLL_PSEUDO_STRATEGY  [1, -1]          8.7415   5.71984    -5.71984           NaN              NaN                     NaN               NaN
+32243               KR10  _ROLL_PSEUDO_STRATEGY  [1, -1]          8.7415   5.71984    -5.71984           NaN              NaN                     NaN               NaN
+
+
+==================================================================================================================================================================================
+                                                                           Slippage (In base currency)                                                                            
+==================================================================================================================================================================================
+
+         instrument_code          strategy_name    trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                          
+32240             KOSDAQ       dynamic_TF_carry     [-1]              6.30963   -78.8703    -0.630963       0.630963               NaN                      NaN       -1.43464e-12
+32244        GAS_US_mini       dynamic_TF_carry     [-1]              2040.23   -535.561     -15.3018             -0               NaN                      NaN           -15.3018
+32245                DOW       dynamic_TF_carry     [-1]             0.408047    77.9369    -0.408047       0.816093               NaN                      NaN           0.408047
+32246                JPY       dynamic_TF_carry      [1]          1.02012e+07    48.4555     -2.55029       -5.10058               NaN                      NaN           -7.65088
+32247            RUSSELL       dynamic_TF_carry     [-1]              4.08047    35.7041    -0.204023       0.408047               NaN                      NaN           0.204023
+32241               KR10  _ROLL_PSEUDO_STRATEGY  [1, -1]              630.963    3.15481     -3.15481            NaN               NaN                      NaN                NaN
+32242               KR10  _ROLL_PSEUDO_STRATEGY  [1, -1]              630.963    3.15481     -3.15481            NaN               NaN                      NaN                NaN
+32243               KR10  _ROLL_PSEUDO_STRATEGY  [1, -1]              630.963    3.15481     -3.15481            NaN               NaN                      NaN                NaN
+
+delay_cash Sum
+                                       delay_cash
+strategy_name         instrument_code            
+_ROLL_PSEUDO_STRATEGY KR10               9.464439
+dynamic_TF_carry      DOW               77.936916
+                      GAS_US_mini     -535.561268
+                      JPY               48.455543
+                      KOSDAQ           -78.870323
+                      RUSSELL           35.704085
+delay_cash Total Sum
+                       delay_cash
+strategy_name                    
+_ROLL_PSEUDO_STRATEGY    9.464439
+dynamic_TF_carry      -452.335047
+bid_ask_cash Sum
+                                       bid_ask_cash
+strategy_name         instrument_code              
+_ROLL_PSEUDO_STRATEGY KR10                -9.464439
+dynamic_TF_carry      DOW                 -0.408047
+                      GAS_US_mini        -15.301751
+                      JPY                 -2.550292
+                      KOSDAQ              -0.630963
+                      RUSSELL             -0.204023
+bid_ask_cash Total Sum
+                       bid_ask_cash
+strategy_name                      
+_ROLL_PSEUDO_STRATEGY     -9.464439
+dynamic_TF_carry         -19.095075
+execution_cash Sum
+                                       execution_cash
+strategy_name         instrument_code                
+_ROLL_PSEUDO_STRATEGY KR10                   0.000000
+dynamic_TF_carry      DOW                    0.816093
+                      GAS_US_mini           -0.000000
+                      JPY                   -5.100584
+                      KOSDAQ                 0.630963
+                      RUSSELL                0.408047
+execution_cash Total Sum
+                       execution_cash
+strategy_name                        
+_ROLL_PSEUDO_STRATEGY        0.000000
+dynamic_TF_carry            -3.245481
+versus_limit_cash Sum
+                                       versus_limit_cash
+strategy_name         instrument_code                   
+_ROLL_PSEUDO_STRATEGY KR10                             0
+dynamic_TF_carry      DOW                              0
+                      GAS_US_mini                      0
+                      JPY                              0
+                      KOSDAQ                           0
+                      RUSSELL                          0
+versus_limit_cash Total Sum
+                       versus_limit_cash
+strategy_name                           
+_ROLL_PSEUDO_STRATEGY                  0
+dynamic_TF_carry                       0
+versus_parent_limit_cash Sum
+                                       versus_parent_limit_cash
+strategy_name         instrument_code                          
+_ROLL_PSEUDO_STRATEGY KR10                                    0
+dynamic_TF_carry      DOW                                     0
+                      GAS_US_mini                             0
+                      JPY                                     0
+                      KOSDAQ                                  0
+                      RUSSELL                                 0
+versus_parent_limit_cash Total Sum
+                       versus_parent_limit_cash
+strategy_name                                  
+_ROLL_PSEUDO_STRATEGY                         0
+dynamic_TF_carry                              0
+total_trading_cash Sum
+                                       total_trading_cash
+strategy_name         instrument_code                    
+_ROLL_PSEUDO_STRATEGY KR10                   0.000000e+00
+dynamic_TF_carry      DOW                    4.080467e-01
+                      GAS_US_mini           -1.530175e+01
+                      JPY                   -7.650875e+00
+                      KOSDAQ                -1.434643e-12
+                      RUSSELL                2.040233e-01
+total_trading_cash Total Sum
+                       total_trading_cash
+strategy_name                            
+_ROLL_PSEUDO_STRATEGY            0.000000
+dynamic_TF_carry               -22.340556
 
 ********************************************************************************
                                  END OF REPORT                                  
