@@ -1,15 +1,113 @@
 
 ********************************************************************************
-Trades report report produced on 08/07/2022 21:01 from 07/07/2022 21:01 to 08/07/2022 21:01
+Trades report report produced on 11/07/2022 21:00 from 10/07/2022 21:00 to 11/07/2022 21:00
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+================================================================================================================
+                                                 Broker orders                                                  
+================================================================================================================
+
+         instrument_code          strategy_name         contract_date       fill_datetime     fill  filled_price
+order_id                                                                                                        
+32264       CRUDE_W_mini  _ROLL_PSEUDO_STRATEGY  [20220900, 20221000] 2022-07-11 14:01:37  [-1, 1]         3.000
+32263             SILVER  _ROLL_PSEUDO_STRATEGY  [20220800, 20220900] 2022-07-11 14:00:38  [1, -1]        -0.053
+
+
+============================================================================================================================================================
+                                                                           Delays                                                                           
+============================================================================================================================================================
+
+         instrument_code          strategy_name parent_reference_datetime     submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                                    
+32263             SILVER  _ROLL_PSEUDO_STRATEGY       2022-07-08 17:00:00 2022-07-11 14:00:40 2022-07-11 14:00:38                 248440                 NaN
+32264       CRUDE_W_mini  _ROLL_PSEUDO_STRATEGY       2022-07-08 18:00:00 2022-07-11 14:01:39 2022-07-11 14:01:37                 244899                 NaN
+
+
+==========================================================================================================================================================================================================================================
+                                                                                                         Slippage (ticks per lot)                                                                                                         
+==========================================================================================================================================================================================================================================
+
+         instrument_code          strategy_name    trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask    execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                                  
+32263             SILVER  _ROLL_PSEUDO_STRATEGY  [1, -1]                 -0.075               None   -0.0535     -0.053        -0.054        None       -0.053 -0.0215 -0.0005  8.25728e-16          NaN                 NaN       -0.0005
+32264       CRUDE_W_mini  _ROLL_PSEUDO_STRATEGY  [-1, 1]                    3.4               None     3.025          3          3.05        None            3  -0.375  -0.025           -0          NaN                 NaN        -0.025
+
+
+=======================================================================================================================================================================
+                                                         Slippage (normalised by annual vol, BP of annual SR)                                                          
+=======================================================================================================================================================================
+
+         instrument_code          strategy_name    trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                               
+32263             SILVER  _ROLL_PSEUDO_STRATEGY  [1, -1]         6.15255  -34.9449   -0.812671   1.34209e-12              NaN                     NaN         -0.812671
+32264       CRUDE_W_mini  _ROLL_PSEUDO_STRATEGY  [-1, 1]         39.7126  -94.4285    -6.29523            -0              NaN                     NaN          -6.29523
+
+
+==================================================================================================================================================================================
+                                                                           Slippage (In base currency)                                                                            
+==================================================================================================================================================================================
+
+         instrument_code          strategy_name    trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                          
+32263             SILVER  _ROLL_PSEUDO_STRATEGY  [1, -1]              841.379   -18.0896     -0.42069    6.94751e-13               NaN                      NaN           -0.42069
+32264       CRUDE_W_mini  _ROLL_PSEUDO_STRATEGY  [-1, 1]               420.69   -157.759     -10.5172             -0               NaN                      NaN           -10.5172
+
+delay_cash Sum
+                                       delay_cash
+strategy_name         instrument_code            
+_ROLL_PSEUDO_STRATEGY CRUDE_W_mini    -157.758566
+                      SILVER           -18.089649
+delay_cash Total Sum
+                       delay_cash
+strategy_name                    
+_ROLL_PSEUDO_STRATEGY -175.848215
+bid_ask_cash Sum
+                                       bid_ask_cash
+strategy_name         instrument_code              
+_ROLL_PSEUDO_STRATEGY CRUDE_W_mini       -10.517238
+                      SILVER              -0.420690
+bid_ask_cash Total Sum
+                       bid_ask_cash
+strategy_name                      
+_ROLL_PSEUDO_STRATEGY    -10.937927
+execution_cash Sum
+                                       execution_cash
+strategy_name         instrument_code                
+_ROLL_PSEUDO_STRATEGY CRUDE_W_mini      -0.000000e+00
+                      SILVER             6.947505e-13
+execution_cash Total Sum
+                       execution_cash
+strategy_name                        
+_ROLL_PSEUDO_STRATEGY    6.947505e-13
+versus_limit_cash Sum
+                                       versus_limit_cash
+strategy_name         instrument_code                   
+_ROLL_PSEUDO_STRATEGY CRUDE_W_mini                     0
+                      SILVER                           0
+versus_limit_cash Total Sum
+                       versus_limit_cash
+strategy_name                           
+_ROLL_PSEUDO_STRATEGY                  0
+versus_parent_limit_cash Sum
+                                       versus_parent_limit_cash
+strategy_name         instrument_code                          
+_ROLL_PSEUDO_STRATEGY CRUDE_W_mini                            0
+                      SILVER                                  0
+versus_parent_limit_cash Total Sum
+                       versus_parent_limit_cash
+strategy_name                                  
+_ROLL_PSEUDO_STRATEGY                         0
+total_trading_cash Sum
+                                       total_trading_cash
+strategy_name         instrument_code                    
+_ROLL_PSEUDO_STRATEGY CRUDE_W_mini             -10.517238
+                      SILVER                    -0.420690
+total_trading_cash Total Sum
+                       total_trading_cash
+strategy_name                            
+_ROLL_PSEUDO_STRATEGY          -10.937927
 
 ********************************************************************************
                                  END OF REPORT                                  
