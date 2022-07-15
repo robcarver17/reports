@@ -1,15 +1,124 @@
 
 ********************************************************************************
-Trades report report produced on 14/07/2022 20:59 from 13/07/2022 20:59 to 14/07/2022 20:59
+Trades report report produced on 15/07/2022 20:59 from 14/07/2022 20:59 to 15/07/2022 20:59
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+================================================================================================
+                                         Broker orders                                          
+================================================================================================
+
+         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+order_id                                                                                        
+32270       CRUDE_W_mini  dynamic_TF_carry    [20221000] 2022-07-15 14:00:25  [-1]        92.725
+32271             SILVER  dynamic_TF_carry    [20220900] 2022-07-15 14:01:15   [1]        18.595
+32272        SP500_micro  dynamic_TF_carry    [20220900] 2022-07-15 15:00:29  [-1]      3850.000
+
+
+=======================================================================================================================================================
+                                                                        Delays                                                                         
+=======================================================================================================================================================
+
+         instrument_code     strategy_name parent_reference_datetime     submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                               
+32270       CRUDE_W_mini  dynamic_TF_carry                2022-07-14 2022-07-15 14:00:25 2022-07-15 14:00:25                 136825                   0
+32271             SILVER  dynamic_TF_carry                2022-07-14 2022-07-15 14:01:16 2022-07-15 14:01:15                 136876                 NaN
+32272        SP500_micro  dynamic_TF_carry                2022-07-14 2022-07-15 15:00:30 2022-07-15 15:00:29                 140430                 NaN
+
+
+===============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                    
+===============================================================================================================================================================================================================================
+
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                       
+32270       CRUDE_W_mini  dynamic_TF_carry  [-1]                   89.5               None   92.7125     92.675         92.75        None       92.725  3.2125 -0.0375      0.05          NaN                 NaN        0.0125
+32271             SILVER  dynamic_TF_carry   [1]                  18.37               None    18.585      18.59         18.58        None       18.595  -0.215  -0.005    -0.005          NaN                 NaN         -0.01
+32272        SP500_micro  dynamic_TF_carry  [-1]                3792.75               None      3851     3850.5        3851.5        None         3850   58.25    -0.5      -0.5          NaN                 NaN            -1
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                       
+32270       CRUDE_W_mini  dynamic_TF_carry  [-1]         42.8536   749.645    -8.75072       11.6676              NaN                     NaN           2.91691
+32271             SILVER  dynamic_TF_carry   [1]         6.58211  -326.643    -7.59635      -7.59635              NaN                     NaN          -15.1927
+32272        SP500_micro  dynamic_TF_carry  [-1]         870.267   669.335    -5.74536      -5.74536              NaN                     NaN          -11.4907
+
+
+==========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                        
+==========================================================================================================================================================================
+
+         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                  
+32270       CRUDE_W_mini  dynamic_TF_carry  [-1]              421.941    1355.49     -15.8228         21.097               NaN                      NaN            5.27426
+32271             SILVER  dynamic_TF_carry   [1]              843.882   -181.435     -4.21941       -4.21941               NaN                      NaN           -8.43882
+32272        SP500_micro  dynamic_TF_carry  [-1]              4.21941    245.781      -2.1097        -2.1097               NaN                      NaN           -4.21941
+
+delay_cash Sum
+                                   delay_cash
+strategy_name    instrument_code             
+dynamic_TF_carry CRUDE_W_mini     1355.485232
+                 SILVER           -181.434599
+                 SP500_micro       245.780591
+delay_cash Total Sum
+                   delay_cash
+strategy_name                
+dynamic_TF_carry  1419.831224
+bid_ask_cash Sum
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry CRUDE_W_mini       -15.822785
+                 SILVER              -4.219409
+                 SP500_micro         -2.109705
+bid_ask_cash Total Sum
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry    -22.151899
+execution_cash Sum
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry CRUDE_W_mini          21.097046
+                 SILVER                -4.219409
+                 SP500_micro           -2.109705
+execution_cash Total Sum
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry       14.767932
+versus_limit_cash Sum
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry CRUDE_W_mini                     0
+                 SILVER                           0
+                 SP500_micro                      0
+versus_limit_cash Total Sum
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry                  0
+versus_parent_limit_cash Sum
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry CRUDE_W_mini                            0
+                 SILVER                                  0
+                 SP500_micro                             0
+versus_parent_limit_cash Total Sum
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
+total_trading_cash Sum
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry CRUDE_W_mini               5.274262
+                 SILVER                    -8.438819
+                 SP500_micro               -4.219409
+total_trading_cash Total Sum
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry           -7.383966
 
 ********************************************************************************
                                  END OF REPORT                                  
