@@ -1,15 +1,102 @@
 
 ********************************************************************************
-Trades report report produced on 18/07/2022 20:59 from 17/07/2022 20:59 to 18/07/2022 20:59
+Trades report report produced on 19/07/2022 20:59 from 18/07/2022 20:59 to 19/07/2022 20:59
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+================================================================================================================
+                                                 Broker orders                                                  
+================================================================================================================
+
+         instrument_code          strategy_name         contract_date       fill_datetime     fill  filled_price
+order_id                                                                                                        
+32273                BRE  _ROLL_PSEUDO_STRATEGY  [20220800, 20220900] 2022-07-19 15:00:27  [-1, 1]        0.0016
+
+
+============================================================================================================================================================
+                                                                           Delays                                                                           
+============================================================================================================================================================
+
+         instrument_code          strategy_name parent_reference_datetime     submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                                    
+32273                BRE  _ROLL_PSEUDO_STRATEGY       2022-07-18 17:00:00 2022-07-19 15:00:26 2022-07-19 15:00:27                  79226                   1
+
+
+============================================================================================================================================================================================================================================
+                                                                                                          Slippage (ticks per lot)                                                                                                          
+============================================================================================================================================================================================================================================
+
+         instrument_code          strategy_name    trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay  bid_ask    execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                                    
+32273                BRE  _ROLL_PSEUDO_STRATEGY  [-1, 1]                0.00165               None  0.001625     0.0016       0.00165        None       0.0016 -2.5e-05 -2.5e-05 -9.75782e-18          NaN                 NaN      -2.5e-05
+
+
+=======================================================================================================================================================================
+                                                         Slippage (normalised by annual vol, BP of annual SR)                                                          
+=======================================================================================================================================================================
+
+         instrument_code          strategy_name    trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                               
+32273                BRE  _ROLL_PSEUDO_STRATEGY  [-1, 1]       0.0337512  -7.40714    -7.40714   -2.8911e-12              NaN                     NaN          -7.40714
+
+
+==================================================================================================================================================================================
+                                                                           Slippage (In base currency)                                                                            
+==================================================================================================================================================================================
+
+         instrument_code          strategy_name    trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                          
+32273                BRE  _ROLL_PSEUDO_STRATEGY  [-1, 1]              83115.2   -2.07788     -2.07788   -8.11023e-13               NaN                      NaN           -2.07788
+
+delay_cash Sum
+                                       delay_cash
+strategy_name         instrument_code            
+_ROLL_PSEUDO_STRATEGY BRE               -2.077879
+delay_cash Total Sum
+                       delay_cash
+strategy_name                    
+_ROLL_PSEUDO_STRATEGY   -2.077879
+bid_ask_cash Sum
+                                       bid_ask_cash
+strategy_name         instrument_code              
+_ROLL_PSEUDO_STRATEGY BRE                 -2.077879
+bid_ask_cash Total Sum
+                       bid_ask_cash
+strategy_name                      
+_ROLL_PSEUDO_STRATEGY     -2.077879
+execution_cash Sum
+                                       execution_cash
+strategy_name         instrument_code                
+_ROLL_PSEUDO_STRATEGY BRE               -8.110227e-13
+execution_cash Total Sum
+                       execution_cash
+strategy_name                        
+_ROLL_PSEUDO_STRATEGY   -8.110227e-13
+versus_limit_cash Sum
+                                       versus_limit_cash
+strategy_name         instrument_code                   
+_ROLL_PSEUDO_STRATEGY BRE                              0
+versus_limit_cash Total Sum
+                       versus_limit_cash
+strategy_name                           
+_ROLL_PSEUDO_STRATEGY                  0
+versus_parent_limit_cash Sum
+                                       versus_parent_limit_cash
+strategy_name         instrument_code                          
+_ROLL_PSEUDO_STRATEGY BRE                                     0
+versus_parent_limit_cash Total Sum
+                       versus_parent_limit_cash
+strategy_name                                  
+_ROLL_PSEUDO_STRATEGY                         0
+total_trading_cash Sum
+                                       total_trading_cash
+strategy_name         instrument_code                    
+_ROLL_PSEUDO_STRATEGY BRE                       -2.077879
+total_trading_cash Total Sum
+                       total_trading_cash
+strategy_name                            
+_ROLL_PSEUDO_STRATEGY           -2.077879
 
 ********************************************************************************
                                  END OF REPORT                                  
