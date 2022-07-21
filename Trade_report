@@ -1,15 +1,135 @@
 
 ********************************************************************************
-Trades report report produced on 20/07/2022 20:59 from 19/07/2022 20:59 to 20/07/2022 20:59
+Trades report report produced on 21/07/2022 20:59 from 20/07/2022 20:59 to 21/07/2022 20:59
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+================================================================================================
+                                         Broker orders                                          
+================================================================================================
+
+         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+order_id                                                                                        
+32275         GOLD_micro  dynamic_TF_carry    [20221000] 2022-07-21 14:00:28  [-1]       1713.20
+32274               KR10  dynamic_TF_carry    [20220900] 2022-07-21 02:00:32   [1]        113.55
+32277            LEANHOG  dynamic_TF_carry    [20221000] 2022-07-21 15:30:27   [1]         96.75
+32276        SP500_micro  dynamic_TF_carry    [20220900] 2022-07-21 15:00:27   [1]       3965.25
+
+
+=======================================================================================================================================================
+                                                                        Delays                                                                         
+=======================================================================================================================================================
+
+         instrument_code     strategy_name parent_reference_datetime     submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                               
+32274               KR10  dynamic_TF_carry                2022-07-20 2022-07-21 02:00:32 2022-07-21 02:00:32                  93632                   0
+32275         GOLD_micro  dynamic_TF_carry                2022-07-20 2022-07-21 14:00:28 2022-07-21 14:00:28                 136828                   0
+32276        SP500_micro  dynamic_TF_carry                2022-07-20 2022-07-21 15:00:28 2022-07-21 15:00:27                 140428                 NaN
+32277            LEANHOG  dynamic_TF_carry                2022-07-20 2022-07-21 15:30:28 2022-07-21 15:30:27                 142228                 NaN
+
+
+==============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                   
+==============================================================================================================================================================================================================================
+
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                      
+32274               KR10  dynamic_TF_carry   [1]                 113.37               None   113.535     113.54        113.53        None       113.55 -0.165  -0.005     -0.01          NaN                 NaN        -0.015
+32275         GOLD_micro  dynamic_TF_carry  [-1]                 1708.6               None   1713.55     1713.4        1713.7        None       1713.2   4.95   -0.15      -0.2          NaN                 NaN         -0.35
+32276        SP500_micro  dynamic_TF_carry   [1]                3955.25               None   3964.12    3964.25          3964        None      3965.25 -8.875  -0.125        -1          NaN                 NaN        -1.125
+32277            LEANHOG  dynamic_TF_carry   [1]                 95.975               None    96.725      96.75          96.7        None        96.75  -0.75  -0.025         0          NaN                 NaN        -0.025
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                       
+32274               KR10  dynamic_TF_carry   [1]         8.76499  -188.249    -5.70451       -11.409              NaN                     NaN          -17.1135
+32275         GOLD_micro  dynamic_TF_carry  [-1]         253.404    195.34    -5.91939      -7.89252              NaN                     NaN          -13.8119
+32276        SP500_micro  dynamic_TF_carry   [1]         874.247  -101.516     -1.4298      -11.4384              NaN                     NaN          -12.8682
+32277            LEANHOG  dynamic_TF_carry   [1]         22.2869   -336.52    -11.2173             0              NaN                     NaN          -11.2173
+
+
+==========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                        
+==========================================================================================================================================================================
+
+         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                  
+32274               KR10  dynamic_TF_carry   [1]              637.265   -105.149     -3.18633       -6.37265               NaN                      NaN           -9.55898
+32275         GOLD_micro  dynamic_TF_carry  [-1]              8.36855    41.4243     -1.25528       -1.67371               NaN                      NaN           -2.92899
+32276        SP500_micro  dynamic_TF_carry   [1]              4.18428   -37.1354    -0.523034       -4.18428               NaN                      NaN           -4.70731
+32277            LEANHOG  dynamic_TF_carry   [1]              334.742   -251.057     -8.36855              0               NaN                      NaN           -8.36855
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry GOLD_micro        41.424327
+                 KR10            -105.148751
+                 LEANHOG         -251.056530
+                 SP500_micro      -37.135445
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -351.916398
+bid_ask_cash Sum
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry GOLD_micro          -1.255283
+                 KR10                -3.186326
+                 LEANHOG             -8.368551
+                 SP500_micro         -0.523034
+bid_ask_cash Total Sum
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry    -13.333194
+execution_cash Sum
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry GOLD_micro            -1.673710
+                 KR10                  -6.372652
+                 LEANHOG                0.000000
+                 SP500_micro           -4.184275
+execution_cash Total Sum
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry      -12.230637
+versus_limit_cash Sum
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry GOLD_micro                       0
+                 KR10                             0
+                 LEANHOG                          0
+                 SP500_micro                      0
+versus_limit_cash Total Sum
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry                  0
+versus_parent_limit_cash Sum
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry GOLD_micro                              0
+                 KR10                                    0
+                 LEANHOG                                 0
+                 SP500_micro                             0
+versus_parent_limit_cash Total Sum
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
+total_trading_cash Sum
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry GOLD_micro                -2.928993
+                 KR10                      -9.558977
+                 LEANHOG                   -8.368551
+                 SP500_micro               -4.707310
+total_trading_cash Total Sum
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry          -25.563831
 
 ********************************************************************************
                                  END OF REPORT                                  
