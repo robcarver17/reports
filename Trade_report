@@ -1,15 +1,167 @@
 
 ********************************************************************************
-Trades report report produced on 22/07/2022 20:59 from 21/07/2022 20:59 to 22/07/2022 20:59
+Trades report report produced on 15/08/2022 20:58 from 14/08/2022 20:58 to 15/08/2022 20:58
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+====================================================================================================
+                                           Broker orders                                            
+====================================================================================================
+
+         instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
+order_id                                                                                            
+32282       CRUDE_W_mini  dynamic_TF_carry    [20221100] 2022-08-15 15:29:26.000   [1]      86.97500
+32281                DOW  dynamic_TF_carry    [20220900] 2022-08-15 15:28:48.000   [1]   33685.00000
+32285                DOW  dynamic_TF_carry    [20220900] 2022-08-15 15:36:16.000   [1]   33718.00000
+32283                EUR  dynamic_TF_carry    [20220900] 2022-08-15 15:29:55.000   [1]       1.02180
+32279             GBPEUR  dynamic_TF_carry    [20220900] 2022-08-15 15:27:38.000  [-1]       0.84495
+32278         GOLD_micro  dynamic_TF_carry    [20220800] 2022-08-15 11:19:39.693   [1]    1756.00000
+32280         GOLD_micro  dynamic_TF_carry    [20221000] 2022-08-15 15:28:08.000  [-1]    1780.60000
+32284            RUSSELL  dynamic_TF_carry    [20220900] 2022-08-15 15:30:30.000   [1]    2001.30000
+
+
+===========================================================================================================================================================
+                                                                          Delays                                                                           
+===========================================================================================================================================================
+
+         instrument_code     strategy_name parent_reference_datetime     submit_datetime           fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                                   
+32278         GOLD_micro  dynamic_TF_carry                       NaT                 NaT 2022-08-15 11:19:39.693                    NaN                 NaN
+32279             GBPEUR  dynamic_TF_carry                2022-08-12 2022-08-15 15:27:27 2022-08-15 15:27:38.000                 314847                  11
+32280         GOLD_micro  dynamic_TF_carry                2022-08-12 2022-08-15 15:27:53 2022-08-15 15:28:08.000                 314873                  15
+32282       CRUDE_W_mini  dynamic_TF_carry                2022-08-12 2022-08-15 15:29:11 2022-08-15 15:29:26.000                 314951                  15
+32283                EUR  dynamic_TF_carry                2022-08-12 2022-08-15 15:29:50 2022-08-15 15:29:55.000                 314990                   5
+32284            RUSSELL  dynamic_TF_carry                2022-08-12 2022-08-15 15:30:16 2022-08-15 15:30:30.000                 315016                  14
+32281                DOW  dynamic_TF_carry                2022-08-12 2022-08-15 15:28:34 2022-08-15 15:28:48.000                 314914                  14
+32285                DOW  dynamic_TF_carry                2022-08-12 2022-08-15 15:36:01 2022-08-15 15:36:16.000                 315361                  15
+
+
+==================================================================================================================================================================================================================================
+                                                                                                     Slippage (ticks per lot)                                                                                                     
+==================================================================================================================================================================================================================================
+
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay  bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                          
+32278         GOLD_micro  dynamic_TF_carry   [1]                    NaN               None       NaN        NaN           NaN         NaN         1756       NaN      NaN       NaN          NaN                 NaN           NaN
+32279             GBPEUR  dynamic_TF_carry  [-1]                0.84705               None  0.844875     0.8448       0.84495     0.84495      0.84495 -0.002175 -7.5e-05   0.00015 -1.11022e-16                 NaN       7.5e-05
+32280         GOLD_micro  dynamic_TF_carry  [-1]                 1807.8               None   1780.85     1780.7          1781        1781       1780.6    -26.95    -0.15      -0.1         -0.4                 NaN         -0.25
+32282       CRUDE_W_mini  dynamic_TF_carry   [1]                 90.375               None   86.8875     86.925         86.85       86.85       86.975    3.4875  -0.0375     -0.05       -0.125                 NaN       -0.0875
+32283                EUR  dynamic_TF_carry   [1]                  1.029               None   1.02182    1.02185        1.0218      1.0218       1.0218  0.007175 -2.5e-05     5e-05            0                 NaN       2.5e-05
+32284            RUSSELL  dynamic_TF_carry   [1]                 2016.9               None    2000.7     2000.8        2000.6      2000.6       2001.3      16.2     -0.1      -0.5         -0.7                 NaN          -0.6
+32281                DOW  dynamic_TF_carry   [1]                  33719               None   33674.5      33675         33674       33674        33685      44.5     -0.5       -10          -11                 NaN         -10.5
+32285                DOW  dynamic_TF_carry   [1]                  33719               None     33687      33688         33686       33686        33718        32       -1       -30          -32                 NaN           -31
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                       
+32278         GOLD_micro  dynamic_TF_carry   [1]         239.738       NaN         NaN           NaN              NaN                     NaN               NaN
+32279             GBPEUR  dynamic_TF_carry  [-1]       0.0515758  -421.709    -14.5417       29.0834      -2.1526e-11                     NaN           14.5417
+32280         GOLD_micro  dynamic_TF_carry  [-1]         239.738  -1124.15    -6.25684      -4.17123         -16.6849                     NaN          -10.4281
+32282       CRUDE_W_mini  dynamic_TF_carry   [1]         36.4512   956.759    -10.2877       -13.717         -34.2924                     NaN          -24.0047
+32283                EUR  dynamic_TF_carry   [1]       0.0930165   771.368    -2.68769       5.37539                0                     NaN           2.68769
+32284            RUSSELL  dynamic_TF_carry   [1]         439.068   368.964    -2.27755      -11.3878         -15.9429                     NaN          -13.6653
+32281                DOW  dynamic_TF_carry   [1]         5003.12   88.9444   -0.999375      -19.9875         -21.9863                     NaN          -20.9869
+32285                DOW  dynamic_TF_carry   [1]         5003.12     63.96    -1.99875      -59.9625           -63.96                     NaN          -61.9613
+
+
+==========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                        
+==========================================================================================================================================================================
+
+         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                  
+32278         GOLD_micro  dynamic_TF_carry   [1]              8.27815        NaN          NaN            NaN               NaN                      NaN                NaN
+32279             GBPEUR  dynamic_TF_carry  [-1]               125000   -271.875       -9.375          18.75      -1.38778e-11                      NaN              9.375
+32280         GOLD_micro  dynamic_TF_carry  [-1]              8.27815   -223.096     -1.24172      -0.827815          -3.31126                      NaN           -2.06954
+32282       CRUDE_W_mini  dynamic_TF_carry   [1]              413.907     1443.5     -15.5215       -20.6954          -51.7384                      NaN           -36.2169
+32283                EUR  dynamic_TF_carry   [1]               103477    742.446     -2.58692        5.17384                 0                      NaN            2.58692
+32284            RUSSELL  dynamic_TF_carry   [1]              4.13907     67.053    -0.413907       -2.06954          -2.89735                      NaN           -2.48344
+32281                DOW  dynamic_TF_carry   [1]             0.413907    18.4189    -0.206954       -4.13907          -4.55298                      NaN           -4.34603
+32285                DOW  dynamic_TF_carry   [1]             0.413907     13.245    -0.413907       -12.4172           -13.245                      NaN           -12.8311
+
+delay_cash Sum
+                                   delay_cash
+strategy_name    instrument_code             
+dynamic_TF_carry CRUDE_W_mini     1443.501656
+                 DOW                31.663907
+                 EUR               742.446192
+                 GBPEUR           -271.875000
+                 GOLD_micro       -223.096026
+                 RUSSELL            67.052980
+delay_cash Total Sum
+                   delay_cash
+strategy_name                
+dynamic_TF_carry  1789.693709
+bid_ask_cash Sum
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry CRUDE_W_mini       -15.521523
+                 DOW                 -0.620861
+                 EUR                 -2.586921
+                 GBPEUR              -9.375000
+                 GOLD_micro          -1.241722
+                 RUSSELL             -0.413907
+bid_ask_cash Total Sum
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry    -29.759934
+execution_cash Sum
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry CRUDE_W_mini         -20.695364
+                 DOW                  -16.556291
+                 EUR                    5.173841
+                 GBPEUR                18.750000
+                 GOLD_micro            -0.827815
+                 RUSSELL               -2.069536
+execution_cash Total Sum
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry      -16.225166
+versus_limit_cash Sum
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry CRUDE_W_mini         -5.173841e+01
+                 DOW                  -1.779801e+01
+                 EUR                   0.000000e+00
+                 GBPEUR               -1.387779e-11
+                 GOLD_micro           -3.311258e+00
+                 RUSSELL              -2.897351e+00
+versus_limit_cash Total Sum
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry         -75.745033
+versus_parent_limit_cash Sum
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry CRUDE_W_mini                            0
+                 DOW                                     0
+                 EUR                                     0
+                 GBPEUR                                  0
+                 GOLD_micro                              0
+                 RUSSELL                                 0
+versus_parent_limit_cash Total Sum
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
+total_trading_cash Sum
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry CRUDE_W_mini             -36.216887
+                 DOW                      -17.177152
+                 EUR                        2.586921
+                 GBPEUR                     9.375000
+                 GOLD_micro                -2.069536
+                 RUSSELL                   -2.483444
+total_trading_cash Total Sum
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry          -45.985099
 
 ********************************************************************************
                                  END OF REPORT                                  
