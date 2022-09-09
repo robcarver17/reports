@@ -1,112 +1,102 @@
 
 ********************************************************************************
-Trades report report produced on 08/09/2022 21:03 from 07/09/2022 21:03 to 08/09/2022 21:03
+Trades report report produced on 09/09/2022 21:03 from 08/09/2022 21:03 to 09/09/2022 21:03
 ********************************************************************************
 
 
 
-==================================================================================================================
-                                                  Broker orders                                                   
-==================================================================================================================
+===================================================================================================
+                                           Broker orders                                           
+===================================================================================================
 
-         instrument_code          strategy_name         contract_date           fill_datetime    fill filled_price
-order_id                                                                                                          
-32328              TOPIX  _ROLL_PSEUDO_STRATEGY  [20220900, 20221200] 2022-09-08 19:30:42.851  [0, 0]         None
-32329              TOPIX  _ROLL_PSEUDO_STRATEGY  [20220900, 20221200] 2022-09-08 19:30:42.859  [0, 0]         None
-32327              TOPIX  _ROLL_PSEUDO_STRATEGY  [20220900, 20221200] 2022-09-08 19:30:42.842  [0, 0]         None
+         instrument_code     strategy_name contract_date           fill_datetime fill  filled_price
+order_id                                                                                           
+32330             KOSDAQ  dynamic_TF_carry    [20220900] 2022-09-09 08:40:54.481  [2]        1117.0
 
 
-====================================================================================================================================================================
-                                                                               Delays                                                                               
-====================================================================================================================================================================
+=======================================================================================================================================================
+                                                                        Delays                                                                         
+=======================================================================================================================================================
 
-         instrument_code          strategy_name parent_reference_datetime         submit_datetime           fill_datetime submit_minus_generated filled_minus_submit
-order_id                                                                                                                                                            
-32328              TOPIX  _ROLL_PSEUDO_STRATEGY       2022-09-07 19:00:00 2022-09-08 01:55:57.771 2022-09-08 19:30:42.851                24957.8             63285.1
-32329              TOPIX  _ROLL_PSEUDO_STRATEGY       2022-09-07 19:00:00 2022-09-08 02:08:05.386 2022-09-08 19:30:42.859                25685.4             62557.5
-32327              TOPIX  _ROLL_PSEUDO_STRATEGY       2022-09-07 19:00:00 2022-09-08 01:45:24.476 2022-09-08 19:30:42.842                24324.5             63918.4
+         instrument_code     strategy_name parent_reference_datetime submit_datetime           fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                               
+32330             KOSDAQ  dynamic_TF_carry                      None            None 2022-09-09 08:40:54.481                    NaN                 NaN
 
 
-======================================================================================================================================================================================================================================
-                                                                                                       Slippage (ticks per lot)                                                                                                       
-======================================================================================================================================================================================================================================
+=============================================================================================================================================================================================================================
+                                                                                                  Slippage (ticks per lot)                                                                                                   
+=============================================================================================================================================================================================================================
 
-         instrument_code          strategy_name    trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
-order_id                                                                                                                                                                                                                              
-32328              TOPIX  _ROLL_PSEUDO_STRATEGY  [-1, 1]                     20               None    19.975       19.7         20.25        None         None -0.025  -0.275       NaN          NaN                 NaN           NaN
-32329              TOPIX  _ROLL_PSEUDO_STRATEGY  [-1, 1]                     20               None    19.925       19.6         20.25        None         None -0.075  -0.325       NaN          NaN                 NaN           NaN
-32327              TOPIX  _ROLL_PSEUDO_STRATEGY  [-1, 1]                     20               None        20      19.75         20.25        None         None     -0   -0.25       NaN          NaN                 NaN           NaN
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                     
+32330             KOSDAQ  dynamic_TF_carry   [2]                   None               None      None       None          None        None         1117   NaN     NaN       NaN          NaN                 NaN           NaN
 
 
-=======================================================================================================================================================================
-                                                         Slippage (normalised by annual vol, BP of annual SR)                                                          
-=======================================================================================================================================================================
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
 
-         instrument_code          strategy_name    trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-order_id                                                                                                                                                               
-32328              TOPIX  _ROLL_PSEUDO_STRATEGY  [-1, 1]         290.229 -0.861389    -9.47528           NaN              NaN                     NaN               NaN
-32329              TOPIX  _ROLL_PSEUDO_STRATEGY  [-1, 1]         290.229  -2.58417    -11.1981           NaN              NaN                     NaN               NaN
-32327              TOPIX  _ROLL_PSEUDO_STRATEGY  [-1, 1]         290.229        -0    -8.61389           NaN              NaN                     NaN               NaN
+         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                       
+32330             KOSDAQ  dynamic_TF_carry   [2]         336.739       NaN         NaN           NaN              NaN                     NaN               NaN
 
 
-==================================================================================================================================================================================
-                                                                           Slippage (In base currency)                                                                            
-==================================================================================================================================================================================
+==========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                        
+==========================================================================================================================================================================
 
-         instrument_code          strategy_name    trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-order_id                                                                                                                                                                          
-32328              TOPIX  _ROLL_PSEUDO_STRATEGY  [-1, 1]              6.04553  -0.151138     -1.66252            NaN               NaN                      NaN                NaN
-32329              TOPIX  _ROLL_PSEUDO_STRATEGY  [-1, 1]              6.04553  -0.453415      -1.9648            NaN               NaN                      NaN                NaN
-32327              TOPIX  _ROLL_PSEUDO_STRATEGY  [-1, 1]              6.04553         -0     -1.51138            NaN               NaN                      NaN                NaN
+         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                  
+32330             KOSDAQ  dynamic_TF_carry   [2]              6.25842        NaN          NaN            NaN               NaN                      NaN                NaN
 
 delay_cash Sum
-                                       delay_cash
-strategy_name         instrument_code            
-_ROLL_PSEUDO_STRATEGY TOPIX             -0.604553
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry KOSDAQ                    0
 delay_cash Total Sum
-                       delay_cash
-strategy_name                    
-_ROLL_PSEUDO_STRATEGY   -0.604553
+                  delay_cash
+strategy_name               
+dynamic_TF_carry           0
 bid_ask_cash Sum
-                                       bid_ask_cash
-strategy_name         instrument_code              
-_ROLL_PSEUDO_STRATEGY TOPIX               -5.138703
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry KOSDAQ                      0
 bid_ask_cash Total Sum
-                       bid_ask_cash
-strategy_name                      
-_ROLL_PSEUDO_STRATEGY     -5.138703
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry             0
 execution_cash Sum
-                                       execution_cash
-strategy_name         instrument_code                
-_ROLL_PSEUDO_STRATEGY TOPIX                         0
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry KOSDAQ                        0
 execution_cash Total Sum
-                       execution_cash
-strategy_name                        
-_ROLL_PSEUDO_STRATEGY               0
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry               0
 versus_limit_cash Sum
-                                       versus_limit_cash
-strategy_name         instrument_code                   
-_ROLL_PSEUDO_STRATEGY TOPIX                            0
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry KOSDAQ                           0
 versus_limit_cash Total Sum
-                       versus_limit_cash
-strategy_name                           
-_ROLL_PSEUDO_STRATEGY                  0
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry                  0
 versus_parent_limit_cash Sum
-                                       versus_parent_limit_cash
-strategy_name         instrument_code                          
-_ROLL_PSEUDO_STRATEGY TOPIX                                   0
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry KOSDAQ                                  0
 versus_parent_limit_cash Total Sum
-                       versus_parent_limit_cash
-strategy_name                                  
-_ROLL_PSEUDO_STRATEGY                         0
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
 total_trading_cash Sum
-                                       total_trading_cash
-strategy_name         instrument_code                    
-_ROLL_PSEUDO_STRATEGY TOPIX                             0
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry KOSDAQ                            0
 total_trading_cash Total Sum
-                       total_trading_cash
-strategy_name                            
-_ROLL_PSEUDO_STRATEGY                   0
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry                   0
 
 ********************************************************************************
                                  END OF REPORT                                  
