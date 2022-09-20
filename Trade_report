@@ -1,15 +1,145 @@
 
 ********************************************************************************
-Trades report report produced on 19/09/2022 21:06 from 18/09/2022 21:06 to 19/09/2022 21:06
+Trades report report produced on 20/09/2022 21:07 from 19/09/2022 21:07 to 20/09/2022 21:07
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+================================================================================================
+                                         Broker orders                                          
+================================================================================================
+
+         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+order_id                                                                                        
+32344                DAX  dynamic_TF_carry    [20221200] 2022-09-20 08:00:21  [-1]   12891.00000
+32345                DAX  dynamic_TF_carry    [20221200] 2022-09-20 08:00:42   [1]   12896.00000
+32347        GAS_US_mini  dynamic_TF_carry    [20221100] 2022-09-20 14:00:40  [-1]       7.78000
+32349                NZD  dynamic_TF_carry    [20221200] 2022-09-20 15:00:19  [-1]       0.59005
+32346             SILVER  dynamic_TF_carry    [20221200] 2022-09-20 14:00:19   [1]      19.25500
+32348             SILVER  dynamic_TF_carry    [20221200] 2022-09-20 14:01:01  [-1]      19.25000
+
+
+===========================================================================================================================================================
+                                                                          Delays                                                                           
+===========================================================================================================================================================
+
+         instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                                   
+32344                DAX  dynamic_TF_carry                2022-09-16 2022-09-20 08:00:22.503 2022-09-20 08:00:21                 374423                 NaN
+32345                DAX  dynamic_TF_carry                2022-09-19 2022-09-20 08:00:42.939 2022-09-20 08:00:42                 115243                 NaN
+32346             SILVER  dynamic_TF_carry                2022-09-16 2022-09-20 14:00:20.654 2022-09-20 14:00:19                 396021                 NaN
+32347        GAS_US_mini  dynamic_TF_carry                2022-09-16 2022-09-20 14:00:42.043 2022-09-20 14:00:40                 396042                 NaN
+32348             SILVER  dynamic_TF_carry                2022-09-19 2022-09-20 14:01:03.263 2022-09-20 14:01:01                 136863                 NaN
+32349                NZD  dynamic_TF_carry                2022-09-16 2022-09-20 15:00:21.280 2022-09-20 15:00:19                 399621                 NaN
+
+
+===============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                    
+===============================================================================================================================================================================================================================
+
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                       
+32344                DAX  dynamic_TF_carry  [-1]                  12715               None     12894      12893         12895        None        12891     179      -1        -2          NaN                 NaN            -3
+32345                DAX  dynamic_TF_carry   [1]                  12829               None     12890      12891         12889        None        12896     -61      -1        -5          NaN                 NaN            -6
+32346             SILVER  dynamic_TF_carry   [1]                 19.395               None     19.25     19.255        19.245        None       19.255   0.145  -0.005         0          NaN                 NaN        -0.005
+32347        GAS_US_mini  dynamic_TF_carry  [-1]                   7.92               None    7.7875       7.78         7.795        None         7.78 -0.1325 -0.0075        -0          NaN                 NaN       -0.0075
+32348             SILVER  dynamic_TF_carry  [-1]                 19.355               None     19.26     19.255        19.265        None        19.25  -0.095  -0.005    -0.005          NaN                 NaN         -0.01
+32349                NZD  dynamic_TF_carry  [-1]                 0.5975               None    0.5901    0.59005       0.59015        None      0.59005 -0.0074  -5e-05        -0          NaN                 NaN        -5e-05
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                       
+32344                DAX  dynamic_TF_carry  [-1]         2855.97   626.758    -3.50144      -7.00288              NaN                     NaN          -10.5043
+32345                DAX  dynamic_TF_carry   [1]         2855.97  -213.588    -3.50144      -17.5072              NaN                     NaN          -21.0086
+32346             SILVER  dynamic_TF_carry   [1]         6.66808   217.454    -7.49841             0              NaN                     NaN          -7.49841
+32347        GAS_US_mini  dynamic_TF_carry  [-1]         4.81459  -275.205    -15.5776            -0              NaN                     NaN          -15.5776
+32348             SILVER  dynamic_TF_carry  [-1]         6.66808   -142.47    -7.49841      -7.49841              NaN                     NaN          -14.9968
+32349                NZD  dynamic_TF_carry  [-1]       0.0770914  -959.899     -6.4858            -0              NaN                     NaN           -6.4858
+
+
+==========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                        
+==========================================================================================================================================================================
+
+         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                  
+32344                DAX  dynamic_TF_carry  [-1]             0.875545    156.723    -0.875545       -1.75109               NaN                      NaN           -2.62663
+32345                DAX  dynamic_TF_carry   [1]             0.875545   -53.4082    -0.875545       -4.37772               NaN                      NaN           -5.25327
+32346             SILVER  dynamic_TF_carry   [1]              876.136     127.04     -4.38068              0               NaN                      NaN           -4.38068
+32347        GAS_US_mini  dynamic_TF_carry  [-1]              2190.34    -290.22     -16.4276             -0               NaN                      NaN           -16.4276
+32348             SILVER  dynamic_TF_carry  [-1]              876.136   -83.2329     -4.38068       -4.38068               NaN                      NaN           -8.76136
+32349                NZD  dynamic_TF_carry  [-1]              87613.6   -648.341     -4.38068             -0               NaN                      NaN           -4.38068
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry DAX              103.314292
+                 GAS_US_mini     -290.220129
+                 NZD             -648.340817
+                 SILVER            43.806812
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -791.439842
+bid_ask_cash Sum
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry DAX                 -1.751090
+                 GAS_US_mini        -16.427554
+                 NZD                 -4.380681
+                 SILVER              -8.761362
+bid_ask_cash Total Sum
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry    -31.320688
+execution_cash Sum
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry DAX                   -6.128814
+                 GAS_US_mini           -0.000000
+                 NZD                   -0.000000
+                 SILVER                -4.380681
+execution_cash Total Sum
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry      -10.509495
+versus_limit_cash Sum
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry DAX                              0
+                 GAS_US_mini                      0
+                 NZD                              0
+                 SILVER                           0
+versus_limit_cash Total Sum
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry                  0
+versus_parent_limit_cash Sum
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry DAX                                     0
+                 GAS_US_mini                             0
+                 NZD                                     0
+                 SILVER                                  0
+versus_parent_limit_cash Total Sum
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
+total_trading_cash Sum
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry DAX                       -7.879904
+                 GAS_US_mini              -16.427554
+                 NZD                       -4.380681
+                 SILVER                   -13.142044
+total_trading_cash Total Sum
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry          -41.830183
 
 ********************************************************************************
                                  END OF REPORT                                  
