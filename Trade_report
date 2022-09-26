@@ -1,15 +1,140 @@
 
 ********************************************************************************
-Trades report report produced on 23/09/2022 21:07 from 22/09/2022 21:07 to 23/09/2022 21:07
+Trades report report produced on 26/09/2022 21:07 from 25/09/2022 21:07 to 26/09/2022 21:07
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+================================================================================================
+                                         Broker orders                                          
+================================================================================================
+
+         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+order_id                                                                                        
+32362                EUR  dynamic_TF_carry    [20221200] 2022-09-26 15:01:08   [1]        0.9734
+32361                GBP  dynamic_TF_carry    [20221200] 2022-09-26 15:00:45  [-1]        1.0857
+32358             KOSDAQ  dynamic_TF_carry    [20221200] 2022-09-26 02:00:27   [1]      997.2000
+32359             KOSDAQ  dynamic_TF_carry    [20221200] 2022-09-26 02:00:48   [1]      998.0000
+32360       NASDAQ_micro  dynamic_TF_carry    [20221200] 2022-09-26 15:00:23  [-1]    11507.2500
+
+
+===========================================================================================================================================================
+                                                                          Delays                                                                           
+===========================================================================================================================================================
+
+         instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                                   
+32358             KOSDAQ  dynamic_TF_carry                2022-09-23 2022-09-26 02:00:27.893 2022-09-26 02:00:27                 266428                 NaN
+32359             KOSDAQ  dynamic_TF_carry                2022-09-23 2022-09-26 02:00:50.266 2022-09-26 02:00:48                 266450                 NaN
+32360       NASDAQ_micro  dynamic_TF_carry                2022-09-23 2022-09-26 15:00:24.387 2022-09-26 15:00:23                 313224                 NaN
+32361                GBP  dynamic_TF_carry                2022-09-23 2022-09-26 15:00:46.950 2022-09-26 15:00:45                 313247                 NaN
+32362                EUR  dynamic_TF_carry                2022-09-23 2022-09-26 15:01:09.492 2022-09-26 15:01:08                 313269                 NaN
+
+
+==================================================================================================================================================================================================================================
+                                                                                                     Slippage (ticks per lot)                                                                                                     
+==================================================================================================================================================================================================================================
+
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay  bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                          
+32358             KOSDAQ  dynamic_TF_carry   [1]                 1022.9               None    997.35      997.4         997.3        None        997.2     25.55    -0.05       0.2          NaN                 NaN          0.15
+32359             KOSDAQ  dynamic_TF_carry   [1]                 1022.9               None       997      997.1         996.9        None          998      25.9     -0.1      -0.9          NaN                 NaN            -1
+32360       NASDAQ_micro  dynamic_TF_carry  [-1]                  11317               None   11504.2      11504       11504.5        None      11507.2    187.25    -0.25      3.25          NaN                 NaN             3
+32361                GBP  dynamic_TF_carry  [-1]                 1.0914               None    1.0857     1.0856        1.0858        None       1.0857   -0.0057  -0.0001    0.0001          NaN                 NaN             0
+32362                EUR  dynamic_TF_carry   [1]                0.97705               None  0.973375     0.9734       0.97335        None       0.9734  0.003675 -2.5e-05         0          NaN                 NaN      -2.5e-05
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                       
+32358             KOSDAQ  dynamic_TF_carry   [1]         324.591   787.145     -1.5404       6.16161              NaN                     NaN           4.62121
+32359             KOSDAQ  dynamic_TF_carry   [1]         324.591   797.928     -3.0808      -27.7272              NaN                     NaN           -30.808
+32360       NASDAQ_micro  dynamic_TF_carry  [-1]         3491.51   536.301   -0.716023        9.3083              NaN                     NaN           8.59228
+32361                GBP  dynamic_TF_carry  [-1]        0.157019  -363.014    -6.36867       6.36867              NaN                     NaN                 0
+32362                EUR  dynamic_TF_carry   [1]       0.0955836    384.48    -2.61551             0              NaN                     NaN          -2.61551
+
+
+==========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                        
+==========================================================================================================================================================================
+
+         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                  
+32358             KOSDAQ  dynamic_TF_carry   [1]              6.48894    165.792    -0.324447        1.29779               NaN                      NaN           0.973341
+32359             KOSDAQ  dynamic_TF_carry   [1]              6.48894    168.064    -0.648894       -5.84005               NaN                      NaN           -6.48894
+32360       NASDAQ_micro  dynamic_TF_carry  [-1]              1.85292     346.96    -0.463231          6.022               NaN                      NaN            5.55877
+32361                GBP  dynamic_TF_carry  [-1]              57903.9   -330.052     -5.79039        5.79039               NaN                      NaN                  0
+32362                EUR  dynamic_TF_carry   [1]               115808    425.594     -2.89519              0               NaN                      NaN           -2.89519
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry EUR              425.593515
+                 GBP             -330.052113
+                 KOSDAQ           333.855981
+                 NASDAQ_micro     346.960046
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry  776.357429
+bid_ask_cash Sum
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry EUR                 -2.895194
+                 GBP                 -5.790388
+                 KOSDAQ              -0.973341
+                 NASDAQ_micro        -0.463231
+bid_ask_cash Total Sum
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry    -10.122154
+execution_cash Sum
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry EUR                    0.000000
+                 GBP                    5.790388
+                 KOSDAQ                -4.542258
+                 NASDAQ_micro           6.022003
+execution_cash Total Sum
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry        7.270133
+versus_limit_cash Sum
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry EUR                              0
+                 GBP                              0
+                 KOSDAQ                           0
+                 NASDAQ_micro                     0
+versus_limit_cash Total Sum
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry                  0
+versus_parent_limit_cash Sum
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry EUR                                     0
+                 GBP                                     0
+                 KOSDAQ                                  0
+                 NASDAQ_micro                            0
+versus_parent_limit_cash Total Sum
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
+total_trading_cash Sum
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry EUR                       -2.895194
+                 GBP                        0.000000
+                 KOSDAQ                    -5.515599
+                 NASDAQ_micro               5.558772
+total_trading_cash Total Sum
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry           -2.852021
 
 ********************************************************************************
                                  END OF REPORT                                  
