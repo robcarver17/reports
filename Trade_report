@@ -1,56 +1,50 @@
 
 ********************************************************************************
-Trades report report produced on 03/10/2022 21:08 from 02/10/2022 21:08 to 03/10/2022 21:08
+Trades report report produced on 06/10/2022 21:09 from 05/10/2022 21:09 to 06/10/2022 21:09
 ********************************************************************************
 
 
 
-====================================================================================================
-                                           Broker orders                                            
-====================================================================================================
+================================================================================================
+                                         Broker orders                                          
+================================================================================================
 
-         instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
-order_id                                                                                            
-32392               BOBL  dynamic_TF_carry    [20221200] 2022-10-03 08:00:47.000  [-1]        119.60
-32391               BUND  dynamic_TF_carry    [20221200] 2022-10-03 08:00:25.000   [1]        138.41
-32393                DAX  dynamic_TF_carry    [20221200] 2022-10-03 08:01:10.000   [1]      11977.00
-32395         GOLD_micro  dynamic_TF_carry    [20221200] 2022-10-03 14:00:21.000   [1]       1673.90
-32397       NASDAQ_micro  dynamic_TF_carry    [20221200] 2022-10-03 15:00:21.000   [1]      11130.00
-32398            RUSSELL                mr    [20221200] 2022-10-03 19:30:26.860   [0]           NaN
-32396             SILVER  dynamic_TF_carry    [20221200] 2022-10-03 14:00:45.000  [-1]         19.73
-32394                SMI  dynamic_TF_carry    [20221200] 2022-10-03 08:01:33.000  [-1]      10161.00
+         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+order_id                                                                                        
+32404            FEEDCOW  dynamic_TF_carry    [20230100] 2022-10-06 15:30:34  [-1]     177.70000
+32400         FTSECHINAA  dynamic_TF_carry    [20221000] 2022-10-06 03:00:22   [1]   13389.00000
+32399           MSCISING  dynamic_TF_carry    [20221000] 2022-10-06 02:30:20  [-1]     285.95000
+32403                MXP  dynamic_TF_carry    [20221200] 2022-10-06 15:00:23  [-1]       0.04904
+32402             SILVER  dynamic_TF_carry    [20221200] 2022-10-06 14:00:24   [1]      20.62500
+32401                SMI  dynamic_TF_carry    [20221200] 2022-10-06 08:00:30   [1]   10490.00000
 
 
-===============================================================================================================================================================
-                                                                            Delays                                                                             
-===============================================================================================================================================================
+===========================================================================================================================================================
+                                                                          Delays                                                                           
+===========================================================================================================================================================
 
-         instrument_code     strategy_name parent_reference_datetime         submit_datetime           fill_datetime submit_minus_generated filled_minus_submit
-order_id                                                                                                                                                       
-32391               BUND  dynamic_TF_carry       2022-09-30 00:00:00 2022-10-03 08:00:25.958 2022-10-03 08:00:25.000                 288026                 NaN
-32392               BOBL  dynamic_TF_carry       2022-09-30 00:00:00 2022-10-03 08:00:49.060 2022-10-03 08:00:47.000                 288049                 NaN
-32393                DAX  dynamic_TF_carry       2022-09-30 00:00:00 2022-10-03 08:01:12.099 2022-10-03 08:01:10.000                 288072                 NaN
-32394                SMI  dynamic_TF_carry       2022-09-30 00:00:00 2022-10-03 08:01:35.299 2022-10-03 08:01:33.000                 288095                 NaN
-32395         GOLD_micro  dynamic_TF_carry       2022-09-30 00:00:00 2022-10-03 14:00:23.316 2022-10-03 14:00:21.000                 309623                 NaN
-32396             SILVER  dynamic_TF_carry       2022-09-30 00:00:00 2022-10-03 14:00:46.513 2022-10-03 14:00:45.000                 309647                 NaN
-32397       NASDAQ_micro  dynamic_TF_carry       2022-09-30 00:00:00 2022-10-03 15:00:23.032 2022-10-03 15:00:21.000                 313223                 NaN
-32398            RUSSELL                mr       2022-09-30 19:00:00 2022-10-03 15:00:47.290 2022-10-03 19:30:26.860                 244847             16179.6
+         instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                                   
+32399           MSCISING  dynamic_TF_carry                2022-10-04 2022-10-06 02:30:21.801 2022-10-06 02:30:20                 181822                 NaN
+32400         FTSECHINAA  dynamic_TF_carry                2022-10-04 2022-10-06 03:00:24.205 2022-10-06 03:00:22                 183624                 NaN
+32401                SMI  dynamic_TF_carry                2022-10-04 2022-10-06 08:00:31.963 2022-10-06 08:00:30                 201632                 NaN
+32402             SILVER  dynamic_TF_carry                2022-10-04 2022-10-06 14:00:25.570 2022-10-06 14:00:24                 223226                 NaN
+32403                MXP  dynamic_TF_carry                2022-10-04 2022-10-06 15:00:25.124 2022-10-06 15:00:23                 226825                 NaN
+32404            FEEDCOW  dynamic_TF_carry                2022-10-04 2022-10-06 15:30:35.727 2022-10-06 15:30:34                 228636                 NaN
 
 
-==============================================================================================================================================================================================================================
-                                                                                                   Slippage (ticks per lot)                                                                                                   
-==============================================================================================================================================================================================================================
+================================================================================================================================================================================================================================
+                                                                                                    Slippage (ticks per lot)                                                                                                    
+================================================================================================================================================================================================================================
 
-         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
-order_id                                                                                                                                                                                                                      
-32391               BUND  dynamic_TF_carry   [1]                  138.6                NaN   138.385     138.39        138.38         NaN       138.41  0.215  -0.005     -0.02          NaN                 NaN        -0.025
-32392               BOBL  dynamic_TF_carry  [-1]                 119.68                NaN   119.615     119.61        119.62         NaN        119.6 -0.065  -0.005     -0.01          NaN                 NaN        -0.015
-32393                DAX  dynamic_TF_carry   [1]                  12077                NaN   11974.5      11976         11973         NaN        11977  102.5    -1.5        -1          NaN                 NaN          -2.5
-32394                SMI  dynamic_TF_carry  [-1]                  10200                NaN     10158      10157         10159         NaN        10161    -42      -1         4          NaN                 NaN             3
-32395         GOLD_micro  dynamic_TF_carry   [1]                 1672.7                NaN    1673.8     1673.9        1673.7         NaN       1673.9   -1.1    -0.1         0          NaN                 NaN          -0.1
-32396             SILVER  dynamic_TF_carry  [-1]                  19.05                NaN     19.73     19.725        19.735         NaN        19.73   0.68  -0.005     0.005          NaN                 NaN             0
-32397       NASDAQ_micro  dynamic_TF_carry   [1]                11158.8                NaN   11132.5    11133.2       11131.8         NaN        11130  26.25   -0.75      3.25          NaN                 NaN           2.5
-32398            RUSSELL                mr  [-1]                 1689.3             1723.7   1691.25     1691.1        1691.4      1723.7          NaN   1.95   -0.15       NaN          NaN                 NaN           NaN
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                        
+32399           MSCISING  dynamic_TF_carry  [-1]                  285.3               None   285.975     285.95           286        None       285.95    0.675  -0.025        -0          NaN                 NaN        -0.025
+32400         FTSECHINAA  dynamic_TF_carry   [1]                  13195               None   13388.5      13389         13388        None        13389   -193.5    -0.5         0          NaN                 NaN          -0.5
+32401                SMI  dynamic_TF_carry   [1]                  10544               None     10489      10490         10488        None        10490       55      -1         0          NaN                 NaN            -1
+32402             SILVER  dynamic_TF_carry   [1]                  21.16               None   20.6275      20.63        20.625        None       20.625   0.5325 -0.0025     0.005          NaN                 NaN        0.0025
+32403                MXP  dynamic_TF_carry  [-1]                0.04937               None   0.04905    0.04904       0.04906        None      0.04904 -0.00032  -1e-05        -0          NaN                 NaN        -1e-05
+32404            FEEDCOW  dynamic_TF_carry  [-1]                 176.15               None     177.7    177.675       177.725        None        177.7     1.55  -0.025     0.025          NaN                 NaN             0
 
 
 ===============================================================================================================================================================
@@ -59,14 +53,12 @@ order_id
 
          instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
 order_id                                                                                                                                                       
-32391               BUND  dynamic_TF_carry   [1]         15.5629   138.149    -3.21277      -12.8511              NaN                     NaN          -16.0639
-32392               BOBL  dynamic_TF_carry  [-1]           7.465   -87.073    -6.69792      -13.3958              NaN                     NaN          -20.0938
-32393                DAX  dynamic_TF_carry   [1]         2719.77   376.871    -5.51518      -3.67679              NaN                     NaN          -9.19196
-32394                SMI  dynamic_TF_carry  [-1]         1499.48  -280.098    -6.66899        26.676              NaN                     NaN            20.007
-32395         GOLD_micro  dynamic_TF_carry   [1]         280.344  -39.2375    -3.56705             0              NaN                     NaN          -3.56705
-32396             SILVER  dynamic_TF_carry  [-1]         8.38863   810.621    -5.96045       5.96045              NaN                     NaN                 0
-32397       NASDAQ_micro  dynamic_TF_carry   [1]         3453.21   76.0162    -2.17189       9.41153              NaN                     NaN           7.23964
-32398            RUSSELL                mr  [-1]         512.923   38.0174    -2.92442           NaN              NaN                     NaN               NaN
+32399           MSCISING  dynamic_TF_carry  [-1]         51.6012   130.811    -4.84485            -0              NaN                     NaN          -4.84485
+32400         FTSECHINAA  dynamic_TF_carry   [1]         2786.53  -694.412    -1.79435             0              NaN                     NaN          -1.79435
+32401                SMI  dynamic_TF_carry   [1]         1712.75    321.12    -5.83855             0              NaN                     NaN          -5.83855
+32402             SILVER  dynamic_TF_carry   [1]         8.18801   650.341    -3.05325       6.10649              NaN                     NaN           3.05325
+32403                MXP  dynamic_TF_carry  [-1]      0.00511476   -625.64    -19.5513            -0              NaN                     NaN          -19.5513
+32404            FEEDCOW  dynamic_TF_carry  [-1]         23.6294   655.962      -10.58         10.58              NaN                     NaN                 0
 
 
 ==========================================================================================================================================================================
@@ -75,111 +67,91 @@ order_id
 
          instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
 order_id                                                                                                                                                                  
-32391               BUND  dynamic_TF_carry   [1]              870.127    187.077     -4.35063       -17.4025               NaN                      NaN           -21.7532
-32392               BOBL  dynamic_TF_carry  [-1]              870.127   -56.5583     -4.35063       -8.70127               NaN                      NaN           -13.0519
-32393                DAX  dynamic_TF_carry   [1]             0.870127     89.188     -1.30519      -0.870127               NaN                      NaN           -2.17532
-32394                SMI  dynamic_TF_carry  [-1]              8.94683   -375.767     -8.94683        35.7873               NaN                      NaN            26.8405
-32395         GOLD_micro  dynamic_TF_carry   [1]              8.86505   -9.75156    -0.886505              0               NaN                      NaN          -0.886505
-32396             SILVER  dynamic_TF_carry  [-1]              886.505    602.824     -4.43253        4.43253               NaN                      NaN                  0
-32397       NASDAQ_micro  dynamic_TF_carry   [1]              1.77301    46.5415     -1.32976        5.76228               NaN                      NaN            4.43253
-32398            RUSSELL                mr  [-1]              4.43253    8.64343    -0.664879            NaN               NaN                      NaN                NaN
+32399           MSCISING  dynamic_TF_carry  [-1]              62.5789    42.2408     -1.56447             -0               NaN                      NaN           -1.56447
+32400         FTSECHINAA  dynamic_TF_carry   [1]             0.893236   -172.841    -0.446618              0               NaN                      NaN          -0.446618
+32401                SMI  dynamic_TF_carry   [1]              9.03084    496.696     -9.03084              0               NaN                      NaN           -9.03084
+32402             SILVER  dynamic_TF_carry   [1]              893.236    475.648     -2.23309        4.46618               NaN                      NaN            2.23309
+32403                MXP  dynamic_TF_carry  [-1]               446618   -142.918     -4.46618             -0               NaN                      NaN           -4.46618
+32404            FEEDCOW  dynamic_TF_carry  [-1]              446.618    692.258     -11.1654        11.1654               NaN                      NaN                  0
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry BOBL             -56.558254
-                 BUND             187.077303
-                 DAX               89.188017
-                 GOLD_micro        -9.751557
-                 NASDAQ_micro      46.541522
-                 SILVER           602.823519
-                 SMI             -375.766938
-mr               RUSSELL            8.643425
+dynamic_TF_carry FEEDCOW          692.257877
+                 FTSECHINAA      -172.841160
+                 MSCISING          42.240776
+                 MXP             -142.917755
+                 SILVER           475.648154
+                 SMI              496.696143
 delay_cash Total Sum
-                  delay_cash
-strategy_name               
-dynamic_TF_carry  483.553611
-mr                  8.643425
+                   delay_cash
+strategy_name                
+dynamic_TF_carry  1391.084036
 bid_ask_cash Sum
                                   bid_ask_cash
 strategy_name    instrument_code              
-dynamic_TF_carry BOBL                -4.350635
-                 BUND                -4.350635
-                 DAX                 -1.305190
-                 GOLD_micro          -0.886505
-                 NASDAQ_micro        -1.329758
-                 SILVER              -4.432526
-                 SMI                 -8.946832
-mr               RUSSELL             -0.664879
+dynamic_TF_carry FEEDCOW            -11.165450
+                 FTSECHINAA          -0.446618
+                 MSCISING            -1.564473
+                 MXP                 -4.466180
+                 SILVER              -2.233090
+                 SMI                 -9.030839
 bid_ask_cash Total Sum
                   bid_ask_cash
 strategy_name                 
-dynamic_TF_carry    -25.602081
-mr                   -0.664879
+dynamic_TF_carry     -28.90665
 execution_cash Sum
                                   execution_cash
 strategy_name    instrument_code                
-dynamic_TF_carry BOBL                  -8.701270
-                 BUND                 -17.402540
-                 DAX                   -0.870127
-                 GOLD_micro             0.000000
-                 NASDAQ_micro           5.762284
-                 SILVER                 4.432526
-                 SMI                   35.787327
-mr               RUSSELL                0.000000
+dynamic_TF_carry FEEDCOW                11.16545
+                 FTSECHINAA              0.00000
+                 MSCISING               -0.00000
+                 MXP                    -0.00000
+                 SILVER                  4.46618
+                 SMI                     0.00000
 execution_cash Total Sum
                   execution_cash
 strategy_name                   
-dynamic_TF_carry         19.0082
-mr                        0.0000
+dynamic_TF_carry       15.631629
 versus_limit_cash Sum
                                   versus_limit_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry BOBL                             0
-                 BUND                             0
-                 DAX                              0
-                 GOLD_micro                       0
-                 NASDAQ_micro                     0
+dynamic_TF_carry FEEDCOW                          0
+                 FTSECHINAA                       0
+                 MSCISING                         0
+                 MXP                              0
                  SILVER                           0
                  SMI                              0
-mr               RUSSELL                          0
 versus_limit_cash Total Sum
                   versus_limit_cash
 strategy_name                      
 dynamic_TF_carry                  0
-mr                                0
 versus_parent_limit_cash Sum
                                   versus_parent_limit_cash
 strategy_name    instrument_code                          
-dynamic_TF_carry BOBL                                    0
-                 BUND                                    0
-                 DAX                                     0
-                 GOLD_micro                              0
-                 NASDAQ_micro                            0
+dynamic_TF_carry FEEDCOW                                 0
+                 FTSECHINAA                              0
+                 MSCISING                                0
+                 MXP                                     0
                  SILVER                                  0
                  SMI                                     0
-mr               RUSSELL                                 0
 versus_parent_limit_cash Total Sum
                   versus_parent_limit_cash
 strategy_name                             
 dynamic_TF_carry                         0
-mr                                       0
 total_trading_cash Sum
                                   total_trading_cash
 strategy_name    instrument_code                    
-dynamic_TF_carry BOBL                     -13.051905
-                 BUND                     -21.753175
-                 DAX                       -2.175317
-                 GOLD_micro                -0.886505
-                 NASDAQ_micro               4.432526
-                 SILVER                     0.000000
-                 SMI                       26.840496
-mr               RUSSELL                    0.000000
+dynamic_TF_carry FEEDCOW                    0.000000
+                 FTSECHINAA                -0.446618
+                 MSCISING                  -1.564473
+                 MXP                       -4.466180
+                 SILVER                     2.233090
+                 SMI                       -9.030839
 total_trading_cash Total Sum
                   total_trading_cash
 strategy_name                       
-dynamic_TF_carry           -6.593881
-mr                          0.000000
+dynamic_TF_carry           -13.27502
 
 ********************************************************************************
                                  END OF REPORT                                  
