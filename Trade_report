@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report report produced on 13/10/2022 21:09 from 12/10/2022 21:09 to 13/10/2022 21:09
+Trades report report produced on 17/10/2022 21:09 from 16/10/2022 21:09 to 17/10/2022 21:09
 ********************************************************************************
 
 
@@ -11,12 +11,13 @@ Trades report report produced on 13/10/2022 21:09 from 12/10/2022 21:09 to 13/10
 
          instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
 order_id                                                                                        
-32411                CAC  dynamic_TF_carry    [20221000] 2022-10-13 08:00:32   [1]    5792.00000
-32414                DOW  dynamic_TF_carry    [20221200] 2022-10-13 15:01:15   [1]   28974.00000
-32413                EUR  dynamic_TF_carry    [20221200] 2022-10-13 15:00:49  [-1]       0.97405
-32415            FEEDCOW  dynamic_TF_carry    [20230100] 2022-10-13 15:30:23  [-1]     176.77500
-32410             KOSDAQ  dynamic_TF_carry    [20221200] 2022-10-13 02:00:21   [1]     940.50000
-32412       NASDAQ_micro  dynamic_TF_carry    [20221200] 2022-10-13 15:00:23  [-1]   10608.00000
+32419                CAC  dynamic_TF_carry    [20221100] 2022-10-17 08:00:53  [-1]   5941.500000
+32422                EUR  dynamic_TF_carry    [20221200] 2022-10-17 15:00:48   [1]      0.983150
+32420         GOLD_micro  dynamic_TF_carry    [20221200] 2022-10-17 14:00:23  [-1]   1671.400000
+32421                JPY  dynamic_TF_carry    [20221200] 2022-10-17 15:00:23  [-1]      0.006769
+32424                JPY  dynamic_TF_carry    [20221200] 2022-10-17 15:01:38   [1]      0.006770
+32423       NASDAQ_micro  dynamic_TF_carry    [20221200] 2022-10-17 15:01:13   [1]  11075.000000
+32418                SMI  dynamic_TF_carry    [20221200] 2022-10-17 08:00:26  [-1]  10325.000000
 
 
 ===========================================================================================================================================================
@@ -25,26 +26,28 @@ order_id
 
          instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
 order_id                                                                                                                                                   
-32410             KOSDAQ  dynamic_TF_carry                2022-10-11 2022-10-13 02:00:22.191 2022-10-13 02:00:21                 180022                 NaN
-32411                CAC  dynamic_TF_carry                2022-10-11 2022-10-13 08:00:33.786 2022-10-13 08:00:32                 201634                 NaN
-32412       NASDAQ_micro  dynamic_TF_carry                2022-10-11 2022-10-13 15:00:25.376 2022-10-13 15:00:23                 226825                 NaN
-32413                EUR  dynamic_TF_carry                2022-10-11 2022-10-13 15:00:51.573 2022-10-13 15:00:49                 226852                 NaN
-32414                DOW  dynamic_TF_carry                2022-10-11 2022-10-13 15:01:17.491 2022-10-13 15:01:15                 226877                 NaN
-32415            FEEDCOW  dynamic_TF_carry                2022-10-11 2022-10-13 15:30:25.263 2022-10-13 15:30:23                 228625                 NaN
+32418                SMI  dynamic_TF_carry                2022-10-12 2022-10-17 08:00:27.683 2022-10-17 08:00:26                 460828                 NaN
+32419                CAC  dynamic_TF_carry                2022-10-13 2022-10-17 08:00:54.696 2022-10-17 08:00:53                 374455                 NaN
+32420         GOLD_micro  dynamic_TF_carry                2022-10-12 2022-10-17 14:00:24.657 2022-10-17 14:00:23                 482425                 NaN
+32421                JPY  dynamic_TF_carry                2022-10-12 2022-10-17 15:00:25.054 2022-10-17 15:00:23                 486025                 NaN
+32422                EUR  dynamic_TF_carry                2022-10-12 2022-10-17 15:00:49.885 2022-10-17 15:00:48                 486050                 NaN
+32423       NASDAQ_micro  dynamic_TF_carry                2022-10-12 2022-10-17 15:01:14.941 2022-10-17 15:01:13                 486075                 NaN
+32424                JPY  dynamic_TF_carry                2022-10-13 2022-10-17 15:01:40.615 2022-10-17 15:01:38                 399701                 NaN
 
 
-==================================================================================================================================================================================================================================
-                                                                                                     Slippage (ticks per lot)                                                                                                     
-==================================================================================================================================================================================================================================
+=====================================================================================================================================================================================================================================
+                                                                                                      Slippage (ticks per lot)                                                                                                       
+=====================================================================================================================================================================================================================================
 
-         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay  bid_ask execution versus_limit versus_parent_limit total_trading
-order_id                                                                                                                                                                                                                          
-32410             KOSDAQ  dynamic_TF_carry   [1]                  948.6               None    940.25      940.4         940.1        None        940.5      8.35    -0.15      -0.1          NaN                 NaN         -0.25
-32411                CAC  dynamic_TF_carry   [1]                 5847.5               None      5791     5791.5        5790.5        None         5792      56.5     -0.5      -0.5          NaN                 NaN            -1
-32412       NASDAQ_micro  dynamic_TF_carry  [-1]                10928.2               None   10607.4      10607       10607.8        None        10608  -320.875   -0.375         1          NaN                 NaN         0.625
-32413                EUR  dynamic_TF_carry  [-1]                 0.9806               None  0.973925     0.9739       0.97395        None      0.97405 -0.006675 -2.5e-05   0.00015          NaN                 NaN      0.000125
-32414                DOW  dynamic_TF_carry   [1]                  29601               None     28972      28973         28971        None        28974       629       -1        -1          NaN                 NaN            -2
-32415            FEEDCOW  dynamic_TF_carry  [-1]                  176.4               None   176.812    176.775        176.85        None      176.775    0.4125  -0.0375        -0          NaN                 NaN       -0.0375
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price   mid_price side_price offside_price limit_price filled_price      delay  bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                             
+32418                SMI  dynamic_TF_carry  [-1]                  10180               None     10330.5      10330         10331        None        10325      150.5     -0.5        -5          NaN                 NaN          -5.5
+32419                CAC  dynamic_TF_carry  [-1]                   5921               None      5944.5     5943.5        5945.5        None       5941.5       23.5       -1        -2          NaN                 NaN            -3
+32420         GOLD_micro  dynamic_TF_carry  [-1]                 1679.5               None      1671.6     1671.5        1671.7        None       1671.4       -7.9     -0.1      -0.1          NaN                 NaN          -0.2
+32421                JPY  dynamic_TF_carry  [-1]              0.0068655               None    0.006769  0.0067685     0.0067695        None     0.006769  -9.65e-05   -5e-07     5e-07          NaN                 NaN  -8.67362e-19
+32422                EUR  dynamic_TF_carry   [1]                0.97355               None    0.983075     0.9831       0.98305        None      0.98315  -0.009525 -2.5e-05    -5e-05          NaN                 NaN      -7.5e-05
+32423       NASDAQ_micro  dynamic_TF_carry   [1]                10899.8               None     11075.4    11075.5       11075.2        None        11075   -175.625   -0.125       0.5          NaN                 NaN         0.375
+32424                JPY  dynamic_TF_carry   [1]              0.0068415               None  0.00676875   0.006769     0.0067685        None      0.00677  7.275e-05 -2.5e-07    -1e-06          NaN                 NaN     -1.25e-06
 
 
 ===============================================================================================================================================================
@@ -53,12 +56,13 @@ order_id
 
          instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
 order_id                                                                                                                                                       
-32410             KOSDAQ  dynamic_TF_carry   [1]         347.041   240.605    -4.32225       -2.8815              NaN                     NaN          -7.20376
-32411                CAC  dynamic_TF_carry   [1]         1237.79   456.459    -4.03946      -4.03946              NaN                     NaN          -8.07893
-32412       NASDAQ_micro  dynamic_TF_carry  [-1]         3403.16  -942.875    -1.10192       2.93845              NaN                     NaN           1.83653
-32413                EUR  dynamic_TF_carry  [-1]        0.107306  -622.053    -2.32979       13.9787              NaN                     NaN           11.6489
-32414                DOW  dynamic_TF_carry   [1]         6284.29   1000.91    -1.59127      -1.59127              NaN                     NaN          -3.18254
-32415            FEEDCOW  dynamic_TF_carry  [-1]         24.5652   167.921    -15.2655            -0              NaN                     NaN          -15.2655
+32418                SMI  dynamic_TF_carry  [-1]         1588.68   947.329    -3.14727      -31.4727              NaN                     NaN            -34.62
+32419                CAC  dynamic_TF_carry  [-1]         1254.98   187.253    -7.96823      -15.9365              NaN                     NaN          -23.9047
+32420         GOLD_micro  dynamic_TF_carry  [-1]         272.476  -289.933    -3.67004      -3.67004              NaN                     NaN          -7.34009
+32421                JPY  dynamic_TF_carry  [-1]     0.000612099  -1576.54    -8.16861       8.16861              NaN                     NaN      -1.41703e-11
+32422                EUR  dynamic_TF_carry   [1]        0.109985  -866.029    -2.27304      -4.54608              NaN                     NaN          -6.81913
+32423       NASDAQ_micro  dynamic_TF_carry   [1]         3429.32  -512.128   -0.364504       1.45802              NaN                     NaN           1.09351
+32424                JPY  dynamic_TF_carry   [1]     0.000612099   1188.53     -4.0843      -16.3372              NaN                     NaN          -20.4215
 
 
 ==========================================================================================================================================================================
@@ -67,61 +71,62 @@ order_id
 
          instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
 order_id                                                                                                                                                                  
-32410             KOSDAQ  dynamic_TF_carry   [1]              6.15121    51.3626    -0.922682      -0.615121               NaN                      NaN            -1.5378
-32411                CAC  dynamic_TF_carry   [1]              8.64537    488.464     -4.32269       -4.32269               NaN                      NaN           -8.64537
-32412       NASDAQ_micro  dynamic_TF_carry  [-1]              1.77948    -570.99    -0.667304        1.77948               NaN                      NaN            1.11217
-32413                EUR  dynamic_TF_carry  [-1]               111217   -742.376     -2.78043        16.6826               NaN                      NaN            13.9022
-32414                DOW  dynamic_TF_carry   [1]              0.44487    279.823     -0.44487       -0.44487               NaN                      NaN          -0.889739
-32415            FEEDCOW  dynamic_TF_carry  [-1]               444.87    183.509     -16.6826             -0               NaN                      NaN           -16.6826
+32418                SMI  dynamic_TF_carry  [-1]              8.77783    1321.06     -4.38891       -43.8891               NaN                      NaN            -48.278
+32419                CAC  dynamic_TF_carry  [-1]              8.58583    201.767     -8.58583       -17.1717               NaN                      NaN           -25.7575
+32420         GOLD_micro  dynamic_TF_carry  [-1]              8.74699   -69.1012    -0.874699      -0.874699               NaN                      NaN            -1.7494
+32421                JPY  dynamic_TF_carry  [-1]          1.09337e+07   -1055.11     -5.46687        5.46687               NaN                      NaN       -9.48351e-12
+32422                EUR  dynamic_TF_carry   [1]               109337   -1041.44     -2.73344       -5.46687               NaN                      NaN           -8.20031
+32423       NASDAQ_micro  dynamic_TF_carry   [1]               1.7494   -307.238    -0.218675       0.874699               NaN                      NaN           0.656024
+32424                JPY  dynamic_TF_carry   [1]          1.09337e+07     795.43     -2.73344       -10.9337               NaN                      NaN           -13.6672
 
 delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry CAC              488.463532
-                 DOW              279.822942
-                 EUR             -742.376048
-                 FEEDCOW          183.508686
-                 KOSDAQ            51.362613
-                 NASDAQ_micro    -570.990057
+                                   delay_cash
+strategy_name    instrument_code             
+dynamic_TF_carry CAC               201.767002
+                 EUR             -1041.438880
+                 GOLD_micro        -69.101246
+                 JPY              -259.676361
+                 NASDAQ_micro     -307.238137
+                 SMI              1321.062869
 delay_cash Total Sum
                   delay_cash
 strategy_name               
-dynamic_TF_carry -310.208332
+dynamic_TF_carry -154.624754
 bid_ask_cash Sum
                                   bid_ask_cash
 strategy_name    instrument_code              
-dynamic_TF_carry CAC                 -4.322686
-                 DOW                 -0.444870
-                 EUR                 -2.780435
-                 FEEDCOW            -16.682608
-                 KOSDAQ              -0.922682
-                 NASDAQ_micro        -0.667304
+dynamic_TF_carry CAC                 -8.585830
+                 EUR                 -2.733435
+                 GOLD_micro          -0.874699
+                 JPY                 -8.200306
+                 NASDAQ_micro        -0.218675
+                 SMI                 -4.388913
 bid_ask_cash Total Sum
                   bid_ask_cash
 strategy_name                 
-dynamic_TF_carry    -25.820584
+dynamic_TF_carry    -25.001859
 execution_cash Sum
                                   execution_cash
 strategy_name    instrument_code                
-dynamic_TF_carry CAC                   -4.322686
-                 DOW                   -0.444870
-                 EUR                   16.682608
-                 FEEDCOW               -0.000000
-                 KOSDAQ                -0.615121
-                 NASDAQ_micro           1.779478
+dynamic_TF_carry CAC                  -17.171660
+                 EUR                   -5.466871
+                 GOLD_micro            -0.874699
+                 JPY                   -5.466871
+                 NASDAQ_micro           0.874699
+                 SMI                  -43.889132
 execution_cash Total Sum
                   execution_cash
 strategy_name                   
-dynamic_TF_carry       13.079409
+dynamic_TF_carry      -71.994533
 versus_limit_cash Sum
                                   versus_limit_cash
 strategy_name    instrument_code                   
 dynamic_TF_carry CAC                              0
-                 DOW                              0
                  EUR                              0
-                 FEEDCOW                          0
-                 KOSDAQ                           0
+                 GOLD_micro                       0
+                 JPY                              0
                  NASDAQ_micro                     0
+                 SMI                              0
 versus_limit_cash Total Sum
                   versus_limit_cash
 strategy_name                      
@@ -130,11 +135,11 @@ versus_parent_limit_cash Sum
                                   versus_parent_limit_cash
 strategy_name    instrument_code                          
 dynamic_TF_carry CAC                                     0
-                 DOW                                     0
                  EUR                                     0
-                 FEEDCOW                                 0
-                 KOSDAQ                                  0
+                 GOLD_micro                              0
+                 JPY                                     0
                  NASDAQ_micro                            0
+                 SMI                                     0
 versus_parent_limit_cash Total Sum
                   versus_parent_limit_cash
 strategy_name                             
@@ -142,16 +147,16 @@ dynamic_TF_carry                         0
 total_trading_cash Sum
                                   total_trading_cash
 strategy_name    instrument_code                    
-dynamic_TF_carry CAC                       -8.645372
-                 DOW                       -0.889739
-                 EUR                       13.902173
-                 FEEDCOW                  -16.682608
-                 KOSDAQ                    -1.537803
-                 NASDAQ_micro               1.112174
+dynamic_TF_carry CAC                      -25.757490
+                 EUR                       -8.200306
+                 GOLD_micro                -1.749399
+                 JPY                      -13.667177
+                 NASDAQ_micro               0.656024
+                 SMI                      -48.278045
 total_trading_cash Total Sum
                   total_trading_cash
 strategy_name                       
-dynamic_TF_carry          -12.741175
+dynamic_TF_carry          -96.996392
 
 ********************************************************************************
                                  END OF REPORT                                  
