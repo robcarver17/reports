@@ -1,15 +1,146 @@
 
 ********************************************************************************
-Trades report report produced on 18/10/2022 21:09 from 17/10/2022 21:09 to 18/10/2022 21:09
+Trades report report produced on 19/10/2022 21:10 from 18/10/2022 21:10 to 19/10/2022 21:10
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+================================================================================================
+                                         Broker orders                                          
+================================================================================================
+
+         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+order_id                                                                                        
+32427                CAC  dynamic_TF_carry    [20221100] 2022-10-19 08:00:33   [1]   6097.000000
+32428         GOLD_micro  dynamic_TF_carry    [20221200] 2022-10-19 14:00:24   [1]   1639.500000
+32429                JPY  dynamic_TF_carry    [20221200] 2022-10-19 15:00:23  [-1]      0.006722
+32425             KOSDAQ  dynamic_TF_carry    [20221200] 2022-10-19 02:00:21   [1]   1010.000000
+32426           MSCISING  dynamic_TF_carry    [20221000] 2022-10-19 02:30:24   [1]    272.500000
+
+
+===========================================================================================================================================================
+                                                                          Delays                                                                           
+===========================================================================================================================================================
+
+         instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                                   
+32425             KOSDAQ  dynamic_TF_carry                2022-10-17 2022-10-19 02:00:22.088 2022-10-19 02:00:21                 180022                 NaN
+32426           MSCISING  dynamic_TF_carry                2022-10-17 2022-10-19 02:30:26.128 2022-10-19 02:30:24                 181826                 NaN
+32427                CAC  dynamic_TF_carry                2022-10-17 2022-10-19 08:00:34.321 2022-10-19 08:00:33                 201634                 NaN
+32428         GOLD_micro  dynamic_TF_carry                2022-10-17 2022-10-19 14:00:25.928 2022-10-19 14:00:24                 223226                 NaN
+32429                JPY  dynamic_TF_carry                2022-10-17 2022-10-19 15:00:25.434 2022-10-19 15:00:23                 226825                 NaN
+
+
+=====================================================================================================================================================================================================================================
+                                                                                                      Slippage (ticks per lot)                                                                                                       
+=====================================================================================================================================================================================================================================
+
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price   mid_price side_price offside_price limit_price filled_price      delay  bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                             
+32425             KOSDAQ  dynamic_TF_carry   [1]                    975               None      1009.5     1009.6        1009.4        None         1010      -34.5     -0.1      -0.4          NaN                 NaN          -0.5
+32426           MSCISING  dynamic_TF_carry   [1]                 271.25               None     272.475      272.5        272.45        None        272.5     -1.225   -0.025         0          NaN                 NaN        -0.025
+32427                CAC  dynamic_TF_carry   [1]                 6036.5               None      6094.5     6095.5        6093.5        None         6097        -58       -1      -1.5          NaN                 NaN          -2.5
+32428         GOLD_micro  dynamic_TF_carry   [1]                 1657.4               None     1639.65     1639.7        1639.6        None       1639.5      17.75    -0.05       0.2          NaN                 NaN          0.15
+32429                JPY  dynamic_TF_carry  [-1]              0.0067655               None  0.00672225   0.006722     0.0067225        None     0.006722 -4.325e-05 -2.5e-07        -0          NaN                 NaN      -2.5e-07
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                       
+32425             KOSDAQ  dynamic_TF_carry   [1]         374.677  -920.793    -2.66896      -10.6759              NaN                     NaN          -13.3448
+32426           MSCISING  dynamic_TF_carry   [1]         49.5004  -247.473    -5.05046             0              NaN                     NaN          -5.05046
+32427                CAC  dynamic_TF_carry   [1]         1256.97  -461.426    -7.95562      -11.9334              NaN                     NaN           -19.889
+32428         GOLD_micro  dynamic_TF_carry   [1]         265.778    667.85    -1.88127       7.52507              NaN                     NaN           5.64381
+32429                JPY  dynamic_TF_carry  [-1]     0.000602508  -717.833    -4.14932            -0              NaN                     NaN          -4.14932
+
+
+==========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                        
+==========================================================================================================================================================================
+
+         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                  
+32425             KOSDAQ  dynamic_TF_carry   [1]              6.19731   -213.807    -0.619731       -2.47892               NaN                      NaN           -3.09865
+32426           MSCISING  dynamic_TF_carry   [1]              62.3991   -76.4389     -1.55998              0               NaN                      NaN           -1.55998
+32427                CAC  dynamic_TF_carry   [1]              8.69609   -504.373     -8.69609       -13.0441               NaN                      NaN           -21.7402
+32428         GOLD_micro  dynamic_TF_carry   [1]              8.88376    157.687    -0.444188        1.77675               NaN                      NaN            1.33256
+32429                JPY  dynamic_TF_carry  [-1]          1.11047e+07   -480.278     -2.77617             -0               NaN                      NaN           -2.77617
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry CAC             -504.373029
+                 GOLD_micro       157.686670
+                 JPY             -480.278062
+                 KOSDAQ          -213.807134
+                 MSCISING         -76.438865
+delay_cash Total Sum
+                   delay_cash
+strategy_name                
+dynamic_TF_carry -1117.210419
+bid_ask_cash Sum
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry CAC                 -8.696087
+                 GOLD_micro          -0.444188
+                 JPY                 -2.776174
+                 KOSDAQ              -0.619731
+                 MSCISING            -1.559977
+bid_ask_cash Total Sum
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry    -14.096156
+execution_cash Sum
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry CAC                  -13.044130
+                 GOLD_micro             1.776751
+                 JPY                   -0.000000
+                 KOSDAQ                -2.478923
+                 MSCISING               0.000000
+execution_cash Total Sum
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry      -13.746302
+versus_limit_cash Sum
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry CAC                              0
+                 GOLD_micro                       0
+                 JPY                              0
+                 KOSDAQ                           0
+                 MSCISING                         0
+versus_limit_cash Total Sum
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry                  0
+versus_parent_limit_cash Sum
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry CAC                                     0
+                 GOLD_micro                              0
+                 JPY                                     0
+                 KOSDAQ                                  0
+                 MSCISING                                0
+versus_parent_limit_cash Total Sum
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
+total_trading_cash Sum
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry CAC                      -21.740217
+                 GOLD_micro                 1.332563
+                 JPY                       -2.776174
+                 KOSDAQ                    -3.098654
+                 MSCISING                  -1.559977
+total_trading_cash Total Sum
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry          -27.842458
 
 ********************************************************************************
                                  END OF REPORT                                  
