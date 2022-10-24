@@ -1,146 +1,15 @@
 
 ********************************************************************************
-Trades report report produced on 21/10/2022 21:11 from 20/10/2022 21:11 to 21/10/2022 21:11
+Trades report report produced on 24/10/2022 21:11 from 23/10/2022 21:11 to 24/10/2022 21:11
 ********************************************************************************
 
 
-
-================================================================================================
-                                         Broker orders                                          
-================================================================================================
-
-         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-order_id                                                                                        
-32432       CRUDE_W_mini  dynamic_TF_carry    [20230100] 2022-10-21 16:54:58   [1]        83.775
-32430            FEEDCOW  dynamic_TF_carry    [20230100] 2022-10-21 16:26:51   [1]       180.725
-32431        GAS_US_mini  dynamic_TF_carry    [20230100] 2022-10-21 16:54:23  [-1]         5.715
-32433         GOLD_micro  dynamic_TF_carry    [20221200] 2022-10-21 16:55:58  [-1]      1654.000
-32434                NZD  dynamic_TF_carry    [20221200] 2022-10-21 16:56:28  [-1]         0.575
-
-
-===========================================================================================================================================================
-                                                                          Delays                                                                           
-===========================================================================================================================================================
-
-         instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
-order_id                                                                                                                                                   
-32430            FEEDCOW  dynamic_TF_carry                2022-10-20 2022-10-21 16:26:46.285 2022-10-21 16:26:51                 145606               4.715
-32431        GAS_US_mini  dynamic_TF_carry                2022-10-20 2022-10-21 16:53:59.261 2022-10-21 16:54:23                 147239              23.739
-32432       CRUDE_W_mini  dynamic_TF_carry                2022-10-20 2022-10-21 16:54:52.930 2022-10-21 16:54:58                 147293                5.07
-32433         GOLD_micro  dynamic_TF_carry                2022-10-20 2022-10-21 16:56:01.021 2022-10-21 16:55:58                 147361                 NaN
-32434                NZD  dynamic_TF_carry                2022-10-20 2022-10-21 16:56:30.457 2022-10-21 16:56:28                 147390                 NaN
-
-
-===============================================================================================================================================================================================================================
-                                                                                                   Slippage (ticks per lot)                                                                                                    
-===============================================================================================================================================================================================================================
-
-         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
-order_id                                                                                                                                                                                                                       
-32430            FEEDCOW  dynamic_TF_carry   [1]                 179.25               None   180.675      180.7        180.65      180.65      180.725  -1.425  -0.025    -0.025       -0.075                 NaN         -0.05
-32431        GAS_US_mini  dynamic_TF_carry  [-1]                   6.07               None     5.725       5.72          5.73        5.73        5.715  -0.345  -0.005    -0.005       -0.015                 NaN         -0.01
-32432       CRUDE_W_mini  dynamic_TF_carry   [1]                 83.725               None   83.7125      83.75        83.675      83.675       83.775  0.0125 -0.0375    -0.025         -0.1                 NaN       -0.0625
-32433         GOLD_micro  dynamic_TF_carry  [-1]                 1632.5               None    1653.8     1653.7        1653.9      1653.9         1654    21.3    -0.1       0.3          0.1                 NaN           0.2
-32434                NZD  dynamic_TF_carry  [-1]                0.56755               None   0.57485     0.5748        0.5749      0.5749        0.575  0.0073  -5e-05    0.0002       0.0001                 NaN       0.00015
-
-
-===============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
-===============================================================================================================================================================
-
-         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-order_id                                                                                                                                                       
-32430            FEEDCOW  dynamic_TF_carry   [1]         24.2977  -586.474     -10.289       -10.289         -30.8671                     NaN           -20.578
-32431        GAS_US_mini  dynamic_TF_carry  [-1]         3.69834   -932.85    -13.5196      -13.5196         -40.5587                     NaN          -27.0391
-32432       CRUDE_W_mini  dynamic_TF_carry   [1]         34.7721   3.59484    -10.7845      -7.18968         -28.7587                     NaN          -17.9742
-32433         GOLD_micro  dynamic_TF_carry  [-1]         263.589   808.076    -3.79378       11.3813          3.79378                     NaN           7.58757
-32434                NZD  dynamic_TF_carry  [-1]       0.0843379   865.566    -5.92853       23.7141          11.8571                     NaN           17.7856
-
-
-==========================================================================================================================================================================
-                                                                       Slippage (In base currency)                                                                        
-==========================================================================================================================================================================
-
-         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-order_id                                                                                                                                                                  
-32430            FEEDCOW  dynamic_TF_carry   [1]              447.928   -638.298     -11.1982       -11.1982          -33.5946                      NaN           -22.3964
-32431        GAS_US_mini  dynamic_TF_carry  [-1]              2239.64   -772.676     -11.1982       -11.1982          -33.5946                      NaN           -22.3964
-32432       CRUDE_W_mini  dynamic_TF_carry   [1]              447.928     5.5991     -16.7973       -11.1982          -44.7928                      NaN           -27.9955
-32433         GOLD_micro  dynamic_TF_carry  [-1]              8.95857    190.817    -0.895857        2.68757          0.895857                      NaN            1.79171
-32434                NZD  dynamic_TF_carry  [-1]              89585.7    653.975     -4.47928        17.9171           8.95857                      NaN            13.4378
-
-delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry CRUDE_W_mini       5.599104
-                 FEEDCOW         -638.297872
-                 GAS_US_mini     -772.676372
-                 GOLD_micro       190.817469
-                 NZD              653.975364
-delay_cash Total Sum
-                  delay_cash
-strategy_name               
-dynamic_TF_carry -560.582307
-bid_ask_cash Sum
-                                  bid_ask_cash
-strategy_name    instrument_code              
-dynamic_TF_carry CRUDE_W_mini       -16.797312
-                 FEEDCOW            -11.198208
-                 GAS_US_mini        -11.198208
-                 GOLD_micro          -0.895857
-                 NZD                 -4.479283
-bid_ask_cash Total Sum
-                  bid_ask_cash
-strategy_name                 
-dynamic_TF_carry    -44.568869
-execution_cash Sum
-                                  execution_cash
-strategy_name    instrument_code                
-dynamic_TF_carry CRUDE_W_mini         -11.198208
-                 FEEDCOW              -11.198208
-                 GAS_US_mini          -11.198208
-                 GOLD_micro             2.687570
-                 NZD                   17.917133
-execution_cash Total Sum
-                  execution_cash
-strategy_name                   
-dynamic_TF_carry      -12.989922
-versus_limit_cash Sum
-                                  versus_limit_cash
-strategy_name    instrument_code                   
-dynamic_TF_carry CRUDE_W_mini            -44.792833
-                 FEEDCOW                 -33.594625
-                 GAS_US_mini             -33.594625
-                 GOLD_micro                0.895857
-                 NZD                       8.958567
-versus_limit_cash Total Sum
-                  versus_limit_cash
-strategy_name                      
-dynamic_TF_carry         -102.12766
-versus_parent_limit_cash Sum
-                                  versus_parent_limit_cash
-strategy_name    instrument_code                          
-dynamic_TF_carry CRUDE_W_mini                            0
-                 FEEDCOW                                 0
-                 GAS_US_mini                             0
-                 GOLD_micro                              0
-                 NZD                                     0
-versus_parent_limit_cash Total Sum
-                  versus_parent_limit_cash
-strategy_name                             
-dynamic_TF_carry                         0
-total_trading_cash Sum
-                                  total_trading_cash
-strategy_name    instrument_code                    
-dynamic_TF_carry CRUDE_W_mini             -27.995521
-                 FEEDCOW                  -22.396417
-                 GAS_US_mini              -22.396417
-                 GOLD_micro                 1.791713
-                 NZD                       13.437850
-total_trading_cash Total Sum
-                  total_trading_cash
-strategy_name                       
-dynamic_TF_carry          -57.558791
+No trades
+No trades
+No trades
+No trades
+No trades
+No trades
 
 ********************************************************************************
                                  END OF REPORT                                  
