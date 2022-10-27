@@ -1,15 +1,146 @@
 
 ********************************************************************************
-Trades report report produced on 26/10/2022 21:11 from 25/10/2022 21:11 to 26/10/2022 21:11
+Trades report report produced on 27/10/2022 21:12 from 26/10/2022 21:12 to 27/10/2022 21:12
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+================================================================================================
+                                         Broker orders                                          
+================================================================================================
+
+         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+order_id                                                                                        
+32439            FEEDCOW  dynamic_TF_carry    [20230300] 2022-10-27 15:30:30  [-1]        182.85
+32437         GOLD_micro  dynamic_TF_carry    [20221200] 2022-10-27 14:00:25   [1]       1663.10
+32436          NIKKEI400  dynamic_TF_carry    [20221200] 2022-10-27 01:45:50  [-1]      17155.00
+32438            RUSSELL  dynamic_TF_carry    [20221200] 2022-10-27 15:00:31  [-1]       1817.80
+32435              TOPIX  dynamic_TF_carry    [20221200] 2022-10-27 01:45:23  [-1]       1906.50
+
+
+===========================================================================================================================================================
+                                                                          Delays                                                                           
+===========================================================================================================================================================
+
+         instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                                   
+32435              TOPIX  dynamic_TF_carry                2022-10-25 2022-10-27 01:45:24.405 2022-10-27 01:45:23                 179124                 NaN
+32436          NIKKEI400  dynamic_TF_carry                2022-10-25 2022-10-27 01:45:52.221 2022-10-27 01:45:50                 179152                 NaN
+32437         GOLD_micro  dynamic_TF_carry                2022-10-25 2022-10-27 14:00:27.089 2022-10-27 14:00:25                 223227                 NaN
+32438            RUSSELL  dynamic_TF_carry                2022-10-25 2022-10-27 15:00:33.746 2022-10-27 15:00:31                 226834                 NaN
+32439            FEEDCOW  dynamic_TF_carry                2022-10-25 2022-10-27 15:30:31.912 2022-10-27 15:30:30                 228632                 NaN
+
+
+===============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                    
+===============================================================================================================================================================================================================================
+
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                       
+32435              TOPIX  dynamic_TF_carry  [-1]                 1925.5               None   1907.12       1907       1907.25        None       1906.5 -18.375  -0.125      -0.5          NaN                 NaN        -0.625
+32436          NIKKEI400  dynamic_TF_carry  [-1]                  17275               None     17155      17150         17160        None        17155    -120      -5         5          NaN                 NaN             0
+32437         GOLD_micro  dynamic_TF_carry   [1]                 1661.2               None    1663.4     1663.5        1663.3        None       1663.1    -2.2    -0.1       0.4          NaN                 NaN           0.3
+32438            RUSSELL  dynamic_TF_carry  [-1]                 1802.9               None    1818.1       1818        1818.2        None       1817.8    15.2    -0.1      -0.2          NaN                 NaN          -0.3
+32439            FEEDCOW  dynamic_TF_carry  [-1]                 181.75               None   182.887     182.85       182.925        None       182.85  1.1375 -0.0375        -0          NaN                 NaN       -0.0375
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                       
+32435              TOPIX  dynamic_TF_carry  [-1]         330.784  -555.499    -3.77891      -15.1156              NaN                     NaN          -18.8945
+32436          NIKKEI400  dynamic_TF_carry  [-1]         3090.83  -388.245    -16.1769       16.1769              NaN                     NaN                 0
+32437         GOLD_micro  dynamic_TF_carry   [1]         265.378  -82.9005     -3.7682       15.0728              NaN                     NaN           11.3046
+32438            RUSSELL  dynamic_TF_carry  [-1]         522.371   290.981    -1.91435      -3.82869              NaN                     NaN          -5.74304
+32439            FEEDCOW  dynamic_TF_carry  [-1]         24.1192   471.616    -15.5478            -0              NaN                     NaN          -15.5478
+
+
+==========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                        
+==========================================================================================================================================================================
+
+         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                  
+32435              TOPIX  dynamic_TF_carry  [-1]              5.91496   -108.687    -0.739371       -2.95748               NaN                      NaN           -3.69685
+32436          NIKKEI400  dynamic_TF_carry  [-1]             0.591496   -70.9796     -2.95748        2.95748               NaN                      NaN                  0
+32437         GOLD_micro  dynamic_TF_carry   [1]              8.63688   -19.0011    -0.863688        3.45475               NaN                      NaN            2.59107
+32438            RUSSELL  dynamic_TF_carry  [-1]              4.31844    65.6403    -0.431844      -0.863688               NaN                      NaN           -1.29553
+32439            FEEDCOW  dynamic_TF_carry  [-1]              431.844    491.223     -16.1942             -0               NaN                      NaN           -16.1942
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry FEEDCOW          491.222767
+                 GOLD_micro       -19.001144
+                 NIKKEI400        -70.979578
+                 RUSSELL           65.640317
+                 TOPIX           -108.687479
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry  358.194882
+bid_ask_cash Sum
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry FEEDCOW            -16.194157
+                 GOLD_micro          -0.863688
+                 NIKKEI400           -2.957482
+                 RUSSELL             -0.431844
+                 TOPIX               -0.739371
+bid_ask_cash Total Sum
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry    -21.186543
+execution_cash Sum
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry FEEDCOW               -0.000000
+                 GOLD_micro             3.454754
+                 NIKKEI400              2.957482
+                 RUSSELL               -0.863688
+                 TOPIX                 -2.957482
+execution_cash Total Sum
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry        2.591065
+versus_limit_cash Sum
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry FEEDCOW                          0
+                 GOLD_micro                       0
+                 NIKKEI400                        0
+                 RUSSELL                          0
+                 TOPIX                            0
+versus_limit_cash Total Sum
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry                  0
+versus_parent_limit_cash Sum
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry FEEDCOW                                 0
+                 GOLD_micro                              0
+                 NIKKEI400                               0
+                 RUSSELL                                 0
+                 TOPIX                                   0
+versus_parent_limit_cash Total Sum
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
+total_trading_cash Sum
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry FEEDCOW                  -16.194157
+                 GOLD_micro                 2.591065
+                 NIKKEI400                  0.000000
+                 RUSSELL                   -1.295533
+                 TOPIX                     -3.696853
+total_trading_cash Total Sum
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry          -18.595478
 
 ********************************************************************************
                                  END OF REPORT                                  
