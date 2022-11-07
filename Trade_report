@@ -1,17 +1,19 @@
 
 ********************************************************************************
-Trades report report produced on 04/11/2022 21:13 from 03/11/2022 21:13 to 04/11/2022 21:13
+Trades report report produced on 07/11/2022 21:12 from 06/11/2022 21:12 to 07/11/2022 21:12
 ********************************************************************************
 
 
 
-================================================================================================
-                                         Broker orders                                          
-================================================================================================
+===============================================================================================
+                                         Broker orders                                         
+===============================================================================================
 
-         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-order_id                                                                                        
-32457         GOLD_micro  dynamic_TF_carry    [20221200] 2022-11-04 14:00:24  [-1]        1669.8
+         instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
+order_id                                                                                       
+32459                AUD  dynamic_TF_carry    [20221200] 2022-11-07 15:00:28  [1]       0.64765
+32460             EURCHF  dynamic_TF_carry    [20221200] 2022-11-07 15:00:58  [1]       0.98810
+32458         GOLD_micro  dynamic_TF_carry    [20221200] 2022-11-07 14:00:24  [1]    1681.30000
 
 
 ===========================================================================================================================================================
@@ -20,16 +22,20 @@ order_id
 
          instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
 order_id                                                                                                                                                   
-32457         GOLD_micro  dynamic_TF_carry                2022-11-02 2022-11-04 14:00:25.928 2022-11-04 14:00:24                 223226                 NaN
+32458         GOLD_micro  dynamic_TF_carry                2022-11-04 2022-11-07 14:00:25.987 2022-11-07 14:00:24                 309626                 NaN
+32459                AUD  dynamic_TF_carry                2022-11-04 2022-11-07 15:00:30.045 2022-11-07 15:00:28                 313230                 NaN
+32460             EURCHF  dynamic_TF_carry                2022-11-04 2022-11-07 15:01:00.407 2022-11-07 15:00:58                 313260                 NaN
 
 
-==============================================================================================================================================================================================================================
-                                                                                                   Slippage (ticks per lot)                                                                                                   
-==============================================================================================================================================================================================================================
+=================================================================================================================================================================================================================================
+                                                                                                    Slippage (ticks per lot)                                                                                                     
+=================================================================================================================================================================================================================================
 
-         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
-order_id                                                                                                                                                                                                                      
-32457         GOLD_micro  dynamic_TF_carry  [-1]                 1640.3               None   1669.75     1669.7        1669.8        None       1669.8  29.45   -0.05       0.1          NaN                 NaN          0.05
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                         
+32458         GOLD_micro  dynamic_TF_carry   [1]                 1683.5               None   1681.05     1681.1          1681        None       1681.3     2.45    -0.05      -0.2          NaN                 NaN         -0.25
+32459                AUD  dynamic_TF_carry   [1]                 0.6455               None    0.6475    0.64755       0.64745        None      0.64765   -0.002   -5e-05   -0.0001          NaN                 NaN      -0.00015
+32460             EURCHF  dynamic_TF_carry   [1]                 0.9876               None   0.98795     0.9881        0.9878        None       0.9881 -0.00035 -0.00015         0          NaN                 NaN      -0.00015
 
 
 ===============================================================================================================================================================
@@ -38,7 +44,9 @@ order_id
 
          instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
 order_id                                                                                                                                                       
-32457         GOLD_micro  dynamic_TF_carry  [-1]         250.437   1175.94    -1.99651       3.99302              NaN                     NaN           1.99651
+32458         GOLD_micro  dynamic_TF_carry   [1]         297.057   82.4756    -1.68318       -6.7327              NaN                     NaN          -8.41588
+32459                AUD  dynamic_TF_carry   [1]        0.103407  -193.411    -4.83528      -9.67056              NaN                     NaN          -14.5058
+32460             EURCHF  dynamic_TF_carry   [1]       0.0612219  -57.1691    -24.5011             0              NaN                     NaN          -24.5011
 
 
 ==========================================================================================================================================================================
@@ -47,36 +55,46 @@ order_id
 
          instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
 order_id                                                                                                                                                                  
-32457         GOLD_micro  dynamic_TF_carry  [-1]                8.868    261.163      -0.4434         0.8868               NaN                      NaN             0.4434
+32458         GOLD_micro  dynamic_TF_carry   [1]              8.72372    21.3731    -0.436186       -1.74474               NaN                      NaN           -2.18093
+32459                AUD  dynamic_TF_carry   [1]              87237.2   -174.474     -4.36186       -8.72372               NaN                      NaN           -13.0856
+32460             EURCHF  dynamic_TF_carry   [1]               110186   -38.5651     -16.5279              0               NaN                      NaN           -16.5279
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry GOLD_micro       261.162595
+dynamic_TF_carry AUD             -174.474396
+                 EURCHF           -38.565112
+                 GOLD_micro        21.373113
 delay_cash Total Sum
                   delay_cash
 strategy_name               
-dynamic_TF_carry  261.162595
+dynamic_TF_carry -191.666394
 bid_ask_cash Sum
                                   bid_ask_cash
 strategy_name    instrument_code              
-dynamic_TF_carry GOLD_micro            -0.4434
+dynamic_TF_carry AUD                 -4.361860
+                 EURCHF             -16.527905
+                 GOLD_micro          -0.436186
 bid_ask_cash Total Sum
                   bid_ask_cash
 strategy_name                 
-dynamic_TF_carry       -0.4434
+dynamic_TF_carry    -21.325951
 execution_cash Sum
                                   execution_cash
 strategy_name    instrument_code                
-dynamic_TF_carry GOLD_micro               0.8868
+dynamic_TF_carry AUD                   -8.723720
+                 EURCHF                 0.000000
+                 GOLD_micro            -1.744744
 execution_cash Total Sum
                   execution_cash
 strategy_name                   
-dynamic_TF_carry          0.8868
+dynamic_TF_carry      -10.468464
 versus_limit_cash Sum
                                   versus_limit_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry GOLD_micro                       0
+dynamic_TF_carry AUD                              0
+                 EURCHF                           0
+                 GOLD_micro                       0
 versus_limit_cash Total Sum
                   versus_limit_cash
 strategy_name                      
@@ -84,7 +102,9 @@ dynamic_TF_carry                  0
 versus_parent_limit_cash Sum
                                   versus_parent_limit_cash
 strategy_name    instrument_code                          
-dynamic_TF_carry GOLD_micro                              0
+dynamic_TF_carry AUD                                     0
+                 EURCHF                                  0
+                 GOLD_micro                              0
 versus_parent_limit_cash Total Sum
                   versus_parent_limit_cash
 strategy_name                             
@@ -92,11 +112,13 @@ dynamic_TF_carry                         0
 total_trading_cash Sum
                                   total_trading_cash
 strategy_name    instrument_code                    
-dynamic_TF_carry GOLD_micro                   0.4434
+dynamic_TF_carry AUD                      -13.085580
+                 EURCHF                   -16.527905
+                 GOLD_micro                -2.180930
 total_trading_cash Total Sum
                   total_trading_cash
 strategy_name                       
-dynamic_TF_carry              0.4434
+dynamic_TF_carry          -31.794415
 
 ********************************************************************************
                                  END OF REPORT                                  
