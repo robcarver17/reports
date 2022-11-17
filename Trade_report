@@ -1,146 +1,15 @@
 
 ********************************************************************************
-Trades report report produced on 16/11/2022 21:13 from 15/11/2022 21:13 to 16/11/2022 21:13
+Trades report report produced on 17/11/2022 21:14 from 16/11/2022 21:14 to 17/11/2022 21:14
 ********************************************************************************
 
 
-
-================================================================================================
-                                         Broker orders                                          
-================================================================================================
-
-         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-order_id                                                                                        
-32486               BOBL  dynamic_TF_carry    [20221200] 2022-11-16 13:22:23  [-1]    119.620000
-32490            LIVECOW  dynamic_TF_carry    [20230200] 2022-11-16 15:33:18  [-1]    153.175000
-32489              US10U  dynamic_TF_carry    [20230300] 2022-11-16 15:02:08  [-1]    119.328125
-32487               US20  dynamic_TF_carry    [20221200] 2022-11-16 15:00:31   [1]    125.656250
-32488                VIX  dynamic_TF_carry    [20230200] 2022-11-16 15:01:36  [-1]     27.600000
-
-
-===========================================================================================================================================================
-                                                                          Delays                                                                           
-===========================================================================================================================================================
-
-         instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
-order_id                                                                                                                                                   
-32486               BOBL  dynamic_TF_carry                2022-11-15 2022-11-16 13:22:04.606 2022-11-16 13:22:23                 134525              18.394
-32487               US20  dynamic_TF_carry                2022-11-15 2022-11-16 15:00:33.679 2022-11-16 15:00:31                 140434                 NaN
-32488                VIX  dynamic_TF_carry                2022-11-15 2022-11-16 15:01:38.007 2022-11-16 15:01:36                 140498                 NaN
-32489              US10U  dynamic_TF_carry                2022-11-15 2022-11-16 15:02:08.969 2022-11-16 15:02:08                 140529                 NaN
-32490            LIVECOW  dynamic_TF_carry                2022-11-15 2022-11-16 15:33:21.446 2022-11-16 15:33:18                 142401                 NaN
-
-
-===================================================================================================================================================================================================================================
-                                                                                                     Slippage (ticks per lot)                                                                                                      
-===================================================================================================================================================================================================================================
-
-         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
-order_id                                                                                                                                                                                                                           
-32486               BOBL  dynamic_TF_carry  [-1]                 119.32               None   119.625     119.62        119.63      119.63       119.62     0.305    -0.005        -0        -0.01                 NaN        -0.005
-32487               US20  dynamic_TF_carry   [1]                124.875               None   125.641    125.656       125.625         NaN      125.656 -0.765625 -0.015625         0          NaN                 NaN     -0.015625
-32488                VIX  dynamic_TF_carry  [-1]                  27.75               None    27.625       27.6         27.65         NaN         27.6    -0.125    -0.025        -0          NaN                 NaN        -0.025
-32489              US10U  dynamic_TF_carry  [-1]                118.797               None   119.312    119.297       119.328         NaN      119.328  0.515625 -0.015625   0.03125          NaN                 NaN      0.015625
-32490            LIVECOW  dynamic_TF_carry  [-1]                152.975               None   153.188    153.175         153.2         NaN      153.175    0.2125   -0.0125        -0          NaN                 NaN       -0.0125
-
-
-===============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
-===============================================================================================================================================================
-
-         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-order_id                                                                                                                                                       
-32486               BOBL  dynamic_TF_carry  [-1]         7.46217   408.728    -6.70046            -0         -13.4009                     NaN          -6.70046
-32487               US20  dynamic_TF_carry   [1]         19.2473  -397.783    -8.11802             0              NaN                     NaN          -8.11802
-32488                VIX  dynamic_TF_carry  [-1]         8.70665  -143.568    -28.7137            -0              NaN                     NaN          -28.7137
-32489              US10U  dynamic_TF_carry  [-1]         13.5319   381.044    -11.5468       23.0936              NaN                     NaN           11.5468
-32490            LIVECOW  dynamic_TF_carry  [-1]         13.8899   152.989    -8.99933            -0              NaN                     NaN          -8.99933
-
-
-==========================================================================================================================================================================
-                                                                       Slippage (In base currency)                                                                        
-==========================================================================================================================================================================
-
-         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-order_id                                                                                                                                                                  
-32486               BOBL  dynamic_TF_carry  [-1]              875.134    266.916     -4.37567             -0          -8.75134                      NaN           -4.37567
-32487               US20  dynamic_TF_carry   [1]              840.848   -643.775     -13.1383              0               NaN                      NaN           -13.1383
-32488                VIX  dynamic_TF_carry  [-1]              840.848   -105.106     -21.0212             -0               NaN                      NaN           -21.0212
-32489              US10U  dynamic_TF_carry  [-1]              840.848    433.562     -13.1383        26.2765               NaN                      NaN            13.1383
-32490            LIVECOW  dynamic_TF_carry  [-1]              336.339    71.4721     -4.20424             -0               NaN                      NaN           -4.20424
-
-delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry BOBL             266.915873
-                 LIVECOW           71.472115
-                 US10U            433.562465
-                 US20            -643.774569
-                 VIX             -105.106052
-delay_cash Total Sum
-                  delay_cash
-strategy_name               
-dynamic_TF_carry   23.069832
-bid_ask_cash Sum
-                                  bid_ask_cash
-strategy_name    instrument_code              
-dynamic_TF_carry BOBL                -4.375670
-                 LIVECOW             -4.204242
-                 US10U              -13.138257
-                 US20               -13.138257
-                 VIX                -21.021210
-bid_ask_cash Total Sum
-                  bid_ask_cash
-strategy_name                 
-dynamic_TF_carry    -55.877636
-execution_cash Sum
-                                  execution_cash
-strategy_name    instrument_code                
-dynamic_TF_carry BOBL                  -0.000000
-                 LIVECOW               -0.000000
-                 US10U                 26.276513
-                 US20                   0.000000
-                 VIX                   -0.000000
-execution_cash Total Sum
-                  execution_cash
-strategy_name                   
-dynamic_TF_carry       26.276513
-versus_limit_cash Sum
-                                  versus_limit_cash
-strategy_name    instrument_code                   
-dynamic_TF_carry BOBL                      -8.75134
-                 LIVECOW                    0.00000
-                 US10U                      0.00000
-                 US20                       0.00000
-                 VIX                        0.00000
-versus_limit_cash Total Sum
-                  versus_limit_cash
-strategy_name                      
-dynamic_TF_carry           -8.75134
-versus_parent_limit_cash Sum
-                                  versus_parent_limit_cash
-strategy_name    instrument_code                          
-dynamic_TF_carry BOBL                                    0
-                 LIVECOW                                 0
-                 US10U                                   0
-                 US20                                    0
-                 VIX                                     0
-versus_parent_limit_cash Total Sum
-                  versus_parent_limit_cash
-strategy_name                             
-dynamic_TF_carry                         0
-total_trading_cash Sum
-                                  total_trading_cash
-strategy_name    instrument_code                    
-dynamic_TF_carry BOBL                      -4.375670
-                 LIVECOW                   -4.204242
-                 US10U                     13.138257
-                 US20                     -13.138257
-                 VIX                      -21.021210
-total_trading_cash Total Sum
-                  total_trading_cash
-strategy_name                       
-dynamic_TF_carry          -29.601123
+No trades
+No trades
+No trades
+No trades
+No trades
+No trades
 
 ********************************************************************************
                                  END OF REPORT                                  
