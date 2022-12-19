@@ -1,15 +1,146 @@
 
 ********************************************************************************
-Trades report report produced on 16/12/2022 21:09 from 15/12/2022 21:09 to 16/12/2022 21:09
+Trades report report produced on 19/12/2022 21:09 from 18/12/2022 21:09 to 19/12/2022 21:09
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+================================================================================================
+                                         Broker orders                                          
+================================================================================================
+
+         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+order_id                                                                                        
+32516        GAS_US_mini  dynamic_TF_carry    [20230100] 2022-12-19 14:01:05   [1]      6.125000
+32514             NIKKEI  dynamic_TF_carry    [20230300] 2022-12-19 01:45:27  [-1]  27145.000000
+32515             SILVER  dynamic_TF_carry    [20230300] 2022-12-19 14:00:37   [1]     23.430000
+32518             SOYOIL  dynamic_TF_carry    [20230300] 2022-12-19 15:30:36  [-1]     62.980000
+32517                US5  dynamic_TF_carry    [20230300] 2022-12-19 15:02:28  [-1]    109.109375
+
+
+===========================================================================================================================================================
+                                                                          Delays                                                                           
+===========================================================================================================================================================
+
+         instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                                   
+32514             NIKKEI  dynamic_TF_carry                2022-12-15 2022-12-19 01:45:26.885 2022-12-19 01:45:27                 351927               0.115
+32515             SILVER  dynamic_TF_carry                2022-12-15 2022-12-19 14:00:33.633 2022-12-19 14:00:37                 396034               3.367
+32516        GAS_US_mini  dynamic_TF_carry                2022-12-15 2022-12-19 14:01:05.418 2022-12-19 14:01:05                 396065                 NaN
+32517                US5  dynamic_TF_carry                2022-12-15 2022-12-19 15:00:36.567 2022-12-19 15:02:28                 399637             111.433
+32518             SOYOIL  dynamic_TF_carry                2022-12-15 2022-12-19 15:30:36.512 2022-12-19 15:30:36                 401437                 NaN
+
+
+=====================================================================================================================================================================================================================================
+                                                                                                      Slippage (ticks per lot)                                                                                                       
+=====================================================================================================================================================================================================================================
+
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay     bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                             
+32514             NIKKEI  dynamic_TF_carry  [-1]                  27580               None   27142.5      27140         27145       27145        27145    -437.5        -2.5         5           -0                 NaN           2.5
+32515             SILVER  dynamic_TF_carry   [1]                  23.35               None    23.435      23.44         23.43       23.43        23.43    -0.085      -0.005      0.01            0                 NaN         0.005
+32516        GAS_US_mini  dynamic_TF_carry   [1]                  6.795               None    6.1275       6.13         6.125       6.125        6.125    0.6675     -0.0025     0.005            0                 NaN        0.0025
+32517                US5  dynamic_TF_carry  [-1]                109.438               None   109.113    109.109       109.117     109.117      109.109 -0.324219 -0.00390625        -0   -0.0078125                 NaN   -0.00390625
+32518             SOYOIL  dynamic_TF_carry  [-1]                   63.1               None     62.97      62.96         62.98       62.98        62.98     -0.13       -0.01      0.02 -7.10543e-15                 NaN          0.01
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                       
+32514             NIKKEI  dynamic_TF_carry  [-1]         4483.52  -975.795    -5.57597       11.1519               -0                     NaN           5.57597
+32515             SILVER  dynamic_TF_carry   [1]         7.65885  -110.983    -6.52839       13.0568                0                     NaN           6.52839
+32516        GAS_US_mini  dynamic_TF_carry   [1]         5.35243    1247.1    -4.67077       9.34155                0                     NaN           4.67077
+32517                US5  dynamic_TF_carry  [-1]         5.73788  -565.049    -6.80782            -0         -13.6156                     NaN          -6.80782
+32518             SOYOIL  dynamic_TF_carry  [-1]         21.6616  -60.0139    -4.61646       9.23291     -3.28019e-12                     NaN           4.61646
+
+
+==========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                        
+==========================================================================================================================================================================
+
+         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                  
+32514             NIKKEI  dynamic_TF_carry  [-1]             0.600835   -262.865     -1.50209        3.00418                -0                      NaN            1.50209
+32515             SILVER  dynamic_TF_carry   [1]              821.777   -69.8511     -4.10889        8.21777                 0                      NaN            4.10889
+32516        GAS_US_mini  dynamic_TF_carry   [1]              2054.44    1371.34     -5.13611        10.2722                 0                      NaN            5.13611
+32517                US5  dynamic_TF_carry  [-1]              821.777   -266.436     -3.21007             -0          -6.42013                      NaN           -3.21007
+32518             SOYOIL  dynamic_TF_carry  [-1]              493.066   -64.0986     -4.93066        9.86133      -3.50345e-12                      NaN            4.93066
+
+delay_cash Sum
+                                   delay_cash
+strategy_name    instrument_code             
+dynamic_TF_carry GAS_US_mini      1371.340524
+                 NIKKEI           -262.865326
+                 SILVER            -69.851053
+                 SOYOIL            -64.098613
+                 US5              -266.435542
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry   708.08999
+bid_ask_cash Sum
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry GAS_US_mini         -5.136107
+                 NIKKEI              -1.502088
+                 SILVER              -4.108885
+                 SOYOIL              -4.930663
+                 US5                 -3.210067
+bid_ask_cash Total Sum
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry    -18.887809
+execution_cash Sum
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry GAS_US_mini           10.272214
+                 NIKKEI                 3.004175
+                 SILVER                 8.217771
+                 SOYOIL                 9.861325
+                 US5                   -0.000000
+execution_cash Total Sum
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry       31.355485
+versus_limit_cash Sum
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry GAS_US_mini           0.000000e+00
+                 NIKKEI               -0.000000e+00
+                 SILVER                0.000000e+00
+                 SOYOIL               -3.503446e-12
+                 US5                  -6.420134e+00
+versus_limit_cash Total Sum
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry          -6.420134
+versus_parent_limit_cash Sum
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry GAS_US_mini                             0
+                 NIKKEI                                  0
+                 SILVER                                  0
+                 SOYOIL                                  0
+                 US5                                     0
+versus_parent_limit_cash Total Sum
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
+total_trading_cash Sum
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry GAS_US_mini                5.136107
+                 NIKKEI                     1.502088
+                 SILVER                     4.108885
+                 SOYOIL                     4.930663
+                 US5                       -3.210067
+total_trading_cash Total Sum
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry           12.467676
 
 ********************************************************************************
                                  END OF REPORT                                  
