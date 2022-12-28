@@ -1,15 +1,135 @@
 
 ********************************************************************************
-Trades report report produced on 23/12/2022 21:10 from 22/12/2022 21:10 to 23/12/2022 21:10
+Trades report report produced on 28/12/2022 21:09 from 27/12/2022 21:09 to 28/12/2022 21:09
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+================================================================================================
+                                         Broker orders                                          
+================================================================================================
+
+         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+order_id                                                                                        
+32520         GOLD_micro  dynamic_TF_carry    [20230200] 2022-12-28 14:01:16   [1]   1811.500000
+32521       NASDAQ_micro  dynamic_TF_carry    [20230300] 2022-12-28 15:00:43  [-1]  10963.500000
+32519             SILVER  dynamic_TF_carry    [20230300] 2022-12-28 14:00:30  [-1]     23.910000
+32522                US5  dynamic_TF_carry    [20230300] 2022-12-28 15:01:29  [-1]    108.078125
+
+
+===========================================================================================================================================================
+                                                                          Delays                                                                           
+===========================================================================================================================================================
+
+         instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                                   
+32519             SILVER  dynamic_TF_carry                2022-12-22 2022-12-28 14:00:31.131 2022-12-28 14:00:30                 568831                 NaN
+32520         GOLD_micro  dynamic_TF_carry                2022-12-22 2022-12-28 14:01:00.925 2022-12-28 14:01:16                 568861              15.075
+32521       NASDAQ_micro  dynamic_TF_carry                2022-12-22 2022-12-28 15:00:35.424 2022-12-28 15:00:43                 572435               7.576
+32522                US5  dynamic_TF_carry                2022-12-22 2022-12-28 15:01:09.526 2022-12-28 15:01:29                 572470              19.474
+
+
+=====================================================================================================================================================================================================================================
+                                                                                                      Slippage (ticks per lot)                                                                                                       
+=====================================================================================================================================================================================================================================
+
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay     bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                             
+32519             SILVER  dynamic_TF_carry  [-1]                  23.57               None    23.905       23.9         23.91       23.91        23.91     0.335      -0.005      0.01           -0                 NaN         0.005
+32520         GOLD_micro  dynamic_TF_carry   [1]                 1798.3               None   1810.75     1810.8        1810.7      1810.7       1811.5    -12.45       -0.05      -0.7         -0.8                 NaN         -0.75
+32521       NASDAQ_micro  dynamic_TF_carry  [-1]                10911.2               None   10968.2    10967.8       10968.8     10968.8      10963.5        57        -0.5     -4.25        -5.25                 NaN         -4.75
+32522                US5  dynamic_TF_carry  [-1]                108.758               None   108.082    108.078       108.086     108.086      108.078 -0.675781 -0.00390625        -0   -0.0078125                 NaN   -0.00390625
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                       
+32519             SILVER  dynamic_TF_carry  [-1]         7.98618   419.475    -6.26082       12.5216               -0                     NaN           6.26082
+32520         GOLD_micro  dynamic_TF_carry   [1]         285.251  -436.457    -1.75284      -24.5398         -28.0455                     NaN          -26.2926
+32521       NASDAQ_micro  dynamic_TF_carry  [-1]         3368.63   169.208    -1.48428      -12.6164         -15.5849                     NaN          -14.1007
+32522                US5  dynamic_TF_carry  [-1]         5.34763   -1263.7    -7.30464            -0         -14.6093                     NaN          -7.30464
+
+
+==========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                        
+==========================================================================================================================================================================
+
+         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                  
+32519             SILVER  dynamic_TF_carry  [-1]              827.541    277.226      -4.1377        8.27541                -0                      NaN             4.1377
+32520         GOLD_micro  dynamic_TF_carry   [1]              8.27541   -103.029     -0.41377       -5.79278          -6.62032                      NaN           -6.20655
+32521       NASDAQ_micro  dynamic_TF_carry  [-1]              1.65508    94.3396    -0.827541       -7.03409          -8.68918                      NaN           -7.86164
+32522                US5  dynamic_TF_carry  [-1]              827.541   -559.236     -3.23258             -0          -6.46516                      NaN           -3.23258
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry GOLD_micro      -103.028798
+                 NASDAQ_micro      94.339623
+                 SILVER           277.226084
+                 US5             -559.236387
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -290.699479
+bid_ask_cash Sum
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry GOLD_micro          -0.413770
+                 NASDAQ_micro        -0.827541
+                 SILVER              -4.137703
+                 US5                 -3.232580
+bid_ask_cash Total Sum
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry     -8.611594
+execution_cash Sum
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry GOLD_micro            -5.792784
+                 NASDAQ_micro          -7.034095
+                 SILVER                 8.275405
+                 US5                   -0.000000
+execution_cash Total Sum
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry       -4.551473
+versus_limit_cash Sum
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry GOLD_micro               -6.620324
+                 NASDAQ_micro             -8.689176
+                 SILVER                   -0.000000
+                 US5                      -6.465161
+versus_limit_cash Total Sum
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry         -21.774661
+versus_parent_limit_cash Sum
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry GOLD_micro                              0
+                 NASDAQ_micro                            0
+                 SILVER                                  0
+                 US5                                     0
+versus_parent_limit_cash Total Sum
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
+total_trading_cash Sum
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry GOLD_micro                -6.206554
+                 NASDAQ_micro              -7.861635
+                 SILVER                     4.137703
+                 US5                       -3.232580
+total_trading_cash Total Sum
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry          -13.163067
 
 ********************************************************************************
                                  END OF REPORT                                  
