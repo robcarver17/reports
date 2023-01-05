@@ -1,151 +1,15 @@
 
 ********************************************************************************
-Trades report report produced on 04/01/2023 21:08 from 03/01/2023 21:08 to 04/01/2023 21:08
+Trades report report produced on 05/01/2023 21:09 from 04/01/2023 21:09 to 05/01/2023 21:09
 ********************************************************************************
 
 
-
-====================================================================================================
-                                           Broker orders                                            
-====================================================================================================
-
-         instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
-order_id                                                                                            
-32525                BRE  dynamic_TF_carry    [20221200] 2023-01-04 09:29:28.444  [-1]       0.18880
-32526                BRE  dynamic_TF_carry    [20221200] 2023-01-04 09:45:40.201   [1]       0.18880
-32524                DAX  dynamic_TF_carry    [20230300] 2023-01-04 08:00:35.000  [-1]   14332.00000
-32523               IRON  dynamic_TF_carry    [20230300] 2023-01-04 01:25:44.000   [1]     115.10000
-32527               US20  dynamic_TF_carry    [20230300] 2023-01-04 15:00:30.000  [-1]     127.84375
-32528                US5  dynamic_TF_carry    [20230300] 2023-01-04 15:01:02.000   [1]     108.50000
-
-
-===============================================================================================================================================================
-                                                                            Delays                                                                             
-===============================================================================================================================================================
-
-         instrument_code     strategy_name parent_reference_datetime         submit_datetime           fill_datetime submit_minus_generated filled_minus_submit
-order_id                                                                                                                                                       
-32523               IRON  dynamic_TF_carry                2023-01-03 2023-01-04 01:25:35.392 2023-01-04 01:25:44.000                91535.4               8.608
-32524                DAX  dynamic_TF_carry                2023-01-03 2023-01-04 08:00:36.577 2023-01-04 08:00:35.000                 115237                 NaN
-32525                BRE  dynamic_TF_carry                       NaT                     NaT 2023-01-04 09:29:28.444                    NaN                 NaN
-32526                BRE  dynamic_TF_carry                       NaT                     NaT 2023-01-04 09:45:40.201                    NaN                 NaN
-32527               US20  dynamic_TF_carry                2023-01-03 2023-01-04 15:00:31.484 2023-01-04 15:00:30.000                 140431                 NaN
-32528                US5  dynamic_TF_carry                2023-01-03 2023-01-04 15:00:56.865 2023-01-04 15:01:02.000                 140457               5.135
-
-
-====================================================================================================================================================================================================================================
-                                                                                                      Slippage (ticks per lot)                                                                                                      
-====================================================================================================================================================================================================================================
-
-         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay    bid_ask execution versus_limit versus_parent_limit total_trading
-order_id                                                                                                                                                                                                                            
-32523               IRON  dynamic_TF_carry   [1]                  116.2               None   115.025     115.05           115         115        115.1     1.175     -0.025     -0.05         -0.1                 NaN        -0.075
-32524                DAX  dynamic_TF_carry  [-1]                  14261               None     14330      14329         14331       14331        14332        69         -1         3            1                 NaN             2
-32525                BRE  dynamic_TF_carry  [-1]                    NaN               None       NaN        NaN           NaN         NaN       0.1888       NaN        NaN       NaN          NaN                 NaN           NaN
-32526                BRE  dynamic_TF_carry   [1]                    NaN               None       NaN        NaN           NaN         NaN       0.1888       NaN        NaN       NaN          NaN                 NaN           NaN
-32527               US20  dynamic_TF_carry  [-1]                126.281               None   127.828    127.812       127.844     127.844      127.844   1.54688  -0.015625   0.03125           -0                 NaN      0.015625
-32528                US5  dynamic_TF_carry   [1]                108.055               None   108.477    108.484       108.469     108.469        108.5 -0.421875 -0.0078125 -0.015625     -0.03125                 NaN    -0.0234375
-
-
-===============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
-===============================================================================================================================================================
-
-         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-order_id                                                                                                                                                       
-32523               IRON  dynamic_TF_carry   [1]         42.4836   276.577    -5.88462      -11.7692         -23.5385                     NaN          -17.6539
-32524                DAX  dynamic_TF_carry  [-1]         2475.83   278.694    -4.03905       12.1172          4.03905                     NaN            8.0781
-32525                BRE  dynamic_TF_carry  [-1]       0.0296687       NaN         NaN           NaN              NaN                     NaN               NaN
-32526                BRE  dynamic_TF_carry   [1]       0.0296687       NaN         NaN           NaN              NaN                     NaN               NaN
-32527               US20  dynamic_TF_carry  [-1]         16.5742   933.303    -9.42731       18.8546               -0                     NaN           9.42731
-32528                US5  dynamic_TF_carry   [1]         5.14573  -819.855    -15.1825       -30.365           -60.73                     NaN          -45.5475
-
-
-==========================================================================================================================================================================
-                                                                       Slippage (In base currency)                                                                        
-==========================================================================================================================================================================
-
-         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-order_id                                                                                                                                                                  
-32523               IRON  dynamic_TF_carry   [1]              83.0048    97.5306     -2.07512       -4.15024          -8.30048                      NaN           -6.22536
-32524                DAX  dynamic_TF_carry  [-1]             0.880266    60.7383    -0.880266         2.6408          0.880266                      NaN            1.76053
-32525                BRE  dynamic_TF_carry  [-1]              83004.8        NaN          NaN            NaN               NaN                      NaN                NaN
-32526                BRE  dynamic_TF_carry   [1]              83004.8        NaN          NaN            NaN               NaN                      NaN                NaN
-32527               US20  dynamic_TF_carry  [-1]              830.048    1283.98     -12.9695         25.939                -0                      NaN            12.9695
-32528                US5  dynamic_TF_carry   [1]              830.048   -350.176     -6.48475       -12.9695           -25.939                      NaN           -19.4542
-
-delay_cash Sum
-                                   delay_cash
-strategy_name    instrument_code             
-dynamic_TF_carry BRE                 0.000000
-                 DAX                60.738327
-                 IRON               97.530608
-                 US20             1283.980079
-                 US5              -350.176385
-delay_cash Total Sum
-                   delay_cash
-strategy_name                
-dynamic_TF_carry  1092.072629
-bid_ask_cash Sum
-                                  bid_ask_cash
-strategy_name    instrument_code              
-dynamic_TF_carry BRE                  0.000000
-                 DAX                 -0.880266
-                 IRON                -2.075119
-                 US20               -12.969496
-                 US5                 -6.484748
-bid_ask_cash Total Sum
-                  bid_ask_cash
-strategy_name                 
-dynamic_TF_carry    -22.409629
-execution_cash Sum
-                                  execution_cash
-strategy_name    instrument_code                
-dynamic_TF_carry BRE                    0.000000
-                 DAX                    2.640797
-                 IRON                  -4.150239
-                 US20                  25.938991
-                 US5                  -12.969496
-execution_cash Total Sum
-                  execution_cash
-strategy_name                   
-dynamic_TF_carry       11.460054
-versus_limit_cash Sum
-                                  versus_limit_cash
-strategy_name    instrument_code                   
-dynamic_TF_carry BRE                       0.000000
-                 DAX                       0.880266
-                 IRON                     -8.300477
-                 US20                     -0.000000
-                 US5                     -25.938991
-versus_limit_cash Total Sum
-                  versus_limit_cash
-strategy_name                      
-dynamic_TF_carry         -33.359203
-versus_parent_limit_cash Sum
-                                  versus_parent_limit_cash
-strategy_name    instrument_code                          
-dynamic_TF_carry BRE                                     0
-                 DAX                                     0
-                 IRON                                    0
-                 US20                                    0
-                 US5                                     0
-versus_parent_limit_cash Total Sum
-                  versus_parent_limit_cash
-strategy_name                             
-dynamic_TF_carry                         0
-total_trading_cash Sum
-                                  total_trading_cash
-strategy_name    instrument_code                    
-dynamic_TF_carry BRE                        0.000000
-                 DAX                        1.760531
-                 IRON                      -6.225358
-                 US20                      12.969496
-                 US5                      -19.454244
-total_trading_cash Total Sum
-                  total_trading_cash
-strategy_name                       
-dynamic_TF_carry          -10.949575
+No trades
+No trades
+No trades
+No trades
+No trades
+No trades
 
 ********************************************************************************
                                  END OF REPORT                                  
