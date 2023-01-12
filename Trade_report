@@ -1,15 +1,157 @@
 
 ********************************************************************************
-Trades report report produced on 11/01/2023 21:08 from 10/01/2023 21:08 to 11/01/2023 21:08
+Trades report report produced on 12/01/2023 21:09 from 11/01/2023 21:09 to 12/01/2023 21:09
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+================================================================================================
+                                         Broker orders                                          
+================================================================================================
+
+         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+order_id                                                                                        
+32533                BRE  dynamic_TF_carry    [20230300] 2023-01-12 15:01:13   [1]      0.192800
+32531                DAX  dynamic_TF_carry    [20230300] 2023-01-12 08:00:52   [1]  15040.000000
+32532            EURO600  dynamic_TF_carry    [20230300] 2023-01-12 08:01:26   [1]    448.600000
+32530         FTSECHINAA  dynamic_TF_carry    [20230100] 2023-01-12 03:00:34   [1]  13568.000000
+32535            LIVECOW  dynamic_TF_carry    [20230400] 2023-01-12 15:30:49  [-1]    160.800000
+32534                US5  dynamic_TF_carry    [20230300] 2023-01-12 15:01:45   [1]    109.453125
+
+
+===========================================================================================================================================================
+                                                                          Delays                                                                           
+===========================================================================================================================================================
+
+         instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                                   
+32530         FTSECHINAA  dynamic_TF_carry                2023-01-11 2023-01-12 03:00:27.647 2023-01-12 03:00:34                97227.6               6.353
+32531                DAX  dynamic_TF_carry                2023-01-11 2023-01-12 08:00:46.062 2023-01-12 08:00:52                 115246               5.938
+32532            EURO600  dynamic_TF_carry                2023-01-11 2023-01-12 08:01:20.614 2023-01-12 08:01:26                 115281               5.386
+32533                BRE  dynamic_TF_carry                2023-01-11 2023-01-12 15:00:36.318 2023-01-12 15:01:13                 140436              36.682
+32534                US5  dynamic_TF_carry                2023-01-11 2023-01-12 15:01:38.823 2023-01-12 15:01:45                 140499               6.177
+32535            LIVECOW  dynamic_TF_carry                2023-01-11 2023-01-12 15:30:33.270 2023-01-12 15:30:49                 142233               15.73
+
+
+=====================================================================================================================================================================================================================================
+                                                                                                      Slippage (ticks per lot)                                                                                                       
+=====================================================================================================================================================================================================================================
+
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay     bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                             
+32530         FTSECHINAA  dynamic_TF_carry   [1]                  13626               None   13566.5      13567         13566       13566        13568      59.5        -0.5        -1           -2                 NaN          -1.5
+32531                DAX  dynamic_TF_carry   [1]                  15023               None     15036      15037         15035       15035        15040       -13          -1        -3           -5                 NaN            -4
+32532            EURO600  dynamic_TF_carry   [1]                  447.9               None    448.65      448.7         448.6       448.6        448.6     -0.75       -0.05       0.1            0                 NaN          0.05
+32533                BRE  dynamic_TF_carry   [1]                0.19075               None    0.1927    0.19275       0.19265     0.19265       0.1928  -0.00195      -5e-05    -5e-05     -0.00015                 NaN       -0.0001
+32534                US5  dynamic_TF_carry   [1]                109.094               None   109.449    109.453       109.445     109.445      109.453 -0.355469 -0.00390625         0   -0.0078125                 NaN   -0.00390625
+32535            LIVECOW  dynamic_TF_carry  [-1]                 161.05               None   160.788    160.775         160.8       160.8        160.8   -0.2625     -0.0125     0.025           -0                 NaN        0.0125
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                       
+32530         FTSECHINAA  dynamic_TF_carry   [1]         2773.72   214.514    -1.80264      -3.60527         -7.21054                     NaN          -5.40791
+32531                DAX  dynamic_TF_carry   [1]          2529.7  -51.3895    -3.95304      -11.8591         -19.7652                     NaN          -15.8121
+32532            EURO600  dynamic_TF_carry   [1]         69.1879    -108.4     -7.2267       14.4534                0                     NaN            7.2267
+32533                BRE  dynamic_TF_carry   [1]       0.0298952  -652.278    -16.7251      -16.7251         -50.1753                     NaN          -33.4502
+32534                US5  dynamic_TF_carry   [1]          5.6515  -628.982    -6.91189             0         -13.8238                     NaN          -6.91189
+32535            LIVECOW  dynamic_TF_carry  [-1]          12.748  -205.914    -9.80545       19.6109               -0                     NaN           9.80545
+
+
+==========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                        
+==========================================================================================================================================================================
+
+         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                  
+32530         FTSECHINAA  dynamic_TF_carry   [1]             0.824131    49.0358    -0.412065      -0.824131          -1.64826                      NaN            -1.2362
+32531                DAX  dynamic_TF_carry   [1]             0.887012   -11.5312    -0.887012       -2.66104          -4.43506                      NaN           -3.54805
+32532            EURO600  dynamic_TF_carry   [1]              44.3506   -33.2629     -2.21753        4.43506                 0                      NaN            2.21753
+32533                BRE  dynamic_TF_carry   [1]              82413.1   -160.705     -4.12065       -4.12065           -12.362                      NaN           -8.24131
+32534                US5  dynamic_TF_carry   [1]              824.131   -292.953     -3.21926              0          -6.43852                      NaN           -3.21926
+32535            LIVECOW  dynamic_TF_carry  [-1]              329.652   -86.5337     -4.12065        8.24131                -0                      NaN            4.12065
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry BRE             -160.705456
+                 DAX              -11.531152
+                 EURO600          -33.262939
+                 FTSECHINAA        49.035767
+                 LIVECOW          -86.533707
+                 US5             -292.952654
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry  -535.95014
+bid_ask_cash Sum
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry BRE                 -4.120653
+                 DAX                 -0.887012
+                 EURO600             -2.217529
+                 FTSECHINAA          -0.412065
+                 LIVECOW             -4.120653
+                 US5                 -3.219260
+bid_ask_cash Total Sum
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry    -14.977172
+execution_cash Sum
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry BRE                   -4.120653
+                 DAX                   -2.661035
+                 EURO600                4.435059
+                 FTSECHINAA            -0.824131
+                 LIVECOW                8.241305
+                 US5                    0.000000
+execution_cash Total Sum
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry        5.070546
+versus_limit_cash Sum
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry BRE                     -12.361958
+                 DAX                      -4.435059
+                 EURO600                   0.000000
+                 FTSECHINAA               -1.648261
+                 LIVECOW                  -0.000000
+                 US5                      -6.438520
+versus_limit_cash Total Sum
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry         -24.883798
+versus_parent_limit_cash Sum
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry BRE                                     0
+                 DAX                                     0
+                 EURO600                                 0
+                 FTSECHINAA                              0
+                 LIVECOW                                 0
+                 US5                                     0
+versus_parent_limit_cash Total Sum
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
+total_trading_cash Sum
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry BRE                       -8.241305
+                 DAX                       -3.548047
+                 EURO600                    2.217529
+                 FTSECHINAA                -1.236196
+                 LIVECOW                    4.120653
+                 US5                       -3.219260
+total_trading_cash Total Sum
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry           -9.906626
 
 ********************************************************************************
                                  END OF REPORT                                  
