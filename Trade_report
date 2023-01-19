@@ -1,152 +1,15 @@
 
 ********************************************************************************
-Trades report report produced on 18/01/2023 21:10 from 17/01/2023 21:10 to 18/01/2023 21:10
+Trades report report produced on 19/01/2023 21:09 from 18/01/2023 21:09 to 19/01/2023 21:09
 ********************************************************************************
 
 
-
-================================================================================================================
-                                                 Broker orders                                                  
-================================================================================================================
-
-         instrument_code          strategy_name         contract_date       fill_datetime     fill  filled_price
-order_id                                                                                                        
-32536           EU-BASIC       dynamic_TF_carry            [20230300] 2023-01-18 08:00:42      [1]       670.700
-32537            EURO600       dynamic_TF_carry            [20230300] 2023-01-18 08:01:14     [-1]       456.700
-32540            LEANHOG       dynamic_TF_carry            [20230400] 2023-01-18 15:30:44     [-1]        86.575
-32538       NASDAQ_micro       dynamic_TF_carry            [20230300] 2023-01-18 15:00:29      [1]     11732.750
-32539                VIX  _ROLL_PSEUDO_STRATEGY  [20230200, 20230300] 2023-01-18 15:01:37  [1, -1]        -1.060
-
-
-================================================================================================================================================================
-                                                                             Delays                                                                             
-================================================================================================================================================================
-
-         instrument_code          strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
-order_id                                                                                                                                                        
-32536           EU-BASIC       dynamic_TF_carry       2023-01-16 00:00:00 2023-01-18 08:00:35.699 2023-01-18 08:00:42                 201636               6.301
-32537            EURO600       dynamic_TF_carry       2023-01-16 00:00:00 2023-01-18 08:01:16.214 2023-01-18 08:01:14                 201676                 NaN
-32538       NASDAQ_micro       dynamic_TF_carry       2023-01-13 00:00:00 2023-01-18 15:00:30.977 2023-01-18 15:00:29                 486031                 NaN
-32539                VIX  _ROLL_PSEUDO_STRATEGY       2023-01-17 21:00:00 2023-01-18 15:01:38.650 2023-01-18 15:01:37                64898.7                 NaN
-32540            LEANHOG       dynamic_TF_carry       2023-01-13 00:00:00 2023-01-18 15:30:36.804 2023-01-18 15:30:44                 487837               7.196
-
-
-=======================================================================================================================================================================================================================================
-                                                                                                       Slippage (ticks per lot)                                                                                                        
-=======================================================================================================================================================================================================================================
-
-         instrument_code          strategy_name    trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
-order_id                                                                                                                                                                                                                               
-32536           EU-BASIC       dynamic_TF_carry      [1]                  660.5               None     669.7      670.8         668.6       668.6        670.7    -9.2    -1.1       0.1         -2.1                 NaN            -1
-32537            EURO600       dynamic_TF_carry     [-1]                  454.7               None    456.65      456.6         456.7         NaN        456.7    1.95   -0.05       0.1          NaN                 NaN          0.05
-32538       NASDAQ_micro       dynamic_TF_carry      [1]                11601.2               None   11734.5    11734.8       11734.2     11734.2      11732.8 -133.25   -0.25         2          1.5                 NaN          1.75
-32539                VIX  _ROLL_PSEUDO_STRATEGY  [1, -1]                     -1               None    -1.055      -1.05         -1.06       -1.05        -1.06   0.055  -0.005      0.01         0.01                 NaN         0.005
-32540            LEANHOG       dynamic_TF_carry     [-1]                 87.275               None   86.6375     86.625         86.65       86.65       86.575 -0.6375 -0.0125     -0.05       -0.075                 NaN       -0.0625
-
-
-=======================================================================================================================================================================
-                                                         Slippage (normalised by annual vol, BP of annual SR)                                                          
-=======================================================================================================================================================================
-
-         instrument_code          strategy_name    trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-order_id                                                                                                                                                               
-32536           EU-BASIC       dynamic_TF_carry      [1]         155.825  -590.406     -70.592       6.41745         -134.767                     NaN          -64.1745
-32537            EURO600       dynamic_TF_carry     [-1]         64.2518   303.494    -7.78189       15.5638              NaN                     NaN           7.78189
-32538       NASDAQ_micro       dynamic_TF_carry      [1]         3047.92  -437.183   -0.820231       6.56185          4.92139                     NaN           5.74162
-32539                VIX  _ROLL_PSEUDO_STRATEGY  [1, -1]         9.48019   58.0157    -5.27416       10.5483          10.5483                     NaN           5.27416
-32540            LEANHOG       dynamic_TF_carry     [-1]         23.3128  -273.455    -5.36186      -21.4474         -32.1711                     NaN          -26.8093
-
-
-==================================================================================================================================================================================
-                                                                           Slippage (In base currency)                                                                            
-==================================================================================================================================================================================
-
-         instrument_code          strategy_name    trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-order_id                                                                                                                                                                          
-32536           EU-BASIC       dynamic_TF_carry      [1]              43.7621   -402.612     -48.1383        4.37621          -91.9005                      NaN           -43.7621
-32537            EURO600       dynamic_TF_carry     [-1]              43.7621    85.3361     -2.18811        4.37621               NaN                      NaN            2.18811
-32538       NASDAQ_micro       dynamic_TF_carry      [1]              1.61708   -215.475    -0.404269        3.23415           2.42561                      NaN            2.82988
-32539                VIX  _ROLL_PSEUDO_STRATEGY  [1, -1]              808.538    44.4696     -4.04269        8.08538           8.08538                      NaN            4.04269
-32540            LEANHOG       dynamic_TF_carry     [-1]              323.415   -206.177     -4.04269       -16.1708          -24.2561                      NaN           -20.2135
-
-delay_cash Sum
-                                       delay_cash
-strategy_name         instrument_code            
-_ROLL_PSEUDO_STRATEGY VIX               44.469599
-dynamic_TF_carry      EU-BASIC        -402.611578
-                      EURO600           85.336150
-                      LEANHOG         -206.177232
-                      NASDAQ_micro    -215.475420
-delay_cash Total Sum
-                       delay_cash
-strategy_name                    
-_ROLL_PSEUDO_STRATEGY   44.469599
-dynamic_TF_carry      -738.928081
-bid_ask_cash Sum
-                                       bid_ask_cash
-strategy_name         instrument_code              
-_ROLL_PSEUDO_STRATEGY VIX                 -4.042691
-dynamic_TF_carry      EU-BASIC           -48.138341
-                      EURO600             -2.188106
-                      LEANHOG             -4.042691
-                      NASDAQ_micro        -0.404269
-bid_ask_cash Total Sum
-                       bid_ask_cash
-strategy_name                      
-_ROLL_PSEUDO_STRATEGY     -4.042691
-dynamic_TF_carry         -54.773407
-execution_cash Sum
-                                       execution_cash
-strategy_name         instrument_code                
-_ROLL_PSEUDO_STRATEGY VIX                    8.085382
-dynamic_TF_carry      EU-BASIC               4.376213
-                      EURO600                4.376213
-                      LEANHOG              -16.170763
-                      NASDAQ_micro           3.234153
-execution_cash Total Sum
-                       execution_cash
-strategy_name                        
-_ROLL_PSEUDO_STRATEGY        8.085382
-dynamic_TF_carry            -4.184185
-versus_limit_cash Sum
-                                       versus_limit_cash
-strategy_name         instrument_code                   
-_ROLL_PSEUDO_STRATEGY VIX                       8.085382
-dynamic_TF_carry      EU-BASIC                -91.900469
-                      EURO600                   0.000000
-                      LEANHOG                 -24.256145
-                      NASDAQ_micro              2.425614
-versus_limit_cash Total Sum
-                       versus_limit_cash
-strategy_name                           
-_ROLL_PSEUDO_STRATEGY           8.085382
-dynamic_TF_carry             -113.730999
-versus_parent_limit_cash Sum
-                                       versus_parent_limit_cash
-strategy_name         instrument_code                          
-_ROLL_PSEUDO_STRATEGY VIX                                     0
-dynamic_TF_carry      EU-BASIC                                0
-                      EURO600                                 0
-                      LEANHOG                                 0
-                      NASDAQ_micro                            0
-versus_parent_limit_cash Total Sum
-                       versus_parent_limit_cash
-strategy_name                                  
-_ROLL_PSEUDO_STRATEGY                         0
-dynamic_TF_carry                              0
-total_trading_cash Sum
-                                       total_trading_cash
-strategy_name         instrument_code                    
-_ROLL_PSEUDO_STRATEGY VIX                        4.042691
-dynamic_TF_carry      EU-BASIC                 -43.762128
-                      EURO600                    2.188106
-                      LEANHOG                  -20.213454
-                      NASDAQ_micro               2.829884
-total_trading_cash Total Sum
-                       total_trading_cash
-strategy_name                            
-_ROLL_PSEUDO_STRATEGY            4.042691
-dynamic_TF_carry               -58.957592
+No trades
+No trades
+No trades
+No trades
+No trades
+No trades
 
 ********************************************************************************
                                  END OF REPORT                                  
