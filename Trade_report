@@ -1,15 +1,102 @@
 
 ********************************************************************************
-Trades report report produced on 20/01/2023 21:09 from 19/01/2023 21:09 to 20/01/2023 21:09
+Trades report report produced on 23/01/2023 21:09 from 22/01/2023 21:09 to 23/01/2023 21:09
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+================================================================================================================
+                                                 Broker orders                                                  
+================================================================================================================
+
+         instrument_code          strategy_name         contract_date       fill_datetime     fill  filled_price
+order_id                                                                                                        
+32541         FTSECHINAA  _ROLL_PSEUDO_STRATEGY  [20230100, 20230200] 2023-01-23 03:00:34  [-1, 1]         -36.0
+
+
+================================================================================================================================================================
+                                                                             Delays                                                                             
+================================================================================================================================================================
+
+         instrument_code          strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                                        
+32541         FTSECHINAA  _ROLL_PSEUDO_STRATEGY       2023-01-20 23:00:00 2023-01-23 03:00:35.624 2023-01-23 03:00:34                 187236                 NaN
+
+
+=====================================================================================================================================================================================================================================
+                                                                                                      Slippage (ticks per lot)                                                                                                       
+=====================================================================================================================================================================================================================================
+
+         instrument_code          strategy_name    trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                             
+32541         FTSECHINAA  _ROLL_PSEUDO_STRATEGY  [-1, 1]                    -33               None       -36        -36           -36         -36          -36    -3      -0        -0           -0                 NaN            -0
+
+
+=======================================================================================================================================================================
+                                                         Slippage (normalised by annual vol, BP of annual SR)                                                          
+=======================================================================================================================================================================
+
+         instrument_code          strategy_name    trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                               
+32541         FTSECHINAA  _ROLL_PSEUDO_STRATEGY  [-1, 1]          2650.7  -11.3178          -0            -0               -0                     NaN                -0
+
+
+==================================================================================================================================================================================
+                                                                           Slippage (In base currency)                                                                            
+==================================================================================================================================================================================
+
+         instrument_code          strategy_name    trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                          
+32541         FTSECHINAA  _ROLL_PSEUDO_STRATEGY  [-1, 1]             0.808734    -2.4262           -0             -0                -0                      NaN                 -0
+
+delay_cash Sum
+                                       delay_cash
+strategy_name         instrument_code            
+_ROLL_PSEUDO_STRATEGY FTSECHINAA        -2.426203
+delay_cash Total Sum
+                       delay_cash
+strategy_name                    
+_ROLL_PSEUDO_STRATEGY   -2.426203
+bid_ask_cash Sum
+                                       bid_ask_cash
+strategy_name         instrument_code              
+_ROLL_PSEUDO_STRATEGY FTSECHINAA               -0.0
+bid_ask_cash Total Sum
+                       bid_ask_cash
+strategy_name                      
+_ROLL_PSEUDO_STRATEGY          -0.0
+execution_cash Sum
+                                       execution_cash
+strategy_name         instrument_code                
+_ROLL_PSEUDO_STRATEGY FTSECHINAA                 -0.0
+execution_cash Total Sum
+                       execution_cash
+strategy_name                        
+_ROLL_PSEUDO_STRATEGY            -0.0
+versus_limit_cash Sum
+                                       versus_limit_cash
+strategy_name         instrument_code                   
+_ROLL_PSEUDO_STRATEGY FTSECHINAA                    -0.0
+versus_limit_cash Total Sum
+                       versus_limit_cash
+strategy_name                           
+_ROLL_PSEUDO_STRATEGY               -0.0
+versus_parent_limit_cash Sum
+                                       versus_parent_limit_cash
+strategy_name         instrument_code                          
+_ROLL_PSEUDO_STRATEGY FTSECHINAA                              0
+versus_parent_limit_cash Total Sum
+                       versus_parent_limit_cash
+strategy_name                                  
+_ROLL_PSEUDO_STRATEGY                         0
+total_trading_cash Sum
+                                       total_trading_cash
+strategy_name         instrument_code                    
+_ROLL_PSEUDO_STRATEGY FTSECHINAA                     -0.0
+total_trading_cash Total Sum
+                       total_trading_cash
+strategy_name                            
+_ROLL_PSEUDO_STRATEGY                -0.0
 
 ********************************************************************************
                                  END OF REPORT                                  
