@@ -1,102 +1,157 @@
 
 ********************************************************************************
-Trades report report produced on 23/01/2023 21:09 from 22/01/2023 21:09 to 23/01/2023 21:09
+Trades report report produced on 24/01/2023 21:10 from 23/01/2023 21:10 to 24/01/2023 21:10
 ********************************************************************************
 
 
 
-================================================================================================================
-                                                 Broker orders                                                  
-================================================================================================================
+================================================================================================
+                                         Broker orders                                          
+================================================================================================
 
-         instrument_code          strategy_name         contract_date       fill_datetime     fill  filled_price
-order_id                                                                                                        
-32541         FTSECHINAA  _ROLL_PSEUDO_STRATEGY  [20230100, 20230200] 2023-01-23 03:00:34  [-1, 1]         -36.0
-
-
-================================================================================================================================================================
-                                                                             Delays                                                                             
-================================================================================================================================================================
-
-         instrument_code          strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
-order_id                                                                                                                                                        
-32541         FTSECHINAA  _ROLL_PSEUDO_STRATEGY       2023-01-20 23:00:00 2023-01-23 03:00:35.624 2023-01-23 03:00:34                 187236                 NaN
+         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+order_id                                                                                        
+32544               BOBL  dynamic_TF_carry    [20230300] 2023-01-24 08:01:36  [-1]      117.6700
+32543             EU-OIL  dynamic_TF_carry    [20230300] 2023-01-24 08:00:50   [1]      350.6000
+32545         GOLD_micro  dynamic_TF_carry    [20230400] 2023-01-24 14:00:32   [1]     1949.6000
+32547            LIVECOW  dynamic_TF_carry    [20230400] 2023-01-24 15:30:42   [1]      160.4750
+32542             NIKKEI  dynamic_TF_carry    [20230300] 2023-01-24 01:45:31   [1]    27310.0000
+32546               US20  dynamic_TF_carry    [20230300] 2023-01-24 15:00:49   [1]      129.8125
 
 
-=====================================================================================================================================================================================================================================
-                                                                                                      Slippage (ticks per lot)                                                                                                       
-=====================================================================================================================================================================================================================================
+===========================================================================================================================================================
+                                                                          Delays                                                                           
+===========================================================================================================================================================
 
-         instrument_code          strategy_name    trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
-order_id                                                                                                                                                                                                                             
-32541         FTSECHINAA  _ROLL_PSEUDO_STRATEGY  [-1, 1]                    -33               None       -36        -36           -36         -36          -36    -3      -0        -0           -0                 NaN            -0
-
-
-=======================================================================================================================================================================
-                                                         Slippage (normalised by annual vol, BP of annual SR)                                                          
-=======================================================================================================================================================================
-
-         instrument_code          strategy_name    trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-order_id                                                                                                                                                               
-32541         FTSECHINAA  _ROLL_PSEUDO_STRATEGY  [-1, 1]          2650.7  -11.3178          -0            -0               -0                     NaN                -0
+         instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                                   
+32542             NIKKEI  dynamic_TF_carry                2023-01-23 2023-01-24 01:45:25.030 2023-01-24 01:45:31                  92725                5.97
+32543             EU-OIL  dynamic_TF_carry                2023-01-23 2023-01-24 08:00:51.664 2023-01-24 08:00:50                 115252                 NaN
+32544               BOBL  dynamic_TF_carry                2023-01-23 2023-01-24 08:01:20.259 2023-01-24 08:01:36                 115280              15.741
+32545         GOLD_micro  dynamic_TF_carry                2023-01-23 2023-01-24 14:00:34.555 2023-01-24 14:00:32                 136835                 NaN
+32546               US20  dynamic_TF_carry                2023-01-23 2023-01-24 15:00:34.997 2023-01-24 15:00:49                 140435              14.003
+32547            LIVECOW  dynamic_TF_carry                2023-01-23 2023-01-24 15:30:34.935 2023-01-24 15:30:42                 142235               7.065
 
 
-==================================================================================================================================================================================
-                                                                           Slippage (In base currency)                                                                            
-==================================================================================================================================================================================
+===================================================================================================================================================================================================================================
+                                                                                                     Slippage (ticks per lot)                                                                                                      
+===================================================================================================================================================================================================================================
 
-         instrument_code          strategy_name    trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-order_id                                                                                                                                                                          
-32541         FTSECHINAA  _ROLL_PSEUDO_STRATEGY  [-1, 1]             0.808734    -2.4262           -0             -0                -0                      NaN                 -0
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                           
+32542             NIKKEI  dynamic_TF_carry   [1]                  27160               None   27312.5      27315         27310       27310        27310    -152.5      -2.5         5            0                 NaN           2.5
+32543             EU-OIL  dynamic_TF_carry   [1]                  350.1               None    350.15      350.6         349.7         NaN        350.6     -0.05     -0.45         0          NaN                 NaN         -0.45
+32544               BOBL  dynamic_TF_carry  [-1]                 117.66               None   117.685     117.68        117.69      117.69       117.67     0.025    -0.005     -0.01        -0.02                 NaN        -0.015
+32545         GOLD_micro  dynamic_TF_carry   [1]                 1941.1               None   1949.75     1949.9        1949.6      1949.6       1949.6     -8.65     -0.15       0.3  2.27374e-13                 NaN          0.15
+32546               US20  dynamic_TF_carry   [1]                129.812               None   129.797    129.812       129.781     129.781      129.812  0.015625 -0.015625         0     -0.03125                 NaN     -0.015625
+32547            LIVECOW  dynamic_TF_carry   [1]                160.025               None   160.488      160.5       160.475     160.475      160.475   -0.4625   -0.0125     0.025            0                 NaN        0.0125
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                       
+32542             NIKKEI  dynamic_TF_carry   [1]         4827.73  -315.883    -5.17841       10.3568                0                     NaN           5.17841
+32543             EU-OIL  dynamic_TF_carry   [1]         73.3751   -6.8143    -61.3287             0              NaN                     NaN          -61.3287
+32544               BOBL  dynamic_TF_carry  [-1]         6.22436   40.1648    -8.03295      -16.0659         -32.1318                     NaN          -24.0989
+32545         GOLD_micro  dynamic_TF_carry   [1]          266.74  -324.286    -5.62346       11.2469      8.52418e-12                     NaN           5.62346
+32546               US20  dynamic_TF_carry   [1]         18.1396   8.61376    -8.61376             0         -17.2275                     NaN          -8.61376
+32547            LIVECOW  dynamic_TF_carry   [1]         12.3161  -375.526    -10.1493       20.2987                0                     NaN           10.1493
+
+
+==========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                        
+==========================================================================================================================================================================
+
+         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                  
+32542             NIKKEI  dynamic_TF_carry   [1]              0.62461    -95.253     -1.56152        3.12305                 0                      NaN            1.56152
+32543             EU-OIL  dynamic_TF_carry   [1]              44.1851   -2.20926     -19.8833              0               NaN                      NaN           -19.8833
+32544               BOBL  dynamic_TF_carry  [-1]              883.703    22.0926     -4.41851       -8.83703          -17.6741                      NaN           -13.2555
+32545         GOLD_micro  dynamic_TF_carry   [1]              8.13835   -70.3967     -1.22075        2.44151       1.85045e-12                      NaN            1.22075
+32546               US20  dynamic_TF_carry   [1]              813.835    12.7162     -12.7162              0          -25.4323                      NaN           -12.7162
+32547            LIVECOW  dynamic_TF_carry   [1]              325.534    -150.56     -4.06918        8.13835                 0                      NaN            4.06918
 
 delay_cash Sum
-                                       delay_cash
-strategy_name         instrument_code            
-_ROLL_PSEUDO_STRATEGY FTSECHINAA        -2.426203
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry BOBL              22.092574
+                 EU-OIL            -2.209257
+                 GOLD_micro       -70.396745
+                 LIVECOW         -150.559512
+                 NIKKEI           -95.252978
+                 US20              12.716175
 delay_cash Total Sum
-                       delay_cash
-strategy_name                    
-_ROLL_PSEUDO_STRATEGY   -2.426203
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -283.609743
 bid_ask_cash Sum
-                                       bid_ask_cash
-strategy_name         instrument_code              
-_ROLL_PSEUDO_STRATEGY FTSECHINAA               -0.0
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry BOBL                -4.418515
+                 EU-OIL             -19.883316
+                 GOLD_micro          -1.220753
+                 LIVECOW             -4.069176
+                 NIKKEI              -1.561524
+                 US20               -12.716175
 bid_ask_cash Total Sum
-                       bid_ask_cash
-strategy_name                      
-_ROLL_PSEUDO_STRATEGY          -0.0
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry    -43.869459
 execution_cash Sum
-                                       execution_cash
-strategy_name         instrument_code                
-_ROLL_PSEUDO_STRATEGY FTSECHINAA                 -0.0
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry BOBL                  -8.837030
+                 EU-OIL                 0.000000
+                 GOLD_micro             2.441506
+                 LIVECOW                8.138352
+                 NIKKEI                 3.123048
+                 US20                   0.000000
 execution_cash Total Sum
-                       execution_cash
-strategy_name                        
-_ROLL_PSEUDO_STRATEGY            -0.0
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry        4.865877
 versus_limit_cash Sum
-                                       versus_limit_cash
-strategy_name         instrument_code                   
-_ROLL_PSEUDO_STRATEGY FTSECHINAA                    -0.0
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry BOBL                 -1.767406e+01
+                 EU-OIL                0.000000e+00
+                 GOLD_micro            1.850447e-12
+                 LIVECOW               0.000000e+00
+                 NIKKEI                0.000000e+00
+                 US20                 -2.543235e+01
 versus_limit_cash Total Sum
-                       versus_limit_cash
-strategy_name                           
-_ROLL_PSEUDO_STRATEGY               -0.0
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry         -43.106409
 versus_parent_limit_cash Sum
-                                       versus_parent_limit_cash
-strategy_name         instrument_code                          
-_ROLL_PSEUDO_STRATEGY FTSECHINAA                              0
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry BOBL                                    0
+                 EU-OIL                                  0
+                 GOLD_micro                              0
+                 LIVECOW                                 0
+                 NIKKEI                                  0
+                 US20                                    0
 versus_parent_limit_cash Total Sum
-                       versus_parent_limit_cash
-strategy_name                                  
-_ROLL_PSEUDO_STRATEGY                         0
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
 total_trading_cash Sum
-                                       total_trading_cash
-strategy_name         instrument_code                    
-_ROLL_PSEUDO_STRATEGY FTSECHINAA                     -0.0
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry BOBL                     -13.255544
+                 EU-OIL                   -19.883316
+                 GOLD_micro                 1.220753
+                 LIVECOW                    4.069176
+                 NIKKEI                     1.561524
+                 US20                     -12.716175
 total_trading_cash Total Sum
-                       total_trading_cash
-strategy_name                            
-_ROLL_PSEUDO_STRATEGY                -0.0
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry          -39.003583
 
 ********************************************************************************
                                  END OF REPORT                                  
