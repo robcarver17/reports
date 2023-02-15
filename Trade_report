@@ -1,102 +1,168 @@
 
 ********************************************************************************
-Trades report report produced on 14/02/2023 23:20 from 13/02/2023 23:20 to 14/02/2023 23:20
+Trades report report produced on 15/02/2023 22:59 from 14/02/2023 22:59 to 15/02/2023 22:59
 ********************************************************************************
 
 
 
-================================================================================================================
-                                                 Broker orders                                                  
-================================================================================================================
+================================================================================================
+                                         Broker orders                                          
+================================================================================================
 
-         instrument_code          strategy_name         contract_date       fill_datetime     fill  filled_price
-order_id                                                                                                        
-32568                CAC  _ROLL_PSEUDO_STRATEGY  [20230200, 20230300] 2023-02-14 08:05:34  [-1, 1]         -12.5
-
-
-================================================================================================================================================================
-                                                                             Delays                                                                             
-================================================================================================================================================================
-
-         instrument_code          strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
-order_id                                                                                                                                                        
-32568                CAC  _ROLL_PSEUDO_STRATEGY       2023-02-10 15:00:00 2023-02-14 08:00:29.579 2023-02-14 08:05:34                 320430             304.421
+         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+order_id                                                                                        
+32569         GOLD_micro  dynamic_TF_carry    [20230400] 2023-02-15 14:00:26   [1]   1845.500000
+32575            LEANHOG  dynamic_TF_carry    [20230400] 2023-02-15 15:30:45   [1]     86.500000
+32571       NASDAQ_micro  dynamic_TF_carry    [20230300] 2023-02-15 15:00:21   [1]  12586.500000
+32572            RUSSELL  dynamic_TF_carry    [20230300] 2023-02-15 15:00:49  [-1]   1933.200000
+32570             SILVER  dynamic_TF_carry    [20230500] 2023-02-15 14:00:53  [-1]     21.695000
+32574              US10U  dynamic_TF_carry    [20230300] 2023-02-15 15:01:49  [-1]    118.671875
+32573                US5  dynamic_TF_carry    [20230300] 2023-02-15 15:01:17   [1]    107.476563
 
 
-=====================================================================================================================================================================================================================================
-                                                                                                      Slippage (ticks per lot)                                                                                                       
-=====================================================================================================================================================================================================================================
+===========================================================================================================================================================
+                                                                          Delays                                                                           
+===========================================================================================================================================================
 
-         instrument_code          strategy_name    trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
-order_id                                                                                                                                                                                                                             
-32568                CAC  _ROLL_PSEUDO_STRATEGY  [-1, 1]                    -12               None    -12.25      -12.5           -12         -12        -12.5 -0.25   -0.25        -0         -0.5                 NaN         -0.25
-
-
-=======================================================================================================================================================================
-                                                         Slippage (normalised by annual vol, BP of annual SR)                                                          
-=======================================================================================================================================================================
-
-         instrument_code          strategy_name    trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-order_id                                                                                                                                                               
-32568                CAC  _ROLL_PSEUDO_STRATEGY  [-1, 1]         989.072  -2.52762    -2.52762            -0         -5.05524                     NaN          -2.52762
+         instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                                   
+32569         GOLD_micro  dynamic_TF_carry                2023-02-14 2023-02-15 14:00:18.273 2023-02-15 14:00:26                 136818               7.727
+32570             SILVER  dynamic_TF_carry                2023-02-14 2023-02-15 14:00:46.739 2023-02-15 14:00:53                 136847               6.261
+32571       NASDAQ_micro  dynamic_TF_carry                2023-02-14 2023-02-15 15:00:22.924 2023-02-15 15:00:21                 140423                 NaN
+32572            RUSSELL  dynamic_TF_carry                2023-02-14 2023-02-15 15:00:51.376 2023-02-15 15:00:49                 140451                 NaN
+32573                US5  dynamic_TF_carry                2023-02-14 2023-02-15 15:01:18.611 2023-02-15 15:01:17                 140479                 NaN
+32574              US10U  dynamic_TF_carry                2023-02-14 2023-02-15 15:01:43.989 2023-02-15 15:01:49                 140504               5.011
+32575            LEANHOG  dynamic_TF_carry                2023-02-14 2023-02-15 15:30:24.714 2023-02-15 15:30:45                 142225              20.286
 
 
-==================================================================================================================================================================================
-                                                                           Slippage (In base currency)                                                                            
-==================================================================================================================================================================================
+======================================================================================================================================================================================================================================
+                                                                                                       Slippage (ticks per lot)                                                                                                       
+======================================================================================================================================================================================================================================
 
-         instrument_code          strategy_name    trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-order_id                                                                                                                                                                          
-32568                CAC  _ROLL_PSEUDO_STRATEGY  [-1, 1]              8.83793   -2.20948     -2.20948             -0          -4.41896                      NaN           -2.20948
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price      delay     bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                              
+32569         GOLD_micro  dynamic_TF_carry   [1]                   1866               None   1845.15     1845.2        1845.1      1845.1       1845.5      20.85       -0.05      -0.3         -0.4                 NaN         -0.35
+32570             SILVER  dynamic_TF_carry  [-1]                  22.06               None     21.69     21.685        21.695      21.695       21.695      -0.37      -0.005      0.01           -0                 NaN         0.005
+32571       NASDAQ_micro  dynamic_TF_carry   [1]                12611.5               None   12586.8      12587       12586.5     12586.5      12586.5      24.75       -0.25       0.5            0                 NaN          0.25
+32572            RUSSELL  dynamic_TF_carry  [-1]                 1943.1               None    1932.7     1932.6        1932.8      1932.8       1933.2      -10.4        -0.1       0.6          0.4                 NaN           0.5
+32573                US5  dynamic_TF_carry   [1]                107.453               None    107.48    107.484       107.477     107.477      107.477 -0.0273438 -0.00390625  0.007812       -5e-07                 NaN    0.00390575
+32574              US10U  dynamic_TF_carry  [-1]                118.797               None   118.695    118.688       118.703     118.703      118.672  -0.101562  -0.0078125 -0.015625     -0.03125                 NaN    -0.0234375
+32575            LEANHOG  dynamic_TF_carry   [1]                 87.125               None   86.5125     86.525          86.5        86.5         86.5     0.6125     -0.0125     0.025            0                 NaN        0.0125
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                       
+32569         GOLD_micro  dynamic_TF_carry   [1]         276.882   753.029    -1.80583       -10.835         -14.4466                     NaN          -12.6408
+32570             SILVER  dynamic_TF_carry  [-1]          6.1387  -602.734    -8.14505       16.2901               -0                     NaN           8.14505
+32571       NASDAQ_micro  dynamic_TF_carry   [1]         2947.49   83.9697   -0.848179       1.69636                0                     NaN          0.848179
+32572            RUSSELL  dynamic_TF_carry  [-1]         413.884  -251.278    -2.41614       14.4968          9.66455                     NaN           12.0807
+32573                US5  dynamic_TF_carry   [1]         5.60671  -48.7697     -6.9671       13.9333     -0.000891789                     NaN           6.96621
+32574              US10U  dynamic_TF_carry  [-1]         11.3263  -89.6695    -6.89765      -13.7953         -27.5906                     NaN           -20.693
+32575            LEANHOG  dynamic_TF_carry   [1]         24.7313   247.662    -5.05433       10.1087                0                     NaN           5.05433
+
+
+==========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                        
+==========================================================================================================================================================================
+
+         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                  
+32569         GOLD_micro  dynamic_TF_carry   [1]              8.24776    171.966    -0.412388       -2.47433          -3.29911                      NaN           -2.88672
+32570             SILVER  dynamic_TF_carry  [-1]              824.776   -305.167     -4.12388        8.24776                -0                      NaN            4.12388
+32571       NASDAQ_micro  dynamic_TF_carry   [1]              1.64955    40.8264    -0.412388       0.824776                 0                      NaN           0.412388
+32572            RUSSELL  dynamic_TF_carry  [-1]              4.12388   -42.8884    -0.412388        2.47433           1.64955                      NaN            2.06194
+32573                US5  dynamic_TF_carry   [1]              824.776   -22.5525     -3.22178        6.44315      -0.000412388                      NaN            3.22137
+32574              US10U  dynamic_TF_carry  [-1]              824.776   -83.7663     -6.44356       -12.8871          -25.7743                      NaN           -19.3307
+32575            LEANHOG  dynamic_TF_carry   [1]              329.911     202.07     -4.12388        8.24776                 0                      NaN            4.12388
 
 delay_cash Sum
-                                       delay_cash
-strategy_name         instrument_code            
-_ROLL_PSEUDO_STRATEGY CAC               -2.209482
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry GOLD_micro       171.965854
+                 LEANHOG          202.070188
+                 NASDAQ_micro      40.826426
+                 RUSSELL          -42.888367
+                 SILVER          -305.167223
+                 US10U            -83.766341
+                 US5              -22.552476
 delay_cash Total Sum
-                       delay_cash
-strategy_name                    
-_ROLL_PSEUDO_STRATEGY   -2.209482
+                  delay_cash
+strategy_name               
+dynamic_TF_carry  -39.511939
 bid_ask_cash Sum
-                                       bid_ask_cash
-strategy_name         instrument_code              
-_ROLL_PSEUDO_STRATEGY CAC                 -2.209482
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry GOLD_micro          -0.412388
+                 LEANHOG             -4.123881
+                 NASDAQ_micro        -0.412388
+                 RUSSELL             -0.412388
+                 SILVER              -4.123881
+                 US10U               -6.443565
+                 US5                 -3.221782
 bid_ask_cash Total Sum
-                       bid_ask_cash
-strategy_name                      
-_ROLL_PSEUDO_STRATEGY     -2.209482
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry    -19.150274
 execution_cash Sum
-                                       execution_cash
-strategy_name         instrument_code                
-_ROLL_PSEUDO_STRATEGY CAC                        -0.0
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry GOLD_micro            -2.474329
+                 LEANHOG                8.247763
+                 NASDAQ_micro           0.824776
+                 RUSSELL                2.474329
+                 SILVER                 8.247763
+                 US10U                -12.887129
+                 US5                    6.443152
 execution_cash Total Sum
-                       execution_cash
-strategy_name                        
-_ROLL_PSEUDO_STRATEGY            -0.0
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry       10.876325
 versus_limit_cash Sum
-                                       versus_limit_cash
-strategy_name         instrument_code                   
-_ROLL_PSEUDO_STRATEGY CAC                      -4.418963
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry GOLD_micro               -3.299105
+                 LEANHOG                   0.000000
+                 NASDAQ_micro              0.000000
+                 RUSSELL                   1.649553
+                 SILVER                   -0.000000
+                 US10U                   -25.774259
+                 US5                      -0.000412
 versus_limit_cash Total Sum
-                       versus_limit_cash
-strategy_name                           
-_ROLL_PSEUDO_STRATEGY          -4.418963
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry         -27.424224
 versus_parent_limit_cash Sum
-                                       versus_parent_limit_cash
-strategy_name         instrument_code                          
-_ROLL_PSEUDO_STRATEGY CAC                                     0
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry GOLD_micro                              0
+                 LEANHOG                                 0
+                 NASDAQ_micro                            0
+                 RUSSELL                                 0
+                 SILVER                                  0
+                 US10U                                   0
+                 US5                                     0
 versus_parent_limit_cash Total Sum
-                       versus_parent_limit_cash
-strategy_name                                  
-_ROLL_PSEUDO_STRATEGY                         0
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
 total_trading_cash Sum
-                                       total_trading_cash
-strategy_name         instrument_code                    
-_ROLL_PSEUDO_STRATEGY CAC                       -2.209482
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry GOLD_micro                -2.886717
+                 LEANHOG                    4.123881
+                 NASDAQ_micro               0.412388
+                 RUSSELL                    2.061941
+                 SILVER                     4.123881
+                 US10U                    -19.330694
+                 US5                        3.221370
 total_trading_cash Total Sum
-                       total_trading_cash
-strategy_name                            
-_ROLL_PSEUDO_STRATEGY           -2.209482
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry           -8.273949
 
 ********************************************************************************
                                  END OF REPORT                                  
