@@ -1,15 +1,157 @@
 
 ********************************************************************************
-Trades report report produced on 21/02/2023 23:14 from 20/02/2023 23:14 to 21/02/2023 23:14
+Trades report report produced on 22/02/2023 23:17 from 21/02/2023 23:17 to 22/02/2023 23:17
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+================================================================================================
+                                         Broker orders                                          
+================================================================================================
+
+         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+order_id                                                                                        
+32578                BRE  dynamic_TF_carry    [20230300] 2023-02-22 15:01:56  [-1]        0.1929
+32577        GAS_US_mini  dynamic_TF_carry    [20230400] 2023-02-22 14:00:20   [1]        2.2200
+32576             KOSDAQ  dynamic_TF_carry    [20230300] 2023-02-22 02:00:22   [1]     1131.5000
+32581            LEANHOG  dynamic_TF_carry    [20230600] 2023-02-22 15:30:52  [-1]      103.7000
+32579       NASDAQ_micro  dynamic_TF_carry    [20230300] 2023-02-22 15:02:16  [-1]    12103.2500
+32580            SOYMEAL  dynamic_TF_carry    [20230700] 2023-02-22 15:30:27   [1]      469.8000
+
+
+===========================================================================================================================================================
+                                                                          Delays                                                                           
+===========================================================================================================================================================
+
+         instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                                   
+32576             KOSDAQ  dynamic_TF_carry                2023-02-21 2023-02-22 02:00:16.391 2023-02-22 02:00:22                93616.4               5.609
+32577        GAS_US_mini  dynamic_TF_carry                2023-02-21 2023-02-22 14:00:21.674 2023-02-22 14:00:20                 136822                 NaN
+32578                BRE  dynamic_TF_carry                2023-02-21 2023-02-22 15:00:22.791 2023-02-22 15:01:56                 140423              93.209
+32579       NASDAQ_micro  dynamic_TF_carry                2023-02-21 2023-02-22 15:02:17.452 2023-02-22 15:02:16                 140537                 NaN
+32580            SOYMEAL  dynamic_TF_carry                2023-02-21 2023-02-22 15:30:22.050 2023-02-22 15:30:27                 142222                4.95
+32581            LEANHOG  dynamic_TF_carry                2023-02-21 2023-02-22 15:30:47.138 2023-02-22 15:30:52                 142247               4.862
+
+
+===============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                    
+===============================================================================================================================================================================================================================
+
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                       
+32576             KOSDAQ  dynamic_TF_carry   [1]                 1152.1               None   1131.35     1131.5        1131.2      1131.2       1131.5   20.75   -0.15         0         -0.3                 NaN         -0.15
+32577        GAS_US_mini  dynamic_TF_carry   [1]                   2.19               None    2.2225      2.225          2.22        2.22         2.22 -0.0325 -0.0025     0.005            0                 NaN        0.0025
+32578                BRE  dynamic_TF_carry  [-1]                0.19265               None   0.19315     0.1931        0.1932      0.1932       0.1929  0.0005  -5e-05   -0.0002      -0.0003                 NaN      -0.00025
+32579       NASDAQ_micro  dynamic_TF_carry  [-1]                  12093               None   12103.1      12103       12103.2     12103.2      12103.2  10.125  -0.125      0.25           -0                 NaN         0.125
+32580            SOYMEAL  dynamic_TF_carry   [1]                  471.4               None     469.7      469.8         469.6       469.6        469.8     1.7    -0.1         0         -0.2                 NaN          -0.1
+32581            LEANHOG  dynamic_TF_carry  [-1]                105.225               None   103.738      103.7       103.775     103.775        103.7 -1.4875 -0.0375        -0       -0.075                 NaN       -0.0375
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                       
+32576             KOSDAQ  dynamic_TF_carry   [1]         230.859   898.819    -6.49749             0          -12.995                     NaN          -6.49749
+32577        GAS_US_mini  dynamic_TF_carry   [1]         2.94809  -110.241    -8.48006       16.9601                0                     NaN           8.48006
+32578                BRE  dynamic_TF_carry  [-1]       0.0267563   186.872    -18.6872      -74.7486         -112.123                     NaN          -93.4358
+32579       NASDAQ_micro  dynamic_TF_carry  [-1]         2967.77   34.1165   -0.421192      0.842384               -0                     NaN          0.421192
+32580            SOYMEAL  dynamic_TF_carry   [1]         89.5761   189.783    -11.1637             0         -22.3274                     NaN          -11.1637
+32581            LEANHOG  dynamic_TF_carry  [-1]         23.7162  -627.209     -15.812            -0          -31.624                     NaN           -15.812
+
+
+==========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                        
+==========================================================================================================================================================================
+
+         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                  
+32576             KOSDAQ  dynamic_TF_carry   [1]              6.31527    131.042     -0.94729              0          -1.89458                      NaN           -0.94729
+32577        GAS_US_mini  dynamic_TF_carry   [1]              2063.81   -67.0739     -5.15953        10.3191                 0                      NaN            5.15953
+32578                BRE  dynamic_TF_carry  [-1]              82552.5    41.2763     -4.12763       -16.5105          -24.7658                      NaN           -20.6381
+32579       NASDAQ_micro  dynamic_TF_carry  [-1]              1.65105    16.7169    -0.206381       0.412763                -0                      NaN           0.206381
+32580            SOYMEAL  dynamic_TF_carry   [1]              82.5525    140.339     -8.25525              0          -16.5105                      NaN           -8.25525
+32581            LEANHOG  dynamic_TF_carry  [-1]               330.21   -491.188     -12.3829             -0          -24.7658                      NaN           -12.3829
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry BRE               41.276262
+                 GAS_US_mini      -67.073926
+                 KOSDAQ           131.041813
+                 LEANHOG         -491.187518
+                 NASDAQ_micro      16.716886
+                 SOYMEAL          140.339291
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -228.887192
+bid_ask_cash Sum
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry BRE                 -4.127626
+                 GAS_US_mini         -5.159533
+                 KOSDAQ              -0.947290
+                 LEANHOG            -12.382879
+                 NASDAQ_micro        -0.206381
+                 SOYMEAL             -8.255252
+bid_ask_cash Total Sum
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry    -31.078961
+execution_cash Sum
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry BRE                  -16.510505
+                 GAS_US_mini           10.319066
+                 KOSDAQ                 0.000000
+                 LEANHOG               -0.000000
+                 NASDAQ_micro           0.412763
+                 SOYMEAL                0.000000
+execution_cash Total Sum
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry       -5.778677
+versus_limit_cash Sum
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry BRE                     -24.765757
+                 GAS_US_mini               0.000000
+                 KOSDAQ                   -1.894580
+                 LEANHOG                 -24.765757
+                 NASDAQ_micro             -0.000000
+                 SOYMEAL                 -16.510505
+versus_limit_cash Total Sum
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry           -67.9366
+versus_parent_limit_cash Sum
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry BRE                                     0
+                 GAS_US_mini                             0
+                 KOSDAQ                                  0
+                 LEANHOG                                 0
+                 NASDAQ_micro                            0
+                 SOYMEAL                                 0
+versus_parent_limit_cash Total Sum
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
+total_trading_cash Sum
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry BRE                      -20.638131
+                 GAS_US_mini                5.159533
+                 KOSDAQ                    -0.947290
+                 LEANHOG                  -12.382879
+                 NASDAQ_micro               0.206381
+                 SOYMEAL                   -8.255252
+total_trading_cash Total Sum
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry          -36.857638
 
 ********************************************************************************
                                  END OF REPORT                                  
