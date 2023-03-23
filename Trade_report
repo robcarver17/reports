@@ -1,15 +1,129 @@
 
 ********************************************************************************
-Trades report report produced on 20/03/2023 23:39 from 19/03/2023 23:39 to 20/03/2023 23:39
+Trades report report produced on 23/03/2023 13:07 from 16/03/2023 13:07 to 23/03/2023 13:07
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+================================================================================================
+                                         Broker orders                                          
+================================================================================================
+
+         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+order_id                                                                                        
+32624         KOSPI_mini  dynamic_TF_carry    [20230400] 2023-03-17 01:00:33  [-1]        310.10
+32626         KOSPI_mini  dynamic_TF_carry    [20230400] 2023-03-17 01:01:42   [1]        309.92
+32625             NIKKEI  dynamic_TF_carry    [20230600] 2023-03-17 01:01:07  [-1]      26860.00
+32623                VIX  dynamic_TF_carry    [20230500] 2023-03-16 15:00:52   [1]         24.70
+
+
+===========================================================================================================================================================
+                                                                          Delays                                                                           
+===========================================================================================================================================================
+
+         instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                                   
+32623                VIX  dynamic_TF_carry                2023-03-14 2023-03-16 15:00:38.877 2023-03-16 15:00:52                 226839              13.123
+32624         KOSPI_mini  dynamic_TF_carry                2021-10-06 2023-03-17 01:00:36.709 2023-03-17 01:00:33            4.55364e+07                 NaN
+32625             NIKKEI  dynamic_TF_carry                2023-03-16 2023-03-17 01:01:08.913 2023-03-17 01:01:07                90068.9                 NaN
+32626         KOSPI_mini  dynamic_TF_carry                2021-10-06 2023-03-17 01:01:43.676 2023-03-17 01:01:42            4.55365e+07                 NaN
+
+
+==============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                   
+==============================================================================================================================================================================================================================
+
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                      
+32623                VIX  dynamic_TF_carry   [1]                     24               None    24.725      24.75          24.7        24.7         24.7 -0.725  -0.025      0.05  3.55271e-15                 NaN         0.025
+32624         KOSPI_mini  dynamic_TF_carry  [-1]                    NaN               None    310.09     310.08         310.1       310.1        310.1    NaN   -0.01      0.02           -0                 NaN          0.01
+32625             NIKKEI  dynamic_TF_carry  [-1]                  26720               None   26857.5      26855         26860       26860        26860  137.5    -2.5         5           -0                 NaN           2.5
+32626         KOSPI_mini  dynamic_TF_carry   [1]                    NaN               None    309.91     309.92         309.9         NaN       309.92    NaN   -0.01         0          NaN                 NaN         -0.01
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                       
+32623                VIX  dynamic_TF_carry   [1]         16.3819  -442.562    -15.2608       30.5215      2.16868e-12                     NaN           15.2608
+32624         KOSPI_mini  dynamic_TF_carry  [-1]         57.6204       NaN     -1.7355       3.47099               -0                     NaN            1.7355
+32625             NIKKEI  dynamic_TF_carry  [-1]         4905.56   280.294    -5.09625       10.1925               -0                     NaN           5.09625
+32626         KOSPI_mini  dynamic_TF_carry   [1]         57.6204       NaN     -1.7355             0              NaN                     NaN           -1.7355
+
+
+==========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                        
+==========================================================================================================================================================================
+
+         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                  
+32623                VIX  dynamic_TF_carry   [1]              811.557   -588.379     -20.2889        40.5778       2.88323e-12                      NaN            20.2889
+32624         KOSPI_mini  dynamic_TF_carry  [-1]              31.7035        NaN    -0.317035       0.634069                -0                      NaN           0.317035
+32625             NIKKEI  dynamic_TF_carry  [-1]             0.620195    85.2769     -1.55049        3.10098                -0                      NaN            1.55049
+32626         KOSPI_mini  dynamic_TF_carry   [1]              31.7035        NaN    -0.317035              0               NaN                      NaN          -0.317035
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry KOSPI_mini         0.000000
+                 NIKKEI            85.276854
+                 VIX             -588.378510
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -503.101656
+bid_ask_cash Sum
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry KOSPI_mini          -0.634069
+                 NIKKEI              -1.550488
+                 VIX                -20.288914
+bid_ask_cash Total Sum
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry    -22.473472
+execution_cash Sum
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry KOSPI_mini             0.634069
+                 NIKKEI                 3.100977
+                 VIX                   40.577828
+execution_cash Total Sum
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry       44.312874
+versus_limit_cash Sum
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry KOSPI_mini            0.000000e+00
+                 NIKKEI               -0.000000e+00
+                 VIX                   2.883228e-12
+versus_limit_cash Total Sum
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry       2.883228e-12
+versus_parent_limit_cash Sum
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry KOSPI_mini                              0
+                 NIKKEI                                  0
+                 VIX                                     0
+versus_parent_limit_cash Total Sum
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
+total_trading_cash Sum
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry KOSPI_mini            -1.802114e-12
+                 NIKKEI                 1.550488e+00
+                 VIX                    2.028891e+01
+total_trading_cash Total Sum
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry           21.839402
 
 ********************************************************************************
                                  END OF REPORT                                  
