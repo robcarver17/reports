@@ -1,15 +1,15 @@
 
 ********************************************************************************
-      Removed markets report report produced on 2023-03-23 15:23:00.065731      
+      Removed markets report report produced on 2023-03-23 15:55:49.269150      
 ********************************************************************************
 
 
 List of markets which should be marked as untradeable due to risk, liquidity or cost issues
-Following should be removed from trading (add to config.bad_markets) [0.300000 threshold]: ['RUR', 'CHF_micro', 'FTSEVIET', 'MSCIWORLD', 'GBPJPY', 'CAD_micro', 'CORN_mini', 'JPY_mini', 'ZAR', 'GBP_micro'] 
+Following should be removed from trading (add to config.bad_markets) [0.300000 threshold]: [] 
 
 
 
-Following should be allowed to trade (delete from config.bad_markets) [0.300000 threshold]: ['EU-BANKS', 'US-REALESTATE']
+Following should be allowed to trade (delete from config.bad_markets) [0.300000 threshold]: []
 
 
 
@@ -122,6 +122,102 @@ exclude_instrument_lists:
     - USIRS2ERIS 
     - USIRS5 
     - VNKI 
+    - WHEY 
+    - ZAR 
+
+
+
+
+Put following into config.yaml
+exclude_instrument_lists:
+  bad_markets:
+    - AEX_mini 
+    - ALUMINIUM 
+    - AUDJPY 
+    - BB3M 
+    - BBCOMM 
+    - BOVESPA 
+    - BTP3 
+    - BUTTER 
+    - CAD_micro 
+    - CH10 
+    - CHEESE 
+    - CHFJPY 
+    - CHF_micro 
+    - CLP 
+    - CNH-onshore 
+    - COPPER-mini 
+    - CORN_mini 
+    - COTTON 
+    - CZK 
+    - EDOLLAR 
+    - EPRA-EUROPE 
+    - ETHANOL 
+    - ETHER-micro 
+    - EU-CHEM 
+    - EU-CONSTRUCTION 
+    - EU-DJ-OIL 
+    - EU-DJ-TECH 
+    - EU-DJ-TELECOM 
+    - EU-DJ-UTIL 
+    - EU-FOOD 
+    - EU-HOUSE 
+    - EU-MEDIA 
+    - EU-MID 
+    - EU-RETAIL 
+    - EU-TRAVEL 
+    - EU-UTILS 
+    - EURAUD 
+    - EURCAD 
+    - EURIBOR 
+    - EUROSTX-LARGE 
+    - EUROSTX-SMALL 
+    - EUROSTX200-LARGE 
+    - FED 
+    - FTSEINDO 
+    - FTSEVIET 
+    - GASOILINE_micro 
+    - GBPCHF 
+    - GBPJPY 
+    - GBP_micro 
+    - GICS 
+    - HOUSE-US 
+    - INR 
+    - IRS 
+    - JGB-mini 
+    - JP-REALESTATE 
+    - JPY_mini 
+    - KR3 
+    - KRWUSD 
+    - LUMBER 
+    - LUMBER-new 
+    - MILK 
+    - MILKDRY 
+    - MILKWET 
+    - MSCIWORLD 
+    - NOK 
+    - OATIES 
+    - OMX 
+    - PLN 
+    - R1000 
+    - RICE 
+    - RUBBER 
+    - RUR 
+    - SGD 
+    - SGD_mini 
+    - SGX 
+    - SHATZ 
+    - SMI-MID 
+    - SOFR 
+    - STEEL 
+    - SWISSLEAD 
+    - TWD 
+    - TWD-mini 
+    - US-PROPERTY 
+    - USIRS2ERIS 
+    - USIRS5 
+    - VNKI 
+    - WHEAT_mini 
     - WHEY 
     - ZAR 
 
