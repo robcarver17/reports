@@ -1,129 +1,168 @@
 
 ********************************************************************************
-Trades report report produced on 23/03/2023 13:07 from 16/03/2023 13:07 to 23/03/2023 13:07
+Trades report report produced on 24/03/2023 22:51 from 23/03/2023 22:51 to 24/03/2023 22:51
 ********************************************************************************
 
 
 
-================================================================================================
-                                         Broker orders                                          
-================================================================================================
+=====================================================================================================
+                                            Broker orders                                            
+=====================================================================================================
 
-         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-order_id                                                                                        
-32624         KOSPI_mini  dynamic_TF_carry    [20230400] 2023-03-17 01:00:33  [-1]        310.10
-32626         KOSPI_mini  dynamic_TF_carry    [20230400] 2023-03-17 01:01:42   [1]        309.92
-32625             NIKKEI  dynamic_TF_carry    [20230600] 2023-03-17 01:01:07  [-1]      26860.00
-32623                VIX  dynamic_TF_carry    [20230500] 2023-03-16 15:00:52   [1]         24.70
-
-
-===========================================================================================================================================================
-                                                                          Delays                                                                           
-===========================================================================================================================================================
-
-         instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
-order_id                                                                                                                                                   
-32623                VIX  dynamic_TF_carry                2023-03-14 2023-03-16 15:00:38.877 2023-03-16 15:00:52                 226839              13.123
-32624         KOSPI_mini  dynamic_TF_carry                2021-10-06 2023-03-17 01:00:36.709 2023-03-17 01:00:33            4.55364e+07                 NaN
-32625             NIKKEI  dynamic_TF_carry                2023-03-16 2023-03-17 01:01:08.913 2023-03-17 01:01:07                90068.9                 NaN
-32626         KOSPI_mini  dynamic_TF_carry                2021-10-06 2023-03-17 01:01:43.676 2023-03-17 01:01:42            4.55365e+07                 NaN
+         instrument_code          strategy_name contract_date       fill_datetime  fill  filled_price
+order_id                                                                                             
+32632         GOLD_micro  _ROLL_PSEUDO_STRATEGY    [20230400] 2023-03-24 14:00:36   [1]    1992.40000
+32633         GOLD_micro  _ROLL_PSEUDO_STRATEGY    [20230600] 2023-03-24 14:01:06  [-1]    2008.00000
+32635       NASDAQ_micro       dynamic_TF_carry    [20230600] 2023-03-24 15:01:12  [-1]   12792.00000
+32636            RUSSELL       dynamic_TF_carry    [20230600] 2023-03-24 15:01:51   [1]    1717.10000
+32638            SOYMEAL       dynamic_TF_carry    [20230700] 2023-03-24 15:30:30  [-1]     436.10000
+32637                US2       dynamic_TF_carry    [20230600] 2023-03-24 15:02:25  [-1]     104.03125
+32634               US20       dynamic_TF_carry    [20230600] 2023-03-24 15:00:41   [1]     132.62500
 
 
-==============================================================================================================================================================================================================================
-                                                                                                   Slippage (ticks per lot)                                                                                                   
-==============================================================================================================================================================================================================================
+================================================================================================================================================================
+                                                                             Delays                                                                             
+================================================================================================================================================================
 
-         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
-order_id                                                                                                                                                                                                                      
-32623                VIX  dynamic_TF_carry   [1]                     24               None    24.725      24.75          24.7        24.7         24.7 -0.725  -0.025      0.05  3.55271e-15                 NaN         0.025
-32624         KOSPI_mini  dynamic_TF_carry  [-1]                    NaN               None    310.09     310.08         310.1       310.1        310.1    NaN   -0.01      0.02           -0                 NaN          0.01
-32625             NIKKEI  dynamic_TF_carry  [-1]                  26720               None   26857.5      26855         26860       26860        26860  137.5    -2.5         5           -0                 NaN           2.5
-32626         KOSPI_mini  dynamic_TF_carry   [1]                    NaN               None    309.91     309.92         309.9         NaN       309.92    NaN   -0.01         0          NaN                 NaN         -0.01
-
-
-===============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
-===============================================================================================================================================================
-
-         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-order_id                                                                                                                                                       
-32623                VIX  dynamic_TF_carry   [1]         16.3819  -442.562    -15.2608       30.5215      2.16868e-12                     NaN           15.2608
-32624         KOSPI_mini  dynamic_TF_carry  [-1]         57.6204       NaN     -1.7355       3.47099               -0                     NaN            1.7355
-32625             NIKKEI  dynamic_TF_carry  [-1]         4905.56   280.294    -5.09625       10.1925               -0                     NaN           5.09625
-32626         KOSPI_mini  dynamic_TF_carry   [1]         57.6204       NaN     -1.7355             0              NaN                     NaN           -1.7355
+         instrument_code          strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                                        
+32632         GOLD_micro  _ROLL_PSEUDO_STRATEGY       2023-03-22 20:00:00 2023-03-24 14:00:28.289 2023-03-24 14:00:36                 151228               7.711
+32633         GOLD_micro  _ROLL_PSEUDO_STRATEGY       2023-03-22 20:00:00 2023-03-24 14:00:58.644 2023-03-24 14:01:06                 151259               7.356
+32634               US20       dynamic_TF_carry       2023-03-22 00:00:00 2023-03-24 15:00:42.823 2023-03-24 15:00:41                 226843                 NaN
+32635       NASDAQ_micro       dynamic_TF_carry       2023-03-22 00:00:00 2023-03-24 15:01:14.418 2023-03-24 15:01:12                 226874                 NaN
+32636            RUSSELL       dynamic_TF_carry       2023-03-22 00:00:00 2023-03-24 15:01:53.620 2023-03-24 15:01:51                 226914                 NaN
+32637                US2       dynamic_TF_carry       2023-03-22 00:00:00 2023-03-24 15:02:27.143 2023-03-24 15:02:25                 226947                 NaN
+32638            SOYMEAL       dynamic_TF_carry       2023-03-22 00:00:00 2023-03-24 15:30:12.176 2023-03-24 15:30:30                 228612              17.824
 
 
-==========================================================================================================================================================================
-                                                                       Slippage (In base currency)                                                                        
-==========================================================================================================================================================================
+===========================================================================================================================================================================================================================================
+                                                                                                         Slippage (ticks per lot)                                                                                                          
+===========================================================================================================================================================================================================================================
 
-         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-order_id                                                                                                                                                                  
-32623                VIX  dynamic_TF_carry   [1]              811.557   -588.379     -20.2889        40.5778       2.88323e-12                      NaN            20.2889
-32624         KOSPI_mini  dynamic_TF_carry  [-1]              31.7035        NaN    -0.317035       0.634069                -0                      NaN           0.317035
-32625             NIKKEI  dynamic_TF_carry  [-1]             0.620195    85.2769     -1.55049        3.10098                -0                      NaN            1.55049
-32626         KOSPI_mini  dynamic_TF_carry   [1]              31.7035        NaN    -0.317035              0               NaN                      NaN          -0.317035
+         instrument_code          strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay     bid_ask  execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                                   
+32632         GOLD_micro  _ROLL_PSEUDO_STRATEGY   [1]                 1973.3               None    1990.8     1990.9        1990.7      1990.7       1992.4     -17.5        -0.1       -1.5         -1.7                 NaN          -1.6
+32633         GOLD_micro  _ROLL_PSEUDO_STRATEGY  [-1]                 1990.7               None    2009.1       2009        2009.2      2009.2         2008      18.4        -0.1         -1         -1.2                 NaN          -1.1
+32634               US20       dynamic_TF_carry   [1]                131.781               None   132.609    132.625       132.594         NaN      132.625 -0.828125   -0.015625          0          NaN                 NaN     -0.015625
+32635       NASDAQ_micro       dynamic_TF_carry  [-1]                  12699               None   12791.5    12791.2       12791.8     12791.8        12792      92.5       -0.25       0.75         0.25                 NaN           0.5
+32636            RUSSELL       dynamic_TF_carry   [1]                 1744.9               None   1717.45     1717.5        1717.4      1717.4       1717.1     27.45       -0.05        0.4          0.3                 NaN          0.35
+32637                US2       dynamic_TF_carry  [-1]                103.559               None   104.025    104.023       104.027     104.027      104.031  0.466797 -0.00195312  0.0078125   0.00390625                 NaN    0.00585938
+32638            SOYMEAL       dynamic_TF_carry  [-1]                  446.9               None     436.1        436         436.2       436.2        436.1     -10.8        -0.1        0.1         -0.1                 NaN             0
+
+
+====================================================================================================================================================================
+                                                        Slippage (normalised by annual vol, BP of annual SR)                                                        
+====================================================================================================================================================================
+
+         instrument_code          strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                            
+32632         GOLD_micro  _ROLL_PSEUDO_STRATEGY   [1]         362.856  -482.285    -2.75591      -41.3387         -46.8505                     NaN          -44.0946
+32633         GOLD_micro  _ROLL_PSEUDO_STRATEGY  [-1]         362.856   507.088    -2.75591      -27.5591         -33.0709                     NaN           -30.315
+32634               US20       dynamic_TF_carry   [1]         19.9226  -415.672    -7.84287             0              NaN                     NaN          -7.84287
+32635       NASDAQ_micro       dynamic_TF_carry  [-1]         2775.65   333.255   -0.900689       2.70207         0.900689                     NaN           1.80138
+32636            RUSSELL       dynamic_TF_carry   [1]         465.671   589.473    -1.07372       8.58976          6.44232                     NaN           7.51604
+32637                US2       dynamic_TF_carry  [-1]         5.14886   906.602    -3.79332       15.1733          7.58663                     NaN           11.3799
+32638            SOYMEAL       dynamic_TF_carry  [-1]         95.4893  -1131.02    -10.4724       10.4724         -10.4724                     NaN                 0
+
+
+===============================================================================================================================================================================
+                                                                          Slippage (In base currency)                                                                          
+===============================================================================================================================================================================
+
+         instrument_code          strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                       
+32632         GOLD_micro  _ROLL_PSEUDO_STRATEGY   [1]              8.15993   -142.799    -0.815993       -12.2399          -13.8719                      NaN           -13.0559
+32633         GOLD_micro  _ROLL_PSEUDO_STRATEGY  [-1]              8.15993    150.143    -0.815993       -8.15993          -9.79192                      NaN           -8.97593
+32634               US20       dynamic_TF_carry   [1]              815.993   -675.745     -12.7499              0               NaN                      NaN           -12.7499
+32635       NASDAQ_micro       dynamic_TF_carry  [-1]              1.63199    150.959    -0.407997        1.22399          0.407997                      NaN           0.815993
+32636            RUSSELL       dynamic_TF_carry   [1]              4.07997    111.995    -0.203998        1.63199           1.22399                      NaN            1.42799
+32637                US2       dynamic_TF_carry  [-1]              1631.99    761.806     -3.18747        12.7499           6.37495                      NaN            9.56242
+32638            SOYMEAL       dynamic_TF_carry  [-1]              81.5993   -881.273     -8.15993        8.15993          -8.15993                      NaN                  0
 
 delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry KOSPI_mini         0.000000
-                 NIKKEI            85.276854
-                 VIX             -588.378510
+                                       delay_cash
+strategy_name         instrument_code            
+_ROLL_PSEUDO_STRATEGY GOLD_micro         7.343941
+dynamic_TF_carry      NASDAQ_micro     150.958792
+                      RUSSELL          111.995104
+                      SOYMEAL         -881.272950
+                      US2              761.806406
+                      US20            -675.744594
 delay_cash Total Sum
-                  delay_cash
-strategy_name               
-dynamic_TF_carry -503.101656
+                       delay_cash
+strategy_name                    
+_ROLL_PSEUDO_STRATEGY    7.343941
+dynamic_TF_carry      -532.257242
 bid_ask_cash Sum
-                                  bid_ask_cash
-strategy_name    instrument_code              
-dynamic_TF_carry KOSPI_mini          -0.634069
-                 NIKKEI              -1.550488
-                 VIX                -20.288914
+                                       bid_ask_cash
+strategy_name         instrument_code              
+_ROLL_PSEUDO_STRATEGY GOLD_micro          -1.631987
+dynamic_TF_carry      NASDAQ_micro        -0.407997
+                      RUSSELL             -0.203998
+                      SOYMEAL             -8.159935
+                      US2                 -3.187475
+                      US20               -12.749898
 bid_ask_cash Total Sum
-                  bid_ask_cash
-strategy_name                 
-dynamic_TF_carry    -22.473472
-execution_cash Sum
-                                  execution_cash
-strategy_name    instrument_code                
-dynamic_TF_carry KOSPI_mini             0.634069
-                 NIKKEI                 3.100977
-                 VIX                   40.577828
-execution_cash Total Sum
-                  execution_cash
-strategy_name                   
-dynamic_TF_carry       44.312874
-versus_limit_cash Sum
-                                  versus_limit_cash
-strategy_name    instrument_code                   
-dynamic_TF_carry KOSPI_mini            0.000000e+00
-                 NIKKEI               -0.000000e+00
-                 VIX                   2.883228e-12
-versus_limit_cash Total Sum
-                  versus_limit_cash
+                       bid_ask_cash
 strategy_name                      
-dynamic_TF_carry       2.883228e-12
+_ROLL_PSEUDO_STRATEGY     -1.631987
+dynamic_TF_carry         -24.709302
+execution_cash Sum
+                                       execution_cash
+strategy_name         instrument_code                
+_ROLL_PSEUDO_STRATEGY GOLD_micro           -20.399837
+dynamic_TF_carry      NASDAQ_micro           1.223990
+                      RUSSELL                1.631987
+                      SOYMEAL                8.159935
+                      US2                   12.749898
+                      US20                   0.000000
+execution_cash Total Sum
+                       execution_cash
+strategy_name                        
+_ROLL_PSEUDO_STRATEGY      -20.399837
+dynamic_TF_carry            23.765810
+versus_limit_cash Sum
+                                       versus_limit_cash
+strategy_name         instrument_code                   
+_ROLL_PSEUDO_STRATEGY GOLD_micro              -23.663811
+dynamic_TF_carry      NASDAQ_micro              0.407997
+                      RUSSELL                   1.223990
+                      SOYMEAL                  -8.159935
+                      US2                       6.374949
+                      US20                      0.000000
+versus_limit_cash Total Sum
+                       versus_limit_cash
+strategy_name                           
+_ROLL_PSEUDO_STRATEGY         -23.663811
+dynamic_TF_carry               -0.152999
 versus_parent_limit_cash Sum
-                                  versus_parent_limit_cash
-strategy_name    instrument_code                          
-dynamic_TF_carry KOSPI_mini                              0
-                 NIKKEI                                  0
-                 VIX                                     0
+                                       versus_parent_limit_cash
+strategy_name         instrument_code                          
+_ROLL_PSEUDO_STRATEGY GOLD_micro                              0
+dynamic_TF_carry      NASDAQ_micro                            0
+                      RUSSELL                                 0
+                      SOYMEAL                                 0
+                      US2                                     0
+                      US20                                    0
 versus_parent_limit_cash Total Sum
-                  versus_parent_limit_cash
-strategy_name                             
-dynamic_TF_carry                         0
+                       versus_parent_limit_cash
+strategy_name                                  
+_ROLL_PSEUDO_STRATEGY                         0
+dynamic_TF_carry                              0
 total_trading_cash Sum
-                                  total_trading_cash
-strategy_name    instrument_code                    
-dynamic_TF_carry KOSPI_mini            -1.802114e-12
-                 NIKKEI                 1.550488e+00
-                 VIX                    2.028891e+01
+                                       total_trading_cash
+strategy_name         instrument_code                    
+_ROLL_PSEUDO_STRATEGY GOLD_micro               -22.031824
+dynamic_TF_carry      NASDAQ_micro               0.815993
+                      RUSSELL                    1.427989
+                      SOYMEAL                    0.000000
+                      US2                        9.562424
+                      US20                     -12.749898
 total_trading_cash Total Sum
-                  total_trading_cash
-strategy_name                       
-dynamic_TF_carry           21.839402
+                       total_trading_cash
+strategy_name                            
+_ROLL_PSEUDO_STRATEGY          -22.031824
+dynamic_TF_carry                -0.943492
 
 ********************************************************************************
                                  END OF REPORT                                  
