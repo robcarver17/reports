@@ -1,168 +1,123 @@
 
 ********************************************************************************
-Trades report report produced on 24/03/2023 22:51 from 23/03/2023 22:51 to 24/03/2023 22:51
+Trades report report produced on 28/03/2023 22:50 from 27/03/2023 22:50 to 28/03/2023 22:50
 ********************************************************************************
 
 
 
-=====================================================================================================
-                                            Broker orders                                            
-=====================================================================================================
+================================================================================================
+                                         Broker orders                                          
+================================================================================================
 
-         instrument_code          strategy_name contract_date       fill_datetime  fill  filled_price
-order_id                                                                                             
-32632         GOLD_micro  _ROLL_PSEUDO_STRATEGY    [20230400] 2023-03-24 14:00:36   [1]    1992.40000
-32633         GOLD_micro  _ROLL_PSEUDO_STRATEGY    [20230600] 2023-03-24 14:01:06  [-1]    2008.00000
-32635       NASDAQ_micro       dynamic_TF_carry    [20230600] 2023-03-24 15:01:12  [-1]   12792.00000
-32636            RUSSELL       dynamic_TF_carry    [20230600] 2023-03-24 15:01:51   [1]    1717.10000
-32638            SOYMEAL       dynamic_TF_carry    [20230700] 2023-03-24 15:30:30  [-1]     436.10000
-32637                US2       dynamic_TF_carry    [20230600] 2023-03-24 15:02:25  [-1]     104.03125
-32634               US20       dynamic_TF_carry    [20230600] 2023-03-24 15:00:41   [1]     132.62500
+         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+order_id                                                                                        
+32641            LEANHOG  dynamic_TF_carry    [20230600] 2023-03-28 15:30:02   [1]        91.675
+32642            LEANHOG  dynamic_TF_carry    [20230600] 2023-03-28 15:30:05  [-1]        91.600
+32639                V2X  dynamic_TF_carry    [20230600] 2023-03-28 11:10:54  [-1]        23.150
+32640                V2X  dynamic_TF_carry    [20230600] 2023-03-28 11:12:56   [1]        23.150
 
 
-================================================================================================================================================================
-                                                                             Delays                                                                             
-================================================================================================================================================================
+===========================================================================================================================================================
+                                                                          Delays                                                                           
+===========================================================================================================================================================
 
-         instrument_code          strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
-order_id                                                                                                                                                        
-32632         GOLD_micro  _ROLL_PSEUDO_STRATEGY       2023-03-22 20:00:00 2023-03-24 14:00:28.289 2023-03-24 14:00:36                 151228               7.711
-32633         GOLD_micro  _ROLL_PSEUDO_STRATEGY       2023-03-22 20:00:00 2023-03-24 14:00:58.644 2023-03-24 14:01:06                 151259               7.356
-32634               US20       dynamic_TF_carry       2023-03-22 00:00:00 2023-03-24 15:00:42.823 2023-03-24 15:00:41                 226843                 NaN
-32635       NASDAQ_micro       dynamic_TF_carry       2023-03-22 00:00:00 2023-03-24 15:01:14.418 2023-03-24 15:01:12                 226874                 NaN
-32636            RUSSELL       dynamic_TF_carry       2023-03-22 00:00:00 2023-03-24 15:01:53.620 2023-03-24 15:01:51                 226914                 NaN
-32637                US2       dynamic_TF_carry       2023-03-22 00:00:00 2023-03-24 15:02:27.143 2023-03-24 15:02:25                 226947                 NaN
-32638            SOYMEAL       dynamic_TF_carry       2023-03-22 00:00:00 2023-03-24 15:30:12.176 2023-03-24 15:30:30                 228612              17.824
+         instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                                   
+32639                V2X  dynamic_TF_carry                2023-03-22 2023-03-28 11:09:23.127 2023-03-28 11:10:54                 558563              90.873
+32640                V2X  dynamic_TF_carry                2023-03-24 2023-03-28 11:10:55.532 2023-03-28 11:12:56                 385856             120.468
+32641            LEANHOG  dynamic_TF_carry                2023-03-22 2023-03-28 15:30:02.478 2023-03-28 15:30:02                 574202                 NaN
+32642            LEANHOG  dynamic_TF_carry                2023-03-24 2023-03-28 15:30:03.656 2023-03-28 15:30:05                 401404               1.344
 
 
-===========================================================================================================================================================================================================================================
-                                                                                                         Slippage (ticks per lot)                                                                                                          
-===========================================================================================================================================================================================================================================
+===============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                    
+===============================================================================================================================================================================================================================
 
-         instrument_code          strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay     bid_ask  execution versus_limit versus_parent_limit total_trading
-order_id                                                                                                                                                                                                                                   
-32632         GOLD_micro  _ROLL_PSEUDO_STRATEGY   [1]                 1973.3               None    1990.8     1990.9        1990.7      1990.7       1992.4     -17.5        -0.1       -1.5         -1.7                 NaN          -1.6
-32633         GOLD_micro  _ROLL_PSEUDO_STRATEGY  [-1]                 1990.7               None    2009.1       2009        2009.2      2009.2         2008      18.4        -0.1         -1         -1.2                 NaN          -1.1
-32634               US20       dynamic_TF_carry   [1]                131.781               None   132.609    132.625       132.594         NaN      132.625 -0.828125   -0.015625          0          NaN                 NaN     -0.015625
-32635       NASDAQ_micro       dynamic_TF_carry  [-1]                  12699               None   12791.5    12791.2       12791.8     12791.8        12792      92.5       -0.25       0.75         0.25                 NaN           0.5
-32636            RUSSELL       dynamic_TF_carry   [1]                 1744.9               None   1717.45     1717.5        1717.4      1717.4       1717.1     27.45       -0.05        0.4          0.3                 NaN          0.35
-32637                US2       dynamic_TF_carry  [-1]                103.559               None   104.025    104.023       104.027     104.027      104.031  0.466797 -0.00195312  0.0078125   0.00390625                 NaN    0.00585938
-32638            SOYMEAL       dynamic_TF_carry  [-1]                  446.9               None     436.1        436         436.2       436.2        436.1     -10.8        -0.1        0.1         -0.1                 NaN             0
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                       
+32639                V2X  dynamic_TF_carry  [-1]                  22.35               None    23.225       23.2         23.25       23.25        23.15   0.875  -0.025     -0.05         -0.1                 NaN        -0.075
+32640                V2X  dynamic_TF_carry   [1]                     24               None    23.175       23.2         23.15       23.15        23.15   0.825  -0.025      0.05  3.55271e-15                 NaN         0.025
+32641            LEANHOG  dynamic_TF_carry   [1]                  89.15               None   91.6375     91.675          91.6        91.6       91.675 -2.4875 -0.0375         0       -0.075                 NaN       -0.0375
+32642            LEANHOG  dynamic_TF_carry  [-1]                 91.225               None    91.625       91.6         91.65       91.65         91.6     0.4  -0.025        -0        -0.05                 NaN        -0.025
 
 
-====================================================================================================================================================================
-                                                        Slippage (normalised by annual vol, BP of annual SR)                                                        
-====================================================================================================================================================================
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
 
-         instrument_code          strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-order_id                                                                                                                                                            
-32632         GOLD_micro  _ROLL_PSEUDO_STRATEGY   [1]         362.856  -482.285    -2.75591      -41.3387         -46.8505                     NaN          -44.0946
-32633         GOLD_micro  _ROLL_PSEUDO_STRATEGY  [-1]         362.856   507.088    -2.75591      -27.5591         -33.0709                     NaN           -30.315
-32634               US20       dynamic_TF_carry   [1]         19.9226  -415.672    -7.84287             0              NaN                     NaN          -7.84287
-32635       NASDAQ_micro       dynamic_TF_carry  [-1]         2775.65   333.255   -0.900689       2.70207         0.900689                     NaN           1.80138
-32636            RUSSELL       dynamic_TF_carry   [1]         465.671   589.473    -1.07372       8.58976          6.44232                     NaN           7.51604
-32637                US2       dynamic_TF_carry  [-1]         5.14886   906.602    -3.79332       15.1733          7.58663                     NaN           11.3799
-32638            SOYMEAL       dynamic_TF_carry  [-1]         95.4893  -1131.02    -10.4724       10.4724         -10.4724                     NaN                 0
+         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                       
+32639                V2X  dynamic_TF_carry  [-1]         15.4875   564.972    -16.1421      -32.2841         -64.5682                     NaN          -48.4262
+32640                V2X  dynamic_TF_carry   [1]         15.4875   532.688    -16.1421       32.2841      2.29392e-12                     NaN           16.1421
+32641            LEANHOG  dynamic_TF_carry   [1]            25.5  -975.491    -14.7059             0         -29.4118                     NaN          -14.7059
+32642            LEANHOG  dynamic_TF_carry  [-1]            25.5   156.863    -9.80393            -0         -19.6079                     NaN          -9.80393
 
 
-===============================================================================================================================================================================
-                                                                          Slippage (In base currency)                                                                          
-===============================================================================================================================================================================
+==========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                        
+==========================================================================================================================================================================
 
-         instrument_code          strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-order_id                                                                                                                                                                       
-32632         GOLD_micro  _ROLL_PSEUDO_STRATEGY   [1]              8.15993   -142.799    -0.815993       -12.2399          -13.8719                      NaN           -13.0559
-32633         GOLD_micro  _ROLL_PSEUDO_STRATEGY  [-1]              8.15993    150.143    -0.815993       -8.15993          -9.79192                      NaN           -8.97593
-32634               US20       dynamic_TF_carry   [1]              815.993   -675.745     -12.7499              0               NaN                      NaN           -12.7499
-32635       NASDAQ_micro       dynamic_TF_carry  [-1]              1.63199    150.959    -0.407997        1.22399          0.407997                      NaN           0.815993
-32636            RUSSELL       dynamic_TF_carry   [1]              4.07997    111.995    -0.203998        1.63199           1.22399                      NaN            1.42799
-32637                US2       dynamic_TF_carry  [-1]              1631.99    761.806     -3.18747        12.7499           6.37495                      NaN            9.56242
-32638            SOYMEAL       dynamic_TF_carry  [-1]              81.5993   -881.273     -8.15993        8.15993          -8.15993                      NaN                  0
+         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                  
+32639                V2X  dynamic_TF_carry  [-1]               87.927    76.9362     -2.19818       -4.39635           -8.7927                      NaN           -6.59453
+32640                V2X  dynamic_TF_carry   [1]               87.927    72.5398     -2.19818        4.39635        3.1238e-13                      NaN            2.19818
+32641            LEANHOG  dynamic_TF_carry   [1]              324.979   -808.384     -12.1867              0          -24.3734                      NaN           -12.1867
+32642            LEANHOG  dynamic_TF_carry  [-1]              324.979    129.991     -8.12447             -0          -16.2489                      NaN           -8.12447
 
 delay_cash Sum
-                                       delay_cash
-strategy_name         instrument_code            
-_ROLL_PSEUDO_STRATEGY GOLD_micro         7.343941
-dynamic_TF_carry      NASDAQ_micro     150.958792
-                      RUSSELL          111.995104
-                      SOYMEAL         -881.272950
-                      US2              761.806406
-                      US20            -675.744594
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry LEANHOG         -678.392980
+                 V2X              149.475972
 delay_cash Total Sum
-                       delay_cash
-strategy_name                    
-_ROLL_PSEUDO_STRATEGY    7.343941
-dynamic_TF_carry      -532.257242
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -528.917009
 bid_ask_cash Sum
-                                       bid_ask_cash
-strategy_name         instrument_code              
-_ROLL_PSEUDO_STRATEGY GOLD_micro          -1.631987
-dynamic_TF_carry      NASDAQ_micro        -0.407997
-                      RUSSELL             -0.203998
-                      SOYMEAL             -8.159935
-                      US2                 -3.187475
-                      US20               -12.749898
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry LEANHOG            -20.311167
+                 V2X                 -4.396352
 bid_ask_cash Total Sum
-                       bid_ask_cash
-strategy_name                      
-_ROLL_PSEUDO_STRATEGY     -1.631987
-dynamic_TF_carry         -24.709302
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry    -24.707519
 execution_cash Sum
-                                       execution_cash
-strategy_name         instrument_code                
-_ROLL_PSEUDO_STRATEGY GOLD_micro           -20.399837
-dynamic_TF_carry      NASDAQ_micro           1.223990
-                      RUSSELL                1.631987
-                      SOYMEAL                8.159935
-                      US2                   12.749898
-                      US20                   0.000000
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry LEANHOG                     0.0
+                 V2X                         0.0
 execution_cash Total Sum
-                       execution_cash
-strategy_name                        
-_ROLL_PSEUDO_STRATEGY      -20.399837
-dynamic_TF_carry            23.765810
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry             0.0
 versus_limit_cash Sum
-                                       versus_limit_cash
-strategy_name         instrument_code                   
-_ROLL_PSEUDO_STRATEGY GOLD_micro              -23.663811
-dynamic_TF_carry      NASDAQ_micro              0.407997
-                      RUSSELL                   1.223990
-                      SOYMEAL                  -8.159935
-                      US2                       6.374949
-                      US20                      0.000000
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry LEANHOG                 -40.622334
+                 V2X                      -8.792704
 versus_limit_cash Total Sum
-                       versus_limit_cash
-strategy_name                           
-_ROLL_PSEUDO_STRATEGY         -23.663811
-dynamic_TF_carry               -0.152999
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry         -49.415038
 versus_parent_limit_cash Sum
-                                       versus_parent_limit_cash
-strategy_name         instrument_code                          
-_ROLL_PSEUDO_STRATEGY GOLD_micro                              0
-dynamic_TF_carry      NASDAQ_micro                            0
-                      RUSSELL                                 0
-                      SOYMEAL                                 0
-                      US2                                     0
-                      US20                                    0
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry LEANHOG                                 0
+                 V2X                                     0
 versus_parent_limit_cash Total Sum
-                       versus_parent_limit_cash
-strategy_name                                  
-_ROLL_PSEUDO_STRATEGY                         0
-dynamic_TF_carry                              0
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
 total_trading_cash Sum
-                                       total_trading_cash
-strategy_name         instrument_code                    
-_ROLL_PSEUDO_STRATEGY GOLD_micro               -22.031824
-dynamic_TF_carry      NASDAQ_micro               0.815993
-                      RUSSELL                    1.427989
-                      SOYMEAL                    0.000000
-                      US2                        9.562424
-                      US20                     -12.749898
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry LEANHOG                  -20.311167
+                 V2X                       -4.396352
 total_trading_cash Total Sum
-                       total_trading_cash
-strategy_name                            
-_ROLL_PSEUDO_STRATEGY          -22.031824
-dynamic_TF_carry                -0.943492
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry          -24.707519
 
 ********************************************************************************
                                  END OF REPORT                                  
