@@ -1,123 +1,15 @@
 
 ********************************************************************************
-Trades report report produced on 28/03/2023 22:50 from 27/03/2023 22:50 to 28/03/2023 22:50
+Trades report report produced on 30/03/2023 22:51 from 29/03/2023 22:51 to 30/03/2023 22:51
 ********************************************************************************
 
 
-
-================================================================================================
-                                         Broker orders                                          
-================================================================================================
-
-         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-order_id                                                                                        
-32641            LEANHOG  dynamic_TF_carry    [20230600] 2023-03-28 15:30:02   [1]        91.675
-32642            LEANHOG  dynamic_TF_carry    [20230600] 2023-03-28 15:30:05  [-1]        91.600
-32639                V2X  dynamic_TF_carry    [20230600] 2023-03-28 11:10:54  [-1]        23.150
-32640                V2X  dynamic_TF_carry    [20230600] 2023-03-28 11:12:56   [1]        23.150
-
-
-===========================================================================================================================================================
-                                                                          Delays                                                                           
-===========================================================================================================================================================
-
-         instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
-order_id                                                                                                                                                   
-32639                V2X  dynamic_TF_carry                2023-03-22 2023-03-28 11:09:23.127 2023-03-28 11:10:54                 558563              90.873
-32640                V2X  dynamic_TF_carry                2023-03-24 2023-03-28 11:10:55.532 2023-03-28 11:12:56                 385856             120.468
-32641            LEANHOG  dynamic_TF_carry                2023-03-22 2023-03-28 15:30:02.478 2023-03-28 15:30:02                 574202                 NaN
-32642            LEANHOG  dynamic_TF_carry                2023-03-24 2023-03-28 15:30:03.656 2023-03-28 15:30:05                 401404               1.344
-
-
-===============================================================================================================================================================================================================================
-                                                                                                   Slippage (ticks per lot)                                                                                                    
-===============================================================================================================================================================================================================================
-
-         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
-order_id                                                                                                                                                                                                                       
-32639                V2X  dynamic_TF_carry  [-1]                  22.35               None    23.225       23.2         23.25       23.25        23.15   0.875  -0.025     -0.05         -0.1                 NaN        -0.075
-32640                V2X  dynamic_TF_carry   [1]                     24               None    23.175       23.2         23.15       23.15        23.15   0.825  -0.025      0.05  3.55271e-15                 NaN         0.025
-32641            LEANHOG  dynamic_TF_carry   [1]                  89.15               None   91.6375     91.675          91.6        91.6       91.675 -2.4875 -0.0375         0       -0.075                 NaN       -0.0375
-32642            LEANHOG  dynamic_TF_carry  [-1]                 91.225               None    91.625       91.6         91.65       91.65         91.6     0.4  -0.025        -0        -0.05                 NaN        -0.025
-
-
-===============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
-===============================================================================================================================================================
-
-         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-order_id                                                                                                                                                       
-32639                V2X  dynamic_TF_carry  [-1]         15.4875   564.972    -16.1421      -32.2841         -64.5682                     NaN          -48.4262
-32640                V2X  dynamic_TF_carry   [1]         15.4875   532.688    -16.1421       32.2841      2.29392e-12                     NaN           16.1421
-32641            LEANHOG  dynamic_TF_carry   [1]            25.5  -975.491    -14.7059             0         -29.4118                     NaN          -14.7059
-32642            LEANHOG  dynamic_TF_carry  [-1]            25.5   156.863    -9.80393            -0         -19.6079                     NaN          -9.80393
-
-
-==========================================================================================================================================================================
-                                                                       Slippage (In base currency)                                                                        
-==========================================================================================================================================================================
-
-         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-order_id                                                                                                                                                                  
-32639                V2X  dynamic_TF_carry  [-1]               87.927    76.9362     -2.19818       -4.39635           -8.7927                      NaN           -6.59453
-32640                V2X  dynamic_TF_carry   [1]               87.927    72.5398     -2.19818        4.39635        3.1238e-13                      NaN            2.19818
-32641            LEANHOG  dynamic_TF_carry   [1]              324.979   -808.384     -12.1867              0          -24.3734                      NaN           -12.1867
-32642            LEANHOG  dynamic_TF_carry  [-1]              324.979    129.991     -8.12447             -0          -16.2489                      NaN           -8.12447
-
-delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry LEANHOG         -678.392980
-                 V2X              149.475972
-delay_cash Total Sum
-                  delay_cash
-strategy_name               
-dynamic_TF_carry -528.917009
-bid_ask_cash Sum
-                                  bid_ask_cash
-strategy_name    instrument_code              
-dynamic_TF_carry LEANHOG            -20.311167
-                 V2X                 -4.396352
-bid_ask_cash Total Sum
-                  bid_ask_cash
-strategy_name                 
-dynamic_TF_carry    -24.707519
-execution_cash Sum
-                                  execution_cash
-strategy_name    instrument_code                
-dynamic_TF_carry LEANHOG                     0.0
-                 V2X                         0.0
-execution_cash Total Sum
-                  execution_cash
-strategy_name                   
-dynamic_TF_carry             0.0
-versus_limit_cash Sum
-                                  versus_limit_cash
-strategy_name    instrument_code                   
-dynamic_TF_carry LEANHOG                 -40.622334
-                 V2X                      -8.792704
-versus_limit_cash Total Sum
-                  versus_limit_cash
-strategy_name                      
-dynamic_TF_carry         -49.415038
-versus_parent_limit_cash Sum
-                                  versus_parent_limit_cash
-strategy_name    instrument_code                          
-dynamic_TF_carry LEANHOG                                 0
-                 V2X                                     0
-versus_parent_limit_cash Total Sum
-                  versus_parent_limit_cash
-strategy_name                             
-dynamic_TF_carry                         0
-total_trading_cash Sum
-                                  total_trading_cash
-strategy_name    instrument_code                    
-dynamic_TF_carry LEANHOG                  -20.311167
-                 V2X                       -4.396352
-total_trading_cash Total Sum
-                  total_trading_cash
-strategy_name                       
-dynamic_TF_carry          -24.707519
+No trades
+No trades
+No trades
+No trades
+No trades
+No trades
 
 ********************************************************************************
                                  END OF REPORT                                  
