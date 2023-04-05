@@ -1,220 +1,135 @@
 
 ********************************************************************************
-Trades report report produced on 04/04/2023 22:51 from 03/04/2023 22:51 to 04/04/2023 22:51
+Trades report report produced on 05/04/2023 22:51 from 04/04/2023 22:51 to 05/04/2023 22:51
 ********************************************************************************
 
 
 
-================================================================================================================
-                                                 Broker orders                                                  
-================================================================================================================
+===============================================================================================
+                                         Broker orders                                         
+===============================================================================================
 
-         instrument_code          strategy_name         contract_date       fill_datetime     fill  filled_price
-order_id                                                                                                        
-32648                AUD       dynamic_TF_carry            [20230600] 2023-04-04 15:00:06      [1]      0.676250
-32651                AUD       dynamic_TF_carry            [20230600] 2023-04-04 15:00:10     [-1]      0.676000
-32649                CHF       dynamic_TF_carry            [20230600] 2023-04-04 15:00:08     [-1]      1.106750
-32652                CHF       dynamic_TF_carry            [20230600] 2023-04-04 15:00:12      [1]      1.107200
-32644           EU-BANKS       dynamic_TF_carry            [20230600] 2023-04-04 08:00:07      [1]    100.000000
-32645           EU-BANKS       dynamic_TF_carry            [20230600] 2023-04-04 08:00:08     [-1]     99.900000
-32643               IRON  _ROLL_PSEUDO_STRATEGY  [20230500, 20230600] 2023-04-04 01:05:09  [-1, 1]      1.300000
-32656            LEANHOG       dynamic_TF_carry            [20230600] 2023-04-04 15:30:06      [1]     91.700000
-32657            LEANHOG       dynamic_TF_carry            [20230600] 2023-04-04 15:30:07     [-1]     91.650000
-32646                MXP       dynamic_TF_carry            [20230600] 2023-04-04 15:00:04      [1]      0.054720
-32655                MXP       dynamic_TF_carry            [20230600] 2023-04-04 15:00:20     [-1]      0.054710
-32650            RUSSELL       dynamic_TF_carry            [20230600] 2023-04-04 15:00:09     [-1]   1803.700000
-32654            RUSSELL       dynamic_TF_carry            [20230600] 2023-04-04 15:00:16      [1]   1803.600000
-32647                US2       dynamic_TF_carry            [20230600] 2023-04-04 15:00:05      [1]    103.437500
-32653                US2       dynamic_TF_carry            [20230600] 2023-04-04 15:00:15     [-1]    103.425781
+         instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
+order_id                                                                                       
+32660            BITCOIN  dynamic_TF_carry    [20230400] 2023-04-05 15:00:07  [1]     28620.000
+32658         GOLD_micro  dynamic_TF_carry    [20230600] 2023-04-05 14:00:02  [1]      2048.700
+32661            LEANHOG  dynamic_TF_carry    [20230600] 2023-04-05 15:30:09  [1]        88.425
+32659            RUSSELL  dynamic_TF_carry    [20230600] 2023-04-05 15:00:04  [1]      1771.100
 
 
-================================================================================================================================================================
-                                                                             Delays                                                                             
-================================================================================================================================================================
+===========================================================================================================================================================
+                                                                          Delays                                                                           
+===========================================================================================================================================================
 
-         instrument_code          strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
-order_id                                                                                                                                                        
-32643               IRON  _ROLL_PSEUDO_STRATEGY       2023-03-31 04:00:00 2023-04-04 01:00:09.046 2023-04-04 01:05:09                 334809             299.954
-32644           EU-BANKS       dynamic_TF_carry       2023-03-30 00:00:00 2023-04-04 08:00:04.489 2023-04-04 08:00:07                 460804               2.511
-32645           EU-BANKS       dynamic_TF_carry       2023-03-31 00:00:00 2023-04-04 08:00:08.403 2023-04-04 08:00:08                 374408                 NaN
-32646                MXP       dynamic_TF_carry       2023-03-30 00:00:00 2023-04-04 15:00:03.299 2023-04-04 15:00:04                 486003               0.701
-32647                US2       dynamic_TF_carry       2023-03-30 00:00:00 2023-04-04 15:00:05.181 2023-04-04 15:00:05                 486005                 NaN
-32648                AUD       dynamic_TF_carry       2023-03-30 00:00:00 2023-04-04 15:00:06.426 2023-04-04 15:00:06                 486006                 NaN
-32649                CHF       dynamic_TF_carry       2023-03-30 00:00:00 2023-04-04 15:00:07.684 2023-04-04 15:00:08                 486008               0.316
-32650            RUSSELL       dynamic_TF_carry       2023-03-30 00:00:00 2023-04-04 15:00:09.187 2023-04-04 15:00:09                 486009                 NaN
-32651                AUD       dynamic_TF_carry       2023-03-31 00:00:00 2023-04-04 15:00:10.264 2023-04-04 15:00:10                 399610                 NaN
-32652                CHF       dynamic_TF_carry       2023-03-31 00:00:00 2023-04-04 15:00:11.527 2023-04-04 15:00:12                 399612               0.473
-32653                US2       dynamic_TF_carry       2023-03-31 00:00:00 2023-04-04 15:00:13.529 2023-04-04 15:00:15                 399614               1.471
-32654            RUSSELL       dynamic_TF_carry       2023-03-31 00:00:00 2023-04-04 15:00:16.185 2023-04-04 15:00:16                 399616                 NaN
-32655                MXP       dynamic_TF_carry       2023-03-31 00:00:00 2023-04-04 15:00:17.418 2023-04-04 15:00:20                 399617               2.582
-32656            LEANHOG       dynamic_TF_carry       2023-03-30 00:00:00 2023-04-04 15:30:01.926 2023-04-04 15:30:06                 487802               4.074
-32657            LEANHOG       dynamic_TF_carry       2023-03-31 00:00:00 2023-04-04 15:30:07.227 2023-04-04 15:30:07                 401407                 NaN
+         instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                                   
+32658         GOLD_micro  dynamic_TF_carry                2023-04-04 2023-04-05 14:00:02.255 2023-04-05 14:00:02                 136802                 NaN
+32659            RUSSELL  dynamic_TF_carry                2023-04-04 2023-04-05 15:00:04.545 2023-04-05 15:00:04                 140405                 NaN
+32660            BITCOIN  dynamic_TF_carry                2023-04-04 2023-04-05 15:00:05.897 2023-04-05 15:00:07                 140406               1.103
+32661            LEANHOG  dynamic_TF_carry                2023-04-04 2023-04-05 15:30:02.399 2023-04-05 15:30:09                 142202               6.601
 
 
-================================================================================================================================================================================================================================================
-                                                                                                            Slippage (ticks per lot)                                                                                                            
-================================================================================================================================================================================================================================================
+===============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                    
+===============================================================================================================================================================================================================================
 
-         instrument_code          strategy_name    trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay     bid_ask    execution versus_limit versus_parent_limit total_trading
-order_id                                                                                                                                                                                                                                        
-32643               IRON  _ROLL_PSEUDO_STRATEGY  [-1, 1]                   1.25               None     1.325        1.3          1.35        1.35          1.3     0.075      -0.025 -2.88658e-15        -0.05                 NaN        -0.025
-32644           EU-BANKS       dynamic_TF_carry      [1]                   99.2               None     99.95        100          99.9        99.9          100     -0.75       -0.05            0         -0.1                 NaN         -0.05
-32645           EU-BANKS       dynamic_TF_carry     [-1]                   98.9               None    99.975      99.95           100         100         99.9     1.075      -0.025        -0.05         -0.1                 NaN        -0.075
-32646                MXP       dynamic_TF_carry      [1]                0.05439               None   0.05473    0.05474       0.05472     0.05472      0.05472  -0.00034      -1e-05        2e-05  6.93889e-18                 NaN         1e-05
-32647                US2       dynamic_TF_carry      [1]                103.156               None   103.441    103.445       103.438     103.438      103.438 -0.285156 -0.00390625    0.0078125            0                 NaN    0.00390625
-32648                AUD       dynamic_TF_carry      [1]                0.67275               None    0.6763    0.67635       0.67625     0.67625      0.67625  -0.00355      -5e-05       0.0001            0                 NaN         5e-05
-32649                CHF       dynamic_TF_carry     [-1]                 1.1035               None   1.10685     1.1067         1.107       1.107      1.10675   0.00335    -0.00015        5e-05     -0.00025                 NaN       -0.0001
-32650            RUSSELL       dynamic_TF_carry     [-1]                 1777.3               None   1803.45     1803.2        1803.7      1803.7       1803.7     26.15       -0.25          0.5           -0                 NaN          0.25
-32651                AUD       dynamic_TF_carry     [-1]                0.67005               None   0.67605      0.676        0.6761      0.6761        0.676     0.006      -5e-05           -0      -0.0001                 NaN        -5e-05
-32652                CHF       dynamic_TF_carry      [1]                1.10225               None   1.10682     1.1069       1.10675     1.10675       1.1072 -0.004575    -7.5e-05      -0.0003     -0.00045                 NaN     -0.000375
-32653                US2       dynamic_TF_carry     [-1]                103.223               None   103.436    103.434       103.438     103.438      103.426  0.212891 -0.00195312  -0.00781275    -0.011719                 NaN   -0.00976587
-32654            RUSSELL       dynamic_TF_carry      [1]                 1807.1               None   1803.25     1803.5          1803        1803       1803.6      3.85       -0.25         -0.1         -0.6                 NaN         -0.35
-32655                MXP       dynamic_TF_carry     [-1]                0.05465               None    0.0547    0.05469       0.05471     0.05471      0.05471     5e-05      -1e-05        2e-05           -0                 NaN         1e-05
-32656            LEANHOG       dynamic_TF_carry      [1]                 91.575               None    91.725      91.75          91.7        91.7         91.7     -0.15      -0.025         0.05            0                 NaN         0.025
-32657            LEANHOG       dynamic_TF_carry     [-1]                  91.45               None    91.625       91.6         91.65       91.65        91.65     0.175      -0.025         0.05           -0                 NaN         0.025
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                       
+32658         GOLD_micro  dynamic_TF_carry   [1]                 2039.3               None   2048.75     2048.8        2048.7      2048.7       2048.7   -9.45   -0.05       0.1  4.54747e-13                 NaN          0.05
+32659            RUSSELL  dynamic_TF_carry   [1]                 1775.5               None    1771.4     1771.6        1771.2      1771.2       1771.1     4.1    -0.2       0.5          0.1                 NaN           0.3
+32660            BITCOIN  dynamic_TF_carry   [1]                  28285               None   28627.5      28635         28620       28620        28620  -342.5    -7.5        15            0                 NaN           7.5
+32661            LEANHOG  dynamic_TF_carry   [1]                  89.55               None   88.4375      88.45        88.425      88.425       88.425  1.1125 -0.0125     0.025            0                 NaN        0.0125
 
 
-=======================================================================================================================================================================
-                                                         Slippage (normalised by annual vol, BP of annual SR)                                                          
-=======================================================================================================================================================================
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
 
-         instrument_code          strategy_name    trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-order_id                                                                                                                                                               
-32643               IRON  _ROLL_PSEUDO_STRATEGY  [-1, 1]         45.6217   16.4395    -5.47984   -6.3272e-13         -10.9597                     NaN          -5.47984
-32644           EU-BANKS       dynamic_TF_carry      [1]         38.2139  -196.263    -13.0842             0         -26.1685                     NaN          -13.0842
-32645           EU-BANKS       dynamic_TF_carry     [-1]         38.2139   281.311    -6.54212      -13.0842         -26.1685                     NaN          -19.6263
-32646                MXP       dynamic_TF_carry      [1]      0.00682889  -497.885    -14.6437       29.2873      1.01611e-11                     NaN           14.6437
-32647                US2       dynamic_TF_carry      [1]         4.63833  -614.783    -8.42168       16.8434                0                     NaN           8.42168
-32648                AUD       dynamic_TF_carry      [1]       0.0825103  -430.249    -6.05985       12.1197                0                     NaN           6.05985
-32649                CHF       dynamic_TF_carry     [-1]        0.098574   339.846     -15.217       5.07233         -25.3617                     NaN          -10.1447
-32650            RUSSELL       dynamic_TF_carry     [-1]         449.032   582.364    -5.56753       11.1351               -0                     NaN           5.56753
-32651                AUD       dynamic_TF_carry     [-1]       0.0825103   727.182    -6.05985            -0         -12.1197                     NaN          -6.05985
-32652                CHF       dynamic_TF_carry      [1]        0.098574  -464.118     -7.6085       -30.434          -45.651                     NaN          -38.0425
-32653                US2       dynamic_TF_carry     [-1]         4.63833   458.982    -4.21084      -16.8439         -25.2656                     NaN          -21.0547
-32654            RUSSELL       dynamic_TF_carry      [1]         449.032     85.74    -5.56753      -2.22701         -13.3621                     NaN          -7.79455
-32655                MXP       dynamic_TF_carry     [-1]      0.00682889   73.2184    -14.6437       29.2873               -0                     NaN           14.6437
-32656            LEANHOG       dynamic_TF_carry      [1]         24.2259  -61.9171    -10.3195        20.639                0                     NaN           10.3195
-32657            LEANHOG       dynamic_TF_carry     [-1]         24.2259   72.2366    -10.3195        20.639               -0                     NaN           10.3195
+         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                       
+32658         GOLD_micro  dynamic_TF_carry   [1]         337.609   -279.91      -1.481       2.96201      1.34697e-11                     NaN             1.481
+32659            RUSSELL  dynamic_TF_carry   [1]         441.222   92.9237    -4.53286       11.3322          2.26643                     NaN            6.7993
+32660            BITCOIN  dynamic_TF_carry   [1]         18970.7  -180.542    -3.95348       7.90695                0                     NaN           3.95348
+32661            LEANHOG  dynamic_TF_carry   [1]         23.8099   467.242    -5.24991       10.4998                0                     NaN           5.24991
 
 
-==================================================================================================================================================================================
-                                                                           Slippage (In base currency)                                                                            
-==================================================================================================================================================================================
+==========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                        
+==========================================================================================================================================================================
 
-         instrument_code          strategy_name    trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-order_id                                                                                                                                                                          
-32643               IRON  _ROLL_PSEUDO_STRATEGY  [-1, 1]              80.6289    6.04717     -2.01572   -2.32742e-13          -4.03145                      NaN           -2.01572
-32644           EU-BANKS       dynamic_TF_carry      [1]              43.8944   -32.9208     -2.19472              0          -4.38944                      NaN           -2.19472
-32645           EU-BANKS       dynamic_TF_carry     [-1]              43.8944    47.1865     -1.09736       -2.19472          -4.38944                      NaN           -3.29208
-32646                MXP       dynamic_TF_carry      [1]               403145   -137.069     -4.03145        8.06289       2.79738e-12                      NaN            4.03145
-32647                US2       dynamic_TF_carry      [1]              1612.58   -459.837     -6.29913        12.5983                 0                      NaN            6.29913
-32648                AUD       dynamic_TF_carry      [1]              80628.9   -286.233     -4.03145        8.06289                 0                      NaN            4.03145
-32649                CHF       dynamic_TF_carry     [-1]               100786    337.634     -15.1179        5.03931          -25.1965                      NaN           -10.0786
-32650            RUSSELL       dynamic_TF_carry     [-1]              4.03145    105.422     -1.00786        2.01572                -0                      NaN            1.00786
-32651                AUD       dynamic_TF_carry     [-1]              80628.9    483.773     -4.03145             -0          -8.06289                      NaN           -4.03145
-32652                CHF       dynamic_TF_carry      [1]               100786   -461.097     -7.55896       -30.2358          -45.3538                      NaN           -37.7948
-32653                US2       dynamic_TF_carry     [-1]              1612.58    343.303     -3.14957       -12.5987          -18.8978                      NaN           -15.7482
-32654            RUSSELL       dynamic_TF_carry      [1]              4.03145    15.5211     -1.00786      -0.403145          -2.41887                      NaN           -1.41101
-32655                MXP       dynamic_TF_carry     [-1]               403145    20.1572     -4.03145        8.06289                -0                      NaN            4.03145
-32656            LEANHOG       dynamic_TF_carry      [1]              322.516   -48.3773     -8.06289        16.1258                 0                      NaN            8.06289
-32657            LEANHOG       dynamic_TF_carry     [-1]              322.516    56.4402     -8.06289        16.1258                -0                      NaN            8.06289
+         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                  
+32658         GOLD_micro  dynamic_TF_carry   [1]              8.00416   -75.6393    -0.400208       0.800416       3.63987e-12                      NaN           0.400208
+32659            RUSSELL  dynamic_TF_carry   [1]              4.00208    16.4085    -0.800416        2.00104          0.400208                      NaN            1.20062
+32660            BITCOIN  dynamic_TF_carry   [1]            0.0800416   -27.4143    -0.600312        1.20062                 0                      NaN           0.600312
+32661            LEANHOG  dynamic_TF_carry   [1]              320.166    356.185     -4.00208        8.00416                 0                      NaN            4.00208
 
 delay_cash Sum
-                                       delay_cash
-strategy_name         instrument_code            
-_ROLL_PSEUDO_STRATEGY IRON               6.047168
-dynamic_TF_carry      AUD              197.540818
-                      CHF             -123.463011
-                      EU-BANKS          14.265672
-                      LEANHOG            8.062891
-                      MXP             -116.911913
-                      RUSSELL          120.943358
-                      US2             -116.533965
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry BITCOIN          -27.414255
+                 GOLD_micro       -75.639332
+                 LEANHOG          356.185216
+                 RUSSELL           16.408532
 delay_cash Total Sum
-                       delay_cash
-strategy_name                    
-_ROLL_PSEUDO_STRATEGY    6.047168
-dynamic_TF_carry       -16.096150
+                  delay_cash
+strategy_name               
+dynamic_TF_carry  269.540161
 bid_ask_cash Sum
-                                       bid_ask_cash
-strategy_name         instrument_code              
-_ROLL_PSEUDO_STRATEGY IRON                -2.015723
-dynamic_TF_carry      AUD                 -8.062891
-                      CHF                -22.676880
-                      EU-BANKS            -3.292078
-                      LEANHOG            -16.125781
-                      MXP                 -8.062891
-                      RUSSELL             -2.015723
-                      US2                 -9.448700
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry BITCOIN             -0.600312
+                 GOLD_micro          -0.400208
+                 LEANHOG             -4.002081
+                 RUSSELL             -0.800416
 bid_ask_cash Total Sum
-                       bid_ask_cash
-strategy_name                      
-_ROLL_PSEUDO_STRATEGY     -2.015723
-dynamic_TF_carry         -69.684943
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry     -5.803018
 execution_cash Sum
-                                       execution_cash
-strategy_name         instrument_code                
-_ROLL_PSEUDO_STRATEGY IRON              -2.327418e-13
-dynamic_TF_carry      AUD                8.062891e+00
-                      CHF               -2.519653e+01
-                      EU-BANKS          -2.194719e+00
-                      LEANHOG            3.225156e+01
-                      MXP                1.612578e+01
-                      RUSSELL            1.612578e+00
-                      US2               -4.031445e-04
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry BITCOIN                1.200624
+                 GOLD_micro             0.800416
+                 LEANHOG                8.004162
+                 RUSSELL                2.001041
 execution_cash Total Sum
-                       execution_cash
-strategy_name                        
-_ROLL_PSEUDO_STRATEGY   -2.327418e-13
-dynamic_TF_carry         3.066116e+01
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry       12.006243
 versus_limit_cash Sum
-                                       versus_limit_cash
-strategy_name         instrument_code                   
-_ROLL_PSEUDO_STRATEGY IRON                 -4.031445e+00
-dynamic_TF_carry      AUD                  -8.062891e+00
-                      CHF                  -7.055029e+01
-                      EU-BANKS             -8.778875e+00
-                      LEANHOG               0.000000e+00
-                      MXP                   2.797377e-12
-                      RUSSELL              -2.418867e+00
-                      US2                  -1.889780e+01
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry BITCOIN               0.000000e+00
+                 GOLD_micro            3.639872e-12
+                 LEANHOG               0.000000e+00
+                 RUSSELL               4.002081e-01
 versus_limit_cash Total Sum
-                       versus_limit_cash
-strategy_name                           
-_ROLL_PSEUDO_STRATEGY          -4.031445
-dynamic_TF_carry             -108.708728
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry           0.400208
 versus_parent_limit_cash Sum
-                                       versus_parent_limit_cash
-strategy_name         instrument_code                          
-_ROLL_PSEUDO_STRATEGY IRON                                    0
-dynamic_TF_carry      AUD                                     0
-                      CHF                                     0
-                      EU-BANKS                                0
-                      LEANHOG                                 0
-                      MXP                                     0
-                      RUSSELL                                 0
-                      US2                                     0
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry BITCOIN                                 0
+                 GOLD_micro                              0
+                 LEANHOG                                 0
+                 RUSSELL                                 0
 versus_parent_limit_cash Total Sum
-                       versus_parent_limit_cash
-strategy_name                                  
-_ROLL_PSEUDO_STRATEGY                         0
-dynamic_TF_carry                              0
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
 total_trading_cash Sum
-                                       total_trading_cash
-strategy_name         instrument_code                    
-_ROLL_PSEUDO_STRATEGY IRON                      -2.015723
-dynamic_TF_carry      AUD                        0.000000
-                      CHF                      -47.873413
-                      EU-BANKS                  -5.486797
-                      LEANHOG                   16.125781
-                      MXP                        8.062891
-                      RUSSELL                   -0.403145
-                      US2                       -9.449103
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry BITCOIN                    0.600312
+                 GOLD_micro                 0.400208
+                 LEANHOG                    4.002081
+                 RUSSELL                    1.200624
 total_trading_cash Total Sum
-                       total_trading_cash
-strategy_name                            
-_ROLL_PSEUDO_STRATEGY           -2.015723
-dynamic_TF_carry               -39.023786
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry            6.203226
 
 ********************************************************************************
                                  END OF REPORT                                  
