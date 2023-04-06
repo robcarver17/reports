@@ -1,135 +1,15 @@
 
 ********************************************************************************
-Trades report report produced on 05/04/2023 22:51 from 04/04/2023 22:51 to 05/04/2023 22:51
+Trades report report produced on 06/04/2023 22:51 from 05/04/2023 22:51 to 06/04/2023 22:51
 ********************************************************************************
 
 
-
-===============================================================================================
-                                         Broker orders                                         
-===============================================================================================
-
-         instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
-order_id                                                                                       
-32660            BITCOIN  dynamic_TF_carry    [20230400] 2023-04-05 15:00:07  [1]     28620.000
-32658         GOLD_micro  dynamic_TF_carry    [20230600] 2023-04-05 14:00:02  [1]      2048.700
-32661            LEANHOG  dynamic_TF_carry    [20230600] 2023-04-05 15:30:09  [1]        88.425
-32659            RUSSELL  dynamic_TF_carry    [20230600] 2023-04-05 15:00:04  [1]      1771.100
-
-
-===========================================================================================================================================================
-                                                                          Delays                                                                           
-===========================================================================================================================================================
-
-         instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
-order_id                                                                                                                                                   
-32658         GOLD_micro  dynamic_TF_carry                2023-04-04 2023-04-05 14:00:02.255 2023-04-05 14:00:02                 136802                 NaN
-32659            RUSSELL  dynamic_TF_carry                2023-04-04 2023-04-05 15:00:04.545 2023-04-05 15:00:04                 140405                 NaN
-32660            BITCOIN  dynamic_TF_carry                2023-04-04 2023-04-05 15:00:05.897 2023-04-05 15:00:07                 140406               1.103
-32661            LEANHOG  dynamic_TF_carry                2023-04-04 2023-04-05 15:30:02.399 2023-04-05 15:30:09                 142202               6.601
-
-
-===============================================================================================================================================================================================================================
-                                                                                                   Slippage (ticks per lot)                                                                                                    
-===============================================================================================================================================================================================================================
-
-         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
-order_id                                                                                                                                                                                                                       
-32658         GOLD_micro  dynamic_TF_carry   [1]                 2039.3               None   2048.75     2048.8        2048.7      2048.7       2048.7   -9.45   -0.05       0.1  4.54747e-13                 NaN          0.05
-32659            RUSSELL  dynamic_TF_carry   [1]                 1775.5               None    1771.4     1771.6        1771.2      1771.2       1771.1     4.1    -0.2       0.5          0.1                 NaN           0.3
-32660            BITCOIN  dynamic_TF_carry   [1]                  28285               None   28627.5      28635         28620       28620        28620  -342.5    -7.5        15            0                 NaN           7.5
-32661            LEANHOG  dynamic_TF_carry   [1]                  89.55               None   88.4375      88.45        88.425      88.425       88.425  1.1125 -0.0125     0.025            0                 NaN        0.0125
-
-
-===============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
-===============================================================================================================================================================
-
-         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-order_id                                                                                                                                                       
-32658         GOLD_micro  dynamic_TF_carry   [1]         337.609   -279.91      -1.481       2.96201      1.34697e-11                     NaN             1.481
-32659            RUSSELL  dynamic_TF_carry   [1]         441.222   92.9237    -4.53286       11.3322          2.26643                     NaN            6.7993
-32660            BITCOIN  dynamic_TF_carry   [1]         18970.7  -180.542    -3.95348       7.90695                0                     NaN           3.95348
-32661            LEANHOG  dynamic_TF_carry   [1]         23.8099   467.242    -5.24991       10.4998                0                     NaN           5.24991
-
-
-==========================================================================================================================================================================
-                                                                       Slippage (In base currency)                                                                        
-==========================================================================================================================================================================
-
-         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-order_id                                                                                                                                                                  
-32658         GOLD_micro  dynamic_TF_carry   [1]              8.00416   -75.6393    -0.400208       0.800416       3.63987e-12                      NaN           0.400208
-32659            RUSSELL  dynamic_TF_carry   [1]              4.00208    16.4085    -0.800416        2.00104          0.400208                      NaN            1.20062
-32660            BITCOIN  dynamic_TF_carry   [1]            0.0800416   -27.4143    -0.600312        1.20062                 0                      NaN           0.600312
-32661            LEANHOG  dynamic_TF_carry   [1]              320.166    356.185     -4.00208        8.00416                 0                      NaN            4.00208
-
-delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry BITCOIN          -27.414255
-                 GOLD_micro       -75.639332
-                 LEANHOG          356.185216
-                 RUSSELL           16.408532
-delay_cash Total Sum
-                  delay_cash
-strategy_name               
-dynamic_TF_carry  269.540161
-bid_ask_cash Sum
-                                  bid_ask_cash
-strategy_name    instrument_code              
-dynamic_TF_carry BITCOIN             -0.600312
-                 GOLD_micro          -0.400208
-                 LEANHOG             -4.002081
-                 RUSSELL             -0.800416
-bid_ask_cash Total Sum
-                  bid_ask_cash
-strategy_name                 
-dynamic_TF_carry     -5.803018
-execution_cash Sum
-                                  execution_cash
-strategy_name    instrument_code                
-dynamic_TF_carry BITCOIN                1.200624
-                 GOLD_micro             0.800416
-                 LEANHOG                8.004162
-                 RUSSELL                2.001041
-execution_cash Total Sum
-                  execution_cash
-strategy_name                   
-dynamic_TF_carry       12.006243
-versus_limit_cash Sum
-                                  versus_limit_cash
-strategy_name    instrument_code                   
-dynamic_TF_carry BITCOIN               0.000000e+00
-                 GOLD_micro            3.639872e-12
-                 LEANHOG               0.000000e+00
-                 RUSSELL               4.002081e-01
-versus_limit_cash Total Sum
-                  versus_limit_cash
-strategy_name                      
-dynamic_TF_carry           0.400208
-versus_parent_limit_cash Sum
-                                  versus_parent_limit_cash
-strategy_name    instrument_code                          
-dynamic_TF_carry BITCOIN                                 0
-                 GOLD_micro                              0
-                 LEANHOG                                 0
-                 RUSSELL                                 0
-versus_parent_limit_cash Total Sum
-                  versus_parent_limit_cash
-strategy_name                             
-dynamic_TF_carry                         0
-total_trading_cash Sum
-                                  total_trading_cash
-strategy_name    instrument_code                    
-dynamic_TF_carry BITCOIN                    0.600312
-                 GOLD_micro                 0.400208
-                 LEANHOG                    4.002081
-                 RUSSELL                    1.200624
-total_trading_cash Total Sum
-                  total_trading_cash
-strategy_name                       
-dynamic_TF_carry            6.203226
+No trades
+No trades
+No trades
+No trades
+No trades
+No trades
 
 ********************************************************************************
                                  END OF REPORT                                  
