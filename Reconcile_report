@@ -1,6 +1,6 @@
 
 ********************************************************************************
-         Reconcile report report produced on 2023-03-23 13:29:39.066916         
+         Reconcile report report produced on 2023-04-12 22:50:59.183152         
 ********************************************************************************
 
 
@@ -8,46 +8,38 @@ Breaks Optimal vs actual []
  Breaks Instrument vs Contract []
  Breaks Broker vs Contract []
 
-===============================================================
-                        Positions in DB                        
-===============================================================
+==============================================================
+                       Positions in DB                        
+==============================================================
 
-   instrument_code contract_date          expiry_date  position
-0              AUD      20230616  2023-06-16 00:00:00      -1.0
-1              BRE      20230331  2023-03-31 00:00:00       1.0
-2              DAX      20230616  2023-06-16 00:00:00       1.0
-3          EU-AUTO      20230616  2023-06-16 00:00:00       1.0
-4      GAS_US_mini      20230425  2023-04-25 00:00:00      -1.0
-5       GOLD_micro      20230426  2023-04-26 00:00:00      -1.0
-6             IRON      20230531  2023-05-31 00:00:00       1.0
-7       KOSPI_mini      20230413  2023-04-13 00:00:00      -1.0
-8          LEANHOG      20230614  2023-06-14 00:00:00      -2.0
-9          RUSSELL      20230616  2023-06-16 00:00:00      -1.0
-10          SILVER      20230526  2023-05-26 00:00:00      -1.0
-11         SOYMEAL      20230714  2023-07-14 00:00:00       1.0
-12            US20      20230621  2023-06-21 00:00:00      -1.0
-13             V2X      20230621  2023-06-21 00:00:00      -4.0
+  instrument_code contract_date          expiry_date  position
+0             AUD      20230616  2023-06-16 00:00:00      -1.0
+1         BITCOIN      20230428  2023-04-28 00:00:00       1.0
+2         EU-AUTO      20230616  2023-06-16 00:00:00       1.0
+3     GAS_US_mini      20230425  2023-04-25 00:00:00      -1.0
+4            IRON      20230630  2023-06-30 00:00:00       1.0
+5      KOSPI_mini      20230413  2023-04-13 00:00:00      -1.0
+6         LEANHOG      20230614  2023-06-14 00:00:00      -1.0
+7          SOYOIL      20230714  2023-07-14 00:00:00      -1.0
+8             US2      20230630  2023-06-30 00:00:00      -1.0
+9             V2X      20230621  2023-06-21 00:00:00      -4.0
 
 
-===============================================================
-                       Positions broker                        
-===============================================================
+==============================================================
+                       Positions broker                       
+==============================================================
 
-   instrument_code contract_date          expiry_date  position
-7              AUD      20230616  2023-06-16 00:00:00      -1.0
-2              BRE      20230331  2023-03-31 00:00:00       1.0
-0              DAX      20230616  2023-06-16 00:00:00       1.0
-8          EU-AUTO      20230616  2023-06-16 00:00:00       1.0
-4      GAS_US_mini      20230425  2023-04-25 00:00:00      -1.0
-13      GOLD_micro      20230426  2023-04-26 00:00:00      -1.0
-11            IRON      20230531  2023-05-31 00:00:00       1.0
-9       KOSPI_mini      20230413  2023-04-13 00:00:00      -1.0
-6          LEANHOG      20230614  2023-06-14 00:00:00      -2.0
-10         RUSSELL      20230616  2023-06-16 00:00:00      -1.0
-3           SILVER      20230526  2023-05-26 00:00:00      -1.0
-12         SOYMEAL      20230714  2023-07-14 00:00:00       1.0
-1             US20      20230621  2023-06-21 00:00:00      -1.0
-5              V2X      20230621  2023-06-21 00:00:00      -4.0
+  instrument_code contract_date          expiry_date  position
+3             AUD      20230616  2023-06-16 00:00:00      -1.0
+5         BITCOIN      20230428  2023-04-28 00:00:00       1.0
+9         EU-AUTO      20230616  2023-06-16 00:00:00       1.0
+8     GAS_US_mini      20230425  2023-04-25 00:00:00      -1.0
+2            IRON      20230630  2023-06-30 00:00:00       1.0
+1      KOSPI_mini      20230413  2023-04-13 00:00:00      -1.0
+6         LEANHOG      20230614  2023-06-14 00:00:00      -1.0
+7          SOYOIL      20230714  2023-07-14 00:00:00      -1.0
+4             US2      20230630  2023-06-30 00:00:00      -1.0
+0             V2X      20230621  2023-06-21 00:00:00      -4.0
 
 
 ===============
@@ -77,11 +69,11 @@ dynamic_TF_carry AEX                       0              0   False
 dynamic_TF_carry ALUMINIUM                 0              0   False
 dynamic_TF_carry AUD                      -1             -1   False
 dynamic_TF_carry BBCOMM                    0              0   False
-dynamic_TF_carry BITCOIN                   0              0   False
+dynamic_TF_carry BITCOIN                   1              1   False
 dynamic_TF_carry BOBL                      0              0   False
 dynamic_TF_carry BONO                      0              0   False
 dynamic_TF_carry BOVESPA                   0              0   False
-dynamic_TF_carry BRE                       1              1   False
+dynamic_TF_carry BRE                       0              0   False
 dynamic_TF_carry BRENT-LAST                0              0   False
 dynamic_TF_carry BTP                       0              0   False
 dynamic_TF_carry BTP3                      0              0   False
@@ -99,7 +91,7 @@ dynamic_TF_carry CORN                      0              0   False
 dynamic_TF_carry COTTON                    0              0   False
 dynamic_TF_carry CRUDE_W_mini              0              0   False
 dynamic_TF_carry CZK                       0              0   False
-dynamic_TF_carry DAX                       1              1   False
+dynamic_TF_carry DAX                       0              0   False
 dynamic_TF_carry DJSTX-SMALL               0              0   False
 dynamic_TF_carry DOW                       0              0   False
 dynamic_TF_carry EDOLLAR                   0              0   False
@@ -141,7 +133,7 @@ dynamic_TF_carry GASOILINE                 0              0   False
 dynamic_TF_carry GAS_US_mini              -1             -1   False
 dynamic_TF_carry GBP                       0              0   False
 dynamic_TF_carry GBPEUR                    0              0   False
-dynamic_TF_carry GOLD_micro               -1             -1   False
+dynamic_TF_carry GOLD_micro                0              0   False
 dynamic_TF_carry HEATOIL                   0              0   False
 dynamic_TF_carry INR                       0              0   False
 dynamic_TF_carry IRON                      1              1   False
@@ -155,7 +147,7 @@ dynamic_TF_carry KOSPI_mini               -1             -1   False
 dynamic_TF_carry KR10                      0              0   False
 dynamic_TF_carry KR3                       0              0   False
 dynamic_TF_carry KRWUSD                    0              0   False
-dynamic_TF_carry LEANHOG                  -2             -2   False
+dynamic_TF_carry LEANHOG                  -1             -1   False
 dynamic_TF_carry LIVECOW                   0              0   False
 dynamic_TF_carry LUMBER                    0              0   False
 dynamic_TF_carry MILK                      0              0   False
@@ -180,16 +172,16 @@ dynamic_TF_carry R1000                     0              0   False
 dynamic_TF_carry REDWHEAT                  0              0   False
 dynamic_TF_carry RICE                      0              0   False
 dynamic_TF_carry RUR                       0              0   False
-dynamic_TF_carry RUSSELL                  -1             -1   False
+dynamic_TF_carry RUSSELL                   0              0   False
 dynamic_TF_carry SEK                       0              0   False
 dynamic_TF_carry SGD                       0              0   False
 dynamic_TF_carry SHATZ                     0              0   False
-dynamic_TF_carry SILVER                   -1             -1   False
+dynamic_TF_carry SILVER                    0              0   False
 dynamic_TF_carry SMI                       0              0   False
 dynamic_TF_carry SMI-MID                   0              0   False
 dynamic_TF_carry SOYBEAN                   0              0   False
-dynamic_TF_carry SOYMEAL                   1              1   False
-dynamic_TF_carry SOYOIL                    0              0   False
+dynamic_TF_carry SOYMEAL                   0              0   False
+dynamic_TF_carry SOYOIL                   -1             -1   False
 dynamic_TF_carry SP400                     0              0   False
 dynamic_TF_carry SP500_micro               0              0   False
 dynamic_TF_carry TOPIX                     0              0   False
@@ -206,8 +198,8 @@ dynamic_TF_carry US-TECH                   0              0   False
 dynamic_TF_carry US-UTILS                  0              0   False
 dynamic_TF_carry US10                      0              0   False
 dynamic_TF_carry US10U                     0              0   False
-dynamic_TF_carry US2                       0              0   False
-dynamic_TF_carry US20                     -1             -1   False
+dynamic_TF_carry US2                      -1             -1   False
+dynamic_TF_carry US20                      0              0   False
 dynamic_TF_carry US3                       0              0   False
 dynamic_TF_carry US30                      0              0   False
 dynamic_TF_carry US5                       0              0   False
