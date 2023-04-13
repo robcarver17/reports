@@ -1,12 +1,12 @@
 
 ********************************************************************************
-         Reconcile report report produced on 2023-04-12 22:50:59.183152         
+         Reconcile report report produced on 2023-04-13 22:50:36.750322         
 ********************************************************************************
 
 
-Breaks Optimal vs actual []
+Breaks Optimal vs actual ['dynamic_TF_carry BRE', 'dynamic_TF_carry CAC', 'dynamic_TF_carry CNH', 'dynamic_TF_carry EU-AUTO', 'dynamic_TF_carry KOSDAQ', 'dynamic_TF_carry KOSPI_mini', 'dynamic_TF_carry SILVER']
  Breaks Instrument vs Contract []
- Breaks Broker vs Contract []
+ Breaks Broker vs Contract [KOSPI_mini/20230413]
 
 ==============================================================
                        Positions in DB                        
@@ -31,15 +31,14 @@ Breaks Optimal vs actual []
 
   instrument_code contract_date          expiry_date  position
 3             AUD      20230616  2023-06-16 00:00:00      -1.0
-5         BITCOIN      20230428  2023-04-28 00:00:00       1.0
-9         EU-AUTO      20230616  2023-06-16 00:00:00       1.0
+2         BITCOIN      20230428  2023-04-28 00:00:00       1.0
+4         EU-AUTO      20230616  2023-06-16 00:00:00       1.0
 8     GAS_US_mini      20230425  2023-04-25 00:00:00      -1.0
-2            IRON      20230630  2023-06-30 00:00:00       1.0
-1      KOSPI_mini      20230413  2023-04-13 00:00:00      -1.0
-6         LEANHOG      20230614  2023-06-14 00:00:00      -1.0
-7          SOYOIL      20230714  2023-07-14 00:00:00      -1.0
-4             US2      20230630  2023-06-30 00:00:00      -1.0
-0             V2X      20230621  2023-06-21 00:00:00      -4.0
+5            IRON      20230630  2023-06-30 00:00:00       1.0
+1         LEANHOG      20230614  2023-06-14 00:00:00      -1.0
+6          SOYOIL      20230714  2023-07-14 00:00:00      -1.0
+0             US2      20230630  2023-06-30 00:00:00      -1.0
+7             V2X      20230621  2023-06-21 00:00:00      -4.0
 
 
 ===============
@@ -73,19 +72,19 @@ dynamic_TF_carry BITCOIN                   1              1   False
 dynamic_TF_carry BOBL                      0              0   False
 dynamic_TF_carry BONO                      0              0   False
 dynamic_TF_carry BOVESPA                   0              0   False
-dynamic_TF_carry BRE                       0              0   False
+dynamic_TF_carry BRE                       0              1    True
 dynamic_TF_carry BRENT-LAST                0              0   False
 dynamic_TF_carry BTP                       0              0   False
 dynamic_TF_carry BTP3                      0              0   False
 dynamic_TF_carry BUND                      0              0   False
 dynamic_TF_carry BUTTER                    0              0   False
 dynamic_TF_carry BUXL                      0              0   False
-dynamic_TF_carry CAC                       0              0   False
+dynamic_TF_carry CAC                       0              1    True
 dynamic_TF_carry CAD                       0              0   False
 dynamic_TF_carry CH10                      0              0   False
 dynamic_TF_carry CHEESE                    0              0   False
 dynamic_TF_carry CHF                       0              0   False
-dynamic_TF_carry CNH                       0              0   False
+dynamic_TF_carry CNH                       0              1    True
 dynamic_TF_carry COPPER                    0              0   False
 dynamic_TF_carry CORN                      0              0   False
 dynamic_TF_carry COTTON                    0              0   False
@@ -97,7 +96,7 @@ dynamic_TF_carry DOW                       0              0   False
 dynamic_TF_carry EDOLLAR                   0              0   False
 dynamic_TF_carry ETHANOL                   0              0   False
 dynamic_TF_carry ETHEREUM                  0              0   False
-dynamic_TF_carry EU-AUTO                   1              1   False
+dynamic_TF_carry EU-AUTO                   1              0    True
 dynamic_TF_carry EU-BANKS                  0              0   False
 dynamic_TF_carry EU-BASIC                  0              0   False
 dynamic_TF_carry EU-CHEM                   0              0   False
@@ -141,9 +140,9 @@ dynamic_TF_carry IRS                       0              0   False
 dynamic_TF_carry JGB                       0              0   False
 dynamic_TF_carry JP-REALESTATE             0              0   False
 dynamic_TF_carry JPY                       0              0   False
-dynamic_TF_carry KOSDAQ                    0              0   False
+dynamic_TF_carry KOSDAQ                    0              1    True
 dynamic_TF_carry KOSPI                     0              0   False
-dynamic_TF_carry KOSPI_mini               -1             -1   False
+dynamic_TF_carry KOSPI_mini               -1              0    True
 dynamic_TF_carry KR10                      0              0   False
 dynamic_TF_carry KR3                       0              0   False
 dynamic_TF_carry KRWUSD                    0              0   False
@@ -176,7 +175,7 @@ dynamic_TF_carry RUSSELL                   0              0   False
 dynamic_TF_carry SEK                       0              0   False
 dynamic_TF_carry SGD                       0              0   False
 dynamic_TF_carry SHATZ                     0              0   False
-dynamic_TF_carry SILVER                    0              0   False
+dynamic_TF_carry SILVER                    0              1    True
 dynamic_TF_carry SMI                       0              0   False
 dynamic_TF_carry SMI-MID                   0              0   False
 dynamic_TF_carry SOYBEAN                   0              0   False
