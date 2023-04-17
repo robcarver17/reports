@@ -1,50 +1,35 @@
 
 ********************************************************************************
-Trades report report produced on 14/04/2023 22:51 from 13/04/2023 22:51 to 14/04/2023 22:51
+Trades report report produced on 17/04/2023 22:51 from 16/04/2023 22:51 to 17/04/2023 22:51
 ********************************************************************************
 
 
 
-================================================================================================
-                                         Broker orders                                          
-================================================================================================
+===================================================================================================
+                                           Broker orders                                           
+===================================================================================================
 
-         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-order_id                                                                                        
-32668                BRE  dynamic_TF_carry    [20230600] 2023-04-14 15:00:08   [1]       0.20065
-32666                CAC  dynamic_TF_carry    [20230400] 2023-04-14 08:00:07   [1]    7504.50000
-32664                CNH  dynamic_TF_carry    [20230500] 2023-04-14 01:00:30   [1]       6.85540
-32665            EU-AUTO  dynamic_TF_carry    [20230600] 2023-04-14 08:00:06  [-1]     596.60000
-32663             KOSDAQ  dynamic_TF_carry    [20230600] 2023-04-14 01:00:09   [1]    1369.50000
-32667             SILVER  dynamic_TF_carry    [20230700] 2023-04-14 14:00:05   [1]      26.15500
+         instrument_code     strategy_name contract_date           fill_datetime fill  filled_price
+order_id                                                                                           
+32669         KOSPI_mini  dynamic_TF_carry    [20230400] 2023-04-17 10:52:38.076  [1]        333.09
 
 
-===========================================================================================================================================================
-                                                                          Delays                                                                           
-===========================================================================================================================================================
+=======================================================================================================================================================
+                                                                        Delays                                                                         
+=======================================================================================================================================================
 
-         instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
-order_id                                                                                                                                                   
-32663             KOSDAQ  dynamic_TF_carry                2023-04-13 2023-04-14 01:00:07.859 2023-04-14 01:00:09                90007.9               1.141
-32664                CNH  dynamic_TF_carry                2023-04-13 2023-04-14 01:00:12.686 2023-04-14 01:00:30                90012.7              17.314
-32665            EU-AUTO  dynamic_TF_carry                2023-04-13 2023-04-14 08:00:03.296 2023-04-14 08:00:06                 115203               2.704
-32666                CAC  dynamic_TF_carry                2023-04-13 2023-04-14 08:00:07.444 2023-04-14 08:00:07                 115207                 NaN
-32667             SILVER  dynamic_TF_carry                2023-04-13 2023-04-14 14:00:04.694 2023-04-14 14:00:05                 136805               0.306
-32668                BRE  dynamic_TF_carry                2023-04-13 2023-04-14 15:00:05.078 2023-04-14 15:00:08                 140405               2.922
+         instrument_code     strategy_name parent_reference_datetime submit_datetime           fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                               
+32669         KOSPI_mini  dynamic_TF_carry                      None            None 2023-04-17 10:52:38.076                    NaN                 NaN
 
 
-===============================================================================================================================================================================================================================
-                                                                                                   Slippage (ticks per lot)                                                                                                    
-===============================================================================================================================================================================================================================
+=============================================================================================================================================================================================================================
+                                                                                                  Slippage (ticks per lot)                                                                                                   
+=============================================================================================================================================================================================================================
 
-         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
-order_id                                                                                                                                                                                                                       
-32663             KOSDAQ  dynamic_TF_carry   [1]                 1349.8               None    1369.7     1369.9        1369.5      1369.5       1369.5   -19.9    -0.2       0.4            0                 NaN           0.2
-32664                CNH  dynamic_TF_carry   [1]                 6.8581               None    6.8535     6.8545        6.8525      6.8525       6.8554  0.0046  -0.001   -0.0009      -0.0029                 NaN       -0.0019
-32665            EU-AUTO  dynamic_TF_carry  [-1]                    595               None    598.25      596.8         599.7       599.7        596.6    3.25   -1.45      -0.2         -3.1                 NaN         -1.65
-32666                CAC  dynamic_TF_carry   [1]                 7479.5               None      7504     7504.5        7503.5      7503.5       7504.5   -24.5    -0.5         0           -1                 NaN          -0.5
-32667             SILVER  dynamic_TF_carry   [1]                 26.135               None   26.1475     26.155         26.14       26.14       26.155 -0.0125 -0.0075         0       -0.015                 NaN       -0.0075
-32668                BRE  dynamic_TF_carry   [1]                0.20175               None   0.20055    0.20065       0.20045     0.20045      0.20065  0.0012 -0.0001         0      -0.0002                 NaN       -0.0001
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                     
+32669         KOSPI_mini  dynamic_TF_carry   [1]                   None               None      None       None          None        None       333.09   NaN     NaN       NaN          NaN                 NaN           NaN
 
 
 ===============================================================================================================================================================
@@ -53,12 +38,7 @@ order_id
 
          instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
 order_id                                                                                                                                                       
-32663             KOSDAQ  dynamic_TF_carry   [1]         305.544  -651.298    -6.54571       13.0914                0                     NaN           6.54571
-32664                CNH  dynamic_TF_carry   [1]        0.376803    122.08    -26.5391      -23.8852         -76.9634                     NaN          -50.4243
-32665            EU-AUTO  dynamic_TF_carry  [-1]         143.707   226.155      -100.9      -13.9172         -215.717                     NaN          -114.817
-32666                CAC  dynamic_TF_carry   [1]         1144.75   -214.02    -4.36776             0         -8.73552                     NaN          -4.36776
-32667             SILVER  dynamic_TF_carry   [1]         6.64183  -18.8201    -11.2921             0         -22.5841                     NaN          -11.2921
-32668                BRE  dynamic_TF_carry   [1]       0.0276001    434.78    -36.2317             0         -72.4634                     NaN          -36.2317
+32669         KOSPI_mini  dynamic_TF_carry   [1]         53.0283       NaN         NaN           NaN              NaN                     NaN               NaN
 
 
 ==========================================================================================================================================================================
@@ -67,74 +47,44 @@ order_id
 
          instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
 order_id                                                                                                                                                                  
-32663             KOSDAQ  dynamic_TF_carry   [1]               6.1425   -122.236      -1.2285          2.457                 0                      NaN             1.2285
-32664                CNH  dynamic_TF_carry   [1]              11660.9      53.64     -11.6609       -10.4948          -33.8165                      NaN           -22.1556
-32665            EU-AUTO  dynamic_TF_carry  [-1]              44.1569     143.51     -64.0276       -8.83139          -136.886                      NaN           -72.8589
-32666                CAC  dynamic_TF_carry   [1]              8.83139   -216.369     -4.41569              0          -8.83139                      NaN           -4.41569
-32667             SILVER  dynamic_TF_carry   [1]              797.416    -9.9677     -5.98062              0          -11.9612                      NaN           -5.98062
-32668                BRE  dynamic_TF_carry   [1]              79741.6      95.69     -7.97416              0          -15.9483                      NaN           -7.97416
+32669         KOSPI_mini  dynamic_TF_carry   [1]               30.723        NaN          NaN            NaN               NaN                      NaN                NaN
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry BRE               95.689965
-                 CAC             -216.368965
-                 CNH               53.639964
-                 EU-AUTO          143.510028
-                 KOSDAQ          -122.235716
-                 SILVER            -9.967705
+dynamic_TF_carry KOSPI_mini                0
 delay_cash Total Sum
                   delay_cash
 strategy_name               
-dynamic_TF_carry  -55.732429
+dynamic_TF_carry           0
 bid_ask_cash Sum
                                   bid_ask_cash
 strategy_name    instrument_code              
-dynamic_TF_carry BRE                 -7.974164
-                 CAC                 -4.415693
-                 CNH                -11.660862
-                 EU-AUTO            -64.027551
-                 KOSDAQ              -1.228500
-                 SILVER              -5.980623
+dynamic_TF_carry KOSPI_mini                  0
 bid_ask_cash Total Sum
                   bid_ask_cash
 strategy_name                 
-dynamic_TF_carry    -95.287392
+dynamic_TF_carry             0
 execution_cash Sum
                                   execution_cash
 strategy_name    instrument_code                
-dynamic_TF_carry BRE                    0.000000
-                 CAC                    0.000000
-                 CNH                  -10.494776
-                 EU-AUTO               -8.831386
-                 KOSDAQ                 2.456999
-                 SILVER                 0.000000
+dynamic_TF_carry KOSPI_mini                    0
 execution_cash Total Sum
                   execution_cash
 strategy_name                   
-dynamic_TF_carry      -16.869163
+dynamic_TF_carry               0
 versus_limit_cash Sum
                                   versus_limit_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry BRE                     -15.948327
-                 CAC                      -8.831386
-                 CNH                     -33.816499
-                 EU-AUTO                -136.886488
-                 KOSDAQ                    0.000000
-                 SILVER                  -11.961246
+dynamic_TF_carry KOSPI_mini                       0
 versus_limit_cash Total Sum
                   versus_limit_cash
 strategy_name                      
-dynamic_TF_carry        -207.443946
+dynamic_TF_carry                  0
 versus_parent_limit_cash Sum
                                   versus_parent_limit_cash
 strategy_name    instrument_code                          
-dynamic_TF_carry BRE                                     0
-                 CAC                                     0
-                 CNH                                     0
-                 EU-AUTO                                 0
-                 KOSDAQ                                  0
-                 SILVER                                  0
+dynamic_TF_carry KOSPI_mini                              0
 versus_parent_limit_cash Total Sum
                   versus_parent_limit_cash
 strategy_name                             
@@ -142,16 +92,11 @@ dynamic_TF_carry                         0
 total_trading_cash Sum
                                   total_trading_cash
 strategy_name    instrument_code                    
-dynamic_TF_carry BRE                       -7.974164
-                 CAC                       -4.415693
-                 CNH                      -22.155637
-                 EU-AUTO                  -72.858937
-                 KOSDAQ                     1.228500
-                 SILVER                    -5.980623
+dynamic_TF_carry KOSPI_mini                        0
 total_trading_cash Total Sum
                   total_trading_cash
 strategy_name                       
-dynamic_TF_carry         -112.156554
+dynamic_TF_carry                   0
 
 ********************************************************************************
                                  END OF REPORT                                  
