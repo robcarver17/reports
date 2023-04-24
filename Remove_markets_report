@@ -1,11 +1,11 @@
 
 ********************************************************************************
-      Removed markets report report produced on 2023-04-21 23:05:05.158493      
+      Removed markets report report produced on 2023-04-24 23:05:19.088393      
 ********************************************************************************
 
 
 List of markets which should be marked as untradeable due to risk, liquidity or cost issues
-Following should be removed from trading (add to config.bad_markets) [0.300000 threshold]: ['WHEAT_mini'] 
+Following should be removed from trading (add to config.bad_markets) [0.300000 threshold]: ['GBPCHF', 'WHEAT_mini', 'DJSTX-SMALL'] 
 
 
 
@@ -21,7 +21,7 @@ Markets not enough risk volume (Volume in $m ann. risk per day < 1.50): ['AEX_mi
 
 
 
-Markets not enough contract volume (Volume in contracts per day < 100): ['AEX_mini', 'AUDJPY', 'BB3M', 'BOVESPA', 'BUTTER', 'CH10', 'CHFJPY', 'CLP', 'COTTON', 'CZK', 'ETHANOL', 'EU-CHEM', 'EU-DJ-TECH', 'EU-HOUSE', 'EURAUD', 'EURCAD', 'EURIBOR', 'EUROSTX-LARGE', 'EUROSTX200-LARGE', 'GASOILINE_micro', 'GBPJPY', 'GICS', 'HOUSE-US', 'IRS', 'JGB-mini', 'KRWUSD', 'MILKDRY', 'MILKWET', 'NOK', 'OMX', 'PLN', 'RUR', 'SEK', 'SGD_mini', 'SGX', 'STEEL', 'SWISSLEAD', 'TWD', 'TWD-mini', 'US-PROPERTY', 'USIRS5', 'VNKI', 'WHEY']
+Markets not enough contract volume (Volume in contracts per day < 100): ['AEX_mini', 'AUDJPY', 'BB3M', 'BOVESPA', 'BUTTER', 'CH10', 'CHFJPY', 'CLP', 'COPPER-mini', 'COTTON', 'CZK', 'ETHANOL', 'EU-CHEM', 'EU-DJ-TECH', 'EU-HOUSE', 'EURAUD', 'EURCAD', 'EURIBOR', 'EUROSTX-LARGE', 'EUROSTX200-LARGE', 'GASOILINE_micro', 'GBPCHF', 'GBPJPY', 'GICS', 'HOUSE-US', 'IRS', 'JGB-mini', 'KRWUSD', 'MILKDRY', 'MILKWET', 'NOK', 'OMX', 'PLN', 'RUR', 'SEK', 'SGD_mini', 'SGX', 'STEEL', 'SWISSLEAD', 'TWD', 'TWD-mini', 'US-PROPERTY', 'USIRS5', 'VNKI', 'WHEY']
 
 
 
@@ -55,6 +55,7 @@ exclude_instrument_lists:
     - CORN_mini 
     - COTTON 
     - CZK 
+    - DJSTX-SMALL 
     - EDOLLAR 
     - EPRA-EUROPE 
     - ETHANOL 
@@ -81,6 +82,7 @@ exclude_instrument_lists:
     - FTSEINDO 
     - FTSEVIET 
     - GASOILINE_micro 
+    - GBPCHF 
     - GBPJPY 
     - GBP_micro 
     - GICS 
