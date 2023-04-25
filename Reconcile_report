@@ -1,10 +1,10 @@
 
 ********************************************************************************
-         Reconcile report report produced on 2023-04-24 22:50:47.293097         
+         Reconcile report report produced on 2023-04-25 22:50:57.974424         
 ********************************************************************************
 
 
-Breaks Optimal vs actual ['dynamic_TF_carry EU-BANKS']
+Breaks Optimal vs actual []
  Breaks Instrument vs Contract []
  Breaks Broker vs Contract []
 
@@ -18,13 +18,14 @@ Breaks Optimal vs actual ['dynamic_TF_carry EU-BANKS']
 2              BRE      20230531  2023-05-31 00:00:00       1.0
 3              CAC      20230519  2023-05-19 00:00:00       1.0
 4              CNH      20230515  2023-05-15 00:00:00       1.0
-5             IRON      20230630  2023-06-30 00:00:00       1.0
-6           KOSDAQ      20230608  2023-06-08 00:00:00       1.0
-7          LEANHOG      20230614  2023-06-14 00:00:00      -1.0
-8           SILVER      20230727  2023-07-27 00:00:00       1.0
-9           SOYOIL      20230714  2023-07-14 00:00:00      -1.0
-10             US2      20230630  2023-06-30 00:00:00      -1.0
-11             V2X      20230621  2023-06-21 00:00:00      -4.0
+5         EU-BANKS      20230616  2023-06-16 00:00:00       1.0
+6             IRON      20230630  2023-06-30 00:00:00       1.0
+7           KOSDAQ      20230608  2023-06-08 00:00:00       1.0
+8          LEANHOG      20230614  2023-06-14 00:00:00      -1.0
+9           SILVER      20230727  2023-07-27 00:00:00       1.0
+10          SOYOIL      20230714  2023-07-14 00:00:00      -1.0
+11             US2      20230630  2023-06-30 00:00:00      -1.0
+12             V2X      20230621  2023-06-21 00:00:00      -4.0
 
 
 ===============================================================
@@ -32,36 +33,37 @@ Breaks Optimal vs actual ['dynamic_TF_carry EU-BANKS']
 ===============================================================
 
    instrument_code contract_date          expiry_date  position
-9              AUD      20230616  2023-06-16 00:00:00      -1.0
+11             AUD      20230616  2023-06-16 00:00:00      -1.0
 2          BITCOIN      20230428  2023-04-28 00:00:00       1.0
-10             BRE      20230531  2023-05-31 00:00:00       1.0
-5              CAC      20230519  2023-05-19 00:00:00       1.0
-7              CNH      20230515  2023-05-15 00:00:00       1.0
-0             IRON      20230630  2023-06-30 00:00:00       1.0
-4           KOSDAQ      20230608  2023-06-08 00:00:00       1.0
-3          LEANHOG      20230614  2023-06-14 00:00:00      -1.0
-11          SILVER      20230727  2023-07-27 00:00:00       1.0
-1           SOYOIL      20230714  2023-07-14 00:00:00      -1.0
-6              US2      20230630  2023-06-30 00:00:00      -1.0
-8              V2X      20230621  2023-06-21 00:00:00      -4.0
+7              BRE      20230531  2023-05-31 00:00:00       1.0
+0              CAC      20230519  2023-05-19 00:00:00       1.0
+8              CNH      20230515  2023-05-15 00:00:00       1.0
+12        EU-BANKS      20230616  2023-06-16 00:00:00       1.0
+3             IRON      20230630  2023-06-30 00:00:00       1.0
+9           KOSDAQ      20230608  2023-06-08 00:00:00       1.0
+10         LEANHOG      20230614  2023-06-14 00:00:00      -1.0
+4           SILVER      20230727  2023-07-27 00:00:00       1.0
+6           SOYOIL      20230714  2023-07-14 00:00:00      -1.0
+1              US2      20230630  2023-06-30 00:00:00      -1.0
+5              V2X      20230621  2023-06-21 00:00:00      -4.0
 
 
-===============
- Trades in DB  
-===============
+======================================================================================
+                                     Trades in DB                                     
+======================================================================================
 
-Empty DataFrame
-Columns: [strategy_name, contract_date, fill_datetime, fill, filled_price]
-Index: []
+                    strategy_name contract_date       fill_datetime fill  filled_price
+instrument_code                                                                       
+EU-BANKS         dynamic_TF_carry    [20230600] 2023-04-25 08:00:04  [1]        104.05
 
 
-==================
-Trades from broker
-==================
+==================================================================================
+                                Trades from broker                                
+==================================================================================
 
-Empty DataFrame
-Columns: [strategy_name, contract_date, fill_datetime, fill, filled_price]
-Index: []
+                strategy_name contract_date       fill_datetime fill  filled_price
+instrument_code                                                                   
+EU-BANKS                         [20230616] 2023-04-25 08:00:04  [1]        104.05
 
 
 ===================================================================
@@ -102,7 +104,7 @@ dynamic_TF_carry EDOLLAR                   0              0   False
 dynamic_TF_carry ETHANOL                   0              0   False
 dynamic_TF_carry ETHEREUM                  0              0   False
 dynamic_TF_carry EU-AUTO                   0              0   False
-dynamic_TF_carry EU-BANKS                  0              1    True
+dynamic_TF_carry EU-BANKS                  1              1   False
 dynamic_TF_carry EU-BASIC                  0              0   False
 dynamic_TF_carry EU-CHEM                   0              0   False
 dynamic_TF_carry EU-CONSTRUCTION           0              0   False

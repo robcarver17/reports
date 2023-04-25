@@ -1,15 +1,102 @@
 
 ********************************************************************************
-Trades report report produced on 24/04/2023 22:51 from 23/04/2023 22:51 to 24/04/2023 22:51
+Trades report report produced on 25/04/2023 22:51 from 24/04/2023 22:51 to 25/04/2023 22:51
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+===============================================================================================
+                                         Broker orders                                         
+===============================================================================================
+
+         instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
+order_id                                                                                       
+32672           EU-BANKS  dynamic_TF_carry    [20230600] 2023-04-25 08:00:04  [1]        104.05
+
+
+===========================================================================================================================================================
+                                                                          Delays                                                                           
+===========================================================================================================================================================
+
+         instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                                   
+32672           EU-BANKS  dynamic_TF_carry                2023-04-24 2023-04-25 08:00:03.811 2023-04-25 08:00:04                 115204               0.189
+
+
+==============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                   
+==============================================================================================================================================================================================================================
+
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                      
+32672           EU-BANKS  dynamic_TF_carry   [1]                  105.6               None   104.075      104.1        104.05      104.05       104.05  1.525  -0.025      0.05  1.42109e-14                 NaN         0.025
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                       
+32672           EU-BANKS  dynamic_TF_carry   [1]         33.5826   454.104    -7.44433       14.8887      4.23161e-12                     NaN           7.44433
+
+
+==========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                        
+==========================================================================================================================================================================
+
+         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                  
+32672           EU-BANKS  dynamic_TF_carry   [1]              44.2637    67.5022     -1.10659        2.21319       6.29026e-13                      NaN            1.10659
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry EU-BANKS          67.502203
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry   67.502203
+bid_ask_cash Sum
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry EU-BANKS            -1.106593
+bid_ask_cash Total Sum
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry     -1.106593
+execution_cash Sum
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry EU-BANKS               2.213187
+execution_cash Total Sum
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry        2.213187
+versus_limit_cash Sum
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry EU-BANKS              6.290256e-13
+versus_limit_cash Total Sum
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry       6.290256e-13
+versus_parent_limit_cash Sum
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry EU-BANKS                                0
+versus_parent_limit_cash Total Sum
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
+total_trading_cash Sum
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry EU-BANKS                   1.106593
+total_trading_cash Total Sum
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry            1.106593
 
 ********************************************************************************
                                  END OF REPORT                                  
