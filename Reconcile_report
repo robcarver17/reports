@@ -1,10 +1,10 @@
 
 ********************************************************************************
-         Reconcile report report produced on 2023-04-26 22:50:48.907617         
+         Reconcile report report produced on 2023-04-27 22:50:50.707982         
 ********************************************************************************
 
 
-Breaks Optimal vs actual []
+Breaks Optimal vs actual ['dynamic_TF_carry GAS_US_mini', 'dynamic_TF_carry IRON', 'dynamic_TF_carry KOSDAQ', 'dynamic_TF_carry MSCISING', 'dynamic_TF_carry REDWHEAT']
  Breaks Instrument vs Contract []
  Breaks Broker vs Contract []
 
@@ -33,19 +33,19 @@ Breaks Optimal vs actual []
 ===============================================================
 
    instrument_code contract_date          expiry_date  position
-10             AUD      20230616  2023-06-16 00:00:00      -1.0
-7          BITCOIN      20230428  2023-04-28 00:00:00       1.0
-11             BRE      20230531  2023-05-31 00:00:00       1.0
-6              CAC      20230519  2023-05-19 00:00:00       1.0
+12             AUD      20230616  2023-06-16 00:00:00      -1.0
+6          BITCOIN      20230428  2023-04-28 00:00:00       1.0
+1              BRE      20230531  2023-05-31 00:00:00       1.0
+5              CAC      20230519  2023-05-19 00:00:00       1.0
 9              CNH      20230515  2023-05-15 00:00:00       1.0
-1         EU-BANKS      20230616  2023-06-16 00:00:00       1.0
-3             IRON      20230630  2023-06-30 00:00:00       1.0
-4           KOSDAQ      20230608  2023-06-08 00:00:00       1.0
-0          LEANHOG      20230614  2023-06-14 00:00:00      -1.0
-12          SILVER      20230727  2023-07-27 00:00:00       1.0
-2           SOYOIL      20230714  2023-07-14 00:00:00      -1.0
-8              US2      20230630  2023-06-30 00:00:00      -1.0
-5              V2X      20230621  2023-06-21 00:00:00      -4.0
+11        EU-BANKS      20230616  2023-06-16 00:00:00       1.0
+4             IRON      20230630  2023-06-30 00:00:00       1.0
+7           KOSDAQ      20230608  2023-06-08 00:00:00       1.0
+8          LEANHOG      20230614  2023-06-14 00:00:00      -1.0
+3           SILVER      20230727  2023-07-27 00:00:00       1.0
+0           SOYOIL      20230714  2023-07-14 00:00:00      -1.0
+10             US2      20230630  2023-06-30 00:00:00      -1.0
+2              V2X      20230621  2023-06-21 00:00:00      -4.0
 
 
 ===============
@@ -136,18 +136,18 @@ dynamic_TF_carry FTSEINDO                  0              0   False
 dynamic_TF_carry FTSETAIWAN                0              0   False
 dynamic_TF_carry GAS-LAST                  0              0   False
 dynamic_TF_carry GASOILINE                 0              0   False
-dynamic_TF_carry GAS_US_mini               0              0   False
+dynamic_TF_carry GAS_US_mini               0             -1    True
 dynamic_TF_carry GBP                       0              0   False
 dynamic_TF_carry GBPEUR                    0              0   False
 dynamic_TF_carry GOLD_micro                0              0   False
 dynamic_TF_carry HEATOIL                   0              0   False
 dynamic_TF_carry INR                       0              0   False
-dynamic_TF_carry IRON                      1              1   False
+dynamic_TF_carry IRON                      1              0    True
 dynamic_TF_carry IRS                       0              0   False
 dynamic_TF_carry JGB                       0              0   False
 dynamic_TF_carry JP-REALESTATE             0              0   False
 dynamic_TF_carry JPY                       0              0   False
-dynamic_TF_carry KOSDAQ                    1              1   False
+dynamic_TF_carry KOSDAQ                    1              2    True
 dynamic_TF_carry KOSPI                     0              0   False
 dynamic_TF_carry KOSPI_mini                0              0   False
 dynamic_TF_carry KR10                      0              0   False
@@ -160,7 +160,7 @@ dynamic_TF_carry MILK                      0              0   False
 dynamic_TF_carry MILKDRY                   0              0   False
 dynamic_TF_carry MILKWET                   0              0   False
 dynamic_TF_carry MSCIASIA                  0              0   False
-dynamic_TF_carry MSCISING                  0              0   False
+dynamic_TF_carry MSCISING                  0              1    True
 dynamic_TF_carry MUMMY                     0              0   False
 dynamic_TF_carry MXP                       0              0   False
 dynamic_TF_carry NASDAQ_micro              0              0   False
@@ -175,7 +175,7 @@ dynamic_TF_carry OMX                       0              0   False
 dynamic_TF_carry PALLAD                    0              0   False
 dynamic_TF_carry PLAT                      0              0   False
 dynamic_TF_carry R1000                     0              0   False
-dynamic_TF_carry REDWHEAT                  0              0   False
+dynamic_TF_carry REDWHEAT                  0             -1    True
 dynamic_TF_carry RICE                      0              0   False
 dynamic_TF_carry RUR                       0              0   False
 dynamic_TF_carry RUSSELL                   0              0   False
