@@ -1,10 +1,10 @@
 
 ********************************************************************************
-         Reconcile report report produced on 2023-04-27 22:50:50.707982         
+         Reconcile report report produced on 2023-04-28 22:50:54.409463         
 ********************************************************************************
 
 
-Breaks Optimal vs actual ['dynamic_TF_carry GAS_US_mini', 'dynamic_TF_carry IRON', 'dynamic_TF_carry KOSDAQ', 'dynamic_TF_carry MSCISING', 'dynamic_TF_carry REDWHEAT']
+Breaks Optimal vs actual []
  Breaks Instrument vs Contract []
  Breaks Broker vs Contract []
 
@@ -19,13 +19,14 @@ Breaks Optimal vs actual ['dynamic_TF_carry GAS_US_mini', 'dynamic_TF_carry IRON
 3              CAC      20230519  2023-05-19 00:00:00       1.0
 4              CNH      20230515  2023-05-15 00:00:00       1.0
 5         EU-BANKS      20230616  2023-06-16 00:00:00       1.0
-6             IRON      20230630  2023-06-30 00:00:00       1.0
-7           KOSDAQ      20230608  2023-06-08 00:00:00       1.0
+6      GAS_US_mini      20230525  2023-05-25 00:00:00      -1.0
+7           KOSDAQ      20230608  2023-06-08 00:00:00       2.0
 8          LEANHOG      20230614  2023-06-14 00:00:00      -1.0
-9           SILVER      20230727  2023-07-27 00:00:00       1.0
-10          SOYOIL      20230714  2023-07-14 00:00:00      -1.0
-11             US2      20230630  2023-06-30 00:00:00      -1.0
-12             V2X      20230621  2023-06-21 00:00:00      -4.0
+9         REDWHEAT      20230714  2023-07-14 00:00:00      -1.0
+10          SILVER      20230727  2023-07-27 00:00:00       1.0
+11          SOYOIL      20230714  2023-07-14 00:00:00      -1.0
+12             US2      20230630  2023-06-30 00:00:00      -1.0
+13             V2X      20230621  2023-06-21 00:00:00      -4.0
 
 
 ===============================================================
@@ -33,37 +34,44 @@ Breaks Optimal vs actual ['dynamic_TF_carry GAS_US_mini', 'dynamic_TF_carry IRON
 ===============================================================
 
    instrument_code contract_date          expiry_date  position
-12             AUD      20230616  2023-06-16 00:00:00      -1.0
+10             AUD      20230616  2023-06-16 00:00:00      -1.0
 6          BITCOIN      20230428  2023-04-28 00:00:00       1.0
-1              BRE      20230531  2023-05-31 00:00:00       1.0
+2              BRE      20230531  2023-05-31 00:00:00       1.0
 5              CAC      20230519  2023-05-19 00:00:00       1.0
-9              CNH      20230515  2023-05-15 00:00:00       1.0
-11        EU-BANKS      20230616  2023-06-16 00:00:00       1.0
-4             IRON      20230630  2023-06-30 00:00:00       1.0
-7           KOSDAQ      20230608  2023-06-08 00:00:00       1.0
-8          LEANHOG      20230614  2023-06-14 00:00:00      -1.0
+7              CNH      20230515  2023-05-15 00:00:00       1.0
+0         EU-BANKS      20230616  2023-06-16 00:00:00       1.0
+9      GAS_US_mini      20230525  2023-05-25 00:00:00      -1.0
+4           KOSDAQ      20230608  2023-06-08 00:00:00       2.0
+11         LEANHOG      20230614  2023-06-14 00:00:00      -1.0
+1         REDWHEAT      20230714  2023-07-14 00:00:00      -1.0
 3           SILVER      20230727  2023-07-27 00:00:00       1.0
-0           SOYOIL      20230714  2023-07-14 00:00:00      -1.0
-10             US2      20230630  2023-06-30 00:00:00      -1.0
-2              V2X      20230621  2023-06-21 00:00:00      -4.0
+8           SOYOIL      20230714  2023-07-14 00:00:00      -1.0
+12             US2      20230630  2023-06-30 00:00:00      -1.0
+13             V2X      20230621  2023-06-21 00:00:00      -4.0
 
 
-===============
- Trades in DB  
-===============
+=======================================================================================
+                                     Trades in DB                                      
+=======================================================================================
 
-Empty DataFrame
-Columns: [strategy_name, contract_date, fill_datetime, fill, filled_price]
-Index: []
+                    strategy_name contract_date       fill_datetime  fill  filled_price
+instrument_code                                                                        
+KOSDAQ           dynamic_TF_carry    [20230600] 2023-04-28 01:00:08   [1]       1313.00
+IRON             dynamic_TF_carry    [20230600] 2023-04-28 01:05:10  [-1]        101.55
+GAS_US_mini      dynamic_TF_carry    [20230600] 2023-04-28 14:00:04  [-1]          2.47
+REDWHEAT         dynamic_TF_carry    [20230700] 2023-04-28 15:30:04  [-1]        766.00
 
 
-==================
-Trades from broker
-==================
+===================================================================================
+                                Trades from broker                                 
+===================================================================================
 
-Empty DataFrame
-Columns: [strategy_name, contract_date, fill_datetime, fill, filled_price]
-Index: []
+                strategy_name contract_date       fill_datetime  fill  filled_price
+instrument_code                                                                    
+KOSDAQ                           [20230608] 2023-04-28 01:00:08   [1]       1313.00
+IRON                             [20230630] 2023-04-28 01:05:10  [-1]        101.55
+REDWHEAT                         [20230714] 2023-04-28 15:30:04  [-1]        766.00
+GAS_US_mini                      [20230525] 2023-04-28 14:00:04  [-1]          2.47
 
 
 ===================================================================
@@ -136,18 +144,18 @@ dynamic_TF_carry FTSEINDO                  0              0   False
 dynamic_TF_carry FTSETAIWAN                0              0   False
 dynamic_TF_carry GAS-LAST                  0              0   False
 dynamic_TF_carry GASOILINE                 0              0   False
-dynamic_TF_carry GAS_US_mini               0             -1    True
+dynamic_TF_carry GAS_US_mini              -1             -1   False
 dynamic_TF_carry GBP                       0              0   False
 dynamic_TF_carry GBPEUR                    0              0   False
 dynamic_TF_carry GOLD_micro                0              0   False
 dynamic_TF_carry HEATOIL                   0              0   False
 dynamic_TF_carry INR                       0              0   False
-dynamic_TF_carry IRON                      1              0    True
+dynamic_TF_carry IRON                      0              0   False
 dynamic_TF_carry IRS                       0              0   False
 dynamic_TF_carry JGB                       0              0   False
 dynamic_TF_carry JP-REALESTATE             0              0   False
 dynamic_TF_carry JPY                       0              0   False
-dynamic_TF_carry KOSDAQ                    1              2    True
+dynamic_TF_carry KOSDAQ                    2              2   False
 dynamic_TF_carry KOSPI                     0              0   False
 dynamic_TF_carry KOSPI_mini                0              0   False
 dynamic_TF_carry KR10                      0              0   False
@@ -160,7 +168,7 @@ dynamic_TF_carry MILK                      0              0   False
 dynamic_TF_carry MILKDRY                   0              0   False
 dynamic_TF_carry MILKWET                   0              0   False
 dynamic_TF_carry MSCIASIA                  0              0   False
-dynamic_TF_carry MSCISING                  0              1    True
+dynamic_TF_carry MSCISING                  0              0   False
 dynamic_TF_carry MUMMY                     0              0   False
 dynamic_TF_carry MXP                       0              0   False
 dynamic_TF_carry NASDAQ_micro              0              0   False
@@ -175,7 +183,7 @@ dynamic_TF_carry OMX                       0              0   False
 dynamic_TF_carry PALLAD                    0              0   False
 dynamic_TF_carry PLAT                      0              0   False
 dynamic_TF_carry R1000                     0              0   False
-dynamic_TF_carry REDWHEAT                  0             -1    True
+dynamic_TF_carry REDWHEAT                 -1             -1   False
 dynamic_TF_carry RICE                      0              0   False
 dynamic_TF_carry RUR                       0              0   False
 dynamic_TF_carry RUSSELL                   0              0   False

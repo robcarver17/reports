@@ -1,15 +1,135 @@
 
 ********************************************************************************
-Trades report report produced on 27/04/2023 22:51 from 26/04/2023 22:51 to 27/04/2023 22:51
+Trades report report produced on 28/04/2023 22:51 from 27/04/2023 22:51 to 28/04/2023 22:51
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+================================================================================================
+                                         Broker orders                                          
+================================================================================================
+
+         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+order_id                                                                                        
+32675        GAS_US_mini  dynamic_TF_carry    [20230600] 2023-04-28 14:00:04  [-1]          2.47
+32674               IRON  dynamic_TF_carry    [20230600] 2023-04-28 01:05:10  [-1]        101.55
+32673             KOSDAQ  dynamic_TF_carry    [20230600] 2023-04-28 01:00:08   [1]       1313.00
+32676           REDWHEAT  dynamic_TF_carry    [20230700] 2023-04-28 15:30:04  [-1]        766.00
+
+
+===========================================================================================================================================================
+                                                                          Delays                                                                           
+===========================================================================================================================================================
+
+         instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                                   
+32673             KOSDAQ  dynamic_TF_carry                2023-04-27 2023-04-28 01:00:06.847 2023-04-28 01:00:08                90006.8               1.153
+32674               IRON  dynamic_TF_carry                2023-04-27 2023-04-28 01:00:10.331 2023-04-28 01:05:10                90010.3             299.669
+32675        GAS_US_mini  dynamic_TF_carry                2023-04-27 2023-04-28 14:00:02.594 2023-04-28 14:00:04                 136803               1.406
+32676           REDWHEAT  dynamic_TF_carry                2023-04-27 2023-04-28 15:30:02.083 2023-04-28 15:30:04                 142202               1.917
+
+
+===============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                    
+===============================================================================================================================================================================================================================
+
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                       
+32673             KOSDAQ  dynamic_TF_carry   [1]                 1271.3               None    1313.2     1313.4          1313        1313         1313   -41.9    -0.2       0.4            0                 NaN           0.2
+32674               IRON  dynamic_TF_carry  [-1]                  102.2               None   102.025     101.55         102.5       102.5       101.55  -0.175  -0.475        -0        -0.95                 NaN        -0.475
+32675        GAS_US_mini  dynamic_TF_carry  [-1]                   2.36               None    2.4675      2.465          2.47        2.47         2.47  0.1075 -0.0025     0.005           -0                 NaN        0.0025
+32676           REDWHEAT  dynamic_TF_carry  [-1]                    768               None   766.125        766        766.25      766.25          766  -1.875  -0.125        -0        -0.25                 NaN        -0.125
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                       
+32673             KOSDAQ  dynamic_TF_carry   [1]         354.836  -1180.83    -5.63641       11.2728                0                     NaN           5.63641
+32674               IRON  dynamic_TF_carry  [-1]         47.5127  -36.8322    -99.9732            -0         -199.946                     NaN          -99.9732
+32675        GAS_US_mini  dynamic_TF_carry  [-1]         2.29458   468.495    -10.8952       21.7905               -0                     NaN           10.8952
+32676           REDWHEAT  dynamic_TF_carry  [-1]         245.441   -76.393    -5.09286            -0         -10.1857                     NaN          -5.09286
+
+
+==========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                        
+==========================================================================================================================================================================
+
+         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                  
+32673             KOSDAQ  dynamic_TF_carry   [1]              5.99326   -251.118     -1.19865        2.39731                 0                      NaN            1.19865
+32674               IRON  dynamic_TF_carry  [-1]              80.1989   -14.0348     -38.0945             -0          -76.1889                      NaN           -38.0945
+32675        GAS_US_mini  dynamic_TF_carry  [-1]              2004.97    215.535     -5.01243        10.0249                -0                      NaN            5.01243
+32676           REDWHEAT  dynamic_TF_carry  [-1]              40.0994   -75.1865     -5.01243             -0          -10.0249                      NaN           -5.01243
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry GAS_US_mini      215.534526
+                 IRON             -14.034806
+                 KOSDAQ          -251.117732
+                 REDWHEAT         -75.186462
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -124.804475
+bid_ask_cash Sum
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry GAS_US_mini         -5.012431
+                 IRON               -38.094474
+                 KOSDAQ              -1.198653
+                 REDWHEAT            -5.012431
+bid_ask_cash Total Sum
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry    -49.317989
+execution_cash Sum
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry GAS_US_mini           10.024862
+                 IRON                  -0.000000
+                 KOSDAQ                 2.397305
+                 REDWHEAT              -0.000000
+execution_cash Total Sum
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry       12.422167
+versus_limit_cash Sum
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry GAS_US_mini              -0.000000
+                 IRON                    -76.188949
+                 KOSDAQ                    0.000000
+                 REDWHEAT                -10.024862
+versus_limit_cash Total Sum
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry          -86.21381
+versus_parent_limit_cash Sum
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry GAS_US_mini                             0
+                 IRON                                    0
+                 KOSDAQ                                  0
+                 REDWHEAT                                0
+versus_parent_limit_cash Total Sum
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
+total_trading_cash Sum
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry GAS_US_mini                5.012431
+                 IRON                     -38.094474
+                 KOSDAQ                     1.198653
+                 REDWHEAT                  -5.012431
+total_trading_cash Total Sum
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry          -36.895822
 
 ********************************************************************************
                                  END OF REPORT                                  
