@@ -1,15 +1,190 @@
 
 ********************************************************************************
-Trades report report produced on 16/05/2023 22:51 from 15/05/2023 22:51 to 16/05/2023 22:51
+Trades report report produced on 17/05/2023 22:51 from 16/05/2023 22:51 to 17/05/2023 22:51
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+================================================================================================
+                                         Broker orders                                          
+================================================================================================
+
+         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+order_id                                                                                        
+32695                CNH  dynamic_TF_carry    [20230600] 2023-05-17 01:00:09   [1]        6.9811
+32703               CORN  dynamic_TF_carry    [20231200] 2023-05-17 15:30:17  [-1]      498.7500
+32697             KOSDAQ  dynamic_TF_carry    [20230600] 2023-05-17 01:00:14  [-1]     1226.5000
+32698              NIFTY  dynamic_TF_carry    [20230500] 2023-05-17 02:00:04   [1]    18305.0000
+32696             NIKKEI  dynamic_TF_carry    [20230600] 2023-05-17 01:00:12   [1]    29925.0000
+32702           REDWHEAT  dynamic_TF_carry    [20230900] 2023-05-17 15:30:12   [1]      885.2500
+32700            RUSSELL  dynamic_TF_carry    [20230600] 2023-05-17 15:00:03   [1]     1740.6000
+32699             SILVER  dynamic_TF_carry    [20230700] 2023-05-17 14:00:02  [-1]       23.8950
+32701              WHEAT  dynamic_TF_carry    [20231200] 2023-05-17 15:30:09  [-1]      664.0000
+
+
+===========================================================================================================================================================
+                                                                          Delays                                                                           
+===========================================================================================================================================================
+
+         instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                                   
+32695                CNH  dynamic_TF_carry                2023-05-16 2023-05-17 01:00:07.370 2023-05-17 01:00:09                90007.4                1.63
+32696             NIKKEI  dynamic_TF_carry                2023-05-16 2023-05-17 01:00:11.583 2023-05-17 01:00:12                90011.6               0.417
+32697             KOSDAQ  dynamic_TF_carry                2023-05-16 2023-05-17 01:00:14.015 2023-05-17 01:00:14                  90014                 NaN
+32698              NIFTY  dynamic_TF_carry                2023-05-16 2023-05-17 02:00:04.069 2023-05-17 02:00:04                93604.1                 NaN
+32699             SILVER  dynamic_TF_carry                2023-05-16 2023-05-17 14:00:02.236 2023-05-17 14:00:02                 136802                 NaN
+32700            RUSSELL  dynamic_TF_carry                2023-05-16 2023-05-17 15:00:03.515 2023-05-17 15:00:03                 140404                 NaN
+32701              WHEAT  dynamic_TF_carry                2023-05-16 2023-05-17 15:30:02.407 2023-05-17 15:30:09                 142202               6.593
+32702           REDWHEAT  dynamic_TF_carry                2023-05-16 2023-05-17 15:30:11.041 2023-05-17 15:30:12                 142211               0.959
+32703               CORN  dynamic_TF_carry                2023-05-16 2023-05-17 15:30:14.102 2023-05-17 15:30:17                 142214               2.898
+
+
+===============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                    
+===============================================================================================================================================================================================================================
+
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                       
+32695                CNH  dynamic_TF_carry   [1]                 6.9505               None    6.9814     6.9817        6.9811      6.9811       6.9811 -0.0309 -0.0003    0.0006  8.88178e-16                 NaN        0.0003
+32696             NIKKEI  dynamic_TF_carry   [1]                  29890               None   29927.5      29930         29925       29925        29925   -37.5    -2.5         5            0                 NaN           2.5
+32697             KOSDAQ  dynamic_TF_carry  [-1]                 1223.4               None   1226.85     1226.6        1227.1      1227.1       1226.5    3.45   -0.25      -0.1         -0.6                 NaN         -0.35
+32698              NIFTY  dynamic_TF_carry   [1]                  18398               None     18290      18305         18275       18275        18305     108     -15         0          -30                 NaN           -15
+32699             SILVER  dynamic_TF_carry  [-1]                 23.945               None     23.89     23.885        23.895      23.895       23.895  -0.055  -0.005      0.01           -0                 NaN         0.005
+32700            RUSSELL  dynamic_TF_carry   [1]                 1746.4               None   1740.65     1740.7        1740.6      1740.6       1740.6    5.75   -0.05       0.1  2.27374e-13                 NaN          0.05
+32701              WHEAT  dynamic_TF_carry  [-1]                 676.75               None    663.75      663.5           664         664          664     -13   -0.25       0.5           -0                 NaN          0.25
+32702           REDWHEAT  dynamic_TF_carry   [1]                 885.75               None   884.875        885        884.75      884.75       885.25   0.875  -0.125     -0.25         -0.5                 NaN        -0.375
+32703               CORN  dynamic_TF_carry  [-1]                  506.5               None   498.625      498.5        498.75      498.75       498.75  -7.875  -0.125      0.25           -0                 NaN         0.125
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                       
+32695                CNH  dynamic_TF_carry   [1]        0.300152  -1029.48    -9.99495       19.9899       2.9591e-11                     NaN           9.99495
+32696             NIKKEI  dynamic_TF_carry   [1]         3827.21  -97.9826    -6.53217       13.0643                0                     NaN           6.53217
+32697             KOSDAQ  dynamic_TF_carry  [-1]         331.383   104.109    -7.54415      -3.01766          -18.106                     NaN          -10.5618
+32698              NIFTY  dynamic_TF_carry   [1]         1823.49    592.27    -82.2597             0         -164.519                     NaN          -82.2597
+32699             SILVER  dynamic_TF_carry  [-1]         6.36418  -86.4212    -7.85648        15.713               -0                     NaN           7.85648
+32700            RUSSELL  dynamic_TF_carry   [1]         385.547   149.139    -1.29686       2.59372      5.89743e-12                     NaN           1.29686
+32701              WHEAT  dynamic_TF_carry  [-1]          224.07  -580.177    -11.1572       22.3145               -0                     NaN           11.1572
+32702           REDWHEAT  dynamic_TF_carry   [1]         294.193   29.7424    -4.24891      -8.49783         -16.9957                     NaN          -12.7467
+32703               CORN  dynamic_TF_carry  [-1]         106.396  -740.163    -11.7486       23.4972               -0                     NaN           11.7486
+
+
+==========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                        
+==========================================================================================================================================================================
+
+         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                  
+32695                CNH  dynamic_TF_carry   [1]              11438.6   -353.452     -3.43158        6.86315       1.01595e-11                      NaN            3.43158
+32696             NIKKEI  dynamic_TF_carry   [1]             0.586401     -21.99       -1.466          2.932                 0                      NaN              1.466
+32697             KOSDAQ  dynamic_TF_carry  [-1]              5.98949    20.6637     -1.49737      -0.598949          -3.59369                      NaN           -2.09632
+32698              NIFTY  dynamic_TF_carry   [1]              1.60469    173.306     -24.0703              0          -48.1406                      NaN           -24.0703
+32699             SILVER  dynamic_TF_carry  [-1]              802.343   -44.1289     -4.01171        8.02343                -0                      NaN            4.01171
+32700            RUSSELL  dynamic_TF_carry   [1]              4.01171    23.0674    -0.200586       0.401171       9.12158e-13                      NaN           0.200586
+32701              WHEAT  dynamic_TF_carry  [-1]              40.1171   -521.523     -10.0293        20.0586                -0                      NaN            10.0293
+32702           REDWHEAT  dynamic_TF_carry   [1]              40.1171    35.1025     -5.01464       -10.0293          -20.0586                      NaN           -15.0439
+32703               CORN  dynamic_TF_carry  [-1]              40.1171   -315.922     -5.01464        10.0293                -0                      NaN            5.01464
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry CNH             -353.452477
+                 CORN            -315.922494
+                 KOSDAQ            20.663738
+                 NIFTY            173.306054
+                 NIKKEI           -21.990029
+                 REDWHEAT          35.102499
+                 RUSSELL           23.067357
+                 SILVER           -44.128856
+                 WHEAT           -521.522847
+delay_cash Total Sum
+                   delay_cash
+strategy_name                
+dynamic_TF_carry -1004.877054
+bid_ask_cash Sum
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry CNH                 -3.431577
+                 CORN                -5.014643
+                 KOSDAQ              -1.497372
+                 NIFTY              -24.070285
+                 NIKKEI              -1.466002
+                 REDWHEAT            -5.014643
+                 RUSSELL             -0.200586
+                 SILVER              -4.011714
+                 WHEAT              -10.029286
+bid_ask_cash Total Sum
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry    -54.736108
+execution_cash Sum
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry CNH                    6.863155
+                 CORN                  10.029286
+                 KOSDAQ                -0.598949
+                 NIFTY                  0.000000
+                 NIKKEI                 2.932004
+                 REDWHEAT             -10.029286
+                 RUSSELL                0.401171
+                 SILVER                 8.023428
+                 WHEAT                 20.058571
+execution_cash Total Sum
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry       37.679381
+versus_limit_cash Sum
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry CNH                   1.015951e-11
+                 CORN                 -0.000000e+00
+                 KOSDAQ               -3.593694e+00
+                 NIFTY                -4.814057e+01
+                 NIKKEI                0.000000e+00
+                 REDWHEAT             -2.005857e+01
+                 RUSSELL               9.121582e-13
+                 SILVER               -0.000000e+00
+                 WHEAT                -0.000000e+00
+versus_limit_cash Total Sum
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry         -71.792835
+versus_parent_limit_cash Sum
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry CNH                                     0
+                 CORN                                    0
+                 KOSDAQ                                  0
+                 NIFTY                                   0
+                 NIKKEI                                  0
+                 REDWHEAT                                0
+                 RUSSELL                                 0
+                 SILVER                                  0
+                 WHEAT                                   0
+versus_parent_limit_cash Total Sum
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
+total_trading_cash Sum
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry CNH                        3.431577
+                 CORN                       5.014643
+                 KOSDAQ                    -2.096321
+                 NIFTY                    -24.070285
+                 NIKKEI                     1.466002
+                 REDWHEAT                 -15.043928
+                 RUSSELL                    0.200586
+                 SILVER                     4.011714
+                 WHEAT                     10.029286
+total_trading_cash Total Sum
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry          -17.056727
 
 ********************************************************************************
                                  END OF REPORT                                  
