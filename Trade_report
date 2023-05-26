@@ -1,218 +1,102 @@
 
 ********************************************************************************
-Trades report report produced on 25/05/2023 22:51 from 24/05/2023 22:51 to 25/05/2023 22:51
+Trades report report produced on 26/05/2023 22:51 from 25/05/2023 22:51 to 26/05/2023 22:51
 ********************************************************************************
 
 
 
-================================================================================================================
-                                                 Broker orders                                                  
-================================================================================================================
+================================================================================================
+                                         Broker orders                                          
+================================================================================================
 
-         instrument_code          strategy_name         contract_date       fill_datetime     fill  filled_price
-order_id                                                                                                        
-32727                AUD       dynamic_TF_carry            [20230600] 2023-05-25 15:00:01      [1]       0.65105
-32719                CNH       dynamic_TF_carry            [20230700] 2023-05-25 01:00:17      [1]       7.03930
-32728                DOW       dynamic_TF_carry            [20230600] 2023-05-25 15:00:03      [1]   32798.00000
-32723             EU-OIL       dynamic_TF_carry            [20230600] 2023-05-25 08:00:07      [1]     342.00000
-32722         FTSECHINAA       dynamic_TF_carry            [20230500] 2023-05-25 02:00:05      [1]   12665.00000
-32726        GAS_US_mini       dynamic_TF_carry            [20230800] 2023-05-25 14:00:04     [-1]       2.64000
-32725         GOLD_micro       dynamic_TF_carry            [20230800] 2023-05-25 14:00:03     [-1]    1962.60000
-32718               IRON       dynamic_TF_carry            [20230700] 2023-05-25 01:00:10      [1]      93.90000
-32721           MSCISING       dynamic_TF_carry            [20230600] 2023-05-25 01:30:08      [1]     290.80000
-32720             NIKKEI  _ROLL_PSEUDO_STRATEGY  [20230600, 20230900] 2023-05-25 01:00:21  [-1, 1]      54.00000
-32724                SMI       dynamic_TF_carry            [20230600] 2023-05-25 08:00:08     [-1]   11386.00000
+         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+order_id                                                                                        
+32729                CHF  dynamic_TF_carry    [20230600] 2023-05-26 15:00:06  [-1]       1.10795
 
 
-================================================================================================================================================================
-                                                                             Delays                                                                             
-================================================================================================================================================================
+===========================================================================================================================================================
+                                                                          Delays                                                                           
+===========================================================================================================================================================
 
-         instrument_code          strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
-order_id                                                                                                                                                        
-32718               IRON       dynamic_TF_carry       2023-05-24 00:00:00 2023-05-25 01:00:05.288 2023-05-25 01:00:10                90005.3               4.712
-32719                CNH       dynamic_TF_carry       2023-05-24 00:00:00 2023-05-25 01:00:11.606 2023-05-25 01:00:17                90011.6               5.394
-32720             NIKKEI  _ROLL_PSEUDO_STRATEGY       2023-05-24 05:00:00 2023-05-25 01:00:20.851 2023-05-25 01:00:21                72020.9               0.149
-32721           MSCISING       dynamic_TF_carry       2023-05-24 00:00:00 2023-05-25 01:30:05.445 2023-05-25 01:30:08                91805.4               2.555
-32722         FTSECHINAA       dynamic_TF_carry       2023-05-24 00:00:00 2023-05-25 02:00:04.456 2023-05-25 02:00:05                93604.5               0.544
-32723             EU-OIL       dynamic_TF_carry       2023-05-24 00:00:00 2023-05-25 08:00:05.542 2023-05-25 08:00:07                 115206               1.458
-32724                SMI       dynamic_TF_carry       2023-05-24 00:00:00 2023-05-25 08:00:08.171 2023-05-25 08:00:08                 115208                 NaN
-32725         GOLD_micro       dynamic_TF_carry       2023-05-24 00:00:00 2023-05-25 14:00:03.187 2023-05-25 14:00:03                 136803                 NaN
-32726        GAS_US_mini       dynamic_TF_carry       2023-05-24 00:00:00 2023-05-25 14:00:04.396 2023-05-25 14:00:04                 136804                 NaN
-32727                AUD       dynamic_TF_carry       2023-05-24 00:00:00 2023-05-25 15:00:01.251 2023-05-25 15:00:01                 140401                 NaN
-32728                DOW       dynamic_TF_carry       2023-05-24 00:00:00 2023-05-25 15:00:02.914 2023-05-25 15:00:03                 140403               0.086
+         instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                                   
+32729                CHF  dynamic_TF_carry                2023-05-25 2023-05-26 15:00:04.806 2023-05-26 15:00:06                 140405               1.194
 
 
-==========================================================================================================================================================================================================================================
-                                                                                                         Slippage (ticks per lot)                                                                                                         
-==========================================================================================================================================================================================================================================
+===================================================================================================================================================================================================================================
+                                                                                                     Slippage (ticks per lot)                                                                                                      
+===================================================================================================================================================================================================================================
 
-         instrument_code          strategy_name    trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay  bid_ask execution versus_limit versus_parent_limit total_trading
-order_id                                                                                                                                                                                                                                  
-32718               IRON       dynamic_TF_carry      [1]                  94.95               None      93.8       93.9          93.7        93.7         93.9      1.15     -0.1         0         -0.2                 NaN          -0.1
-32719                CNH       dynamic_TF_carry      [1]                 7.0403               None   7.03865      7.039        7.0383      7.0383       7.0393   0.00165 -0.00035   -0.0003       -0.001                 NaN      -0.00065
-32720             NIKKEI  _ROLL_PSEUDO_STRATEGY  [-1, 1]                     60               None        58         54            62          60           54        -2       -4        -0           -6                 NaN            -4
-32721           MSCISING       dynamic_TF_carry      [1]                  292.2               None   290.875     290.95         290.8       290.8        290.8     1.325   -0.075      0.15            0                 NaN         0.075
-32722         FTSECHINAA       dynamic_TF_carry      [1]                  12815               None     12666      12667         12665       12665        12665       149       -1         2            0                 NaN             1
-32723             EU-OIL       dynamic_TF_carry      [1]                  340.8               None    341.05        342         340.1       340.1          342     -0.25    -0.95         0         -1.9                 NaN         -0.95
-32724                SMI       dynamic_TF_carry     [-1]                  11382               None   11385.5      11385         11386       11386        11386       3.5     -0.5         1           -0                 NaN           0.5
-32725         GOLD_micro       dynamic_TF_carry     [-1]                   1980               None   1962.45     1962.3        1962.6      1962.6       1962.6    -17.55    -0.15       0.3 -2.27374e-13                 NaN          0.15
-32726        GAS_US_mini       dynamic_TF_carry     [-1]                   2.64               None    2.6425       2.64         2.645         NaN         2.64    0.0025  -0.0025        -0          NaN                 NaN       -0.0025
-32727                AUD       dynamic_TF_carry      [1]                0.65425               None  0.651075     0.6511       0.65105     0.65105      0.65105  0.003175 -2.5e-05     5e-05            0                 NaN       2.5e-05
-32728                DOW       dynamic_TF_carry      [1]                  32841               None     32799      32800         32798       32798        32798        42       -1         2            0                 NaN             1
+         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                           
+32729                CHF  dynamic_TF_carry  [-1]                 1.1059               None   1.10827    1.10815        1.1084      1.1084      1.10795  0.002375 -0.000125   -0.0002     -0.00045                 NaN     -0.000325
 
 
-=======================================================================================================================================================================
-                                                         Slippage (normalised by annual vol, BP of annual SR)                                                          
-=======================================================================================================================================================================
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
 
-         instrument_code          strategy_name    trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-order_id                                                                                                                                                               
-32718               IRON       dynamic_TF_carry      [1]         48.7013   236.133    -20.5333             0         -41.0667                     NaN          -20.5333
-32719                CNH       dynamic_TF_carry      [1]        0.321656    51.297    -10.8812      -9.32672         -31.0891                     NaN          -20.2079
-32720             NIKKEI  _ROLL_PSEUDO_STRATEGY  [-1, 1]          4017.5  -4.97822    -9.95645            -0         -14.9347                     NaN          -9.95645
-32721           MSCISING       dynamic_TF_carry      [1]         54.3897   243.612    -13.7894       27.5787                0                     NaN           13.7894
-32722         FTSECHINAA       dynamic_TF_carry      [1]         2431.83   612.708    -4.11213       8.22427                0                     NaN           4.11213
-32723             EU-OIL       dynamic_TF_carry      [1]         72.2916  -34.5822    -131.412             0         -262.825                     NaN          -131.412
-32724                SMI       dynamic_TF_carry     [-1]         1315.36   26.6087    -3.80125       7.60249               -0                     NaN           3.80125
-32725         GOLD_micro       dynamic_TF_carry     [-1]          280.27  -626.183    -5.35199        10.704     -8.11268e-12                     NaN           5.35199
-32726        GAS_US_mini       dynamic_TF_carry     [-1]         2.24483   11.1367    -11.1367            -0              NaN                     NaN          -11.1367
-32727                AUD       dynamic_TF_carry      [1]       0.0726357   437.113    -3.44184       6.88367                0                     NaN           3.44184
-32728                DOW       dynamic_TF_carry      [1]         4321.41   97.1905    -2.31406       4.62812                0                     NaN           2.31406
+         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                       
+32729                CHF  dynamic_TF_carry  [-1]       0.0813349   292.003    -15.3686      -24.5897         -55.3268                     NaN          -39.9582
 
 
-==================================================================================================================================================================================
-                                                                           Slippage (In base currency)                                                                            
-==================================================================================================================================================================================
+==========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                        
+==========================================================================================================================================================================
 
-         instrument_code          strategy_name    trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-order_id                                                                                                                                                                          
-32718               IRON       dynamic_TF_carry      [1]              80.9946    93.1438     -8.09946              0          -16.1989                      NaN           -8.09946
-32719                CNH       dynamic_TF_carry      [1]              11436.9    18.8709     -4.00293       -3.43108          -11.4369                      NaN             -7.434
-32720             NIKKEI  _ROLL_PSEUDO_STRATEGY  [-1, 1]             0.580388   -1.16078     -2.32155             -0          -3.48233                      NaN           -2.32155
-32721           MSCISING       dynamic_TF_carry      [1]              59.8829    79.3448     -4.49122        8.98243                 0                      NaN            4.49122
-32722         FTSECHINAA       dynamic_TF_carry      [1]             0.809946    120.682    -0.809946        1.61989                 0                      NaN           0.809946
-32723             EU-OIL       dynamic_TF_carry      [1]              43.4921    -10.873     -41.3175              0           -82.635                      NaN           -41.3175
-32724                SMI       dynamic_TF_carry     [-1]              8.93776    31.2821     -4.46888        8.93776                -0                      NaN            4.46888
-32725         GOLD_micro       dynamic_TF_carry     [-1]              8.09946   -142.146     -1.21492        2.42984       -1.8416e-12                      NaN            1.21492
-32726        GAS_US_mini       dynamic_TF_carry     [-1]              2024.87    5.06216     -5.06216             -0               NaN                      NaN           -5.06216
-32727                AUD       dynamic_TF_carry      [1]              80994.6    257.158     -2.02487        4.04973                 0                      NaN            2.02487
-32728                DOW       dynamic_TF_carry      [1]             0.404973    17.0089    -0.404973       0.809946                 0                      NaN           0.404973
+         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                  
+32729                CHF  dynamic_TF_carry  [-1]               101272    240.521      -12.659       -20.2544          -45.5724                      NaN           -32.9134
 
 delay_cash Sum
-                                       delay_cash
-strategy_name         instrument_code            
-_ROLL_PSEUDO_STRATEGY NIKKEI            -1.160776
-dynamic_TF_carry      AUD              257.157899
-                      CNH               18.870932
-                      DOW               17.008869
-                      EU-OIL           -10.873021
-                      FTSECHINAA       120.681975
-                      GAS_US_mini        5.062163
-                      GOLD_micro      -142.145547
-                      IRON              93.143806
-                      MSCISING          79.344840
-                      SMI               31.282145
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry CHF              240.520943
 delay_cash Total Sum
-                       delay_cash
-strategy_name                    
-_ROLL_PSEUDO_STRATEGY   -1.160776
-dynamic_TF_carry       469.534061
+                  delay_cash
+strategy_name               
+dynamic_TF_carry  240.520943
 bid_ask_cash Sum
-                                       bid_ask_cash
-strategy_name         instrument_code              
-_ROLL_PSEUDO_STRATEGY NIKKEI              -2.321553
-dynamic_TF_carry      AUD                 -2.024865
-                      CNH                 -4.002925
-                      DOW                 -0.404973
-                      EU-OIL             -41.317479
-                      FTSECHINAA          -0.809946
-                      GAS_US_mini         -5.062163
-                      GOLD_micro          -1.214919
-                      IRON                -8.099461
-                      MSCISING            -4.491217
-                      SMI                 -4.468878
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry CHF                -12.658997
 bid_ask_cash Total Sum
-                       bid_ask_cash
-strategy_name                      
-_ROLL_PSEUDO_STRATEGY     -2.321553
-dynamic_TF_carry         -71.896827
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry    -12.658997
 execution_cash Sum
-                                       execution_cash
-strategy_name         instrument_code                
-_ROLL_PSEUDO_STRATEGY NIKKEI                -0.000000
-dynamic_TF_carry      AUD                    4.049731
-                      CNH                   -3.431079
-                      DOW                    0.809946
-                      EU-OIL                 0.000000
-                      FTSECHINAA             1.619892
-                      GAS_US_mini           -0.000000
-                      GOLD_micro             2.429838
-                      IRON                   0.000000
-                      MSCISING               8.982435
-                      SMI                    8.937756
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry CHF                  -20.254395
 execution_cash Total Sum
-                       execution_cash
-strategy_name                        
-_ROLL_PSEUDO_STRATEGY       -0.000000
-dynamic_TF_carry            23.398519
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry      -20.254395
 versus_limit_cash Sum
-                                       versus_limit_cash
-strategy_name         instrument_code                   
-_ROLL_PSEUDO_STRATEGY NIKKEI               -3.482329e+00
-dynamic_TF_carry      AUD                   0.000000e+00
-                      CNH                  -1.143693e+01
-                      DOW                   0.000000e+00
-                      EU-OIL               -8.263496e+01
-                      FTSECHINAA            0.000000e+00
-                      GAS_US_mini           0.000000e+00
-                      GOLD_micro           -1.841604e-12
-                      IRON                 -1.619892e+01
-                      MSCISING              0.000000e+00
-                      SMI                  -0.000000e+00
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry CHF                     -45.572389
 versus_limit_cash Total Sum
-                       versus_limit_cash
-strategy_name                           
-_ROLL_PSEUDO_STRATEGY          -3.482329
-dynamic_TF_carry             -110.270809
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry         -45.572389
 versus_parent_limit_cash Sum
-                                       versus_parent_limit_cash
-strategy_name         instrument_code                          
-_ROLL_PSEUDO_STRATEGY NIKKEI                                  0
-dynamic_TF_carry      AUD                                     0
-                      CNH                                     0
-                      DOW                                     0
-                      EU-OIL                                  0
-                      FTSECHINAA                              0
-                      GAS_US_mini                             0
-                      GOLD_micro                              0
-                      IRON                                    0
-                      MSCISING                                0
-                      SMI                                     0
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry CHF                                     0
 versus_parent_limit_cash Total Sum
-                       versus_parent_limit_cash
-strategy_name                                  
-_ROLL_PSEUDO_STRATEGY                         0
-dynamic_TF_carry                              0
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
 total_trading_cash Sum
-                                       total_trading_cash
-strategy_name         instrument_code                    
-_ROLL_PSEUDO_STRATEGY NIKKEI                    -2.321553
-dynamic_TF_carry      AUD                        2.024865
-                      CNH                       -7.434004
-                      DOW                        0.404973
-                      EU-OIL                   -41.317479
-                      FTSECHINAA                 0.809946
-                      GAS_US_mini               -5.062163
-                      GOLD_micro                 1.214919
-                      IRON                      -8.099461
-                      MSCISING                   4.491217
-                      SMI                        4.468878
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry CHF                      -32.913392
 total_trading_cash Total Sum
-                       total_trading_cash
-strategy_name                            
-_ROLL_PSEUDO_STRATEGY           -2.321553
-dynamic_TF_carry               -48.498308
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry          -32.913392
 
 ********************************************************************************
                                  END OF REPORT                                  
