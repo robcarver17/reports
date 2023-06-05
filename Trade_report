@@ -1,102 +1,102 @@
 
 ********************************************************************************
-Trades report report produced on 26/05/2023 22:51 from 25/05/2023 22:51 to 26/05/2023 22:51
+Trades report report produced on 05/06/2023 22:50 from 04/06/2023 22:50 to 05/06/2023 22:50
 ********************************************************************************
 
 
 
-================================================================================================
-                                         Broker orders                                          
-================================================================================================
+================================================================================================================
+                                                 Broker orders                                                  
+================================================================================================================
 
-         instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-order_id                                                                                        
-32729                CHF  dynamic_TF_carry    [20230600] 2023-05-26 15:00:06  [-1]       1.10795
-
-
-===========================================================================================================================================================
-                                                                          Delays                                                                           
-===========================================================================================================================================================
-
-         instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
-order_id                                                                                                                                                   
-32729                CHF  dynamic_TF_carry                2023-05-25 2023-05-26 15:00:04.806 2023-05-26 15:00:06                 140405               1.194
+         instrument_code          strategy_name         contract_date       fill_datetime     fill  filled_price
+order_id                                                                                                        
+32731            LEANHOG  _ROLL_PSEUDO_STRATEGY  [20230600, 20230700] 2023-06-05 15:30:07  [1, -1]         1.775
 
 
-===================================================================================================================================================================================================================================
-                                                                                                     Slippage (ticks per lot)                                                                                                      
-===================================================================================================================================================================================================================================
+================================================================================================================================================================
+                                                                             Delays                                                                             
+================================================================================================================================================================
 
-         instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
-order_id                                                                                                                                                                                                                           
-32729                CHF  dynamic_TF_carry  [-1]                 1.1059               None   1.10827    1.10815        1.1084      1.1084      1.10795  0.002375 -0.000125   -0.0002     -0.00045                 NaN     -0.000325
-
-
-===============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
-===============================================================================================================================================================
-
-         instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-order_id                                                                                                                                                       
-32729                CHF  dynamic_TF_carry  [-1]       0.0813349   292.003    -15.3686      -24.5897         -55.3268                     NaN          -39.9582
+         instrument_code          strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                                        
+32731            LEANHOG  _ROLL_PSEUDO_STRATEGY       2023-05-26 19:00:00 2023-06-05 15:30:06.002 2023-06-05 15:30:07                 851406               0.998
 
 
-==========================================================================================================================================================================
-                                                                       Slippage (In base currency)                                                                        
-==========================================================================================================================================================================
+=====================================================================================================================================================================================================================================
+                                                                                                      Slippage (ticks per lot)                                                                                                       
+=====================================================================================================================================================================================================================================
 
-         instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-order_id                                                                                                                                                                  
-32729                CHF  dynamic_TF_carry  [-1]               101272    240.521      -12.659       -20.2544          -45.5724                      NaN           -32.9134
+         instrument_code          strategy_name    trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                             
+32731            LEANHOG  _ROLL_PSEUDO_STRATEGY  [1, -1]                  1.425               None     1.725       1.75           1.7         1.7        1.775  -0.3  -0.025    -0.025       -0.075                 NaN         -0.05
+
+
+=======================================================================================================================================================================
+                                                         Slippage (normalised by annual vol, BP of annual SR)                                                          
+=======================================================================================================================================================================
+
+         instrument_code          strategy_name    trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                               
+32731            LEANHOG  _ROLL_PSEUDO_STRATEGY  [1, -1]         26.2361  -114.346    -9.52884      -9.52884         -28.5865                     NaN          -19.0577
+
+
+==================================================================================================================================================================================
+                                                                           Slippage (In base currency)                                                                            
+==================================================================================================================================================================================
+
+         instrument_code          strategy_name    trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                          
+32731            LEANHOG  _ROLL_PSEUDO_STRATEGY  [1, -1]              321.867     -96.56     -8.04667       -8.04667            -24.14                      NaN           -16.0933
 
 delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry CHF              240.520943
+                                       delay_cash
+strategy_name         instrument_code            
+_ROLL_PSEUDO_STRATEGY LEANHOG          -96.560048
 delay_cash Total Sum
-                  delay_cash
-strategy_name               
-dynamic_TF_carry  240.520943
+                       delay_cash
+strategy_name                    
+_ROLL_PSEUDO_STRATEGY  -96.560048
 bid_ask_cash Sum
-                                  bid_ask_cash
-strategy_name    instrument_code              
-dynamic_TF_carry CHF                -12.658997
+                                       bid_ask_cash
+strategy_name         instrument_code              
+_ROLL_PSEUDO_STRATEGY LEANHOG             -8.046671
 bid_ask_cash Total Sum
-                  bid_ask_cash
-strategy_name                 
-dynamic_TF_carry    -12.658997
-execution_cash Sum
-                                  execution_cash
-strategy_name    instrument_code                
-dynamic_TF_carry CHF                  -20.254395
-execution_cash Total Sum
-                  execution_cash
-strategy_name                   
-dynamic_TF_carry      -20.254395
-versus_limit_cash Sum
-                                  versus_limit_cash
-strategy_name    instrument_code                   
-dynamic_TF_carry CHF                     -45.572389
-versus_limit_cash Total Sum
-                  versus_limit_cash
+                       bid_ask_cash
 strategy_name                      
-dynamic_TF_carry         -45.572389
+_ROLL_PSEUDO_STRATEGY     -8.046671
+execution_cash Sum
+                                       execution_cash
+strategy_name         instrument_code                
+_ROLL_PSEUDO_STRATEGY LEANHOG               -8.046671
+execution_cash Total Sum
+                       execution_cash
+strategy_name                        
+_ROLL_PSEUDO_STRATEGY       -8.046671
+versus_limit_cash Sum
+                                       versus_limit_cash
+strategy_name         instrument_code                   
+_ROLL_PSEUDO_STRATEGY LEANHOG                 -24.140012
+versus_limit_cash Total Sum
+                       versus_limit_cash
+strategy_name                           
+_ROLL_PSEUDO_STRATEGY         -24.140012
 versus_parent_limit_cash Sum
-                                  versus_parent_limit_cash
-strategy_name    instrument_code                          
-dynamic_TF_carry CHF                                     0
+                                       versus_parent_limit_cash
+strategy_name         instrument_code                          
+_ROLL_PSEUDO_STRATEGY LEANHOG                                 0
 versus_parent_limit_cash Total Sum
-                  versus_parent_limit_cash
-strategy_name                             
-dynamic_TF_carry                         0
+                       versus_parent_limit_cash
+strategy_name                                  
+_ROLL_PSEUDO_STRATEGY                         0
 total_trading_cash Sum
-                                  total_trading_cash
-strategy_name    instrument_code                    
-dynamic_TF_carry CHF                      -32.913392
+                                       total_trading_cash
+strategy_name         instrument_code                    
+_ROLL_PSEUDO_STRATEGY LEANHOG                  -16.093341
 total_trading_cash Total Sum
-                  total_trading_cash
-strategy_name                       
-dynamic_TF_carry          -32.913392
+                       total_trading_cash
+strategy_name                            
+_ROLL_PSEUDO_STRATEGY          -16.093341
 
 ********************************************************************************
                                  END OF REPORT                                  
