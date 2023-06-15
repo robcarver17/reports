@@ -1,23 +1,19 @@
 
 ********************************************************************************
-Trades report produced on 14/06/2023 22:50 from 13/06/2023 22:50 to 14/06/2023 22:50
+Trades report produced on 15/06/2023 22:50 from 14/06/2023 22:50 to 15/06/2023 22:50
 ********************************************************************************
 
 
 
-====================================================================================================================
-                                                   Broker orders                                                    
-====================================================================================================================
+==================================================================================================================
+                                                  Broker orders                                                   
+==================================================================================================================
 
-         instrument_code          strategy_name         contract_date           fill_datetime     fill  filled_price
-order_id                                                                                                            
-32756                CAC       dynamic_TF_carry            [20230600] 2023-06-14 08:00:06.000      [1]      7294.500
-32761                DOW       dynamic_TF_carry            [20230900] 2023-06-14 15:00:05.000     [-1]     34410.000
-32757           EU-BANKS  _ROLL_PSEUDO_STRATEGY  [20230600, 20230900] 2023-06-14 19:30:01.996   [0, 0]           NaN
-32758           EU-BANKS  _ROLL_PSEUDO_STRATEGY  [20230600, 20230900] 2023-06-14 19:30:02.011   [0, 0]           NaN
-32759           EU-BANKS  _ROLL_PSEUDO_STRATEGY  [20230600, 20230900] 2023-06-14 19:30:02.028   [0, 0]           NaN
-32762            LIVECOW       dynamic_TF_carry            [20230800] 2023-06-14 15:30:19.000      [1]       172.825
-32760                V2X  _ROLL_PSEUDO_STRATEGY  [20230600, 20230700] 2023-06-14 08:09:21.000  [1, -1]        -1.550
+         instrument_code          strategy_name         contract_date           fill_datetime    fill filled_price
+order_id                                                                                                          
+32763           EU-BANKS  _ROLL_PSEUDO_STRATEGY  [20230600, 20230900] 2023-06-15 18:27:24.287  [0, 0]         None
+32764           EU-BANKS  _ROLL_PSEUDO_STRATEGY  [20230600, 20230900] 2023-06-15 18:27:24.295  [0, 0]         None
+32765           EU-BANKS  _ROLL_PSEUDO_STRATEGY  [20230600, 20230900] 2023-06-15 18:27:24.304  [0, 0]         None
 
 
 ====================================================================================================================================================================
@@ -26,137 +22,91 @@ order_id
 
          instrument_code          strategy_name parent_reference_datetime         submit_datetime           fill_datetime submit_minus_generated filled_minus_submit
 order_id                                                                                                                                                            
-32756                CAC       dynamic_TF_carry       2023-06-13 00:00:00 2023-06-14 08:00:05.696 2023-06-14 08:00:06.000                 115206               0.304
-32760                V2X  _ROLL_PSEUDO_STRATEGY       2023-06-13 16:00:00 2023-06-14 08:04:21.066 2023-06-14 08:09:21.000                57861.1             299.934
-32761                DOW       dynamic_TF_carry       2023-06-13 00:00:00 2023-06-14 15:00:04.934 2023-06-14 15:00:05.000                 140405               0.066
-32762            LIVECOW       dynamic_TF_carry       2023-06-13 00:00:00 2023-06-14 15:30:04.562 2023-06-14 15:30:19.000                 142205              14.438
-32757           EU-BANKS  _ROLL_PSEUDO_STRATEGY       2023-06-13 16:00:00 2023-06-14 08:01:03.156 2023-06-14 19:30:01.996                57663.2             41338.8
-32758           EU-BANKS  _ROLL_PSEUDO_STRATEGY       2023-06-13 16:00:00 2023-06-14 08:01:31.751 2023-06-14 19:30:02.011                57691.8             41310.3
-32759           EU-BANKS  _ROLL_PSEUDO_STRATEGY       2023-06-13 16:00:00 2023-06-14 08:01:35.895 2023-06-14 19:30:02.028                57695.9             41306.1
+32763           EU-BANKS  _ROLL_PSEUDO_STRATEGY       2023-06-14 16:00:00 2023-06-15 08:01:06.880 2023-06-15 18:27:24.287                57666.9             37577.4
+32764           EU-BANKS  _ROLL_PSEUDO_STRATEGY       2023-06-14 16:00:00 2023-06-15 08:01:10.870 2023-06-15 18:27:24.295                57670.9             37573.4
+32765           EU-BANKS  _ROLL_PSEUDO_STRATEGY       2023-06-14 16:00:00 2023-06-15 08:01:14.630 2023-06-15 18:27:24.304                57674.6             37569.7
 
 
-==========================================================================================================================================================================================================================================
-                                                                                                         Slippage (ticks per lot)                                                                                                         
-==========================================================================================================================================================================================================================================
+============================================================================================================================================================================================================================================
+                                                                                                          Slippage (ticks per lot)                                                                                                          
+============================================================================================================================================================================================================================================
 
-         instrument_code          strategy_name    trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask    execution versus_limit versus_parent_limit total_trading
-order_id                                                                                                                                                                                                                                  
-32756                CAC       dynamic_TF_carry      [1]                 7300.5               None      7295     7295.5        7294.5      7294.5       7294.5     5.5    -0.5            1            0                 NaN           0.5
-32760                V2X  _ROLL_PSEUDO_STRATEGY  [1, -1]                  -1.35               None    -1.575      -1.55          -1.6        -1.6        -1.55   0.225  -0.025 -1.11022e-15        -0.05                 NaN        -0.025
-32761                DOW       dynamic_TF_carry     [-1]                  34512               None   34409.5      34409         34410       34410        34410  -102.5    -0.5            1           -0                 NaN           0.5
-32762            LIVECOW       dynamic_TF_carry      [1]                174.175               None   172.837     172.85       172.825     172.825      172.825  1.3375 -0.0125        0.025  2.84217e-14                 NaN        0.0125
-32757           EU-BANKS  _ROLL_PSEUDO_STRATEGY  [-1, 1]                  -0.55               None     -0.65      -0.66         -0.64       -0.65          NaN    -0.1   -0.01          NaN          NaN                 NaN           NaN
-32758           EU-BANKS  _ROLL_PSEUDO_STRATEGY  [-1, 1]                  -0.55               None     -0.65      -0.66         -0.64       -0.65          NaN    -0.1   -0.01          NaN          NaN                 NaN           NaN
-32759           EU-BANKS  _ROLL_PSEUDO_STRATEGY  [-1, 1]                  -0.55               None     -0.65      -0.66         -0.64       -0.65          NaN    -0.1   -0.01          NaN          NaN                 NaN           NaN
+         instrument_code          strategy_name    trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price        delay bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                                    
+32763           EU-BANKS  _ROLL_PSEUDO_STRATEGY  [-1, 1]                  -0.65               None     -0.65      -0.66         -0.64       -0.65         None  5.66214e-15   -0.01       NaN          NaN                 NaN           NaN
+32764           EU-BANKS  _ROLL_PSEUDO_STRATEGY  [-1, 1]                  -0.65               None     -0.65      -0.66         -0.64       -0.65         None  5.66214e-15   -0.01       NaN          NaN                 NaN           NaN
+32765           EU-BANKS  _ROLL_PSEUDO_STRATEGY  [-1, 1]                  -0.65               None     -0.65      -0.66         -0.64       -0.65         None  5.66214e-15   -0.01       NaN          NaN                 NaN           NaN
 
 
-=======================================================================================================================================================================
-                                                         Slippage (normalised by annual vol, BP of annual SR)                                                          
-=======================================================================================================================================================================
+==========================================================================================================================================================================
+                                                           Slippage (normalised by annual vol, BP of annual SR)                                                           
+==========================================================================================================================================================================
 
-         instrument_code          strategy_name    trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-order_id                                                                                                                                                               
-32756                CAC       dynamic_TF_carry      [1]         992.177   55.4337    -5.03942       10.0788                0                     NaN           5.03942
-32760                V2X  _ROLL_PSEUDO_STRATEGY  [1, -1]          9.6105   234.119    -26.0132  -1.15522e-12         -52.0264                     NaN          -26.0132
-32761                DOW       dynamic_TF_carry     [-1]         4357.37  -235.234    -1.14748       2.29496               -0                     NaN           1.14748
-32762            LIVECOW       dynamic_TF_carry      [1]         21.9949   608.094    -5.68313       11.3663      1.29219e-11                     NaN           5.68313
-32757           EU-BANKS  _ROLL_PSEUDO_STRATEGY  [-1, 1]         23.9153  -41.8143    -4.18143           NaN              NaN                     NaN               NaN
-32758           EU-BANKS  _ROLL_PSEUDO_STRATEGY  [-1, 1]         23.9153  -41.8143    -4.18143           NaN              NaN                     NaN               NaN
-32759           EU-BANKS  _ROLL_PSEUDO_STRATEGY  [-1, 1]         23.9153  -41.8143    -4.18143           NaN              NaN                     NaN               NaN
+         instrument_code          strategy_name    trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                                  
+32763           EU-BANKS  _ROLL_PSEUDO_STRATEGY  [-1, 1]         23.4194  2.41772e-12    -4.26997           NaN              NaN                     NaN               NaN
+32764           EU-BANKS  _ROLL_PSEUDO_STRATEGY  [-1, 1]         23.4194  2.41772e-12    -4.26997           NaN              NaN                     NaN               NaN
+32765           EU-BANKS  _ROLL_PSEUDO_STRATEGY  [-1, 1]         23.4194  2.41772e-12    -4.26997           NaN              NaN                     NaN               NaN
 
 
-==================================================================================================================================================================================
-                                                                           Slippage (In base currency)                                                                            
-==================================================================================================================================================================================
+===================================================================================================================================================================================
+                                                                            Slippage (In base currency)                                                                            
+===================================================================================================================================================================================
 
-         instrument_code          strategy_name    trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-order_id                                                                                                                                                                          
-32756                CAC       dynamic_TF_carry      [1]              8.55199    47.0359     -4.27599        8.55199                 0                      NaN            4.27599
-32760                V2X  _ROLL_PSEUDO_STRATEGY  [1, -1]              85.5199     19.242       -2.138   -9.49462e-14          -4.27599                      NaN             -2.138
-32761                DOW       dynamic_TF_carry     [-1]             0.396715   -40.6633    -0.198358       0.396715                -0                      NaN           0.198358
-32762            LIVECOW       dynamic_TF_carry      [1]              317.372    424.485     -3.96715         7.9343       9.02026e-12                      NaN            3.96715
-32757           EU-BANKS  _ROLL_PSEUDO_STRATEGY  [-1, 1]              42.7599   -4.27599    -0.427599            NaN               NaN                      NaN                NaN
-32758           EU-BANKS  _ROLL_PSEUDO_STRATEGY  [-1, 1]              42.7599   -4.27599    -0.427599            NaN               NaN                      NaN                NaN
-32759           EU-BANKS  _ROLL_PSEUDO_STRATEGY  [-1, 1]              42.7599   -4.27599    -0.427599            NaN               NaN                      NaN                NaN
+         instrument_code          strategy_name    trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                           
+32763           EU-BANKS  _ROLL_PSEUDO_STRATEGY  [-1, 1]              42.7648  2.4214e-13    -0.427648            NaN               NaN                      NaN                NaN
+32764           EU-BANKS  _ROLL_PSEUDO_STRATEGY  [-1, 1]              42.7648  2.4214e-13    -0.427648            NaN               NaN                      NaN                NaN
+32765           EU-BANKS  _ROLL_PSEUDO_STRATEGY  [-1, 1]              42.7648  2.4214e-13    -0.427648            NaN               NaN                      NaN                NaN
 
 delay_cash Sum
-                                       delay_cash
-strategy_name         instrument_code            
-_ROLL_PSEUDO_STRATEGY EU-BANKS         -12.827984
-                      V2X               19.241976
-dynamic_TF_carry      CAC               47.035942
-                      DOW              -40.663308
-                      LIVECOW          424.485262
+                                         delay_cash
+strategy_name         instrument_code              
+_ROLL_PSEUDO_STRATEGY EU-BANKS         7.264205e-13
 delay_cash Total Sum
-                       delay_cash
-strategy_name                    
-_ROLL_PSEUDO_STRATEGY    6.413992
-dynamic_TF_carry       430.857897
+                         delay_cash
+strategy_name                      
+_ROLL_PSEUDO_STRATEGY  7.264205e-13
 bid_ask_cash Sum
                                        bid_ask_cash
 strategy_name         instrument_code              
-_ROLL_PSEUDO_STRATEGY EU-BANKS            -1.282798
-                      V2X                 -2.137997
-dynamic_TF_carry      CAC                 -4.275995
-                      DOW                 -0.198358
-                      LIVECOW             -3.967152
+_ROLL_PSEUDO_STRATEGY EU-BANKS            -1.282944
 bid_ask_cash Total Sum
                        bid_ask_cash
 strategy_name                      
-_ROLL_PSEUDO_STRATEGY     -3.420796
-dynamic_TF_carry          -8.441504
+_ROLL_PSEUDO_STRATEGY     -1.282944
 execution_cash Sum
                                        execution_cash
 strategy_name         instrument_code                
-_ROLL_PSEUDO_STRATEGY EU-BANKS           0.000000e+00
-                      V2X               -9.494616e-14
-dynamic_TF_carry      CAC                8.551990e+00
-                      DOW                3.967152e-01
-                      LIVECOW            7.934304e+00
+_ROLL_PSEUDO_STRATEGY EU-BANKS                      0
 execution_cash Total Sum
                        execution_cash
 strategy_name                        
-_ROLL_PSEUDO_STRATEGY   -9.494616e-14
-dynamic_TF_carry         1.688301e+01
+_ROLL_PSEUDO_STRATEGY               0
 versus_limit_cash Sum
                                        versus_limit_cash
 strategy_name         instrument_code                   
-_ROLL_PSEUDO_STRATEGY EU-BANKS              0.000000e+00
-                      V2X                  -4.275995e+00
-dynamic_TF_carry      CAC                   0.000000e+00
-                      DOW                  -0.000000e+00
-                      LIVECOW               9.020259e-12
+_ROLL_PSEUDO_STRATEGY EU-BANKS                         0
 versus_limit_cash Total Sum
                        versus_limit_cash
 strategy_name                           
-_ROLL_PSEUDO_STRATEGY      -4.275995e+00
-dynamic_TF_carry            9.020259e-12
+_ROLL_PSEUDO_STRATEGY                  0
 versus_parent_limit_cash Sum
                                        versus_parent_limit_cash
 strategy_name         instrument_code                          
 _ROLL_PSEUDO_STRATEGY EU-BANKS                                0
-                      V2X                                     0
-dynamic_TF_carry      CAC                                     0
-                      DOW                                     0
-                      LIVECOW                                 0
 versus_parent_limit_cash Total Sum
                        versus_parent_limit_cash
 strategy_name                                  
 _ROLL_PSEUDO_STRATEGY                         0
-dynamic_TF_carry                              0
 total_trading_cash Sum
                                        total_trading_cash
 strategy_name         instrument_code                    
-_ROLL_PSEUDO_STRATEGY EU-BANKS                   0.000000
-                      V2X                       -2.137997
-dynamic_TF_carry      CAC                        4.275995
-                      DOW                        0.198358
-                      LIVECOW                    3.967152
+_ROLL_PSEUDO_STRATEGY EU-BANKS                          0
 total_trading_cash Total Sum
                        total_trading_cash
 strategy_name                            
-_ROLL_PSEUDO_STRATEGY           -2.137997
-dynamic_TF_carry                 8.441504
+_ROLL_PSEUDO_STRATEGY                   0
 
 ********************************************************************************
                                  END OF REPORT                                  
