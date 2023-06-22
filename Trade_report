@@ -1,15 +1,163 @@
 
 ********************************************************************************
-Trades report produced on 21/06/2023 22:50 from 20/06/2023 22:50 to 21/06/2023 22:50
+Trades report produced on 22/06/2023 22:50 from 21/06/2023 22:50 to 22/06/2023 22:50
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+================================================================================================================
+                                                 Broker orders                                                  
+================================================================================================================
+
+         instrument_code          strategy_name         contract_date       fill_datetime     fill  filled_price
+order_id                                                                                                        
+32776       COPPER-micro       dynamic_TF_carry            [20230900] 2023-06-22 14:00:11      [1]        3.9345
+32775           EU-BANKS       dynamic_TF_carry            [20230900] 2023-06-22 11:17:59     [-1]      104.8500
+32777            GAS-PEN       dynamic_TF_carry            [20230800] 2023-06-22 14:00:13      [1]        2.6770
+32774             NIKKEI       dynamic_TF_carry            [20230900] 2023-06-22 01:00:07     [-1]    33380.0000
+32779           REDWHEAT  _ROLL_PSEUDO_STRATEGY  [20230900, 20231200] 2023-06-22 15:35:10  [-1, 1]        0.2500
+32778       SOYBEAN_mini       dynamic_TF_carry            [20230800] 2023-06-22 15:30:08      [1]     1405.3750
+
+
+================================================================================================================================================================
+                                                                             Delays                                                                             
+================================================================================================================================================================
+
+         instrument_code          strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                                        
+32774             NIKKEI       dynamic_TF_carry       2023-06-21 00:00:00 2023-06-22 01:00:05.680 2023-06-22 01:00:07                90005.7                1.32
+32775           EU-BANKS       dynamic_TF_carry       2023-06-16 00:00:00 2023-06-22 11:15:15.348 2023-06-22 11:17:59                 558915             163.652
+32776       COPPER-micro       dynamic_TF_carry       2023-06-21 00:00:00 2023-06-22 14:00:04.772 2023-06-22 14:00:11                 136805               6.228
+32777            GAS-PEN       dynamic_TF_carry       2023-06-20 00:00:00 2023-06-22 14:00:12.787 2023-06-22 14:00:13                 223213               0.213
+32778       SOYBEAN_mini       dynamic_TF_carry       2023-06-21 00:00:00 2023-06-22 15:30:03.130 2023-06-22 15:30:08                 142203                4.87
+32779           REDWHEAT  _ROLL_PSEUDO_STRATEGY       2023-06-21 19:00:00 2023-06-22 15:30:10.805 2023-06-22 15:35:10                73810.8             299.195
+
+
+=========================================================================================================================================================================================================================================
+                                                                                                        Slippage (ticks per lot)                                                                                                         
+=========================================================================================================================================================================================================================================
+
+         instrument_code          strategy_name    trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                                 
+32774             NIKKEI       dynamic_TF_carry     [-1]                  33435               None     33385      33380         33390       33390        33380      -50       -5        -0          -10                 NaN            -5
+32775           EU-BANKS       dynamic_TF_carry     [-1]                  105.2               None   104.825      104.8        104.85      104.85       104.85   -0.375   -0.025      0.05 -1.42109e-14                 NaN         0.025
+32776       COPPER-micro       dynamic_TF_carry      [1]                  3.911               None   3.93525      3.936        3.9345      3.9345       3.9345 -0.02425 -0.00075    0.0015            0                 NaN       0.00075
+32777            GAS-PEN       dynamic_TF_carry      [1]                   2.57               None     2.676      2.677         2.675       2.675        2.677   -0.106   -0.001         0       -0.002                 NaN        -0.001
+32778       SOYBEAN_mini       dynamic_TF_carry      [1]                   1445               None   1405.81    1406.25       1405.38     1405.38      1405.38  39.1875  -0.4375     0.875            0                 NaN        0.4375
+32779           REDWHEAT  _ROLL_PSEUDO_STRATEGY  [-1, 1]                    0.5               None     0.375       0.25           0.5         0.5         0.25   -0.125   -0.125        -0        -0.25                 NaN        -0.125
+
+
+=======================================================================================================================================================================
+                                                         Slippage (normalised by annual vol, BP of annual SR)                                                          
+=======================================================================================================================================================================
+
+         instrument_code          strategy_name    trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                               
+32774             NIKKEI       dynamic_TF_carry     [-1]         5203.74  -96.0848    -9.60848            -0          -19.217                     NaN          -9.60848
+32775           EU-BANKS       dynamic_TF_carry     [-1]         23.4929  -159.623    -10.6415       21.2831     -6.04901e-12                     NaN           10.6415
+32776       COPPER-micro       dynamic_TF_carry      [1]        0.782238  -310.008    -9.58787       19.1757                0                     NaN           9.58787
+32777            GAS-PEN       dynamic_TF_carry      [1]         2.23374  -474.541     -4.4768             0          -8.9536                     NaN           -4.4768
+32778       SOYBEAN_mini       dynamic_TF_carry      [1]         358.182   1094.07    -12.2145       24.4289                0                     NaN           12.2145
+32779           REDWHEAT  _ROLL_PSEUDO_STRATEGY  [-1, 1]         299.368  -4.17546    -4.17546            -0         -8.35091                     NaN          -4.17546
+
+
+==================================================================================================================================================================================
+                                                                           Slippage (In base currency)                                                                            
+==================================================================================================================================================================================
+
+         instrument_code          strategy_name    trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                          
+32774             NIKKEI       dynamic_TF_carry     [-1]             0.552822   -27.6411     -2.76411             -0          -5.52822                      NaN           -2.76411
+32775           EU-BANKS       dynamic_TF_carry     [-1]              43.0708   -16.1516     -1.07677        2.15354      -6.12073e-13                      NaN            1.07677
+32776       COPPER-micro       dynamic_TF_carry      [1]              1960.17   -47.5341     -1.47013        2.94025                 0                      NaN            1.47013
+32777            GAS-PEN       dynamic_TF_carry      [1]              7840.68   -831.112     -7.84068              0          -15.6814                      NaN           -7.84068
+32778       SOYBEAN_mini       dynamic_TF_carry      [1]              7.84068    307.257      -3.4303        6.86059                 0                      NaN             3.4303
+32779           REDWHEAT  _ROLL_PSEUDO_STRATEGY  [-1, 1]              39.2034   -4.90042     -4.90042             -0          -9.80085                      NaN           -4.90042
+
+delay_cash Sum
+                                       delay_cash
+strategy_name         instrument_code            
+_ROLL_PSEUDO_STRATEGY REDWHEAT          -4.900423
+dynamic_TF_carry      COPPER-micro     -47.534107
+                      EU-BANKS         -16.151550
+                      GAS-PEN         -831.111808
+                      NIKKEI           -27.641111
+                      SOYBEAN_mini     307.256547
+delay_cash Total Sum
+                       delay_cash
+strategy_name                    
+_ROLL_PSEUDO_STRATEGY   -4.900423
+dynamic_TF_carry      -615.182029
+bid_ask_cash Sum
+                                       bid_ask_cash
+strategy_name         instrument_code              
+_ROLL_PSEUDO_STRATEGY REDWHEAT            -4.900423
+dynamic_TF_carry      COPPER-micro        -1.470127
+                      EU-BANKS            -1.076770
+                      GAS-PEN             -7.840677
+                      NIKKEI              -2.764111
+                      SOYBEAN_mini        -3.430296
+bid_ask_cash Total Sum
+                       bid_ask_cash
+strategy_name                      
+_ROLL_PSEUDO_STRATEGY     -4.900423
+dynamic_TF_carry         -16.581982
+execution_cash Sum
+                                       execution_cash
+strategy_name         instrument_code                
+_ROLL_PSEUDO_STRATEGY REDWHEAT              -0.000000
+dynamic_TF_carry      COPPER-micro           2.940254
+                      EU-BANKS               2.153540
+                      GAS-PEN                0.000000
+                      NIKKEI                -0.000000
+                      SOYBEAN_mini           6.860593
+execution_cash Total Sum
+                       execution_cash
+strategy_name                        
+_ROLL_PSEUDO_STRATEGY       -0.000000
+dynamic_TF_carry            11.954387
+versus_limit_cash Sum
+                                       versus_limit_cash
+strategy_name         instrument_code                   
+_ROLL_PSEUDO_STRATEGY REDWHEAT             -9.800847e+00
+dynamic_TF_carry      COPPER-micro          0.000000e+00
+                      EU-BANKS             -6.120729e-13
+                      GAS-PEN              -1.568135e+01
+                      NIKKEI               -5.528222e+00
+                      SOYBEAN_mini          0.000000e+00
+versus_limit_cash Total Sum
+                       versus_limit_cash
+strategy_name                           
+_ROLL_PSEUDO_STRATEGY          -9.800847
+dynamic_TF_carry              -21.209577
+versus_parent_limit_cash Sum
+                                       versus_parent_limit_cash
+strategy_name         instrument_code                          
+_ROLL_PSEUDO_STRATEGY REDWHEAT                                0
+dynamic_TF_carry      COPPER-micro                            0
+                      EU-BANKS                                0
+                      GAS-PEN                                 0
+                      NIKKEI                                  0
+                      SOYBEAN_mini                            0
+versus_parent_limit_cash Total Sum
+                       versus_parent_limit_cash
+strategy_name                                  
+_ROLL_PSEUDO_STRATEGY                         0
+dynamic_TF_carry                              0
+total_trading_cash Sum
+                                       total_trading_cash
+strategy_name         instrument_code                    
+_ROLL_PSEUDO_STRATEGY REDWHEAT                  -4.900423
+dynamic_TF_carry      COPPER-micro               1.470127
+                      EU-BANKS                   1.076770
+                      GAS-PEN                   -7.840677
+                      NIKKEI                    -2.764111
+                      SOYBEAN_mini               3.430296
+total_trading_cash Total Sum
+                       total_trading_cash
+strategy_name                            
+_ROLL_PSEUDO_STRATEGY           -4.900423
+dynamic_TF_carry                -4.627595
 
 ********************************************************************************
                                  END OF REPORT                                  
