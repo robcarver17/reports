@@ -1,15 +1,163 @@
 
 ********************************************************************************
-Trades report produced on 29/06/2023 22:50 from 28/06/2023 22:50 to 29/06/2023 22:50
+Trades report produced on 30/06/2023 22:50 from 29/06/2023 22:50 to 30/06/2023 22:50
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+================================================================================================================
+                                                 Broker orders                                                  
+================================================================================================================
+
+         instrument_code          strategy_name         contract_date       fill_datetime     fill  filled_price
+order_id                                                                                                        
+32786       COPPER-micro       dynamic_TF_carry            [20230900] 2023-06-30 14:05:15     [-1]      3.736500
+32784                DAX       dynamic_TF_carry            [20230900] 2023-06-30 08:00:05      [1]  16117.000000
+32785        GAS_US_mini  _ROLL_PSEUDO_STRATEGY  [20230800, 20230900] 2023-06-30 14:05:09  [1, -1]      0.015000
+32788                GBP       dynamic_TF_carry            [20230900] 2023-06-30 15:00:07     [-1]      1.270300
+32787                JPY       dynamic_TF_carry            [20230900] 2023-06-30 15:00:06     [-1]      0.007001
+32789            RUSSELL       dynamic_TF_carry            [20230900] 2023-06-30 15:00:10      [1]   1911.000000
+
+
+================================================================================================================================================================
+                                                                             Delays                                                                             
+================================================================================================================================================================
+
+         instrument_code          strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+order_id                                                                                                                                                        
+32784                DAX       dynamic_TF_carry       2023-06-29 00:00:00 2023-06-30 08:00:04.793 2023-06-30 08:00:05                 115205               0.207
+32785        GAS_US_mini  _ROLL_PSEUDO_STRATEGY       2023-06-29 20:00:00 2023-06-30 14:00:09.714 2023-06-30 14:05:09                64809.7             299.286
+32786       COPPER-micro       dynamic_TF_carry       2023-06-29 00:00:00 2023-06-30 14:05:14.139 2023-06-30 14:05:15                 137114               0.861
+32787                JPY       dynamic_TF_carry       2023-06-29 00:00:00 2023-06-30 15:00:06.047 2023-06-30 15:00:06                 140406                 NaN
+32788                GBP       dynamic_TF_carry       2023-06-29 00:00:00 2023-06-30 15:00:07.337 2023-06-30 15:00:07                 140407                 NaN
+32789            RUSSELL       dynamic_TF_carry       2023-06-29 00:00:00 2023-06-30 15:00:08.779 2023-06-30 15:00:10                 140409               1.221
+
+
+=========================================================================================================================================================================================================================================
+                                                                                                        Slippage (ticks per lot)                                                                                                         
+=========================================================================================================================================================================================================================================
+
+         instrument_code          strategy_name    trade parent_reference_price parent_limit_price  mid_price side_price offside_price limit_price filled_price    delay bid_ask execution versus_limit versus_parent_limit total_trading
+order_id                                                                                                                                                                                                                                 
+32784                DAX       dynamic_TF_carry      [1]                  16047               None      16116      16117         16115       16115        16117      -69      -1         0           -2                 NaN            -1
+32785        GAS_US_mini  _ROLL_PSEUDO_STRATEGY  [1, -1]                   0.01               None     0.0075       0.01         0.005       0.005        0.015   0.0025 -0.0025    -0.005        -0.01                 NaN       -0.0075
+32786       COPPER-micro       dynamic_TF_carry     [-1]                 3.6975               None      3.737     3.7365        3.7375      3.7375       3.7365   0.0395 -0.0005        -0       -0.001                 NaN       -0.0005
+32787                JPY       dynamic_TF_carry     [-1]              0.0069875               None  0.0070015   0.007001      0.007002    0.007002     0.007001  1.4e-05  -5e-07        -0       -1e-06                 NaN        -5e-07
+32788                GBP       dynamic_TF_carry     [-1]                 1.2617               None     1.2704     1.2703        1.2705      1.2705       1.2703   0.0087 -0.0001        -0      -0.0002                 NaN       -0.0001
+32789            RUSSELL       dynamic_TF_carry      [1]                 1896.4               None     1910.7     1910.9        1910.5      1910.5         1911    -14.3    -0.2      -0.1         -0.5                 NaN          -0.3
+
+
+=======================================================================================================================================================================
+                                                         Slippage (normalised by annual vol, BP of annual SR)                                                          
+=======================================================================================================================================================================
+
+         instrument_code          strategy_name    trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+order_id                                                                                                                                                               
+32784                DAX       dynamic_TF_carry      [1]         2101.72  -328.303    -4.75801             0         -9.51602                     NaN          -4.75801
+32785        GAS_US_mini  _ROLL_PSEUDO_STRATEGY  [1, -1]         2.11147   11.8401    -11.8401      -23.6802         -47.3605                     NaN          -35.5204
+32786       COPPER-micro       dynamic_TF_carry     [-1]        0.794973   496.872    -6.28952            -0          -12.579                     NaN          -6.28952
+32787                JPY       dynamic_TF_carry     [-1]     0.000620988   225.447    -8.05169            -0         -16.1034                     NaN          -8.05169
+32788                GBP       dynamic_TF_carry     [-1]        0.101844   854.248    -9.81894            -0         -19.6379                     NaN          -9.81894
+32789            RUSSELL       dynamic_TF_carry      [1]         394.034  -362.913    -5.07571      -2.53785         -12.6893                     NaN          -7.61356
+
+
+==================================================================================================================================================================================
+                                                                           Slippage (In base currency)                                                                            
+==================================================================================================================================================================================
+
+         instrument_code          strategy_name    trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+order_id                                                                                                                                                                          
+32784                DAX       dynamic_TF_carry      [1]             0.860661   -59.3856    -0.860661              0          -1.72132                      NaN          -0.860661
+32785        GAS_US_mini  _ROLL_PSEUDO_STRATEGY  [1, -1]              1979.81    4.94951     -4.94951       -9.89903          -19.7981                      NaN           -14.8485
+32786       COPPER-micro       dynamic_TF_carry     [-1]              1979.81    78.2023    -0.989903             -0          -1.97981                      NaN          -0.989903
+32787                JPY       dynamic_TF_carry     [-1]          9.89903e+06    138.586     -4.94951             -0          -9.89903                      NaN           -4.94951
+32788                GBP       dynamic_TF_carry     [-1]              49495.1    430.608     -4.94951             -0          -9.89903                      NaN           -4.94951
+32789            RUSSELL       dynamic_TF_carry      [1]              3.95961   -56.6225    -0.791922      -0.395961          -1.97981                      NaN           -1.18788
+
+delay_cash Sum
+                                       delay_cash
+strategy_name         instrument_code            
+_ROLL_PSEUDO_STRATEGY GAS_US_mini        4.949515
+dynamic_TF_carry      COPPER-micro      78.202336
+                      DAX              -59.385627
+                      GBP              430.607800
+                      JPY              138.586419
+                      RUSSELL          -56.622451
+delay_cash Total Sum
+                       delay_cash
+strategy_name                    
+_ROLL_PSEUDO_STRATEGY    4.949515
+dynamic_TF_carry       531.388478
+bid_ask_cash Sum
+                                       bid_ask_cash
+strategy_name         instrument_code              
+_ROLL_PSEUDO_STRATEGY GAS_US_mini         -4.949515
+dynamic_TF_carry      COPPER-micro        -0.989903
+                      DAX                 -0.860661
+                      GBP                 -4.949515
+                      JPY                 -4.949515
+                      RUSSELL             -0.791922
+bid_ask_cash Total Sum
+                       bid_ask_cash
+strategy_name                      
+_ROLL_PSEUDO_STRATEGY     -4.949515
+dynamic_TF_carry         -12.541517
+execution_cash Sum
+                                       execution_cash
+strategy_name         instrument_code                
+_ROLL_PSEUDO_STRATEGY GAS_US_mini           -9.899030
+dynamic_TF_carry      COPPER-micro          -0.000000
+                      DAX                    0.000000
+                      GBP                   -0.000000
+                      JPY                   -0.000000
+                      RUSSELL               -0.395961
+execution_cash Total Sum
+                       execution_cash
+strategy_name                        
+_ROLL_PSEUDO_STRATEGY       -9.899030
+dynamic_TF_carry            -0.395961
+versus_limit_cash Sum
+                                       versus_limit_cash
+strategy_name         instrument_code                   
+_ROLL_PSEUDO_STRATEGY GAS_US_mini             -19.798060
+dynamic_TF_carry      COPPER-micro             -1.979806
+                      DAX                      -1.721323
+                      GBP                      -9.899030
+                      JPY                      -9.899030
+                      RUSSELL                  -1.979806
+versus_limit_cash Total Sum
+                       versus_limit_cash
+strategy_name                           
+_ROLL_PSEUDO_STRATEGY         -19.798060
+dynamic_TF_carry              -25.478994
+versus_parent_limit_cash Sum
+                                       versus_parent_limit_cash
+strategy_name         instrument_code                          
+_ROLL_PSEUDO_STRATEGY GAS_US_mini                             0
+dynamic_TF_carry      COPPER-micro                            0
+                      DAX                                     0
+                      GBP                                     0
+                      JPY                                     0
+                      RUSSELL                                 0
+versus_parent_limit_cash Total Sum
+                       versus_parent_limit_cash
+strategy_name                                  
+_ROLL_PSEUDO_STRATEGY                         0
+dynamic_TF_carry                              0
+total_trading_cash Sum
+                                       total_trading_cash
+strategy_name         instrument_code                    
+_ROLL_PSEUDO_STRATEGY GAS_US_mini              -14.848545
+dynamic_TF_carry      COPPER-micro              -0.989903
+                      DAX                       -0.860661
+                      GBP                       -4.949515
+                      JPY                       -4.949515
+                      RUSSELL                   -1.187884
+total_trading_cash Total Sum
+                       total_trading_cash
+strategy_name                            
+_ROLL_PSEUDO_STRATEGY          -14.848545
+dynamic_TF_carry               -12.937478
 
 ********************************************************************************
                                  END OF REPORT                                  
