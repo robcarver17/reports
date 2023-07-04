@@ -1,140 +1,119 @@
 
 ********************************************************************************
-Trades report produced on 03/07/2023 22:50 from 02/07/2023 22:50 to 03/07/2023 22:50
+Trades report produced on 04/07/2023 22:49 from 03/07/2023 22:49 to 04/07/2023 22:49
 ********************************************************************************
 
 
 
-======================================================================================================
-                                            Broker orders                                             
-======================================================================================================
+=================================================================================================
+                                          Broker orders                                          
+=================================================================================================
 
-      instrument_code          strategy_name contract_date           fill_datetime  fill  filled_price
-32794      FTSETAIWAN       dynamic_TF_carry    [20230600] 2023-07-03 13:20:06.013  [-1]       1462.25
-32795        REDWHEAT       dynamic_TF_carry    [20230700] 2023-07-03 13:21:15.471   [1]        795.50
-32792             V2X  _ROLL_PSEUDO_STRATEGY    [20230700] 2023-07-03 09:28:14.000   [1]         14.75
-32793             V2X  _ROLL_PSEUDO_STRATEGY    [20230700] 2023-07-03 09:28:49.000   [1]         14.70
-32790             V2X  _ROLL_PSEUDO_STRATEGY    [20230700] 2023-07-03 09:26:01.000   [1]         14.75
-32791             V2X  _ROLL_PSEUDO_STRATEGY    [20230700] 2023-07-03 09:28:10.000   [1]         14.70
+      instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
+32798             BRE  dynamic_TF_carry    [20230700] 2023-07-04 17:49:16.458  [-1]       0.20565
+32797             DOW  dynamic_TF_carry    [20230900] 2023-07-04 15:00:07.000   [1]   34595.00000
+32796      FTSETAIWAN  dynamic_TF_carry    [20230700] 2023-07-04 01:45:06.000   [1]    1462.00000
 
 
-=================================================================================================================================================================
-                                                                             Delays                                                                              
-=================================================================================================================================================================
+============================================================================================================================================================
+                                                                           Delays                                                                           
+============================================================================================================================================================
 
-      instrument_code          strategy_name parent_reference_datetime         submit_datetime           fill_datetime submit_minus_generated filled_minus_submit
-32792             V2X  _ROLL_PSEUDO_STRATEGY       2023-06-30 16:00:00 2023-07-03 09:28:14.254 2023-07-03 09:28:14.000                 235694                 NaN
-32793             V2X  _ROLL_PSEUDO_STRATEGY       2023-06-30 16:00:00 2023-07-03 09:28:18.344 2023-07-03 09:28:49.000                 235698              30.656
-32790             V2X  _ROLL_PSEUDO_STRATEGY       2023-06-30 16:00:00 2023-07-03 09:21:01.509 2023-07-03 09:26:01.000                 235262             299.491
-32791             V2X  _ROLL_PSEUDO_STRATEGY       2023-06-30 16:00:00 2023-07-03 09:28:10.061 2023-07-03 09:28:10.000                 235690                 NaN
-32794      FTSETAIWAN       dynamic_TF_carry                       NaT                     NaT 2023-07-03 13:20:06.013                    NaN                 NaN
-32795        REDWHEAT       dynamic_TF_carry                       NaT                     NaT 2023-07-03 13:21:15.471                    NaN                 NaN
+      instrument_code     strategy_name parent_reference_datetime         submit_datetime           fill_datetime submit_minus_generated filled_minus_submit
+32796      FTSETAIWAN  dynamic_TF_carry                2023-06-29 2023-07-04 01:45:05.685 2023-07-04 01:45:06.000                 438306               0.315
+32797             DOW  dynamic_TF_carry                2023-06-29 2023-07-04 15:00:04.605 2023-07-04 15:00:07.000                 486005               2.395
+32798             BRE  dynamic_TF_carry                       NaT                     NaT 2023-07-04 17:49:16.458                    NaN                 NaN
 
 
-================================================================================================================================================================================================================================
-                                                                                                    Slippage (ticks per lot)                                                                                                    
-================================================================================================================================================================================================================================
+==========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                 
+==========================================================================================================================================================================================================================
 
-      instrument_code          strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
-32792             V2X  _ROLL_PSEUDO_STRATEGY   [1]                  14.95               None      14.7      14.75         14.65       14.65        14.75   0.25   -0.05         0         -0.1                 NaN         -0.05
-32793             V2X  _ROLL_PSEUDO_STRATEGY   [1]                  14.95               None    14.725      14.75          14.7        14.7         14.7  0.225  -0.025      0.05  1.77636e-15                 NaN         0.025
-32790             V2X  _ROLL_PSEUDO_STRATEGY   [1]                  14.95               None    14.725      14.75          14.7        14.7        14.75  0.225  -0.025         0        -0.05                 NaN        -0.025
-32791             V2X  _ROLL_PSEUDO_STRATEGY   [1]                  14.95               None    14.725      14.75          14.7        14.7         14.7  0.225  -0.025      0.05  1.77636e-15                 NaN         0.025
-32794      FTSETAIWAN       dynamic_TF_carry  [-1]                    NaN               None       NaN        NaN           NaN         NaN      1462.25    NaN     NaN       NaN          NaN                 NaN           NaN
-32795        REDWHEAT       dynamic_TF_carry   [1]                    NaN               None       NaN        NaN           NaN         NaN        795.5    NaN     NaN       NaN          NaN                 NaN           NaN
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
+32796      FTSETAIWAN  dynamic_TF_carry   [1]                   1445               None      1462    1462.25       1461.75     1461.75         1462   -17   -0.25      0.25        -0.25                 NaN             0
+32797             DOW  dynamic_TF_carry   [1]                  34323               None     34596      34597         34595       34595        34595  -273      -1         2            0                 NaN             1
+32798             BRE  dynamic_TF_carry  [-1]                    NaN               None       NaN        NaN           NaN         NaN      0.20565   NaN     NaN       NaN          NaN                 NaN           NaN
 
 
-=================================================================================================================================================================
-                                                      Slippage (normalised by annual vol, BP of annual SR)                                                       
-=================================================================================================================================================================
+============================================================================================================================================================
+                                                    Slippage (normalised by annual vol, BP of annual SR)                                                    
+============================================================================================================================================================
 
-      instrument_code          strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-32792             V2X  _ROLL_PSEUDO_STRATEGY   [1]          8.6199   290.027    -58.0053             0         -116.011                     NaN          -58.0053
-32793             V2X  _ROLL_PSEUDO_STRATEGY   [1]          8.6199   261.024    -29.0027       58.0053      2.06076e-12                     NaN           29.0027
-32790             V2X  _ROLL_PSEUDO_STRATEGY   [1]          8.6199   261.024    -29.0027             0         -58.0053                     NaN          -29.0027
-32791             V2X  _ROLL_PSEUDO_STRATEGY   [1]          8.6199   261.024    -29.0027       58.0053      2.06076e-12                     NaN           29.0027
-32794      FTSETAIWAN       dynamic_TF_carry  [-1]         195.316       NaN         NaN           NaN              NaN                     NaN               NaN
-32795        REDWHEAT       dynamic_TF_carry   [1]         314.048       NaN         NaN           NaN              NaN                     NaN               NaN
+      instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+32796      FTSETAIWAN  dynamic_TF_carry   [1]         195.316  -870.386    -12.7998       12.7998         -12.7998                     NaN                 0
+32797             DOW  dynamic_TF_carry   [1]         4063.74  -671.795    -2.46079       4.92157                0                     NaN           2.46079
+32798             BRE  dynamic_TF_carry  [-1]       0.0242533       NaN         NaN           NaN              NaN                     NaN               NaN
 
 
-============================================================================================================================================================================
-                                                                        Slippage (In base currency)                                                                         
-============================================================================================================================================================================
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
 
-      instrument_code          strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-32792             V2X  _ROLL_PSEUDO_STRATEGY   [1]              85.8693    21.4673     -4.29346              0          -8.58693                      NaN           -4.29346
-32793             V2X  _ROLL_PSEUDO_STRATEGY   [1]              85.8693    19.3206     -2.14673        4.29346       1.52534e-13                      NaN            2.14673
-32790             V2X  _ROLL_PSEUDO_STRATEGY   [1]              85.8693    19.3206     -2.14673              0          -4.29346                      NaN           -2.14673
-32791             V2X  _ROLL_PSEUDO_STRATEGY   [1]              85.8693    19.3206     -2.14673        4.29346       1.52534e-13                      NaN            2.14673
-32794      FTSETAIWAN       dynamic_TF_carry  [-1]              31.5594        NaN          NaN            NaN               NaN                      NaN                NaN
-32795        REDWHEAT       dynamic_TF_carry   [1]              39.4493        NaN          NaN            NaN               NaN                      NaN                NaN
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+32796      FTSETAIWAN  dynamic_TF_carry   [1]              31.5308   -536.024     -7.88271        7.88271          -7.88271                      NaN                  0
+32797             DOW  dynamic_TF_carry   [1]             0.394135   -107.599    -0.394135       0.788271                 0                      NaN           0.394135
+32798             BRE  dynamic_TF_carry  [-1]              78827.1        NaN          NaN            NaN               NaN                      NaN                NaN
 
 delay_cash Sum
-                                       delay_cash
-strategy_name         instrument_code            
-_ROLL_PSEUDO_STRATEGY V2X                79.42907
-dynamic_TF_carry      FTSETAIWAN          0.00000
-                      REDWHEAT            0.00000
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry BRE                0.000000
+                 DOW             -107.598928
+                 FTSETAIWAN      -536.023963
 delay_cash Total Sum
-                       delay_cash
-strategy_name                    
-_ROLL_PSEUDO_STRATEGY    79.42907
-dynamic_TF_carry          0.00000
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -643.622891
 bid_ask_cash Sum
-                                       bid_ask_cash
-strategy_name         instrument_code              
-_ROLL_PSEUDO_STRATEGY V2X                -10.733658
-dynamic_TF_carry      FTSETAIWAN           0.000000
-                      REDWHEAT             0.000000
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry BRE                  0.000000
+                 DOW                 -0.394135
+                 FTSETAIWAN          -7.882705
 bid_ask_cash Total Sum
-                       bid_ask_cash
-strategy_name                      
-_ROLL_PSEUDO_STRATEGY    -10.733658
-dynamic_TF_carry           0.000000
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry     -8.276841
 execution_cash Sum
-                                       execution_cash
-strategy_name         instrument_code                
-_ROLL_PSEUDO_STRATEGY V2X                    8.586927
-dynamic_TF_carry      FTSETAIWAN             0.000000
-                      REDWHEAT               0.000000
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry BRE                    0.000000
+                 DOW                    0.788271
+                 FTSETAIWAN             7.882705
 execution_cash Total Sum
-                       execution_cash
-strategy_name                        
-_ROLL_PSEUDO_STRATEGY        8.586927
-dynamic_TF_carry             0.000000
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry        8.670976
 versus_limit_cash Sum
-                                       versus_limit_cash
-strategy_name         instrument_code                   
-_ROLL_PSEUDO_STRATEGY V2X                      -12.88039
-dynamic_TF_carry      FTSETAIWAN                 0.00000
-                      REDWHEAT                   0.00000
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry BRE                       0.000000
+                 DOW                       0.000000
+                 FTSETAIWAN               -7.882705
 versus_limit_cash Total Sum
-                       versus_limit_cash
-strategy_name                           
-_ROLL_PSEUDO_STRATEGY          -12.88039
-dynamic_TF_carry                 0.00000
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry          -7.882705
 versus_parent_limit_cash Sum
-                                       versus_parent_limit_cash
-strategy_name         instrument_code                          
-_ROLL_PSEUDO_STRATEGY V2X                                     0
-dynamic_TF_carry      FTSETAIWAN                              0
-                      REDWHEAT                                0
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry BRE                                     0
+                 DOW                                     0
+                 FTSETAIWAN                              0
 versus_parent_limit_cash Total Sum
-                       versus_parent_limit_cash
-strategy_name                                  
-_ROLL_PSEUDO_STRATEGY                         0
-dynamic_TF_carry                              0
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
 total_trading_cash Sum
-                                       total_trading_cash
-strategy_name         instrument_code                    
-_ROLL_PSEUDO_STRATEGY V2X                       -2.146732
-dynamic_TF_carry      FTSETAIWAN                 0.000000
-                      REDWHEAT                   0.000000
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry BRE                        0.000000
+                 DOW                        0.394135
+                 FTSETAIWAN                 0.000000
 total_trading_cash Total Sum
-                       total_trading_cash
-strategy_name                            
-_ROLL_PSEUDO_STRATEGY           -2.146732
-dynamic_TF_carry                 0.000000
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry            0.394135
 
 ********************************************************************************
                                  END OF REPORT                                  

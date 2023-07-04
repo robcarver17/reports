@@ -1,10 +1,10 @@
 
 ********************************************************************************
-                 Reconcile report produced on 03/07/2023 22:50                  
+                 Reconcile report produced on 04/07/2023 22:49                  
 ********************************************************************************
 
 
-Breaks Optimal vs actual ['dynamic_TF_carry BRE', 'dynamic_TF_carry DOW', 'dynamic_TF_carry FTSETAIWAN', 'dynamic_TF_carry REDWHEAT']
+Breaks Optimal vs actual ['dynamic_TF_carry DOW', 'dynamic_TF_carry REDWHEAT']
  Breaks Instrument vs Contract []
  Breaks Broker vs Contract []
 
@@ -14,13 +14,13 @@ Breaks Optimal vs actual ['dynamic_TF_carry BRE', 'dynamic_TF_carry DOW', 'dynam
 
    instrument_code contract_date          expiry_date  position
 0          BITCOIN      20230728  2023-07-28 00:00:00       1.0
-1              BRE      20230630  2023-06-30 00:00:00       1.0
-2              CAC      20230721  2023-07-21 00:00:00       1.0
-3              CHF      20230918  2023-09-18 00:00:00      -1.0
-4              CNH      20230717  2023-07-17 00:00:00       3.0
-5              DOW      20230915  2023-09-15 00:00:00      -2.0
-6          EU-AUTO      20230915  2023-09-15 00:00:00       1.0
-7           EU-OIL      20230915  2023-09-15 00:00:00       2.0
+1              CAC      20230721  2023-07-21 00:00:00       1.0
+2              CHF      20230918  2023-09-18 00:00:00      -1.0
+3              CNH      20230717  2023-07-17 00:00:00       3.0
+4              DOW      20230915  2023-09-15 00:00:00      -1.0
+5          EU-AUTO      20230915  2023-09-15 00:00:00       1.0
+6           EU-OIL      20230915  2023-09-15 00:00:00       2.0
+7       FTSETAIWAN      20230728  2023-07-28 00:00:00       1.0
 8      GAS_US_mini      20230828  2023-08-28 00:00:00      -1.0
 9              JPY      20230918  2023-09-18 00:00:00      -2.0
 10         LEANHOG      20230814  2023-08-14 00:00:00      -1.0
@@ -38,48 +38,47 @@ Breaks Optimal vs actual ['dynamic_TF_carry BRE', 'dynamic_TF_carry DOW', 'dynam
 ===============================================================
 
    instrument_code contract_date          expiry_date  position
-5          BITCOIN      20230728  2023-07-28 00:00:00       1.0
-13             BRE      20230630  2023-06-30 00:00:00       1.0
-9              CAC      20230721  2023-07-21 00:00:00       1.0
+11         BITCOIN      20230728  2023-07-28 00:00:00       1.0
+17             CAC      20230721  2023-07-21 00:00:00       1.0
 6              CHF      20230918  2023-09-18 00:00:00      -1.0
-4              CNH      20230717  2023-07-17 00:00:00       3.0
-7              DOW      20230915  2023-09-15 00:00:00      -2.0
-2          EU-AUTO      20230915  2023-09-15 00:00:00       1.0
-17          EU-OIL      20230915  2023-09-15 00:00:00       2.0
-3      GAS_US_mini      20230828  2023-08-28 00:00:00      -1.0
-8              JPY      20230918  2023-09-18 00:00:00      -2.0
-15         LEANHOG      20230814  2023-08-14 00:00:00      -1.0
-10         LIVECOW      20230831  2023-08-31 00:00:00       2.0
-14             MXP      20230918  2023-09-18 00:00:00       1.0
-12          NIKKEI      20230907  2023-09-07 00:00:00       1.0
-1         REDWHEAT      20231214  2023-12-14 00:00:00       1.0
-11    SOYBEAN_mini      20230814  2023-08-14 00:00:00       1.0
-0              US3      20230929  2023-09-29 00:00:00      -1.0
-16             VIX      20230920  2023-09-20 00:00:00      -1.0
+16             CNH      20230717  2023-07-17 00:00:00       3.0
+5              DOW      20230915  2023-09-15 00:00:00      -1.0
+12         EU-AUTO      20230915  2023-09-15 00:00:00       1.0
+4           EU-OIL      20230915  2023-09-15 00:00:00       2.0
+0       FTSETAIWAN      20230728  2023-07-28 00:00:00       1.0
+10     GAS_US_mini      20230828  2023-08-28 00:00:00      -1.0
+15             JPY      20230918  2023-09-18 00:00:00      -2.0
+8          LEANHOG      20230814  2023-08-14 00:00:00      -1.0
+3          LIVECOW      20230831  2023-08-31 00:00:00       2.0
+13             MXP      20230918  2023-09-18 00:00:00       1.0
+9           NIKKEI      20230907  2023-09-07 00:00:00       1.0
+7         REDWHEAT      20231214  2023-12-14 00:00:00       1.0
+14    SOYBEAN_mini      20230814  2023-08-14 00:00:00       1.0
+1              US3      20230929  2023-09-29 00:00:00      -1.0
+2              VIX      20230920  2023-09-20 00:00:00      -1.0
 
 
-===========================================================================================
-                                       Trades in DB                                        
-===========================================================================================
+======================================================================================
+                                     Trades in DB                                     
+======================================================================================
 
-                    strategy_name contract_date           fill_datetime  fill  filled_price
-V2X         _ROLL_PSEUDO_STRATEGY    [20230700] 2023-07-03 09:28:14.000   [1]         14.75
-V2X         _ROLL_PSEUDO_STRATEGY    [20230700] 2023-07-03 09:28:49.000   [1]         14.70
-V2X         _ROLL_PSEUDO_STRATEGY    [20230700] 2023-07-03 09:26:01.000   [1]         14.75
-V2X         _ROLL_PSEUDO_STRATEGY    [20230700] 2023-07-03 09:28:10.000   [1]         14.70
-FTSETAIWAN       dynamic_TF_carry    [20230600] 2023-07-03 13:20:06.013  [-1]       1462.25
-REDWHEAT         dynamic_TF_carry    [20230700] 2023-07-03 13:21:15.471   [1]        795.50
+               strategy_name contract_date           fill_datetime  fill  filled_price
+FTSETAIWAN  dynamic_TF_carry    [20230700] 2023-07-04 01:45:06.000   [1]    1462.00000
+DOW         dynamic_TF_carry    [20230900] 2023-07-04 15:00:07.000   [1]   34595.00000
+BRE         dynamic_TF_carry    [20230700] 2023-07-04 17:49:16.458  [-1]       0.20565
 
 
-======================================================================
-                          Trades from broker                          
-======================================================================
+==============================================================================
+                              Trades from broker                              
+==============================================================================
 
-    strategy_name contract_date       fill_datetime fill  filled_price
-V2X                  [20230719] 2023-07-03 09:28:10  [1]         14.70
-V2X                  [20230719] 2023-07-03 09:28:14  [1]         14.75
-V2X                  [20230719] 2023-07-03 09:26:01  [1]         14.75
-V2X                  [20230719] 2023-07-03 09:28:49  [1]         14.70
+           strategy_name contract_date       fill_datetime  fill  filled_price
+BITCOIN                     [20230825] 2023-07-04 17:37:41  [-1]       31685.0
+BITCOIN                     [20230825] 2023-07-04 17:40:44   [1]       31740.0
+DOW                         [20230915] 2023-07-04 15:00:07   [1]       34595.0
+BITCOIN                     [20230825] 2023-07-04 17:45:58   [1]       31680.0
+FTSETAIWAN                  [20230728] 2023-07-04 01:45:06   [1]        1462.0
+BITCOIN                     [20230825] 2023-07-04 17:47:28  [-1]       31565.0
 
 
 ===================================================================
@@ -97,7 +96,7 @@ dynamic_TF_carry BITCOIN                   1              1   False
 dynamic_TF_carry BOBL                      0              0   False
 dynamic_TF_carry BONO                      0              0   False
 dynamic_TF_carry BOVESPA                   0              0   False
-dynamic_TF_carry BRE                       1              0    True
+dynamic_TF_carry BRE                       0              0   False
 dynamic_TF_carry BRENT-LAST                0              0   False
 dynamic_TF_carry BTP                       0              0   False
 dynamic_TF_carry BTP3                      0              0   False
@@ -120,7 +119,7 @@ dynamic_TF_carry CRUDE_W_mini              0              0   False
 dynamic_TF_carry CZK                       0              0   False
 dynamic_TF_carry DAX                       0              0   False
 dynamic_TF_carry DJSTX-SMALL               0              0   False
-dynamic_TF_carry DOW                      -2             -1    True
+dynamic_TF_carry DOW                      -1              0    True
 dynamic_TF_carry EDOLLAR                   0              0   False
 dynamic_TF_carry EPRA-EUROPE               0              0   False
 dynamic_TF_carry ETHANOL                   0              0   False
@@ -161,7 +160,7 @@ dynamic_TF_carry FEEDCOW                   0              0   False
 dynamic_TF_carry FTSECHINAA                0              0   False
 dynamic_TF_carry FTSECHINAH                0              0   False
 dynamic_TF_carry FTSEINDO                  0              0   False
-dynamic_TF_carry FTSETAIWAN                0              1    True
+dynamic_TF_carry FTSETAIWAN                1              1   False
 dynamic_TF_carry FTSEVIET                  0              0   False
 dynamic_TF_carry GAS-LAST                  0              0   False
 dynamic_TF_carry GAS-PEN                   0              0   False
