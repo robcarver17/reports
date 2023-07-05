@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 04/07/2023 22:49 from 03/07/2023 22:49 to 04/07/2023 22:49
+Trades report produced on 05/07/2023 22:49 from 04/07/2023 22:49 to 05/07/2023 22:49
 ********************************************************************************
 
 
@@ -10,9 +10,9 @@ Trades report produced on 04/07/2023 22:49 from 03/07/2023 22:49 to 04/07/2023 2
 =================================================================================================
 
       instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
-32798             BRE  dynamic_TF_carry    [20230700] 2023-07-04 17:49:16.458  [-1]       0.20565
-32797             DOW  dynamic_TF_carry    [20230900] 2023-07-04 15:00:07.000   [1]   34595.00000
-32796      FTSETAIWAN  dynamic_TF_carry    [20230700] 2023-07-04 01:45:06.000   [1]    1462.00000
+32799             DOW  dynamic_TF_carry    [20230900] 2023-07-05 15:14:11.005   [0]           NaN
+32800             DOW  dynamic_TF_carry    [20230900] 2023-07-05 15:18:36.000   [1]      34502.00
+32801        REDWHEAT  dynamic_TF_carry    [20231200] 2023-07-05 15:34:38.000  [-1]        833.75
 
 
 ============================================================================================================================================================
@@ -20,19 +20,19 @@ Trades report produced on 04/07/2023 22:49 from 03/07/2023 22:49 to 04/07/2023 2
 ============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime         submit_datetime           fill_datetime submit_minus_generated filled_minus_submit
-32796      FTSETAIWAN  dynamic_TF_carry                2023-06-29 2023-07-04 01:45:05.685 2023-07-04 01:45:06.000                 438306               0.315
-32797             DOW  dynamic_TF_carry                2023-06-29 2023-07-04 15:00:04.605 2023-07-04 15:00:07.000                 486005               2.395
-32798             BRE  dynamic_TF_carry                       NaT                     NaT 2023-07-04 17:49:16.458                    NaN                 NaN
+32799             DOW  dynamic_TF_carry                       NaT 2023-07-05 15:14:10.888 2023-07-05 15:14:11.005                    NaN               0.117
+32800             DOW  dynamic_TF_carry                       NaT 2023-07-05 15:18:36.393 2023-07-05 15:18:36.000                    NaN                 NaN
+32801        REDWHEAT  dynamic_TF_carry                2023-06-29 2023-07-05 15:34:38.232 2023-07-05 15:34:38.000                 574478                 NaN
 
 
-==========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                 
-==========================================================================================================================================================================================================================
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
-32796      FTSETAIWAN  dynamic_TF_carry   [1]                   1445               None      1462    1462.25       1461.75     1461.75         1462   -17   -0.25      0.25        -0.25                 NaN             0
-32797             DOW  dynamic_TF_carry   [1]                  34323               None     34596      34597         34595       34595        34595  -273      -1         2            0                 NaN             1
-32798             BRE  dynamic_TF_carry  [-1]                    NaN               None       NaN        NaN           NaN         NaN      0.20565   NaN     NaN       NaN          NaN                 NaN           NaN
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+32799             DOW  dynamic_TF_carry   [1]                    NaN               None   34507.5      34508         34507         NaN          NaN    NaN    -0.5       NaN          NaN                 NaN           NaN
+32800             DOW  dynamic_TF_carry   [1]                    NaN               None   34500.5      34501         34500         NaN        34502    NaN    -0.5        -1          NaN                 NaN          -1.5
+32801        REDWHEAT  dynamic_TF_carry  [-1]                  801.5               None    834.25        834         834.5       834.5       833.75  32.75   -0.25     -0.25        -0.75                 NaN          -0.5
 
 
 ============================================================================================================================================================
@@ -40,9 +40,9 @@ Trades report produced on 04/07/2023 22:49 from 03/07/2023 22:49 to 04/07/2023 2
 ============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-32796      FTSETAIWAN  dynamic_TF_carry   [1]         195.316  -870.386    -12.7998       12.7998         -12.7998                     NaN                 0
-32797             DOW  dynamic_TF_carry   [1]         4063.74  -671.795    -2.46079       4.92157                0                     NaN           2.46079
-32798             BRE  dynamic_TF_carry  [-1]       0.0242533       NaN         NaN           NaN              NaN                     NaN               NaN
+32799             DOW  dynamic_TF_carry   [1]         4063.74       NaN    -1.23039           NaN              NaN                     NaN               NaN
+32800             DOW  dynamic_TF_carry   [1]         4063.74       NaN    -1.23039      -2.46079              NaN                     NaN          -3.69118
+32801        REDWHEAT  dynamic_TF_carry  [-1]         314.048   1042.83    -7.96056      -7.96056         -23.8817                     NaN          -15.9211
 
 
 =======================================================================================================================================================================
@@ -50,56 +50,51 @@ Trades report produced on 04/07/2023 22:49 from 03/07/2023 22:49 to 04/07/2023 2
 =======================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-32796      FTSETAIWAN  dynamic_TF_carry   [1]              31.5308   -536.024     -7.88271        7.88271          -7.88271                      NaN                  0
-32797             DOW  dynamic_TF_carry   [1]             0.394135   -107.599    -0.394135       0.788271                 0                      NaN           0.394135
-32798             BRE  dynamic_TF_carry  [-1]              78827.1        NaN          NaN            NaN               NaN                      NaN                NaN
+32799             DOW  dynamic_TF_carry   [1]             0.393499        NaN     -0.19675            NaN               NaN                      NaN                NaN
+32800             DOW  dynamic_TF_carry   [1]             0.393499        NaN     -0.19675      -0.393499               NaN                      NaN          -0.590249
+32801        REDWHEAT  dynamic_TF_carry  [-1]              39.3499    1288.71     -9.83748       -9.83748          -29.5125                      NaN            -19.675
 
 delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry BRE                0.000000
-                 DOW             -107.598928
-                 FTSETAIWAN      -536.023963
+                                   delay_cash
+strategy_name    instrument_code             
+dynamic_TF_carry DOW                 0.000000
+                 REDWHEAT         1288.710502
 delay_cash Total Sum
-                  delay_cash
-strategy_name               
-dynamic_TF_carry -643.622891
+                   delay_cash
+strategy_name                
+dynamic_TF_carry  1288.710502
 bid_ask_cash Sum
                                   bid_ask_cash
 strategy_name    instrument_code              
-dynamic_TF_carry BRE                  0.000000
-                 DOW                 -0.394135
-                 FTSETAIWAN          -7.882705
+dynamic_TF_carry DOW                 -0.393499
+                 REDWHEAT            -9.837485
 bid_ask_cash Total Sum
                   bid_ask_cash
 strategy_name                 
-dynamic_TF_carry     -8.276841
+dynamic_TF_carry    -10.230984
 execution_cash Sum
                                   execution_cash
 strategy_name    instrument_code                
-dynamic_TF_carry BRE                    0.000000
-                 DOW                    0.788271
-                 FTSETAIWAN             7.882705
+dynamic_TF_carry DOW                   -0.393499
+                 REDWHEAT              -9.837485
 execution_cash Total Sum
                   execution_cash
 strategy_name                   
-dynamic_TF_carry        8.670976
+dynamic_TF_carry      -10.230984
 versus_limit_cash Sum
                                   versus_limit_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry BRE                       0.000000
-                 DOW                       0.000000
-                 FTSETAIWAN               -7.882705
+dynamic_TF_carry DOW                       0.000000
+                 REDWHEAT                -29.512454
 versus_limit_cash Total Sum
                   versus_limit_cash
 strategy_name                      
-dynamic_TF_carry          -7.882705
+dynamic_TF_carry         -29.512454
 versus_parent_limit_cash Sum
                                   versus_parent_limit_cash
 strategy_name    instrument_code                          
-dynamic_TF_carry BRE                                     0
-                 DOW                                     0
-                 FTSETAIWAN                              0
+dynamic_TF_carry DOW                                     0
+                 REDWHEAT                                0
 versus_parent_limit_cash Total Sum
                   versus_parent_limit_cash
 strategy_name                             
@@ -107,13 +102,12 @@ dynamic_TF_carry                         0
 total_trading_cash Sum
                                   total_trading_cash
 strategy_name    instrument_code                    
-dynamic_TF_carry BRE                        0.000000
-                 DOW                        0.394135
-                 FTSETAIWAN                 0.000000
+dynamic_TF_carry DOW                       -0.590249
+                 REDWHEAT                 -19.674970
 total_trading_cash Total Sum
                   total_trading_cash
 strategy_name                       
-dynamic_TF_carry            0.394135
+dynamic_TF_carry          -20.265219
 
 ********************************************************************************
                                  END OF REPORT                                  
