@@ -1,10 +1,10 @@
 
 ********************************************************************************
-                 Reconcile report produced on 05/07/2023 22:49                  
+                 Reconcile report produced on 06/07/2023 22:49                  
 ********************************************************************************
 
 
-Breaks Optimal vs actual []
+Breaks Optimal vs actual ['dynamic_TF_carry DAX', 'dynamic_TF_carry SP500_micro']
  Breaks Instrument vs Contract []
  Breaks Broker vs Contract []
 
@@ -36,41 +36,40 @@ Breaks Optimal vs actual []
 ===============================================================
 
    instrument_code contract_date          expiry_date  position
-0          BITCOIN      20230728  2023-07-28 00:00:00       1.0
-12             CAC      20230721  2023-07-21 00:00:00       1.0
-5              CHF      20230918  2023-09-18 00:00:00      -1.0
-15             CNH      20230717  2023-07-17 00:00:00       3.0
-7          EU-AUTO      20230915  2023-09-15 00:00:00       1.0
-9           EU-OIL      20230915  2023-09-15 00:00:00       2.0
-1       FTSETAIWAN      20230728  2023-07-28 00:00:00       1.0
-2      GAS_US_mini      20230828  2023-08-28 00:00:00      -1.0
-6              JPY      20230918  2023-09-18 00:00:00      -2.0
-10         LEANHOG      20230814  2023-08-14 00:00:00      -1.0
-3          LIVECOW      20230831  2023-08-31 00:00:00       2.0
-14             MXP      20230918  2023-09-18 00:00:00       1.0
-13          NIKKEI      20230907  2023-09-07 00:00:00       1.0
-11    SOYBEAN_mini      20230814  2023-08-14 00:00:00       1.0
-8              US3      20230929  2023-09-29 00:00:00      -1.0
-4              VIX      20230920  2023-09-20 00:00:00      -1.0
+10         BITCOIN      20230728  2023-07-28 00:00:00       1.0
+15             CAC      20230721  2023-07-21 00:00:00       1.0
+9              CHF      20230918  2023-09-18 00:00:00      -1.0
+1              CNH      20230717  2023-07-17 00:00:00       3.0
+4          EU-AUTO      20230915  2023-09-15 00:00:00       1.0
+2           EU-OIL      20230915  2023-09-15 00:00:00       2.0
+14      FTSETAIWAN      20230728  2023-07-28 00:00:00       1.0
+3      GAS_US_mini      20230828  2023-08-28 00:00:00      -1.0
+13             JPY      20230918  2023-09-18 00:00:00      -2.0
+5          LEANHOG      20230814  2023-08-14 00:00:00      -1.0
+8          LIVECOW      20230831  2023-08-31 00:00:00       2.0
+11             MXP      20230918  2023-09-18 00:00:00       1.0
+0           NIKKEI      20230907  2023-09-07 00:00:00       1.0
+12    SOYBEAN_mini      20230814  2023-08-14 00:00:00       1.0
+7              US3      20230929  2023-09-29 00:00:00      -1.0
+6              VIX      20230920  2023-09-20 00:00:00      -1.0
 
 
-====================================================================================
-                                    Trades in DB                                    
-====================================================================================
+===============
+ Trades in DB  
+===============
 
-             strategy_name contract_date           fill_datetime  fill  filled_price
-DOW       dynamic_TF_carry    [20230900] 2023-07-05 15:14:11.005   [0]           NaN
-DOW       dynamic_TF_carry    [20230900] 2023-07-05 15:18:36.000   [1]      34502.00
-REDWHEAT  dynamic_TF_carry    [20231200] 2023-07-05 15:34:38.000  [-1]        833.75
+Empty DataFrame
+Columns: [strategy_name, contract_date, fill_datetime, fill, filled_price]
+Index: []
 
 
-============================================================================
-                             Trades from broker                             
-============================================================================
+===========================================================================
+                            Trades from broker                             
+===========================================================================
 
-         strategy_name contract_date       fill_datetime  fill  filled_price
-DOW                       [20230915] 2023-07-05 15:18:36   [1]      34502.00
-REDWHEAT                  [20231214] 2023-07-05 15:34:38  [-1]        833.75
+        strategy_name contract_date       fill_datetime  fill  filled_price
+FTSE100                  [20230915] 2023-07-06 14:54:17   [1]        7306.5
+FTSE100                  [20230915] 2023-07-06 14:53:10  [-1]        7307.0
 
 
 ==========================================================
@@ -109,7 +108,7 @@ dynamic_TF_carry CORN                    0       0   False
 dynamic_TF_carry COTTON                  0       0   False
 dynamic_TF_carry CRUDE_W_mini            0       0   False
 dynamic_TF_carry CZK                     0       0   False
-dynamic_TF_carry DAX                     0       0   False
+dynamic_TF_carry DAX                     0      -1    True
 dynamic_TF_carry DJSTX-SMALL             0       0   False
 dynamic_TF_carry DOW                     0       0   False
 dynamic_TF_carry EDOLLAR                 0       0   False
@@ -223,7 +222,7 @@ dynamic_TF_carry SOYBEAN_mini            1       1   False
 dynamic_TF_carry SOYMEAL                 0       0   False
 dynamic_TF_carry SOYOIL                  0       0   False
 dynamic_TF_carry SP400                   0       0   False
-dynamic_TF_carry SP500_micro             0       0   False
+dynamic_TF_carry SP500_micro             0       1    True
 dynamic_TF_carry STEEL                   0       0   False
 dynamic_TF_carry SWISSLEAD               0       0   False
 dynamic_TF_carry TOPIX                   0       0   False
