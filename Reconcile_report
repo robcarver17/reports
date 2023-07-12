@@ -1,10 +1,10 @@
 
 ********************************************************************************
-                 Reconcile report produced on 10/07/2023 22:49                  
+                 Reconcile report produced on 12/07/2023 22:49                  
 ********************************************************************************
 
 
-Breaks Optimal vs actual []
+Breaks Optimal vs actual ['dynamic_TF_carry JPY', 'dynamic_TF_carry LIVECOW', 'dynamic_TF_carry NIKKEI', 'dynamic_TF_carry SOYBEAN_mini', 'dynamic_TF_carry SOYOIL']
  Breaks Instrument vs Contract []
  Breaks Broker vs Contract []
 
@@ -16,19 +16,19 @@ Breaks Optimal vs actual []
 0          BITCOIN      20230728  2023-07-28 00:00:00       1.0
 1              CAC      20230721  2023-07-21 00:00:00       1.0
 2              CHF      20230918  2023-09-18 00:00:00      -1.0
-3              CNH      20230717  2023-07-17 00:00:00       3.0
-4              DAX      20230915  2023-09-15 00:00:00      -1.0
+3              CNH      20230918  2023-09-18 00:00:00       1.0
+4              DAX      20230915  2023-09-15 00:00:00      -4.0
 5          EU-AUTO      20230915  2023-09-15 00:00:00       1.0
 6           EU-OIL      20230915  2023-09-15 00:00:00       2.0
 7       FTSETAIWAN      20230728  2023-07-28 00:00:00       1.0
 8      GAS_US_mini      20230828  2023-08-28 00:00:00      -1.0
 9              JPY      20230918  2023-09-18 00:00:00      -2.0
-10         LEANHOG      20230814  2023-08-14 00:00:00      -1.0
-11         LIVECOW      20230831  2023-08-31 00:00:00       2.0
-12             MXP      20230918  2023-09-18 00:00:00       1.0
-13          NIKKEI      20230907  2023-09-07 00:00:00       1.0
+10         LIVECOW      20231031  2023-10-31 00:00:00       1.0
+11             MXP      20230918  2023-09-18 00:00:00       1.0
+12          NIKKEI      20230907  2023-09-07 00:00:00       1.0
+13         RUSSELL      20230915  2023-09-15 00:00:00       1.0
 14    SOYBEAN_mini      20230814  2023-08-14 00:00:00       1.0
-15     SP500_micro      20230915  2023-09-15 00:00:00       1.0
+15    SOYBEAN_mini      20231114  2023-11-14 00:00:00       1.0
 16             US3      20230929  2023-09-29 00:00:00      -1.0
 17             VIX      20230920  2023-09-20 00:00:00      -1.0
 
@@ -38,42 +38,54 @@ Breaks Optimal vs actual []
 ===============================================================
 
    instrument_code contract_date          expiry_date  position
-7          BITCOIN      20230728  2023-07-28 00:00:00       1.0
-16             CAC      20230721  2023-07-21 00:00:00       1.0
-13             CHF      20230918  2023-09-18 00:00:00      -1.0
-8              CNH      20230717  2023-07-17 00:00:00       3.0
-2              DAX      20230915  2023-09-15 00:00:00      -1.0
-0          EU-AUTO      20230915  2023-09-15 00:00:00       1.0
-10          EU-OIL      20230915  2023-09-15 00:00:00       2.0
-17      FTSETAIWAN      20230728  2023-07-28 00:00:00       1.0
-4      GAS_US_mini      20230828  2023-08-28 00:00:00      -1.0
-1              JPY      20230918  2023-09-18 00:00:00      -2.0
-15         LEANHOG      20230814  2023-08-14 00:00:00      -1.0
-6          LIVECOW      20230831  2023-08-31 00:00:00       2.0
-3              MXP      20230918  2023-09-18 00:00:00       1.0
-12          NIKKEI      20230907  2023-09-07 00:00:00       1.0
-14    SOYBEAN_mini      20230814  2023-08-14 00:00:00       1.0
-9      SP500_micro      20230915  2023-09-15 00:00:00       1.0
-11             US3      20230929  2023-09-29 00:00:00      -1.0
+1          BITCOIN      20230728  2023-07-28 00:00:00       1.0
+2              CAC      20230721  2023-07-21 00:00:00       1.0
+10             CHF      20230918  2023-09-18 00:00:00      -1.0
+12             CNH      20230918  2023-09-18 00:00:00       1.0
+9              DAX      20230915  2023-09-15 00:00:00      -4.0
+3          EU-AUTO      20230915  2023-09-15 00:00:00       1.0
+13          EU-OIL      20230915  2023-09-15 00:00:00       2.0
+15      FTSETAIWAN      20230728  2023-07-28 00:00:00       1.0
+14     GAS_US_mini      20230828  2023-08-28 00:00:00      -1.0
+11             JPY      20230918  2023-09-18 00:00:00      -2.0
+4          LIVECOW      20231031  2023-10-31 00:00:00       1.0
+16             MXP      20230918  2023-09-18 00:00:00       1.0
+7           NIKKEI      20230907  2023-09-07 00:00:00       1.0
+6          RUSSELL      20230915  2023-09-15 00:00:00       1.0
+8     SOYBEAN_mini      20230814  2023-08-14 00:00:00       1.0
+17    SOYBEAN_mini      20231114  2023-11-14 00:00:00       1.0
+0              US3      20230929  2023-09-29 00:00:00      -1.0
 5              VIX      20230920  2023-09-20 00:00:00      -1.0
 
 
-===============
- Trades in DB  
-===============
+====================================================================================
+                                    Trades in DB                                    
+====================================================================================
 
-Empty DataFrame
-Columns: [strategy_name, contract_date, fill_datetime, fill, filled_price]
-Index: []
+                 strategy_name contract_date       fill_datetime  fill  filled_price
+CNH           dynamic_TF_carry    [20230900] 2023-07-12 01:00:21   [1]        7.1695
+DAX           dynamic_TF_carry    [20230900] 2023-07-12 08:00:06  [-1]    15944.0000
+DAX           dynamic_TF_carry    [20230900] 2023-07-12 08:00:10  [-1]    15946.0000
+DAX           dynamic_TF_carry    [20230900] 2023-07-12 14:25:15  [-1]    16083.0000
+RUSSELL       dynamic_TF_carry    [20230900] 2023-07-12 15:00:03   [1]     1952.1000
+SP500_micro   dynamic_TF_carry    [20230900] 2023-07-12 15:00:04  [-1]     4516.7500
+SOYBEAN_mini  dynamic_TF_carry    [20231100] 2023-07-12 15:30:04   [1]     1366.8750
+LIVECOW       dynamic_TF_carry    [20231000] 2023-07-12 15:30:05   [1]      181.8500
 
 
-==================
-Trades from broker
-==================
+================================================================================
+                               Trades from broker                               
+================================================================================
 
-Empty DataFrame
-Columns: [strategy_name, contract_date, fill_datetime, fill, filled_price]
-Index: []
+             strategy_name contract_date       fill_datetime  fill  filled_price
+SOYBEAN_mini                  [20231114] 2023-07-12 15:30:04   [1]     1366.8750
+DAX                           [20230915] 2023-07-12 08:00:10  [-1]    15946.0000
+SP500_micro                   [20230915] 2023-07-12 15:00:04  [-1]     4516.7500
+LIVECOW                       [20231031] 2023-07-12 15:30:05   [1]      181.8500
+DAX                           [20230915] 2023-07-12 08:00:06  [-1]    15944.0000
+RUSSELL                       [20230915] 2023-07-12 15:00:03   [1]     1952.1000
+DAX                           [20230915] 2023-07-12 14:25:15  [-1]    16083.0000
+CNH                           [20230918] 2023-07-12 01:00:21   [1]        7.1695
 
 
 ==========================================================
@@ -105,14 +117,14 @@ dynamic_TF_carry CHEESE                  0       0   False
 dynamic_TF_carry CHF                    -1      -1   False
 dynamic_TF_carry CHFJPY                  0       0   False
 dynamic_TF_carry CLP                     0       0   False
-dynamic_TF_carry CNH                     3       3   False
+dynamic_TF_carry CNH                     1       1   False
 dynamic_TF_carry COPPER                  0       0   False
 dynamic_TF_carry COPPER-micro            0       0   False
 dynamic_TF_carry CORN                    0       0   False
 dynamic_TF_carry COTTON                  0       0   False
 dynamic_TF_carry CRUDE_W_mini            0       0   False
 dynamic_TF_carry CZK                     0       0   False
-dynamic_TF_carry DAX                    -1      -1   False
+dynamic_TF_carry DAX                    -4      -4   False
 dynamic_TF_carry DJSTX-SMALL             0       0   False
 dynamic_TF_carry DOW                     0       0   False
 dynamic_TF_carry EPRA-EUROPE             0       0   False
@@ -174,7 +186,7 @@ dynamic_TF_carry IRS                     0       0   False
 dynamic_TF_carry JGB                     0       0   False
 dynamic_TF_carry JGB-SGX-mini            0       0   False
 dynamic_TF_carry JP-REALESTATE           0       0   False
-dynamic_TF_carry JPY                    -2      -2   False
+dynamic_TF_carry JPY                    -2      -1    True
 dynamic_TF_carry KOSDAQ                  0       0   False
 dynamic_TF_carry KOSPI                   0       0   False
 dynamic_TF_carry KOSPI_mini              0       0   False
@@ -182,8 +194,8 @@ dynamic_TF_carry KR10                    0       0   False
 dynamic_TF_carry KR3                     0       0   False
 dynamic_TF_carry KRWUSD                  0       0   False
 dynamic_TF_carry KRWUSD_mini             0       0   False
-dynamic_TF_carry LEANHOG                -1      -1   False
-dynamic_TF_carry LIVECOW                 2       2   False
+dynamic_TF_carry LEANHOG                 0       0   False
+dynamic_TF_carry LIVECOW                 1       2    True
 dynamic_TF_carry LUMBER-new              0       0   False
 dynamic_TF_carry MILK                    0       0   False
 dynamic_TF_carry MILKDRY                 0       0   False
@@ -195,7 +207,7 @@ dynamic_TF_carry MUMMY                   0       0   False
 dynamic_TF_carry MXP                     1       1   False
 dynamic_TF_carry NASDAQ_micro            0       0   False
 dynamic_TF_carry NIFTY                   0       0   False
-dynamic_TF_carry NIKKEI                  1       1   False
+dynamic_TF_carry NIKKEI                  1       2    True
 dynamic_TF_carry NIKKEI400               0       0   False
 dynamic_TF_carry NOK                     0       0   False
 dynamic_TF_carry NZD                     0       0   False
@@ -210,7 +222,7 @@ dynamic_TF_carry REDWHEAT                0       0   False
 dynamic_TF_carry RICE                    0       0   False
 dynamic_TF_carry RUBBER                  0       0   False
 dynamic_TF_carry RUR                     0       0   False
-dynamic_TF_carry RUSSELL                 0       0   False
+dynamic_TF_carry RUSSELL                 1       1   False
 dynamic_TF_carry SEK                     0       0   False
 dynamic_TF_carry SGD                     0       0   False
 dynamic_TF_carry SGX                     0       0   False
@@ -220,11 +232,11 @@ dynamic_TF_carry SMI                     0       0   False
 dynamic_TF_carry SMI-MID                 0       0   False
 dynamic_TF_carry SOFR                    0       0   False
 dynamic_TF_carry SOYBEAN                 0       0   False
-dynamic_TF_carry SOYBEAN_mini            1       1   False
+dynamic_TF_carry SOYBEAN_mini            2       1    True
 dynamic_TF_carry SOYMEAL                 0       0   False
-dynamic_TF_carry SOYOIL                  0       0   False
+dynamic_TF_carry SOYOIL                  0       1    True
 dynamic_TF_carry SP400                   0       0   False
-dynamic_TF_carry SP500_micro             1       1   False
+dynamic_TF_carry SP500_micro             0       0   False
 dynamic_TF_carry STEEL                   0       0   False
 dynamic_TF_carry SWISSLEAD               0       0   False
 dynamic_TF_carry TOPIX                   0       0   False

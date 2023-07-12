@@ -1,15 +1,162 @@
 
 ********************************************************************************
-Trades report produced on 10/07/2023 22:50 from 09/07/2023 22:50 to 10/07/2023 22:50
+Trades report produced on 12/07/2023 22:49 from 11/07/2023 22:49 to 12/07/2023 22:49
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+32810             CNH  dynamic_TF_carry    [20230900] 2023-07-12 01:00:21   [1]        7.1695
+32811             DAX  dynamic_TF_carry    [20230900] 2023-07-12 08:00:06  [-1]    15944.0000
+32812             DAX  dynamic_TF_carry    [20230900] 2023-07-12 08:00:10  [-1]    15946.0000
+32813             DAX  dynamic_TF_carry    [20230900] 2023-07-12 14:25:15  [-1]    16083.0000
+32817         LIVECOW  dynamic_TF_carry    [20231000] 2023-07-12 15:30:05   [1]      181.8500
+32814         RUSSELL  dynamic_TF_carry    [20230900] 2023-07-12 15:00:03   [1]     1952.1000
+32816    SOYBEAN_mini  dynamic_TF_carry    [20231100] 2023-07-12 15:30:04   [1]     1366.8750
+32815     SP500_micro  dynamic_TF_carry    [20230900] 2023-07-12 15:00:04  [-1]     4516.7500
+
+
+========================================================================================================================================================
+                                                                         Delays                                                                         
+========================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+32810             CNH  dynamic_TF_carry                2023-07-11 2023-07-12 01:00:07.909 2023-07-12 01:00:21                90007.9              13.091
+32811             DAX  dynamic_TF_carry                2023-07-11 2023-07-12 08:00:05.690 2023-07-12 08:00:06                 115206                0.31
+32812             DAX  dynamic_TF_carry                2023-07-11 2023-07-12 08:00:10.118 2023-07-12 08:00:10                 115210                 NaN
+32813             DAX  dynamic_TF_carry                2023-07-11 2023-07-12 14:25:15.373 2023-07-12 14:25:15                 138315                 NaN
+32814         RUSSELL  dynamic_TF_carry                2023-07-11 2023-07-12 15:00:02.897 2023-07-12 15:00:03                 140403               0.103
+32815     SP500_micro  dynamic_TF_carry                2023-07-11 2023-07-12 15:00:04.599 2023-07-12 15:00:04                 140405                 NaN
+32816    SOYBEAN_mini  dynamic_TF_carry                2023-07-11 2023-07-12 15:30:04.053 2023-07-12 15:30:04                 142204                 NaN
+32817         LIVECOW  dynamic_TF_carry                2023-07-11 2023-07-12 15:30:05.196 2023-07-12 15:30:05                 142205                 NaN
+
+
+============================================================================================================================================================================================================================
+                                                                                                  Slippage (ticks per lot)                                                                                                  
+============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
+32810             CNH  dynamic_TF_carry   [1]                 7.1664               None    7.1692     7.1695        7.1689      7.1689       7.1695 -0.0028 -0.0003         0      -0.0006                 NaN       -0.0003
+32811             DAX  dynamic_TF_carry  [-1]                  15893               None     15945      15944         15946       15946        15944      52      -1        -0           -2                 NaN            -1
+32812             DAX  dynamic_TF_carry  [-1]                  15893               None     15945      15944         15946       15946        15946      52      -1         2           -0                 NaN             1
+32813             DAX  dynamic_TF_carry  [-1]                  15893               None     15945      15944         15946       15946        16083      52      -1       139          137                 NaN           138
+32814         RUSSELL  dynamic_TF_carry   [1]                 1924.3               None   1952.15     1952.2        1952.1      1952.1       1952.1  -27.85   -0.05       0.1  2.27374e-13                 NaN          0.05
+32815     SP500_micro  dynamic_TF_carry  [-1]                 4463.5               None   4517.12       4517       4517.25     4517.25      4516.75  53.625  -0.125     -0.25         -0.5                 NaN        -0.375
+32816    SOYBEAN_mini  dynamic_TF_carry   [1]                1360.62               None   1366.56    1366.88       1366.25         NaN      1366.88 -5.9375 -0.3125         0          NaN                 NaN       -0.3125
+32817         LIVECOW  dynamic_TF_carry   [1]                 181.55               None   181.812    181.825         181.8       181.8       181.85 -0.2625 -0.0125    -0.025        -0.05                 NaN       -0.0375
+
+
+============================================================================================================================================================
+                                                    Slippage (normalised by annual vol, BP of annual SR)                                                    
+============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+32810             CNH  dynamic_TF_carry   [1]        0.357705  -78.2768     -8.3868             0         -16.7736                     NaN           -8.3868
+32811             DAX  dynamic_TF_carry  [-1]         2509.12   207.244    -3.98547            -0         -7.97094                     NaN          -3.98547
+32812             DAX  dynamic_TF_carry  [-1]         2509.12   207.244    -3.98547       7.97094               -0                     NaN           3.98547
+32813             DAX  dynamic_TF_carry  [-1]         2509.12   207.244    -3.98547        553.98          546.009                     NaN           549.995
+32814         RUSSELL  dynamic_TF_carry   [1]         386.625  -720.337    -1.29324       2.58649      5.88099e-12                     NaN           1.29324
+32815     SP500_micro  dynamic_TF_carry  [-1]         541.254   990.755    -2.30945       -4.6189         -9.23781                     NaN          -6.92835
+32816    SOYBEAN_mini  dynamic_TF_carry   [1]         403.589  -147.118    -7.74303             0              NaN                     NaN          -7.74303
+32817         LIVECOW  dynamic_TF_carry   [1]         20.1494  -130.277    -6.20366      -12.4073         -24.8147                     NaN           -18.611
+
+
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+32810             CNH  dynamic_TF_carry   [1]              10728.4   -30.0396     -3.21853              0          -6.43705                      NaN           -3.21853
+32811             DAX  dynamic_TF_carry  [-1]             0.851117    44.2581    -0.851117             -0          -1.70223                      NaN          -0.851117
+32812             DAX  dynamic_TF_carry  [-1]             0.851117    44.2581    -0.851117        1.70223                -0                      NaN           0.851117
+32813             DAX  dynamic_TF_carry  [-1]             0.851117    44.2581    -0.851117        118.305           116.603                      NaN            117.454
+32814         RUSSELL  dynamic_TF_carry   [1]              3.85907   -107.475    -0.192953       0.385907        8.7745e-13                      NaN           0.192953
+32815     SP500_micro  dynamic_TF_carry  [-1]              3.85907    206.942    -0.482383      -0.964767          -1.92953                      NaN           -1.44715
+32816    SOYBEAN_mini  dynamic_TF_carry   [1]              7.71813   -45.8264     -2.41192              0               NaN                      NaN           -2.41192
+32817         LIVECOW  dynamic_TF_carry   [1]              308.725   -81.0404     -3.85907       -7.71813          -15.4363                      NaN           -11.5772
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry CNH              -30.039580
+                 DAX              132.774283
+                 LIVECOW          -81.040404
+                 RUSSELL         -107.475013
+                 SOYBEAN_mini     -45.826419
+                 SP500_micro      206.942461
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry   75.335328
+bid_ask_cash Sum
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry CNH                 -3.218526
+                 DAX                 -2.553352
+                 LIVECOW             -3.859067
+                 RUSSELL             -0.192953
+                 SOYBEAN_mini        -2.411917
+                 SP500_micro         -0.482383
+bid_ask_cash Total Sum
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry    -12.718198
+execution_cash Sum
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry CNH                    0.000000
+                 DAX                  120.007525
+                 LIVECOW               -7.718134
+                 RUSSELL                0.385907
+                 SOYBEAN_mini           0.000000
+                 SP500_micro           -0.964767
+execution_cash Total Sum
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry      111.710531
+versus_limit_cash Sum
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry CNH                  -6.437053e+00
+                 DAX                   1.149008e+02
+                 LIVECOW              -1.543627e+01
+                 RUSSELL               8.774502e-13
+                 SOYBEAN_mini          0.000000e+00
+                 SP500_micro          -1.929533e+00
+versus_limit_cash Total Sum
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry          91.097968
+versus_parent_limit_cash Sum
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry CNH                                     0
+                 DAX                                     0
+                 LIVECOW                                 0
+                 RUSSELL                                 0
+                 SOYBEAN_mini                            0
+                 SP500_micro                             0
+versus_parent_limit_cash Total Sum
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
+total_trading_cash Sum
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry CNH                       -3.218526
+                 DAX                      117.454174
+                 LIVECOW                  -11.577201
+                 RUSSELL                    0.192953
+                 SOYBEAN_mini              -2.411917
+                 SP500_micro               -1.447150
+total_trading_cash Total Sum
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry           98.992333
 
 ********************************************************************************
                                  END OF REPORT                                  
