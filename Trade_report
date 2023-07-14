@@ -1,16 +1,23 @@
 
 ********************************************************************************
-Trades report produced on 13/07/2023 22:50 from 12/07/2023 22:50 to 13/07/2023 22:50
+Trades report produced on 14/07/2023 22:50 from 13/07/2023 22:50 to 14/07/2023 22:50
 ********************************************************************************
 
 
 
-============================================================================================
-                                       Broker orders                                        
-============================================================================================
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
-32818          NIKKEI  dynamic_TF_carry    [20230900] 2023-07-13 01:00:07  [1]       32090.0
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+32819             DAX  dynamic_TF_carry    [20230900] 2023-07-14 10:23:22  [-1]  16200.000000
+32822             GBP  dynamic_TF_carry    [20230900] 2023-07-14 15:00:04   [1]      1.311400
+32823             JPY  dynamic_TF_carry    [20230900] 2023-07-14 15:00:13   [1]      0.007269
+32826         LIVECOW  dynamic_TF_carry    [20231000] 2023-07-14 15:30:10   [1]    180.800000
+32820         RUSSELL  dynamic_TF_carry    [20230900] 2023-07-14 15:00:01   [1]   1949.200000
+32825    SOYBEAN_mini  dynamic_TF_carry    [20231100] 2023-07-14 15:30:05  [-1]   1374.250000
+32824          SOYOIL  dynamic_TF_carry    [20231200] 2023-07-14 15:30:02   [1]     60.370000
+32821     SP500_micro  dynamic_TF_carry    [20230900] 2023-07-14 15:00:02   [1]   4553.000000
 
 
 ========================================================================================================================================================
@@ -18,15 +25,29 @@ Trades report produced on 13/07/2023 22:50 from 12/07/2023 22:50 to 13/07/2023 2
 ========================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
-32818          NIKKEI  dynamic_TF_carry                2023-07-12 2023-07-13 01:00:04.027 2023-07-13 01:00:07                  90004               2.973
+32819             DAX  dynamic_TF_carry                2023-07-13 2023-07-14 10:23:12.401 2023-07-14 10:23:22                 123792               9.599
+32820         RUSSELL  dynamic_TF_carry                2023-07-13 2023-07-14 15:00:00.874 2023-07-14 15:00:01                 140401               0.126
+32821     SP500_micro  dynamic_TF_carry                2023-07-13 2023-07-14 15:00:02.264 2023-07-14 15:00:02                 140402                 NaN
+32822             GBP  dynamic_TF_carry                2023-07-13 2023-07-14 15:00:03.580 2023-07-14 15:00:04                 140404                0.42
+32823             JPY  dynamic_TF_carry                2023-07-12 2023-07-14 15:00:13.051 2023-07-14 15:00:13                 226813                 NaN
+32824          SOYOIL  dynamic_TF_carry                2023-07-12 2023-07-14 15:30:02.257 2023-07-14 15:30:02                 228602                 NaN
+32825    SOYBEAN_mini  dynamic_TF_carry                2023-07-12 2023-07-14 15:30:03.699 2023-07-14 15:30:05                 228604               1.301
+32826         LIVECOW  dynamic_TF_carry                2023-07-12 2023-07-14 15:30:06.159 2023-07-14 15:30:10                 228606               3.841
 
 
-==========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                 
-==========================================================================================================================================================================================================================
+==================================================================================================================================================================================================================================
+                                                                                                     Slippage (ticks per lot)                                                                                                     
+==================================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
-32818          NIKKEI  dynamic_TF_carry   [1]                  31990               None   32077.5      32080         32075       32075        32090 -87.5    -2.5       -10          -15                 NaN         -12.5
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price   mid_price side_price offside_price limit_price filled_price      delay  bid_ask execution versus_limit versus_parent_limit total_trading
+32819             DAX  dynamic_TF_carry  [-1]                  16262               None     16201.5      16201         16202       16202        16200      -60.5     -0.5        -1           -2                 NaN          -1.5
+32820         RUSSELL  dynamic_TF_carry   [1]                 1963.9               None      1949.3       1950        1948.6         NaN       1949.2       14.6     -0.7       0.8          NaN                 NaN           0.1
+32821     SP500_micro  dynamic_TF_carry   [1]                4544.75               None     4552.88    4553.75          4552        4552         4553     -8.125   -0.875      0.75           -1                 NaN        -0.125
+32822             GBP  dynamic_TF_carry   [1]                 1.3135               None      1.3114     1.3115        1.3113      1.3113       1.3114     0.0021  -0.0001    0.0001      -0.0001                 NaN             0
+32823             JPY  dynamic_TF_carry   [1]              0.0073045               None  0.00726925    0.00727     0.0072685   0.0072685     0.007269  3.525e-05 -7.5e-07     1e-06       -5e-07                 NaN       2.5e-07
+32824          SOYOIL  dynamic_TF_carry   [1]                  59.35               None       60.33      60.34         60.32       60.32        60.37      -0.98    -0.01     -0.03        -0.05                 NaN         -0.04
+32825    SOYBEAN_mini  dynamic_TF_carry  [-1]                1327.62               None     1374.06    1373.88       1374.25     1374.25      1374.25    46.4375  -0.1875     0.375           -0                 NaN        0.1875
+32826         LIVECOW  dynamic_TF_carry   [1]                  180.3               None     180.775      180.8        180.75      180.75        180.8     -0.475   -0.025         0        -0.05                 NaN        -0.025
 
 
 ============================================================================================================================================================
@@ -34,7 +55,14 @@ Trades report produced on 13/07/2023 22:50 from 12/07/2023 22:50 to 13/07/2023 2
 ============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-32818          NIKKEI  dynamic_TF_carry   [1]         5774.95  -151.516    -4.32904      -17.3162         -25.9742                     NaN          -21.6452
+32819             DAX  dynamic_TF_carry  [-1]         2449.14  -247.026    -2.04153      -4.08307         -8.16614                     NaN           -6.1246
+32820         RUSSELL  dynamic_TF_carry   [1]         380.721   383.483    -18.3862       21.0128              NaN                     NaN            2.6266
+32821     SP500_micro  dynamic_TF_carry   [1]         540.735  -150.258    -16.1817         13.87         -18.4934                     NaN          -2.31167
+32822             GBP  dynamic_TF_carry   [1]        0.104752   200.474    -9.54639       9.54639         -9.54639                     NaN                 0
+32823             JPY  dynamic_TF_carry   [1]     0.000728462   483.896    -10.2957       13.7276         -6.86378                     NaN           3.43189
+32824          SOYOIL  dynamic_TF_carry   [1]         23.1881   -422.63    -4.31256      -12.9377         -21.5628                     NaN          -17.2502
+32825    SOYBEAN_mini  dynamic_TF_carry  [-1]         401.192   1157.49    -4.67357       9.34715               -0                     NaN           4.67357
+32826         LIVECOW  dynamic_TF_carry   [1]         21.3538  -222.443    -11.7075             0         -23.4151                     NaN          -11.7075
 
 
 =======================================================================================================================================================================
@@ -42,44 +70,86 @@ Trades report produced on 13/07/2023 22:50 from 12/07/2023 22:50 to 13/07/2023 2
 =======================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-32818          NIKKEI  dynamic_TF_carry   [1]             0.554005   -48.4754     -1.38501       -5.54005          -8.31008                      NaN           -6.92506
+32819             DAX  dynamic_TF_carry  [-1]             0.855276   -51.7442    -0.427638      -0.855276          -1.71055                      NaN           -1.28291
+32820         RUSSELL  dynamic_TF_carry   [1]              3.81054    55.6339     -2.66738        3.04843               NaN                      NaN           0.381054
+32821     SP500_micro  dynamic_TF_carry   [1]              3.81054   -30.9606     -3.33422         2.8579          -3.81054                      NaN          -0.476317
+32822             GBP  dynamic_TF_carry   [1]              47631.7    100.027     -4.76317        4.76317          -4.76317                      NaN                  0
+32823             JPY  dynamic_TF_carry   [1]          9.52635e+06    335.804     -7.14476        9.52635          -4.76317                      NaN            2.38159
+32824          SOYOIL  dynamic_TF_carry   [1]              457.265   -448.119     -4.57265       -13.7179          -22.8632                      NaN           -18.2906
+32825    SOYBEAN_mini  dynamic_TF_carry  [-1]              7.62108    353.904     -1.42895         2.8579                -0                      NaN            1.42895
+32826         LIVECOW  dynamic_TF_carry   [1]              304.843   -144.801     -7.62108              0          -15.2422                      NaN           -7.62108
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry NIKKEI           -48.475442
+dynamic_TF_carry DAX              -51.744179
+                 GBP              100.026674
+                 JPY              335.803833
+                 LIVECOW         -144.800518
+                 RUSSELL           55.633883
+                 SOYBEAN_mini     353.903898
+                 SOYOIL          -448.119499
+                 SP500_micro      -30.960637
 delay_cash Total Sum
                   delay_cash
 strategy_name               
-dynamic_TF_carry  -48.475442
+dynamic_TF_carry  169.743455
 bid_ask_cash Sum
                                   bid_ask_cash
 strategy_name    instrument_code              
-dynamic_TF_carry NIKKEI              -1.385013
+dynamic_TF_carry DAX                 -0.427638
+                 GBP                 -4.763175
+                 JPY                 -7.144762
+                 LIVECOW             -7.621080
+                 RUSSELL             -2.667378
+                 SOYBEAN_mini        -1.428952
+                 SOYOIL              -4.572648
+                 SP500_micro         -3.334222
 bid_ask_cash Total Sum
                   bid_ask_cash
 strategy_name                 
-dynamic_TF_carry     -1.385013
+dynamic_TF_carry    -31.959856
 execution_cash Sum
                                   execution_cash
 strategy_name    instrument_code                
-dynamic_TF_carry NIKKEI                 -5.54005
+dynamic_TF_carry DAX                   -0.855276
+                 GBP                    4.763175
+                 JPY                    9.526350
+                 LIVECOW                0.000000
+                 RUSSELL                3.048432
+                 SOYBEAN_mini           2.857905
+                 SOYOIL               -13.717944
+                 SP500_micro            2.857905
 execution_cash Total Sum
                   execution_cash
 strategy_name                   
-dynamic_TF_carry        -5.54005
+dynamic_TF_carry        8.480547
 versus_limit_cash Sum
                                   versus_limit_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry NIKKEI                   -8.310076
+dynamic_TF_carry DAX                      -1.710551
+                 GBP                      -4.763175
+                 JPY                      -4.763175
+                 LIVECOW                 -15.242160
+                 RUSSELL                   0.000000
+                 SOYBEAN_mini             -0.000000
+                 SOYOIL                  -22.863240
+                 SP500_micro              -3.810540
 versus_limit_cash Total Sum
                   versus_limit_cash
 strategy_name                      
-dynamic_TF_carry          -8.310076
+dynamic_TF_carry         -53.152841
 versus_parent_limit_cash Sum
                                   versus_parent_limit_cash
 strategy_name    instrument_code                          
-dynamic_TF_carry NIKKEI                                  0
+dynamic_TF_carry DAX                                     0
+                 GBP                                     0
+                 JPY                                     0
+                 LIVECOW                                 0
+                 RUSSELL                                 0
+                 SOYBEAN_mini                            0
+                 SOYOIL                                  0
+                 SP500_micro                             0
 versus_parent_limit_cash Total Sum
                   versus_parent_limit_cash
 strategy_name                             
@@ -87,11 +157,18 @@ dynamic_TF_carry                         0
 total_trading_cash Sum
                                   total_trading_cash
 strategy_name    instrument_code                    
-dynamic_TF_carry NIKKEI                    -6.925063
+dynamic_TF_carry DAX                       -1.282914
+                 GBP                        0.000000
+                 JPY                        2.381587
+                 LIVECOW                   -7.621080
+                 RUSSELL                    0.381054
+                 SOYBEAN_mini               1.428952
+                 SOYOIL                   -18.290592
+                 SP500_micro               -0.476317
 total_trading_cash Total Sum
                   total_trading_cash
 strategy_name                       
-dynamic_TF_carry           -6.925063
+dynamic_TF_carry          -23.479309
 
 ********************************************************************************
                                  END OF REPORT                                  
