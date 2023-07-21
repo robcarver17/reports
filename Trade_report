@@ -1,19 +1,16 @@
 
 ********************************************************************************
-Trades report produced on 20/07/2023 22:50 from 19/07/2023 22:50 to 20/07/2023 22:50
+Trades report produced on 21/07/2023 22:50 from 20/07/2023 22:50 to 21/07/2023 22:50
 ********************************************************************************
 
 
 
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
+============================================================================================
+                                       Broker orders                                        
+============================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-32835             DAX  dynamic_TF_carry    [20230900] 2023-07-20 08:00:04   [1]      16165.00
-32836             DAX  dynamic_TF_carry    [20230900] 2023-07-20 08:00:08   [1]      16162.00
-32838             DOW  dynamic_TF_carry    [20230900] 2023-07-20 15:00:05   [1]      35459.00
-32837     SP500_micro  dynamic_TF_carry    [20230900] 2023-07-20 15:00:03  [-1]       4591.75
+      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
+32839             DAX  dynamic_TF_carry    [20230900] 2023-07-21 08:00:08  [1]       16222.0
 
 
 ========================================================================================================================================================
@@ -21,21 +18,15 @@ Trades report produced on 20/07/2023 22:50 from 19/07/2023 22:50 to 20/07/2023 2
 ========================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
-32835             DAX  dynamic_TF_carry                2023-07-19 2023-07-20 08:00:03.149 2023-07-20 08:00:04                 115203               0.851
-32836             DAX  dynamic_TF_carry                2023-07-19 2023-07-20 08:00:08.318 2023-07-20 08:00:08                 115208                 NaN
-32837     SP500_micro  dynamic_TF_carry                2023-07-19 2023-07-20 15:00:02.606 2023-07-20 15:00:03                 140403               0.394
-32838             DOW  dynamic_TF_carry                2023-07-19 2023-07-20 15:00:04.369 2023-07-20 15:00:05                 140404               0.631
+32839             DAX  dynamic_TF_carry                2023-07-20 2023-07-21 08:00:07.964 2023-07-21 08:00:08                 115208               0.036
 
 
-============================================================================================================================================================================================================================
-                                                                                                  Slippage (ticks per lot)                                                                                                  
-============================================================================================================================================================================================================================
+==========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                 
+==========================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
-32835             DAX  dynamic_TF_carry   [1]                  16216               None   16160.5      16162         16159       16159        16165    55.5    -1.5        -3           -6                 NaN          -4.5
-32836             DAX  dynamic_TF_carry   [1]                  16216               None     16163      16164         16162       16162        16162      53      -1         2            0                 NaN             1
-32837     SP500_micro  dynamic_TF_carry  [-1]                   4603               None   4591.62     4591.5       4591.75     4591.75      4591.75 -11.375  -0.125      0.25           -0                 NaN         0.125
-32838             DOW  dynamic_TF_carry   [1]                  35285               None     35460      35461         35459       35459        35459    -175      -1         2            0                 NaN             1
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
+32839             DAX  dynamic_TF_carry   [1]                  16286               None     16224      16225         16223       16223        16222    62      -1         3            1                 NaN             2
 
 
 ============================================================================================================================================================
@@ -43,10 +34,7 @@ Trades report produced on 20/07/2023 22:50 from 19/07/2023 22:50 to 20/07/2023 2
 ============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-32835             DAX  dynamic_TF_carry   [1]          2288.5   242.517     -6.5545       -13.109          -26.218                     NaN          -19.6635
-32836             DAX  dynamic_TF_carry   [1]          2288.5   231.592    -4.36967       8.73934                0                     NaN           4.36967
-32837     SP500_micro  dynamic_TF_carry  [-1]         536.849  -211.884     -2.3284        4.6568               -0                     NaN            2.3284
-32838             DOW  dynamic_TF_carry   [1]          3884.1  -450.555     -2.5746        5.1492                0                     NaN            2.5746
+32839             DAX  dynamic_TF_carry   [1]         2254.35   275.024    -4.43587       13.3076          4.43587                     NaN           8.87175
 
 
 =======================================================================================================================================================================
@@ -54,57 +42,44 @@ Trades report produced on 20/07/2023 22:50 from 19/07/2023 22:50 to 20/07/2023 2
 =======================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-32835             DAX  dynamic_TF_carry   [1]             0.867053    48.1214     -1.30058       -2.60116          -5.20232                      NaN           -3.90174
-32836             DAX  dynamic_TF_carry   [1]             0.867053    45.9538    -0.867053        1.73411                 0                      NaN           0.867053
-32837     SP500_micro  dynamic_TF_carry  [-1]              3.86473   -43.9614    -0.483092       0.966184                -0                      NaN           0.483092
-32838             DOW  dynamic_TF_carry   [1]             0.386473   -67.6329    -0.386473       0.772947                 0                      NaN           0.386473
+32839             DAX  dynamic_TF_carry   [1]              0.86443    53.5946     -0.86443        2.59329           0.86443                      NaN            1.72886
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry DAX               94.075266
-                 DOW              -67.632850
-                 SP500_micro      -43.961353
+dynamic_TF_carry DAX               53.594647
 delay_cash Total Sum
                   delay_cash
 strategy_name               
-dynamic_TF_carry  -17.518937
+dynamic_TF_carry   53.594647
 bid_ask_cash Sum
                                   bid_ask_cash
 strategy_name    instrument_code              
-dynamic_TF_carry DAX                 -2.167633
-                 DOW                 -0.386473
-                 SP500_micro         -0.483092
+dynamic_TF_carry DAX                  -0.86443
 bid_ask_cash Total Sum
                   bid_ask_cash
 strategy_name                 
-dynamic_TF_carry     -3.037198
+dynamic_TF_carry      -0.86443
 execution_cash Sum
                                   execution_cash
 strategy_name    instrument_code                
-dynamic_TF_carry DAX                   -0.867053
-                 DOW                    0.772947
-                 SP500_micro            0.966184
+dynamic_TF_carry DAX                    2.593289
 execution_cash Total Sum
                   execution_cash
 strategy_name                   
-dynamic_TF_carry        0.872077
+dynamic_TF_carry        2.593289
 versus_limit_cash Sum
                                   versus_limit_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry DAX                      -5.202319
-                 DOW                       0.000000
-                 SP500_micro              -0.000000
+dynamic_TF_carry DAX                        0.86443
 versus_limit_cash Total Sum
                   versus_limit_cash
 strategy_name                      
-dynamic_TF_carry          -5.202319
+dynamic_TF_carry            0.86443
 versus_parent_limit_cash Sum
                                   versus_parent_limit_cash
 strategy_name    instrument_code                          
 dynamic_TF_carry DAX                                     0
-                 DOW                                     0
-                 SP500_micro                             0
 versus_parent_limit_cash Total Sum
                   versus_parent_limit_cash
 strategy_name                             
@@ -112,13 +87,11 @@ dynamic_TF_carry                         0
 total_trading_cash Sum
                                   total_trading_cash
 strategy_name    instrument_code                    
-dynamic_TF_carry DAX                       -3.034686
-                 DOW                        0.386473
-                 SP500_micro                0.483092
+dynamic_TF_carry DAX                         1.72886
 total_trading_cash Total Sum
                   total_trading_cash
 strategy_name                       
-dynamic_TF_carry           -2.165121
+dynamic_TF_carry             1.72886
 
 ********************************************************************************
                                  END OF REPORT                                  
