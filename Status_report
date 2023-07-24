@@ -1,18 +1,261 @@
 
 ********************************************************************************
-                   Status report produced on 21/07/2023 22:54                   
+                   Status report produced on 24/07/2023 22:54                   
 ********************************************************************************
 
 
-Delayed methods: No delays
 
-===============================
- Delayed adjusted / FX prices  
-===============================
+================================================================================================================================================
+                                                                Delayed methods                                                                 
+================================================================================================================================================
 
-                    last_update
-SGX         2023-07-17 23:00:00
-CNH-onshore 2023-07-17 23:00:00
+                                                                  process_name              last_start                last_end currently_running
+strategy_allocation                                         run_capital_update 2023-07-21 01:00:08.579 2023-07-21 01:00:08.627             False
+update_sampled_contracts                     run_daily_fx_and_contract_updates 2023-07-21 07:00:17.510 2023-07-21 07:03:40.570             False
+generate_force_roll_orders                                   run_stack_handler 2023-07-21 09:30:25.417 2023-07-21 09:30:28.209             False
+refresh_additional_sampling_all_instruments                  run_stack_handler 2023-07-21 18:30:43.963 2023-07-21 18:31:07.681             False
+spawn_children_from_new_instrument_orders                    run_stack_handler 2023-07-21 19:29:58.778 2023-07-21 19:29:58.781             False
+create_broker_orders_from_contract_orders                    run_stack_handler 2023-07-21 19:29:58.784 2023-07-21 19:29:58.791             False
+process_fills_stack                                          run_stack_handler 2023-07-21 19:29:58.793 2023-07-21 19:29:58.797             False
+handle_completed_orders                                      run_stack_handler 2023-07-21 19:29:58.799 2023-07-21 19:29:58.802             False
+safe_stack_removal                                           run_stack_handler 2023-07-21 19:30:02.043 2023-07-21 19:30:02.067             False
+
+
+====================================
+    Delayed adjusted / FX prices    
+====================================
+
+                         last_update
+SGX              2023-07-17 23:00:00
+CNH-onshore      2023-07-17 23:00:00
+SGD_mini         2023-07-20 23:00:00
+RUR              2023-07-20 23:00:00
+CLP              2023-07-20 23:00:00
+PLN              2023-07-20 23:00:00
+OMX              2023-07-20 23:00:00
+COTTON           2023-07-20 23:00:00
+NIFTY            2023-07-20 23:00:00
+CZK              2023-07-20 23:00:00
+MILKWET          2023-07-20 23:00:00
+ETHANOL          2023-07-20 23:00:00
+MILKDRY          2023-07-20 23:00:00
+KRWUSD           2023-07-20 23:00:00
+EURAUD           2023-07-20 23:00:00
+EURIBOR          2023-07-20 23:00:00
+EUROSTX-LARGE    2023-07-20 23:00:00
+FTSEVIET         2023-07-20 23:00:00
+GAS-PEN          2023-07-20 23:00:00
+GASOILINE_micro  2023-07-20 23:00:00
+CH10             2023-07-20 23:00:00
+MSCITAIWAN       2023-07-20 23:00:00
+GBPJPY           2023-07-20 23:00:00
+TWD              2023-07-20 23:00:00
+VNKI             2023-07-20 23:00:00
+AEX_mini         2023-07-20 23:00:00
+BB3M             2023-07-20 23:00:00
+AUDJPY           2023-07-20 23:00:00
+SWISSLEAD        2023-07-20 23:00:00
+TIN_LME          2023-07-20 23:00:00
+TWD-mini         2023-07-21 02:00:00
+SGD              2023-07-21 03:00:00
+JP-REALESTATE    2023-07-21 04:00:00
+JGB-SGX-mini     2023-07-21 04:00:00
+IRON             2023-07-21 04:00:00
+HANGTECH         2023-07-21 04:00:00
+FTSECHINAA       2023-07-21 04:00:00
+FTSECHINAH       2023-07-21 04:00:00
+FTSEINDO         2023-07-21 04:00:00
+HANG_mini        2023-07-21 04:00:00
+HANG             2023-07-21 04:00:00
+SPI200           2023-07-21 04:00:00
+HANGENT_mini     2023-07-21 04:00:00
+CHINAA-CON       2023-07-21 04:00:00
+HANGENT          2023-07-21 04:00:00
+JGB-mini         2023-07-21 04:30:00
+NIKKEI400        2023-07-21 05:00:00
+KR10             2023-07-21 05:00:00
+KR3              2023-07-21 05:00:00
+KOSDAQ           2023-07-21 05:00:00
+KRWUSD_mini      2023-07-21 05:00:00
+JGB              2023-07-21 05:00:00
+CNH              2023-07-21 05:00:00
+KOSPI            2023-07-21 05:00:00
+FTSETAIWAN       2023-07-21 05:00:00
+RUBBER           2023-07-21 05:00:00
+NIKKEI           2023-07-21 05:00:00
+TOPIX            2023-07-21 05:00:00
+MUMMY            2023-07-21 05:00:00
+MSCISING         2023-07-21 05:00:00
+KOSPI_mini       2023-07-21 05:00:00
+EU-HOUSE         2023-07-21 08:00:00
+EUROSTX200-LARGE 2023-07-21 12:00:00
+NICKEL_LME       2023-07-21 13:00:00
+COPPER_LME       2023-07-21 13:00:00
+WHEY             2023-07-21 14:30:00
+IRS              2023-07-21 14:30:00
+EURIBOR-ICE      2023-07-21 15:00:00
+FTSE100          2023-07-21 15:00:00
+GASOILINE_ICE    2023-07-21 15:00:00
+EUROSTX-SMALL    2023-07-21 15:00:00
+GILT             2023-07-21 15:00:00
+ALUMINIUM_LME    2023-07-21 15:00:00
+EUA              2023-07-21 15:00:00
+ZINC_LME         2023-07-21 15:00:00
+GASOIL           2023-07-21 15:00:00
+EU-HEALTH        2023-07-21 15:00:00
+EU-RETAIL        2023-07-21 15:00:00
+CAC              2023-07-21 15:00:00
+SMI-MID          2023-07-21 15:00:00
+SONIA3           2023-07-21 15:00:00
+SARONA           2023-07-21 15:00:00
+BTP3             2023-07-21 15:00:00
+R1000            2023-07-21 15:00:00
+BRENT_W          2023-07-21 15:00:00
+BONO             2023-07-21 15:00:00
+MSCIWORLD        2023-07-21 15:00:00
+DJSTX-SMALL      2023-07-21 15:00:00
+EPRA-EUROPE      2023-07-21 15:00:00
+EU-TRAVEL        2023-07-21 15:00:00
+GICS             2023-07-21 15:00:00
+MSCIASIA         2023-07-21 15:00:00
+EU-AUTO          2023-07-21 15:00:00
+EU-MID           2023-07-21 15:00:00
+EU-MEDIA         2023-07-21 15:00:00
+EU-INSURE        2023-07-21 15:00:00
+EU-DJ-UTIL       2023-07-21 15:00:00
+EU-DJ-TECH       2023-07-21 15:00:00
+EU-DJ-TELECOM    2023-07-21 15:00:00
+EU-DIV30         2023-07-21 15:00:00
+EU-CONSTRUCTION  2023-07-21 15:00:00
+LEAD_LME         2023-07-21 15:00:00
+MIB              2023-07-21 15:00:00
+IG               2023-07-21 16:00:00
+STEEL            2023-07-21 16:00:00
+SMI              2023-07-21 16:00:00
+GOLD-mini        2023-07-21 16:00:00
+V2X              2023-07-21 16:00:00
+OAT              2023-07-21 16:00:00
+SHATZ            2023-07-21 16:00:00
+AEX              2023-07-21 16:00:00
+EU-DJ-OIL        2023-07-21 16:00:00
+EU-UTILS         2023-07-21 16:00:00
+EU-OIL           2023-07-21 16:00:00
+EU-FOOD          2023-07-21 16:00:00
+EURCAD           2023-07-21 16:00:00
+EU-CHEM          2023-07-21 16:00:00
+EURO600          2023-07-21 16:00:00
+EUROSTX          2023-07-21 16:00:00
+BTP              2023-07-21 16:00:00
+BUND             2023-07-21 16:00:00
+BUXL             2023-07-21 16:00:00
+EU-TECH          2023-07-21 16:00:00
+EU-BASIC         2023-07-21 16:00:00
+EU-BANKS         2023-07-21 16:00:00
+ETHER-micro      2023-07-21 16:00:00
+DAX              2023-07-21 16:00:00
+CHFJPY           2023-07-21 16:00:00
+BOVESPA          2023-07-21 16:00:00
+BOBL             2023-07-21 16:00:00
+EU-REALESTATE    2023-07-21 16:00:00
+BUTTER           2023-07-21 17:00:00
+NOK              2023-07-21 17:00:00
+SUGAR11          2023-07-21 17:00:00
+HOUSE-US         2023-07-21 17:00:00
+US-MATERIAL      2023-07-21 18:00:00
+COCOA            2023-07-21 18:00:00
+RICE             2023-07-21 18:00:00
+COFFEE           2023-07-21 18:00:00
+GBPCHF           2023-07-21 18:00:00
+EURCHF           2023-07-21 18:00:00
+CAD10            2023-07-21 19:00:00
+SOYMEAL          2023-07-21 19:00:00
+OATIES           2023-07-21 19:00:00
+COPPER-mini      2023-07-21 19:00:00
+US-HEALTH        2023-07-21 19:00:00
+SOYBEAN_mini     2023-07-21 19:00:00
+CORN             2023-07-21 19:00:00
+CORN_mini        2023-07-21 19:00:00
+SOYBEAN          2023-07-21 19:00:00
+WHEAT_mini       2023-07-21 19:00:00
+WHEAT            2023-07-21 19:00:00
+GAS-LAST         2023-07-21 19:00:00
+JPY_mini         2023-07-21 19:00:00
+CRUDE_W_mini     2023-07-21 19:00:00
+SEK              2023-07-21 19:00:00
+SOYOIL           2023-07-21 19:00:00
+BRENT-LAST       2023-07-21 19:00:00
+VIX_mini         2023-07-21 19:00:00
+CHEESE           2023-07-21 19:00:00
+MILK             2023-07-21 19:00:00
+BBCOMM           2023-07-21 19:00:00
+LUMBER-new       2023-07-21 19:00:00
+LIVECOW          2023-07-21 19:00:00
+LEANHOG          2023-07-21 19:00:00
+REDWHEAT         2023-07-21 19:00:00
+FEEDCOW          2023-07-21 19:00:00
+BRE              2023-07-21 20:00:00
+SP500_micro      2023-07-21 20:00:00
+GBP_micro        2023-07-21 20:00:00
+US-UTILS         2023-07-21 20:00:00
+US-DISCRETE      2023-07-21 20:00:00
+ZAR              2023-07-21 20:00:00
+YENEUR           2023-07-21 20:00:00
+AUD              2023-07-21 20:00:00
+AUD_micro        2023-07-21 20:00:00
+VIX              2023-07-21 20:00:00
+US5              2023-07-21 20:00:00
+US30             2023-07-21 20:00:00
+US3              2023-07-21 20:00:00
+US20             2023-07-21 20:00:00
+US2              2023-07-21 20:00:00
+US10U            2023-07-21 20:00:00
+US10             2023-07-21 20:00:00
+US-TECH          2023-07-21 20:00:00
+US-STAPLES       2023-07-21 20:00:00
+US-REALESTATE    2023-07-21 20:00:00
+US-PROPERTY      2023-07-21 20:00:00
+US-INDUSTRY      2023-07-21 20:00:00
+US-FINANCE       2023-07-21 20:00:00
+US-ENERGY        2023-07-21 20:00:00
+BITCOIN          2023-07-21 20:00:00
+SP500            2023-07-21 20:00:00
+RUSSELL_mini     2023-07-21 20:00:00
+SOFR             2023-07-21 20:00:00
+MSCIEAFA         2023-07-21 20:00:00
+ETHEREUM         2023-07-21 20:00:00
+EUR              2023-07-21 20:00:00
+JPY              2023-07-21 20:00:00
+SP400            2023-07-21 20:00:00
+EUR_mini         2023-07-21 20:00:00
+INR              2023-07-21 20:00:00
+FED              2023-07-21 20:00:00
+HEATOIL          2023-07-21 20:00:00
+GASOILINE        2023-07-21 20:00:00
+GAS_US           2023-07-21 20:00:00
+GOLD_micro       2023-07-21 20:00:00
+GAS_US_mini      2023-07-21 20:00:00
+GOLD             2023-07-21 20:00:00
+GBP              2023-07-21 20:00:00
+DOW_mini         2023-07-21 20:00:00
+DOW              2023-07-21 20:00:00
+EUR_micro        2023-07-21 20:00:00
+NASDAQ           2023-07-21 20:00:00
+CAD              2023-07-21 20:00:00
+SILVER           2023-07-21 20:00:00
+MXP              2023-07-21 20:00:00
+CHF              2023-07-21 20:00:00
+GBPEUR           2023-07-21 20:00:00
+RUSSELL          2023-07-21 20:00:00
+CHF_micro        2023-07-21 20:00:00
+CAD_micro        2023-07-21 20:00:00
+PLAT             2023-07-21 20:00:00
+PALLAD           2023-07-21 20:00:00
+COPPER-micro     2023-07-21 20:00:00
+NZD              2023-07-21 20:00:00
+CRUDE_W          2023-07-21 20:00:00
+CRUDE_W_micro    2023-07-21 20:00:00
+NASDAQ_micro     2023-07-21 20:00:00
+COPPER           2023-07-21 20:00:00
 
 Delayed optimal positions: No delays
 
@@ -21,7 +264,7 @@ Delayed optimal positions: No delays
 ========================================================================================================
 
       period_days  trade_limit  trades_since_last_reset  trade_capacity_remaining  time_since_last_reset
- CAC           14            4                      4.0                       0.0 2 days 14:54:53.516346
+ CAC           14            4                      4.0                       0.0 5 days 14:54:53.382487
 
 
 ===========================================
@@ -29,59 +272,59 @@ Delayed optimal positions: No delays
 ===========================================
 
             keys  position pos_limit  spare
-0      GASOILINE         0         0    0.0
-98       MILKDRY         0         0    0.0
-96   COPPER-mini         0         0    0.0
-95        GAS_US         0         0    0.0
-94       US-TECH         0         0    0.0
-87          CH10         0         0    0.0
-81           CZK         0         0    0.0
-71           BRE         0         0    0.0
-100     ETHEREUM         0         0    0.0
-67          GOLD         0         0    0.0
-61       BOVESPA         0         0    0.0
-59     US-ENERGY         0         0    0.0
-56           NOK         0         0    0.0
-55      EU-MEDIA         0         0    0.0
-51        COPPER         0         0    0.0
-50          BUXL         0         0    0.0
-48         SP500         0         0    0.0
-62       CRUDE_W         0         0    0.0
-103         VNKI         0         0    0.0
-109          SEK         0         0    0.0
-110     GAS-LAST         0         0    0.0
-154          IRS         0         0    0.0
-151        SP400         0         0    0.0
-148          AEX         0         0    0.0
-147          JGB         0         0    0.0
-145      EU-CHEM         0         0    0.0
-144   BRENT-LAST         0         0    0.0
-142     EU-HOUSE         0         0    0.0
-141      HEATOIL         0         0    0.0
-138  GAS_US_mini        -1         1    0.0
-137  US-MATERIAL         0         0    0.0
-128       NASDAQ         0         0    0.0
-127   US-FINANCE         0         0    0.0
-125       BUTTER         0         0    0.0
-122         US30         0         0    0.0
-118      MILKWET         0         0    0.0
-117          OMX         0         0    0.0
-116      EURIBOR         0         0    0.0
-45     US-HEALTH         0         0    0.0
-42   US-DISCRETE         0         0    0.0
-78       ETHANOL         0         0    0.0
-4        LIVECOW         2         2    0.0
-24   CNH-onshore         0         0    0.0
-33           SGX         0         0    0.0
-8         PALLAD         0         0    0.0
-2         COTTON         0         0    0.0
-7            RUR         0         0    0.0
-37   US-INDUSTRY         0         0    0.0
-18        CHEESE         0         0    0.0
-36           VIX        -1         1    0.0
-30           CLP         0         0    0.0
-26        KRWUSD         0         0    0.0
-16           CHF        -1         1    0.0
+0        LIVECOW         2         2    0.0
+88       EURIBOR         0         0    0.0
+86           OMX         0         0    0.0
+84        NASDAQ         0         0    0.0
+79          GOLD         0         0    0.0
+76     US-ENERGY         0         0    0.0
+73        KRWUSD         0         0    0.0
+70       HEATOIL         0         0    0.0
+90           CHF        -1         1    0.0
+66   US-INDUSTRY         0         0    0.0
+61      EU-HOUSE         0         0    0.0
+60           CLP         0         0    0.0
+58     GASOILINE         0         0    0.0
+52         SP400         0         0    0.0
+51    US-FINANCE         0         0    0.0
+49       BOVESPA         0         0    0.0
+42          VNKI         0         0    0.0
+64        PALLAD         0         0    0.0
+41           CZK         0         0    0.0
+92          BUXL         0         0    0.0
+98           SEK         0         0    0.0
+151  CNH-onshore         0         0    0.0
+148     ETHEREUM         0         0    0.0
+144  US-DISCRETE         0         0    0.0
+143       COPPER         0         0    0.0
+142     GAS-LAST         0         0    0.0
+139        SP500         0         0    0.0
+132          JGB         0         0    0.0
+95        BUTTER         0         0    0.0
+130          SGX         0         0    0.0
+122    US-HEALTH         0         0    0.0
+115   BRENT-LAST         0         0    0.0
+112          AEX         0         0    0.0
+110  GAS_US_mini        -1         1    0.0
+107  COPPER-mini         0         0    0.0
+104          VIX        -1         1    0.0
+103       GAS_US         0         0    0.0
+127          IRS         0         0    0.0
+40          CH10         0         0    0.0
+78       MILKWET         0         0    0.0
+17   US-MATERIAL         0         0    0.0
+21           BRE         0         0    0.0
+19       ETHANOL         0         0    0.0
+15        CHEESE         0         0    0.0
+30           RUR         0         0    0.0
+31       US-TECH         0         0    0.0
+23           NOK         0         0    0.0
+7       EU-MEDIA         0         0    0.0
+33        COTTON         0         0    0.0
+24       EU-CHEM         0         0    0.0
+4           US30         0         0    0.0
+2        CRUDE_W         0         0    0.0
+35       MILKDRY         0         0    0.0
 
 
 =====================================================
@@ -231,10 +474,10 @@ EU-CHEM          2023-07-21 16:00:00
 EURO600          2023-07-21 16:00:00
 EUROSTX          2023-07-21 16:00:00
 BTP              2023-07-21 16:00:00
-BUXL             2023-07-21 16:00:00
-EU-BASIC         2023-07-21 16:00:00
-EU-TECH          2023-07-21 16:00:00
 BUND             2023-07-21 16:00:00
+BUXL             2023-07-21 16:00:00
+EU-TECH          2023-07-21 16:00:00
+EU-BASIC         2023-07-21 16:00:00
 EU-BANKS         2023-07-21 16:00:00
 ETHER-micro      2023-07-21 16:00:00
 DAX              2023-07-21 16:00:00
@@ -243,8 +486,8 @@ BOVESPA          2023-07-21 16:00:00
 BOBL             2023-07-21 16:00:00
 EU-REALESTATE    2023-07-21 16:00:00
 BUTTER           2023-07-21 17:00:00
-SUGAR11          2023-07-21 17:00:00
 NOK              2023-07-21 17:00:00
+SUGAR11          2023-07-21 17:00:00
 HOUSE-US         2023-07-21 17:00:00
 US-MATERIAL      2023-07-21 18:00:00
 COCOA            2023-07-21 18:00:00
@@ -252,38 +495,37 @@ RICE             2023-07-21 18:00:00
 COFFEE           2023-07-21 18:00:00
 GBPCHF           2023-07-21 18:00:00
 EURCHF           2023-07-21 18:00:00
-ALUMINIUM        2023-07-21 18:00:00
-JPY_mini         2023-07-21 19:00:00
-US-HEALTH        2023-07-21 19:00:00
+CAD10            2023-07-21 19:00:00
+SOYMEAL          2023-07-21 19:00:00
 OATIES           2023-07-21 19:00:00
 COPPER-mini      2023-07-21 19:00:00
-SOYMEAL          2023-07-21 19:00:00
+US-HEALTH        2023-07-21 19:00:00
+SOYBEAN_mini*    2023-07-21 19:00:00
 CORN             2023-07-21 19:00:00
 CORN_mini        2023-07-21 19:00:00
-SOYBEAN_mini*    2023-07-21 19:00:00
 SOYBEAN          2023-07-21 19:00:00
 WHEAT_mini       2023-07-21 19:00:00
 WHEAT            2023-07-21 19:00:00
-SEK              2023-07-21 19:00:00
-CRUDE_W_mini     2023-07-21 19:00:00
 GAS-LAST         2023-07-21 19:00:00
+JPY_mini         2023-07-21 19:00:00
+CRUDE_W_mini     2023-07-21 19:00:00
+SEK              2023-07-21 19:00:00
 SOYOIL*          2023-07-21 19:00:00
-CHEESE           2023-07-21 19:00:00
-FEEDCOW          2023-07-21 19:00:00
 BRENT-LAST       2023-07-21 19:00:00
 VIX_mini         2023-07-21 19:00:00
+CHEESE           2023-07-21 19:00:00
 MILK             2023-07-21 19:00:00
 BBCOMM           2023-07-21 19:00:00
 LUMBER-new       2023-07-21 19:00:00
 LIVECOW*         2023-07-21 19:00:00
 LEANHOG          2023-07-21 19:00:00
 REDWHEAT         2023-07-21 19:00:00
-CAD10            2023-07-21 19:00:00
+FEEDCOW          2023-07-21 19:00:00
 BRE              2023-07-21 20:00:00
-BITCOIN*         2023-07-21 20:00:00
+SP500_micro      2023-07-21 20:00:00
 GBP_micro        2023-07-21 20:00:00
-US10             2023-07-21 20:00:00
-US-ENERGY        2023-07-21 20:00:00
+US-UTILS         2023-07-21 20:00:00
+US-DISCRETE      2023-07-21 20:00:00
 ZAR              2023-07-21 20:00:00
 YENEUR           2023-07-21 20:00:00
 AUD              2023-07-21 20:00:00
@@ -292,25 +534,26 @@ VIX*             2023-07-21 20:00:00
 US5              2023-07-21 20:00:00
 US30             2023-07-21 20:00:00
 US3*             2023-07-21 20:00:00
-US-DISCRETE      2023-07-21 20:00:00
 US20             2023-07-21 20:00:00
+US2              2023-07-21 20:00:00
 US10U            2023-07-21 20:00:00
-US-UTILS         2023-07-21 20:00:00
+US10             2023-07-21 20:00:00
 US-TECH          2023-07-21 20:00:00
 US-STAPLES       2023-07-21 20:00:00
 US-REALESTATE    2023-07-21 20:00:00
 US-PROPERTY      2023-07-21 20:00:00
 US-INDUSTRY      2023-07-21 20:00:00
 US-FINANCE       2023-07-21 20:00:00
-US2              2023-07-21 20:00:00
-SP500_micro      2023-07-21 20:00:00
+US-ENERGY        2023-07-21 20:00:00
+BITCOIN*         2023-07-21 20:00:00
+SP500            2023-07-21 20:00:00
 RUSSELL_mini     2023-07-21 20:00:00
-SP400            2023-07-21 20:00:00
+SOFR             2023-07-21 20:00:00
 MSCIEAFA         2023-07-21 20:00:00
 ETHEREUM         2023-07-21 20:00:00
 EUR              2023-07-21 20:00:00
-SP500            2023-07-21 20:00:00
-EUR_micro        2023-07-21 20:00:00
+JPY*             2023-07-21 20:00:00
+SP400            2023-07-21 20:00:00
 EUR_mini         2023-07-21 20:00:00
 INR              2023-07-21 20:00:00
 FED              2023-07-21 20:00:00
@@ -323,9 +566,8 @@ GOLD             2023-07-21 20:00:00
 GBP*             2023-07-21 20:00:00
 DOW_mini         2023-07-21 20:00:00
 DOW              2023-07-21 20:00:00
-JPY*             2023-07-21 20:00:00
+EUR_micro        2023-07-21 20:00:00
 NASDAQ           2023-07-21 20:00:00
-SOFR             2023-07-21 20:00:00
 CAD              2023-07-21 20:00:00
 SILVER           2023-07-21 20:00:00
 MXP*             2023-07-21 20:00:00
@@ -354,6 +596,7 @@ AUDUSD           2023-07-21 23:00:00
 SEKUSD           2023-07-21 23:00:00
 EURUSD           2023-07-21 23:00:00
 SGDUSD           2023-07-21 23:00:00
+ALUMINIUM        2023-07-24 16:00:00
 
 
 ============================================================
@@ -361,179 +604,179 @@ SGDUSD           2023-07-21 23:00:00
 ============================================================
 
                                                  last_update
-dynamic_TF_carry/INR              2023-07-21 22:31:00.460454
-dynamic_TF_carry/SOYOIL           2023-07-21 22:31:00.460661
-dynamic_TF_carry/US-INDUSTRY      2023-07-21 22:31:00.460854
-dynamic_TF_carry/US-UTILS         2023-07-21 22:31:00.461041
-dynamic_TF_carry/GAS-PEN          2023-07-21 22:31:00.461226
-dynamic_TF_carry/BUXL             2023-07-21 22:31:00.461411
-dynamic_TF_carry/BOBL             2023-07-21 22:31:00.461594
-dynamic_TF_carry/EU-INSURE        2023-07-21 22:31:00.461777
-dynamic_TF_carry/MSCIWORLD        2023-07-21 22:31:00.461959
-dynamic_TF_carry/EURCAD           2023-07-21 22:31:00.462141
-dynamic_TF_carry/V2X              2023-07-21 22:31:00.462322
-dynamic_TF_carry/US30             2023-07-21 22:31:00.462505
-dynamic_TF_carry/FED              2023-07-21 22:31:00.462688
-dynamic_TF_carry/EUR              2023-07-21 22:31:00.462869
-dynamic_TF_carry/US-FINANCE       2023-07-21 22:31:00.463051
-dynamic_TF_carry/EURAUD           2023-07-21 22:31:00.463234
-dynamic_TF_carry/BOVESPA          2023-07-21 22:31:00.463416
-dynamic_TF_carry/US-PROPERTY      2023-07-21 22:31:00.463785
-dynamic_TF_carry/MUMMY            2023-07-21 22:31:00.463973
-dynamic_TF_carry/WHEY             2023-07-21 22:31:00.464155
-dynamic_TF_carry/CHEESE           2023-07-21 22:31:00.464337
-dynamic_TF_carry/EU-HEALTH        2023-07-21 22:31:00.464519
-dynamic_TF_carry/PLN              2023-07-21 22:31:00.464701
-dynamic_TF_carry/SGD              2023-07-21 22:31:00.464884
-dynamic_TF_carry/US-STAPLES       2023-07-21 22:31:00.465068
-dynamic_TF_carry/US-TECH          2023-07-21 22:31:00.465251
-dynamic_TF_carry/GBP              2023-07-21 22:31:00.465435
-dynamic_TF_carry/NIKKEI           2023-07-21 22:31:00.465617
-dynamic_TF_carry/EU-DIV30         2023-07-21 22:31:00.465800
-dynamic_TF_carry/CNH              2023-07-21 22:31:00.465982
-dynamic_TF_carry/US-HEALTH        2023-07-21 22:31:00.466164
-dynamic_TF_carry/RUSSELL          2023-07-21 22:31:00.466346
-dynamic_TF_carry/SILVER           2023-07-21 22:31:00.466529
-dynamic_TF_carry/EU-DJ-TELECOM    2023-07-21 22:31:00.466711
-dynamic_TF_carry/US10             2023-07-21 22:31:00.466892
-dynamic_TF_carry/VNKI             2023-07-21 22:31:00.467074
-dynamic_TF_carry/EUROSTX-SMALL    2023-07-21 22:31:00.467256
-dynamic_TF_carry/EU-DJ-UTIL       2023-07-21 22:31:00.467620
-dynamic_TF_carry/EUROSTX-LARGE    2023-07-21 22:31:00.467801
-dynamic_TF_carry/US-REALESTATE    2023-07-21 22:31:00.467988
-dynamic_TF_carry/EUR_micro        2023-07-21 22:31:00.468169
-dynamic_TF_carry/US20             2023-07-21 22:31:00.468351
-dynamic_TF_carry/CORN             2023-07-21 22:31:00.468533
-dynamic_TF_carry/GASOILINE        2023-07-21 22:31:00.468715
-dynamic_TF_carry/CAD              2023-07-21 22:31:00.468897
-dynamic_TF_carry/SMI-MID          2023-07-21 22:31:00.469079
-dynamic_TF_carry/EU-HOUSE         2023-07-21 22:31:00.469262
-dynamic_TF_carry/GBPJPY           2023-07-21 22:31:00.469443
-dynamic_TF_carry/FTSEVIET         2023-07-21 22:31:00.469624
-dynamic_TF_carry/SWISSLEAD        2023-07-21 22:31:00.469806
-dynamic_TF_carry/MSCIASIA         2023-07-21 22:31:00.469988
-dynamic_TF_carry/MSCISING         2023-07-21 22:31:00.470171
-dynamic_TF_carry/CAC              2023-07-21 22:31:00.470352
-dynamic_TF_carry/FTSECHINAH       2023-07-21 22:31:00.470535
-dynamic_TF_carry/KRWUSD           2023-07-21 22:31:00.470716
-dynamic_TF_carry/NZD              2023-07-21 22:31:00.470899
-dynamic_TF_carry/BRE              2023-07-21 22:31:00.471081
-dynamic_TF_carry/NIFTY            2023-07-21 22:31:00.471262
-dynamic_TF_carry/EU-OIL           2023-07-21 22:31:00.471446
-dynamic_TF_carry/MXP              2023-07-21 22:31:00.471629
-dynamic_TF_carry/SP400            2023-07-21 22:31:00.471811
-dynamic_TF_carry/ZAR              2023-07-21 22:31:00.472000
-dynamic_TF_carry/EU-TECH          2023-07-21 22:31:00.472183
-dynamic_TF_carry/EU-RETAIL        2023-07-21 22:31:00.472366
-dynamic_TF_carry/JP-REALESTATE    2023-07-21 22:31:00.472548
-dynamic_TF_carry/YENEUR           2023-07-21 22:31:00.472730
-dynamic_TF_carry/SOYMEAL          2023-07-21 22:31:00.472911
-dynamic_TF_carry/EU-CONSTRUCTION  2023-07-21 22:31:00.473093
-dynamic_TF_carry/OATIES           2023-07-21 22:31:00.473275
-dynamic_TF_carry/US-DISCRETE      2023-07-21 22:31:00.473457
-dynamic_TF_carry/WHEAT            2023-07-21 22:31:00.473639
-dynamic_TF_carry/EU-REALESTATE    2023-07-21 22:31:00.473822
-dynamic_TF_carry/GBPEUR           2023-07-21 22:31:00.474009
-dynamic_TF_carry/EURCHF           2023-07-21 22:31:00.474194
-dynamic_TF_carry/EU-BANKS         2023-07-21 22:31:00.474378
-dynamic_TF_carry/NIKKEI400        2023-07-21 22:31:00.474561
-dynamic_TF_carry/LIVECOW          2023-07-21 22:31:00.474744
-dynamic_TF_carry/EU-AUTO          2023-07-21 22:31:00.474927
-dynamic_TF_carry/SOYBEAN          2023-07-21 22:31:00.475110
-dynamic_TF_carry/FTSEINDO         2023-07-21 22:31:00.475293
-dynamic_TF_carry/JGB-SGX-mini     2023-07-21 22:31:00.475475
-dynamic_TF_carry/BBCOMM           2023-07-21 22:31:00.475658
-dynamic_TF_carry/OMX              2023-07-21 22:31:00.475840
-dynamic_TF_carry/NASDAQ_micro     2023-07-21 22:31:00.476027
-dynamic_TF_carry/JGB              2023-07-21 22:31:00.476210
-dynamic_TF_carry/BB3M             2023-07-21 22:31:00.476392
-dynamic_TF_carry/SEK              2023-07-21 22:31:00.476574
-dynamic_TF_carry/IRS              2023-07-21 22:31:00.476757
-dynamic_TF_carry/FEEDCOW          2023-07-21 22:31:00.476940
-dynamic_TF_carry/KR10             2023-07-21 22:31:00.477122
-dynamic_TF_carry/GBPCHF           2023-07-21 22:31:00.477305
-dynamic_TF_carry/MILKWET          2023-07-21 22:31:00.477488
-dynamic_TF_carry/MILK             2023-07-21 22:31:00.477670
-dynamic_TF_carry/EU-UTILS         2023-07-21 22:31:00.477852
-dynamic_TF_carry/GOLD_micro       2023-07-21 22:31:00.478036
-dynamic_TF_carry/EURO600          2023-07-21 22:31:00.478219
-dynamic_TF_carry/SMI              2023-07-21 22:31:00.478402
-dynamic_TF_carry/EUROSTX200-LARGE 2023-07-21 22:31:00.478585
-dynamic_TF_carry/SP500_micro      2023-07-21 22:31:00.478768
-dynamic_TF_carry/AEX              2023-07-21 22:31:00.478952
-dynamic_TF_carry/EU-CHEM          2023-07-21 22:31:00.479134
-dynamic_TF_carry/BTP3             2023-07-21 22:31:00.479316
-dynamic_TF_carry/ETHANOL          2023-07-21 22:31:00.479498
-dynamic_TF_carry/DJSTX-SMALL      2023-07-21 22:31:00.479681
-dynamic_TF_carry/RUBBER           2023-07-21 22:31:00.479867
-dynamic_TF_carry/GICS             2023-07-21 22:31:00.480051
-dynamic_TF_carry/AUDJPY           2023-07-21 22:31:00.480234
-dynamic_TF_carry/GAS-LAST         2023-07-21 22:31:00.480416
-dynamic_TF_carry/BRENT-LAST       2023-07-21 22:31:00.480600
-dynamic_TF_carry/COPPER           2023-07-21 22:31:00.480785
-dynamic_TF_carry/SGX              2023-07-21 22:31:00.480969
-dynamic_TF_carry/KOSPI            2023-07-21 22:31:00.481334
-dynamic_TF_carry/EU-MID           2023-07-21 22:31:00.481516
-dynamic_TF_carry/EUROSTX          2023-07-21 22:31:00.481698
-dynamic_TF_carry/JPY              2023-07-21 22:31:00.481881
-dynamic_TF_carry/KOSPI_mini       2023-07-21 22:31:00.482065
-dynamic_TF_carry/CHFJPY           2023-07-21 22:31:00.482248
-dynamic_TF_carry/HOUSE-US         2023-07-21 22:31:00.482429
-dynamic_TF_carry/AUD              2023-07-21 22:31:00.482612
-dynamic_TF_carry/DAX              2023-07-21 22:31:00.482795
-dynamic_TF_carry/OAT              2023-07-21 22:31:00.482977
-dynamic_TF_carry/CH10             2023-07-21 22:31:00.483160
-dynamic_TF_carry/BTP              2023-07-21 22:31:00.483342
-dynamic_TF_carry/STEEL            2023-07-21 22:31:00.483526
-dynamic_TF_carry/PLAT             2023-07-21 22:31:00.483708
-dynamic_TF_carry/KRWUSD_mini      2023-07-21 22:31:00.483895
-dynamic_TF_carry/BUTTER           2023-07-21 22:31:00.484078
-dynamic_TF_carry/US10U            2023-07-21 22:31:00.484261
-dynamic_TF_carry/EURIBOR          2023-07-21 22:31:00.484444
-dynamic_TF_carry/BONO             2023-07-21 22:31:00.484626
-dynamic_TF_carry/CZK              2023-07-21 22:31:00.484991
-dynamic_TF_carry/US3              2023-07-21 22:31:00.485173
-dynamic_TF_carry/LUMBER-new       2023-07-21 22:31:00.485358
-dynamic_TF_carry/TWD              2023-07-21 22:31:00.485541
-dynamic_TF_carry/EPRA-EUROPE      2023-07-21 22:31:00.485725
-dynamic_TF_carry/US-MATERIAL      2023-07-21 22:31:00.485907
-dynamic_TF_carry/SOYBEAN_mini     2023-07-21 22:31:00.486090
-dynamic_TF_carry/VIX              2023-07-21 22:31:00.486273
-dynamic_TF_carry/FTSETAIWAN       2023-07-21 22:31:00.486455
-dynamic_TF_carry/KOSDAQ           2023-07-21 22:31:00.486638
-dynamic_TF_carry/BITCOIN          2023-07-21 22:31:00.486822
-dynamic_TF_carry/SOFR             2023-07-21 22:31:00.487005
-dynamic_TF_carry/ETHEREUM         2023-07-21 22:31:00.487188
-dynamic_TF_carry/DOW              2023-07-21 22:31:00.487371
-dynamic_TF_carry/EU-BASIC         2023-07-21 22:31:00.487554
-dynamic_TF_carry/LEANHOG          2023-07-21 22:31:00.487738
-dynamic_TF_carry/HEATOIL          2023-07-21 22:31:00.487927
-dynamic_TF_carry/EU-MEDIA         2023-07-21 22:31:00.488110
-dynamic_TF_carry/MILKDRY          2023-07-21 22:31:00.488292
-dynamic_TF_carry/NOK              2023-07-21 22:31:00.488474
-dynamic_TF_carry/EU-FOOD          2023-07-21 22:31:00.488655
-dynamic_TF_carry/PALLAD           2023-07-21 22:31:00.488836
-dynamic_TF_carry/R1000            2023-07-21 22:31:00.489018
-dynamic_TF_carry/CHF              2023-07-21 22:31:00.489384
-dynamic_TF_carry/CRUDE_W_mini     2023-07-21 22:31:00.489565
-dynamic_TF_carry/US-ENERGY        2023-07-21 22:31:00.489745
-dynamic_TF_carry/SHATZ            2023-07-21 22:31:00.489926
-dynamic_TF_carry/IRON             2023-07-21 22:31:00.490108
-dynamic_TF_carry/TOPIX            2023-07-21 22:31:00.490290
-dynamic_TF_carry/REDWHEAT         2023-07-21 22:31:00.490655
-dynamic_TF_carry/FTSECHINAA       2023-07-21 22:31:00.490838
-dynamic_TF_carry/EU-TRAVEL        2023-07-21 22:31:00.491019
-dynamic_TF_carry/US5              2023-07-21 22:31:00.491201
-dynamic_TF_carry/US2              2023-07-21 22:31:00.491383
-dynamic_TF_carry/COPPER-micro     2023-07-21 22:31:00.491566
-dynamic_TF_carry/RUR              2023-07-21 22:31:00.491747
-dynamic_TF_carry/BUND             2023-07-21 22:31:00.491933
-dynamic_TF_carry/GAS_US_mini      2023-07-21 22:31:00.492116
-dynamic_TF_carry/CLP              2023-07-21 22:31:00.492299
-dynamic_TF_carry/KR3              2023-07-21 22:31:00.492483
-dynamic_TF_carry/RICE             2023-07-21 22:31:00.492668
-dynamic_TF_carry/ALUMINIUM        2023-07-21 22:31:00.492853
-dynamic_TF_carry/COTTON           2023-07-21 22:31:00.493038
+dynamic_TF_carry/FTSECHINAA       2023-07-24 22:31:00.720623
+dynamic_TF_carry/VNKI             2023-07-24 22:31:00.720835
+dynamic_TF_carry/US30             2023-07-24 22:31:00.721032
+dynamic_TF_carry/EU-HEALTH        2023-07-24 22:31:00.721225
+dynamic_TF_carry/IRON             2023-07-24 22:31:00.721415
+dynamic_TF_carry/BB3M             2023-07-24 22:31:00.721605
+dynamic_TF_carry/EU-RETAIL        2023-07-24 22:31:00.721792
+dynamic_TF_carry/FTSECHINAH       2023-07-24 22:31:00.721979
+dynamic_TF_carry/EURO600          2023-07-24 22:31:00.722166
+dynamic_TF_carry/EUROSTX-SMALL    2023-07-24 22:31:00.722353
+dynamic_TF_carry/SGD              2023-07-24 22:31:00.722541
+dynamic_TF_carry/AUDJPY           2023-07-24 22:31:00.722730
+dynamic_TF_carry/EU-CONSTRUCTION  2023-07-24 22:31:00.722918
+dynamic_TF_carry/SGX              2023-07-24 22:31:00.723105
+dynamic_TF_carry/AUD              2023-07-24 22:31:00.723293
+dynamic_TF_carry/SILVER           2023-07-24 22:31:00.723481
+dynamic_TF_carry/COPPER-micro     2023-07-24 22:31:00.723861
+dynamic_TF_carry/EU-DJ-TELECOM    2023-07-24 22:31:00.724052
+dynamic_TF_carry/STEEL            2023-07-24 22:31:00.724239
+dynamic_TF_carry/US2              2023-07-24 22:31:00.724427
+dynamic_TF_carry/GOLD_micro       2023-07-24 22:31:00.724614
+dynamic_TF_carry/US-STAPLES       2023-07-24 22:31:00.724801
+dynamic_TF_carry/BONO             2023-07-24 22:31:00.724988
+dynamic_TF_carry/REDWHEAT         2023-07-24 22:31:00.725175
+dynamic_TF_carry/DJSTX-SMALL      2023-07-24 22:31:00.725362
+dynamic_TF_carry/KRWUSD           2023-07-24 22:31:00.725575
+dynamic_TF_carry/US-FINANCE       2023-07-24 22:31:00.725766
+dynamic_TF_carry/BITCOIN          2023-07-24 22:31:00.725956
+dynamic_TF_carry/EU-AUTO          2023-07-24 22:31:00.726145
+dynamic_TF_carry/US5              2023-07-24 22:31:00.726333
+dynamic_TF_carry/NASDAQ_micro     2023-07-24 22:31:00.726522
+dynamic_TF_carry/US-UTILS         2023-07-24 22:31:00.726710
+dynamic_TF_carry/BBCOMM           2023-07-24 22:31:00.726898
+dynamic_TF_carry/JPY              2023-07-24 22:31:00.727085
+dynamic_TF_carry/DOW              2023-07-24 22:31:00.727273
+dynamic_TF_carry/WHEAT            2023-07-24 22:31:00.727461
+dynamic_TF_carry/EUROSTX          2023-07-24 22:31:00.727647
+dynamic_TF_carry/EU-DIV30         2023-07-24 22:31:00.727835
+dynamic_TF_carry/OATIES           2023-07-24 22:31:00.728029
+dynamic_TF_carry/SMI-MID          2023-07-24 22:31:00.728216
+dynamic_TF_carry/OAT              2023-07-24 22:31:00.728404
+dynamic_TF_carry/EU-OIL           2023-07-24 22:31:00.728592
+dynamic_TF_carry/GAS-LAST         2023-07-24 22:31:00.728781
+dynamic_TF_carry/MILK             2023-07-24 22:31:00.728968
+dynamic_TF_carry/US20             2023-07-24 22:31:00.729156
+dynamic_TF_carry/EUROSTX-LARGE    2023-07-24 22:31:00.729344
+dynamic_TF_carry/GBPCHF           2023-07-24 22:31:00.729531
+dynamic_TF_carry/NOK              2023-07-24 22:31:00.729719
+dynamic_TF_carry/HOUSE-US         2023-07-24 22:31:00.729907
+dynamic_TF_carry/CHEESE           2023-07-24 22:31:00.730094
+dynamic_TF_carry/TOPIX            2023-07-24 22:31:00.730280
+dynamic_TF_carry/BRE              2023-07-24 22:31:00.730467
+dynamic_TF_carry/EU-DJ-UTIL       2023-07-24 22:31:00.730654
+dynamic_TF_carry/HEATOIL          2023-07-24 22:31:00.730840
+dynamic_TF_carry/VIX              2023-07-24 22:31:00.731027
+dynamic_TF_carry/SOFR             2023-07-24 22:31:00.731215
+dynamic_TF_carry/KOSPI            2023-07-24 22:31:00.731402
+dynamic_TF_carry/CHF              2023-07-24 22:31:00.731588
+dynamic_TF_carry/SEK              2023-07-24 22:31:00.731774
+dynamic_TF_carry/BTP              2023-07-24 22:31:00.731965
+dynamic_TF_carry/KR3              2023-07-24 22:31:00.732153
+dynamic_TF_carry/RUR              2023-07-24 22:31:00.732340
+dynamic_TF_carry/YENEUR           2023-07-24 22:31:00.732527
+dynamic_TF_carry/SP500_micro      2023-07-24 22:31:00.732714
+dynamic_TF_carry/KOSDAQ           2023-07-24 22:31:00.732901
+dynamic_TF_carry/EU-UTILS         2023-07-24 22:31:00.733088
+dynamic_TF_carry/NIKKEI           2023-07-24 22:31:00.733274
+dynamic_TF_carry/BOBL             2023-07-24 22:31:00.733462
+dynamic_TF_carry/ALUMINIUM        2023-07-24 22:31:00.733649
+dynamic_TF_carry/DAX              2023-07-24 22:31:00.733836
+dynamic_TF_carry/EPRA-EUROPE      2023-07-24 22:31:00.734023
+dynamic_TF_carry/KR10             2023-07-24 22:31:00.734209
+dynamic_TF_carry/EU-INSURE        2023-07-24 22:31:00.734396
+dynamic_TF_carry/LUMBER-new       2023-07-24 22:31:00.734584
+dynamic_TF_carry/FED              2023-07-24 22:31:00.734770
+dynamic_TF_carry/JGB-SGX-mini     2023-07-24 22:31:00.734955
+dynamic_TF_carry/CAC              2023-07-24 22:31:00.735160
+dynamic_TF_carry/COTTON           2023-07-24 22:31:00.735348
+dynamic_TF_carry/EU-MID           2023-07-24 22:31:00.735534
+dynamic_TF_carry/JP-REALESTATE    2023-07-24 22:31:00.735721
+dynamic_TF_carry/MILKDRY          2023-07-24 22:31:00.735913
+dynamic_TF_carry/IRS              2023-07-24 22:31:00.736287
+dynamic_TF_carry/EU-HOUSE         2023-07-24 22:31:00.736473
+dynamic_TF_carry/LIVECOW          2023-07-24 22:31:00.736659
+dynamic_TF_carry/PLN              2023-07-24 22:31:00.736846
+dynamic_TF_carry/BUTTER           2023-07-24 22:31:00.737033
+dynamic_TF_carry/US3              2023-07-24 22:31:00.737219
+dynamic_TF_carry/US-ENERGY        2023-07-24 22:31:00.737406
+dynamic_TF_carry/GAS-PEN          2023-07-24 22:31:00.737592
+dynamic_TF_carry/EURCAD           2023-07-24 22:31:00.737779
+dynamic_TF_carry/US-DISCRETE      2023-07-24 22:31:00.737966
+dynamic_TF_carry/NZD              2023-07-24 22:31:00.738153
+dynamic_TF_carry/MSCIASIA         2023-07-24 22:31:00.738340
+dynamic_TF_carry/BUXL             2023-07-24 22:31:00.738527
+dynamic_TF_carry/MSCISING         2023-07-24 22:31:00.738714
+dynamic_TF_carry/FTSETAIWAN       2023-07-24 22:31:00.738901
+dynamic_TF_carry/GAS_US_mini      2023-07-24 22:31:00.739087
+dynamic_TF_carry/US-MATERIAL      2023-07-24 22:31:00.739273
+dynamic_TF_carry/EU-BANKS         2023-07-24 22:31:00.739460
+dynamic_TF_carry/LEANHOG          2023-07-24 22:31:00.739647
+dynamic_TF_carry/US-TECH          2023-07-24 22:31:00.739834
+dynamic_TF_carry/R1000            2023-07-24 22:31:00.740025
+dynamic_TF_carry/SOYMEAL          2023-07-24 22:31:00.740211
+dynamic_TF_carry/INR              2023-07-24 22:31:00.740400
+dynamic_TF_carry/GBP              2023-07-24 22:31:00.740587
+dynamic_TF_carry/EURCHF           2023-07-24 22:31:00.740775
+dynamic_TF_carry/EUR              2023-07-24 22:31:00.740963
+dynamic_TF_carry/GBPEUR           2023-07-24 22:31:00.741149
+dynamic_TF_carry/GICS             2023-07-24 22:31:00.741336
+dynamic_TF_carry/SHATZ            2023-07-24 22:31:00.741522
+dynamic_TF_carry/MSCIWORLD        2023-07-24 22:31:00.741708
+dynamic_TF_carry/V2X              2023-07-24 22:31:00.741893
+dynamic_TF_carry/US10U            2023-07-24 22:31:00.742080
+dynamic_TF_carry/CZK              2023-07-24 22:31:00.742265
+dynamic_TF_carry/ETHEREUM         2023-07-24 22:31:00.742450
+dynamic_TF_carry/EUROSTX200-LARGE 2023-07-24 22:31:00.742636
+dynamic_TF_carry/SOYBEAN_mini     2023-07-24 22:31:00.742822
+dynamic_TF_carry/CHFJPY           2023-07-24 22:31:00.743009
+dynamic_TF_carry/RUSSELL          2023-07-24 22:31:00.743385
+dynamic_TF_carry/US-HEALTH        2023-07-24 22:31:00.743571
+dynamic_TF_carry/GASOILINE        2023-07-24 22:31:00.743759
+dynamic_TF_carry/KRWUSD_mini      2023-07-24 22:31:00.743950
+dynamic_TF_carry/EU-TRAVEL        2023-07-24 22:31:00.744137
+dynamic_TF_carry/CORN             2023-07-24 22:31:00.744323
+dynamic_TF_carry/KOSPI_mini       2023-07-24 22:31:00.744511
+dynamic_TF_carry/US10             2023-07-24 22:31:00.744701
+dynamic_TF_carry/SOYBEAN          2023-07-24 22:31:00.744890
+dynamic_TF_carry/RICE             2023-07-24 22:31:00.745079
+dynamic_TF_carry/SWISSLEAD        2023-07-24 22:31:00.745266
+dynamic_TF_carry/US-INDUSTRY      2023-07-24 22:31:00.745455
+dynamic_TF_carry/FEEDCOW          2023-07-24 22:31:00.745829
+dynamic_TF_carry/CRUDE_W_mini     2023-07-24 22:31:00.746017
+dynamic_TF_carry/EU-CHEM          2023-07-24 22:31:00.746205
+dynamic_TF_carry/PALLAD           2023-07-24 22:31:00.746393
+dynamic_TF_carry/ETHANOL          2023-07-24 22:31:00.746581
+dynamic_TF_carry/CAD              2023-07-24 22:31:00.746768
+dynamic_TF_carry/BTP3             2023-07-24 22:31:00.746956
+dynamic_TF_carry/BOVESPA          2023-07-24 22:31:00.747143
+dynamic_TF_carry/GBPJPY           2023-07-24 22:31:00.747330
+dynamic_TF_carry/EURIBOR          2023-07-24 22:31:00.747706
+dynamic_TF_carry/CH10             2023-07-24 22:31:00.747897
+dynamic_TF_carry/SMI              2023-07-24 22:31:00.748085
+dynamic_TF_carry/CNH              2023-07-24 22:31:00.748273
+dynamic_TF_carry/BRENT-LAST       2023-07-24 22:31:00.748460
+dynamic_TF_carry/EU-MEDIA         2023-07-24 22:31:00.748648
+dynamic_TF_carry/EU-FOOD          2023-07-24 22:31:00.748837
+dynamic_TF_carry/BUND             2023-07-24 22:31:00.749025
+dynamic_TF_carry/FTSEINDO         2023-07-24 22:31:00.749214
+dynamic_TF_carry/CLP              2023-07-24 22:31:00.749402
+dynamic_TF_carry/MXP              2023-07-24 22:31:00.749589
+dynamic_TF_carry/NIKKEI400        2023-07-24 22:31:00.749776
+dynamic_TF_carry/EU-BASIC         2023-07-24 22:31:00.749964
+dynamic_TF_carry/TWD              2023-07-24 22:31:00.750151
+dynamic_TF_carry/MUMMY            2023-07-24 22:31:00.750338
+dynamic_TF_carry/ZAR              2023-07-24 22:31:00.750525
+dynamic_TF_carry/NIFTY            2023-07-24 22:31:00.750713
+dynamic_TF_carry/EU-REALESTATE    2023-07-24 22:31:00.750900
+dynamic_TF_carry/OMX              2023-07-24 22:31:00.751087
+dynamic_TF_carry/US-PROPERTY      2023-07-24 22:31:00.751275
+dynamic_TF_carry/US-REALESTATE    2023-07-24 22:31:00.751462
+dynamic_TF_carry/WHEY             2023-07-24 22:31:00.751649
+dynamic_TF_carry/EURAUD           2023-07-24 22:31:00.751837
+dynamic_TF_carry/EUR_micro        2023-07-24 22:31:00.752028
+dynamic_TF_carry/EU-TECH          2023-07-24 22:31:00.752217
+dynamic_TF_carry/RUBBER           2023-07-24 22:31:00.752405
+dynamic_TF_carry/AEX              2023-07-24 22:31:00.752593
+dynamic_TF_carry/SOYOIL           2023-07-24 22:31:00.752779
+dynamic_TF_carry/MILKWET          2023-07-24 22:31:00.752967
+dynamic_TF_carry/SP400            2023-07-24 22:31:00.753153
+dynamic_TF_carry/PLAT             2023-07-24 22:31:00.753340
+dynamic_TF_carry/FTSEVIET         2023-07-24 22:31:00.753716
+dynamic_TF_carry/JGB              2023-07-24 22:31:00.753903
+dynamic_TF_carry/COPPER           2023-07-24 22:31:00.754090
 
 
 ======================================================================================================================
@@ -541,45 +784,45 @@ dynamic_TF_carry/COTTON           2023-07-21 22:31:00.493038
 ======================================================================================================================
 
                    period_days  trade_limit  trades_since_last_reset  trade_capacity_remaining   time_since_last_reset
- CAC                        14            4                      4.0                       0.0  2 days 14:55:44.103257
- CNH                        14            4                      3.0                       1.0 10 days 21:55:38.997580
- CAC                        30            5                      4.0                       1.0  2 days 14:55:44.105858
- CNH                        30            5                      3.0                       2.0 10 days 21:55:38.995814
- US-REALESTATE               1            4                      0.0                       4.0  0 days 00:00:00.000002
- TOPIX                       1            4                      0.0                       4.0  0 days 00:00:00.000002
- SP400                       1            4                      0.0                       4.0  0 days 00:00:00.000002
- SEK                         1            4                      0.0                       4.0  0 days 00:00:00.000002
- US10U                       1            4                      0.0                       4.0  0 days 00:00:00.000002
- RUSSELL                     1            4                      0.0                       4.0  0 days 00:00:00.000002
+ CAC                        14            4                      4.0                       0.0  5 days 14:55:45.018800
+ CNH                        14            4                      3.0                       1.0 13 days 21:55:39.913122
+ CAC                        30            5                      4.0                       1.0  5 days 14:55:45.021400
+ CNH                        30            5                      3.0                       2.0 13 days 21:55:39.911357
+ US-REALESTATE               1            4                      0.0                       4.0  0 days 00:00:00.000001
+ TOPIX                       1            4                      0.0                       4.0  0 days 00:00:00.000001
+ SP400                       1            4                      0.0                       4.0  0 days 00:00:00.000001
+ SEK                         1            4                      0.0                       4.0  0 days 00:00:00.000001
+ US10U                       1            4                      0.0                       4.0  0 days 00:00:00.000001
+ RUSSELL                     1            4                      0.0                       4.0  0 days 00:00:00.000001
  RICE                        1            4                      0.0                       4.0  0 days 00:00:00.000001
  REDWHEAT                    1            4                      0.0                       4.0  0 days 00:00:00.000001
- R1000                       1            4                      0.0                       4.0  0 days 00:00:00.000002
+ R1000                       1            4                      0.0                       4.0  0 days 00:00:00.000001
  US-UTILS                    1            4                      0.0                       4.0  0 days 00:00:00.000001
  NOK                         1            4                      0.0                       4.0  0 days 00:00:00.000002
  NIKKEI400                   1            4                      0.0                       4.0  0 days 00:00:00.000002
  NIKKEI                      1            4                      0.0                       4.0  0 days 00:00:00.000002
- RUR                         1            4                      0.0                       4.0  0 days 00:00:00.000002
- US3                         1            4                      0.0                       4.0  0 days 00:00:00.000002
- CORN                        1            4                      0.0                       4.0  0 days 00:00:00.000002
- YENEUR                      1            4                      0.0                       4.0  0 days 00:00:00.000002
- NOK                        14            4                      0.0                       4.0  0 days 00:00:00.000001
- KRWUSD                     14            4                      0.0                       4.0  0 days 00:00:00.000001
+ RUR                         1            4                      0.0                       4.0  0 days 00:00:00.000001
+ US3                         1            4                      0.0                       4.0  0 days 00:00:00.000001
+ CORN                        1            4                      0.0                       4.0  0 days 00:00:00.000003
+ YENEUR                      1            4                      0.0                       4.0  0 days 00:00:00.000001
+ NOK                        14            4                      0.0                       4.0  0 days 00:00:00.000002
+ KRWUSD                     14            4                      0.0                       4.0  0 days 00:00:00.000002
  JGB                        14            4                      0.0                       4.0  0 days 00:00:00.000001
  HEATOIL                    14            4                      0.0                       4.0  0 days 00:00:00.000001
- GBPEUR                     14            4                      0.0                       4.0  0 days 00:00:00.000002
- GAS-LAST                   14            4                      0.0                       4.0  0 days 00:00:00.000002
+ GBPEUR                     14            4                      0.0                       4.0  0 days 00:00:00.000001
+ GAS-LAST                   14            4                      0.0                       4.0  0 days 00:00:00.000001
  NIFTY                       1            4                      0.0                       4.0  0 days 00:00:00.000002
- FTSETAIWAN                 14            4                      0.0                       4.0  0 days 00:00:00.000002
+ FTSETAIWAN                 14            4                      0.0                       4.0  0 days 00:00:00.000001
  EU-CHEM                    14            4                      0.0                       4.0  0 days 00:00:00.000002
  ETHEREUM                   14            4                      0.0                       4.0  0 days 00:00:00.000002
  BUXL                       14            4                      0.0                       4.0  0 days 00:00:00.000002
- BTP3                       14            4                      0.0                       4.0  0 days 00:00:00.000002
- BRENT-LAST                 14            4                      0.0                       4.0  0 days 00:00:00.000002
+ BTP3                       14            4                      0.0                       4.0  0 days 00:00:00.000001
+ BRENT-LAST                 14            4                      0.0                       4.0  0 days 00:00:00.000001
  BONO                       14            4                      0.0                       4.0  0 days 00:00:00.000001
- EU-TECH                    14            4                      0.0                       4.0  0 days 00:00:00.000001
- MUMMY                       1            4                      0.0                       4.0  0 days 00:00:00.000002
+ EU-TECH                    14            4                      0.0                       4.0  0 days 00:00:00.000002
+ MUMMY                       1            4                      0.0                       4.0  0 days 00:00:00.000001
  MSCISING                    1            4                      0.0                       4.0  0 days 00:00:00.000001
- MILK                        1            4                      0.0                       4.0  0 days 00:00:00.000002
+ MILK                        1            4                      0.0                       4.0  0 days 00:00:00.000001
  EU-HEALTH                   1            4                      0.0                       4.0  0 days 00:00:00.000001
  EU-FOOD                     1            4                      0.0                       4.0  0 days 00:00:00.000001
  EU-CHEM                     1            4                      0.0                       4.0  0 days 00:00:00.000001
@@ -588,40 +831,40 @@ dynamic_TF_carry/COTTON           2023-07-21 22:31:00.493038
  ETHEREUM                    1            4                      0.0                       4.0  0 days 00:00:00.000001
  EU-INSURE                   1            4                      0.0                       4.0  0 days 00:00:00.000001
  DOW                         1            4                      0.0                       4.0  0 days 00:00:00.000001
- CNH                         1            4                      0.0                       4.0  0 days 00:00:00.000001
- CHEESE                      1            4                      0.0                       4.0  0 days 00:00:00.000001
- BTP3                        1            4                      0.0                       4.0  0 days 00:00:00.000001
- BRENT-LAST                  1            4                      0.0                       4.0  0 days 00:00:00.000001
- BONO                        1            4                      0.0                       4.0  0 days 00:00:00.000001
- BBCOMM                      1            4                      0.0                       4.0  0 days 00:00:00.000001
+ CNH                         1            4                      0.0                       4.0  0 days 00:00:00.000002
+ CHEESE                      1            4                      0.0                       4.0  0 days 00:00:00.000002
+ BTP3                        1            4                      0.0                       4.0  0 days 00:00:00.000002
+ BRENT-LAST                  1            4                      0.0                       4.0  0 days 00:00:00.000002
+ BONO                        1            4                      0.0                       4.0  0 days 00:00:00.000002
+ BBCOMM                      1            4                      0.0                       4.0  0 days 00:00:00.000002
  DJSTX-SMALL                 1            4                      0.0                       4.0  0 days 00:00:00.000001
- R1000                      14            4                      0.0                       4.0  0 days 00:00:00.000001
- EU-OIL                      1            4                      0.0                       4.0  0 days 00:00:00.000001
- EU-TECH                     1            4                      0.0                       4.0  0 days 00:00:00.000001
- KRWUSD                      1            4                      0.0                       4.0  0 days 00:00:00.000001
+ R1000                      14            4                      0.0                       4.0  0 days 00:00:00.000002
+ EU-OIL                      1            4                      0.0                       4.0  0 days 00:00:00.000002
+ EU-TECH                     1            4                      0.0                       4.0  0 days 00:00:00.000002
+ KRWUSD                      1            4                      0.0                       4.0  0 days 00:00:00.000002
  KOSDAQ                      1            4                      0.0                       4.0  0 days 00:00:00.000001
  JGB                         1            4                      0.0                       4.0  0 days 00:00:00.000001
  IRON                        1            4                      0.0                       4.0  0 days 00:00:00.000001
  INR                         1            4                      0.0                       4.0  0 days 00:00:00.000001
  HEATOIL                     1            4                      0.0                       4.0  0 days 00:00:00.000001
- EU-RETAIL                   1            4                      0.0                       4.0  0 days 00:00:00.000001
+ EU-RETAIL                   1            4                      0.0                       4.0  0 days 00:00:00.000002
  GBPEUR                      1            4                      0.0                       4.0  0 days 00:00:00.000001
  FTSETAIWAN                  1            4                      0.0                       4.0  0 days 00:00:00.000001
  FTSECHINAH                  1            4                      0.0                       4.0  0 days 00:00:00.000001
  FTSECHINAA                  1            4                      0.0                       4.0  0 days 00:00:00.000001
- EURO600                     1            4                      0.0                       4.0  0 days 00:00:00.000001
- EU-UTILS                    1            4                      0.0                       4.0  0 days 00:00:00.000001
- EU-TRAVEL                   1            4                      0.0                       4.0  0 days 00:00:00.000001
+ EURO600                     1            4                      0.0                       4.0  0 days 00:00:00.000002
+ EU-UTILS                    1            4                      0.0                       4.0  0 days 00:00:00.000002
+ EU-TRAVEL                   1            4                      0.0                       4.0  0 days 00:00:00.000002
  GAS-LAST                    1            4                      0.0                       4.0  0 days 00:00:00.000001
- REDWHEAT                   14            4                      0.0                       4.0  0 days 00:00:00.000001
+ REDWHEAT                   14            4                      0.0                       4.0  0 days 00:00:00.000002
  SEK                        14            4                      0.0                       4.0  0 days 00:00:00.000001
- SP400                      14            4                      0.0                       4.0  0 days 00:00:00.000002
+ SP400                      14            4                      0.0                       4.0  0 days 00:00:00.000001
  JGB-SGX-mini                1            4                      0.0                       4.0  0 days 00:00:00.000001
- IRS                         1            4                      0.0                       4.0  0 days 00:00:00.000002
- FTSEINDO                    1            4                      0.0                       4.0  0 days 00:00:00.000002
+ IRS                         1            4                      0.0                       4.0  0 days 00:00:00.000001
+ FTSEINDO                    1            4                      0.0                       4.0  0 days 00:00:00.000001
  EUROSTX200-LARGE            1            4                      0.0                       4.0  0 days 00:00:00.000002
- EUROSTX-SMALL               1            4                      0.0                       4.0  0 days 00:00:00.000001
- EUROSTX-LARGE               1            4                      0.0                       4.0  0 days 00:00:00.000001
+ EUROSTX-SMALL               1            4                      0.0                       4.0  0 days 00:00:00.000002
+ EUROSTX-LARGE               1            4                      0.0                       4.0  0 days 00:00:00.000002
  JP-REALESTATE               1            4                      0.0                       4.0  0 days 00:00:00.000001
  EURIBOR                     1            4                      0.0                       4.0  0 days 00:00:00.000001
  EU-REALESTATE               1            4                      0.0                       4.0  0 days 00:00:00.000001
@@ -629,65 +872,65 @@ dynamic_TF_carry/COTTON           2023-07-21 22:31:00.493038
  EU-MEDIA                    1            4                      0.0                       4.0  0 days 00:00:00.000001
  EU-HOUSE                    1            4                      0.0                       4.0  0 days 00:00:00.000001
  EU-DJ-UTIL                  1            4                      0.0                       4.0  0 days 00:00:00.000001
- EU-DJ-TELECOM               1            4                      0.0                       4.0  0 days 00:00:00.000001
+ EU-DJ-TELECOM               1            4                      0.0                       4.0  0 days 00:00:00.000002
  EURCHF                      1            4                      0.0                       4.0  0 days 00:00:00.000001
- EU-DJ-TECH                  1            4                      0.0                       4.0  0 days 00:00:00.000001
- MID-DAX                     1            4                      0.0                       4.0  0 days 00:00:00.000002
- MILKWET                     1            4                      0.0                       4.0  0 days 00:00:00.000002
+ EU-DJ-TECH                  1            4                      0.0                       4.0  0 days 00:00:00.000002
+ MID-DAX                     1            4                      0.0                       4.0  0 days 00:00:00.000001
+ MILKWET                     1            4                      0.0                       4.0  0 days 00:00:00.000001
  US-TECH                     1            4                      0.0                       4.0  0 days 00:00:00.000001
  US-STAPLES                  1            4                      0.0                       4.0  0 days 00:00:00.000001
  US-PROPERTY                 1            4                      0.0                       4.0  0 days 00:00:00.000001
- US-MATERIAL                 1            4                      0.0                       4.0  0 days 00:00:00.000002
- US-INDUSTRY                 1            4                      0.0                       4.0  0 days 00:00:00.000002
- US-HEALTH                   1            4                      0.0                       4.0  0 days 00:00:00.000001
- MILKDRY                     1            4                      0.0                       4.0  0 days 00:00:00.000002
- US-FINANCE                  1            4                      0.0                       4.0  0 days 00:00:00.000001
+ US-MATERIAL                 1            4                      0.0                       4.0  0 days 00:00:00.000001
+ US-INDUSTRY                 1            4                      0.0                       4.0  0 days 00:00:00.000001
+ US-HEALTH                   1            4                      0.0                       4.0  0 days 00:00:00.000002
+ MILKDRY                     1            4                      0.0                       4.0  0 days 00:00:00.000001
+ US-FINANCE                  1            4                      0.0                       4.0  0 days 00:00:00.000002
  US-DISCRETE                 1            4                      0.0                       4.0  0 days 00:00:00.000001
  SMI-MID                     1            4                      0.0                       4.0  0 days 00:00:00.000001
  SGX                         1            4                      0.0                       4.0  0 days 00:00:00.000001
  SGD                         1            4                      0.0                       4.0  0 days 00:00:00.000001
- OMX                         1            4                      0.0                       4.0  0 days 00:00:00.000001
- MSCIASIA                    1            4                      0.0                       4.0  0 days 00:00:00.000001
+ OMX                         1            4                      0.0                       4.0  0 days 00:00:00.000002
+ MSCIASIA                    1            4                      0.0                       4.0  0 days 00:00:00.000002
  US-ENERGY                   1            4                      0.0                       4.0  0 days 00:00:00.000001
- BUXL                        1            4                      0.0                       4.0  0 days 00:00:00.000001
- EU-DJ-OIL                   1            4                      0.0                       4.0  0 days 00:00:00.000002
+ BUXL                        1            4                      0.0                       4.0  0 days 00:00:00.000002
+ EU-DJ-OIL                   1            4                      0.0                       4.0  0 days 00:00:00.000001
  ETHANOL                     1            4                      0.0                       4.0  0 days 00:00:00.000001
- HEATOIL                    30            4                      0.0                       4.0  0 days 00:00:00.000002
+ HEATOIL                    30            4                      0.0                       4.0  0 days 00:00:00.000001
  GBPEUR                     30            4                      0.0                       4.0  0 days 00:00:00.000001
- GASOILINE                  30            4                      0.0                       4.0  0 days 00:00:00.000001
- GAS-LAST                   30            4                      0.0                       4.0  0 days 00:00:00.000001
+ GASOILINE                  30            4                      0.0                       4.0  0 days 00:00:00.000002
+ GAS-LAST                   30            4                      0.0                       4.0  0 days 00:00:00.000002
  ETHEREUM                   30            4                      0.0                       4.0  0 days 00:00:00.000001
  CHF                        30            4                      0.0                       4.0  0 days 00:00:00.000001
- JGB                        30            4                      0.0                       4.0  0 days 00:00:00.000002
+ JGB                        30            4                      0.0                       4.0  0 days 00:00:00.000001
  BUXL                       30            4                      0.0                       4.0  0 days 00:00:00.000001
  BRENT-LAST                 30            4                      0.0                       4.0  0 days 00:00:00.000001
  BONO                       30            4                      0.0                       4.0  0 days 00:00:00.000001
- YENEUR                     14            4                      0.0                       4.0  0 days 00:00:00.000002
- US30                       14            4                      0.0                       4.0  0 days 00:00:00.000002
- US3                        14            4                      0.0                       4.0  0 days 00:00:00.000002
- US10U                      14            4                      0.0                       4.0  0 days 00:00:00.000002
+ YENEUR                     14            4                      0.0                       4.0  0 days 00:00:00.000001
+ US30                       14            4                      0.0                       4.0  0 days 00:00:00.000001
+ US3                        14            4                      0.0                       4.0  0 days 00:00:00.000001
+ US10U                      14            4                      0.0                       4.0  0 days 00:00:00.000001
  BTP3                       30            4                      0.0                       4.0  0 days 00:00:00.000001
- EU-CONSTRUCTION             1            4                      0.0                       4.0  0 days 00:00:00.000002
+ EU-CONSTRUCTION             1            4                      0.0                       4.0  0 days 00:00:00.000001
  NOK                        30            4                      0.0                       4.0  0 days 00:00:00.000001
  SP400                      30            4                      0.0                       4.0  0 days 00:00:00.000001
  CZK                         1            4                      0.0                       4.0  0 days 00:00:00.000001
  COTTON                      1            4                      0.0                       4.0  0 days 00:00:00.000001
  COPPER-mini                 1            4                      0.0                       4.0  0 days 00:00:00.000001
- CNH-onshore                 1            4                      0.0                       4.0  0 days 00:00:00.000001
+ CNH-onshore                 1            4                      0.0                       4.0  0 days 00:00:00.000002
  CLP                         1            4                      0.0                       4.0  0 days 00:00:00.000002
  CH10                        1            4                      0.0                       4.0  0 days 00:00:00.000002
  SEK                        30            4                      0.0                       4.0  0 days 00:00:00.000001
- BUTTER                      1            4                      0.0                       4.0  0 days 00:00:00.000002
- BEL20                       1            4                      0.0                       4.0  0 days 00:00:00.000002
+ BUTTER                      1            4                      0.0                       4.0  0 days 00:00:00.000001
+ BEL20                       1            4                      0.0                       4.0  0 days 00:00:00.000001
  ALUMINIUM                   1            4                      0.0                       4.0  0 days 00:00:00.000001
- YENEUR                     30            4                      0.0                       4.0  0 days 00:00:00.000001
- US30                       30            4                      0.0                       4.0  0 days 00:00:00.000001
- US3                        30            4                      0.0                       4.0  0 days 00:00:00.000001
+ YENEUR                     30            4                      0.0                       4.0  0 days 00:00:00.000002
+ US30                       30            4                      0.0                       4.0  0 days 00:00:00.000002
+ US3                        30            4                      0.0                       4.0  0 days 00:00:00.000002
  US10U                      30            4                      0.0                       4.0  0 days 00:00:00.000001
- BOVESPA                     1            4                      0.0                       4.0  0 days 00:00:00.000002
- US30                        1            4                      0.0                       4.0  0 days 00:00:00.000001
+ BOVESPA                     1            4                      0.0                       4.0  0 days 00:00:00.000001
+ US30                        1            4                      0.0                       4.0  0 days 00:00:00.000002
  OATIES                      1            4                      0.0                       4.0  0 days 00:00:00.000002
- SHATZ                      30            4                      0.0                       4.0  0 days 00:00:00.000001
+ SHATZ                      30            4                      0.0                       4.0  0 days 00:00:00.000002
  KOSPI_mini                  1            4                      0.0                       4.0  0 days 00:00:00.000001
  US2                         1            4                      0.0                       4.0  0 days 00:00:00.000001
  CRUDE_W_mini                1            4                      0.0                       4.0  0 days 00:00:00.000001
@@ -701,9 +944,9 @@ dynamic_TF_carry/COTTON           2023-07-21 22:31:00.493038
  KOSPI                       1            4                      0.0                       4.0  0 days 00:00:00.000001
  NZD                         1            4                      0.0                       4.0  0 days 00:00:00.000001
  SP500                       1            4                      0.0                       4.0  0 days 00:00:00.000001
- BITCOIN                     1            4                      0.0                       4.0  0 days 00:00:00.000002
+ BITCOIN                     1            4                      0.0                       4.0  0 days 00:00:00.000001
  CRUDE_W                     1            4                      0.0                       4.0  0 days 00:00:00.000001
- COPPER                     30            4                      0.0                       4.0  0 days 00:00:00.000001
+ COPPER                     30            4                      0.0                       4.0  0 days 00:00:00.000002
  SOYOIL                      1            4                      0.0                       4.0  0 days 00:00:00.000002
  FEEDCOW                     1            4                      0.0                       4.0  0 days 00:00:00.000002
  SOYMEAL                     1            4                      0.0                       4.0  0 days 00:00:00.000002
@@ -714,207 +957,207 @@ dynamic_TF_carry/COTTON           2023-07-21 22:31:00.493038
  CHF                         1            4                      0.0                       4.0  0 days 00:00:00.000001
  SILVER                      1            4                      0.0                       4.0  0 days 00:00:00.000001
  BRE                         1            4                      0.0                       4.0  0 days 00:00:00.000001
- DAX                         1            4                      0.0                       4.0  0 days 14:55:38.442063
- US20                       14            4                      0.0                       4.0  0 days 00:00:00.000002
+ DAX                         1            4                      0.0                       4.0  0 days 00:00:00.000001
+ US20                       14            4                      0.0                       4.0  0 days 00:00:00.000001
  GASOILINE                  14            4                      0.0                       4.0  0 days 00:00:00.000002
  CHF                        14            4                      0.0                       4.0  0 days 00:00:00.000002
  AEX                        30            4                      0.0                       4.0  0 days 00:00:00.000002
  GOLD_micro                  1            4                      0.0                       4.0  0 days 00:00:00.000001
  US20                        1            4                      0.0                       4.0  0 days 00:00:00.000001
- NASDAQ_micro                1            4                      0.0                       4.0  0 days 00:00:00.000001
- GBP                         1            4                      0.0                       4.0  0 days 00:00:00.000001
- JPY                         1            4                      0.0                       4.0  0 days 00:00:00.000001
- MXP                         1            4                      0.0                       4.0  0 days 00:00:00.000002
+ NASDAQ_micro                1            4                      0.0                       4.0  0 days 00:00:00.000002
+ GBP                         1            4                      0.0                       4.0  0 days 00:00:00.000002
+ JPY                         1            4                      0.0                       4.0  0 days 00:00:00.000002
+ MXP                         1            4                      0.0                       4.0  0 days 00:00:00.000001
  EUROSTX                     1            4                      0.0                       4.0  0 days 00:00:00.000001
- AUD                         1            4                      0.0                       4.0  0 days 00:00:00.000002
+ AUD                         1            4                      0.0                       4.0  0 days 00:00:00.000001
  SMI                         1            4                      0.0                       4.0  0 days 00:00:00.000001
- SMI                        30            4                      0.0                       4.0  0 days 00:00:00.000002
+ SMI                        30            4                      0.0                       4.0  0 days 00:00:00.000001
  LEANHOG                     1            4                      0.0                       4.0  0 days 00:00:00.000001
- US10                        1            4                      0.0                       4.0  0 days 00:00:00.000002
- US10                       30            4                      0.0                       4.0  0 days 00:00:00.000002
- OAT                         1            4                      0.0                       4.0  0 days 00:00:00.000002
- OAT                        30            4                      0.0                       4.0  0 days 00:00:00.000002
- KR3                         1            4                      0.0                       4.0  0 days 00:00:00.000002
+ US10                        1            4                      0.0                       4.0  0 days 00:00:00.000001
+ US10                       30            4                      0.0                       4.0  0 days 00:00:00.000001
+ OAT                         1            4                      0.0                       4.0  0 days 00:00:00.000001
+ OAT                        30            4                      0.0                       4.0  0 days 00:00:00.000001
+ KR3                         1            4                      0.0                       4.0  0 days 00:00:00.000001
  CAC                         1            4                      0.0                       4.0  0 days 00:00:00.000002
  WHEAT                       1            4                      0.0                       4.0  0 days 00:00:00.000001
  BOBL                        1            4                      0.0                       4.0  0 days 00:00:00.000001
- BOBL                       30            4                      0.0                       4.0  0 days 00:00:00.000002
- EUR                         1            4                      0.0                       4.0  0 days 00:00:00.000001
- GAS_US_mini                 1            4                      0.0                       4.0  0 days 00:00:00.000001
- COPPER                      1            4                      0.0                       4.0  0 days 00:00:00.000001
- NASDAQ                      1            4                      0.0                       4.0  0 days 00:00:00.000001
+ BOBL                       30            4                      0.0                       4.0  0 days 00:00:00.000001
+ EUR                         1            4                      0.0                       4.0  0 days 00:00:00.000002
+ GAS_US_mini                 1            4                      0.0                       4.0  0 days 00:00:00.000002
+ COPPER                      1            4                      0.0                       4.0  0 days 00:00:00.000002
+ NASDAQ                      1            4                      0.0                       4.0  0 days 00:00:00.000002
  BUND                       30            4                      0.0                       4.0  0 days 00:00:00.000001
- BUND                        1            4                      0.0                       4.0  0 days 00:00:00.000001
+ BUND                        1            4                      0.0                       4.0  0 days 00:00:00.000002
  SHATZ                      14            4                      0.0                       4.0  0 days 00:00:00.000002
- BTP                        30            4                      0.0                       4.0  0 days 00:00:00.000001
- VIX                         1            4                      0.0                       4.0  0 days 00:00:00.000001
- GAS_US                     30            4                      0.0                       4.0  0 days 00:00:00.000001
- GAS_US                      1            4                      0.0                       4.0  0 days 00:00:00.000001
+ BTP                        30            4                      0.0                       4.0  0 days 00:00:00.000002
+ VIX                         1            4                      0.0                       4.0  0 days 00:00:00.000002
+ GAS_US                     30            4                      0.0                       4.0  0 days 00:00:00.000002
+ GAS_US                      1            4                      0.0                       4.0  0 days 00:00:00.000002
  PLAT                       30            4                      0.0                       4.0  0 days 00:00:00.000002
- PLAT                        1            4                      0.0                       4.0  0 days 00:00:00.000001
+ PLAT                        1            4                      0.0                       4.0  0 days 00:00:00.000002
  SOYBEAN                     1            4                      0.0                       4.0  0 days 00:00:00.000002
- BTP                         1            4                      0.0                       4.0  0 days 00:00:00.000001
+ BTP                         1            4                      0.0                       4.0  0 days 00:00:00.000002
  PALLAD                     14            4                      0.0                       4.0  0 days 00:00:00.000002
  SHATZ                       1            4                      0.0                       4.0  0 days 00:00:00.000002
- VIX                        14            4                      0.0                       4.0  0 days 00:00:00.000001
- US20                       30            4                      0.0                       4.0  0 days 00:00:00.000001
- BUND                       14            4                      0.0                       4.0  0 days 00:00:00.000002
- KR3                        14            4                      0.0                       4.0  0 days 00:00:00.000002
- US10                       14            4                      0.0                       4.0  0 days 00:00:00.000002
- GOLD                       14            4                      0.0                       4.0  0 days 00:00:00.000001
+ VIX                        14            4                      0.0                       4.0  0 days 00:00:00.000002
+ PALLAD                     30            4                      0.0                       4.0  0 days 00:00:00.000002
+ US20                       30            4                      0.0                       4.0  0 days 00:00:00.000002
+ KR3                        14            4                      0.0                       4.0  0 days 00:00:00.000001
+ US10                       14            4                      0.0                       4.0  0 days 00:00:00.000001
+ GOLD                       14            4                      0.0                       4.0  0 days 00:00:00.000002
+ GBP                        14            4                      0.0                       4.0 10 days 07:55:43.730757
  US2                        14            4                      0.0                       4.0  0 days 00:00:00.000001
- GBP                        14            4                      0.0                       4.0  7 days 07:55:42.815213
- PALLAD                     30            4                      0.0                       4.0  0 days 00:00:00.000001
- PLAT                       14            4                      0.0                       4.0  0 days 00:00:00.000001
- COPPER                     14            4                      0.0                       4.0  0 days 00:00:00.000001
- BTP                        14            4                      0.0                       4.0  0 days 00:00:00.000001
+ BUND                       14            4                      0.0                       4.0  0 days 00:00:00.000001
+ PLAT                       14            4                      0.0                       4.0  0 days 00:00:00.000002
+ BTP                        14            4                      0.0                       4.0  0 days 00:00:00.000002
+ COPPER                     14            4                      0.0                       4.0  0 days 00:00:00.000002
+ JPY                        14            4                      0.0                       4.0 10 days 07:55:34.296768
  CRUDE_W                    14            4                      0.0                       4.0  0 days 00:00:00.000001
- JPY                        14            4                      0.0                       4.0  7 days 07:55:33.381225
+ SP500                      14            4                      0.0                       4.0  0 days 00:00:00.000002
  NASDAQ                     14            4                      0.0                       4.0  0 days 00:00:00.000001
- GAS_US                     14            4                      0.0                       4.0  0 days 00:00:00.000001
- SP500                      14            4                      0.0                       4.0  0 days 00:00:00.000001
- LIVECOW                    14            7                      3.0                       4.0 10 days 07:25:28.956264
- CAD                        14            4                      0.0                       4.0  0 days 00:00:00.000001
- BOBL                       14            4                      0.0                       4.0  0 days 00:00:00.000002
- GOLD                       30            4                      0.0                       4.0  0 days 00:00:00.000001
+ GAS_US                     14            4                      0.0                       4.0  0 days 00:00:00.000002
+ LIVECOW                    14            7                      3.0                       4.0 13 days 07:25:29.871808
+ KOSPI                      14            4                      0.0                       4.0  0 days 00:00:00.000001
+ SP500                      30            4                      0.0                       4.0  0 days 00:00:00.000002
+ EUR                        30            4                      0.0                       4.0  0 days 00:00:00.000001
  US5                        14            4                      0.0                       4.0  0 days 00:00:00.000001
  GAS_US_mini                14            4                      0.0                       4.0  0 days 00:00:00.000001
  AEX                        14            4                      0.0                       4.0  0 days 00:00:00.000002
- CRUDE_W                    30            4                      0.0                       4.0  0 days 00:00:00.000001
- SMI                        14            4                      0.0                       4.0  0 days 00:00:00.000002
- SP500                      30            4                      0.0                       4.0  0 days 00:00:00.000002
- LEANHOG                    14            4                      0.0                       4.0 10 days 07:25:27.685173
- NASDAQ                     30            4                      0.0                       4.0  0 days 00:00:00.000001
- EUR                        14            4                      0.0                       4.0  0 days 00:00:00.000001
- OAT                        14            4                      0.0                       4.0  0 days 00:00:00.000001
+ CRUDE_W                    30            4                      0.0                       4.0  0 days 00:00:00.000002
+ SMI                        14            4                      0.0                       4.0  0 days 00:00:00.000001
+ NASDAQ                     30            4                      0.0                       4.0  0 days 00:00:00.000002
+ GOLD                       30            4                      0.0                       4.0  0 days 00:00:00.000001
+ LEANHOG                    14            4                      0.0                       4.0 13 days 07:25:28.600718
+ EUR                        14            4                      0.0                       4.0  0 days 00:00:00.000002
+ US2                        30            4                      0.0                       4.0  0 days 00:00:00.000002
+ OAT                        14            4                      0.0                       4.0  0 days 00:00:00.000002
  KR10                       14            4                      0.0                       4.0  0 days 00:00:00.000002
+ BOBL                       14            4                      0.0                       4.0  0 days 00:00:00.000002
  FEEDCOW                    14            4                      0.0                       4.0  0 days 00:00:00.000002
- EUR                        30            4                      0.0                       4.0  0 days 00:00:00.000001
- US2                        30            4                      0.0                       4.0  0 days 00:00:00.000001
- KOSPI                      14            4                      0.0                       4.0  0 days 00:00:00.000001
- REDWHEAT                   30            6                      1.0                       5.0 29 days 07:20:36.228001
- CRUDE_W_mini               14            5                      0.0                       5.0  0 days 00:00:00.000001
+ CAD                        14            4                      0.0                       4.0  0 days 00:00:00.000002
  KRWUSD                     30            5                      0.0                       5.0  0 days 00:00:00.000001
- SOYBEAN                    14            5                      0.0                       5.0  0 days 00:00:00.000001
- FEEDCOW                    30            5                      0.0                       5.0  0 days 00:00:00.000001
+ SOYBEAN                    14            5                      0.0                       5.0  0 days 00:00:00.000002
+ FEEDCOW                    30            5                      0.0                       5.0  0 days 00:00:00.000002
+ CRUDE_W_mini               14            5                      0.0                       5.0  0 days 00:00:00.000001
  WHEAT                      14            5                      0.0                       5.0  0 days 00:00:00.000001
  AUD                        14            5                      0.0                       5.0  0 days 00:00:00.000001
- VIX                        30            5                      0.0                       5.0 28 days 07:50:13.398906
+ KOSPI                      30            5                      0.0                       5.0  0 days 00:00:00.000002
+ KR10                       30            5                      0.0                       5.0  0 days 00:00:00.000002
+ JPY                        30            5                      0.0                       5.0  0 days 00:00:00.000001
+ V2X                         1            5                      0.0                       5.0  0 days 00:00:00.000002
+ VIX                        30            5                      0.0                       5.0  0 days 00:00:00.000002
  INR                        14            5                      0.0                       5.0  0 days 00:00:00.000001
  IRON                       14            5                      0.0                       5.0  0 days 00:00:00.000001
- V2X                         1            5                      0.0                       5.0  0 days 00:00:00.000002
  EU-BANKS                    1            5                      0.0                       5.0  0 days 00:00:00.000001
- JPY                        30            5                      0.0                       5.0  0 days 00:00:00.000002
- KR3                        30            5                      0.0                       5.0  0 days 00:00:00.000002
- KOSPI                      30            5                      0.0                       5.0  0 days 00:00:00.000001
- NZD                        14            5                      0.0                       5.0  0 days 00:00:00.000002
- SOYOIL                     14            5                      0.0                       5.0  7 days 07:25:44.383106
- KR10                       30            5                      0.0                       5.0  0 days 00:00:00.000001
  EU-BASIC                   14            5                      0.0                       5.0  0 days 00:00:00.000002
- EU-TECH                    30            6                      0.0                       6.0  0 days 00:00:00.000002
- FTSECHINAH                 14            6                      0.0                       6.0  0 days 00:00:00.000001
- GBP                        30            6                      0.0                       6.0  0 days 00:00:00.000002
- GAS_US_mini                30            6                      0.0                       6.0 21 days 08:50:37.329923
+ KR3                        30            5                      0.0                       5.0  0 days 00:00:00.000001
+ SOYOIL                     14            5                      0.0                       5.0 10 days 07:25:45.298650
+ NZD                        14            5                      0.0                       5.0  0 days 00:00:00.000002
  R1000                      30            6                      0.0                       6.0  0 days 00:00:00.000001
- FTSETAIWAN                 30            6                      0.0                       6.0  0 days 00:00:00.000001
- EU-HEALTH                  14            6                      0.0                       6.0  0 days 00:00:00.000001
+ FTSETAIWAN                 30            6                      0.0                       6.0  0 days 00:00:00.000002
+ GAS_US_mini                30            6                      0.0                       6.0 24 days 08:50:38.245459
+ US-REALESTATE              14            6                      0.0                       6.0  0 days 00:00:00.000001
+ GBP                        30            6                      0.0                       6.0  0 days 00:00:00.000002
+ EU-TECH                    30            6                      0.0                       6.0  0 days 00:00:00.000001
+ SILVER                     14            6                      0.0                       6.0  0 days 00:00:00.000001
+ EUROSTX                    14            6                      0.0                       6.0  0 days 00:00:00.000002
+ EU-HEALTH                  14            6                      0.0                       6.0  0 days 00:00:00.000002
+ FTSECHINAH                 14            6                      0.0                       6.0  0 days 00:00:00.000001
  EU-CHEM                    30            6                      0.0                       6.0  0 days 00:00:00.000001
  EU-AUTO                    14            6                      0.0                       6.0  0 days 00:00:00.000002
- LEANHOG                    30            6                      0.0                       6.0 10 days 07:25:27.686827
- EUROSTX                    14            6                      0.0                       6.0  0 days 00:00:00.000002
- OATIES                     14            6                      0.0                       6.0  0 days 00:00:00.000001
  CAD                        30            6                      0.0                       6.0  0 days 00:00:00.000001
- SILVER                     14            6                      0.0                       6.0  0 days 00:00:00.000001
- US-REALESTATE              14            6                      0.0                       6.0  0 days 00:00:00.000002
- NZD                        30            7                      0.0                       7.0  0 days 00:00:00.000001
- IRON                       30            7                      0.0                       7.0  0 days 00:00:00.000002
- EU-FOOD                    14            7                      0.0                       7.0  0 days 00:00:00.000002
+ OATIES                     14            6                      0.0                       6.0  0 days 00:00:00.000002
+ LEANHOG                    30            6                      0.0                       6.0 13 days 07:25:28.602368
+ REDWHEAT                   30            6                      0.0                       6.0  0 days 00:00:00.000001
+ SOYOIL                     30            7                      0.0                       7.0 10 days 07:25:45.296565
  WHEAT                      30            7                      0.0                       7.0  0 days 00:00:00.000001
- SOYOIL                     30            7                      0.0                       7.0  7 days 07:25:44.381028
+ IRON                       30            7                      0.0                       7.0  0 days 00:00:00.000001
+ EU-FOOD                    14            7                      0.0                       7.0  0 days 00:00:00.000002
  AUD                        30            7                      0.0                       7.0  0 days 00:00:00.000001
- INR                        30            7                      0.0                       7.0  0 days 00:00:00.000002
+ NZD                        30            7                      0.0                       7.0  0 days 00:00:00.000001
+ INR                        30            7                      0.0                       7.0  0 days 00:00:00.000001
  EU-BASIC                   30            7                      0.0                       7.0  0 days 00:00:00.000001
- CHEESE                     14            7                      0.0                       7.0  0 days 00:00:00.000001
- NIKKEI                     14            8                      0.0                       8.0  8 days 21:55:39.488707
- FTSECHINAH                 30            8                      0.0                       8.0  0 days 00:00:00.000001
- MILK                       14            8                      0.0                       8.0  0 days 00:00:00.000002
+ CHEESE                     14            7                      0.0                       7.0  0 days 00:00:00.000002
+ NIKKEI                     14            8                      0.0                       8.0 11 days 21:55:40.404250
+ FTSECHINAH                 30            8                      0.0                       8.0  0 days 00:00:00.000002
+ MILK                       14            8                      0.0                       8.0  0 days 00:00:00.000001
  SOYBEAN                    30            8                      0.0                       8.0  0 days 00:00:00.000002
  EUROSTX                    30            8                      0.0                       8.0  0 days 00:00:00.000001
- SOYMEAL                    14            8                      0.0                       8.0  0 days 00:00:00.000002
- EU-HEALTH                  30            8                      0.0                       8.0  0 days 00:00:00.000002
+ SOYMEAL                    14            8                      0.0                       8.0  0 days 00:00:00.000001
+ EU-HEALTH                  30            8                      0.0                       8.0  0 days 00:00:00.000001
  US-REALESTATE              30            8                      0.0                       8.0  0 days 00:00:00.000001
- DAX                        14           15                      7.0                       8.0  9 days 14:55:36.799166
+ DAX                        14           15                      7.0                       8.0 12 days 14:55:37.714710
  EU-AUTO                    30            8                      0.0                       8.0  0 days 00:00:00.000001
- CRUDE_W_mini               30            8                      0.0                       8.0  0 days 00:00:00.000002
- CORN                       14            8                      0.0                       8.0  0 days 00:00:00.000001
+ CRUDE_W_mini               30            8                      0.0                       8.0  0 days 00:00:00.000001
+ CORN                       14            8                      0.0                       8.0  0 days 00:00:00.000002
  SILVER                     30            9                      0.0                       9.0  0 days 00:00:00.000001
- NASDAQ_micro               14            9                      0.0                       9.0  0 days 00:00:00.000001
- NIFTY                      14            9                      0.0                       9.0  0 days 00:00:00.000002
+ NASDAQ_micro               14            9                      0.0                       9.0  0 days 00:00:00.000002
+ NIFTY                      14            9                      0.0                       9.0  0 days 00:00:00.000001
  LIVECOW                    30            9                      0.0                       9.0  0 days 00:00:00.000001
  EU-RETAIL                  14            9                      0.0                       9.0  0 days 00:00:00.000001
  OATIES                     30            9                      0.0                       9.0  0 days 00:00:00.000001
- NIKKEI                     30           11                      1.0                      10.0 29 days 21:55:40.040982
- BITCOIN                    14           10                      0.0                      10.0  0 days 00:00:00.000002
  RUR                        14           10                      0.0                      10.0  0 days 00:00:00.000001
- MUMMY                      14           11                      0.0                      11.0  0 days 00:00:00.000002
- CORN                       30           11                      0.0                      11.0  0 days 00:00:00.000001
- DAX                        30           22                     11.0                      11.0 23 days 14:55:40.321821
- EU-TRAVEL                  14           11                      0.0                      11.0  0 days 00:00:00.000001
+ BITCOIN                    14           10                      0.0                      10.0  0 days 00:00:00.000002
+ MUMMY                      14           11                      0.0                      11.0  0 days 00:00:00.000001
+ CORN                       30           11                      0.0                      11.0  0 days 00:00:00.000002
+ DAX                        30           22                     11.0                      11.0 26 days 14:55:41.237364
+ EU-TRAVEL                  14           11                      0.0                      11.0  0 days 00:00:00.000002
  CHEESE                     30           11                      0.0                      11.0  0 days 00:00:00.000001
- SOYMEAL                    30           11                      0.0                      11.0  0 days 00:00:00.000001
+ SOYMEAL                    30           11                      0.0                      11.0  0 days 00:00:00.000002
  MILK                       30           11                      0.0                      11.0  0 days 00:00:00.000001
  EU-FOOD                    30           11                      0.0                      11.0  0 days 00:00:00.000001
- MSCISING                   14           11                      0.0                      11.0  0 days 00:00:00.000002
- DJSTX-SMALL                14           12                      0.0                      12.0  0 days 00:00:00.000001
+ NIKKEI                     30           11                      0.0                      11.0  0 days 00:00:00.000001
+ MSCISING                   14           11                      0.0                      11.0  0 days 00:00:00.000001
+ FTSECHINAA                 14           12                      0.0                      12.0  0 days 00:00:00.000001
  EU-DIV30                   14           12                      0.0                      12.0  0 days 00:00:00.000001
- EU-UTILS                   14           12                      0.0                      12.0  0 days 00:00:00.000001
+ EU-UTILS                   14           12                      0.0                      12.0  0 days 00:00:00.000002
  RICE                       14           12                      0.0                      12.0  0 days 00:00:00.000001
  EU-OIL                     14           12                      0.0                      12.0  0 days 00:00:00.000001
- FTSECHINAA                 14           12                      0.0                      12.0  0 days 00:00:00.000001
- EURO600                    14           12                      0.0                      12.0  0 days 00:00:00.000001
+ DJSTX-SMALL                14           12                      0.0                      12.0  0 days 00:00:00.000001
+ EURO600                    14           12                      0.0                      12.0  0 days 00:00:00.000002
  MXP                        14           13                      0.0                      13.0  0 days 00:00:00.000001
  VNKI                        1           13                      0.0                      13.0  0 days 00:00:00.000001
- NIKKEI400                  14           13                      0.0                      13.0  0 days 00:00:00.000001
- NIFTY                      30           13                      0.0                      13.0  0 days 00:00:00.000001
- TOPIX                      14           13                      0.0                      13.0  0 days 00:00:00.000002
- SP500_micro                14           14                      0.0                      14.0  0 days 00:00:00.000001
- BRE                        14           14                      0.0                      14.0  0 days 00:00:00.000001
- NASDAQ_micro               30           14                      0.0                      14.0  0 days 00:00:00.000001
+ NIKKEI400                  14           13                      0.0                      13.0  0 days 00:00:00.000002
+ NIFTY                      30           13                      0.0                      13.0  0 days 00:00:00.000002
+ TOPIX                      14           13                      0.0                      13.0  0 days 00:00:00.000001
+ SP500_micro                14           14                      0.0                      14.0  0 days 00:00:00.000002
+ BRE                        14           14                      0.0                      14.0  0 days 00:00:00.000002
+ NASDAQ_micro               30           14                      0.0                      14.0  0 days 00:00:00.000002
  RUR                        30           14                      0.0                      14.0  0 days 00:00:00.000002
- EU-RETAIL                  30           14                      0.0                      14.0  0 days 00:00:00.000002
- EU-INSURE                  14           15                      0.0                      15.0  0 days 00:00:00.000001
- BITCOIN                    30           15                      0.0                      15.0 28 days 07:50:43.073778
+ EU-RETAIL                  30           14                      0.0                      14.0  0 days 00:00:00.000001
+ EU-INSURE                  14           15                      0.0                      15.0  0 days 00:00:00.000002
+ BITCOIN                    30           15                      0.0                      15.0  0 days 00:00:00.000001
  KOSPI_mini                 14           16                      0.0                      16.0  0 days 00:00:00.000001
  EU-TRAVEL                  30           16                      0.0                      16.0  0 days 00:00:00.000002
- MSCISING                   30           16                      0.0                      16.0  0 days 00:00:00.000001
- MUMMY                      30           16                      0.0                      16.0  0 days 00:00:00.000001
- DOW                        14           17                      0.0                      17.0  1 days 07:55:41.547588
+ MSCISING                   30           16                      0.0                      16.0  0 days 00:00:00.000002
+ MUMMY                      30           16                      0.0                      16.0  0 days 00:00:00.000002
+ DOW                        14           17                      0.0                      17.0  4 days 07:55:42.463130
  KOSDAQ                     14           17                      0.0                      17.0  0 days 00:00:00.000001
- SP500_micro                30           20                      3.0                      17.0 14 days 07:55:44.080035
- DJSTX-SMALL                30           17                      0.0                      17.0  0 days 00:00:00.000001
+ SP500_micro                30           20                      3.0                      17.0 17 days 07:55:44.995572
+ DJSTX-SMALL                30           17                      0.0                      17.0  0 days 00:00:00.000002
  EU-UTILS                   30           17                      0.0                      17.0  0 days 00:00:00.000002
  EURO600                    30           17                      0.0                      17.0  0 days 00:00:00.000002
  GOLD_micro                 14           17                      0.0                      17.0  0 days 00:00:00.000001
- RICE                       30           17                      0.0                      17.0  0 days 00:00:00.000002
- EU-OIL                     30           18                      0.0                      18.0  0 days 00:00:00.000002
- FTSECHINAA                 30           18                      0.0                      18.0  0 days 00:00:00.000001
+ RICE                       30           17                      0.0                      17.0  0 days 00:00:00.000001
+ EU-OIL                     30           18                      0.0                      18.0  0 days 00:00:00.000001
+ FTSECHINAA                 30           18                      0.0                      18.0  0 days 00:00:00.000002
  EU-DIV30                   30           18                      0.0                      18.0  0 days 00:00:00.000001
  TOPIX                      30           18                      0.0                      18.0  0 days 00:00:00.000001
  RUSSELL                    14           18                      0.0                      18.0  0 days 00:00:00.000001
- NIKKEI400                  30           19                      0.0                      19.0  0 days 00:00:00.000002
+ NIKKEI400                  30           19                      0.0                      19.0  0 days 00:00:00.000001
  MXP                        30           19                      0.0                      19.0  0 days 00:00:00.000002
  BRE                        30           20                      0.0                      20.0  0 days 00:00:00.000001
- EU-INSURE                  30           21                      0.0                      21.0  0 days 00:00:00.000002
- DOW                        30           25                      4.0                      21.0 17 days 07:55:39.957829
- BBCOMM                     14           23                      0.0                      23.0  0 days 00:00:00.000002
+ EU-INSURE                  30           21                      0.0                      21.0  0 days 00:00:00.000001
+ DOW                        30           25                      4.0                      21.0 20 days 07:55:40.873372
+ BBCOMM                     14           23                      0.0                      23.0  0 days 00:00:00.000001
  KOSPI_mini                 30           23                      0.0                      23.0  0 days 00:00:00.000001
  KOSDAQ                     30           25                      0.0                      25.0  0 days 00:00:00.000001
- RUSSELL                    30           26                      1.0                      25.0  9 days 07:55:43.553012
+ RUSSELL                    30           26                      1.0                      25.0 12 days 07:55:44.468550
  GOLD_micro                 30           25                      0.0                      25.0  0 days 00:00:00.000001
  EU-BANKS                   14           28                      0.0                      28.0  0 days 00:00:00.000002
- V2X                        14           30                      0.0                      30.0  0 days 00:00:00.000001
+ V2X                        14           30                      0.0                      30.0  0 days 00:00:00.000002
  BBCOMM                     30           34                      0.0                      34.0  0 days 00:00:00.000001
- ETHER-micro                 1           38                      0.0                      38.0  0 days 00:00:00.000002
+ ETHER-micro                 1           38                      0.0                      38.0  0 days 00:00:00.000001
  EU-BANKS                   30           41                      0.0                      41.0  0 days 00:00:00.000001
  V2X                        30           44                      0.0                      44.0  0 days 00:00:00.000001
 
@@ -924,180 +1167,180 @@ dynamic_TF_carry/COTTON           2023-07-21 22:31:00.493038
 =================================================================
 
                               keys  position pos_limit      spare
-0             dynamic_TF_carry US3        -1  No limit  9999999.0
-14         dynamic_TF_carry SOYOIL         1  No limit  9999999.0
-13            dynamic_TF_carry VIX        -1  No limit  9999999.0
-12         dynamic_TF_carry NIKKEI         2  No limit  9999999.0
-11        dynamic_TF_carry RUSSELL         2  No limit  9999999.0
-10     dynamic_TF_carry FTSETAIWAN         1  No limit  9999999.0
-9         dynamic_TF_carry BITCOIN         1  No limit  9999999.0
-15            dynamic_TF_carry MXP         1  No limit  9999999.0
-8             dynamic_TF_carry CNH         1  No limit  9999999.0
-6             dynamic_TF_carry CHF        -1  No limit  9999999.0
-5         dynamic_TF_carry LIVECOW         2  No limit  9999999.0
-4          dynamic_TF_carry EU-OIL         2  No limit  9999999.0
-3             dynamic_TF_carry JPY        -1  No limit  9999999.0
-2     dynamic_TF_carry GAS_US_mini        -1  No limit  9999999.0
-1         dynamic_TF_carry EU-AUTO         1  No limit  9999999.0
-7    dynamic_TF_carry SOYBEAN_mini         1  No limit  9999999.0
-16            dynamic_TF_carry GBP         1  No limit  9999999.0
-0                        GASOILINE         0         0        0.0
-98                         MILKDRY         0         0        0.0
-96                     COPPER-mini         0         0        0.0
-95                          GAS_US         0         0        0.0
-94                         US-TECH         0         0        0.0
-87                            CH10         0         0        0.0
-81                             CZK         0         0        0.0
-71                             BRE         0         0        0.0
-100                       ETHEREUM         0         0        0.0
-67                            GOLD         0         0        0.0
-61                         BOVESPA         0         0        0.0
-59                       US-ENERGY         0         0        0.0
-56                             NOK         0         0        0.0
-55                        EU-MEDIA         0         0        0.0
-51                          COPPER         0         0        0.0
-50                            BUXL         0         0        0.0
-48                           SP500         0         0        0.0
-62                         CRUDE_W         0         0        0.0
-103                           VNKI         0         0        0.0
-109                            SEK         0         0        0.0
-110                       GAS-LAST         0         0        0.0
-154                            IRS         0         0        0.0
-151                          SP400         0         0        0.0
-148                            AEX         0         0        0.0
-147                            JGB         0         0        0.0
-145                        EU-CHEM         0         0        0.0
-144                     BRENT-LAST         0         0        0.0
-142                       EU-HOUSE         0         0        0.0
-141                        HEATOIL         0         0        0.0
-138                    GAS_US_mini        -1         1        0.0
-137                    US-MATERIAL         0         0        0.0
-128                         NASDAQ         0         0        0.0
-127                     US-FINANCE         0         0        0.0
-125                         BUTTER         0         0        0.0
-122                           US30         0         0        0.0
-118                        MILKWET         0         0        0.0
-117                            OMX         0         0        0.0
-116                        EURIBOR         0         0        0.0
-45                       US-HEALTH         0         0        0.0
-42                     US-DISCRETE         0         0        0.0
-78                         ETHANOL         0         0        0.0
-4                          LIVECOW         2         2        0.0
-24                     CNH-onshore         0         0        0.0
-33                             SGX         0         0        0.0
-8                           PALLAD         0         0        0.0
-2                           COTTON         0         0        0.0
-7                              RUR         0         0        0.0
-37                     US-INDUSTRY         0         0        0.0
-18                          CHEESE         0         0        0.0
-36                             VIX        -1         1        0.0
-30                             CLP         0         0        0.0
-26                          KRWUSD         0         0        0.0
-16                             CHF        -1         1        0.0
-120                      ALUMINIUM         0         1        1.0
-156                        SOYBEAN         0         1        1.0
-10                         EU-FOOD         0         1        1.0
-9                           OATIES         0         1        1.0
-76                             OAT         0         1        1.0
-136                            SMI         0         1        1.0
-83                             CAC         0         1        1.0
-105                       MSCIASIA         0         1        1.0
-72                           WHEAT         0         1        1.0
-84                      US-STAPLES         0         1        1.0
-131                        EU-AUTO         1         2        1.0
-101                           US20         0         1        1.0
-11                         FEEDCOW         0         1        1.0
-91                             US3        -1         2        1.0
-93                             JPY        -1         2        1.0
-124                          R1000         0         1        1.0
-107                         SOYOIL         1         2        1.0
-28                             EUR         0         1        1.0
-140                   CRUDE_W_mini         0         1        1.0
-23                   EU-DJ-TELECOM         0         1        1.0
-1                       FTSETAIWAN         1         2        1.0
-43                      EU-DJ-TECH         0         1        1.0
-153                           PLAT         0         1        1.0
-38                      FTSECHINAH         0         1        1.0
-47                     US-PROPERTY         0         1        1.0
-49                            BUND         0         1        1.0
-35                          YENEUR         0         1        1.0
-114               EUROSTX200-LARGE         0         1        1.0
-139                          KOSPI         0         1        1.0
-54                             BTP         0         1        1.0
-119                          US10U         0         1        1.0
-146                           BONO         0         1        1.0
-143                EU-CONSTRUCTION         0         1        1.0
-63                        REDWHEAT         0         1        1.0
-64                             INR         0         1        1.0
-29                             GBP         1         2        1.0
-68                        US-UTILS         0         1        1.0
-15                          EU-OIL         2         4        2.0
-14                   EUROSTX-LARGE         0         2        2.0
-102                     EU-DJ-UTIL         0         2        2.0
-106                  US-REALESTATE         0         2        2.0
-19                            US10         0         2        2.0
-21                            BOBL         0         2        2.0
-121                        EUROSTX         0         2        2.0
-40                    NASDAQ_micro         0         2        2.0
-155                            AUD         0         2        2.0
-25                          NIKKEI         2         4        2.0
-52                          EU-MID         0         2        2.0
-53                         EU-TECH         0         2        2.0
-34                       EU-TRAVEL         0         2        2.0
-150                      EU-HEALTH         0         2        2.0
-77                             NZD         0         2        2.0
-115                         GBPEUR         0         2        2.0
+0         dynamic_TF_carry RUSSELL         2  No limit  9999999.0
+14            dynamic_TF_carry US3        -1  No limit  9999999.0
+13         dynamic_TF_carry SOYOIL         1  No limit  9999999.0
+12         dynamic_TF_carry EU-OIL         2  No limit  9999999.0
+11            dynamic_TF_carry CNH         1  No limit  9999999.0
+10            dynamic_TF_carry MXP         1  No limit  9999999.0
+9             dynamic_TF_carry GBP         1  No limit  9999999.0
+15        dynamic_TF_carry EU-AUTO         1  No limit  9999999.0
+8             dynamic_TF_carry CHF        -1  No limit  9999999.0
+6             dynamic_TF_carry JPY        -1  No limit  9999999.0
+5      dynamic_TF_carry FTSETAIWAN         1  No limit  9999999.0
+4    dynamic_TF_carry SOYBEAN_mini         1  No limit  9999999.0
+3         dynamic_TF_carry LIVECOW         2  No limit  9999999.0
+2             dynamic_TF_carry VIX        -1  No limit  9999999.0
+1          dynamic_TF_carry NIKKEI         2  No limit  9999999.0
+7     dynamic_TF_carry GAS_US_mini        -1  No limit  9999999.0
+16        dynamic_TF_carry BITCOIN         1  No limit  9999999.0
+0                          LIVECOW         2         2        0.0
+88                         EURIBOR         0         0        0.0
+86                             OMX         0         0        0.0
+84                          NASDAQ         0         0        0.0
+79                            GOLD         0         0        0.0
+76                       US-ENERGY         0         0        0.0
+73                          KRWUSD         0         0        0.0
+70                         HEATOIL         0         0        0.0
+90                             CHF        -1         1        0.0
+66                     US-INDUSTRY         0         0        0.0
+61                        EU-HOUSE         0         0        0.0
+60                             CLP         0         0        0.0
+58                       GASOILINE         0         0        0.0
+52                           SP400         0         0        0.0
+51                      US-FINANCE         0         0        0.0
+49                         BOVESPA         0         0        0.0
+42                            VNKI         0         0        0.0
+64                          PALLAD         0         0        0.0
+41                             CZK         0         0        0.0
+92                            BUXL         0         0        0.0
+98                             SEK         0         0        0.0
+151                    CNH-onshore         0         0        0.0
+148                       ETHEREUM         0         0        0.0
+144                    US-DISCRETE         0         0        0.0
+143                         COPPER         0         0        0.0
+142                       GAS-LAST         0         0        0.0
+139                          SP500         0         0        0.0
+132                            JGB         0         0        0.0
+95                          BUTTER         0         0        0.0
+130                            SGX         0         0        0.0
+122                      US-HEALTH         0         0        0.0
+115                     BRENT-LAST         0         0        0.0
+112                            AEX         0         0        0.0
+110                    GAS_US_mini        -1         1        0.0
+107                    COPPER-mini         0         0        0.0
+104                            VIX        -1         1        0.0
+103                         GAS_US         0         0        0.0
+127                            IRS         0         0        0.0
+40                            CH10         0         0        0.0
+78                         MILKWET         0         0        0.0
+17                     US-MATERIAL         0         0        0.0
+21                             BRE         0         0        0.0
+19                         ETHANOL         0         0        0.0
+15                          CHEESE         0         0        0.0
+30                             RUR         0         0        0.0
+31                         US-TECH         0         0        0.0
+23                             NOK         0         0        0.0
+7                         EU-MEDIA         0         0        0.0
+33                          COTTON         0         0        0.0
+24                         EU-CHEM         0         0        0.0
+4                             US30         0         0        0.0
+2                          CRUDE_W         0         0        0.0
+35                         MILKDRY         0         0        0.0
+140                            GBP         1         2        1.0
+87                            US20         0         1        1.0
+154                   CRUDE_W_mini         0         1        1.0
+150                     FTSETAIWAN         1         2        1.0
+93                             SMI         0         1        1.0
+96                     US-PROPERTY         0         1        1.0
+97                             JPY        -1         2        1.0
+99                   EU-DJ-TELECOM         0         1        1.0
+101                        EU-AUTO         1         2        1.0
+149                        SOYBEAN         0         1        1.0
+105                          US10U         0         1        1.0
+108                     US-STAPLES         0         1        1.0
+114                           PLAT         0         1        1.0
+11                             OAT         0         1        1.0
+116                     EU-DJ-TECH         0         1        1.0
+145                       US-UTILS         0         1        1.0
+3                       FTSECHINAH         0         1        1.0
+120                           BUND         0         1        1.0
+128                            EUR         0         1        1.0
+129                EU-CONSTRUCTION         0         1        1.0
+131                        FEEDCOW         0         1        1.0
+134                          WHEAT         0         1        1.0
+141                            CAC         0         1        1.0
+137                       MSCIASIA         0         1        1.0
+113                          R1000         0         1        1.0
+118               EUROSTX200-LARGE         0         1        1.0
+38                            BONO         0         1        1.0
+155                            BTP         0         1        1.0
+68                             US3        -1         2        1.0
+55                          OATIES         0         1        1.0
+75                         EU-FOOD         0         1        1.0
+25                          YENEUR         0         1        1.0
+50                             INR         0         1        1.0
+69                           KOSPI         0         1        1.0
+48                       ALUMINIUM         0         1        1.0
+62                        REDWHEAT         0         1        1.0
+37                          SOYOIL         1         2        1.0
+63                          EU-MID         0         2        2.0
+56                         LEANHOG         0         2        2.0
+111                  EUROSTX-SMALL         0         2        2.0
+125                            NZD         0         2        2.0
 126                            US2         0         2        2.0
-79                          EURCHF         0         2        2.0
-135                        LEANHOG         0         2        2.0
-82                         SOYMEAL         0         2        2.0
-133                        SMI-MID         0         2        2.0
-86                            MILK         0         2        2.0
-92                        EU-BASIC         0         2        2.0
-80                   EUROSTX-SMALL         0         2        2.0
-17                             CNH         1         3        2.0
-5                    JP-REALESTATE         0         3        3.0
-129                           IRON         0         3        3.0
-22                          SILVER         0         3        3.0
-69                          BBCOMM         0         3        3.0
-73                             US5         0         3        3.0
-108                          NIFTY         0         3        3.0
-104                           KR10         0         3        3.0
-113                           CORN         0         3        3.0
-99                             CAD         0         3        3.0
-88                       EU-DJ-OIL         0         3        3.0
-57                   EU-REALESTATE         0         3        3.0
-66                            RICE         0         3        3.0
-60                     DJSTX-SMALL         0         4        4.0
-3                            SHATZ         0         4        4.0
-97                            BTP3         0         4        4.0
-6                        EU-RETAIL         0         4        4.0
-13                    JGB-SGX-mini         0         4        4.0
-65                         EURO600         0         4        4.0
-27                             SGD         0         4        4.0
-31                     SP500_micro         0         4        4.0
-89                         RUSSELL         2         7        5.0
-39                        MSCISING         0         5        5.0
-90                        EU-UTILS         0         5        5.0
-46                      FTSECHINAA         0         6        6.0
-152                       EU-DIV30         0         6        6.0
-112                      EU-INSURE         0         6        6.0
-74                             DOW         0         6        6.0
-132                            DAX         0         6        6.0
-123                       FTSEINDO         0         6        6.0
-70                             KR3         0         6        6.0
-41                             MXP         1         7        6.0
-85                         BITCOIN         1         8        7.0
-44                      GOLD_micro         0         7        7.0
-75                          KOSDAQ         0         8        8.0
-134                          TOPIX         0         8        8.0
-58                       NIKKEI400         0         8        8.0
-130                     KOSPI_mini         0         9        9.0
-20                           MUMMY         0         9        9.0
-149                    ETHER-micro         0        12       12.0
-12                             V2X         0        14       14.0
-111                       EU-BANKS         0        15       15.0
-32                    SOYBEAN_mini         1  No limit  9999999.0
+14                            BOBL         0         2        2.0
+106                      EU-HEALTH         0         2        2.0
+67                             CNH         1         3        2.0
+123                         EU-OIL         2         4        2.0
+12                         SOYMEAL         0         2        2.0
+27                        EU-BASIC         0         2        2.0
+117                   NASDAQ_micro         0         2        2.0
+45                         EUROSTX         0         2        2.0
+83                      EU-DJ-UTIL         0         2        2.0
+85                         EU-TECH         0         2        2.0
+6                             MILK         0         2        2.0
+20                   EUROSTX-LARGE         0         2        2.0
+44                   US-REALESTATE         0         2        2.0
+100                      EU-TRAVEL         0         2        2.0
+136                         EURCHF         0         2        2.0
+26                            US10         0         2        2.0
+135                         GBPEUR         0         2        2.0
+54                          NIKKEI         2         4        2.0
+36                         SMI-MID         0         2        2.0
+39                             AUD         0         2        2.0
+124                           CORN         0         3        3.0
+57                             CAD         0         3        3.0
+9                              US5         0         3        3.0
+80                          SILVER         0         3        3.0
+65                   EU-REALESTATE         0         3        3.0
+152                           KR10         0         3        3.0
+146                           RICE         0         3        3.0
+13                           NIFTY         0         3        3.0
+89                   JP-REALESTATE         0         3        3.0
+91                            IRON         0         3        3.0
+94                       EU-DJ-OIL         0         3        3.0
+119                         BBCOMM         0         3        3.0
+32                     SP500_micro         0         4        4.0
+82                    JGB-SGX-mini         0         4        4.0
+47                     DJSTX-SMALL         0         4        4.0
+18                           SHATZ         0         4        4.0
+147                           BTP3         0         4        4.0
+71                             SGD         0         4        4.0
+28                       EU-RETAIL         0         4        4.0
+109                        EURO600         0         4        4.0
+102                       EU-UTILS         0         5        5.0
+16                         RUSSELL         2         7        5.0
+121                       MSCISING         0         5        5.0
+74                             KR3         0         6        6.0
+138                     FTSECHINAA         0         6        6.0
+77                             MXP         1         7        6.0
+5                              DOW         0         6        6.0
+1                         FTSEINDO         0         6        6.0
+46                        EU-DIV30         0         6        6.0
+72                       EU-INSURE         0         6        6.0
+43                             DAX         0         6        6.0
+53                      GOLD_micro         0         7        7.0
+29                         BITCOIN         1         8        7.0
+59                          KOSDAQ         0         8        8.0
+8                        NIKKEI400         0         8        8.0
+156                          TOPIX         0         8        8.0
+22                      KOSPI_mini         0         9        9.0
+81                           MUMMY         0         9        9.0
+34                     ETHER-micro         0        12       12.0
+153                            V2X         0        14       14.0
+133                       EU-BANKS         0        15       15.0
+10                    SOYBEAN_mini         1  No limit  9999999.0
 
 
 ===================================================================
@@ -1265,16 +1508,16 @@ run_cleaners                                        True         False          
 ========================================================================================================
 
                                                     start             end status        PID      running
-run_backups                                07/21 22:45:03  07/21 22:53:37     GO        0.0  not running
-run_capital_update                         07/21 01:00:02  07/21 19:00:04     GO        0.0  not running
-run_cleaners                               07/21 22:45:03  07/21 22:45:05     GO        0.0  not running
-run_daily_fx_and_contract_updates          07/21 07:00:01  07/21 07:03:41     GO        0.0  not running
-run_daily_prices_updates                   07/21 05:00:01  07/21 20:34:18     GO        0.0  not running
-run_daily_update_multiple_adjusted_prices  07/21 22:00:02  07/21 22:00:40     GO        0.0  not running
-run_reports                                07/21 22:45:03  07/20 23:16:41     GO  3373820.0      running
-run_stack_handler                          07/21 00:30:01  07/21 19:30:02     GO        0.0  not running
-run_strategy_order_generator               07/21 22:30:03  07/21 22:32:42     GO        0.0  not running
-run_systems                                07/21 22:15:02  07/21 22:25:28     GO        0.0  not running
+run_backups                                07/24 22:45:03  07/24 22:55:24     GO        0.0  not running
+run_capital_update                         07/24 01:00:02  07/24 01:01:49     GO        0.0      crashed
+run_cleaners                               07/24 22:45:03  07/24 22:45:05     GO        0.0  not running
+run_daily_fx_and_contract_updates          07/24 07:00:02  07/24 07:03:26     GO        0.0      crashed
+run_daily_prices_updates                   07/24 05:00:02  07/24 05:02:58     GO        0.0      crashed
+run_daily_update_multiple_adjusted_prices  07/24 22:00:02  07/24 22:00:40     GO        0.0  not running
+run_reports                                07/24 22:45:03  07/21 23:17:01     GO  3388593.0      running
+run_stack_handler                          07/24 00:30:02  07/24 00:31:36     GO        0.0      crashed
+run_strategy_order_generator               07/24 22:30:03  07/24 22:32:43     GO        0.0  not running
+run_systems                                07/24 22:15:03  07/24 22:25:35     GO        0.0  not running
 
 
 ========================================================================================================================================================
@@ -1282,43 +1525,43 @@ run_systems                                07/21 22:15:02  07/21 22:25:28     GO
 ========================================================================================================================================================
 
                                                                           process_name              last_start                last_end currently_running
-liquidity_report                                                           run_reports 2023-07-20 22:56:42.303 2023-07-20 22:58:47.374             False
-instrument_risk_report                                                     run_reports 2023-07-20 22:58:47.377 2023-07-20 23:00:36.641             False
-min_capital                                                                run_reports 2023-07-20 23:00:36.643 2023-07-20 23:02:23.816             False
-duplicate_market                                                           run_reports 2023-07-20 23:02:23.819 2023-07-20 23:06:32.092             False
-remove_markets_report                                                      run_reports 2023-07-20 23:06:32.095 2023-07-20 23:10:40.629             False
-market_monitor_report                                                      run_reports 2023-07-20 23:10:40.631 2023-07-20 23:16:41.439             False
 strategy_allocation                                                 run_capital_update 2023-07-21 01:00:08.579 2023-07-21 01:00:08.627             False
-update_historical_prices                                      run_daily_prices_updates 2023-07-21 05:00:02.244 2023-07-21 20:34:18.419             False
-update_fx_prices                                     run_daily_fx_and_contract_updates 2023-07-21 07:00:02.383 2023-07-21 07:00:17.508             False
 update_sampled_contracts                             run_daily_fx_and_contract_updates 2023-07-21 07:00:17.510 2023-07-21 07:03:40.570             False
 generate_force_roll_orders                                           run_stack_handler 2023-07-21 09:30:25.417 2023-07-21 09:30:28.209             False
 refresh_additional_sampling_all_instruments                          run_stack_handler 2023-07-21 18:30:43.963 2023-07-21 18:31:07.681             False
-update_total_capital                                                run_capital_update 2023-07-21 19:00:03.937 2023-07-21 19:00:04.099             False
 spawn_children_from_new_instrument_orders                            run_stack_handler 2023-07-21 19:29:58.778 2023-07-21 19:29:58.781             False
 create_broker_orders_from_contract_orders                            run_stack_handler 2023-07-21 19:29:58.784 2023-07-21 19:29:58.791             False
 process_fills_stack                                                  run_stack_handler 2023-07-21 19:29:58.793 2023-07-21 19:29:58.797             False
 handle_completed_orders                                              run_stack_handler 2023-07-21 19:29:58.799 2023-07-21 19:29:58.802             False
-check_external_position_break                                        run_stack_handler 2023-07-21 19:29:59.311 2023-07-21 19:30:02.040             False
 safe_stack_removal                                                   run_stack_handler 2023-07-21 19:30:02.043 2023-07-21 19:30:02.067             False
-update_multiple_adjusted_prices              run_daily_update_multiple_adjusted_prices 2023-07-21 22:00:02.537 2023-07-21 22:00:40.210             False
-dynamic_TF_carry                                                           run_systems 2023-07-21 22:15:03.203 2023-07-21 22:25:28.307             False
-dynamic_TF_carry                                          run_strategy_order_generator 2023-07-21 22:30:03.565 2023-07-21 22:32:42.142             False
-backup_arctic_to_csv                                                       run_backups 2023-07-21 22:45:03.835 2023-07-21 22:52:31.453             False
-costs_report                                                               run_reports 2023-07-21 22:45:03.945 2023-07-21 22:46:07.118             False
-clean_backtest_states                                                     run_cleaners 2023-07-21 22:45:04.043 2023-07-21 22:45:04.161             False
-clean_echo_files                                                          run_cleaners 2023-07-21 22:45:04.164 2023-07-21 22:45:04.230             False
-clean_log_files                                                           run_cleaners 2023-07-21 22:45:04.232 2023-07-21 22:45:04.556             False
-slippage_report                                                            run_reports 2023-07-21 22:46:07.121 2023-07-21 22:47:13.371             False
-roll_report                                                                run_reports 2023-07-21 22:47:13.374 2023-07-21 22:47:48.746             False
-daily_pandl_report                                                         run_reports 2023-07-21 22:47:48.748 2023-07-21 22:49:48.367             False
-reconcile_report                                                           run_reports 2023-07-21 22:49:48.370 2023-07-21 22:50:06.290             False
-trade_report                                                               run_reports 2023-07-21 22:50:06.292 2023-07-21 22:50:06.542             False
-strategy_report                                                            run_reports 2023-07-21 22:50:06.545 2023-07-21 22:51:57.456             False
-risk_report                                                                run_reports 2023-07-21 22:51:57.459 2023-07-21 22:54:55.046             False
-backup_mongo_data_as_dump                                                  run_backups 2023-07-21 22:52:31.456 2023-07-21 22:53:03.988             False
-backup_files                                                               run_backups 2023-07-21 22:53:03.990 2023-07-21 22:53:37.446             False
-status_report                                                              run_reports 2023-07-21 22:54:55.049 2023-07-20 22:56:42.296              True
+liquidity_report                                                           run_reports 2023-07-21 22:56:35.441 2023-07-21 22:58:42.141             False
+instrument_risk_report                                                     run_reports 2023-07-21 22:58:42.143 2023-07-21 23:00:32.758             False
+min_capital                                                                run_reports 2023-07-21 23:00:32.761 2023-07-21 23:02:21.264             False
+duplicate_market                                                           run_reports 2023-07-21 23:02:21.266 2023-07-21 23:06:32.983             False
+remove_markets_report                                                      run_reports 2023-07-21 23:06:32.986 2023-07-21 23:10:44.399             False
+market_monitor_report                                                      run_reports 2023-07-21 23:10:44.401 2023-07-21 23:17:01.398             False
+check_external_position_break                                        run_stack_handler 2023-07-24 00:30:03.017 2023-07-21 19:30:02.040              True
+update_total_capital                                                run_capital_update 2023-07-24 01:00:03.341 2023-07-21 19:00:04.099              True
+update_historical_prices                                      run_daily_prices_updates 2023-07-24 05:00:02.836 2023-07-21 20:34:18.419              True
+update_fx_prices                                     run_daily_fx_and_contract_updates 2023-07-24 07:00:03.108 2023-07-21 07:00:17.508              True
+update_multiple_adjusted_prices              run_daily_update_multiple_adjusted_prices 2023-07-24 22:00:02.853 2023-07-24 22:00:39.736             False
+dynamic_TF_carry                                                           run_systems 2023-07-24 22:15:03.571 2023-07-24 22:25:34.990             False
+dynamic_TF_carry                                          run_strategy_order_generator 2023-07-24 22:30:03.906 2023-07-24 22:32:42.696             False
+backup_arctic_to_csv                                                       run_backups 2023-07-24 22:45:04.080 2023-07-24 22:54:12.994             False
+costs_report                                                               run_reports 2023-07-24 22:45:04.221 2023-07-24 22:46:05.725             False
+clean_backtest_states                                                     run_cleaners 2023-07-24 22:45:04.232 2023-07-24 22:45:04.278             False
+clean_echo_files                                                          run_cleaners 2023-07-24 22:45:04.281 2023-07-24 22:45:04.467             False
+clean_log_files                                                           run_cleaners 2023-07-24 22:45:04.469 2023-07-24 22:45:04.818             False
+slippage_report                                                            run_reports 2023-07-24 22:46:05.727 2023-07-24 22:47:23.278             False
+roll_report                                                                run_reports 2023-07-24 22:47:23.280 2023-07-24 22:47:58.972             False
+daily_pandl_report                                                         run_reports 2023-07-24 22:47:58.974 2023-07-24 22:49:55.720             False
+reconcile_report                                                           run_reports 2023-07-24 22:49:55.723 2023-07-24 22:50:13.630             False
+trade_report                                                               run_reports 2023-07-24 22:50:13.633 2023-07-24 22:50:13.661             False
+strategy_report                                                            run_reports 2023-07-24 22:50:13.663 2023-07-24 22:51:59.115             False
+risk_report                                                                run_reports 2023-07-24 22:51:59.117 2023-07-24 22:54:54.738             False
+backup_mongo_data_as_dump                                                  run_backups 2023-07-24 22:54:12.996 2023-07-24 22:54:43.363             False
+backup_files                                                               run_backups 2023-07-24 22:54:43.365 2023-07-24 22:55:23.782             False
+status_report                                                              run_reports 2023-07-24 22:54:54.741 2023-07-21 22:56:35.434              True
 account_curve_report                                                       run_reports                     NaT                     NaT             False
 
 
