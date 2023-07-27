@@ -1,10 +1,10 @@
 
 ********************************************************************************
-                 Reconcile report produced on 26/07/2023 22:49                  
+                 Reconcile report produced on 27/07/2023 22:49                  
 ********************************************************************************
 
 
-Breaks Optimal vs actual ['dynamic_TF_carry BOBL', 'dynamic_TF_carry CAC', 'dynamic_TF_carry SILVER']
+Breaks Optimal vs actual ['dynamic_TF_carry CAC', 'dynamic_TF_carry CHF', 'dynamic_TF_carry EU-OIL', 'dynamic_TF_carry FTSETAIWAN', 'dynamic_TF_carry GBP', 'dynamic_TF_carry US2']
  Breaks Instrument vs Contract []
  Breaks Broker vs Contract []
 
@@ -18,7 +18,7 @@ Breaks Optimal vs actual ['dynamic_TF_carry BOBL', 'dynamic_TF_carry CAC', 'dyna
 2              CNH      20230918  2023-09-18 00:00:00       1.0
 3          EU-AUTO      20230915  2023-09-15 00:00:00       1.0
 4           EU-OIL      20230915  2023-09-15 00:00:00       2.0
-5       FTSETAIWAN      20230728  2023-07-28 00:00:00       1.0
+5       FTSETAIWAN      20230728  2023-07-28 00:00:00      -1.0
 6      GAS_US_mini      20230828  2023-08-28 00:00:00      -1.0
 7              GBP      20230918  2023-09-18 00:00:00       1.0
 8              JPY      20230918  2023-09-18 00:00:00      -1.0
@@ -27,10 +27,9 @@ Breaks Optimal vs actual ['dynamic_TF_carry BOBL', 'dynamic_TF_carry CAC', 'dyna
 11             MXP      20230918  2023-09-18 00:00:00       1.0
 12          NIKKEI      20230907  2023-09-07 00:00:00       2.0
 13         RUSSELL      20230915  2023-09-15 00:00:00       3.0
-14    SOYBEAN_mini      20230814  2023-08-14 00:00:00       1.0
-15          SOYOIL      20231214  2023-12-14 00:00:00       1.0
-16             US3      20230929  2023-09-29 00:00:00      -1.0
-17             VIX      20230920  2023-09-20 00:00:00      -1.0
+14          SOYOIL      20231214  2023-12-14 00:00:00       1.0
+15             US3      20230929  2023-09-29 00:00:00      -1.0
+16             VIX      20230920  2023-09-20 00:00:00      -1.0
 
 
 ===============================================================
@@ -38,42 +37,41 @@ Breaks Optimal vs actual ['dynamic_TF_carry BOBL', 'dynamic_TF_carry CAC', 'dyna
 ===============================================================
 
    instrument_code contract_date          expiry_date  position
-9          BITCOIN      20230728  2023-07-28 00:00:00       1.0
-2              CHF      20230918  2023-09-18 00:00:00      -1.0
-13             CNH      20230918  2023-09-18 00:00:00       1.0
-11         EU-AUTO      20230915  2023-09-15 00:00:00       1.0
-6           EU-OIL      20230915  2023-09-15 00:00:00       2.0
-1       FTSETAIWAN      20230728  2023-07-28 00:00:00       1.0
-16     GAS_US_mini      20230828  2023-08-28 00:00:00      -1.0
-7              GBP      20230918  2023-09-18 00:00:00       1.0
-17             JPY      20230918  2023-09-18 00:00:00      -1.0
-3           KOSDAQ      20230914  2023-09-14 00:00:00       1.0
-0          LIVECOW      20231031  2023-10-31 00:00:00       2.0
-12             MXP      20230918  2023-09-18 00:00:00       1.0
-5           NIKKEI      20230907  2023-09-07 00:00:00       2.0
-8          RUSSELL      20230915  2023-09-15 00:00:00       3.0
-15    SOYBEAN_mini      20230814  2023-08-14 00:00:00       1.0
-14          SOYOIL      20231214  2023-12-14 00:00:00       1.0
-4              US3      20230929  2023-09-29 00:00:00      -1.0
-10             VIX      20230920  2023-09-20 00:00:00      -1.0
+2          BITCOIN      20230728  2023-07-28 00:00:00       1.0
+13             CHF      20230918  2023-09-18 00:00:00      -1.0
+14             CNH      20230918  2023-09-18 00:00:00       1.0
+5          EU-AUTO      20230915  2023-09-15 00:00:00       1.0
+11          EU-OIL      20230915  2023-09-15 00:00:00       2.0
+16      FTSETAIWAN      20230728  2023-07-28 00:00:00      -1.0
+6      GAS_US_mini      20230828  2023-08-28 00:00:00      -1.0
+15             GBP      20230918  2023-09-18 00:00:00       1.0
+8              JPY      20230918  2023-09-18 00:00:00      -1.0
+9           KOSDAQ      20230914  2023-09-14 00:00:00       1.0
+10         LIVECOW      20231031  2023-10-31 00:00:00       2.0
+7              MXP      20230918  2023-09-18 00:00:00       1.0
+4           NIKKEI      20230907  2023-09-07 00:00:00       2.0
+0          RUSSELL      20230915  2023-09-15 00:00:00       3.0
+3           SOYOIL      20231214  2023-12-14 00:00:00       1.0
+12             US3      20230929  2023-09-29 00:00:00      -1.0
+1              VIX      20230920  2023-09-20 00:00:00      -1.0
+
+
+========================================================================================
+                                      Trades in DB                                      
+========================================================================================
+
+                 strategy_name contract_date           fill_datetime  fill  filled_price
+FTSETAIWAN    dynamic_TF_carry    [20230700] 2023-07-27 01:45:05.000  [-1]       1494.50
+SOYBEAN_mini  dynamic_TF_carry    [20230800] 2023-07-27 16:32:42.457  [-1]       1556.75
 
 
 ==============================================================================
-                                 Trades in DB                                 
+                              Trades from broker                              
 ==============================================================================
 
-            strategy_name contract_date       fill_datetime fill  filled_price
-KOSDAQ   dynamic_TF_carry    [20230900] 2023-07-26 01:00:07  [1]        1573.9
-RUSSELL  dynamic_TF_carry    [20230900] 2023-07-26 15:00:03  [1]        1989.2
-
-
-==========================================================================
-                            Trades from broker                            
-==========================================================================
-
-        strategy_name contract_date       fill_datetime fill  filled_price
-KOSDAQ                   [20230914] 2023-07-26 01:00:07  [1]        1573.9
-RUSSELL                  [20230915] 2023-07-26 15:00:03  [1]        1989.2
+           strategy_name contract_date       fill_datetime  fill  filled_price
+FTSETAIWAN                  [20230728] 2023-07-27 01:45:05  [-1]        1494.5
+FTSETAIWAN                  [20230728] 2023-07-27 01:45:06  [-1]        1495.0
 
 
 ==========================================================
@@ -88,7 +86,7 @@ dynamic_TF_carry AUDJPY                  0       0   False
 dynamic_TF_carry BB3M                    0       0   False
 dynamic_TF_carry BBCOMM                  0       0   False
 dynamic_TF_carry BITCOIN                 1       1   False
-dynamic_TF_carry BOBL                    0      -1    True
+dynamic_TF_carry BOBL                    0       0   False
 dynamic_TF_carry BONO                    0       0   False
 dynamic_TF_carry BOVESPA                 0       0   False
 dynamic_TF_carry BRE                     0       0   False
@@ -102,7 +100,7 @@ dynamic_TF_carry CAC                     0       1    True
 dynamic_TF_carry CAD                     0       0   False
 dynamic_TF_carry CH10                    0       0   False
 dynamic_TF_carry CHEESE                  0       0   False
-dynamic_TF_carry CHF                    -1      -1   False
+dynamic_TF_carry CHF                    -1       0    True
 dynamic_TF_carry CHFJPY                  0       0   False
 dynamic_TF_carry CLP                     0       0   False
 dynamic_TF_carry CNH                     1       1   False
@@ -132,7 +130,7 @@ dynamic_TF_carry EU-HOUSE                0       0   False
 dynamic_TF_carry EU-INSURE               0       0   False
 dynamic_TF_carry EU-MEDIA                0       0   False
 dynamic_TF_carry EU-MID                  0       0   False
-dynamic_TF_carry EU-OIL                  2       2   False
+dynamic_TF_carry EU-OIL                  2       3    True
 dynamic_TF_carry EU-REALESTATE           0       0   False
 dynamic_TF_carry EU-RETAIL               0       0   False
 dynamic_TF_carry EU-TECH                 0       0   False
@@ -154,13 +152,13 @@ dynamic_TF_carry FEEDCOW                 0       0   False
 dynamic_TF_carry FTSECHINAA              0       0   False
 dynamic_TF_carry FTSECHINAH              0       0   False
 dynamic_TF_carry FTSEINDO                0       0   False
-dynamic_TF_carry FTSETAIWAN              1       1   False
+dynamic_TF_carry FTSETAIWAN             -1       1    True
 dynamic_TF_carry FTSEVIET                0       0   False
 dynamic_TF_carry GAS-LAST                0       0   False
 dynamic_TF_carry GAS-PEN                 0       0   False
 dynamic_TF_carry GASOILINE               0       0   False
 dynamic_TF_carry GAS_US_mini            -1      -1   False
-dynamic_TF_carry GBP                     1       1   False
+dynamic_TF_carry GBP                     1       0    True
 dynamic_TF_carry GBPCHF                  0       0   False
 dynamic_TF_carry GBPEUR                  0       0   False
 dynamic_TF_carry GBPJPY                  0       0   False
@@ -215,12 +213,12 @@ dynamic_TF_carry SEK                     0       0   False
 dynamic_TF_carry SGD                     0       0   False
 dynamic_TF_carry SGX                     0       0   False
 dynamic_TF_carry SHATZ                   0       0   False
-dynamic_TF_carry SILVER                  0       1    True
+dynamic_TF_carry SILVER                  0       0   False
 dynamic_TF_carry SMI                     0       0   False
 dynamic_TF_carry SMI-MID                 0       0   False
 dynamic_TF_carry SOFR                    0       0   False
 dynamic_TF_carry SOYBEAN                 0       0   False
-dynamic_TF_carry SOYBEAN_mini            1       1   False
+dynamic_TF_carry SOYBEAN_mini            0       0   False
 dynamic_TF_carry SOYMEAL                 0       0   False
 dynamic_TF_carry SOYOIL                  1       1   False
 dynamic_TF_carry SP400                   0       0   False
@@ -242,7 +240,7 @@ dynamic_TF_carry US-TECH                 0       0   False
 dynamic_TF_carry US-UTILS                0       0   False
 dynamic_TF_carry US10                    0       0   False
 dynamic_TF_carry US10U                   0       0   False
-dynamic_TF_carry US2                     0       0   False
+dynamic_TF_carry US2                     0      -1    True
 dynamic_TF_carry US20                    0       0   False
 dynamic_TF_carry US3                    -1      -1   False
 dynamic_TF_carry US30                    0       0   False
