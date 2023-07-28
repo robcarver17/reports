@@ -1,12 +1,12 @@
 
 ********************************************************************************
-                 Reconcile report produced on 27/07/2023 22:49                  
+                 Reconcile report produced on 28/07/2023 22:49                  
 ********************************************************************************
 
 
 Breaks Optimal vs actual ['dynamic_TF_carry CAC', 'dynamic_TF_carry CHF', 'dynamic_TF_carry EU-OIL', 'dynamic_TF_carry FTSETAIWAN', 'dynamic_TF_carry GBP', 'dynamic_TF_carry US2']
  Breaks Instrument vs Contract []
- Breaks Broker vs Contract []
+ Breaks Broker vs Contract [FTSETAIWAN/20230728]
 
 ===============================================================
                         Positions in DB                        
@@ -37,41 +37,40 @@ Breaks Optimal vs actual ['dynamic_TF_carry CAC', 'dynamic_TF_carry CHF', 'dynam
 ===============================================================
 
    instrument_code contract_date          expiry_date  position
-2          BITCOIN      20230728  2023-07-28 00:00:00       1.0
-13             CHF      20230918  2023-09-18 00:00:00      -1.0
-14             CNH      20230918  2023-09-18 00:00:00       1.0
-5          EU-AUTO      20230915  2023-09-15 00:00:00       1.0
-11          EU-OIL      20230915  2023-09-15 00:00:00       2.0
-16      FTSETAIWAN      20230728  2023-07-28 00:00:00      -1.0
-6      GAS_US_mini      20230828  2023-08-28 00:00:00      -1.0
-15             GBP      20230918  2023-09-18 00:00:00       1.0
-8              JPY      20230918  2023-09-18 00:00:00      -1.0
+12         BITCOIN      20230728  2023-07-28 00:00:00       1.0
+6              CHF      20230918  2023-09-18 00:00:00      -1.0
+0              CNH      20230918  2023-09-18 00:00:00       1.0
+15         EU-AUTO      20230915  2023-09-15 00:00:00       1.0
+7           EU-OIL      20230915  2023-09-15 00:00:00       2.0
+11     GAS_US_mini      20230828  2023-08-28 00:00:00      -1.0
+4              GBP      20230918  2023-09-18 00:00:00       1.0
+3              JPY      20230918  2023-09-18 00:00:00      -1.0
 9           KOSDAQ      20230914  2023-09-14 00:00:00       1.0
-10         LIVECOW      20231031  2023-10-31 00:00:00       2.0
-7              MXP      20230918  2023-09-18 00:00:00       1.0
-4           NIKKEI      20230907  2023-09-07 00:00:00       2.0
-0          RUSSELL      20230915  2023-09-15 00:00:00       3.0
-3           SOYOIL      20231214  2023-12-14 00:00:00       1.0
-12             US3      20230929  2023-09-29 00:00:00      -1.0
-1              VIX      20230920  2023-09-20 00:00:00      -1.0
+2          LIVECOW      20231031  2023-10-31 00:00:00       2.0
+5              MXP      20230918  2023-09-18 00:00:00       1.0
+1           NIKKEI      20230907  2023-09-07 00:00:00       2.0
+13         RUSSELL      20230915  2023-09-15 00:00:00       3.0
+8           SOYOIL      20231214  2023-12-14 00:00:00       1.0
+10             US3      20230929  2023-09-29 00:00:00      -1.0
+14             VIX      20230920  2023-09-20 00:00:00      -1.0
 
 
-========================================================================================
-                                      Trades in DB                                      
-========================================================================================
+===============
+ Trades in DB  
+===============
 
-                 strategy_name contract_date           fill_datetime  fill  filled_price
-FTSETAIWAN    dynamic_TF_carry    [20230700] 2023-07-27 01:45:05.000  [-1]       1494.50
-SOYBEAN_mini  dynamic_TF_carry    [20230800] 2023-07-27 16:32:42.457  [-1]       1556.75
+Empty DataFrame
+Columns: [strategy_name, contract_date, fill_datetime, fill, filled_price]
+Index: []
 
 
-==============================================================================
-                              Trades from broker                              
-==============================================================================
+==================
+Trades from broker
+==================
 
-           strategy_name contract_date       fill_datetime  fill  filled_price
-FTSETAIWAN                  [20230728] 2023-07-27 01:45:05  [-1]        1494.5
-FTSETAIWAN                  [20230728] 2023-07-27 01:45:06  [-1]        1495.0
+Empty DataFrame
+Columns: [strategy_name, contract_date, fill_datetime, fill, filled_price]
+Index: []
 
 
 ==========================================================
