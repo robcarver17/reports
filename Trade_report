@@ -1,15 +1,194 @@
 
 ********************************************************************************
-Trades report produced on 28/07/2023 22:50 from 27/07/2023 22:50 to 28/07/2023 22:50
+Trades report produced on 21/08/2023 22:50 from 20/08/2023 22:50 to 21/08/2023 22:50
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+32851            BOBL  dynamic_TF_carry    [20230900] 2023-08-21 11:14:03  [-1]    115.220000
+32847             CAC  dynamic_TF_carry    [20230900] 2023-08-21 10:35:28   [1]   7269.500000
+32848             DAX  dynamic_TF_carry    [20230900] 2023-08-21 10:35:31  [-1]  15745.000000
+32850             DAX  dynamic_TF_carry    [20230900] 2023-08-21 11:11:22  [-1]  15735.000000
+32852             DAX  dynamic_TF_carry    [20230900] 2023-08-21 11:14:04  [-1]  15731.000000
+32853             DAX  dynamic_TF_carry    [20230900] 2023-08-21 11:14:13  [-1]  15732.000000
+32849          EU-OIL  dynamic_TF_carry    [20230900] 2023-08-21 10:35:37   [1]    341.600000
+32856             GBP  dynamic_TF_carry    [20230900] 2023-08-21 18:37:07  [-1]      1.276200
+32858         RUSSELL  dynamic_TF_carry    [20230900] 2023-08-21 18:39:27  [-1]   1858.300000
+32855         RUSSELL  dynamic_TF_carry    [20230900] 2023-08-21 18:36:50  [-1]   1859.000000
+32857             US3  dynamic_TF_carry    [20230900] 2023-08-21 18:39:26  [-1]    103.296875
+32859             VIX  dynamic_TF_carry    [20230900] 2023-08-21 18:39:48   [1]     17.950000
+
+
+========================================================================================================================================================
+                                                                         Delays                                                                         
+========================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+32847             CAC  dynamic_TF_carry       2023-08-11 00:00:00 2023-08-21 10:35:26.950 2023-08-21 10:35:28                 902127                1.05
+32849          EU-OIL  dynamic_TF_carry       2023-08-11 00:00:00 2023-08-21 10:35:33.200 2023-08-21 10:35:37                 902133                 3.8
+32848             DAX  dynamic_TF_carry       2023-08-11 00:00:00 2023-08-21 10:35:30.626 2023-08-21 10:35:31                 902131               0.374
+32851            BOBL  dynamic_TF_carry       2023-08-11 00:00:00 2023-08-21 11:13:14.647 2023-08-21 11:14:03                 904395              48.353
+32850             DAX  dynamic_TF_carry       2023-08-11 00:00:00 2023-08-21 11:11:08.095 2023-08-21 11:11:22                 904268              13.905
+32852             DAX  dynamic_TF_carry       2023-08-11 00:00:00 2023-08-21 11:14:03.740 2023-08-21 11:14:04                 904444                0.26
+32853             DAX  dynamic_TF_carry       2023-08-11 00:00:00 2023-08-21 11:14:08.003 2023-08-21 11:14:13                 904448               4.997
+32856             GBP  dynamic_TF_carry       2023-08-11 00:00:00 2023-08-21 18:36:51.850 2023-08-21 18:37:07                 931012               15.15
+32857             US3  dynamic_TF_carry       2023-08-11 00:00:00 2023-08-21 18:39:01.334 2023-08-21 18:39:26                 931141              24.666
+32858         RUSSELL  dynamic_TF_carry       2023-08-11 00:00:00 2023-08-21 18:39:26.705 2023-08-21 18:39:27                 931167               0.295
+32855         RUSSELL  dynamic_TF_carry       2023-08-11 00:00:00 2023-08-21 18:36:50.020 2023-08-21 18:36:50                 931010                 NaN
+32859             VIX  dynamic_TF_carry       2023-08-11 23:00:00 2023-08-21 18:39:28.618 2023-08-21 18:39:48                 848369              19.382
+
+
+====================================================================================================================================================================================================================================
+                                                                                                      Slippage (ticks per lot)                                                                                                      
+====================================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay     bid_ask   execution versus_limit versus_parent_limit total_trading
+32847             CAC  dynamic_TF_carry   [1]                   7367               None      7269     7269.5        7268.5      7268.5       7269.5        98        -0.5           0           -1                 NaN          -0.5
+32849          EU-OIL  dynamic_TF_carry   [1]                  343.2               None     341.4      341.5         341.3       341.3        341.6       1.8        -0.1        -0.1         -0.3                 NaN          -0.2
+32848             DAX  dynamic_TF_carry  [-1]                  15887               None     15744      15743         15745       15745        15745      -143          -1           2           -0                 NaN             1
+32851            BOBL  dynamic_TF_carry  [-1]                 115.39               None   115.215     115.21        115.22      115.22       115.22    -0.175      -0.005        0.01           -0                 NaN         0.005
+32850             DAX  dynamic_TF_carry  [-1]                  15887               None   15738.5      15738         15739       15739        15735    -148.5        -0.5          -3           -4                 NaN          -3.5
+32852             DAX  dynamic_TF_carry  [-1]                  15887               None   15735.5      15735         15736       15736        15731    -151.5        -0.5          -4           -5                 NaN          -4.5
+32853             DAX  dynamic_TF_carry  [-1]                  15887               None   15731.5      15731         15732       15732        15732    -155.5        -0.5           1           -0                 NaN           0.5
+32856             GBP  dynamic_TF_carry  [-1]                 1.2701               None   1.27615     1.2761        1.2762      1.2762       1.2762   0.00605      -5e-05      0.0001           -0                 NaN         5e-05
+32857             US3  dynamic_TF_carry  [-1]                103.668               None   103.297    103.293       103.301     103.301      103.297 -0.371094 -0.00390625  0.00390625  -0.00390625                 NaN             0
+32858         RUSSELL  dynamic_TF_carry  [-1]                 1931.4               None   1858.45     1858.4        1858.5      1858.5       1858.3    -72.95       -0.05        -0.1         -0.2                 NaN         -0.15
+32855         RUSSELL  dynamic_TF_carry  [-1]                 1931.4               None   1859.05       1859        1859.1         NaN         1859    -72.35       -0.05          -0          NaN                 NaN         -0.05
+32859             VIX  dynamic_TF_carry   [1]                     17               None    17.875       17.9         17.85       17.85        17.95    -0.875      -0.025       -0.05         -0.1                 NaN        -0.075
+
+
+============================================================================================================================================================
+                                                    Slippage (normalised by annual vol, BP of annual SR)                                                    
+============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+32847             CAC  dynamic_TF_carry   [1]         1103.72   887.907    -4.53014             0         -9.06027                     NaN          -4.53014
+32849          EU-OIL  dynamic_TF_carry   [1]         63.8072     282.1    -15.6722      -15.6722         -47.0166                     NaN          -31.3444
+32848             DAX  dynamic_TF_carry  [-1]         2240.24  -638.324    -4.46381       8.92761               -0                     NaN           4.46381
+32851            BOBL  dynamic_TF_carry  [-1]         5.28092  -331.382    -9.46805       18.9361               -0                     NaN           9.46805
+32850             DAX  dynamic_TF_carry  [-1]         2240.24  -662.875     -2.2319      -13.3914         -17.8552                     NaN          -15.6233
+32852             DAX  dynamic_TF_carry  [-1]         2240.24  -676.266     -2.2319      -17.8552          -22.319                     NaN          -20.0871
+32853             DAX  dynamic_TF_carry  [-1]         2240.24  -694.122     -2.2319       4.46381               -0                     NaN            2.2319
+32856             GBP  dynamic_TF_carry  [-1]       0.0930922   649.893    -5.37102        10.742               -0                     NaN           5.37102
+32857             US3  dynamic_TF_carry  [-1]         3.14453  -1180.13    -12.4224       12.4224         -12.4224                     NaN                 0
+32858         RUSSELL  dynamic_TF_carry  [-1]         331.301  -2201.93     -1.5092       -3.0184         -6.03681                     NaN           -4.5276
+32855         RUSSELL  dynamic_TF_carry  [-1]         331.301  -2183.81     -1.5092            -0              NaN                     NaN           -1.5092
+32859             VIX  dynamic_TF_carry   [1]         9.14738  -956.558    -27.3302      -54.6604         -109.321                     NaN          -81.9907
+
+
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+32847             CAC  dynamic_TF_carry   [1]              8.54216    837.131     -4.27108              0          -8.54216                      NaN           -4.27108
+32849          EU-OIL  dynamic_TF_carry   [1]              42.7108    76.8794     -4.27108       -4.27108          -12.8132                      NaN           -8.54216
+32848             DAX  dynamic_TF_carry  [-1]             0.854216   -122.153    -0.854216        1.70843                -0                      NaN           0.854216
+32851            BOBL  dynamic_TF_carry  [-1]              854.216   -149.488     -4.27108        8.54216                -0                      NaN            4.27108
+32850             DAX  dynamic_TF_carry  [-1]             0.854216   -126.851    -0.427108       -2.56265          -3.41686                      NaN           -2.98976
+32852             DAX  dynamic_TF_carry  [-1]             0.854216   -129.414    -0.427108       -3.41686          -4.27108                      NaN           -3.84397
+32853             DAX  dynamic_TF_carry  [-1]             0.854216   -132.831    -0.427108       0.854216                -0                      NaN           0.427108
+32856             GBP  dynamic_TF_carry  [-1]              49065.8    296.848     -2.45329        4.90658                -0                      NaN            2.45329
+32857             US3  dynamic_TF_carry  [-1]              1570.11   -582.656     -6.13322        6.13322          -6.13322                      NaN                  0
+32858         RUSSELL  dynamic_TF_carry  [-1]              3.92526   -286.348    -0.196263      -0.392526         -0.785053                      NaN          -0.588789
+32855         RUSSELL  dynamic_TF_carry  [-1]              3.92526   -283.993    -0.196263             -0               NaN                      NaN          -0.196263
+32859             VIX  dynamic_TF_carry   [1]              785.053   -686.921     -19.6263       -39.2526          -78.5053                      NaN           -58.8789
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry BOBL            -149.487753
+                 CAC              837.131418
+                 DAX             -511.248116
+                 EU-OIL            76.879416
+                 GBP              296.848014
+                 RUSSELL         -570.340713
+                 US3             -582.656225
+                 VIX             -686.921024
+delay_cash Total Sum
+                   delay_cash
+strategy_name                
+dynamic_TF_carry -1289.794984
+bid_ask_cash Sum
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry BOBL                -4.271079
+                 CAC                 -4.271079
+                 DAX                 -2.135539
+                 EU-OIL              -4.271079
+                 GBP                 -2.453289
+                 RUSSELL             -0.392526
+                 US3                 -6.133223
+                 VIX                -19.626315
+bid_ask_cash Total Sum
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry    -43.554129
+execution_cash Sum
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry BOBL                   8.542157
+                 CAC                    0.000000
+                 DAX                   -3.416863
+                 EU-OIL                -4.271079
+                 GBP                    4.906579
+                 RUSSELL               -0.392526
+                 US3                    6.133223
+                 VIX                  -39.252630
+execution_cash Total Sum
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry      -27.751138
+versus_limit_cash Sum
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry BOBL                     -0.000000
+                 CAC                      -8.542157
+                 DAX                      -7.687942
+                 EU-OIL                  -12.813236
+                 GBP                      -0.000000
+                 RUSSELL                  -0.785053
+                 US3                      -6.133223
+                 VIX                     -78.505260
+versus_limit_cash Total Sum
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry        -114.466871
+versus_parent_limit_cash Sum
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry BOBL                                    0
+                 CAC                                     0
+                 DAX                                     0
+                 EU-OIL                                  0
+                 GBP                                     0
+                 RUSSELL                                 0
+                 US3                                     0
+                 VIX                                     0
+versus_parent_limit_cash Total Sum
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
+total_trading_cash Sum
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry BOBL                       4.271079
+                 CAC                       -4.271079
+                 DAX                       -5.552402
+                 EU-OIL                    -8.542157
+                 GBP                        2.453289
+                 RUSSELL                   -0.785053
+                 US3                        0.000000
+                 VIX                      -58.878945
+total_trading_cash Total Sum
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry          -71.305268
 
 ********************************************************************************
                                  END OF REPORT                                  
