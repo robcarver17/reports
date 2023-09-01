@@ -1,10 +1,10 @@
 
 ********************************************************************************
-                 Reconcile report produced on 31/08/2023 22:49                  
+                 Reconcile report produced on 01/09/2023 22:49                  
 ********************************************************************************
 
 
-Breaks Optimal vs actual ['dynamic_TF_carry DAX']
+Breaks Optimal vs actual []
  Breaks Instrument vs Contract []
  Breaks Broker vs Contract []
 
@@ -18,7 +18,7 @@ Breaks Optimal vs actual ['dynamic_TF_carry DAX']
 2              CHF      20230918  2023-09-18 00:00:00      -1.0
 3              CNH      20230918  2023-09-18 00:00:00       1.0
 4              CNH      20231016  2023-10-16 00:00:00       1.0
-5              DAX      20230915  2023-09-15 00:00:00      -4.0
+5              DAX      20230915  2023-09-15 00:00:00      -2.0
 6          EU-AUTO      20230915  2023-09-15 00:00:00       1.0
 7           EU-OIL      20230915  2023-09-15 00:00:00       4.0
 8       FTSECHINAA      20230927  2023-09-27 00:00:00       1.0
@@ -38,42 +38,42 @@ Breaks Optimal vs actual ['dynamic_TF_carry DAX']
 ===============================================================
 
    instrument_code contract_date          expiry_date  position
-16            BOBL      20230907  2023-09-07 00:00:00      -1.0
-10            BUND      20230907  2023-09-07 00:00:00      -1.0
-7              CHF      20230918  2023-09-18 00:00:00      -1.0
-15             CNH      20230918  2023-09-18 00:00:00       1.0
-5              CNH      20231016  2023-10-16 00:00:00       1.0
-17             DAX      20230915  2023-09-15 00:00:00      -4.0
-12         EU-AUTO      20230915  2023-09-15 00:00:00       1.0
-0           EU-OIL      20230915  2023-09-15 00:00:00       4.0
+8             BOBL      20230907  2023-09-07 00:00:00      -1.0
+11            BUND      20230907  2023-09-07 00:00:00      -1.0
+10             CHF      20230918  2023-09-18 00:00:00      -1.0
+1              CNH      20231016  2023-10-16 00:00:00       1.0
+16             CNH      20230918  2023-09-18 00:00:00       1.0
+17             DAX      20230915  2023-09-15 00:00:00      -2.0
+5          EU-AUTO      20230915  2023-09-15 00:00:00       1.0
+4           EU-OIL      20230915  2023-09-15 00:00:00       4.0
 14      FTSECHINAA      20230927  2023-09-27 00:00:00       1.0
-3      GAS_US_mini      20230926  2023-09-26 00:00:00      -1.0
-11             JPY      20230918  2023-09-18 00:00:00      -1.0
-6           KOSDAQ      20230914  2023-09-14 00:00:00       1.0
-13         LIVECOW      20231031  2023-10-31 00:00:00       2.0
-1              MXP      20230918  2023-09-18 00:00:00       1.0
-4           NIKKEI      20230907  2023-09-07 00:00:00       2.0
-8     SOYBEAN_mini      20231114  2023-11-14 00:00:00       1.0
+13     GAS_US_mini      20230926  2023-09-26 00:00:00      -1.0
+3              JPY      20230918  2023-09-18 00:00:00      -1.0
+7           KOSDAQ      20230914  2023-09-14 00:00:00       1.0
+6          LIVECOW      20231031  2023-10-31 00:00:00       2.0
+12             MXP      20230918  2023-09-18 00:00:00       1.0
+0           NIKKEI      20230907  2023-09-07 00:00:00       2.0
+2     SOYBEAN_mini      20231114  2023-11-14 00:00:00       1.0
 9              US3      20230929  2023-09-29 00:00:00      -2.0
-2              VIX      20231018  2023-10-18 00:00:00      -1.0
+15             VIX      20231018  2023-10-18 00:00:00      -1.0
 
 
-===============
- Trades in DB  
-===============
+==========================================================================
+                               Trades in DB                               
+==========================================================================
 
-Empty DataFrame
-Columns: [strategy_name, contract_date, fill_datetime, fill, filled_price]
-Index: []
+        strategy_name contract_date       fill_datetime fill  filled_price
+DAX  dynamic_TF_carry    [20230900] 2023-09-01 08:00:08  [1]       15968.0
+DAX  dynamic_TF_carry    [20230900] 2023-09-01 08:00:12  [1]       15962.0
 
 
-==================
-Trades from broker
-==================
+======================================================================
+                          Trades from broker                          
+======================================================================
 
-Empty DataFrame
-Columns: [strategy_name, contract_date, fill_datetime, fill, filled_price]
-Index: []
+    strategy_name contract_date       fill_datetime fill  filled_price
+DAX                  [20230915] 2023-09-01 08:00:08  [1]       15968.0
+DAX                  [20230915] 2023-09-01 08:00:12  [1]       15962.0
 
 
 ==========================================================
@@ -112,7 +112,7 @@ dynamic_TF_carry CORN                    0       0   False
 dynamic_TF_carry COTTON                  0       0   False
 dynamic_TF_carry CRUDE_W_mini            0       0   False
 dynamic_TF_carry CZK                     0       0   False
-dynamic_TF_carry DAX                    -4      -2    True
+dynamic_TF_carry DAX                    -2      -2   False
 dynamic_TF_carry DJSTX-SMALL             0       0   False
 dynamic_TF_carry DOW                     0       0   False
 dynamic_TF_carry EPRA-EUROPE             0       0   False
