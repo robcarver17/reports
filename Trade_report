@@ -1,53 +1,47 @@
 
 ********************************************************************************
-Trades report produced on 06/09/2023 22:50 from 05/09/2023 22:50 to 06/09/2023 22:50
+Trades report produced on 07/09/2023 22:50 from 06/09/2023 22:50 to 07/09/2023 22:50
 ********************************************************************************
 
 
 
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
+=================================================================================================
+                                          Broker orders                                          
+=================================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-32872             CNH  dynamic_TF_carry    [20230900] 2023-09-06 01:00:21  [-1]      7.297500
-32878     GAS_US_mini  dynamic_TF_carry    [20231000] 2023-09-06 17:45:22   [1]      2.540000
-32873          NIKKEI  dynamic_TF_carry    [20230900] 2023-09-06 01:00:23  [-1]  33115.000000
-32874          NIKKEI  dynamic_TF_carry    [20230900] 2023-09-06 01:00:29  [-1]  33115.000000
-32879    SOYBEAN_mini  dynamic_TF_carry    [20231100] 2023-09-06 17:47:38   [1]   1374.875000
-32876            US20  dynamic_TF_carry    [20231200] 2023-09-06 17:39:58  [-1]    119.062500
-32880             US3  dynamic_TF_carry    [20230900] 2023-09-06 17:52:39   [1]    103.257813
-32877             US3  dynamic_TF_carry    [20230900] 2023-09-06 17:45:00   [1]    103.250000
+      instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
+32885            BOBL  dynamic_TF_carry    [20230900] 2023-09-07 08:00:52.000   [1]        115.18
+32887            BOBL  dynamic_TF_carry    [20230900] 2023-09-07 11:31:51.929  [-1]        115.17
+32884      FTSECHINAA  dynamic_TF_carry    [20230900] 2023-09-07 02:00:02.000  [-1]      12811.00
+32881          NIKKEI  dynamic_TF_carry    [20231200] 2023-09-07 01:00:08.000   [1]      32910.00
+32883          NIKKEI  dynamic_TF_carry    [20231200] 2023-09-07 01:00:15.000   [1]      32930.00
+32882           TOPIX  dynamic_TF_carry    [20231200] 2023-09-07 01:00:10.000   [1]       2366.00
 
 
-========================================================================================================================================================
-                                                                         Delays                                                                         
-========================================================================================================================================================
+============================================================================================================================================================
+                                                                           Delays                                                                           
+============================================================================================================================================================
 
-      instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
-32872             CNH  dynamic_TF_carry       2023-09-05 04:00:00 2023-09-06 01:00:06.379 2023-09-06 01:00:21                75606.4              14.621
-32873          NIKKEI  dynamic_TF_carry       2023-09-05 05:00:00 2023-09-06 01:00:22.656 2023-09-06 01:00:23                72022.7               0.344
-32874          NIKKEI  dynamic_TF_carry       2023-09-05 05:00:00 2023-09-06 01:00:27.187 2023-09-06 01:00:29                72027.2               1.813
-32876            US20  dynamic_TF_carry       2023-09-01 00:00:00 2023-09-06 17:39:27.790 2023-09-06 17:39:58                 495568               30.21
-32878     GAS_US_mini  dynamic_TF_carry       2023-09-01 23:00:00 2023-09-06 17:45:01.460 2023-09-06 17:45:22                 413101               20.54
-32879    SOYBEAN_mini  dynamic_TF_carry       2023-09-01 00:00:00 2023-09-06 17:47:38.384 2023-09-06 17:47:38                 496058                 NaN
-32880             US3  dynamic_TF_carry       2023-09-01 23:00:00 2023-09-06 17:47:39.328 2023-09-06 17:52:39                 413259             299.672
-32877             US3  dynamic_TF_carry       2023-09-01 23:00:00 2023-09-06 17:40:00.408 2023-09-06 17:45:00                 412800             299.592
+      instrument_code     strategy_name parent_reference_datetime         submit_datetime           fill_datetime submit_minus_generated filled_minus_submit
+32882           TOPIX  dynamic_TF_carry       2023-09-06 00:00:00 2023-09-07 01:00:09.068 2023-09-07 01:00:10.000                90009.1               0.932
+32881          NIKKEI  dynamic_TF_carry       2023-09-05 00:00:00 2023-09-07 01:00:06.703 2023-09-07 01:00:08.000                 176407               1.297
+32883          NIKKEI  dynamic_TF_carry       2023-09-05 00:00:00 2023-09-07 01:00:14.533 2023-09-07 01:00:15.000                 176415               0.467
+32884      FTSECHINAA  dynamic_TF_carry       2023-09-05 00:00:00 2023-09-07 02:00:02.122 2023-09-07 02:00:02.000                 180002                 NaN
+32885            BOBL  dynamic_TF_carry       2023-09-06 16:00:00 2023-09-07 08:00:04.101 2023-09-07 08:00:52.000                57604.1              47.899
+32887            BOBL  dynamic_TF_carry                       NaT                     NaT 2023-09-07 11:31:51.929                    NaN                 NaN
 
 
-=================================================================================================================================================================================================================================
-                                                                                                    Slippage (ticks per lot)                                                                                                     
-=================================================================================================================================================================================================================================
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay    bid_ask execution versus_limit versus_parent_limit total_trading
-32872             CNH  dynamic_TF_carry  [-1]                 7.2859               None   7.29795     7.2978        7.2981      7.2981       7.2975   0.01205   -0.00015   -0.0003      -0.0006                 NaN      -0.00045
-32873          NIKKEI  dynamic_TF_carry  [-1]                  32900               None   33112.5      33110         33115       33115        33115     212.5       -2.5         5           -0                 NaN           2.5
-32874          NIKKEI  dynamic_TF_carry  [-1]                  32900               None     33115      33110         33120       33120        33115       215         -5         5           -5                 NaN             0
-32876            US20  dynamic_TF_carry  [-1]                 120.25               None   119.109    119.094       119.125     119.125      119.062  -1.14062  -0.015625  -0.03125      -0.0625                 NaN     -0.046875
-32878     GAS_US_mini  dynamic_TF_carry   [1]                   2.76               None    2.5425      2.545          2.54        2.54         2.54    0.2175    -0.0025     0.005            0                 NaN        0.0025
-32879    SOYBEAN_mini  dynamic_TF_carry   [1]                1368.12               None   1374.56    1374.88       1374.25     1374.25      1374.88   -6.4375    -0.3125         0       -0.625                 NaN       -0.3125
-32880             US3  dynamic_TF_carry   [1]                103.641               None    103.23     103.25       103.211     103.211      103.258  0.410156 -0.0195312 -0.007813   -0.0468755                 NaN    -0.0273442
-32877             US3  dynamic_TF_carry   [1]                103.641               None   103.238    103.266       103.211     103.211       103.25  0.402344 -0.0273438  0.015625   -0.0390625                 NaN    -0.0117188
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+32882           TOPIX  dynamic_TF_carry   [1]                2374.75               None   2365.12    2365.25          2365        2365         2366  9.625  -0.125     -0.75           -1                 NaN        -0.875
+32881          NIKKEI  dynamic_TF_carry   [1]                  32680               None   32912.5      32915         32910       32910        32910 -232.5    -2.5         5            0                 NaN           2.5
+32883          NIKKEI  dynamic_TF_carry   [1]                  32680               None   32907.5      32910         32905       32905        32930 -227.5    -2.5       -20          -25                 NaN         -22.5
+32884      FTSECHINAA  dynamic_TF_carry  [-1]                  12836               None     12816      12815         12817       12817        12811    -20      -1        -4           -6                 NaN            -5
+32885            BOBL  dynamic_TF_carry   [1]                 115.17               None    115.16     115.17        115.15      115.15       115.18   0.01   -0.01     -0.01        -0.03                 NaN         -0.02
+32887            BOBL  dynamic_TF_carry  [-1]                    NaN               None       NaN        NaN           NaN         NaN       115.17    NaN     NaN       NaN          NaN                 NaN           NaN
 
 
 ============================================================================================================================================================
@@ -55,14 +49,12 @@ Trades report produced on 06/09/2023 22:50 from 05/09/2023 22:50 to 06/09/2023 2
 ============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-32872             CNH  dynamic_TF_carry  [-1]        0.329094   366.157    -4.55797      -9.11595         -18.2319                     NaN          -13.6739
-32873          NIKKEI  dynamic_TF_carry  [-1]         4978.95   426.797    -5.02114       10.0423               -0                     NaN           5.02114
-32874          NIKKEI  dynamic_TF_carry  [-1]         4978.95   431.818    -10.0423       10.0423         -10.0423                     NaN                 0
-32876            US20  dynamic_TF_carry  [-1]         14.7259   -774.57    -10.6106      -21.2211         -42.4422                     NaN          -31.8317
-32878     GAS_US_mini  dynamic_TF_carry   [1]         1.95213   1114.17    -12.8065       25.6131                0                     NaN           12.8065
-32879    SOYBEAN_mini  dynamic_TF_carry   [1]         289.713  -222.203    -10.7865             0         -21.5731                     NaN          -10.7865
-32880             US3  dynamic_TF_carry   [1]          3.0956   1324.97    -63.0936       -25.239         -151.426                     NaN          -88.3326
-32877             US3  dynamic_TF_carry   [1]          3.0956   1299.73     -88.331       50.4749         -126.187                     NaN          -37.8561
+32882           TOPIX  dynamic_TF_carry   [1]         295.291    325.95    -4.23312      -25.3987         -33.8649                     NaN          -29.6318
+32881          NIKKEI  dynamic_TF_carry   [1]         4889.64  -475.495    -5.11285       10.2257                0                     NaN           5.11285
+32883          NIKKEI  dynamic_TF_carry   [1]         4889.64  -465.269    -5.11285      -40.9028         -51.1285                     NaN          -46.0156
+32884      FTSECHINAA  dynamic_TF_carry  [-1]         2367.04  -84.4936    -4.22468      -16.8987         -25.3481                     NaN          -21.1234
+32885            BOBL  dynamic_TF_carry   [1]         5.38564   18.5679    -18.5679      -18.5679         -55.7037                     NaN          -37.1358
+32887            BOBL  dynamic_TF_carry  [-1]         5.38564       NaN         NaN           NaN              NaN                     NaN               NaN
 
 
 =======================================================================================================================================================================
@@ -70,76 +62,64 @@ Trades report produced on 06/09/2023 22:50 from 05/09/2023 22:50 to 06/09/2023 2
 =======================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-32872             CNH  dynamic_TF_carry  [-1]              10876.9    131.067     -1.63154       -3.26308          -6.52617                      NaN           -4.89463
-32873          NIKKEI  dynamic_TF_carry  [-1]             0.540367    114.828     -1.35092        2.70184                -0                      NaN            1.35092
-32874          NIKKEI  dynamic_TF_carry  [-1]             0.540367    116.179     -2.70184        2.70184          -2.70184                      NaN                  0
-32876            US20  dynamic_TF_carry  [-1]              794.691   -906.445     -12.4171       -24.8341          -49.6682                      NaN           -37.2512
-32878     GAS_US_mini  dynamic_TF_carry   [1]              1986.73    432.113     -4.96682        9.93364                 0                      NaN            4.96682
-32879    SOYBEAN_mini  dynamic_TF_carry   [1]              7.94691   -51.1583     -2.48341              0          -4.96682                      NaN           -2.48341
-32880             US3  dynamic_TF_carry   [1]              1589.38    651.895     -31.0426       -12.4178          -74.5031                      NaN           -43.4605
-32877             US3  dynamic_TF_carry   [1]              1589.38    639.478     -43.4597        24.8341          -62.0853                      NaN           -18.6256
+32882           TOPIX  dynamic_TF_carry   [1]              5.42302    52.1966    -0.677878       -4.06727          -5.42302                      NaN           -4.74515
+32881          NIKKEI  dynamic_TF_carry   [1]             0.542302   -126.085     -1.35576        2.71151                 0                      NaN            1.35576
+32883          NIKKEI  dynamic_TF_carry   [1]             0.542302   -123.374     -1.35576        -10.846          -13.5576                      NaN           -12.2018
+32884      FTSECHINAA  dynamic_TF_carry  [-1]             0.800384   -16.0077    -0.800384       -3.20154          -4.80231                      NaN           -4.00192
+32885            BOBL  dynamic_TF_carry   [1]              857.932    8.57932     -8.57932       -8.57932           -25.738                      NaN           -17.1586
+32887            BOBL  dynamic_TF_carry  [-1]              857.932        NaN          NaN            NaN               NaN                      NaN                NaN
 
 delay_cash Sum
-                                   delay_cash
-strategy_name    instrument_code             
-dynamic_TF_carry CNH               131.067205
-                 GAS_US_mini       432.113482
-                 NIKKEI            231.007105
-                 SOYBEAN_mini      -51.158263
-                 US20             -906.444948
-                 US3              1291.373624
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry BOBL               8.579318
+                 FTSECHINAA       -16.007684
+                 NIKKEI          -249.459127
+                 TOPIX             52.196611
 delay_cash Total Sum
-                   delay_cash
-strategy_name                
-dynamic_TF_carry  1127.958206
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -204.690881
 bid_ask_cash Sum
                                   bid_ask_cash
 strategy_name    instrument_code              
-dynamic_TF_carry CNH                 -1.631542
-                 GAS_US_mini         -4.966822
-                 NIKKEI              -4.052756
-                 SOYBEAN_mini        -2.483411
-                 US20               -12.417054
-                 US3                -74.502324
+dynamic_TF_carry BOBL                -8.579318
+                 FTSECHINAA          -0.800384
+                 NIKKEI              -2.711512
+                 TOPIX               -0.677878
 bid_ask_cash Total Sum
                   bid_ask_cash
 strategy_name                 
-dynamic_TF_carry   -100.053909
+dynamic_TF_carry    -12.769093
 execution_cash Sum
                                   execution_cash
 strategy_name    instrument_code                
-dynamic_TF_carry CNH                   -3.263084
-                 GAS_US_mini            9.933643
-                 NIKKEI                 5.403675
-                 SOYBEAN_mini           0.000000
-                 US20                 -24.834108
-                 US3                   12.416259
+dynamic_TF_carry BOBL                  -8.579318
+                 FTSECHINAA            -3.201537
+                 NIKKEI                -8.134537
+                 TOPIX                 -4.067268
 execution_cash Total Sum
                   execution_cash
 strategy_name                   
-dynamic_TF_carry       -0.343614
+dynamic_TF_carry       -23.98266
 versus_limit_cash Sum
                                   versus_limit_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry CNH                      -6.526168
-                 GAS_US_mini               0.000000
-                 NIKKEI                   -2.701837
-                 SOYBEAN_mini             -4.966822
-                 US20                    -49.668216
-                 US3                    -136.588390
+dynamic_TF_carry BOBL                    -25.737954
+                 FTSECHINAA               -4.802305
+                 NIKKEI                  -13.557561
+                 TOPIX                    -5.423024
 versus_limit_cash Total Sum
                   versus_limit_cash
 strategy_name                      
-dynamic_TF_carry        -200.451433
+dynamic_TF_carry         -49.520845
 versus_parent_limit_cash Sum
                                   versus_parent_limit_cash
 strategy_name    instrument_code                          
-dynamic_TF_carry CNH                                     0
-                 GAS_US_mini                             0
+dynamic_TF_carry BOBL                                    0
+                 FTSECHINAA                              0
                  NIKKEI                                  0
-                 SOYBEAN_mini                            0
-                 US20                                    0
-                 US3                                     0
+                 TOPIX                                   0
 versus_parent_limit_cash Total Sum
                   versus_parent_limit_cash
 strategy_name                             
@@ -147,16 +127,14 @@ dynamic_TF_carry                         0
 total_trading_cash Sum
                                   total_trading_cash
 strategy_name    instrument_code                    
-dynamic_TF_carry CNH                       -4.894626
-                 GAS_US_mini                4.966822
-                 NIKKEI                     1.350919
-                 SOYBEAN_mini              -2.483411
-                 US20                     -37.251162
-                 US3                      -62.086065
+dynamic_TF_carry BOBL                     -17.158636
+                 FTSECHINAA                -4.001921
+                 NIKKEI                   -10.846049
+                 TOPIX                     -4.745146
 total_trading_cash Total Sum
                   total_trading_cash
 strategy_name                       
-dynamic_TF_carry         -100.397524
+dynamic_TF_carry          -36.751752
 
 ********************************************************************************
                                  END OF REPORT                                  
