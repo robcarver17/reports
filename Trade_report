@@ -1,168 +1,119 @@
 
 ********************************************************************************
-Trades report produced on 08/09/2023 22:50 from 07/09/2023 22:50 to 08/09/2023 22:50
+Trades report produced on 11/09/2023 22:50 from 10/09/2023 22:50 to 11/09/2023 22:50
 ********************************************************************************
 
 
 
-=============================================================================================================
-                                                Broker orders                                                
-=============================================================================================================
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
 
-      instrument_code          strategy_name         contract_date       fill_datetime     fill  filled_price
-32889     GAS_US_mini       dynamic_TF_carry            [20231100] 2023-09-08 14:00:07     [-1]      3.000000
-32894         LIVECOW  _ROLL_PSEUDO_STRATEGY  [20231000, 20231200] 2023-09-08 15:31:13  [-1, 1]     -4.125000
-32895         LIVECOW  _ROLL_PSEUDO_STRATEGY  [20231000, 20231200] 2023-09-08 15:32:33  [-1, 1]     -4.075000
-32891    NASDAQ_micro       dynamic_TF_carry            [20231200] 2023-09-08 15:00:10     [-1]  15531.500000
-32888          NIKKEI       dynamic_TF_carry            [20231200] 2023-09-08 01:00:07      [1]  32640.000000
-32890             US3       dynamic_TF_carry            [20231200] 2023-09-08 15:00:09     [-1]    103.824219
-32892             US3       dynamic_TF_carry            [20231200] 2023-09-08 15:00:30     [-1]    103.820313
-32893             VIX  _ROLL_PSEUDO_STRATEGY  [20231000, 20231100] 2023-09-08 15:00:32  [1, -1]     -0.810000
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+32896            BOBL  dynamic_TF_carry    [20231200] 2023-09-11 08:44:01  [-1]    116.570000
+32897         EU-AUTO  dynamic_TF_carry    [20230900] 2023-09-11 08:45:50  [-1]    603.300000
+32898             JPY  dynamic_TF_carry    [20230900] 2023-09-11 15:00:03   [1]      0.006837
 
 
-=============================================================================================================================================================
-                                                                           Delays                                                                            
-=============================================================================================================================================================
+========================================================================================================================================================
+                                                                         Delays                                                                         
+========================================================================================================================================================
 
-      instrument_code          strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
-32888          NIKKEI       dynamic_TF_carry       2023-09-07 00:00:00 2023-09-08 01:00:06.740 2023-09-08 01:00:07                90006.7                0.26
-32889     GAS_US_mini       dynamic_TF_carry       2023-09-07 00:00:00 2023-09-08 14:00:05.116 2023-09-08 14:00:07                 136805               1.884
-32891    NASDAQ_micro       dynamic_TF_carry       2023-09-07 00:00:00 2023-09-08 15:00:10.302 2023-09-08 15:00:10                 140410                 NaN
-32890             US3       dynamic_TF_carry       2023-09-07 00:00:00 2023-09-08 15:00:05.131 2023-09-08 15:00:09                 140405               3.869
-32892             US3       dynamic_TF_carry       2023-09-07 00:00:00 2023-09-08 15:00:16.679 2023-09-08 15:00:30                 140417              13.321
-32893             VIX  _ROLL_PSEUDO_STRATEGY       2023-09-07 20:00:00 2023-09-08 15:00:32.430 2023-09-08 15:00:32                68432.4                 NaN
-32894         LIVECOW  _ROLL_PSEUDO_STRATEGY       2023-09-07 19:00:00 2023-09-08 15:30:03.670 2023-09-08 15:31:13                73803.7               69.33
-32895         LIVECOW  _ROLL_PSEUDO_STRATEGY       2023-09-07 19:00:00 2023-09-08 15:32:33.577 2023-09-08 15:32:33                73953.6                 NaN
+      instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+32896            BOBL  dynamic_TF_carry       2023-09-08 00:00:00 2023-09-11 08:41:31.216 2023-09-11 08:44:01                 290491             149.784
+32897         EU-AUTO  dynamic_TF_carry       2023-09-08 00:00:00 2023-09-11 08:45:45.085 2023-09-11 08:45:50                 290745               4.915
+32898             JPY  dynamic_TF_carry       2023-09-08 20:00:00 2023-09-11 15:00:03.286 2023-09-11 15:00:03                 241203                 NaN
 
 
-=============================================================================================================================================================================================================================================
-                                                                                                          Slippage (ticks per lot)                                                                                                           
-=============================================================================================================================================================================================================================================
+===============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                    
+===============================================================================================================================================================================================================================
 
-      instrument_code          strategy_name    trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay     bid_ask    execution versus_limit versus_parent_limit total_trading
-32888          NIKKEI       dynamic_TF_carry      [1]                  32920               None   32642.5      32645         32640       32640        32640     277.5        -2.5            5            0                 NaN           2.5
-32889     GAS_US_mini       dynamic_TF_carry     [-1]                   2.95               None    2.9975      2.995             3           3            3    0.0475     -0.0025        0.005           -0                 NaN        0.0025
-32891    NASDAQ_micro       dynamic_TF_carry     [-1]                15471.8               None   15530.8    15530.2       15531.2     15531.2      15531.5        59        -0.5         1.25         0.25                 NaN          0.75
-32890             US3       dynamic_TF_carry     [-1]                103.715               None   103.832    103.828       103.836     103.836      103.824  0.117188 -0.00390625    -0.003906   -0.0117185                 NaN   -0.00781225
-32892             US3       dynamic_TF_carry     [-1]                103.715               None   103.828    103.824       103.832     103.832       103.82  0.113281 -0.00390625  -0.00390575   -0.0117183                 NaN     -0.007812
-32893             VIX  _ROLL_PSEUDO_STRATEGY  [1, -1]                   -0.7               None    -0.815      -0.81         -0.82        -0.8        -0.81     0.115      -0.005 -1.33227e-15         0.01                 NaN        -0.005
-32894         LIVECOW  _ROLL_PSEUDO_STRATEGY  [-1, 1]                  -3.85               None   -4.1375      -4.15        -4.125      -4.125       -4.125   -0.2875     -0.0125        0.025           -0                 NaN        0.0125
-32895         LIVECOW  _ROLL_PSEUDO_STRATEGY  [-1, 1]                  -3.85               None   -4.1375      -4.15        -4.125      -4.125       -4.075   -0.2875     -0.0125        0.075         0.05                 NaN        0.0625
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price  mid_price side_price offside_price limit_price filled_price     delay bid_ask execution versus_limit versus_parent_limit total_trading
+32896            BOBL  dynamic_TF_carry  [-1]                 116.69               None    116.565     116.56        116.57      116.57       116.57    -0.125  -0.005      0.01 -1.42109e-14                 NaN         0.005
+32897         EU-AUTO  dynamic_TF_carry  [-1]                  596.6               None      603.4      603.3         603.5       603.5        603.3       6.8    -0.1        -0         -0.2                 NaN          -0.1
+32898             JPY  dynamic_TF_carry   [1]               0.006772               None  0.0068365   0.006837      0.006836    0.006836     0.006837 -6.45e-05  -5e-07         0       -1e-06                 NaN        -5e-07
 
 
-====================================================================================================================================================================
-                                                        Slippage (normalised by annual vol, BP of annual SR)                                                        
-====================================================================================================================================================================
+============================================================================================================================================================
+                                                    Slippage (normalised by annual vol, BP of annual SR)                                                    
+============================================================================================================================================================
 
-      instrument_code          strategy_name    trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-32888          NIKKEI       dynamic_TF_carry      [1]         5098.74   544.252    -4.90318       9.80635                0                     NaN           4.90318
-32889     GAS_US_mini       dynamic_TF_carry     [-1]         1.89693   250.404    -13.1792       26.3583               -0                     NaN           13.1792
-32891    NASDAQ_micro       dynamic_TF_carry     [-1]         3087.28   191.106    -1.61955       4.04887         0.809773                     NaN           2.42932
-32890             US3       dynamic_TF_carry     [-1]         3.10913   376.914    -12.5638       -12.563         -37.6906                     NaN          -25.1268
-32892             US3       dynamic_TF_carry     [-1]         3.10913    364.35    -12.5638      -12.5622         -37.6898                     NaN           -25.126
-32893             VIX  _ROLL_PSEUDO_STRATEGY  [1, -1]         8.26468   139.146    -6.04984    -1.612e-12          12.0997                     NaN          -6.04984
-32894         LIVECOW  _ROLL_PSEUDO_STRATEGY  [-1, 1]         18.5745  -154.782    -6.72966       13.4593               -0                     NaN           6.72966
-32895         LIVECOW  _ROLL_PSEUDO_STRATEGY  [-1, 1]         18.5745  -154.782    -6.72966        40.378          26.9186                     NaN           33.6483
+      instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+32896            BOBL  dynamic_TF_carry  [-1]         5.25522  -237.859    -9.51434       19.0287     -2.70414e-11                     NaN           9.51434
+32897         EU-AUTO  dynamic_TF_carry  [-1]         113.688   598.126    -8.79598            -0          -17.592                     NaN          -8.79598
+32898             JPY  dynamic_TF_carry   [1]     0.000643698  -1002.02    -7.76762             0         -15.5352                     NaN          -7.76762
 
 
-===============================================================================================================================================================================
-                                                                          Slippage (In base currency)                                                                          
-===============================================================================================================================================================================
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
 
-      instrument_code          strategy_name    trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-32888          NIKKEI       dynamic_TF_carry      [1]             0.543536    150.831     -1.35884        2.71768                 0                      NaN            1.35884
-32889     GAS_US_mini       dynamic_TF_carry     [-1]               1999.6     94.981       -4.999          9.998                -0                      NaN              4.999
-32891    NASDAQ_micro       dynamic_TF_carry     [-1]              1.59968    94.3811     -0.79984         1.9996           0.39992                      NaN            1.19976
-32890             US3       dynamic_TF_carry     [-1]              1599.68    187.463     -6.24875       -6.24835          -18.7459                      NaN           -12.4971
-32892             US3       dynamic_TF_carry     [-1]              1599.68    181.214     -6.24875       -6.24795          -18.7455                      NaN           -12.4967
-32893             VIX  _ROLL_PSEUDO_STRATEGY  [1, -1]               799.84    91.9816      -3.9992    -1.0656e-12            7.9984                      NaN            -3.9992
-32894         LIVECOW  _ROLL_PSEUDO_STRATEGY  [-1, 1]              319.936   -91.9816      -3.9992         7.9984                -0                      NaN             3.9992
-32895         LIVECOW  _ROLL_PSEUDO_STRATEGY  [-1, 1]              319.936   -91.9816      -3.9992        23.9952           15.9968                      NaN             19.996
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+32896            BOBL  dynamic_TF_carry  [-1]              856.863   -107.108     -4.28432        8.56863      -1.21768e-11                      NaN            4.28432
+32897         EU-AUTO  dynamic_TF_carry  [-1]              42.8432    291.334     -4.28432             -0          -8.56863                      NaN           -4.28432
+32898             JPY  dynamic_TF_carry   [1]          9.98163e+06   -643.815     -4.99082              0          -9.98163                      NaN           -4.99082
 
 delay_cash Sum
-                                       delay_cash
-strategy_name         instrument_code            
-_ROLL_PSEUDO_STRATEGY LIVECOW         -183.963207
-                      VIX               91.981604
-dynamic_TF_carry      GAS_US_mini       94.981004
-                      NASDAQ_micro      94.381124
-                      NIKKEI           150.831170
-                      US3              368.676265
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry BOBL            -107.107921
+                 EU-AUTO          291.333546
+                 JPY             -643.815380
 delay_cash Total Sum
-                       delay_cash
-strategy_name                    
-_ROLL_PSEUDO_STRATEGY  -91.981604
-dynamic_TF_carry       708.869563
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -459.589755
 bid_ask_cash Sum
-                                       bid_ask_cash
-strategy_name         instrument_code              
-_ROLL_PSEUDO_STRATEGY LIVECOW             -7.998400
-                      VIX                 -3.999200
-dynamic_TF_carry      GAS_US_mini         -4.999000
-                      NASDAQ_micro        -0.799840
-                      NIKKEI              -1.358839
-                      US3                -12.497500
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry BOBL                -4.284317
+                 EU-AUTO             -4.284317
+                 JPY                 -4.990817
 bid_ask_cash Total Sum
-                       bid_ask_cash
-strategy_name                      
-_ROLL_PSEUDO_STRATEGY     -11.99760
-dynamic_TF_carry          -19.65518
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry    -13.559451
 execution_cash Sum
-                                       execution_cash
-strategy_name         instrument_code                
-_ROLL_PSEUDO_STRATEGY LIVECOW            3.199360e+01
-                      VIX               -1.065601e-12
-dynamic_TF_carry      GAS_US_mini        9.998000e+00
-                      NASDAQ_micro       1.999600e+00
-                      NIKKEI             2.717679e+00
-                      US3               -1.249630e+01
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry BOBL                   8.568634
+                 EU-AUTO               -0.000000
+                 JPY                    0.000000
 execution_cash Total Sum
-                       execution_cash
-strategy_name                        
-_ROLL_PSEUDO_STRATEGY       31.993601
-dynamic_TF_carry             2.218978
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry        8.568634
 versus_limit_cash Sum
-                                       versus_limit_cash
-strategy_name         instrument_code                   
-_ROLL_PSEUDO_STRATEGY LIVECOW                  15.996801
-                      VIX                       7.998400
-dynamic_TF_carry      GAS_US_mini              -0.000000
-                      NASDAQ_micro              0.399920
-                      NIKKEI                    0.000000
-                      US3                     -37.491302
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry BOBL                 -1.217676e-11
+                 EU-AUTO              -8.568634e+00
+                 JPY                  -9.981634e+00
 versus_limit_cash Total Sum
-                       versus_limit_cash
-strategy_name                           
-_ROLL_PSEUDO_STRATEGY          23.995201
-dynamic_TF_carry              -37.091382
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry         -18.550268
 versus_parent_limit_cash Sum
-                                       versus_parent_limit_cash
-strategy_name         instrument_code                          
-_ROLL_PSEUDO_STRATEGY LIVECOW                                 0
-                      VIX                                     0
-dynamic_TF_carry      GAS_US_mini                             0
-                      NASDAQ_micro                            0
-                      NIKKEI                                  0
-                      US3                                     0
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry BOBL                                    0
+                 EU-AUTO                                 0
+                 JPY                                     0
 versus_parent_limit_cash Total Sum
-                       versus_parent_limit_cash
-strategy_name                                  
-_ROLL_PSEUDO_STRATEGY                         0
-dynamic_TF_carry                              0
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
 total_trading_cash Sum
-                                       total_trading_cash
-strategy_name         instrument_code                    
-_ROLL_PSEUDO_STRATEGY LIVECOW                   23.995201
-                      VIX                       -3.999200
-dynamic_TF_carry      GAS_US_mini                4.999000
-                      NASDAQ_micro               1.199760
-                      NIKKEI                     1.358839
-                      US3                      -24.993801
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry BOBL                       4.284317
+                 EU-AUTO                   -4.284317
+                 JPY                       -4.990817
 total_trading_cash Total Sum
-                       total_trading_cash
-strategy_name                            
-_ROLL_PSEUDO_STRATEGY           19.996001
-dynamic_TF_carry               -17.436202
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry           -4.990817
 
 ********************************************************************************
                                  END OF REPORT                                  

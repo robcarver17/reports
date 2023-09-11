@@ -1,19 +1,19 @@
 
 ********************************************************************************
-              Removed markets report produced on 08/09/2023 23:07               
+              Removed markets report produced on 11/09/2023 23:08               
 ********************************************************************************
 
 
 List of markets which should be marked as untradeable due to risk, liquidity or cost issues
-Following should be removed from trading (add to config.bad_markets) [0.300000 threshold]: ['US3', 'EU-INSURE', 'SONIA3', 'R1000', 'EURIBOR-ICE', 'CAD2', 'COAL-GEORDIE', 'HIGHYIELD', 'SARONA', 'GBPCHF', 'US2', 'COPPER-micro', 'COAL', 'EURCHF', 'DJSTX-SMALL', 'BONO', 'MSCIEMASIA', 'DX', 'MUMMY', 'SUGAR16', 'IG'] 
+Following should be removed from trading (add to config.bad_markets) [0.300000 threshold]: ['SUGAR16', 'EU-INSURE', 'COAL', 'MSCIEMASIA', 'EURIBOR-ICE', 'DX', 'IG', 'BONO', 'GBPCHF', 'DJSTX-SMALL', 'US3', 'R1000', 'SARONA', 'SONIA3', 'CAD2', 'COAL-GEORDIE', 'HIGHYIELD', 'US2', 'EURCHF'] 
 
 
 
-Following should be allowed to trade (delete from config.bad_markets) [0.300000 threshold]: ['USIRS5', 'USIRS2ERIS', 'MSCIWORLD', 'RICE', 'LUMBER', 'EDOLLAR']
+Following should be allowed to trade (delete from config.bad_markets) [0.300000 threshold]: ['LUMBER', 'RICE', 'EDOLLAR', 'USIRS5', 'USIRS2ERIS', 'MSCIWORLD']
 
 
 
-Markets too expensive (SR cost per trade > 0.010): ['AEX_mini', 'BUTTER', 'CANOLA', 'CH10', 'CHEESE', 'CLP', 'CNH-onshore', 'COTTON', 'CZK', 'DX', 'EPRA-EUROPE', 'ETHANOL', 'EUA', 'EURIBOR', 'FTSEINDO', 'FTSEVIET', 'GASOILINE_micro', 'HOUSE-US', 'IRS', 'JGB-mini', 'JP-REALESTATE', 'KRWUSD', 'LUMBER-new', 'MILK', 'MILKDRY', 'MILKWET', 'OATIES', 'OJ', 'OMX', 'RUR', 'SGX', 'STEEL', 'SWISSLEAD', 'VNKI', 'WHEY', 'ZAR']
+Markets too expensive (SR cost per trade > 0.010): ['AEX_mini', 'BB3M', 'BUTTER', 'CANOLA', 'CH10', 'CHEESE', 'CLP', 'CNH-onshore', 'COTTON', 'CZK', 'DX', 'EPRA-EUROPE', 'ETHANOL', 'EUA', 'EURIBOR', 'FTSEINDO', 'FTSEVIET', 'GASOILINE_micro', 'HOUSE-US', 'IRS', 'JGB-mini', 'JP-REALESTATE', 'KRWUSD', 'LUMBER-new', 'MILK', 'MILKDRY', 'MILKWET', 'OATIES', 'OJ', 'OMX', 'RUR', 'SGX', 'STEEL', 'SWISSLEAD', 'VNKI', 'WHEY', 'ZAR']
 
 
 
@@ -25,7 +25,7 @@ Markets not enough contract volume (Volume in contracts per day < 100): ['AEX_mi
 
 
 
-Markets too safe (Annual % std. dev < 5.0): ['BB3M', 'BOBL', 'BTP3', 'CAD2', 'CAD5', 'CNH', 'ETHANOL', 'EURCHF', 'EURIBOR', 'EURIBOR-ICE', 'FED', 'HOUSE-US', 'INR', 'JGB', 'JGB-SGX-mini', 'JGB-mini', 'KR3', 'SARONA', 'SGD', 'SGD_mini', 'SHATZ', 'SOFR', 'SONIA3', 'US2', 'US3', 'US5']
+Markets too safe (Annual % std. dev < 5.0): ['BB3M', 'BOBL', 'BTP3', 'CAD2', 'CAD5', 'ETHANOL', 'EURCHF', 'EURIBOR', 'EURIBOR-ICE', 'FED', 'GBPEUR', 'HOUSE-US', 'INR', 'JGB', 'JGB-SGX-mini', 'JGB-mini', 'KR3', 'SARONA', 'SGD', 'SGD_mini', 'SHATZ', 'SOFR', 'SONIA3', 'US2', 'US3', 'US5']
 
 
 
@@ -55,7 +55,6 @@ exclude_instrument_lists:
     - CNH-onshore 
     - COAL 
     - COAL-GEORDIE 
-    - COPPER-micro 
     - COPPER-mini 
     - CORN_mini 
     - COTTON 
@@ -111,7 +110,6 @@ exclude_instrument_lists:
     - MILKDRY 
     - MILKWET 
     - MSCIEMASIA 
-    - MUMMY 
     - NOK 
     - OATIES 
     - OMX 
@@ -164,7 +162,6 @@ exclude_instrument_lists:
     - CHFJPY 
     - CHF_micro 
     - CLP 
-    - CNH 
     - CNH-onshore 
     - COAL 
     - COAL-GEORDIE 
@@ -206,6 +203,7 @@ exclude_instrument_lists:
     - FTSEVIET 
     - GASOILINE_micro 
     - GBPCHF 
+    - GBPEUR 
     - GBPJPY 
     - GBP_micro 
     - GICS 
