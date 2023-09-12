@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 11/09/2023 22:50 from 10/09/2023 22:50 to 11/09/2023 22:50
+Trades report produced on 12/09/2023 22:50 from 11/09/2023 22:50 to 12/09/2023 22:50
 ********************************************************************************
 
 
@@ -10,9 +10,12 @@ Trades report produced on 11/09/2023 22:50 from 10/09/2023 22:50 to 11/09/2023 2
 =============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-32896            BOBL  dynamic_TF_carry    [20231200] 2023-09-11 08:44:01  [-1]    116.570000
-32897         EU-AUTO  dynamic_TF_carry    [20230900] 2023-09-11 08:45:50  [-1]    603.300000
-32898             JPY  dynamic_TF_carry    [20230900] 2023-09-11 15:00:03   [1]      0.006837
+32905             CHF  dynamic_TF_carry    [20230900] 2023-09-12 15:00:08   [1]        1.1207
+32904          EU-OIL  dynamic_TF_carry    [20230900] 2023-09-12 09:33:30  [-1]      355.5000
+32901          EU-OIL  dynamic_TF_carry    [20230900] 2023-09-12 09:32:36  [-1]      355.8000
+32902          EU-OIL  dynamic_TF_carry    [20230900] 2023-09-12 09:33:10  [-1]      355.6000
+32903          EU-OIL  dynamic_TF_carry    [20230900] 2023-09-12 09:33:15  [-1]      355.6000
+32900          NIKKEI  dynamic_TF_carry    [20231200] 2023-09-12 01:00:07   [1]    32435.0000
 
 
 ========================================================================================================================================================
@@ -20,19 +23,25 @@ Trades report produced on 11/09/2023 22:50 from 10/09/2023 22:50 to 11/09/2023 2
 ========================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
-32896            BOBL  dynamic_TF_carry       2023-09-08 00:00:00 2023-09-11 08:41:31.216 2023-09-11 08:44:01                 290491             149.784
-32897         EU-AUTO  dynamic_TF_carry       2023-09-08 00:00:00 2023-09-11 08:45:45.085 2023-09-11 08:45:50                 290745               4.915
-32898             JPY  dynamic_TF_carry       2023-09-08 20:00:00 2023-09-11 15:00:03.286 2023-09-11 15:00:03                 241203                 NaN
+32900          NIKKEI  dynamic_TF_carry       2023-09-11 00:00:00 2023-09-12 01:00:06.430 2023-09-12 01:00:07                90006.4                0.57
+32904          EU-OIL  dynamic_TF_carry       2023-09-11 16:00:00 2023-09-12 09:33:19.549 2023-09-12 09:33:30                63199.5              10.451
+32901          EU-OIL  dynamic_TF_carry       2023-09-11 16:00:00 2023-09-12 09:30:34.490 2023-09-12 09:32:36                63034.5              121.51
+32902          EU-OIL  dynamic_TF_carry       2023-09-11 16:00:00 2023-09-12 09:33:10.136 2023-09-12 09:33:10                63190.1                 NaN
+32903          EU-OIL  dynamic_TF_carry       2023-09-11 16:00:00 2023-09-12 09:33:14.297 2023-09-12 09:33:15                63194.3               0.703
+32905             CHF  dynamic_TF_carry       2023-09-11 20:00:00 2023-09-12 15:00:04.195 2023-09-12 15:00:08                68404.2               3.805
 
 
-===============================================================================================================================================================================================================================
-                                                                                                   Slippage (ticks per lot)                                                                                                    
-===============================================================================================================================================================================================================================
+=============================================================================================================================================================================================================================
+                                                                                                  Slippage (ticks per lot)                                                                                                   
+=============================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price  mid_price side_price offside_price limit_price filled_price     delay bid_ask execution versus_limit versus_parent_limit total_trading
-32896            BOBL  dynamic_TF_carry  [-1]                 116.69               None    116.565     116.56        116.57      116.57       116.57    -0.125  -0.005      0.01 -1.42109e-14                 NaN         0.005
-32897         EU-AUTO  dynamic_TF_carry  [-1]                  596.6               None      603.4      603.3         603.5       603.5        603.3       6.8    -0.1        -0         -0.2                 NaN          -0.1
-32898             JPY  dynamic_TF_carry   [1]               0.006772               None  0.0068365   0.006837      0.006836    0.006836     0.006837 -6.45e-05  -5e-07         0       -1e-06                 NaN        -5e-07
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay bid_ask execution versus_limit versus_parent_limit total_trading
+32900          NIKKEI  dynamic_TF_carry   [1]                  32310               None   32422.5      32425         32420       32420        32435   -112.5    -2.5       -10          -15                 NaN         -12.5
+32904          EU-OIL  dynamic_TF_carry  [-1]                  357.7               None    355.65      355.6         355.7       355.7        355.5    -2.05   -0.05      -0.1         -0.2                 NaN         -0.15
+32901          EU-OIL  dynamic_TF_carry  [-1]                  357.7               None     355.9      355.8           356         356        355.8     -1.8    -0.1        -0         -0.2                 NaN          -0.1
+32902          EU-OIL  dynamic_TF_carry  [-1]                  357.7               None    355.85      355.8         355.9       355.9        355.6    -1.85   -0.05      -0.2         -0.3                 NaN         -0.25
+32903          EU-OIL  dynamic_TF_carry  [-1]                  357.7               None     355.7      355.6         355.8       355.8        355.6       -2    -0.1        -0         -0.2                 NaN          -0.1
+32905             CHF  dynamic_TF_carry   [1]                  1.123               None   1.12065     1.1207        1.1206      1.1206       1.1207  0.00235  -5e-05         0      -0.0001                 NaN        -5e-05
 
 
 ============================================================================================================================================================
@@ -40,9 +49,12 @@ Trades report produced on 11/09/2023 22:50 from 10/09/2023 22:50 to 11/09/2023 2
 ============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-32896            BOBL  dynamic_TF_carry  [-1]         5.25522  -237.859    -9.51434       19.0287     -2.70414e-11                     NaN           9.51434
-32897         EU-AUTO  dynamic_TF_carry  [-1]         113.688   598.126    -8.79598            -0          -17.592                     NaN          -8.79598
-32898             JPY  dynamic_TF_carry   [1]     0.000643698  -1002.02    -7.76762             0         -15.5352                     NaN          -7.76762
+32900          NIKKEI  dynamic_TF_carry   [1]         4890.88   -230.02    -5.11155      -20.4462         -30.6693                     NaN          -25.5578
+32904          EU-OIL  dynamic_TF_carry  [-1]          55.483  -369.483    -9.01177      -18.0235         -36.0471                     NaN          -27.0353
+32901          EU-OIL  dynamic_TF_carry  [-1]          55.483  -324.424    -18.0235            -0         -36.0471                     NaN          -18.0235
+32902          EU-OIL  dynamic_TF_carry  [-1]          55.483  -333.435    -9.01177      -36.0471         -54.0706                     NaN          -45.0589
+32903          EU-OIL  dynamic_TF_carry  [-1]          55.483  -360.471    -18.0235            -0         -36.0471                     NaN          -18.0235
+32905             CHF  dynamic_TF_carry   [1]       0.0741495   316.927    -6.74313             0         -13.4863                     NaN          -6.74313
 
 
 =======================================================================================================================================================================
@@ -50,56 +62,59 @@ Trades report produced on 11/09/2023 22:50 from 10/09/2023 22:50 to 11/09/2023 2
 =======================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-32896            BOBL  dynamic_TF_carry  [-1]              856.863   -107.108     -4.28432        8.56863      -1.21768e-11                      NaN            4.28432
-32897         EU-AUTO  dynamic_TF_carry  [-1]              42.8432    291.334     -4.28432             -0          -8.56863                      NaN           -4.28432
-32898             JPY  dynamic_TF_carry   [1]          9.98163e+06   -643.815     -4.99082              0          -9.98163                      NaN           -4.99082
+32900          NIKKEI  dynamic_TF_carry   [1]             0.544089     -61.21     -1.36022       -5.44089          -8.16133                      NaN           -6.80111
+32904          EU-OIL  dynamic_TF_carry  [-1]              42.8865   -87.9174     -2.14433       -4.28865          -8.57731                      NaN           -6.43298
+32901          EU-OIL  dynamic_TF_carry  [-1]              42.8865   -77.1958     -4.28865             -0          -8.57731                      NaN           -4.28865
+32902          EU-OIL  dynamic_TF_carry  [-1]              42.8865   -79.3401     -2.14433       -8.57731           -12.866                      NaN           -10.7216
+32903          EU-OIL  dynamic_TF_carry  [-1]              42.8865   -85.7731     -4.28865             -0          -8.57731                      NaN           -4.28865
+32905             CHF  dynamic_TF_carry   [1]              99852.2    234.653     -4.99261              0          -9.98522                      NaN           -4.99261
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry BOBL            -107.107921
-                 EU-AUTO          291.333546
-                 JPY             -643.815380
+dynamic_TF_carry CHF              234.652714
+                 EU-OIL          -330.226265
+                 NIKKEI           -61.210003
 delay_cash Total Sum
                   delay_cash
 strategy_name               
-dynamic_TF_carry -459.589755
+dynamic_TF_carry -156.783555
 bid_ask_cash Sum
                                   bid_ask_cash
 strategy_name    instrument_code              
-dynamic_TF_carry BOBL                -4.284317
-                 EU-AUTO             -4.284317
-                 JPY                 -4.990817
+dynamic_TF_carry CHF                 -4.992611
+                 EU-OIL             -12.865958
+                 NIKKEI              -1.360222
 bid_ask_cash Total Sum
                   bid_ask_cash
 strategy_name                 
-dynamic_TF_carry    -13.559451
+dynamic_TF_carry    -19.218792
 execution_cash Sum
                                   execution_cash
 strategy_name    instrument_code                
-dynamic_TF_carry BOBL                   8.568634
-                 EU-AUTO               -0.000000
-                 JPY                    0.000000
+dynamic_TF_carry CHF                    0.000000
+                 EU-OIL               -12.865958
+                 NIKKEI                -5.440889
 execution_cash Total Sum
                   execution_cash
 strategy_name                   
-dynamic_TF_carry        8.568634
+dynamic_TF_carry      -18.306848
 versus_limit_cash Sum
                                   versus_limit_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry BOBL                 -1.217676e-11
-                 EU-AUTO              -8.568634e+00
-                 JPY                  -9.981634e+00
+dynamic_TF_carry CHF                      -9.985222
+                 EU-OIL                  -38.597875
+                 NIKKEI                   -8.161334
 versus_limit_cash Total Sum
                   versus_limit_cash
 strategy_name                      
-dynamic_TF_carry         -18.550268
+dynamic_TF_carry         -56.744431
 versus_parent_limit_cash Sum
                                   versus_parent_limit_cash
 strategy_name    instrument_code                          
-dynamic_TF_carry BOBL                                    0
-                 EU-AUTO                                 0
-                 JPY                                     0
+dynamic_TF_carry CHF                                     0
+                 EU-OIL                                  0
+                 NIKKEI                                  0
 versus_parent_limit_cash Total Sum
                   versus_parent_limit_cash
 strategy_name                             
@@ -107,13 +122,13 @@ dynamic_TF_carry                         0
 total_trading_cash Sum
                                   total_trading_cash
 strategy_name    instrument_code                    
-dynamic_TF_carry BOBL                       4.284317
-                 EU-AUTO                   -4.284317
-                 JPY                       -4.990817
+dynamic_TF_carry CHF                       -4.992611
+                 EU-OIL                   -25.731917
+                 NIKKEI                    -6.801111
 total_trading_cash Total Sum
                   total_trading_cash
 strategy_name                       
-dynamic_TF_carry           -4.990817
+dynamic_TF_carry          -37.525639
 
 ********************************************************************************
                                  END OF REPORT                                  
