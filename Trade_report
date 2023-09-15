@@ -1,17 +1,18 @@
 
 ********************************************************************************
-Trades report produced on 14/09/2023 22:50 from 13/09/2023 22:50 to 14/09/2023 22:50
+Trades report produced on 15/09/2023 22:50 from 14/09/2023 22:50 to 15/09/2023 22:50
 ********************************************************************************
 
 
 
-============================================================================================
-                                       Broker orders                                        
-============================================================================================
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
-32913          EU-OIL  dynamic_TF_carry    [20231200] 2023-09-14 08:00:08  [1]         359.2
-32912          KOSDAQ  dynamic_TF_carry    [20231200] 2023-09-14 01:00:09  [1]        1377.7
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+32918             JPY  dynamic_TF_carry    [20230900] 2023-09-15 15:00:04  [-1]      0.006772
+32914          KOSDAQ  dynamic_TF_carry    [20231200] 2023-09-15 01:00:08   [1]   1397.200000
+32917             MXP  dynamic_TF_carry    [20230900] 2023-09-15 15:00:03  [-1]      0.058520
 
 
 ========================================================================================================================================================
@@ -19,17 +20,19 @@ Trades report produced on 14/09/2023 22:50 from 13/09/2023 22:50 to 14/09/2023 2
 ========================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
-32912          KOSDAQ  dynamic_TF_carry                2023-09-13 2023-09-14 01:00:08.123 2023-09-14 01:00:09                90008.1               0.877
-32913          EU-OIL  dynamic_TF_carry                2023-09-12 2023-09-14 08:00:07.988 2023-09-14 08:00:08                 201608               0.012
+32914          KOSDAQ  dynamic_TF_carry                2023-09-14 2023-09-15 01:00:06.351 2023-09-15 01:00:08                90006.4               1.649
+32917             MXP  dynamic_TF_carry                       NaT 2023-09-15 15:00:02.869 2023-09-15 15:00:03                    NaN               0.131
+32918             JPY  dynamic_TF_carry                       NaT 2023-09-15 15:00:04.058 2023-09-15 15:00:04                    NaN                 NaN
 
 
-==========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                 
-==========================================================================================================================================================================================================================
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
-32912          KOSDAQ  dynamic_TF_carry   [1]                 1370.2               None    1377.9     1378.1        1377.7      1377.7       1377.7  -7.7    -0.2       0.4            0                 NaN           0.2
-32913          EU-OIL  dynamic_TF_carry   [1]                  358.2               None    357.95      359.2         356.7       356.7        359.2  0.25   -1.25         0         -2.5                 NaN         -1.25
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price  mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
+32914          KOSDAQ  dynamic_TF_carry   [1]                 1396.2               None     1397.2     1397.4          1397        1397       1397.2    -1    -0.2       0.2         -0.2                 NaN             0
+32917             MXP  dynamic_TF_carry  [-1]                    NaN               None    0.05851     0.0585       0.05852     0.05852      0.05852   NaN  -1e-05     2e-05           -0                 NaN         1e-05
+32918             JPY  dynamic_TF_carry  [-1]                    NaN               None  0.0067745  0.0067735     0.0067755   0.0067755     0.006772   NaN  -1e-06  -1.5e-06     -3.5e-06                 NaN      -2.5e-06
 
 
 ============================================================================================================================================================
@@ -37,8 +40,9 @@ Trades report produced on 14/09/2023 22:50 from 13/09/2023 22:50 to 14/09/2023 2
 ============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-32912          KOSDAQ  dynamic_TF_carry   [1]         403.505  -190.828    -4.95657       9.91315                0                     NaN           4.95657
-32913          EU-OIL  dynamic_TF_carry   [1]         60.2788   41.4739     -207.37             0         -414.739                     NaN           -207.37
+32914          KOSDAQ  dynamic_TF_carry   [1]         394.484  -25.3496    -5.06992       5.06992         -5.06992                     NaN                 0
+32917             MXP  dynamic_TF_carry  [-1]      0.00641634       NaN    -15.5852       31.1704               -0                     NaN           15.5852
+32918             JPY  dynamic_TF_carry  [-1]      0.00060381       NaN    -16.5615      -24.8423         -57.9653                     NaN          -41.4038
 
 
 =======================================================================================================================================================================
@@ -46,50 +50,56 @@ Trades report produced on 14/09/2023 22:50 from 13/09/2023 22:50 to 14/09/2023 2
 =======================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-32912          KOSDAQ  dynamic_TF_carry   [1]              6.03672   -46.4828     -1.20734        2.41469                 0                      NaN            1.20734
-32913          EU-OIL  dynamic_TF_carry   [1]              42.9972    10.7493     -53.7464              0          -107.493                      NaN           -53.7464
+32914          KOSDAQ  dynamic_TF_carry   [1]               6.0758    -6.0758     -1.21516        1.21516          -1.21516                      NaN                  0
+32917             MXP  dynamic_TF_carry  [-1]               402317        NaN     -4.02317        8.04635                -0                      NaN            4.02317
+32918             JPY  dynamic_TF_carry  [-1]          1.00579e+07        NaN     -10.0579       -15.0869          -35.2028                      NaN           -25.1448
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry EU-OIL            10.749290
-                 KOSDAQ           -46.482778
+dynamic_TF_carry JPY                0.000000
+                 KOSDAQ            -6.075797
+                 MXP                0.000000
 delay_cash Total Sum
                   delay_cash
 strategy_name               
-dynamic_TF_carry  -35.733488
+dynamic_TF_carry   -6.075797
 bid_ask_cash Sum
                                   bid_ask_cash
 strategy_name    instrument_code              
-dynamic_TF_carry EU-OIL             -53.746450
-                 KOSDAQ              -1.207345
+dynamic_TF_carry JPY                -10.057934
+                 KOSDAQ              -1.215159
+                 MXP                 -4.023173
 bid_ask_cash Total Sum
                   bid_ask_cash
 strategy_name                 
-dynamic_TF_carry    -54.953794
+dynamic_TF_carry    -15.296266
 execution_cash Sum
                                   execution_cash
 strategy_name    instrument_code                
-dynamic_TF_carry EU-OIL                  0.00000
-                 KOSDAQ                  2.41469
+dynamic_TF_carry JPY                  -15.086901
+                 KOSDAQ                 1.215159
+                 MXP                    8.046347
 execution_cash Total Sum
                   execution_cash
 strategy_name                   
-dynamic_TF_carry         2.41469
+dynamic_TF_carry       -5.825394
 versus_limit_cash Sum
                                   versus_limit_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry EU-OIL                 -107.492899
-                 KOSDAQ                    0.000000
+dynamic_TF_carry JPY                     -35.202768
+                 KOSDAQ                   -1.215159
+                 MXP                      -0.000000
 versus_limit_cash Total Sum
                   versus_limit_cash
 strategy_name                      
-dynamic_TF_carry        -107.492899
+dynamic_TF_carry         -36.417927
 versus_parent_limit_cash Sum
                                   versus_parent_limit_cash
 strategy_name    instrument_code                          
-dynamic_TF_carry EU-OIL                                  0
+dynamic_TF_carry JPY                                     0
                  KOSDAQ                                  0
+                 MXP                                     0
 versus_parent_limit_cash Total Sum
                   versus_parent_limit_cash
 strategy_name                             
@@ -97,12 +107,13 @@ dynamic_TF_carry                         0
 total_trading_cash Sum
                                   total_trading_cash
 strategy_name    instrument_code                    
-dynamic_TF_carry EU-OIL                   -53.746450
-                 KOSDAQ                     1.207345
+dynamic_TF_carry JPY                      -25.144834
+                 KOSDAQ                     0.000000
+                 MXP                        4.023173
 total_trading_cash Total Sum
                   total_trading_cash
 strategy_name                       
-dynamic_TF_carry          -52.539105
+dynamic_TF_carry          -21.121661
 
 ********************************************************************************
                                  END OF REPORT                                  
