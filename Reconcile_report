@@ -1,10 +1,10 @@
 
 ********************************************************************************
-                 Reconcile report produced on 18/09/2023 22:50                  
+                 Reconcile report produced on 19/09/2023 22:49                  
 ********************************************************************************
 
 
-Breaks Optimal vs actual ['dynamic_TF_carry DAX', 'dynamic_TF_carry TOPIX']
+Breaks Optimal vs actual ['dynamic_TF_carry DAX']
  Breaks Instrument vs Contract []
  Breaks Broker vs Contract []
 
@@ -17,7 +17,7 @@ Breaks Optimal vs actual ['dynamic_TF_carry DAX', 'dynamic_TF_carry TOPIX']
 1             BUND      20231207  2023-12-07 00:00:00      -1.0
 2              CHF      20231218  2023-12-18 00:00:00      -1.0
 3              CNH      20231016  2023-10-16 00:00:00       1.0
-4              DAX      20231215  2023-12-15 00:00:00      -2.0
+4              DAX      20231215  2023-12-15 00:00:00      -3.0
 5           EU-OIL      20231215  2023-12-15 00:00:00       4.0
 6      GAS_US_mini      20231026  2023-10-26 00:00:00      -1.0
 7           KOSDAQ      20231214  2023-12-14 00:00:00       2.0
@@ -25,7 +25,7 @@ Breaks Optimal vs actual ['dynamic_TF_carry DAX', 'dynamic_TF_carry TOPIX']
 9     NASDAQ_micro      20231215  2023-12-15 00:00:00      -1.0
 10          NIKKEI      20231207  2023-12-07 00:00:00       4.0
 11    SOYBEAN_mini      20231114  2023-11-14 00:00:00       2.0
-12           TOPIX      20231207  2023-12-07 00:00:00       1.0
+12           TOPIX      20231207  2023-12-07 00:00:00       2.0
 13            US20      20231219  2023-12-19 00:00:00      -1.0
 14             US3      20231229  2023-12-29 00:00:00      -2.0
 15             VIX      20231115  2023-11-15 00:00:00      -1.0
@@ -36,42 +36,40 @@ Breaks Optimal vs actual ['dynamic_TF_carry DAX', 'dynamic_TF_carry TOPIX']
 ===============================================================
 
    instrument_code contract_date          expiry_date  position
-6             BOBL      20231207  2023-12-07 00:00:00      -2.0
-2             BUND      20231207  2023-12-07 00:00:00      -1.0
-9              CHF      20231218  2023-12-18 00:00:00      -1.0
-15             CNH      20231016  2023-10-16 00:00:00       1.0
-14             DAX      20231215  2023-12-15 00:00:00      -2.0
-1           EU-OIL      20231215  2023-12-15 00:00:00       4.0
-10     GAS_US_mini      20231026  2023-10-26 00:00:00      -1.0
-3           KOSDAQ      20231214  2023-12-14 00:00:00       2.0
-12         LIVECOW      20231229  2023-12-29 00:00:00       2.0
-7     NASDAQ_micro      20231215  2023-12-15 00:00:00      -1.0
-5           NIKKEI      20231207  2023-12-07 00:00:00       4.0
-11    SOYBEAN_mini      20231114  2023-11-14 00:00:00       2.0
-0            TOPIX      20231207  2023-12-07 00:00:00       1.0
-4             US20      20231219  2023-12-19 00:00:00      -1.0
-13             US3      20231229  2023-12-29 00:00:00      -2.0
-8              VIX      20231115  2023-11-15 00:00:00      -1.0
+0             BOBL      20231207  2023-12-07 00:00:00      -2.0
+5             BUND      20231207  2023-12-07 00:00:00      -1.0
+6              CHF      20231218  2023-12-18 00:00:00      -1.0
+8              CNH      20231016  2023-10-16 00:00:00       1.0
+10             DAX      20231215  2023-12-15 00:00:00      -3.0
+12          EU-OIL      20231215  2023-12-15 00:00:00       4.0
+9      GAS_US_mini      20231026  2023-10-26 00:00:00      -1.0
+7           KOSDAQ      20231214  2023-12-14 00:00:00       2.0
+13         LIVECOW      20231229  2023-12-29 00:00:00       2.0
+15    NASDAQ_micro      20231215  2023-12-15 00:00:00      -1.0
+1           NIKKEI      20231207  2023-12-07 00:00:00       4.0
+4     SOYBEAN_mini      20231114  2023-11-14 00:00:00       2.0
+11           TOPIX      20231207  2023-12-07 00:00:00       2.0
+14            US20      20231219  2023-12-19 00:00:00      -1.0
+2              US3      20231229  2023-12-29 00:00:00      -2.0
+3              VIX      20231115  2023-11-15 00:00:00      -1.0
 
 
-============================================================================
-                                Trades in DB                                
-============================================================================
+=============================================================================
+                                Trades in DB                                 
+=============================================================================
 
-         strategy_name contract_date       fill_datetime  fill  filled_price
-BUND  dynamic_TF_carry    [20231200] 2023-09-18 08:36:56  [-1]        130.01
-DAX   dynamic_TF_carry    [20231200] 2023-09-18 08:36:59  [-1]      16005.00
-DAX   dynamic_TF_carry    [20231200] 2023-09-18 08:39:34  [-1]      16000.00
+          strategy_name contract_date       fill_datetime  fill  filled_price
+TOPIX  dynamic_TF_carry    [20231200] 2023-09-19 01:00:06   [1]       2398.25
+DAX    dynamic_TF_carry    [20231200] 2023-09-19 08:00:06  [-1]      15848.00
 
 
-========================================================================
-                           Trades from broker                           
-========================================================================
+=========================================================================
+                           Trades from broker                            
+=========================================================================
 
-     strategy_name contract_date       fill_datetime  fill  filled_price
-DAX                   [20231215] 2023-09-18 08:39:34  [-1]      16000.00
-DAX                   [20231215] 2023-09-18 08:36:59  [-1]      16005.00
-BUND                  [20231207] 2023-09-18 08:36:56  [-1]        130.01
+      strategy_name contract_date       fill_datetime  fill  filled_price
+DAX                    [20231215] 2023-09-19 08:00:06  [-1]      15848.00
+TOPIX                  [20231207] 2023-09-19 01:00:06   [1]       2398.25
 
 
 ==========================================================
@@ -110,7 +108,7 @@ dynamic_TF_carry CORN                    0       0   False
 dynamic_TF_carry COTTON                  0       0   False
 dynamic_TF_carry CRUDE_W_mini            0       0   False
 dynamic_TF_carry CZK                     0       0   False
-dynamic_TF_carry DAX                    -2      -3    True
+dynamic_TF_carry DAX                    -3      -4    True
 dynamic_TF_carry DJSTX-SMALL             0       0   False
 dynamic_TF_carry DOW                     0       0   False
 dynamic_TF_carry EPRA-EUROPE             0       0   False
@@ -225,7 +223,7 @@ dynamic_TF_carry SP400                   0       0   False
 dynamic_TF_carry SP500_micro             0       0   False
 dynamic_TF_carry STEEL                   0       0   False
 dynamic_TF_carry SWISSLEAD               0       0   False
-dynamic_TF_carry TOPIX                   1       2    True
+dynamic_TF_carry TOPIX                   2       2   False
 dynamic_TF_carry TWD                     0       0   False
 dynamic_TF_carry US-DISCRETE             0       0   False
 dynamic_TF_carry US-ENERGY               0       0   False
