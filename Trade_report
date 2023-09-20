@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 19/09/2023 22:50 from 18/09/2023 22:50 to 19/09/2023 22:50
+Trades report produced on 20/09/2023 22:50 from 19/09/2023 22:50 to 20/09/2023 22:50
 ********************************************************************************
 
 
@@ -10,8 +10,7 @@ Trades report produced on 19/09/2023 22:50 from 18/09/2023 22:50 to 19/09/2023 2
 =============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-32923             DAX  dynamic_TF_carry    [20231200] 2023-09-19 08:00:06  [-1]      15848.00
-32922           TOPIX  dynamic_TF_carry    [20231200] 2023-09-19 01:00:06   [1]       2398.25
+32924             DAX  dynamic_TF_carry    [20231200] 2023-09-20 08:00:08  [-1]       15840.0
 
 
 ========================================================================================================================================================
@@ -19,17 +18,15 @@ Trades report produced on 19/09/2023 22:50 from 18/09/2023 22:50 to 19/09/2023 2
 ========================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
-32922           TOPIX  dynamic_TF_carry                2023-09-18 2023-09-19 01:00:05.316 2023-09-19 01:00:06                90005.3               0.684
-32923             DAX  dynamic_TF_carry                2023-09-15 2023-09-19 08:00:05.714 2023-09-19 08:00:06                 374406               0.286
+32924             DAX  dynamic_TF_carry                2023-09-19 2023-09-20 08:00:07.644 2023-09-20 08:00:08                 115208               0.356
 
 
-===========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                  
-===========================================================================================================================================================================================================================
+==========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                 
+==========================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
-32922           TOPIX  dynamic_TF_carry   [1]                   2392               None   2398.38     2398.5       2398.25     2398.25      2398.25 -6.375  -0.125      0.25            0                 NaN         0.125
-32923             DAX  dynamic_TF_carry  [-1]                  16129               None     15850      15849         15851       15851        15848   -279      -1        -1           -3                 NaN            -2
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
+32924             DAX  dynamic_TF_carry  [-1]                  15805               None   15843.5      15842         15845       15845        15840  38.5    -1.5        -2           -5                 NaN          -3.5
 
 
 ============================================================================================================================================================
@@ -37,8 +34,7 @@ Trades report produced on 19/09/2023 22:50 from 18/09/2023 22:50 to 19/09/2023 2
 ============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-32922           TOPIX  dynamic_TF_carry   [1]         291.845  -218.438    -4.28309       8.56619                0                     NaN           4.28309
-32923             DAX  dynamic_TF_carry  [-1]         2109.09  -1322.85    -4.74139      -4.74139         -14.2242                     NaN          -9.48278
+32924             DAX  dynamic_TF_carry  [-1]         2113.11   182.196    -7.09855      -9.46474         -23.6618                     NaN          -16.5633
 
 
 =======================================================================================================================================================================
@@ -46,50 +42,44 @@ Trades report produced on 19/09/2023 22:50 from 18/09/2023 22:50 to 19/09/2023 2
 =======================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-32922           TOPIX  dynamic_TF_carry   [1]              5.46576   -34.8442    -0.683219        1.36644                 0                      NaN           0.683219
-32923             DAX  dynamic_TF_carry  [-1]             0.862827   -240.729    -0.862827      -0.862827          -2.58848                      NaN           -1.72565
+32924             DAX  dynamic_TF_carry  [-1]             0.864577    33.2862     -1.29687       -1.72915          -4.32289                      NaN           -3.02602
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry DAX             -240.728642
-                 TOPIX            -34.844191
+dynamic_TF_carry DAX               33.286215
 delay_cash Total Sum
                   delay_cash
 strategy_name               
-dynamic_TF_carry -275.572834
+dynamic_TF_carry   33.286215
 bid_ask_cash Sum
                                   bid_ask_cash
 strategy_name    instrument_code              
-dynamic_TF_carry DAX                 -0.862827
-                 TOPIX               -0.683219
+dynamic_TF_carry DAX                 -1.296866
 bid_ask_cash Total Sum
                   bid_ask_cash
 strategy_name                 
-dynamic_TF_carry     -1.546046
+dynamic_TF_carry     -1.296866
 execution_cash Sum
                                   execution_cash
 strategy_name    instrument_code                
-dynamic_TF_carry DAX                   -0.862827
-                 TOPIX                  1.366439
+dynamic_TF_carry DAX                   -1.729154
 execution_cash Total Sum
                   execution_cash
 strategy_name                   
-dynamic_TF_carry        0.503612
+dynamic_TF_carry       -1.729154
 versus_limit_cash Sum
                                   versus_limit_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry DAX                       -2.58848
-                 TOPIX                      0.00000
+dynamic_TF_carry DAX                      -4.322885
 versus_limit_cash Total Sum
                   versus_limit_cash
 strategy_name                      
-dynamic_TF_carry           -2.58848
+dynamic_TF_carry          -4.322885
 versus_parent_limit_cash Sum
                                   versus_parent_limit_cash
 strategy_name    instrument_code                          
 dynamic_TF_carry DAX                                     0
-                 TOPIX                                   0
 versus_parent_limit_cash Total Sum
                   versus_parent_limit_cash
 strategy_name                             
@@ -97,12 +87,11 @@ dynamic_TF_carry                         0
 total_trading_cash Sum
                                   total_trading_cash
 strategy_name    instrument_code                    
-dynamic_TF_carry DAX                       -1.725653
-                 TOPIX                      0.683219
+dynamic_TF_carry DAX                        -3.02602
 total_trading_cash Total Sum
                   total_trading_cash
 strategy_name                       
-dynamic_TF_carry           -1.042434
+dynamic_TF_carry            -3.02602
 
 ********************************************************************************
                                  END OF REPORT                                  
