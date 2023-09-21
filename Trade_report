@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 20/09/2023 22:50 from 19/09/2023 22:50 to 20/09/2023 22:50
+Trades report produced on 21/09/2023 22:50 from 20/09/2023 22:50 to 21/09/2023 22:50
 ********************************************************************************
 
 
@@ -10,7 +10,10 @@ Trades report produced on 20/09/2023 22:50 from 19/09/2023 22:50 to 20/09/2023 2
 =============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-32924             DAX  dynamic_TF_carry    [20231200] 2023-09-20 08:00:08  [-1]       15840.0
+32925            BOBL  dynamic_TF_carry    [20231200] 2023-09-21 08:00:08   [1]    115.700000
+32927             JPY  dynamic_TF_carry    [20231200] 2023-09-21 15:00:03  [-1]      0.006857
+32928         LEANHOG  dynamic_TF_carry    [20231200] 2023-09-21 15:30:21   [1]     75.500000
+32926             NZD  dynamic_TF_carry    [20231200] 2023-09-21 15:00:01  [-1]      0.590700
 
 
 ========================================================================================================================================================
@@ -18,15 +21,21 @@ Trades report produced on 20/09/2023 22:50 from 19/09/2023 22:50 to 20/09/2023 2
 ========================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
-32924             DAX  dynamic_TF_carry                2023-09-19 2023-09-20 08:00:07.644 2023-09-20 08:00:08                 115208               0.356
+32925            BOBL  dynamic_TF_carry                2023-09-20 2023-09-21 08:00:07.966 2023-09-21 08:00:08                 115208               0.034
+32926             NZD  dynamic_TF_carry                2023-09-20 2023-09-21 15:00:01.542 2023-09-21 15:00:01                 140402                 NaN
+32927             JPY  dynamic_TF_carry                2023-09-20 2023-09-21 15:00:02.912 2023-09-21 15:00:03                 140403               0.088
+32928         LEANHOG  dynamic_TF_carry                2023-09-20 2023-09-21 15:30:17.762 2023-09-21 15:30:21                 142218               3.238
 
 
-==========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                 
-==========================================================================================================================================================================================================================
+=================================================================================================================================================================================================================================
+                                                                                                    Slippage (ticks per lot)                                                                                                     
+=================================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
-32924             DAX  dynamic_TF_carry  [-1]                  15805               None   15843.5      15842         15845       15845        15840  38.5    -1.5        -2           -5                 NaN          -3.5
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price   mid_price side_price offside_price limit_price filled_price     delay  bid_ask execution versus_limit versus_parent_limit total_trading
+32925            BOBL  dynamic_TF_carry   [1]                 115.93               None       115.7     115.71        115.69      115.69        115.7      0.23    -0.01      0.01        -0.01                 NaN  -1.42109e-14
+32926             NZD  dynamic_TF_carry  [-1]                 0.5937               None    0.590675    0.59065        0.5907      0.5907       0.5907 -0.003025 -2.5e-05     5e-05           -0                 NaN       2.5e-05
+32927             JPY  dynamic_TF_carry  [-1]                0.00685               None  0.00685675  0.0068565      0.006857    0.006857     0.006857  6.75e-06 -2.5e-07     5e-07  8.67362e-19                 NaN       2.5e-07
+32928         LEANHOG  dynamic_TF_carry   [1]                   78.1               None      75.475       75.5         75.45       75.45         75.5     2.625   -0.025         0        -0.05                 NaN        -0.025
 
 
 ============================================================================================================================================================
@@ -34,7 +43,10 @@ Trades report produced on 20/09/2023 22:50 from 19/09/2023 22:50 to 20/09/2023 2
 ============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-32924             DAX  dynamic_TF_carry  [-1]         2113.11   182.196    -7.09855      -9.46474         -23.6618                     NaN          -16.5633
+32925            BOBL  dynamic_TF_carry   [1]         5.13436   447.963    -19.4766       19.4766         -19.4766                     NaN       -2.7678e-11
+32926             NZD  dynamic_TF_carry  [-1]       0.0527192  -573.795     -4.7421       9.48421               -0                     NaN            4.7421
+32927             JPY  dynamic_TF_carry  [-1]     0.000589163   114.569    -4.24331       8.48661      1.47219e-11                     NaN           4.24331
+32928         LEANHOG  dynamic_TF_carry   [1]         24.2607      1082    -10.3047             0         -20.6095                     NaN          -10.3047
 
 
 =======================================================================================================================================================================
@@ -42,44 +54,62 @@ Trades report produced on 20/09/2023 22:50 from 19/09/2023 22:50 to 20/09/2023 2
 =======================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-32924             DAX  dynamic_TF_carry  [-1]             0.864577    33.2862     -1.29687       -1.72915          -4.32289                      NaN           -3.02602
+32925            BOBL  dynamic_TF_carry   [1]              863.441    198.591     -8.63441        8.63441          -8.63441                      NaN       -1.22702e-11
+32926             NZD  dynamic_TF_carry  [-1]              81188.6   -245.596     -2.02972        4.05943                -0                      NaN            2.02972
+32927             JPY  dynamic_TF_carry  [-1]          1.01486e+07    68.5029     -2.53714        5.07429       8.80249e-12                      NaN            2.53714
+32928         LEANHOG  dynamic_TF_carry   [1]              324.754     852.48     -8.11886              0          -16.2377                      NaN           -8.11886
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry DAX               33.286215
+dynamic_TF_carry BOBL             198.591378
+                 JPY               68.502882
+                 LEANHOG          852.480312
+                 NZD             -245.595518
 delay_cash Total Sum
                   delay_cash
 strategy_name               
-dynamic_TF_carry   33.286215
+dynamic_TF_carry  873.979053
 bid_ask_cash Sum
                                   bid_ask_cash
 strategy_name    instrument_code              
-dynamic_TF_carry DAX                 -1.296866
+dynamic_TF_carry BOBL                -8.634408
+                 JPY                 -2.537144
+                 LEANHOG             -8.118860
+                 NZD                 -2.029715
 bid_ask_cash Total Sum
                   bid_ask_cash
 strategy_name                 
-dynamic_TF_carry     -1.296866
+dynamic_TF_carry    -21.320127
 execution_cash Sum
                                   execution_cash
 strategy_name    instrument_code                
-dynamic_TF_carry DAX                   -1.729154
+dynamic_TF_carry BOBL                   8.634408
+                 JPY                    5.074288
+                 LEANHOG                0.000000
+                 NZD                    4.059430
 execution_cash Total Sum
                   execution_cash
 strategy_name                   
-dynamic_TF_carry       -1.729154
+dynamic_TF_carry       17.768125
 versus_limit_cash Sum
                                   versus_limit_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry DAX                      -4.322885
+dynamic_TF_carry BOBL                 -8.634408e+00
+                 JPY                   8.802486e-12
+                 LEANHOG              -1.623772e+01
+                 NZD                  -0.000000e+00
 versus_limit_cash Total Sum
                   versus_limit_cash
 strategy_name                      
-dynamic_TF_carry          -4.322885
+dynamic_TF_carry         -24.872128
 versus_parent_limit_cash Sum
                                   versus_parent_limit_cash
 strategy_name    instrument_code                          
-dynamic_TF_carry DAX                                     0
+dynamic_TF_carry BOBL                                    0
+                 JPY                                     0
+                 LEANHOG                                 0
+                 NZD                                     0
 versus_parent_limit_cash Total Sum
                   versus_parent_limit_cash
 strategy_name                             
@@ -87,11 +117,14 @@ dynamic_TF_carry                         0
 total_trading_cash Sum
                                   total_trading_cash
 strategy_name    instrument_code                    
-dynamic_TF_carry DAX                        -3.02602
+dynamic_TF_carry BOBL                  -1.227023e-11
+                 JPY                    2.537144e+00
+                 LEANHOG               -8.118860e+00
+                 NZD                    2.029715e+00
 total_trading_cash Total Sum
                   total_trading_cash
 strategy_name                       
-dynamic_TF_carry            -3.02602
+dynamic_TF_carry           -3.552001
 
 ********************************************************************************
                                  END OF REPORT                                  
