@@ -1,15 +1,97 @@
 
 ********************************************************************************
-Trades report produced on 22/09/2023 22:50 from 21/09/2023 22:50 to 22/09/2023 22:50
+Trades report produced on 25/09/2023 22:50 from 24/09/2023 22:50 to 25/09/2023 22:50
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+32929          KOSDAQ  dynamic_TF_carry    [20231200] 2023-09-25 01:00:09  [-1]        1352.3
+
+
+========================================================================================================================================================
+                                                                         Delays                                                                         
+========================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+32929          KOSDAQ  dynamic_TF_carry                2023-09-22 2023-09-25 01:00:07.888 2023-09-25 01:00:09                 262808               1.112
+
+
+==========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                 
+==========================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
+32929          KOSDAQ  dynamic_TF_carry  [-1]                 1348.6               None      1353     1352.7        1353.3      1353.3       1352.3   4.4    -0.3      -0.4           -1                 NaN          -0.7
+
+
+============================================================================================================================================================
+                                                    Slippage (normalised by annual vol, BP of annual SR)                                                    
+============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+32929          KOSDAQ  dynamic_TF_carry  [-1]         375.458    117.19    -7.99025      -10.6537         -26.6342                     NaN          -18.6439
+
+
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+32929          KOSDAQ  dynamic_TF_carry  [-1]              6.11663    26.9132     -1.83499       -2.44665          -6.11663                      NaN           -4.28164
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry KOSDAQ            26.913163
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry   26.913163
+bid_ask_cash Sum
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry KOSDAQ              -1.834988
+bid_ask_cash Total Sum
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry     -1.834988
+execution_cash Sum
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry KOSDAQ                -2.446651
+execution_cash Total Sum
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry       -2.446651
+versus_limit_cash Sum
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry KOSDAQ                   -6.116628
+versus_limit_cash Total Sum
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry          -6.116628
+versus_parent_limit_cash Sum
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry KOSDAQ                                  0
+versus_parent_limit_cash Total Sum
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
+total_trading_cash Sum
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry KOSDAQ                    -4.281639
+total_trading_cash Total Sum
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry           -4.281639
 
 ********************************************************************************
                                  END OF REPORT                                  
