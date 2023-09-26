@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 25/09/2023 22:50 from 24/09/2023 22:50 to 25/09/2023 22:50
+Trades report produced on 26/09/2023 22:50 from 25/09/2023 22:50 to 26/09/2023 22:50
 ********************************************************************************
 
 
@@ -10,7 +10,11 @@ Trades report produced on 25/09/2023 22:50 from 24/09/2023 22:50 to 25/09/2023 2
 =============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-32929          KOSDAQ  dynamic_TF_carry    [20231200] 2023-09-25 01:00:09  [-1]        1352.3
+32933            BOBL  dynamic_TF_carry    [20231200] 2023-09-26 08:00:15   [1]        115.70
+32934             BTP  dynamic_TF_carry    [20231200] 2023-09-26 08:00:19  [-1]        110.37
+32932             DAX  dynamic_TF_carry    [20231200] 2023-09-26 08:00:06  [-1]      15485.00
+32931          KOSDAQ  dynamic_TF_carry    [20231200] 2023-09-26 01:00:10  [-1]       1325.60
+32930           TOPIX  dynamic_TF_carry    [20231200] 2023-09-26 01:00:08  [-1]       2367.00
 
 
 ========================================================================================================================================================
@@ -18,15 +22,23 @@ Trades report produced on 25/09/2023 22:50 from 24/09/2023 22:50 to 25/09/2023 2
 ========================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
-32929          KOSDAQ  dynamic_TF_carry                2023-09-22 2023-09-25 01:00:07.888 2023-09-25 01:00:09                 262808               1.112
+32930           TOPIX  dynamic_TF_carry                2023-09-25 2023-09-26 01:00:07.336 2023-09-26 01:00:08                90007.3               0.664
+32931          KOSDAQ  dynamic_TF_carry                2023-09-25 2023-09-26 01:00:09.633 2023-09-26 01:00:10                90009.6               0.367
+32932             DAX  dynamic_TF_carry                2023-09-25 2023-09-26 08:00:05.405 2023-09-26 08:00:06                 115205               0.595
+32933            BOBL  dynamic_TF_carry                2023-09-25 2023-09-26 08:00:07.134 2023-09-26 08:00:15                 115207               7.866
+32934             BTP  dynamic_TF_carry                2023-09-25 2023-09-26 08:00:19.548 2023-09-26 08:00:19                 115220                 NaN
 
 
-==========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                 
-==========================================================================================================================================================================================================================
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
-32929          KOSDAQ  dynamic_TF_carry  [-1]                 1348.6               None      1353     1352.7        1353.3      1353.3       1352.3   4.4    -0.3      -0.4           -1                 NaN          -0.7
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+32930           TOPIX  dynamic_TF_carry  [-1]                2366.25               None   2367.25       2367        2367.5      2367.5         2367      1   -0.25        -0         -0.5                 NaN         -0.25
+32931          KOSDAQ  dynamic_TF_carry  [-1]                 1328.5               None   1325.75     1325.6        1325.9      1325.9       1325.6  -2.75   -0.15        -0         -0.3                 NaN         -0.15
+32932             DAX  dynamic_TF_carry  [-1]                  15486               None   15488.5      15488         15489       15489        15485    2.5    -0.5        -3           -4                 NaN          -3.5
+32933            BOBL  dynamic_TF_carry   [1]                 115.79               None   115.685     115.69        115.68      115.68        115.7  0.105  -0.005     -0.01        -0.02                 NaN        -0.015
+32934             BTP  dynamic_TF_carry  [-1]                 110.64               None   110.375     110.37        110.38         NaN       110.37 -0.265  -0.005        -0          NaN                 NaN        -0.005
 
 
 ============================================================================================================================================================
@@ -34,7 +46,11 @@ Trades report produced on 25/09/2023 22:50 from 24/09/2023 22:50 to 25/09/2023 2
 ============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-32929          KOSDAQ  dynamic_TF_carry  [-1]         375.458    117.19    -7.99025      -10.6537         -26.6342                     NaN          -18.6439
+32930           TOPIX  dynamic_TF_carry  [-1]         294.391   33.9685    -8.49212            -0         -16.9842                     NaN          -8.49212
+32931          KOSDAQ  dynamic_TF_carry  [-1]          371.39  -74.0462    -4.03888            -0         -8.07777                     NaN          -4.03888
+32932             DAX  dynamic_TF_carry  [-1]         2156.16   11.5947    -2.31894      -13.9136         -18.5515                     NaN          -16.2326
+32933            BOBL  dynamic_TF_carry   [1]         4.88596   214.902    -10.2334      -20.4668         -40.9336                     NaN          -30.7002
+32934             BTP  dynamic_TF_carry  [-1]         11.3012  -234.487    -4.42429            -0              NaN                     NaN          -4.42429
 
 
 =======================================================================================================================================================================
@@ -42,44 +58,68 @@ Trades report produced on 25/09/2023 22:50 from 24/09/2023 22:50 to 25/09/2023 2
 =======================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-32929          KOSDAQ  dynamic_TF_carry  [-1]              6.11663    26.9132     -1.83499       -2.44665          -6.11663                      NaN           -4.28164
+32930           TOPIX  dynamic_TF_carry  [-1]              5.50429    5.50429     -1.37607             -0          -2.75215                      NaN           -1.37607
+32931          KOSDAQ  dynamic_TF_carry  [-1]              6.09241   -16.7541    -0.913862             -0          -1.82772                      NaN          -0.913862
+32932             DAX  dynamic_TF_carry  [-1]             0.868189    2.17047    -0.434095       -2.60457          -3.47276                      NaN           -3.03866
+32933            BOBL  dynamic_TF_carry   [1]              868.189    91.1599     -4.34095       -8.68189          -17.3638                      NaN           -13.0228
+32934             BTP  dynamic_TF_carry  [-1]              868.189    -230.07     -4.34095             -0               NaN                      NaN           -4.34095
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry KOSDAQ            26.913163
+dynamic_TF_carry BOBL              91.159854
+                 BTP             -230.070108
+                 DAX                2.170473
+                 KOSDAQ           -16.754131
+                 TOPIX              5.504293
 delay_cash Total Sum
                   delay_cash
 strategy_name               
-dynamic_TF_carry   26.913163
+dynamic_TF_carry -147.989618
 bid_ask_cash Sum
                                   bid_ask_cash
 strategy_name    instrument_code              
-dynamic_TF_carry KOSDAQ              -1.834988
+dynamic_TF_carry BOBL                -4.340945
+                 BTP                 -4.340945
+                 DAX                 -0.434095
+                 KOSDAQ              -0.913862
+                 TOPIX               -1.376073
 bid_ask_cash Total Sum
                   bid_ask_cash
 strategy_name                 
-dynamic_TF_carry     -1.834988
+dynamic_TF_carry     -11.40592
 execution_cash Sum
                                   execution_cash
 strategy_name    instrument_code                
-dynamic_TF_carry KOSDAQ                -2.446651
+dynamic_TF_carry BOBL                  -8.681891
+                 BTP                   -0.000000
+                 DAX                   -2.604567
+                 KOSDAQ                -0.000000
+                 TOPIX                 -0.000000
 execution_cash Total Sum
                   execution_cash
 strategy_name                   
-dynamic_TF_carry       -2.446651
+dynamic_TF_carry      -11.286458
 versus_limit_cash Sum
                                   versus_limit_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry KOSDAQ                   -6.116628
+dynamic_TF_carry BOBL                    -17.363782
+                 BTP                       0.000000
+                 DAX                      -3.472756
+                 KOSDAQ                   -1.827723
+                 TOPIX                    -2.752147
 versus_limit_cash Total Sum
                   versus_limit_cash
 strategy_name                      
-dynamic_TF_carry          -6.116628
+dynamic_TF_carry         -25.416408
 versus_parent_limit_cash Sum
                                   versus_parent_limit_cash
 strategy_name    instrument_code                          
-dynamic_TF_carry KOSDAQ                                  0
+dynamic_TF_carry BOBL                                    0
+                 BTP                                     0
+                 DAX                                     0
+                 KOSDAQ                                  0
+                 TOPIX                                   0
 versus_parent_limit_cash Total Sum
                   versus_parent_limit_cash
 strategy_name                             
@@ -87,11 +127,15 @@ dynamic_TF_carry                         0
 total_trading_cash Sum
                                   total_trading_cash
 strategy_name    instrument_code                    
-dynamic_TF_carry KOSDAQ                    -4.281639
+dynamic_TF_carry BOBL                     -13.022836
+                 BTP                       -4.340945
+                 DAX                       -3.038662
+                 KOSDAQ                    -0.913862
+                 TOPIX                     -1.376073
 total_trading_cash Total Sum
                   total_trading_cash
 strategy_name                       
-dynamic_TF_carry           -4.281639
+dynamic_TF_carry          -22.692379
 
 ********************************************************************************
                                  END OF REPORT                                  
