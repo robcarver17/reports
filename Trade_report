@@ -1,141 +1,15 @@
 
 ********************************************************************************
-Trades report produced on 27/09/2023 22:50 from 26/09/2023 22:50 to 27/09/2023 22:50
+Trades report produced on 28/09/2023 22:50 from 27/09/2023 22:50 to 28/09/2023 22:50
 ********************************************************************************
 
 
-
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
-
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-32939             AUD  dynamic_TF_carry    [20231200] 2023-09-27 15:00:07  [-1]        0.6398
-32936             DAX  dynamic_TF_carry    [20231200] 2023-09-27 08:00:07  [-1]    15368.0000
-32937     GAS_US_mini  dynamic_TF_carry    [20231100] 2023-09-27 14:00:15   [1]        2.8950
-32938             GBP  dynamic_TF_carry    [20231200] 2023-09-27 15:00:02  [-1]        1.2147
-32935           TOPIX  dynamic_TF_carry    [20231200] 2023-09-27 01:00:08  [-1]     2335.0000
-
-
-========================================================================================================================================================
-                                                                         Delays                                                                         
-========================================================================================================================================================
-
-      instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
-32935           TOPIX  dynamic_TF_carry       2023-09-26 00:00:00 2023-09-27 01:00:06.817 2023-09-27 01:00:08                90006.8               1.183
-32936             DAX  dynamic_TF_carry       2023-09-26 00:00:00 2023-09-27 08:00:06.675 2023-09-27 08:00:07                 115207               0.325
-32937     GAS_US_mini  dynamic_TF_carry       2023-09-26 20:00:00 2023-09-27 14:00:07.619 2023-09-27 14:00:15                64807.6               7.381
-32938             GBP  dynamic_TF_carry       2023-09-26 00:00:00 2023-09-27 15:00:01.194 2023-09-27 15:00:02                 140401               0.806
-32939             AUD  dynamic_TF_carry       2023-09-26 00:00:00 2023-09-27 15:00:03.406 2023-09-27 15:00:07                 140403               3.594
-
-
-===============================================================================================================================================================================================================================
-                                                                                                   Slippage (ticks per lot)                                                                                                    
-===============================================================================================================================================================================================================================
-
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay  bid_ask execution versus_limit versus_parent_limit total_trading
-32935           TOPIX  dynamic_TF_carry  [-1]                2352.25               None   2335.75     2335.5          2336        2336         2335     -16.5    -0.25      -0.5           -1                 NaN         -0.75
-32936             DAX  dynamic_TF_carry  [-1]                  15406               None     15367      15366         15368       15368        15368       -39       -1         2           -0                 NaN             1
-32937     GAS_US_mini  dynamic_TF_carry   [1]                  2.855               None    2.8975        2.9         2.895       2.895        2.895   -0.0425  -0.0025     0.005            0                 NaN        0.0025
-32938             GBP  dynamic_TF_carry  [-1]                 1.2163               None    1.2146     1.2145        1.2147      1.2147       1.2147   -0.0017  -0.0001    0.0002 -2.22045e-16                 NaN        0.0001
-32939             AUD  dynamic_TF_carry  [-1]                0.64115               None  0.639775    0.63975        0.6398      0.6398       0.6398 -0.001375 -2.5e-05     5e-05           -0                 NaN       2.5e-05
-
-
-============================================================================================================================================================
-                                                    Slippage (normalised by annual vol, BP of annual SR)                                                    
-============================================================================================================================================================
-
-      instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-32935           TOPIX  dynamic_TF_carry  [-1]         289.531  -569.887    -8.63465      -17.2693         -34.5386                     NaN          -25.9039
-32936             DAX  dynamic_TF_carry  [-1]         2127.22  -183.338    -4.70097       9.40195               -0                     NaN           4.70097
-32937     GAS_US_mini  dynamic_TF_carry   [1]         1.76982  -240.137    -14.1257       28.2514                0                     NaN           14.1257
-32938             GBP  dynamic_TF_carry  [-1]       0.0844559  -201.288    -11.8405        23.681     -2.62912e-11                     NaN           11.8405
-32939             AUD  dynamic_TF_carry  [-1]        0.060592  -226.928    -4.12596       8.25192               -0                     NaN           4.12596
-
-
-=======================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                      
-=======================================================================================================================================================================
-
-      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-32935           TOPIX  dynamic_TF_carry  [-1]              5.52227   -91.1174     -1.38057       -2.76113          -5.52227                      NaN            -4.1417
-32936             DAX  dynamic_TF_carry  [-1]             0.869535   -33.9119    -0.869535        1.73907                -0                      NaN           0.869535
-32937     GAS_US_mini  dynamic_TF_carry   [1]              2058.46   -87.4846     -5.14615        10.2923                 0                      NaN            5.14615
-32938             GBP  dynamic_TF_carry  [-1]              51461.5   -87.4846     -5.14615        10.2923      -1.14267e-11                      NaN            5.14615
-32939             AUD  dynamic_TF_carry  [-1]              82338.4   -113.215     -2.05846        4.11692                -0                      NaN            2.05846
-
-delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry AUD             -113.215315
-                 DAX              -33.911857
-                 GAS_US_mini      -87.484562
-                 GBP              -87.484562
-                 TOPIX            -91.117438
-delay_cash Total Sum
-                  delay_cash
-strategy_name               
-dynamic_TF_carry -413.213733
-bid_ask_cash Sum
-                                  bid_ask_cash
-strategy_name    instrument_code              
-dynamic_TF_carry AUD                 -2.058460
-                 DAX                 -0.869535
-                 GAS_US_mini         -5.146151
-                 GBP                 -5.146151
-                 TOPIX               -1.380567
-bid_ask_cash Total Sum
-                  bid_ask_cash
-strategy_name                 
-dynamic_TF_carry    -14.600864
-execution_cash Sum
-                                  execution_cash
-strategy_name    instrument_code                
-dynamic_TF_carry AUD                    4.116921
-                 DAX                    1.739070
-                 GAS_US_mini           10.292301
-                 GBP                   10.292301
-                 TOPIX                 -2.761134
-execution_cash Total Sum
-                  execution_cash
-strategy_name                   
-dynamic_TF_carry       23.679458
-versus_limit_cash Sum
-                                  versus_limit_cash
-strategy_name    instrument_code                   
-dynamic_TF_carry AUD                  -0.000000e+00
-                 DAX                  -0.000000e+00
-                 GAS_US_mini           0.000000e+00
-                 GBP                  -1.142675e-11
-                 TOPIX                -5.522269e+00
-versus_limit_cash Total Sum
-                  versus_limit_cash
-strategy_name                      
-dynamic_TF_carry          -5.522269
-versus_parent_limit_cash Sum
-                                  versus_parent_limit_cash
-strategy_name    instrument_code                          
-dynamic_TF_carry AUD                                     0
-                 DAX                                     0
-                 GAS_US_mini                             0
-                 GBP                                     0
-                 TOPIX                                   0
-versus_parent_limit_cash Total Sum
-                  versus_parent_limit_cash
-strategy_name                             
-dynamic_TF_carry                         0
-total_trading_cash Sum
-                                  total_trading_cash
-strategy_name    instrument_code                    
-dynamic_TF_carry AUD                        2.058460
-                 DAX                        0.869535
-                 GAS_US_mini                5.146151
-                 GBP                        5.146151
-                 TOPIX                     -4.141702
-total_trading_cash Total Sum
-                  total_trading_cash
-strategy_name                       
-dynamic_TF_carry            9.078595
+No trades
+No trades
+No trades
+No trades
+No trades
+No trades
 
 ********************************************************************************
                                  END OF REPORT                                  
