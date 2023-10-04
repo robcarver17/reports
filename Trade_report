@@ -1,15 +1,141 @@
 
 ********************************************************************************
-Trades report produced on 03/10/2023 22:50 from 02/10/2023 22:50 to 03/10/2023 22:50
+Trades report produced on 04/10/2023 22:50 from 03/10/2023 22:50 to 04/10/2023 22:50
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+32941             DAX  dynamic_TF_carry    [20231200] 2023-10-04 08:00:07   [1]     15100.000
+32943             DOW  dynamic_TF_carry    [20231200] 2023-10-04 15:00:03  [-1]     33182.000
+32942     GAS_US_mini  dynamic_TF_carry    [20231200] 2023-10-04 14:00:06  [-1]         3.360
+32944         LIVECOW  dynamic_TF_carry    [20231200] 2023-10-04 15:30:02  [-1]       185.125
+32940          NIKKEI  dynamic_TF_carry    [20231200] 2023-10-04 01:00:07  [-1]     30690.000
+
+
+========================================================================================================================================================
+                                                                         Delays                                                                         
+========================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+32940          NIKKEI  dynamic_TF_carry                2023-10-03 2023-10-04 01:00:05.537 2023-10-04 01:00:07                90005.5               1.463
+32941             DAX  dynamic_TF_carry                2023-10-03 2023-10-04 08:00:06.878 2023-10-04 08:00:07                 115207               0.122
+32942     GAS_US_mini  dynamic_TF_carry                2023-10-03 2023-10-04 14:00:06.630 2023-10-04 14:00:06                 136807                 NaN
+32943             DOW  dynamic_TF_carry                2023-10-03 2023-10-04 15:00:02.609 2023-10-04 15:00:03                 140403               0.391
+32944         LIVECOW  dynamic_TF_carry                2023-10-03 2023-10-04 15:30:02.773 2023-10-04 15:30:02                 142203                 NaN
+
+
+============================================================================================================================================================================================================================
+                                                                                                  Slippage (ticks per lot)                                                                                                  
+============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
+32940          NIKKEI  dynamic_TF_carry  [-1]                  31275               None   30697.5      30695         30700       30700        30690  -577.5    -2.5        -5          -10                 NaN          -7.5
+32941             DAX  dynamic_TF_carry   [1]                  15211               None     15101      15102         15100       15100        15100     110      -1         2            0                 NaN             1
+32942     GAS_US_mini  dynamic_TF_carry  [-1]                   3.32               None    3.3625       3.36         3.365         NaN         3.36  0.0425 -0.0025        -0          NaN                 NaN       -0.0025
+32943             DOW  dynamic_TF_carry  [-1]                  33160               None   33190.5      33188         33193       33193        33182    30.5    -2.5        -6          -11                 NaN          -8.5
+32944         LIVECOW  dynamic_TF_carry  [-1]                 185.85               None   185.113      185.1       185.125     185.125      185.125 -0.7375 -0.0125     0.025           -0                 NaN        0.0125
+
+
+============================================================================================================================================================
+                                                    Slippage (normalised by annual vol, BP of annual SR)                                                    
+============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+32940          NIKKEI  dynamic_TF_carry  [-1]         5147.54  -1121.89    -4.85669      -9.71337         -19.4267                     NaN          -14.5701
+32941             DAX  dynamic_TF_carry   [1]         2101.47   523.444    -4.75858       9.51717                0                     NaN           4.75858
+32942     GAS_US_mini  dynamic_TF_carry  [-1]         1.75248   242.513    -14.2655            -0              NaN                     NaN          -14.2655
+32943             DOW  dynamic_TF_carry  [-1]          3897.8   78.2492    -6.41387      -15.3933          -28.221                     NaN          -21.8072
+32944         LIVECOW  dynamic_TF_carry  [-1]         22.0842   -333.95    -5.66017       11.3203               -0                     NaN           5.66017
+
+
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+32940          NIKKEI  dynamic_TF_carry  [-1]             0.554893   -320.451     -1.38723       -2.77447          -5.54893                      NaN            -4.1617
+32941             DAX  dynamic_TF_carry   [1]             0.866879    95.3567    -0.866879        1.73376                 0                      NaN           0.866879
+32942     GAS_US_mini  dynamic_TF_carry  [-1]              2070.31    87.9881     -5.17577             -0               NaN                      NaN           -5.17577
+32943             DOW  dynamic_TF_carry  [-1]             0.414062    12.6289     -1.03515       -2.48437          -4.55468                      NaN           -3.51952
+32944         LIVECOW  dynamic_TF_carry  [-1]              331.249   -244.296     -4.14062        8.28123                -0                      NaN            4.14062
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry DAX               95.356714
+                 DOW               12.628877
+                 GAS_US_mini       87.988075
+                 LIVECOW         -244.296302
+                 NIKKEI          -320.450996
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -368.773633
+bid_ask_cash Sum
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry DAX                 -0.866879
+                 DOW                 -1.035154
+                 GAS_US_mini         -5.175769
+                 LIVECOW             -4.140615
+                 NIKKEI              -1.387234
+bid_ask_cash Total Sum
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry    -12.605651
+execution_cash Sum
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry DAX                    1.733758
+                 DOW                   -2.484369
+                 GAS_US_mini           -0.000000
+                 LIVECOW                8.281231
+                 NIKKEI                -2.774467
+execution_cash Total Sum
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry        4.756152
+versus_limit_cash Sum
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry DAX                       0.000000
+                 DOW                      -4.554677
+                 GAS_US_mini               0.000000
+                 LIVECOW                  -0.000000
+                 NIKKEI                   -5.548935
+versus_limit_cash Total Sum
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry         -10.103612
+versus_parent_limit_cash Sum
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry DAX                                     0
+                 DOW                                     0
+                 GAS_US_mini                             0
+                 LIVECOW                                 0
+                 NIKKEI                                  0
+versus_parent_limit_cash Total Sum
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
+total_trading_cash Sum
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry DAX                        0.866879
+                 DOW                       -3.519523
+                 GAS_US_mini               -5.175769
+                 LIVECOW                    4.140615
+                 NIKKEI                    -4.161701
+total_trading_cash Total Sum
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry           -7.849499
 
 ********************************************************************************
                                  END OF REPORT                                  
