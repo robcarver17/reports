@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 06/10/2023 22:50 from 05/10/2023 22:50 to 06/10/2023 22:50
+Trades report produced on 09/10/2023 22:50 from 08/10/2023 22:50 to 09/10/2023 22:50
 ********************************************************************************
 
 
@@ -10,7 +10,8 @@ Trades report produced on 06/10/2023 22:50 from 05/10/2023 22:50 to 06/10/2023 2
 =============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-32946         RUSSELL  dynamic_TF_carry    [20231200] 2023-10-06 15:00:03  [-1]        1733.1
+32947         RUSSELL  dynamic_TF_carry    [20231200] 2023-10-09 15:00:02  [-1]      1751.600
+32948    SOYBEAN_mini  dynamic_TF_carry    [20231100] 2023-10-09 15:30:05  [-1]      1259.375
 
 
 ========================================================================================================================================================
@@ -18,7 +19,8 @@ Trades report produced on 06/10/2023 22:50 from 05/10/2023 22:50 to 06/10/2023 2
 ========================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
-32946         RUSSELL  dynamic_TF_carry                2023-10-05 2023-10-06 15:00:02.821 2023-10-06 15:00:03                 140403               0.179
+32947         RUSSELL  dynamic_TF_carry                2023-10-06 2023-10-09 15:00:01.854 2023-10-09 15:00:02                 313202               0.146
+32948    SOYBEAN_mini  dynamic_TF_carry                2023-10-06 2023-10-09 15:30:04.156 2023-10-09 15:30:05                 315004               0.844
 
 
 ===========================================================================================================================================================================================================================
@@ -26,7 +28,8 @@ Trades report produced on 06/10/2023 22:50 from 05/10/2023 22:50 to 06/10/2023 2
 ===========================================================================================================================================================================================================================
 
       instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
-32946         RUSSELL  dynamic_TF_carry  [-1]                 1744.9               None   1733.25     1733.2        1733.3      1733.3       1733.1 -11.65   -0.05      -0.1         -0.2                 NaN         -0.15
+32947         RUSSELL  dynamic_TF_carry  [-1]                 1763.8               None    1751.7     1751.6        1751.8      1751.8       1751.6  -12.1    -0.1        -0         -0.2                 NaN          -0.1
+32948    SOYBEAN_mini  dynamic_TF_carry  [-1]                   1264               None   1259.62    1259.38       1259.88     1259.88      1259.38 -4.375   -0.25        -0         -0.5                 NaN         -0.25
 
 
 ============================================================================================================================================================
@@ -34,7 +37,8 @@ Trades report produced on 06/10/2023 22:50 from 05/10/2023 22:50 to 06/10/2023 2
 ============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-32946         RUSSELL  dynamic_TF_carry  [-1]         331.331  -351.612    -1.50907      -3.01813         -6.03627                     NaN           -4.5272
+32947         RUSSELL  dynamic_TF_carry  [-1]         327.603   -369.35    -3.05248            -0         -6.10495                     NaN          -3.05248
+32948    SOYBEAN_mini  dynamic_TF_carry  [-1]         242.719   -180.25       -10.3            -0            -20.6                     NaN             -10.3
 
 
 =======================================================================================================================================================================
@@ -42,44 +46,50 @@ Trades report produced on 06/10/2023 22:50 from 05/10/2023 22:50 to 06/10/2023 2
 =======================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-32946         RUSSELL  dynamic_TF_carry  [-1]              4.10796   -47.8577    -0.205398      -0.410796         -0.821591                      NaN          -0.616194
+32947         RUSSELL  dynamic_TF_carry  [-1]              4.09685   -49.5719    -0.409685             -0          -0.81937                      NaN          -0.409685
+32948    SOYBEAN_mini  dynamic_TF_carry  [-1]               8.1937   -35.8474     -2.04842             -0          -4.09685                      NaN           -2.04842
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry RUSSELL            -47.8577
+dynamic_TF_carry RUSSELL          -49.571879
+                 SOYBEAN_mini     -35.847433
 delay_cash Total Sum
                   delay_cash
 strategy_name               
-dynamic_TF_carry    -47.8577
+dynamic_TF_carry  -85.419313
 bid_ask_cash Sum
                                   bid_ask_cash
 strategy_name    instrument_code              
-dynamic_TF_carry RUSSELL             -0.205398
+dynamic_TF_carry RUSSELL             -0.409685
+                 SOYBEAN_mini        -2.048425
 bid_ask_cash Total Sum
                   bid_ask_cash
 strategy_name                 
-dynamic_TF_carry     -0.205398
+dynamic_TF_carry      -2.45811
 execution_cash Sum
                                   execution_cash
 strategy_name    instrument_code                
-dynamic_TF_carry RUSSELL               -0.410796
+dynamic_TF_carry RUSSELL                    -0.0
+                 SOYBEAN_mini               -0.0
 execution_cash Total Sum
                   execution_cash
 strategy_name                   
-dynamic_TF_carry       -0.410796
+dynamic_TF_carry            -0.0
 versus_limit_cash Sum
                                   versus_limit_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry RUSSELL                  -0.821591
+dynamic_TF_carry RUSSELL                   -0.81937
+                 SOYBEAN_mini              -4.09685
 versus_limit_cash Total Sum
                   versus_limit_cash
 strategy_name                      
-dynamic_TF_carry          -0.821591
+dynamic_TF_carry          -4.916219
 versus_parent_limit_cash Sum
                                   versus_parent_limit_cash
 strategy_name    instrument_code                          
 dynamic_TF_carry RUSSELL                                 0
+                 SOYBEAN_mini                            0
 versus_parent_limit_cash Total Sum
                   versus_parent_limit_cash
 strategy_name                             
@@ -87,11 +97,12 @@ dynamic_TF_carry                         0
 total_trading_cash Sum
                                   total_trading_cash
 strategy_name    instrument_code                    
-dynamic_TF_carry RUSSELL                   -0.616194
+dynamic_TF_carry RUSSELL                   -0.409685
+                 SOYBEAN_mini              -2.048425
 total_trading_cash Total Sum
                   total_trading_cash
 strategy_name                       
-dynamic_TF_carry           -0.616194
+dynamic_TF_carry            -2.45811
 
 ********************************************************************************
                                  END OF REPORT                                  
