@@ -1,25 +1,27 @@
 
 ********************************************************************************
-             Duplicate markets report produced on 09/10/2023 23:03              
+             Duplicate markets report produced on 10/10/2023 23:04              
 ********************************************************************************
 
 
 List of duplicate markets eg mini and micro, or dual listing; recommendations as to which to trade
-** CHANGE **  Replace IBEX with IBEX_mini Current list of included markets ['IBEX'], excluded markets ['IBEX_mini'] Best market IBEX_mini, current included market(s) ['IBEX']
-** CHANGE **  Replace EU-DJ-UTIL with EU-UTILS Current list of included markets ['EU-DJ-UTIL'], excluded markets ['EU-UTILS'] Best market EU-UTILS, current included market(s) ['EU-DJ-UTIL']
-** CHANGE **  Replace COCOA with COCOA_LDN Current list of included markets ['COCOA'], excluded markets ['COCOA_LDN'] Best market COCOA_LDN, current included market(s) ['COCOA']
-** CHANGE **  Replace BRENT-LAST with BRENT_W Current list of included markets ['BRENT-LAST'], excluded markets ['BRENT_W'] Best market BRENT_W, current included market(s) ['BRENT-LAST']
-** CHANGE **  Replace ALUMINIUM with ALUMINIUM_LME Current list of included markets ['ALUMINIUM'], excluded markets ['ALUMINIUM_LME'] Best market ALUMINIUM_LME, current included market(s) ['ALUMINIUM']
 ** CHANGE **  Replace VIX with VIX_mini Current list of included markets ['VIX'], excluded markets ['VIX_mini'] Best market VIX_mini, current included market(s) ['VIX']
 ** CHANGE **  Replace AUD with AUD_micro Current list of included markets ['AUD'], excluded markets ['AUD-SGX', 'AUD_micro'] Best market AUD_micro, current included market(s) ['AUD']
+** CHANGE **  Replace COCOA with COCOA_LDN Current list of included markets ['COCOA'], excluded markets ['COCOA_LDN'] Best market COCOA_LDN, current included market(s) ['COCOA']
+** CHANGE **  Replace IBEX with IBEX_mini Current list of included markets ['IBEX'], excluded markets ['IBEX_mini'] Best market IBEX_mini, current included market(s) ['IBEX']
+** CHANGE **  Replace EU-DJ-UTIL with EU-UTILS Current list of included markets ['EU-DJ-UTIL'], excluded markets ['EU-UTILS'] Best market EU-UTILS, current included market(s) ['EU-DJ-UTIL']
+** CHANGE **  Replace ALUMINIUM with ALUMINIUM_LME Current list of included markets ['ALUMINIUM'], excluded markets ['ALUMINIUM_LME'] Best market ALUMINIUM_LME, current included market(s) ['ALUMINIUM']
+** CHANGE **  Replace BRENT-LAST with BRENT_W Current list of included markets ['BRENT-LAST'], excluded markets ['BRENT_W'] Best market BRENT_W, current included market(s) ['BRENT-LAST']
 
-==============================================================================================================================================
-No change required Current list of included markets ['DOW'], excluded markets ['DOW_mini'] Best market DOW, current included market(s) ['DOW']
-==============================================================================================================================================
+==========================================================================================================================================================================================================
+No change required Current list of included markets ['GASOILINE'], excluded markets ['GASOILINE_mini', 'GASOILINE_micro', 'GASOILINE_ICE'] Best market GASOILINE, current included market(s) ['GASOILINE']
+==========================================================================================================================================================================================================
 
-           SR_cost  volume_contracts  volume_risk  contract_size
-DOW       0.000486           65460.0       108.17         1652.0
-DOW_mini  0.000228          139682.0      2308.78        16529.0
+                  SR_cost  volume_contracts  volume_risk  contract_size
+GASOILINE_micro  0.040424               2.0         0.01         3161.0
+GASOILINE_mini        NaN               NaN          NaN            NaN
+GASOILINE        0.001069           17106.0       432.28        25270.0
+GASOILINE_ICE    0.000000             841.0        24.15        28731.0
 
 
 ============================================================================================================================================================================
@@ -27,27 +29,120 @@ No change required Current list of included markets ['GOLD_micro'], excluded mar
 ============================================================================================================================================================================
 
              SR_cost  volume_contracts  volume_risk  contract_size
-GOLD        0.000411           89446.0      1623.40        18150.0
-GOLD_micro  0.000746           21216.0        38.47         1813.0
-GOLD-mini   0.001154             345.0         3.15         9123.0
+GOLD_micro  0.000755           21158.0        37.83         1788.0
+GOLD        0.000417           88502.0      1579.22        17844.0
+GOLD-mini   0.001164             340.0         3.07         9029.0
 
 
-======================================================================================================================================================
-No change required Current list of included markets ['WHEAT'], excluded markets ['WHEAT_mini'] Best market WHEAT, current included market(s) ['WHEAT']
-======================================================================================================================================================
+============================================================================================================================================================
+No change required Current list of included markets ['HANG_mini'], excluded markets ['HANG'] Best market HANG_mini, current included market(s) ['HANG_mini']
+============================================================================================================================================================
+
+           SR_cost  volume_contracts  volume_risk  contract_size
+HANG           0.0           36577.0       818.00        22364.0
+HANG_mini      0.0           20671.0        95.48         4619.0
+
+
+========================================================================================================================================================================
+** CHANGE **  Replace VIX with VIX_mini Current list of included markets ['VIX'], excluded markets ['VIX_mini'] Best market VIX_mini, current included market(s) ['VIX']
+========================================================================================================================================================================
+
+           SR_cost  volume_contracts  volume_risk  contract_size
+VIX_mini  0.004309            5008.0         3.52          702.0
+VIX       0.002905           70380.0       542.45         7707.0
+
+
+========================================================================================================================================================================================
+No change - no good markets Current list of included markets ['EU-FINANCE'], excluded markets ['EU-DJ-FINANCE'] Best market <No good markets>, current included market(s) ['EU-FINANCE']
+========================================================================================================================================================================================
+
+               SR_cost  volume_contracts  volume_risk  contract_size
+EU-DJ-FINANCE      NaN               NaN          NaN            NaN
+EU-FINANCE         NaN               NaN          NaN            NaN
+
+
+=====================================================================================================================================================================
+No change required Current list of included markets ['EURIBOR-ICE'], excluded markets ['EURIBOR'] Best market EURIBOR-ICE, current included market(s) ['EURIBOR-ICE']
+=====================================================================================================================================================================
+
+               SR_cost  volume_contracts  volume_risk  contract_size
+EURIBOR-ICE   0.000000          105620.0       261.71         2478.0
+EURIBOR      43.248466               NaN          NaN         2447.0
+
+
+======================================================================================================================================================================================
+** CHANGE **  Replace AUD with AUD_micro Current list of included markets ['AUD'], excluded markets ['AUD-SGX', 'AUD_micro'] Best market AUD_micro, current included market(s) ['AUD']
+======================================================================================================================================================================================
+
+            SR_cost  volume_contracts  volume_risk  contract_size
+AUD        0.000857           40925.0       225.41         5508.0
+AUD-SGX         NaN               NaN          NaN            NaN
+AUD_micro  0.002662            3949.0         2.14          541.0
+
+
+=================================================================================================================================================================================
+** CHANGE **  Replace COCOA with COCOA_LDN Current list of included markets ['COCOA'], excluded markets ['COCOA_LDN'] Best market COCOA_LDN, current included market(s) ['COCOA']
+=================================================================================================================================================================================
+
+            SR_cost  volume_contracts  volume_risk  contract_size
+COCOA      0.001101           16557.0        98.39         5942.0
+COCOA_LDN  0.000000            5058.0        25.26         4995.0
+
+
+==================================================================================================================================================================================
+No change - no good markets Current list of included markets ['EU-MEDIA'], excluded markets ['EU-DJ-MEDIA'] Best market <No good markets>, current included market(s) ['EU-MEDIA']
+==================================================================================================================================================================================
 
              SR_cost  volume_contracts  volume_risk  contract_size
-WHEAT_mini  0.003158             723.0         1.48         2050.0
-WHEAT       0.002071           37320.0       316.34         8476.0
+EU-MEDIA     0.00335              90.0         0.21         2321.0
+EU-DJ-MEDIA      NaN               NaN          NaN            NaN
 
 
-=================================================================================================================================================
-No change required Current list of included markets ['CNH'], excluded markets ['CNH-onshore'] Best market CNH, current included market(s) ['CNH']
-=================================================================================================================================================
+====================================================================================================================================================================
+No change required Current list of included markets ['EU-HEALTH'], excluded markets ['EU-DJ-HEALTH'] Best market EU-HEALTH, current included market(s) ['EU-HEALTH']
+====================================================================================================================================================================
+
+               SR_cost  volume_contracts  volume_risk  contract_size
+EU-DJ-HEALTH       NaN               NaN          NaN            NaN
+EU-HEALTH     0.002406             627.0         4.06         6463.0
+
+
+===============================================================================================================================================
+No change required Current list of included markets ['CHF'], excluded markets ['CHF_micro'] Best market CHF, current included market(s) ['CHF']
+===============================================================================================================================================
+
+            SR_cost  volume_contracts  volume_risk  contract_size
+CHF_micro  0.002361             265.0         0.20          771.0
+CHF        0.000929            9210.0        70.91         7700.0
+
+
+=============================================================================================================================================================================
+No change required Current list of included markets ['HEATOIL'], excluded markets ['HEATOIL_mini', 'HEATOIL-ICE'] Best market HEATOIL, current included market(s) ['HEATOIL']
+=============================================================================================================================================================================
+
+               SR_cost  volume_contracts  volume_risk  contract_size
+HEATOIL-ICE   0.000000             867.0        39.74        45854.0
+HEATOIL_mini       NaN               NaN          NaN            NaN
+HEATOIL       0.000884           16612.0       533.11        32093.0
+
+
+================================================================================================================================================================================
+No change required Current list of included markets ['GAS_US_mini'], excluded markets ['GAS_US', 'GAS-LAST'] Best market GAS_US_mini, current included market(s) ['GAS_US_mini']
+================================================================================================================================================================================
 
               SR_cost  volume_contracts  volume_risk  contract_size
-CNH          0.001145           53811.0       180.54         3355.0
-CNH-onshore  0.013348               8.0         0.04         4714.0
+GAS_US       0.001194           55360.0       807.90        14593.0
+GAS-LAST     0.004155             472.0         6.91        14661.0
+GAS_US_mini  0.002984            2258.0         8.59         3802.0
+
+
+==============================================================================================================================================
+No change required Current list of included markets ['DOW'], excluded markets ['DOW_mini'] Best market DOW, current included market(s) ['DOW']
+==============================================================================================================================================
+
+           SR_cost  volume_contracts  volume_risk  contract_size
+DOW_mini  0.000229          139102.0      2281.98        16405.0
+DOW       0.000488           65216.0       107.01         1641.0
 
 
 ==============================================================================================================================================================================
@@ -55,17 +150,62 @@ CNH-onshore  0.013348               8.0         0.04         4714.0
 ==============================================================================================================================================================================
 
            SR_cost  volume_contracts  volume_risk  contract_size
-IBEX           0.0            9760.0       113.35        11614.0
-IBEX_mini      0.0            2250.0         2.62         1166.0
+IBEX_mini      0.0            2297.0         2.97         1292.0
+IBEX           0.0            9859.0       126.83        12865.0
 
 
-===================================================================================================================================================================
-No change required Current list of included markets ['SP500_micro'], excluded markets ['SP500'] Best market SP500_micro, current included market(s) ['SP500_micro']
-===================================================================================================================================================================
+===============================================================================================================================================
+No change required Current list of included markets ['GBP'], excluded markets ['GBP_micro'] Best market GBP, current included market(s) ['GBP']
+===============================================================================================================================================
+
+            SR_cost  volume_contracts  volume_risk  contract_size
+GBP_micro  0.002464            1066.0         0.50          469.0
+GBP        0.001089           36529.0       172.32         4717.0
+
+
+==========================================================================================================================================================
+No change required Current list of included markets ['SILVER'], excluded markets ['SILVER_mini'] Best market SILVER, current included market(s) ['SILVER']
+==========================================================================================================================================================
 
               SR_cost  volume_contracts  volume_risk  contract_size
-SP500        0.000266         1340541.0     35253.81        26298.0
-SP500_micro  0.000473          776902.0      2046.30         2634.0
+SILVER       0.000868            5262.0        26.13         4966.0
+SILVER_mini       NaN               NaN          NaN            NaN
+
+
+=============================================================================================================================================================================================
+** CHANGE **  Replace EU-DJ-UTIL with EU-UTILS Current list of included markets ['EU-DJ-UTIL'], excluded markets ['EU-UTILS'] Best market EU-UTILS, current included market(s) ['EU-DJ-UTIL']
+=============================================================================================================================================================================================
+
+             SR_cost  volume_contracts  volume_risk  contract_size
+EU-UTILS    0.002639            2584.0         8.46         3273.0
+EU-DJ-UTIL  0.003006             374.0         1.18         3161.0
+
+
+=================================================================================================================================================
+No change required Current list of included markets ['CNH'], excluded markets ['CNH-onshore'] Best market CNH, current included market(s) ['CNH']
+=================================================================================================================================================
+
+              SR_cost  volume_contracts  volume_risk  contract_size
+CNH-onshore  0.013334               8.0         0.04         4710.0
+CNH          0.001135           53966.0       182.34         3379.0
+
+
+==============================================================================================================================================
+No change required Current list of included markets ['AEX'], excluded markets ['AEX_mini'] Best market AEX, current included market(s) ['AEX']
+==============================================================================================================================================
+
+           SR_cost  volume_contracts  volume_risk  contract_size
+AEX_mini  0.025520              14.0         0.02         1631.0
+AEX       0.000788           13285.0       224.25        16880.0
+
+
+====================================================================================================================================================================
+No change required Current list of included markets ['EU-INSURE'], excluded markets ['EU-DJ-INSURE'] Best market EU-INSURE, current included market(s) ['EU-INSURE']
+====================================================================================================================================================================
+
+               SR_cost  volume_contracts  volume_risk  contract_size
+EU-INSURE     0.003186            1044.0         2.26         2169.0
+EU-DJ-INSURE       NaN               NaN          NaN            NaN
 
 
 ===========================================================================================================================================================================================================
@@ -78,226 +218,13 @@ bad_thing          NaN               NaN          NaN            NaN
 thing_we_want      NaN               NaN          NaN            NaN
 
 
-==========================================================================================================================================================================================================
-No change required Current list of included markets ['GASOILINE'], excluded markets ['GASOILINE_mini', 'GASOILINE_micro', 'GASOILINE_ICE'] Best market GASOILINE, current included market(s) ['GASOILINE']
-==========================================================================================================================================================================================================
-
-                  SR_cost  volume_contracts  volume_risk  contract_size
-GASOILINE        0.001054           17302.0       444.07        25666.0
-GASOILINE_micro  0.040675               2.0         0.01         3148.0
-GASOILINE_mini        NaN               NaN          NaN            NaN
-GASOILINE_ICE    0.000000             856.0        25.12        29337.0
-
-
-===============================================================================================================================================
-No change required Current list of included markets ['GBP'], excluded markets ['GBP_micro'] Best market GBP, current included market(s) ['GBP']
-===============================================================================================================================================
-
-            SR_cost  volume_contracts  volume_risk  contract_size
-GBP        0.001085           36567.0       173.47         4744.0
-GBP_micro  0.002455            1049.0         0.49          471.0
-
-
-===============================================================================================================================================
-No change required Current list of included markets ['CAD'], excluded markets ['CAD_micro'] Best market CAD, current included market(s) ['CAD']
-===============================================================================================================================================
-
-            SR_cost  volume_contracts  volume_risk  contract_size
-CAD_micro  0.002978             886.0         0.33          374.0
-CAD        0.001201           41053.0       153.18         3731.0
-
-
-=================================================================================================================================================================================================
-No change - no good markets Current list of included markets ['EUROSTX-LARGE'], excluded markets ['EUROSTX200-LARGE'] Best market <No good markets>, current included market(s) ['EUROSTX-LARGE']
-=================================================================================================================================================================================================
-
-                   SR_cost  volume_contracts  volume_risk  contract_size
-EUROSTX200-LARGE  0.003172             516.0         1.27         2454.0
-EUROSTX-LARGE     0.002912              64.0         0.18         2821.0
-
-
-===============================================================================================================================================
-No change required Current list of included markets ['CHF'], excluded markets ['CHF_micro'] Best market CHF, current included market(s) ['CHF']
-===============================================================================================================================================
-
-            SR_cost  volume_contracts  volume_risk  contract_size
-CHF_micro  0.002291             259.0         0.21          796.0
-CHF        0.000905            9257.0        73.32         7921.0
-
-
-=====================================================================================================================================================================
-No change - no good markets Current list of included markets ['TWD'], excluded markets ['TWD-mini'] Best market <No good markets>, current included market(s) ['TWD']
-=====================================================================================================================================================================
-
-           SR_cost  volume_contracts  volume_risk  contract_size
-TWD-mini  0.010057               8.0         0.01         1365.0
-TWD       0.006885               4.0         0.02         3570.0
-
-
-==================================================================================================================================================
-No change required Current list of included markets ['CORN'], excluded markets ['CORN_mini'] Best market CORN, current included market(s) ['CORN']
-==================================================================================================================================================
-
-            SR_cost  volume_contracts  volume_risk  contract_size
-CORN_mini  0.003930             650.0         0.66         1022.0
-CORN       0.002039           80013.0       351.16         4389.0
-
-
-================================================================================================================================================================================
-No change - no good markets Current list of included markets ['INR'], excluded markets ['INR-mini', 'INR-SGX'] Best market <No good markets>, current included market(s) ['INR']
-================================================================================================================================================================================
-
-           SR_cost  volume_contracts  volume_risk  contract_size
-INR-mini       NaN               NaN          NaN            NaN
-INR       0.005054              92.0         0.15         1616.0
-INR-SGX        NaN               NaN          NaN            NaN
-
-
-===============================================================================================================================================================================
-No change required Current list of included markets ['EU-REALESTATE'], excluded markets ['EPRA-EUROPE'] Best market EU-REALESTATE, current included market(s) ['EU-REALESTATE']
-===============================================================================================================================================================================
-
-                SR_cost  volume_contracts  volume_risk  contract_size
-EU-REALESTATE  0.004725            1979.0         2.54         1281.0
-EPRA-EUROPE    0.009349             133.0         0.42         3145.0
-
-
-==========================================================================================================================================================================
-No change required Current list of included markets ['JPY'], excluded markets ['JPY-SGX-TITAN', 'JPY-SGX', 'JPY_mini'] Best market JPY, current included market(s) ['JPY']
-==========================================================================================================================================================================
-
-                SR_cost  volume_contracts  volume_risk  contract_size
-JPY-SGX-TITAN       NaN               NaN          NaN            NaN
-JPY            0.000832           54432.0       313.43         5758.0
-JPY-SGX             NaN               NaN          NaN            NaN
-JPY_mini       0.002397             182.0         0.52         2854.0
-
-
 ========================================================================================================================================================================
 No change required Current list of included markets ['HANGENT_mini'], excluded markets ['HANGENT'] Best market HANGENT_mini, current included market(s) ['HANGENT_mini']
 ========================================================================================================================================================================
 
               SR_cost  volume_contracts  volume_risk  contract_size
-HANGENT           0.0           41177.0       359.48         8730.0
-HANGENT_mini      0.0            1981.0         3.45         1741.0
-
-
-========================================================================================================================================================
-No change required Current list of included markets ['EU-OIL'], excluded markets ['EU-DJ-OIL'] Best market EU-OIL, current included market(s) ['EU-OIL']
-========================================================================================================================================================
-
-            SR_cost  volume_contracts  volume_risk  contract_size
-EU-OIL     0.002445            6660.0        21.20         3183.0
-EU-DJ-OIL  0.004594             368.0         1.04         2824.0
-
-
-============================================================================================================================================================
-No change required Current list of included markets ['HANG_mini'], excluded markets ['HANG'] Best market HANG_mini, current included market(s) ['HANG_mini']
-============================================================================================================================================================
-
-           SR_cost  volume_contracts  volume_risk  contract_size
-HANG           0.0           35211.0       805.69        22882.0
-HANG_mini      0.0           18933.0        89.61         4733.0
-
-
-================================================================================================================================================================
-No change required Current list of included markets ['KOSPI_mini'], excluded markets ['KOSPI'] Best market KOSPI_mini, current included market(s) ['KOSPI_mini']
-================================================================================================================================================================
-
-             SR_cost  volume_contracts  volume_risk  contract_size
-KOSPI       0.003364          172118.0      1236.60         7185.0
-KOSPI_mini  0.004102           70916.0        99.45         1402.0
-
-
-=====================================================================================================================================================================
-No change required Current list of included markets ['EURIBOR-ICE'], excluded markets ['EURIBOR'] Best market EURIBOR-ICE, current included market(s) ['EURIBOR-ICE']
-=====================================================================================================================================================================
-
-               SR_cost  volume_contracts  volume_risk  contract_size
-EURIBOR      44.601724               NaN          NaN         2375.0
-EURIBOR-ICE   0.000000          107565.0       271.36         2523.0
-
-
-==================================================================================================================================================================================
-No change - no good markets Current list of included markets ['EU-MEDIA'], excluded markets ['EU-DJ-MEDIA'] Best market <No good markets>, current included market(s) ['EU-MEDIA']
-==================================================================================================================================================================================
-
-              SR_cost  volume_contracts  volume_risk  contract_size
-EU-MEDIA     0.003592              92.0          0.2         2167.0
-EU-DJ-MEDIA       NaN               NaN          NaN            NaN
-
-
-=============================================================================================================================================================================================
-** CHANGE **  Replace EU-DJ-UTIL with EU-UTILS Current list of included markets ['EU-DJ-UTIL'], excluded markets ['EU-UTILS'] Best market EU-UTILS, current included market(s) ['EU-DJ-UTIL']
-=============================================================================================================================================================================================
-
-             SR_cost  volume_contracts  volume_risk  contract_size
-EU-UTILS    0.002891            2395.0         7.16         2991.0
-EU-DJ-UTIL  0.003236             367.0         1.08         2939.0
-
-
-=================================================================================================================================================================================
-** CHANGE **  Replace COCOA with COCOA_LDN Current list of included markets ['COCOA'], excluded markets ['COCOA_LDN'] Best market COCOA_LDN, current included market(s) ['COCOA']
-=================================================================================================================================================================================
-
-            SR_cost  volume_contracts  volume_risk  contract_size
-COCOA      0.001098           16785.0       100.16         5967.0
-COCOA_LDN  0.000000            5128.0        26.12         5095.0
-
-
-=======================================================================================================================================================================
-No change required Current list of included markets ['EUR_micro'], excluded markets ['EUR', 'EUR_mini'] Best market EUR_micro, current included market(s) ['EUR_micro']
-=======================================================================================================================================================================
-
-            SR_cost  volume_contracts  volume_risk  contract_size
-EUR        0.000637           75797.0       593.83         7834.0
-EUR_micro  0.002080            9342.0         7.31          783.0
-EUR_mini   0.001373            1657.0         6.53         3940.0
-
-
-=========================================================================================================================================================
-No change required Current list of included markets ['NIKKEI'], excluded markets ['NIKKEI-JPY'] Best market NIKKEI, current included market(s) ['NIKKEI']
-=========================================================================================================================================================
-
-             SR_cost  volume_contracts  volume_risk  contract_size
-NIKKEI      0.000533          874859.0      2615.56         2990.0
-NIKKEI-JPY       NaN               NaN          NaN            NaN
-
-
-==============================================================================================================================================================
-No change required Current list of included markets ['RUSSELL'], excluded markets ['RUSSELL_mini'] Best market RUSSELL, current included market(s) ['RUSSELL']
-==============================================================================================================================================================
-
-               SR_cost  volume_contracts  volume_risk  contract_size
-RUSSELL       0.000684           45016.0        60.42         1342.0
-RUSSELL_mini  0.000339          162896.0      2182.73        13400.0
-
-
-===============================================================================================================================================================================
-No change - no good markets Current list of included markets ['EU-CHEM'], excluded markets ['EU-DJ-CHEM'] Best market <No good markets>, current included market(s) ['EU-CHEM']
-===============================================================================================================================================================================
-
-             SR_cost  volume_contracts  volume_risk  contract_size
-EU-CHEM     0.002323             149.0         1.22         8189.0
-EU-DJ-CHEM       NaN               NaN          NaN            NaN
-
-
-====================================================================================================================================================================
-No change required Current list of included markets ['EU-INSURE'], excluded markets ['EU-DJ-INSURE'] Best market EU-INSURE, current included market(s) ['EU-INSURE']
-====================================================================================================================================================================
-
-               SR_cost  volume_contracts  volume_risk  contract_size
-EU-INSURE     0.003249            1005.0         2.14         2129.0
-EU-DJ-INSURE       NaN               NaN          NaN            NaN
-
-
-========================================================================================================================================================================================
-No change - no good markets Current list of included markets ['EU-FINANCE'], excluded markets ['EU-DJ-FINANCE'] Best market <No good markets>, current included market(s) ['EU-FINANCE']
-========================================================================================================================================================================================
-
-               SR_cost  volume_contracts  volume_risk  contract_size
-EU-DJ-FINANCE      NaN               NaN          NaN            NaN
-EU-FINANCE         NaN               NaN          NaN            NaN
+HANGENT           0.0           41627.0       353.64         8495.0
+HANGENT_mini      0.0            2156.0         3.66         1695.0
 
 
 =======================================================================================================================================================================
@@ -305,110 +232,36 @@ No change required Current list of included markets ['NASDAQ_micro'], excluded m
 =======================================================================================================================================================================
 
                SR_cost  volume_contracts  volume_risk  contract_size
-NASDAQ_micro  0.000177          943938.0      4588.08         4861.0
-NASDAQ        0.000153          517390.0     25073.98        48462.0
+NASDAQ        0.000155          517097.0     24676.36        47721.0
+NASDAQ_micro  0.000177          947202.0      4598.26         4855.0
 
 
-==========================================================================================================================================================================================
-** CHANGE **  Replace BRENT-LAST with BRENT_W Current list of included markets ['BRENT-LAST'], excluded markets ['BRENT_W'] Best market BRENT_W, current included market(s) ['BRENT-LAST']
-==========================================================================================================================================================================================
+=================================================================================================================================================================================================
+No change - no good markets Current list of included markets ['EUROSTX-LARGE'], excluded markets ['EUROSTX200-LARGE'] Best market <No good markets>, current included market(s) ['EUROSTX-LARGE']
+=================================================================================================================================================================================================
+
+                   SR_cost  volume_contracts  volume_risk  contract_size
+EUROSTX200-LARGE  0.003010             490.0         1.26         2582.0
+EUROSTX-LARGE     0.002935              64.0         0.18         2796.0
+
+
+=====================================================================================================================================================================
+No change - no good markets Current list of included markets ['SGD'], excluded markets ['SGD_mini'] Best market <No good markets>, current included market(s) ['SGD']
+=====================================================================================================================================================================
+
+           SR_cost  volume_contracts  volume_risk  contract_size
+SGD       0.002690             354.0         1.38         3893.0
+SGD_mini  0.004458              59.0         0.05          906.0
+
+
+=======================================================================================================================================================================
+No change required Current list of included markets ['EUR_micro'], excluded markets ['EUR', 'EUR_mini'] Best market EUR_micro, current included market(s) ['EUR_micro']
+=======================================================================================================================================================================
 
             SR_cost  volume_contracts  volume_risk  contract_size
-BRENT_W     0.00000          202960.0      4703.60        23175.0
-BRENT-LAST  0.00072           10227.0       238.22        23292.0
-
-
-================================================================================================================================================================================
-No change required Current list of included markets ['GAS_US_mini'], excluded markets ['GAS_US', 'GAS-LAST'] Best market GAS_US_mini, current included market(s) ['GAS_US_mini']
-================================================================================================================================================================================
-
-              SR_cost  volume_contracts  volume_risk  contract_size
-GAS_US       0.001174           55477.0       825.10        14873.0
-GAS-LAST     0.004083             467.0         6.98        14949.0
-GAS_US_mini  0.002931            2266.0         8.79         3878.0
-
-
-==============================================================================================================================================
-No change required Current list of included markets ['SGD'], excluded markets ['SGD_mini'] Best market SGD, current included market(s) ['SGD']
-==============================================================================================================================================
-
-           SR_cost  volume_contracts  volume_risk  contract_size
-SGD_mini  0.004458              60.0         0.05          907.0
-SGD       0.002684             430.0         1.68         3905.0
-
-
-=========================================================================================================================================================================================================
-** CHANGE **  Replace ALUMINIUM with ALUMINIUM_LME Current list of included markets ['ALUMINIUM'], excluded markets ['ALUMINIUM_LME'] Best market ALUMINIUM_LME, current included market(s) ['ALUMINIUM']
-=========================================================================================================================================================================================================
-
-                SR_cost  volume_contracts  volume_risk  contract_size
-ALUMINIUM_LME  0.000000            1228.0        11.18         9104.0
-ALUMINIUM      0.003571             386.0         4.12        10668.0
-
-
-============================================================================================================================================================
-No change required Current list of included markets ['EU-TECH'], excluded markets ['EU-DJ-TECH'] Best market EU-TECH, current included market(s) ['EU-TECH']
-============================================================================================================================================================
-
-             SR_cost  volume_contracts  volume_risk  contract_size
-EU-DJ-TECH  0.002048              51.0         0.42         8234.0
-EU-TECH     0.002215             493.0         2.98         6052.0
-
-
-====================================================================================================================================================================
-No change required Current list of included markets ['KRWUSD_mini'], excluded markets ['KRWUSD'] Best market KRWUSD_mini, current included market(s) ['KRWUSD_mini']
-====================================================================================================================================================================
-
-              SR_cost  volume_contracts  volume_risk  contract_size
-KRWUSD_mini  0.004461            4431.0         5.78         1304.0
-KRWUSD       0.024573              13.0         0.08         6697.0
-
-
-========================================================================================================================================================================
-** CHANGE **  Replace VIX with VIX_mini Current list of included markets ['VIX'], excluded markets ['VIX_mini'] Best market VIX_mini, current included market(s) ['VIX']
-========================================================================================================================================================================
-
-           SR_cost  volume_contracts  volume_risk  contract_size
-VIX       0.002913           70655.0       544.12         7701.0
-VIX_mini  0.004336            5006.0         3.50          699.0
-
-
-==============================================================================================================================================
-No change required Current list of included markets ['AEX'], excluded markets ['AEX_mini'] Best market AEX, current included market(s) ['AEX']
-==============================================================================================================================================
-
-           SR_cost  volume_contracts  volume_risk  contract_size
-AEX_mini  0.027289              14.0         0.02         1528.0
-AEX       0.000880           13323.0       201.58        15130.0
-
-
-========================================================================================================================================================================
-No change required Current list of included markets ['SOYBEAN_mini'], excluded markets ['SOYBEAN'] Best market SOYBEAN_mini, current included market(s) ['SOYBEAN_mini']
-========================================================================================================================================================================
-
-               SR_cost  volume_contracts  volume_risk  contract_size
-SOYBEAN_mini  0.002637            1032.0         2.05         1989.0
-SOYBEAN       0.001577           72278.0       579.04         8011.0
-
-
-================================================================================================================================================================
-No change required Current list of included markets ['ETHEREUM'], excluded markets ['ETHER-micro'] Best market ETHEREUM, current included market(s) ['ETHEREUM']
-================================================================================================================================================================
-
-              SR_cost  volume_contracts  volume_risk  contract_size
-ETHEREUM     0.001419            1066.0        36.94        34650.0
-ETHER-micro  0.004488            2148.0         0.15           69.0
-
-
-========================================================================================================================================================================================================
-No change required Current list of included markets ['CRUDE_W_micro'], excluded markets ['CRUDE_W_mini', 'CRUDE_W', 'CRUDE_ICE'] Best market CRUDE_W_micro, current included market(s) ['CRUDE_W_micro']
-========================================================================================================================================================================================================
-
-                SR_cost  volume_contracts  volume_risk  contract_size
-CRUDE_ICE      0.000000           10753.0       266.84        24816.0
-CRUDE_W_micro  0.000834           49225.0       116.05         2358.0
-CRUDE_W_mini   0.001142            5180.0        63.44        12247.0
-CRUDE_W        0.000652          141995.0      2553.84        17985.0
+EUR        0.000641           75622.0       587.98         7775.0
+EUR_micro  0.002092            9313.0         7.23          777.0
+EUR_mini   0.001381            1657.0         6.47         3908.0
 
 
 =====================================================================================================================================================================================
@@ -416,37 +269,109 @@ No change - no good markets Current list of included markets ['EU-RETAIL'], excl
 =====================================================================================================================================================================================
 
                SR_cost  volume_contracts  volume_risk  contract_size
-EU-RETAIL     0.002596             134.0         0.42         3165.0
 EU-DJ-RETAIL       NaN               NaN          NaN            NaN
+EU-RETAIL     0.002434             141.0         0.47         3372.0
 
 
-=============================================================================================================================================================================
-No change required Current list of included markets ['HEATOIL'], excluded markets ['HEATOIL_mini', 'HEATOIL-ICE'] Best market HEATOIL, current included market(s) ['HEATOIL']
-=============================================================================================================================================================================
-
-               SR_cost  volume_contracts  volume_risk  contract_size
-HEATOIL-ICE   0.000000             909.0        42.58        46852.0
-HEATOIL_mini       NaN               NaN          NaN            NaN
-HEATOIL       0.000875           16684.0       542.19        32497.0
-
-
-======================================================================================================================================================================================
-** CHANGE **  Replace AUD with AUD_micro Current list of included markets ['AUD'], excluded markets ['AUD-SGX', 'AUD_micro'] Best market AUD_micro, current included market(s) ['AUD']
-======================================================================================================================================================================================
-
-            SR_cost  volume_contracts  volume_risk  contract_size
-AUD_micro  0.002617            3904.0         2.15          551.0
-AUD        0.000856           40651.0       224.49         5522.0
-AUD-SGX         NaN               NaN          NaN            NaN
-
-
-===============================================================================================================================================================================
-No change - no good markets Current list of included markets ['EU-FOOD'], excluded markets ['EU-DJ-FOOD'] Best market <No good markets>, current included market(s) ['EU-FOOD']
-===============================================================================================================================================================================
+================================================================================================================================================================
+No change required Current list of included markets ['KOSPI_mini'], excluded markets ['KOSPI'] Best market KOSPI_mini, current included market(s) ['KOSPI_mini']
+================================================================================================================================================================
 
              SR_cost  volume_contracts  volume_risk  contract_size
-EU-FOOD     0.003045             290.0         1.19         4118.0
-EU-DJ-FOOD       NaN               NaN          NaN            NaN
+KOSPI_mini  0.004102           70613.0        98.97         1402.0
+KOSPI       0.003364          171696.0      1232.88         7181.0
+
+
+==============================================================================================================================================================
+No change required Current list of included markets ['RUSSELL'], excluded markets ['RUSSELL_mini'] Best market RUSSELL, current included market(s) ['RUSSELL']
+==============================================================================================================================================================
+
+               SR_cost  volume_contracts  volume_risk  contract_size
+RUSSELL_mini  0.000332          163231.0      2228.31        13651.0
+RUSSELL       0.000671           44790.0        61.14         1365.0
+
+
+========================================================================================================================================================================
+No change required Current list of included markets ['SOYBEAN_mini'], excluded markets ['SOYBEAN'] Best market SOYBEAN_mini, current included market(s) ['SOYBEAN_mini']
+========================================================================================================================================================================
+
+               SR_cost  volume_contracts  volume_risk  contract_size
+SOYBEAN       0.001600           71936.0       566.92         7881.0
+SOYBEAN_mini  0.002655            1032.0         2.03         1972.0
+
+
+===================================================================================================================================================================
+No change required Current list of included markets ['SP500_micro'], excluded markets ['SP500'] Best market SP500_micro, current included market(s) ['SP500_micro']
+===================================================================================================================================================================
+
+              SR_cost  volume_contracts  volume_risk  contract_size
+SP500_micro  0.000476          771139.0      2011.62         2609.0
+SP500        0.000269         1337723.0     34824.91        26033.0
+
+
+========================================================================================================================================================================================================
+No change required Current list of included markets ['CRUDE_W_micro'], excluded markets ['CRUDE_W_mini', 'CRUDE_W', 'CRUDE_ICE'] Best market CRUDE_W_micro, current included market(s) ['CRUDE_W_micro']
+========================================================================================================================================================================================================
+
+                SR_cost  volume_contracts  volume_risk  contract_size
+CRUDE_W_micro  0.000846           49495.0       114.80         2319.0
+CRUDE_ICE      0.000000           10558.0       257.49        24389.0
+CRUDE_W        0.000664          141129.0      2487.93        17629.0
+CRUDE_W_mini   0.001160            5250.0        63.18        12036.0
+
+
+=====================================================================================================================================================================
+No change - no good markets Current list of included markets ['TWD'], excluded markets ['TWD-mini'] Best market <No good markets>, current included market(s) ['TWD']
+=====================================================================================================================================================================
+
+           SR_cost  volume_contracts  volume_risk  contract_size
+TWD       0.006889               4.0         0.02         3561.0
+TWD-mini  0.010220               8.0         0.01         1340.0
+
+
+======================================================================================================================================================
+No change required Current list of included markets ['WHEAT'], excluded markets ['WHEAT_mini'] Best market WHEAT, current included market(s) ['WHEAT']
+======================================================================================================================================================
+
+             SR_cost  volume_contracts  volume_risk  contract_size
+WHEAT_mini  0.003169             717.0         1.46         2039.0
+WHEAT       0.002073           36865.0       311.51         8450.0
+
+
+============================================================================================================================================================
+No change required Current list of included markets ['EU-TECH'], excluded markets ['EU-DJ-TECH'] Best market EU-TECH, current included market(s) ['EU-TECH']
+============================================================================================================================================================
+
+             SR_cost  volume_contracts  volume_risk  contract_size
+EU-TECH     0.002076             499.0         3.22         6450.0
+EU-DJ-TECH  0.001945              50.0         0.44         8661.0
+
+
+=========================================================================================================================================================================================================
+** CHANGE **  Replace ALUMINIUM with ALUMINIUM_LME Current list of included markets ['ALUMINIUM'], excluded markets ['ALUMINIUM_LME'] Best market ALUMINIUM_LME, current included market(s) ['ALUMINIUM']
+=========================================================================================================================================================================================================
+
+                SR_cost  volume_contracts  volume_risk  contract_size
+ALUMINIUM      0.003583             392.0         4.16        10613.0
+ALUMINIUM_LME  0.000000            1175.0        10.58         9002.0
+
+
+================================================================================================================================================================
+No change required Current list of included markets ['ETHEREUM'], excluded markets ['ETHER-micro'] Best market ETHEREUM, current included market(s) ['ETHEREUM']
+================================================================================================================================================================
+
+              SR_cost  volume_contracts  volume_risk  contract_size
+ETHER-micro  0.004566            2109.0         0.14           68.0
+ETHEREUM     0.001437            1095.0        37.39        34152.0
+
+
+==================================================================================================================================================
+No change required Current list of included markets ['CORN'], excluded markets ['CORN_mini'] Best market CORN, current included market(s) ['CORN']
+==================================================================================================================================================
+
+            SR_cost  volume_contracts  volume_risk  contract_size
+CORN_mini  0.003992             641.0         0.64         1004.0
+CORN       0.002075           78759.0       338.90         4303.0
 
 
 ====================================================================================================================================================================================================
@@ -454,28 +379,19 @@ No change required Current list of included markets ['COPPER-micro'], excluded m
 ====================================================================================================================================================================================================
 
                SR_cost  volume_contracts  volume_risk  contract_size
-COPPER-mini   0.004721              60.0         0.46         7740.0
-COPPER_LME    0.000000             850.0        24.73        29099.0
-COPPER-micro  0.001384            1272.0         1.96         1540.0
-COPPER        0.000705           24540.0       375.69        15310.0
+COPPER_LME    0.000000             820.0        23.73        28929.0
+COPPER        0.000714           24194.0       364.93        15083.0
+COPPER-micro  0.001402            1271.0         1.93         1516.0
+COPPER-mini   0.004779              63.0         0.48         7632.0
 
 
-==========================================================================================================================================================
-No change required Current list of included markets ['SILVER'], excluded markets ['SILVER_mini'] Best market SILVER, current included market(s) ['SILVER']
-==========================================================================================================================================================
+===============================================================================================================================================================================
+No change - no good markets Current list of included markets ['EU-CHEM'], excluded markets ['EU-DJ-CHEM'] Best market <No good markets>, current included market(s) ['EU-CHEM']
+===============================================================================================================================================================================
 
-             SR_cost  volume_contracts  volume_risk  contract_size
-SILVER       0.00085            5352.0        27.21         5083.0
-SILVER_mini      NaN               NaN          NaN            NaN
-
-
-====================================================================================================================================================================
-No change required Current list of included markets ['EU-HEALTH'], excluded markets ['EU-DJ-HEALTH'] Best market EU-HEALTH, current included market(s) ['EU-HEALTH']
-====================================================================================================================================================================
-
-               SR_cost  volume_contracts  volume_risk  contract_size
-EU-DJ-HEALTH       NaN               NaN          NaN            NaN
-EU-HEALTH     0.002465             641.0         4.04         6315.0
+            SR_cost  volume_contracts  volume_risk  contract_size
+EU-CHEM     0.00213             154.0         1.38         8922.0
+EU-DJ-CHEM      NaN               NaN          NaN            NaN
 
 
 ================================================================================================================================================================================
@@ -483,9 +399,93 @@ No change required Current list of included markets ['JGB-SGX-mini'], excluded m
 ================================================================================================================================================================================
 
                SR_cost  volume_contracts  volume_risk  contract_size
-JGB-SGX-mini  0.003022            1218.0         2.40         1972.0
-JGB-mini      0.128425              13.0         0.03         2142.0
-JGB           0.001395           27820.0       602.54        21658.0
+JGB           0.001394           27242.0       590.98        21694.0
+JGB-SGX-mini  0.003023            1174.0         2.32         1973.0
+JGB-mini      0.128334              13.0         0.03         2145.0
+
+
+==========================================================================================================================================================================
+No change required Current list of included markets ['JPY'], excluded markets ['JPY-SGX-TITAN', 'JPY-SGX', 'JPY_mini'] Best market JPY, current included market(s) ['JPY']
+==========================================================================================================================================================================
+
+                SR_cost  volume_contracts  volume_risk  contract_size
+JPY_mini       0.002435             180.0         0.50         2804.0
+JPY-SGX             NaN               NaN          NaN            NaN
+JPY            0.000845           54130.0       306.13         5655.0
+JPY-SGX-TITAN       NaN               NaN          NaN            NaN
+
+
+====================================================================================================================================================================
+No change required Current list of included markets ['KRWUSD_mini'], excluded markets ['KRWUSD'] Best market KRWUSD_mini, current included market(s) ['KRWUSD_mini']
+====================================================================================================================================================================
+
+              SR_cost  volume_contracts  volume_risk  contract_size
+KRWUSD_mini  0.004515            4492.0         5.78         1286.0
+KRWUSD       0.025081              12.0         0.08         6549.0
+
+
+===============================================================================================================================================================================
+No change - no good markets Current list of included markets ['EU-FOOD'], excluded markets ['EU-DJ-FOOD'] Best market <No good markets>, current included market(s) ['EU-FOOD']
+===============================================================================================================================================================================
+
+             SR_cost  volume_contracts  volume_risk  contract_size
+EU-FOOD     0.002823             289.0         1.28         4437.0
+EU-DJ-FOOD       NaN               NaN          NaN            NaN
+
+
+========================================================================================================================================================
+No change required Current list of included markets ['EU-OIL'], excluded markets ['EU-DJ-OIL'] Best market EU-OIL, current included market(s) ['EU-OIL']
+========================================================================================================================================================
+
+            SR_cost  volume_contracts  volume_risk  contract_size
+EU-OIL     0.002454            6658.0        21.09         3168.0
+EU-DJ-OIL  0.004584             360.0         1.02         2826.0
+
+
+==========================================================================================================================================================================================
+** CHANGE **  Replace BRENT-LAST with BRENT_W Current list of included markets ['BRENT-LAST'], excluded markets ['BRENT_W'] Best market BRENT_W, current included market(s) ['BRENT-LAST']
+==========================================================================================================================================================================================
+
+             SR_cost  volume_contracts  volume_risk  contract_size
+BRENT_W     0.000000          192003.0      4374.16        22782.0
+BRENT-LAST  0.000734           10306.0       235.00        22803.0
+
+
+===============================================================================================================================================================================
+No change required Current list of included markets ['EU-REALESTATE'], excluded markets ['EPRA-EUROPE'] Best market EU-REALESTATE, current included market(s) ['EU-REALESTATE']
+===============================================================================================================================================================================
+
+                SR_cost  volume_contracts  volume_risk  contract_size
+EU-REALESTATE  0.004652            1977.0         2.57         1300.0
+EPRA-EUROPE    0.009174             131.0         0.42         3201.0
+
+
+=========================================================================================================================================================
+No change required Current list of included markets ['NIKKEI'], excluded markets ['NIKKEI-JPY'] Best market NIKKEI, current included market(s) ['NIKKEI']
+=========================================================================================================================================================
+
+             SR_cost  volume_contracts  volume_risk  contract_size
+NIKKEI      0.000498          879926.0       2819.1         3204.0
+NIKKEI-JPY       NaN               NaN          NaN            NaN
+
+
+===============================================================================================================================================
+No change required Current list of included markets ['CAD'], excluded markets ['CAD_micro'] Best market CAD, current included market(s) ['CAD']
+===============================================================================================================================================
+
+            SR_cost  volume_contracts  volume_risk  contract_size
+CAD_micro  0.003045             881.0         0.32          365.0
+CAD        0.001207           41278.0       153.01         3707.0
+
+
+================================================================================================================================================================================
+No change - no good markets Current list of included markets ['INR'], excluded markets ['INR-mini', 'INR-SGX'] Best market <No good markets>, current included market(s) ['INR']
+================================================================================================================================================================================
+
+           SR_cost  volume_contracts  volume_risk  contract_size
+INR-SGX        NaN               NaN          NaN            NaN
+INR       0.005045              90.0         0.14         1616.0
+INR-mini       NaN               NaN          NaN            NaN
 
 
 ********************************************************************************
