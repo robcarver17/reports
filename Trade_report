@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 11/10/2023 22:50 from 10/10/2023 22:50 to 11/10/2023 22:50
+Trades report produced on 12/10/2023 22:50 from 11/10/2023 22:50 to 12/10/2023 22:50
 ********************************************************************************
 
 
@@ -10,8 +10,12 @@ Trades report produced on 11/10/2023 22:50 from 10/10/2023 22:50 to 11/10/2023 2
 =============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-32955             BTP  dynamic_TF_carry    [20231200] 2023-10-11 08:00:08   [1]        109.90
-32956         LIVECOW  dynamic_TF_carry    [20231200] 2023-10-11 15:30:04  [-1]        184.95
+32957             CNH  dynamic_TF_carry    [20231000] 2023-10-12 01:00:17  [-1]       7.29890
+32961             DOW  dynamic_TF_carry    [20231200] 2023-10-12 15:37:08   [1]   33864.00000
+32962         LEANHOG  dynamic_TF_carry    [20231200] 2023-10-12 15:37:15  [-1]      69.10000
+32963             MXP  dynamic_TF_carry    [20231200] 2023-10-12 15:40:05   [1]       0.05513
+32960             NZD  dynamic_TF_carry    [20231200] 2023-10-12 15:37:07   [1]       0.59510
+32958             VIX  dynamic_TF_carry    [20231100] 2023-10-12 15:00:35   [1]      17.30000
 
 
 ========================================================================================================================================================
@@ -19,17 +23,25 @@ Trades report produced on 11/10/2023 22:50 from 10/10/2023 22:50 to 11/10/2023 2
 ========================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
-32955             BTP  dynamic_TF_carry                2023-10-10 2023-10-11 08:00:06.811 2023-10-11 08:00:08                 115207               1.189
-32956         LIVECOW  dynamic_TF_carry                2023-10-10 2023-10-11 15:30:03.125 2023-10-11 15:30:04                 142203               0.875
+32957             CNH  dynamic_TF_carry       2023-10-11 04:00:00 2023-10-12 01:00:07.918 2023-10-12 01:00:17                75607.9               9.082
+32958             VIX  dynamic_TF_carry       2023-10-11 20:00:00 2023-10-12 15:00:04.221 2023-10-12 15:00:35                68404.2              30.779
+32960             NZD  dynamic_TF_carry       2023-10-11 00:00:00 2023-10-12 15:37:07.025 2023-10-12 15:37:07                 142627                 NaN
+32961             DOW  dynamic_TF_carry       2023-10-11 00:00:00 2023-10-12 15:37:08.391 2023-10-12 15:37:08                 142628                 NaN
+32962         LEANHOG  dynamic_TF_carry       2023-10-11 19:00:00 2023-10-12 15:37:10.018 2023-10-12 15:37:15                  74230               4.982
+32963             MXP  dynamic_TF_carry       2023-10-11 00:00:00 2023-10-12 15:40:02.651 2023-10-12 15:40:05                 142803               2.349
 
 
-============================================================================================================================================================================================================================
-                                                                                                  Slippage (ticks per lot)                                                                                                  
-============================================================================================================================================================================================================================
+==============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                   
+==============================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
-32955             BTP  dynamic_TF_carry   [1]                 109.67               None   109.885     109.89        109.88      109.88        109.9  -0.215  -0.005     -0.01        -0.02                 NaN        -0.015
-32956         LIVECOW  dynamic_TF_carry  [-1]                    185               None   184.962     184.95       184.975     184.975       184.95 -0.0375 -0.0125        -0       -0.025                 NaN       -0.0125
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
+32957             CNH  dynamic_TF_carry  [-1]                 7.2895               None   7.29935     7.2991        7.2996      7.2996       7.2989  0.00985 -0.00025   -0.0002      -0.0007                 NaN      -0.00045
+32958             VIX  dynamic_TF_carry   [1]                   17.4               None    17.225      17.25          17.2        17.2         17.3    0.175   -0.025     -0.05         -0.1                 NaN        -0.075
+32960             NZD  dynamic_TF_carry   [1]                 0.6021               None   0.59505     0.5951         0.595       0.595       0.5951  0.00705   -5e-05         0      -0.0001                 NaN        -5e-05
+32961             DOW  dynamic_TF_carry   [1]                  33934               None     33862      33863         33861       33861        33864       72       -1        -1           -3                 NaN            -2
+32962         LEANHOG  dynamic_TF_carry  [-1]                 69.975               None    69.125       69.1         69.15       69.15         69.1    -0.85   -0.025        -0        -0.05                 NaN        -0.025
+32963             MXP  dynamic_TF_carry   [1]                0.05539               None   0.05512    0.05513       0.05511     0.05511      0.05513  0.00027   -1e-05         0       -2e-05                 NaN        -1e-05
 
 
 ============================================================================================================================================================
@@ -37,8 +49,12 @@ Trades report produced on 11/10/2023 22:50 from 10/10/2023 22:50 to 11/10/2023 2
 ============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-32955             BTP  dynamic_TF_carry   [1]         12.6692  -169.703    -3.94659      -7.89318         -15.7864                     NaN          -11.8398
-32956         LIVECOW  dynamic_TF_carry  [-1]         21.4224  -17.5051    -5.83502            -0           -11.67                     NaN          -5.83502
+32957             CNH  dynamic_TF_carry  [-1]        0.292794   336.414    -8.53843      -6.83074         -23.9076                     NaN          -15.3692
+32958             VIX  dynamic_TF_carry   [1]         9.23358   189.526    -27.0751      -54.1502           -108.3                     NaN          -81.2252
+32960             NZD  dynamic_TF_carry   [1]        0.062125   1134.81    -8.04828             0         -16.0966                     NaN          -8.04828
+32961             DOW  dynamic_TF_carry   [1]         3990.35   180.435    -2.50605      -2.50605         -7.51814                     NaN          -5.01209
+32962         LEANHOG  dynamic_TF_carry  [-1]         25.4024  -334.614     -9.8416            -0         -19.6832                     NaN           -9.8416
+32963             MXP  dynamic_TF_carry   [1]      0.00722501   373.702    -13.8408             0         -27.6816                     NaN          -13.8408
 
 
 =======================================================================================================================================================================
@@ -46,50 +62,74 @@ Trades report produced on 11/10/2023 22:50 from 10/10/2023 22:50 to 11/10/2023 2
 =======================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-32955             BTP  dynamic_TF_carry   [1]              862.933   -185.531     -4.31467       -8.62933          -17.2587                      NaN            -12.944
-32956         LIVECOW  dynamic_TF_carry  [-1]              325.574    -12.209     -4.06967             -0          -8.13935                      NaN           -4.06967
+32957             CNH  dynamic_TF_carry  [-1]              11116.8    109.501     -2.77921       -2.22337          -7.78178                      NaN           -5.00257
+32958             VIX  dynamic_TF_carry   [1]              811.589    142.028     -20.2897       -40.5795          -81.1589                      NaN           -60.8692
+32960             NZD  dynamic_TF_carry   [1]              81158.9    572.171     -4.05795              0          -8.11589                      NaN           -4.05795
+32961             DOW  dynamic_TF_carry   [1]             0.405795    29.2172    -0.405795      -0.405795          -1.21738                      NaN          -0.811589
+32962         LEANHOG  dynamic_TF_carry  [-1]              324.636    -275.94     -8.11589             -0          -16.2318                      NaN           -8.11589
+32963             MXP  dynamic_TF_carry   [1]               405795    109.565     -4.05795              0          -8.11589                      NaN           -4.05795
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry BTP             -185.530685
-                 LIVECOW          -12.209018
+dynamic_TF_carry CNH              109.500744
+                 DOW               29.217222
+                 LEANHOG         -275.940429
+                 MXP              109.564582
+                 NZD              572.170596
+                 VIX              142.028162
 delay_cash Total Sum
                   delay_cash
 strategy_name               
-dynamic_TF_carry -197.739704
+dynamic_TF_carry  686.540877
 bid_ask_cash Sum
                                   bid_ask_cash
 strategy_name    instrument_code              
-dynamic_TF_carry BTP                 -4.314667
-                 LIVECOW             -4.069673
+dynamic_TF_carry CNH                 -2.779207
+                 DOW                 -0.405795
+                 LEANHOG             -8.115895
+                 MXP                 -4.057947
+                 NZD                 -4.057947
+                 VIX                -20.289737
 bid_ask_cash Total Sum
                   bid_ask_cash
 strategy_name                 
-dynamic_TF_carry      -8.38434
+dynamic_TF_carry    -39.706529
 execution_cash Sum
                                   execution_cash
 strategy_name    instrument_code                
-dynamic_TF_carry BTP                   -8.629334
-                 LIVECOW               -0.000000
+dynamic_TF_carry CNH                   -2.223365
+                 DOW                   -0.405795
+                 LEANHOG               -0.000000
+                 MXP                    0.000000
+                 NZD                    0.000000
+                 VIX                  -40.579475
 execution_cash Total Sum
                   execution_cash
 strategy_name                   
-dynamic_TF_carry       -8.629334
+dynamic_TF_carry      -43.208635
 versus_limit_cash Sum
                                   versus_limit_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry BTP                     -17.258668
-                 LIVECOW                  -8.139346
+dynamic_TF_carry CNH                      -7.781779
+                 DOW                      -1.217384
+                 LEANHOG                 -16.231790
+                 MXP                      -8.115895
+                 NZD                      -8.115895
+                 VIX                     -81.158950
 versus_limit_cash Total Sum
                   versus_limit_cash
 strategy_name                      
-dynamic_TF_carry         -25.398014
+dynamic_TF_carry        -122.621693
 versus_parent_limit_cash Sum
                                   versus_parent_limit_cash
 strategy_name    instrument_code                          
-dynamic_TF_carry BTP                                     0
-                 LIVECOW                                 0
+dynamic_TF_carry CNH                                     0
+                 DOW                                     0
+                 LEANHOG                                 0
+                 MXP                                     0
+                 NZD                                     0
+                 VIX                                     0
 versus_parent_limit_cash Total Sum
                   versus_parent_limit_cash
 strategy_name                             
@@ -97,12 +137,16 @@ dynamic_TF_carry                         0
 total_trading_cash Sum
                                   total_trading_cash
 strategy_name    instrument_code                    
-dynamic_TF_carry BTP                      -12.944001
-                 LIVECOW                   -4.069673
+dynamic_TF_carry CNH                       -5.002572
+                 DOW                       -0.811589
+                 LEANHOG                   -8.115895
+                 MXP                       -4.057947
+                 NZD                       -4.057947
+                 VIX                      -60.869212
 total_trading_cash Total Sum
                   total_trading_cash
 strategy_name                       
-dynamic_TF_carry          -17.013674
+dynamic_TF_carry          -82.915164
 
 ********************************************************************************
                                  END OF REPORT                                  
