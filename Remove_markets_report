@@ -1,11 +1,11 @@
 
 ********************************************************************************
-              Removed markets report produced on 17/10/2023 23:07               
+              Removed markets report produced on 18/10/2023 23:07               
 ********************************************************************************
 
 
 List of markets which should be marked as untradeable due to risk, liquidity or cost issues
-Following should be removed from trading (add to config.bad_markets) [0.300000 threshold]: ['R1000', 'OJ', 'MSCIEMASIA', 'US3', 'US2', 'SUGAR16', 'COAL', 'IG', 'GBPCHF', 'CAD2', 'CANOLA', 'EURIBOR-ICE', 'SONIA3', 'DX', 'COAL-GEORDIE', 'HIGHYIELD', 'WHEAT_ICE', 'SARONA'] 
+Following should be removed from trading (add to config.bad_markets) [0.300000 threshold]: ['COAL', 'EURIBOR-ICE', 'MSCIEMASIA', 'DX', 'CAD2', 'IG', 'US2', 'COAL-GEORDIE', 'GBPCHF', 'WHEAT_ICE', 'SARONA', 'HIGHYIELD', 'US3', 'SUGAR16', 'OJ', 'R1000', 'SONIA3', 'CANOLA'] 
 
 
 
@@ -13,7 +13,7 @@ Following should be allowed to trade (delete from config.bad_markets) [0.300000 
 
 
 
-Markets too expensive (SR cost per trade > 0.010): ['AEX_mini', 'BB3M', 'BUTTER', 'CANOLA', 'CH10', 'CHEESE', 'CLP', 'COTTON', 'CZK', 'DX', 'ETHANOL', 'EURIBOR', 'FTSEINDO', 'FTSEVIET', 'GASOILINE_micro', 'HOUSE-US', 'IRS', 'JGB-mini', 'KRWUSD', 'LUMBER-new', 'MILK', 'MILKDRY', 'MILKWET', 'OATIES', 'OJ', 'OMX', 'RUR', 'SGX', 'STEEL', 'SWISSLEAD', 'TWD-mini', 'VNKI', 'WHEY', 'ZAR']
+Markets too expensive (SR cost per trade > 0.010): ['AEX_mini', 'BB3M', 'BUTTER', 'CANOLA', 'CH10', 'CHEESE', 'CLP', 'COTTON', 'CZK', 'DX', 'ETHANOL', 'EUA', 'EURIBOR', 'FTSEINDO', 'FTSEVIET', 'GASOILINE_micro', 'HOUSE-US', 'IRS', 'JGB-mini', 'KRWUSD', 'LUMBER-new', 'MILK', 'MILKDRY', 'MILKWET', 'OATIES', 'OJ', 'OMX', 'RUR', 'SGX', 'STEEL', 'SWISSLEAD', 'TWD-mini', 'VNKI', 'WHEY', 'ZAR']
 
 
 
@@ -21,11 +21,11 @@ Markets not enough risk volume (Volume in $m ann. risk per day < 1.50): ['AEX_mi
 
 
 
-Markets not enough contract volume (Volume in contracts per day < 100): ['AEX_mini', 'AUDJPY', 'BOVESPA', 'BUTTER', 'CH10', 'CHFJPY', 'CLP', 'CNH-onshore', 'COAL', 'COAL-GEORDIE', 'COPPER-mini', 'COTTON', 'CZK', 'ETHANOL', 'EU-DJ-TECH', 'EU-HOUSE', 'EU-MEDIA', 'EURAUD', 'EURCAD', 'EUROSTX-LARGE', 'GASOILINE_micro', 'GBPCHF', 'GBPJPY', 'GICS', 'HIGHYIELD', 'IG', 'INR', 'IRS', 'JGB-mini', 'KRWUSD', 'MILKDRY', 'MILKWET', 'MSCIEMASIA', 'NOK', 'OMX', 'PLN', 'R1000', 'RUR', 'SEK', 'SGD_mini', 'SGX', 'STEEL', 'SUGAR16', 'SWISSLEAD', 'TWD', 'TWD-mini', 'VNKI', 'WHEY']
+Markets not enough contract volume (Volume in contracts per day < 100): ['AEX_mini', 'AUDJPY', 'BOVESPA', 'BUTTER', 'CH10', 'CHFJPY', 'CLP', 'CNH-onshore', 'COAL', 'COAL-GEORDIE', 'COPPER-mini', 'COTTON', 'CZK', 'ETHANOL', 'EU-DJ-TECH', 'EU-HOUSE', 'EU-MEDIA', 'EURAUD', 'EURCAD', 'EUROSTX-LARGE', 'GASOILINE_micro', 'GBPCHF', 'GBPJPY', 'GICS', 'HIGHYIELD', 'IG', 'INR', 'IRS', 'JGB-mini', 'KRWUSD', 'MILKDRY', 'MILKWET', 'MSCIEMASIA', 'NOK', 'OMX', 'PLN', 'R1000', 'RUR', 'SEK', 'SGD_mini', 'SGX', 'STEEL', 'SUGAR16', 'SWISSLEAD', 'TIN_LME', 'TWD', 'TWD-mini', 'VNKI', 'WHEY']
 
 
 
-Markets too safe (Annual % std. dev < 5.0): ['BB3M', 'BTP3', 'CAD2', 'CAD5', 'CNH', 'ETHANOL', 'EURIBOR', 'EURIBOR-ICE', 'FED', 'GBPEUR', 'HOUSE-US', 'INR', 'JGB', 'JGB-SGX-mini', 'JGB-mini', 'KR3', 'SARONA', 'SGD', 'SGD_mini', 'SHATZ', 'SOFR', 'SONIA3', 'TWD', 'US2', 'US3']
+Markets too safe (Annual % std. dev < 5.0): ['BB3M', 'BOBL', 'BTP3', 'CAD2', 'CAD5', 'CNH', 'ETHANOL', 'EURIBOR', 'EURIBOR-ICE', 'FED', 'GBPEUR', 'HOUSE-US', 'INR', 'JGB', 'JGB-SGX-mini', 'JGB-mini', 'KR3', 'SARONA', 'SGD', 'SGD_mini', 'SHATZ', 'SOFR', 'SONIA3', 'TWD', 'TWD-mini', 'US2', 'US3']
 
 
 
@@ -149,6 +149,7 @@ exclude_instrument_lists:
     - AUDJPY 
     - BB3M 
     - BBCOMM 
+    - BOBL 
     - BOVESPA 
     - BTP3 
     - BUTTER 
@@ -185,6 +186,7 @@ exclude_instrument_lists:
     - EU-MID 
     - EU-RETAIL 
     - EU-TRAVEL 
+    - EUA 
     - EURAUD 
     - EURCAD 
     - EURIBOR 
@@ -239,6 +241,7 @@ exclude_instrument_lists:
     - STEEL 
     - SUGAR16 
     - SWISSLEAD 
+    - TIN_LME 
     - TWD 
     - TWD-mini 
     - US2 
