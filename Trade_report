@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 27/10/2023 22:50 from 26/10/2023 22:50 to 27/10/2023 22:50
+Trades report produced on 30/10/2023 22:50 from 29/10/2023 22:50 to 30/10/2023 22:50
 ********************************************************************************
 
 
@@ -10,7 +10,14 @@ Trades report produced on 27/10/2023 22:50 from 26/10/2023 22:50 to 27/10/2023 2
 =============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-32968             CNH  dynamic_TF_carry    [20231100] 2023-10-27 01:00:07  [-1]         7.317
+32974         BITCOIN  dynamic_TF_carry    [20231100] 2023-10-30 15:00:07   [1]   34955.00000
+32970             DAX  dynamic_TF_carry    [20231200] 2023-10-30 08:00:10  [-1]   14823.00000
+32969         EURO600  dynamic_TF_carry    [20231200] 2023-10-30 08:00:04  [-1]     432.60000
+32971     GAS_US_mini  dynamic_TF_carry    [20231200] 2023-10-30 14:00:07   [1]       3.34500
+32975    NASDAQ_micro  dynamic_TF_carry    [20231200] 2023-10-30 15:00:09  [-1]   14351.00000
+32973             NZD  dynamic_TF_carry    [20231200] 2023-10-30 15:00:06  [-1]       0.58330
+32972         RUSSELL  dynamic_TF_carry    [20231200] 2023-10-30 15:00:03  [-1]    1644.70000
+32976             US3  dynamic_TF_carry    [20231200] 2023-10-30 15:00:10   [1]     102.84375
 
 
 ========================================================================================================================================================
@@ -18,15 +25,29 @@ Trades report produced on 27/10/2023 22:50 from 26/10/2023 22:50 to 27/10/2023 2
 ========================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
-32968             CNH  dynamic_TF_carry       2023-10-20 05:00:00 2023-10-27 01:00:06.525 2023-10-27 01:00:07                 590407               0.475
+32969         EURO600  dynamic_TF_carry       2023-10-27 00:00:00 2023-10-30 08:00:04.039 2023-10-30 08:00:04                 288004                 NaN
+32970             DAX  dynamic_TF_carry       2023-10-27 00:00:00 2023-10-30 08:00:09.848 2023-10-30 08:00:10                 288010               0.152
+32971     GAS_US_mini  dynamic_TF_carry       2023-10-27 20:00:00 2023-10-30 14:00:02.818 2023-10-30 14:00:07                 237603               4.182
+32972         RUSSELL  dynamic_TF_carry       2023-10-27 00:00:00 2023-10-30 15:00:02.624 2023-10-30 15:00:03                 313203               0.376
+32973             NZD  dynamic_TF_carry       2023-10-27 00:00:00 2023-10-30 15:00:04.117 2023-10-30 15:00:06                 313204               1.883
+32974         BITCOIN  dynamic_TF_carry       2023-10-27 00:00:00 2023-10-30 15:00:07.469 2023-10-30 15:00:07                 313207                 NaN
+32975    NASDAQ_micro  dynamic_TF_carry       2023-10-27 00:00:00 2023-10-30 15:00:08.896 2023-10-30 15:00:09                 313209               0.104
+32976             US3  dynamic_TF_carry       2023-10-27 00:00:00 2023-10-30 15:00:10.381 2023-10-30 15:00:10                 313210                 NaN
 
 
-============================================================================================================================================================================================================================
-                                                                                                  Slippage (ticks per lot)                                                                                                  
-============================================================================================================================================================================================================================
+==================================================================================================================================================================================================================================
+                                                                                                     Slippage (ticks per lot)                                                                                                     
+==================================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
-32968             CNH  dynamic_TF_carry  [-1]                   7.33               None    7.3173     7.3171        7.3175        None        7.317 -0.0127 -0.0002   -0.0001          NaN                 NaN       -0.0003
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay     bid_ask execution versus_limit versus_parent_limit total_trading
+32969         EURO600  dynamic_TF_carry  [-1]                  430.6               None    432.85      432.8         432.9         NaN        432.6      2.25       -0.05      -0.2          NaN                 NaN         -0.25
+32970             DAX  dynamic_TF_carry  [-1]                  14759               None     14822      14821         14823       14823        14823        63          -1         2           -0                 NaN             1
+32971     GAS_US_mini  dynamic_TF_carry   [1]                   3.46               None    3.3425      3.345          3.34        3.34        3.345    0.1175     -0.0025         0       -0.005                 NaN       -0.0025
+32972         RUSSELL  dynamic_TF_carry  [-1]                 1643.3               None   1644.85     1644.8        1644.9      1644.9       1644.7      1.55       -0.05      -0.1         -0.2                 NaN         -0.15
+32973             NZD  dynamic_TF_carry  [-1]                 0.5807               None  0.583325     0.5833       0.58335     0.58335       0.5833  0.002625    -2.5e-05        -0       -5e-05                 NaN      -2.5e-05
+32974         BITCOIN  dynamic_TF_carry   [1]                  33915               None     34945      34950         34940       34940        34955     -1030          -5        -5          -15                 NaN           -10
+32975    NASDAQ_micro  dynamic_TF_carry  [-1]                  14233               None   14350.9    14350.8         14351       14351        14351   117.875      -0.125      0.25           -0                 NaN         0.125
+32976             US3  dynamic_TF_carry   [1]                102.957               None   102.842    102.844        102.84         NaN      102.844  0.115234 -0.00195312         0          NaN                 NaN   -0.00195312
 
 
 ============================================================================================================================================================
@@ -34,7 +55,14 @@ Trades report produced on 27/10/2023 22:50 from 26/10/2023 22:50 to 27/10/2023 2
 ============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-32968             CNH  dynamic_TF_carry  [-1]        0.264079  -480.918    -7.57351      -3.78675              NaN                     NaN          -11.3603
+32969         EURO600  dynamic_TF_carry  [-1]         59.8874   375.705      -8.349       -33.396              NaN                     NaN           -41.745
+32970             DAX  dynamic_TF_carry  [-1]         2151.89   292.766    -4.64708       9.29417               -0                     NaN           4.64708
+32971     GAS_US_mini  dynamic_TF_carry   [1]         1.88634   622.899    -13.2532             0         -26.5063                     NaN          -13.2532
+32972         RUSSELL  dynamic_TF_carry  [-1]         355.641   43.5833    -1.40591      -2.81183         -5.62365                     NaN          -4.21774
+32973             NZD  dynamic_TF_carry  [-1]       0.0585779   448.121    -4.26782            -0         -8.53564                     NaN          -4.26782
+32974         BITCOIN  dynamic_TF_carry   [1]         14148.7  -727.982     -3.5339       -3.5339         -10.6017                     NaN          -7.06779
+32975    NASDAQ_micro  dynamic_TF_carry  [-1]         3027.35   389.367   -0.412903      0.825806               -0                     NaN          0.412903
+32976             US3  dynamic_TF_carry   [1]         3.47138   331.956    -5.62637             0              NaN                     NaN          -5.62637
 
 
 =======================================================================================================================================================================
@@ -42,44 +70,86 @@ Trades report produced on 27/10/2023 22:50 from 26/10/2023 22:50 to 27/10/2023 2
 =======================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-32968             CNH  dynamic_TF_carry  [-1]              11257.1   -142.966     -2.25143       -1.12571               NaN                      NaN           -3.37714
+32969         EURO600  dynamic_TF_carry  [-1]              43.5449    97.9761     -2.17725       -8.70899               NaN                      NaN           -10.8862
+32970             DAX  dynamic_TF_carry  [-1]             0.870899    54.8666    -0.870899         1.7418                -0                      NaN           0.870899
+32971     GAS_US_mini  dynamic_TF_carry   [1]              2061.01    242.168     -5.15251              0           -10.305                      NaN           -5.15251
+32972         RUSSELL  dynamic_TF_carry  [-1]              4.12201    6.38912    -0.206101      -0.412201         -0.824402                      NaN          -0.618302
+32973             NZD  dynamic_TF_carry  [-1]              82440.2    216.406     -2.06101             -0          -4.12201                      NaN           -2.06101
+32974         BITCOIN  dynamic_TF_carry   [1]            0.0824402   -84.9134    -0.412201      -0.412201           -1.2366                      NaN          -0.824402
+32975    NASDAQ_micro  dynamic_TF_carry  [-1]               1.6488    194.353    -0.206101       0.412201                -0                      NaN           0.206101
+32976             US3  dynamic_TF_carry   [1]               1648.8    189.999     -3.22032              0               NaN                      NaN           -3.22032
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry CNH             -142.965656
+dynamic_TF_carry BITCOIN          -84.913438
+                 DAX               54.866612
+                 EURO600           97.976092
+                 GAS_US_mini      242.168178
+                 NASDAQ_micro     194.352844
+                 NZD              216.405606
+                 RUSSELL            6.389118
+                 US3              189.998969
 delay_cash Total Sum
                   delay_cash
 strategy_name               
-dynamic_TF_carry -142.965656
+dynamic_TF_carry  917.243982
 bid_ask_cash Sum
                                   bid_ask_cash
 strategy_name    instrument_code              
-dynamic_TF_carry CNH                 -2.251428
+dynamic_TF_carry BITCOIN             -0.412201
+                 DAX                 -0.870899
+                 EURO600             -2.177246
+                 GAS_US_mini         -5.152514
+                 NASDAQ_micro        -0.206101
+                 NZD                 -2.061006
+                 RUSSELL             -0.206101
+                 US3                 -3.220322
 bid_ask_cash Total Sum
                   bid_ask_cash
 strategy_name                 
-dynamic_TF_carry     -2.251428
+dynamic_TF_carry    -14.306389
 execution_cash Sum
                                   execution_cash
 strategy_name    instrument_code                
-dynamic_TF_carry CNH                   -1.125714
+dynamic_TF_carry BITCOIN               -0.412201
+                 DAX                    1.741797
+                 EURO600               -8.708986
+                 GAS_US_mini            0.000000
+                 NASDAQ_micro           0.412201
+                 NZD                   -0.000000
+                 RUSSELL               -0.412201
+                 US3                    0.000000
 execution_cash Total Sum
                   execution_cash
 strategy_name                   
-dynamic_TF_carry       -1.125714
+dynamic_TF_carry        -7.37939
 versus_limit_cash Sum
                                   versus_limit_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry CNH                              0
+dynamic_TF_carry BITCOIN                  -1.236603
+                 DAX                      -0.000000
+                 EURO600                   0.000000
+                 GAS_US_mini             -10.305029
+                 NASDAQ_micro             -0.000000
+                 NZD                      -4.122012
+                 RUSSELL                  -0.824402
+                 US3                       0.000000
 versus_limit_cash Total Sum
                   versus_limit_cash
 strategy_name                      
-dynamic_TF_carry                  0
+dynamic_TF_carry         -16.488046
 versus_parent_limit_cash Sum
                                   versus_parent_limit_cash
 strategy_name    instrument_code                          
-dynamic_TF_carry CNH                                     0
+dynamic_TF_carry BITCOIN                                 0
+                 DAX                                     0
+                 EURO600                                 0
+                 GAS_US_mini                             0
+                 NASDAQ_micro                            0
+                 NZD                                     0
+                 RUSSELL                                 0
+                 US3                                     0
 versus_parent_limit_cash Total Sum
                   versus_parent_limit_cash
 strategy_name                             
@@ -87,11 +157,18 @@ dynamic_TF_carry                         0
 total_trading_cash Sum
                                   total_trading_cash
 strategy_name    instrument_code                    
-dynamic_TF_carry CNH                       -3.377141
+dynamic_TF_carry BITCOIN                   -0.824402
+                 DAX                        0.870899
+                 EURO600                  -10.886232
+                 GAS_US_mini               -5.152514
+                 NASDAQ_micro               0.206101
+                 NZD                       -2.061006
+                 RUSSELL                   -0.618302
+                 US3                       -3.220322
 total_trading_cash Total Sum
                   total_trading_cash
 strategy_name                       
-dynamic_TF_carry           -3.377141
+dynamic_TF_carry          -21.685779
 
 ********************************************************************************
                                  END OF REPORT                                  
