@@ -1,10 +1,10 @@
 
 ********************************************************************************
-                 Reconcile report produced on 02/11/2023 22:50                  
+                 Reconcile report produced on 03/11/2023 22:50                  
 ********************************************************************************
 
 
-Breaks Optimal vs actual []
+Breaks Optimal vs actual ['dynamic_TF_carry BITCOIN', 'dynamic_TF_carry GAS_US_mini', 'dynamic_TF_carry GBP', 'dynamic_TF_carry NASDAQ_micro', 'dynamic_TF_carry OAT']
  Breaks Instrument vs Contract []
  Breaks Broker vs Contract []
 
@@ -37,22 +37,22 @@ Breaks Optimal vs actual []
 ===============================================================
 
    instrument_code contract_date          expiry_date  position
-2              AUD      20231218  2023-12-18 00:00:00      -1.0
-6          BITCOIN      20231124  2023-11-24 00:00:00       1.0
-1             BUND      20231207  2023-12-07 00:00:00      -1.0
-12             CHF      20231218  2023-12-18 00:00:00      -1.0
-8     COPPER-micro      20231128  2023-11-28 00:00:00      -1.0
-7              DAX      20231215  2023-12-15 00:00:00      -6.0
-11          EU-OIL      20231215  2023-12-15 00:00:00       4.0
-15         EURO600      20231215  2023-12-15 00:00:00      -1.0
-3              GBP      20231218  2023-12-18 00:00:00      -1.0
-9              JPY      20231218  2023-12-18 00:00:00      -1.0
-5          LEANHOG      20240214  2024-02-14 00:00:00       1.0
-14             MXP      20231218  2023-12-18 00:00:00       2.0
-16    NASDAQ_micro      20231215  2023-12-15 00:00:00      -1.0
-0           NIKKEI      20231207  2023-12-07 00:00:00       3.0
-10             NZD      20231218  2023-12-18 00:00:00      -1.0
-13         RUSSELL      20231215  2023-12-15 00:00:00      -4.0
+14             AUD      20231218  2023-12-18 00:00:00      -1.0
+13         BITCOIN      20231124  2023-11-24 00:00:00       1.0
+2             BUND      20231207  2023-12-07 00:00:00      -1.0
+5              CHF      20231218  2023-12-18 00:00:00      -1.0
+16    COPPER-micro      20231128  2023-11-28 00:00:00      -1.0
+15             DAX      20231215  2023-12-15 00:00:00      -6.0
+0           EU-OIL      20231215  2023-12-15 00:00:00       4.0
+9          EURO600      20231215  2023-12-15 00:00:00      -1.0
+11             GBP      20231218  2023-12-18 00:00:00      -1.0
+3              JPY      20231218  2023-12-18 00:00:00      -1.0
+12         LEANHOG      20240214  2024-02-14 00:00:00       1.0
+6              MXP      20231218  2023-12-18 00:00:00       2.0
+1     NASDAQ_micro      20231215  2023-12-15 00:00:00      -1.0
+7           NIKKEI      20231207  2023-12-07 00:00:00       3.0
+8              NZD      20231218  2023-12-18 00:00:00      -1.0
+10         RUSSELL      20231215  2023-12-15 00:00:00      -4.0
 4             US20      20231219  2023-12-19 00:00:00      -1.0
 
 
@@ -85,7 +85,7 @@ dynamic_TF_carry AUD                    -1      -1   False
 dynamic_TF_carry AUDJPY                  0       0   False
 dynamic_TF_carry BB3M                    0       0   False
 dynamic_TF_carry BBCOMM                  0       0   False
-dynamic_TF_carry BITCOIN                 1       1   False
+dynamic_TF_carry BITCOIN                 1       2    True
 dynamic_TF_carry BOBL                    0       0   False
 dynamic_TF_carry BONO                    0       0   False
 dynamic_TF_carry BOVESPA                 0       0   False
@@ -157,8 +157,8 @@ dynamic_TF_carry FTSEVIET                0       0   False
 dynamic_TF_carry GAS-LAST                0       0   False
 dynamic_TF_carry GAS-PEN                 0       0   False
 dynamic_TF_carry GASOILINE               0       0   False
-dynamic_TF_carry GAS_US_mini             0       0   False
-dynamic_TF_carry GBP                    -1      -1   False
+dynamic_TF_carry GAS_US_mini             0      -1    True
+dynamic_TF_carry GBP                    -1       0    True
 dynamic_TF_carry GBPCHF                  0       0   False
 dynamic_TF_carry GBPEUR                  0       0   False
 dynamic_TF_carry GBPJPY                  0       0   False
@@ -191,12 +191,12 @@ dynamic_TF_carry MSCISING                0       0   False
 dynamic_TF_carry MSCIWORLD               0       0   False
 dynamic_TF_carry MUMMY                   0       0   False
 dynamic_TF_carry MXP                     2       2   False
-dynamic_TF_carry NASDAQ_micro           -1      -1   False
+dynamic_TF_carry NASDAQ_micro           -1       0    True
 dynamic_TF_carry NIKKEI                  3       3   False
 dynamic_TF_carry NIKKEI400               0       0   False
 dynamic_TF_carry NOK                     0       0   False
 dynamic_TF_carry NZD                    -1      -1   False
-dynamic_TF_carry OAT                     0       0   False
+dynamic_TF_carry OAT                     0       1    True
 dynamic_TF_carry OATIES                  0       0   False
 dynamic_TF_carry OMX                     0       0   False
 dynamic_TF_carry PALLAD                  0       0   False
