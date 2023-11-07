@@ -1,141 +1,15 @@
 
 ********************************************************************************
-Trades report produced on 06/11/2023 22:50 from 05/11/2023 22:50 to 06/11/2023 22:50
+Trades report produced on 07/11/2023 22:50 from 06/11/2023 22:50 to 07/11/2023 22:50
 ********************************************************************************
 
 
-
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
-
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-32981         BITCOIN  dynamic_TF_carry    [20231200] 2023-11-06 15:00:08   [1]    35960.0000
-32978     GAS_US_mini  dynamic_TF_carry    [20240100] 2023-11-06 14:00:28  [-1]        3.6200
-32980             GBP  dynamic_TF_carry    [20231200] 2023-11-06 15:00:03   [1]        1.2394
-32979    NASDAQ_micro  dynamic_TF_carry    [20231200] 2023-11-06 15:00:01   [1]    15220.7500
-32977             OAT  dynamic_TF_carry    [20231200] 2023-11-06 08:51:52   [1]      124.7600
-
-
-========================================================================================================================================================
-                                                                         Delays                                                                         
-========================================================================================================================================================
-
-      instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
-32977             OAT  dynamic_TF_carry                2023-11-03 2023-11-06 08:51:51.698 2023-11-06 08:51:52                 291112               0.302
-32978     GAS_US_mini  dynamic_TF_carry                2023-11-03 2023-11-06 14:00:21.072 2023-11-06 14:00:28                 309621               6.928
-32979    NASDAQ_micro  dynamic_TF_carry                2023-11-03 2023-11-06 15:00:01.408 2023-11-06 15:00:01                 313201                 NaN
-32980             GBP  dynamic_TF_carry                2023-11-03 2023-11-06 15:00:02.628 2023-11-06 15:00:03                 313203               0.372
-32981         BITCOIN  dynamic_TF_carry                2023-11-03 2023-11-06 15:00:04.406 2023-11-06 15:00:08                 313204               3.594
-
-
-=============================================================================================================================================================================================================================
-                                                                                                  Slippage (ticks per lot)                                                                                                   
-=============================================================================================================================================================================================================================
-
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay bid_ask execution versus_limit versus_parent_limit total_trading
-32977             OAT  dynamic_TF_carry   [1]                 125.03               None   124.755     124.76        124.75         NaN       124.76    0.275  -0.005         0          NaN                 NaN        -0.005
-32978     GAS_US_mini  dynamic_TF_carry  [-1]                  3.765               None     3.625       3.62          3.63        3.63         3.62    -0.14  -0.005        -0        -0.01                 NaN        -0.005
-32979    NASDAQ_micro  dynamic_TF_carry   [1]                  15183               None     15221    15221.2       15220.8     15220.8      15220.8      -38   -0.25       0.5            0                 NaN          0.25
-32980             GBP  dynamic_TF_carry   [1]                 1.2382               None   1.23945     1.2395        1.2394      1.2394       1.2394 -0.00125  -5e-05    0.0001            0                 NaN         5e-05
-32981         BITCOIN  dynamic_TF_carry   [1]                  35200               None   35942.5      35975         35910       35910        35960   -742.5   -32.5        15          -50                 NaN         -17.5
-
-
-============================================================================================================================================================
-                                                    Slippage (normalised by annual vol, BP of annual SR)                                                    
-============================================================================================================================================================
-
-      instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-32977             OAT  dynamic_TF_carry   [1]         10.8237   254.071    -4.61948             0              NaN                     NaN          -4.61948
-32978     GAS_US_mini  dynamic_TF_carry  [-1]         2.15304  -650.242    -23.2229            -0         -46.4459                     NaN          -23.2229
-32979    NASDAQ_micro  dynamic_TF_carry   [1]         3092.27  -122.887   -0.808467       1.61693                0                     NaN          0.808467
-32980             GBP  dynamic_TF_carry   [1]         0.10865  -115.049    -4.60195        9.2039                0                     NaN           4.60195
-32981         BITCOIN  dynamic_TF_carry   [1]         13526.5  -548.924     -24.027       11.0894         -36.9646                     NaN          -12.9376
-
-
-=======================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                      
-=======================================================================================================================================================================
-
-      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-32977             OAT  dynamic_TF_carry   [1]              866.247    238.218     -4.33124              0               NaN                      NaN           -4.33124
-32978     GAS_US_mini  dynamic_TF_carry  [-1]              2015.56   -282.178     -10.0778             -0          -20.1556                      NaN           -10.0778
-32979    NASDAQ_micro  dynamic_TF_carry   [1]              1.61245    -61.273    -0.403112       0.806224                 0                      NaN           0.403112
-32980             GBP  dynamic_TF_carry   [1]                50389   -62.9863     -2.51945         5.0389                 0                      NaN            2.51945
-32981         BITCOIN  dynamic_TF_carry   [1]            0.0806224   -59.8621     -2.62023        1.20934          -4.03112                      NaN           -1.41089
-
-delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry BITCOIN          -59.862136
-                 GAS_US_mini     -282.178417
-                 GBP              -62.986254
-                 NASDAQ_micro     -61.273028
-                 OAT              238.218043
-delay_cash Total Sum
-                  delay_cash
-strategy_name               
-dynamic_TF_carry -228.081791
-bid_ask_cash Sum
-                                  bid_ask_cash
-strategy_name    instrument_code              
-dynamic_TF_carry BITCOIN             -2.620228
-                 GAS_US_mini        -10.077801
-                 GBP                 -2.519450
-                 NASDAQ_micro        -0.403112
-                 OAT                 -4.331237
-bid_ask_cash Total Sum
-                  bid_ask_cash
-strategy_name                 
-dynamic_TF_carry    -19.951828
-execution_cash Sum
-                                  execution_cash
-strategy_name    instrument_code                
-dynamic_TF_carry BITCOIN                1.209336
-                 GAS_US_mini           -0.000000
-                 GBP                    5.038900
-                 NASDAQ_micro           0.806224
-                 OAT                    0.000000
-execution_cash Total Sum
-                  execution_cash
-strategy_name                   
-dynamic_TF_carry         7.05446
-versus_limit_cash Sum
-                                  versus_limit_cash
-strategy_name    instrument_code                   
-dynamic_TF_carry BITCOIN                  -4.031120
-                 GAS_US_mini             -20.155601
-                 GBP                       0.000000
-                 NASDAQ_micro              0.000000
-                 OAT                       0.000000
-versus_limit_cash Total Sum
-                  versus_limit_cash
-strategy_name                      
-dynamic_TF_carry         -24.186721
-versus_parent_limit_cash Sum
-                                  versus_parent_limit_cash
-strategy_name    instrument_code                          
-dynamic_TF_carry BITCOIN                                 0
-                 GAS_US_mini                             0
-                 GBP                                     0
-                 NASDAQ_micro                            0
-                 OAT                                     0
-versus_parent_limit_cash Total Sum
-                  versus_parent_limit_cash
-strategy_name                             
-dynamic_TF_carry                         0
-total_trading_cash Sum
-                                  total_trading_cash
-strategy_name    instrument_code                    
-dynamic_TF_carry BITCOIN                   -1.410892
-                 GAS_US_mini              -10.077801
-                 GBP                        2.519450
-                 NASDAQ_micro               0.403112
-                 OAT                       -4.331237
-total_trading_cash Total Sum
-                  total_trading_cash
-strategy_name                       
-dynamic_TF_carry          -12.897368
+No trades
+No trades
+No trades
+No trades
+No trades
+No trades
 
 ********************************************************************************
                                  END OF REPORT                                  
