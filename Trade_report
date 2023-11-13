@@ -1,15 +1,141 @@
 
 ********************************************************************************
-Trades report produced on 10/11/2023 22:50 from 09/11/2023 22:50 to 10/11/2023 22:50
+Trades report produced on 13/11/2023 22:50 from 12/11/2023 22:50 to 13/11/2023 22:50
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+32996         BITCOIN  dynamic_TF_carry    [20231100] 2023-11-13 15:00:06  [-1]   36970.00000
+32992             DAX  dynamic_TF_carry    [20231200] 2023-11-13 10:57:38   [1]   15361.00000
+32991          EU-OIL  dynamic_TF_carry    [20231200] 2023-11-13 10:54:39  [-1]     355.10000
+32995             JPY  dynamic_TF_carry    [20231200] 2023-11-13 15:00:05  [-1]       0.00662
+32993            PLAT  dynamic_TF_carry    [20240100] 2023-11-13 14:00:05  [-1]     850.00000
+
+
+========================================================================================================================================================
+                                                                         Delays                                                                         
+========================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime         submit_datetime       fill_datetime submit_minus_generated filled_minus_submit
+32991          EU-OIL  dynamic_TF_carry       2023-11-10 00:00:00 2023-11-13 10:54:10.957 2023-11-13 10:54:39                 298451              28.043
+32992             DAX  dynamic_TF_carry       2023-11-10 00:00:00 2023-11-13 10:57:38.132 2023-11-13 10:57:38                 298658                 NaN
+32993            PLAT  dynamic_TF_carry       2023-11-10 00:00:00 2023-11-13 14:00:04.887 2023-11-13 14:00:05                 309605               0.113
+32995             JPY  dynamic_TF_carry       2023-11-10 00:00:00 2023-11-13 15:00:05.549 2023-11-13 15:00:05                 313206                 NaN
+32996         BITCOIN  dynamic_TF_carry       2023-11-10 19:00:00 2023-11-13 15:00:06.599 2023-11-13 15:00:06                 244807                 NaN
+
+
+==================================================================================================================================================================================================================================
+                                                                                                     Slippage (ticks per lot)                                                                                                     
+==================================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price   mid_price side_price offside_price limit_price filled_price      delay  bid_ask execution versus_limit versus_parent_limit total_trading
+32991          EU-OIL  dynamic_TF_carry  [-1]                  352.7               None       355.2      355.1         355.3       355.3        355.1        2.5     -0.1        -0         -0.2                 NaN          -0.1
+32992             DAX  dynamic_TF_carry   [1]                  15273               None     15361.5      15362         15361       15361        15361      -88.5     -0.5         1            0                 NaN           0.5
+32993            PLAT  dynamic_TF_carry  [-1]                    846               None       850.2        850         850.4       850.4          850        4.2     -0.2        -0         -0.4                 NaN          -0.2
+32995             JPY  dynamic_TF_carry  [-1]              0.0066355               None  0.00661975  0.0066195       0.00662     0.00662      0.00662 -1.575e-05 -2.5e-07     5e-07           -0                 NaN       2.5e-07
+32996         BITCOIN  dynamic_TF_carry  [-1]                  37555               None     36977.5      36970         36985       36985        36970     -577.5     -7.5        -0          -15                 NaN          -7.5
+
+
+============================================================================================================================================================
+                                                    Slippage (normalised by annual vol, BP of annual SR)                                                    
+============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+32991          EU-OIL  dynamic_TF_carry  [-1]         72.5962   344.371    -13.7748            -0         -27.5496                     NaN          -13.7748
+32992             DAX  dynamic_TF_carry   [1]         2097.79  -421.872    -2.38346       4.76691                0                     NaN           2.38346
+32993            PLAT  dynamic_TF_carry  [-1]         256.797   163.553    -7.78826            -0         -15.5765                     NaN          -7.78826
+32995             JPY  dynamic_TF_carry  [-1]     0.000590363  -266.785    -4.23468       8.46936               -0                     NaN           4.23468
+32996         BITCOIN  dynamic_TF_carry  [-1]         13012.3   -443.81    -5.76376            -0         -11.5275                     NaN          -5.76376
+
+
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+32991          EU-OIL  dynamic_TF_carry  [-1]              43.6572    109.143     -4.36572             -0          -8.73143                      NaN           -4.36572
+32992             DAX  dynamic_TF_carry   [1]             0.873143   -77.2732    -0.436572       0.873143                 0                      NaN           0.436572
+32993            PLAT  dynamic_TF_carry  [-1]               40.803    171.373      -8.1606             -0          -16.3212                      NaN            -8.1606
+32995             JPY  dynamic_TF_carry  [-1]          1.02008e+07   -160.662     -2.55019        5.10038                -0                      NaN            2.55019
+32996         BITCOIN  dynamic_TF_carry  [-1]             0.081606   -47.1275    -0.612045             -0          -1.22409                      NaN          -0.612045
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry BITCOIN          -47.127469
+                 DAX              -77.273197
+                 EU-OIL           109.142933
+                 JPY             -160.661825
+                 PLAT             171.372613
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry   -4.546944
+bid_ask_cash Sum
+                                  bid_ask_cash
+strategy_name    instrument_code              
+dynamic_TF_carry BITCOIN             -0.612045
+                 DAX                 -0.436572
+                 EU-OIL              -4.365717
+                 JPY                 -2.550188
+                 PLAT                -8.160601
+bid_ask_cash Total Sum
+                  bid_ask_cash
+strategy_name                 
+dynamic_TF_carry    -16.125122
+execution_cash Sum
+                                  execution_cash
+strategy_name    instrument_code                
+dynamic_TF_carry BITCOIN               -0.000000
+                 DAX                    0.873143
+                 EU-OIL                -0.000000
+                 JPY                    5.100375
+                 PLAT                  -0.000000
+execution_cash Total Sum
+                  execution_cash
+strategy_name                   
+dynamic_TF_carry        5.973519
+versus_limit_cash Sum
+                                  versus_limit_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry BITCOIN                  -1.224090
+                 DAX                       0.000000
+                 EU-OIL                   -8.731435
+                 JPY                      -0.000000
+                 PLAT                    -16.321201
+versus_limit_cash Total Sum
+                  versus_limit_cash
+strategy_name                      
+dynamic_TF_carry         -26.276726
+versus_parent_limit_cash Sum
+                                  versus_parent_limit_cash
+strategy_name    instrument_code                          
+dynamic_TF_carry BITCOIN                                 0
+                 DAX                                     0
+                 EU-OIL                                  0
+                 JPY                                     0
+                 PLAT                                    0
+versus_parent_limit_cash Total Sum
+                  versus_parent_limit_cash
+strategy_name                             
+dynamic_TF_carry                         0
+total_trading_cash Sum
+                                  total_trading_cash
+strategy_name    instrument_code                    
+dynamic_TF_carry BITCOIN                   -0.612045
+                 DAX                        0.436572
+                 EU-OIL                    -4.365717
+                 JPY                        2.550188
+                 PLAT                      -8.160601
+total_trading_cash Total Sum
+                  total_trading_cash
+strategy_name                       
+dynamic_TF_carry          -10.151604
 
 ********************************************************************************
                                  END OF REPORT                                  
