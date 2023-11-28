@@ -1,11 +1,11 @@
 
 ********************************************************************************
-              Removed markets report produced on 27/11/2023 23:02               
+              Removed markets report produced on 28/11/2023 23:02               
 ********************************************************************************
 
 
 List of markets which should be marked as untradeable due to risk, liquidity or cost issues
-Following should be removed from trading (add to config.bad_markets) [0.300000 threshold]: ['MSCIEMASIA', 'SUGAR16', 'COAL-GEORDIE', 'TIN_LME', 'EURIBOR-ICE', 'US2', 'WHEAT_mini', 'WHEAT_ICE', 'HIGHYIELD', 'R1000', 'IG', 'IBEX_mini', 'SONIA3', 'CAD2', 'GBPCHF', 'COAL', 'SARONA'] 
+Following should be removed from trading (add to config.bad_markets) [0.300000 threshold]: ['HIGHYIELD', 'R1000', 'EURIBOR-ICE', 'IBEX_mini', 'SARONA', 'GBPCHF', 'COAL-GEORDIE', 'WHEAT_ICE', 'IG', 'US2', 'TIN_LME', 'MSCIEMASIA', 'SONIA3', 'SUGAR16', 'COAL', 'WHEAT_mini', 'CAD2'] 
 
 
 
@@ -13,7 +13,7 @@ Following should be allowed to trade (delete from config.bad_markets) [0.300000 
 
 
 
-Markets too expensive (SR cost per trade > 0.010): ['AEX_mini', 'BB3M', 'BUTTER', 'CH10', 'CLP', 'CNH-onshore', 'COAL', 'COAL-GEORDIE', 'COTTON', 'CZK', 'ETHANOL', 'EURIBOR', 'FTSEINDO', 'FTSEVIET', 'GASOILINE_micro', 'HOUSE-US', 'IRS', 'JGB-mini', 'KRWUSD', 'LUMBER-new', 'MILKDRY', 'MILKWET', 'OMX', 'RUR', 'SGX', 'SMI-MID', 'STEEL', 'SUGAR16', 'SWISSLEAD', 'TIN_LME', 'VNKI', 'WHEAT_ICE', 'WHEY']
+Markets too expensive (SR cost per trade > 0.010): ['AEX_mini', 'BB3M', 'BUTTER', 'CH10', 'CLP', 'CNH-onshore', 'COAL', 'COAL-GEORDIE', 'COTTON', 'CZK', 'ETHANOL', 'EURIBOR', 'FTSEINDO', 'FTSEVIET', 'GASOILINE_micro', 'HOUSE-US', 'IRS', 'JGB-mini', 'KRWUSD', 'LUMBER-new', 'MILKDRY', 'MILKWET', 'OJ', 'OMX', 'RUR', 'SGX', 'SMI-MID', 'STEEL', 'SUGAR16', 'SWISSLEAD', 'TIN_LME', 'VNKI', 'WHEAT_ICE', 'WHEY']
 
 
 
@@ -25,7 +25,7 @@ Markets not enough contract volume (Volume in contracts per day < 100): ['AEX_mi
 
 
 
-Markets too safe (Annual % std. dev < 5.0): ['BB3M', 'BOBL', 'BTP3', 'CAD2', 'CAD5', 'CNH', 'ETHANOL', 'EURIBOR', 'EURIBOR-ICE', 'FED', 'GBPEUR', 'HOUSE-US', 'INR', 'JGB', 'JGB-SGX-mini', 'JGB-mini', 'KR3', 'SARONA', 'SGD', 'SHATZ', 'SOFR', 'SONIA3', 'US2', 'US3']
+Markets too safe (Annual % std. dev < 5.0): ['BB3M', 'BOBL', 'BTP3', 'CAD2', 'CAD5', 'CNH', 'ETHANOL', 'EURCHF', 'EURIBOR', 'EURIBOR-ICE', 'FED', 'GBPEUR', 'HOUSE-US', 'INR', 'JGB', 'JGB-SGX-mini', 'JGB-mini', 'KR3', 'SARONA', 'SGD', 'SHATZ', 'SOFR', 'SONIA3', 'US2', 'US3']
 
 
 
@@ -219,6 +219,7 @@ exclude_instrument_lists:
     - MSCIEMASIA 
     - NOK 
     - OATIES 
+    - OJ 
     - OMX 
     - PLN 
     - R1000 

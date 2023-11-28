@@ -1,17 +1,16 @@
 
 ********************************************************************************
-Trades report produced on 27/11/2023 22:49 from 26/11/2023 22:49 to 27/11/2023 22:49
+Trades report produced on 28/11/2023 22:49 from 27/11/2023 22:49 to 28/11/2023 22:49
 ********************************************************************************
 
 
 
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
+============================================================================================
+                                       Broker orders                                        
+============================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-33020          NIKKEI  dynamic_TF_carry    [20231200] 2023-11-27 01:00:07  [-1]       33680.0
-33021          NIKKEI  dynamic_TF_carry    [20231200] 2023-11-27 01:00:11  [-1]       33675.0
+      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
+33022          NIKKEI  dynamic_TF_carry    [20240300] 2023-11-28 01:00:10  [1]       33260.0
 
 
 =============================================================================================================================================================
@@ -19,8 +18,7 @@ Trades report produced on 27/11/2023 22:49 from 26/11/2023 22:49 to 27/11/2023 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-33020          NIKKEI  dynamic_TF_carry       2023-11-24 05:00:00  2023-11-27 01:00:06.347000  2023-11-27 01:00:07             244806.347               0.653
-33021          NIKKEI  dynamic_TF_carry       2023-11-24 05:00:00  2023-11-27 01:00:10.743000  2023-11-27 01:00:11             244810.743               0.257
+33022          NIKKEI  dynamic_TF_carry       2023-11-27 00:00:00  2023-11-28 01:00:07.497000  2023-11-28 01:00:10              90007.497               2.503
 
 
 ==========================================================================================================================================================================================================================
@@ -28,17 +26,15 @@ Trades report produced on 27/11/2023 22:49 from 26/11/2023 22:49 to 27/11/2023 2
 ==========================================================================================================================================================================================================================
 
       instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
-33020          NIKKEI  dynamic_TF_carry  [-1]                33650.0               None   33677.5    33675.0       33680.0     33680.0      33680.0  27.5    -2.5       5.0         -0.0                 NaN           2.5
-33021          NIKKEI  dynamic_TF_carry  [-1]                33650.0               None   33682.5    33680.0       33685.0     33685.0      33675.0  32.5    -2.5      -5.0        -10.0                 NaN          -7.5
+33022          NIKKEI  dynamic_TF_carry   [1]                33355.0               None   33262.5    33265.0       33260.0     33260.0      33260.0  92.5    -2.5       5.0          0.0                 NaN           2.5
 
 
-============================================================================================================================================================
-                                                    Slippage (normalised by annual vol, BP of annual SR)                                                    
-============================================================================================================================================================
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
 
-      instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33020          NIKKEI  dynamic_TF_carry  [-1]     5354.752317  51.35625    -4.66875        9.3375             -0.0                     NaN           4.66875
-33021          NIKKEI  dynamic_TF_carry  [-1]     5354.752317  60.69375    -4.66875       -9.3375          -18.675                     NaN         -14.00625
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+33022          NIKKEI  dynamic_TF_carry   [1]     5220.693858  177.179514   -4.788636      9.577271              0.0                     NaN          4.788636
 
 
 =======================================================================================================================================================================
@@ -46,41 +42,40 @@ Trades report produced on 27/11/2023 22:49 from 26/11/2023 22:49 to 27/11/2023 2
 =======================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33020          NIKKEI  dynamic_TF_carry  [-1]              0.53177  14.623676    -1.329425        2.65885              -0.0                      NaN           1.329425
-33021          NIKKEI  dynamic_TF_carry  [-1]              0.53177  17.282526    -1.329425       -2.65885           -5.3177                      NaN          -3.988275
+33022          NIKKEI  dynamic_TF_carry   [1]             0.533828  49.379058    -1.334569       2.669138               0.0                      NaN           1.334569
 
 delay_cash Sum
                                  delay_cash
 strategy_name    instrument_code           
-dynamic_TF_carry NIKKEI           31.906203
+dynamic_TF_carry NIKKEI           49.379058
 delay_cash Total Sum
                  delay_cash
 strategy_name              
-dynamic_TF_carry  31.906203
+dynamic_TF_carry  49.379058
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry NIKKEI              -2.65885
+dynamic_TF_carry NIKKEI             -1.334569
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry     -2.65885
+dynamic_TF_carry    -1.334569
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry NIKKEI                     0.0
+dynamic_TF_carry NIKKEI                2.669138
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry            0.0
+dynamic_TF_carry       2.669138
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry NIKKEI                    -5.3177
+dynamic_TF_carry NIKKEI                        0.0
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry           -5.3177
+dynamic_TF_carry               0.0
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
@@ -92,11 +87,11 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry NIKKEI                    -2.65885
+dynamic_TF_carry NIKKEI                    1.334569
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry           -2.65885
+dynamic_TF_carry           1.334569
 
 ********************************************************************************
                                  END OF REPORT                                  
