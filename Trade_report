@@ -1,15 +1,163 @@
 
 ********************************************************************************
-Trades report produced on 29/11/2023 22:49 from 28/11/2023 22:49 to 29/11/2023 22:49
+Trades report produced on 30/11/2023 22:49 from 29/11/2023 22:49 to 30/11/2023 22:49
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+33025             DOW  dynamic_TF_carry    [20231200] 2023-11-30 15:00:04   [1]  35767.000000
+33028             JPY  dynamic_TF_carry    [20231200] 2023-11-30 15:00:12   [1]      0.006757
+33023          KOSDAQ  dynamic_TF_carry    [20231200] 2023-11-30 01:00:20  [-1]   1309.000000
+33029         LEANHOG  dynamic_TF_carry    [20240200] 2023-11-30 15:30:01  [-1]     70.300000
+33024          NIKKEI  dynamic_TF_carry    [20240300] 2023-11-30 01:00:22   [1]  33230.000000
+33027         RUSSELL  dynamic_TF_carry    [20231200] 2023-11-30 15:00:10   [1]   1817.200000
+33026          YENEUR  dynamic_TF_carry    [20231200] 2023-11-30 15:00:09   [1]    161.560000
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+33023          KOSDAQ  dynamic_TF_carry       2023-11-29 00:00:00  2023-11-30 01:00:08.735000  2023-11-30 01:00:20              90008.735              11.265
+33024          NIKKEI  dynamic_TF_carry       2023-11-29 00:00:00  2023-11-30 01:00:20.831000  2023-11-30 01:00:22              90020.831               1.169
+33025             DOW  dynamic_TF_carry       2023-11-29 00:00:00  2023-11-30 15:00:03.481000  2023-11-30 15:00:04             140403.481               0.519
+33026          YENEUR  dynamic_TF_carry       2023-11-29 00:00:00  2023-11-30 15:00:05.373000  2023-11-30 15:00:09             140405.373               3.627
+33027         RUSSELL  dynamic_TF_carry       2023-11-29 00:00:00  2023-11-30 15:00:10.253000  2023-11-30 15:00:10             140410.253                 NaN
+33028             JPY  dynamic_TF_carry       2023-11-29 00:00:00  2023-11-30 15:00:11.597000  2023-11-30 15:00:12             140411.597               0.403
+33029         LEANHOG  dynamic_TF_carry       2023-11-29 00:00:00  2023-11-30 15:30:00.862000  2023-11-30 15:30:01             142200.862               0.138
+
+
+==============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                   
+==============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay bid_ask execution versus_limit versus_parent_limit total_trading
+33023          KOSDAQ  dynamic_TF_carry  [-1]                 1295.1               None    1309.0     1308.9        1309.1      1309.1       1309.0      13.9    -0.1       0.1         -0.1                 NaN           0.0
+33024          NIKKEI  dynamic_TF_carry   [1]                33290.0               None   33230.0    33235.0       33225.0     33225.0      33230.0      60.0    -5.0       5.0         -5.0                 NaN           0.0
+33025             DOW  dynamic_TF_carry   [1]                35536.0               None   35766.0    35767.0       35765.0     35765.0      35767.0    -230.0    -1.0       0.0         -2.0                 NaN          -1.0
+33026          YENEUR  dynamic_TF_carry   [1]                 161.38               None    161.55     161.56        161.54      161.54       161.56     -0.17   -0.01       0.0        -0.02                 NaN         -0.01
+33027         RUSSELL  dynamic_TF_carry   [1]                 1812.4               None   1817.05     1817.2        1816.9      1816.9       1817.2     -4.65   -0.15       0.0         -0.3                 NaN         -0.15
+33028             JPY  dynamic_TF_carry   [1]               0.006809               None  0.006757   0.006757      0.006757    0.006756     0.006757  0.000052    -0.0       0.0    -0.000001                 NaN          -0.0
+33029         LEANHOG  dynamic_TF_carry  [-1]                 70.125               None   70.3375     70.325         70.35       70.35         70.3    0.2125 -0.0125    -0.025        -0.05                 NaN       -0.0375
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+33023          KOSDAQ  dynamic_TF_carry  [-1]      426.296949  326.063793   -2.345783      2.345783        -2.345783                     NaN               0.0
+33024          NIKKEI  dynamic_TF_carry   [1]     5095.409263  117.753054   -9.812754      9.812754        -9.812754                     NaN               0.0
+33025             DOW  dynamic_TF_carry   [1]     4010.754043 -573.458251   -2.493297           0.0        -4.986593                     NaN         -2.493297
+33026          YENEUR  dynamic_TF_carry   [1]       12.613183  -134.77962   -7.928213           0.0       -15.856426                     NaN         -7.928213
+33027         RUSSELL  dynamic_TF_carry   [1]      409.743943 -113.485509   -3.660823           0.0        -7.321646                     NaN         -3.660823
+33028             JPY  dynamic_TF_carry   [1]        0.000648   799.08829    -3.86033           0.0         -7.72066                     NaN          -3.86033
+33029         LEANHOG  dynamic_TF_carry  [-1]       23.058941   92.155143   -5.420891    -10.841781       -21.683563                     NaN        -16.262672
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+33023          KOSDAQ  dynamic_TF_carry  [-1]             6.100593   84.798243    -0.610059       0.610059         -0.610059                      NaN                0.0
+33024          NIKKEI  dynamic_TF_carry   [1]             0.535484   32.129029    -2.677419       2.677419         -2.677419                      NaN                0.0
+33025             DOW  dynamic_TF_carry   [1]             0.393526  -90.510914    -0.393526            0.0         -0.787051                      NaN          -0.393526
+33026          YENEUR  dynamic_TF_carry   [1]           669.354765  -113.79031    -6.693548            0.0        -13.387095                      NaN          -6.693548
+33027         RUSSELL  dynamic_TF_carry   [1]             3.935257  -18.298946    -0.590289            0.0         -1.180577                      NaN          -0.590289
+33028             JPY  dynamic_TF_carry   [1]       9838142.873446  509.123894    -2.459536            0.0         -4.919071                      NaN          -2.459536
+33029         LEANHOG  dynamic_TF_carry  [-1]           314.820572   66.899372    -3.935257      -7.870514        -15.741029                      NaN         -11.805771
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry DOW              -90.510914
+                 JPY              509.123894
+                 KOSDAQ            84.798243
+                 LEANHOG           66.899372
+                 NIKKEI            32.129029
+                 RUSSELL          -18.298946
+                 YENEUR           -113.79031
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry  470.350367
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry DOW                -0.393526
+                 JPY                -2.459536
+                 KOSDAQ             -0.610059
+                 LEANHOG            -3.935257
+                 NIKKEI             -2.677419
+                 RUSSELL            -0.590289
+                 YENEUR             -6.693548
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -17.359633
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry DOW                        0.0
+                 JPY                        0.0
+                 KOSDAQ                0.610059
+                 LEANHOG              -7.870514
+                 NIKKEI                2.677419
+                 RUSSELL                    0.0
+                 YENEUR                     0.0
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry      -4.583036
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry DOW                     -0.787051
+                 JPY                     -4.919071
+                 KOSDAQ                  -0.610059
+                 LEANHOG                -15.741029
+                 NIKKEI                  -2.677419
+                 RUSSELL                 -1.180577
+                 YENEUR                 -13.387095
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry        -39.302302
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry DOW                                    0
+                 JPY                                    0
+                 KOSDAQ                                 0
+                 LEANHOG                                0
+                 NIKKEI                                 0
+                 RUSSELL                                0
+                 YENEUR                                 0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry DOW                      -0.393526
+                 JPY                      -2.459536
+                 KOSDAQ                         0.0
+                 LEANHOG                 -11.805771
+                 NIKKEI                         0.0
+                 RUSSELL                  -0.590289
+                 YENEUR                   -6.693548
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry         -21.942669
 
 ********************************************************************************
                                  END OF REPORT                                  
