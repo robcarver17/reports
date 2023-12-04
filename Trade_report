@@ -1,17 +1,18 @@
 
 ********************************************************************************
-Trades report produced on 01/12/2023 22:49 from 30/11/2023 22:49 to 01/12/2023 22:49
+Trades report produced on 04/12/2023 22:49 from 03/12/2023 22:49 to 04/12/2023 22:49
 ********************************************************************************
 
 
 
-============================================================================================
-                                       Broker orders                                        
-============================================================================================
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
-33030            BOBL  dynamic_TF_carry    [20231200] 2023-12-01 08:00:16  [1]       117.580
-33031     GAS_US_mini  dynamic_TF_carry    [20240100] 2023-12-01 14:00:07  [1]         2.775
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+33032       EUR_micro  dynamic_TF_carry    [20240300] 2023-12-04 15:00:12  [-1]        1.0890
+33033       EUR_micro  dynamic_TF_carry    [20240300] 2023-12-04 15:00:17  [-1]        1.0889
+33034       EUR_micro  dynamic_TF_carry    [20240300] 2023-12-04 15:00:27  [-1]        1.0888
 
 
 =============================================================================================================================================================
@@ -19,17 +20,19 @@ Trades report produced on 01/12/2023 22:49 from 30/11/2023 22:49 to 01/12/2023 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-33030            BOBL  dynamic_TF_carry       2023-11-30 16:00:00  2023-12-01 08:00:06.421000  2023-12-01 08:00:16              57606.421               9.579
-33031     GAS_US_mini  dynamic_TF_carry       2023-11-30 19:00:00  2023-12-01 14:00:05.964000  2023-12-01 14:00:07              68405.964               1.036
+33032       EUR_micro  dynamic_TF_carry       2023-12-01 00:00:00  2023-12-04 15:00:03.091000  2023-12-04 15:00:12             313203.091               8.909
+33033       EUR_micro  dynamic_TF_carry       2023-12-01 00:00:00  2023-12-04 15:00:16.386000  2023-12-04 15:00:17             313216.386               0.614
+33034       EUR_micro  dynamic_TF_carry       2023-12-01 00:00:00  2023-12-04 15:00:20.810000  2023-12-04 15:00:27              313220.81                6.19
 
 
-============================================================================================================================================================================================================================
-                                                                                                  Slippage (ticks per lot)                                                                                                  
-============================================================================================================================================================================================================================
+==============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                   
+==============================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
-33030            BOBL  dynamic_TF_carry   [1]                 117.49               None   117.585     117.59        117.58      117.58       117.58  -0.095  -0.005      0.01          0.0                 NaN         0.005
-33031     GAS_US_mini  dynamic_TF_carry   [1]                   2.81               None    2.7675       2.77         2.765       2.765        2.775  0.0425 -0.0025    -0.005        -0.01                 NaN       -0.0075
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
+33032       EUR_micro  dynamic_TF_carry  [-1]                 1.0927               None    1.0892      1.089        1.0894      1.0894        1.089  -0.0035  -0.0002      -0.0      -0.0004                 NaN       -0.0002
+33033       EUR_micro  dynamic_TF_carry  [-1]                 1.0927               None    1.0891     1.0889        1.0893      1.0893       1.0889  -0.0036  -0.0002      -0.0      -0.0004                 NaN       -0.0002
+33034       EUR_micro  dynamic_TF_carry  [-1]                 1.0927               None   1.08905     1.0889        1.0892      1.0892       1.0888 -0.00365 -0.00015   -0.0001      -0.0004                 NaN      -0.00025
 
 
 ==============================================================================================================================================================
@@ -37,8 +40,9 @@ Trades report produced on 01/12/2023 22:49 from 30/11/2023 22:49 to 01/12/2023 2
 ==============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33030            BOBL  dynamic_TF_carry   [1]        5.752513 -165.145228   -8.691854     17.383708              0.0                     NaN          8.691854
-33031     GAS_US_mini  dynamic_TF_carry   [1]        1.942579  218.781324   -12.86949    -25.738979       -51.477959                     NaN        -38.608469
+33032       EUR_micro  dynamic_TF_carry  [-1]        0.085889 -407.501318   -23.28579          -0.0       -46.571579                     NaN         -23.28579
+33033       EUR_micro  dynamic_TF_carry  [-1]        0.085889 -419.144213   -23.28579          -0.0       -46.571579                     NaN         -23.28579
+33034       EUR_micro  dynamic_TF_carry  [-1]        0.085889  -424.96566  -17.464342    -11.642895       -46.571579                     NaN        -29.107237
 
 
 =======================================================================================================================================================================
@@ -46,50 +50,46 @@ Trades report produced on 01/12/2023 22:49 from 30/11/2023 22:49 to 01/12/2023 2
 =======================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33030            BOBL  dynamic_TF_carry   [1]           863.101008 -81.994596    -4.315505        8.63101               0.0                      NaN           4.315505
-33031     GAS_US_mini  dynamic_TF_carry   [1]          1978.137623  84.070849    -4.945344      -9.890688        -19.781376                      NaN         -14.836032
+33032       EUR_micro  dynamic_TF_carry  [-1]          9868.356129 -34.539246    -1.973671           -0.0         -3.947342                      NaN          -1.973671
+33033       EUR_micro  dynamic_TF_carry  [-1]          9868.356129 -35.526082    -1.973671           -0.0         -3.947342                      NaN          -1.973671
+33034       EUR_micro  dynamic_TF_carry  [-1]          9868.356129   -36.0195    -1.480253      -0.986836         -3.947342                      NaN          -2.467089
 
 delay_cash Sum
-                                 delay_cash
-strategy_name    instrument_code           
-dynamic_TF_carry BOBL            -81.994596
-                 GAS_US_mini      84.070849
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry EUR_micro       -106.084828
 delay_cash Total Sum
-                 delay_cash
-strategy_name              
-dynamic_TF_carry   2.076253
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -106.084828
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry BOBL               -4.315505
-                 GAS_US_mini        -4.945344
+dynamic_TF_carry EUR_micro          -5.427596
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -9.260849
+dynamic_TF_carry    -5.427596
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry BOBL                   8.63101
-                 GAS_US_mini          -9.890688
+dynamic_TF_carry EUR_micro            -0.986836
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry      -1.259678
+dynamic_TF_carry      -0.986836
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry BOBL                          0.0
-                 GAS_US_mini            -19.781376
+dynamic_TF_carry EUR_micro              -11.842027
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry        -19.781376
+dynamic_TF_carry        -11.842027
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry BOBL                                   0
-                 GAS_US_mini                            0
+dynamic_TF_carry EUR_micro                              0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -97,12 +97,11 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry BOBL                      4.315505
-                 GAS_US_mini             -14.836032
+dynamic_TF_carry EUR_micro                -6.414431
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry         -10.520527
+dynamic_TF_carry          -6.414431
 
 ********************************************************************************
                                  END OF REPORT                                  
