@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 04/12/2023 22:49 from 03/12/2023 22:49 to 04/12/2023 22:49
+Trades report produced on 05/12/2023 22:49 from 04/12/2023 22:49 to 05/12/2023 22:49
 ********************************************************************************
 
 
@@ -10,9 +10,12 @@ Trades report produced on 04/12/2023 22:49 from 03/12/2023 22:49 to 04/12/2023 2
 =============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-33032       EUR_micro  dynamic_TF_carry    [20240300] 2023-12-04 15:00:12  [-1]        1.0890
-33033       EUR_micro  dynamic_TF_carry    [20240300] 2023-12-04 15:00:17  [-1]        1.0889
-33034       EUR_micro  dynamic_TF_carry    [20240300] 2023-12-04 15:00:27  [-1]        1.0888
+33040         BITCOIN  dynamic_TF_carry    [20240100] 2023-12-05 15:00:05   [1]  43235.000000
+33039       EUR_micro  dynamic_TF_carry    [20240300] 2023-12-05 15:00:03  [-1]      1.087500
+33036      FTSECHINAA  dynamic_TF_carry    [20231200] 2023-12-05 02:00:03  [-1]  11501.000000
+33035      FTSETAIWAN  dynamic_TF_carry    [20231200] 2023-12-05 01:45:04   [1]   1485.250000
+33037     GAS_US_mini  dynamic_TF_carry    [20240200] 2023-12-05 14:00:07  [-1]      2.700000
+33038             JPY  dynamic_TF_carry    [20231200] 2023-12-05 15:00:02   [1]      0.006826
 
 
 =============================================================================================================================================================
@@ -20,19 +23,25 @@ Trades report produced on 04/12/2023 22:49 from 03/12/2023 22:49 to 04/12/2023 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-33032       EUR_micro  dynamic_TF_carry       2023-12-01 00:00:00  2023-12-04 15:00:03.091000  2023-12-04 15:00:12             313203.091               8.909
-33033       EUR_micro  dynamic_TF_carry       2023-12-01 00:00:00  2023-12-04 15:00:16.386000  2023-12-04 15:00:17             313216.386               0.614
-33034       EUR_micro  dynamic_TF_carry       2023-12-01 00:00:00  2023-12-04 15:00:20.810000  2023-12-04 15:00:27              313220.81                6.19
+33035      FTSETAIWAN  dynamic_TF_carry       2023-12-04 00:00:00  2023-12-05 01:45:03.743000  2023-12-05 01:45:04              92703.743               0.257
+33036      FTSECHINAA  dynamic_TF_carry       2023-12-04 00:00:00  2023-12-05 02:00:03.009000  2023-12-05 02:00:03              93603.009                 NaN
+33037     GAS_US_mini  dynamic_TF_carry       2023-12-04 00:00:00  2023-12-05 14:00:06.395000  2023-12-05 14:00:07             136806.395               0.605
+33038             JPY  dynamic_TF_carry       2023-12-04 00:00:00  2023-12-05 15:00:01.894000  2023-12-05 15:00:02             140401.894               0.106
+33039       EUR_micro  dynamic_TF_carry       2023-12-04 00:00:00  2023-12-05 15:00:03.458000  2023-12-05 15:00:03             140403.458                 NaN
+33040         BITCOIN  dynamic_TF_carry       2023-12-04 00:00:00  2023-12-05 15:00:04.870000  2023-12-05 15:00:05              140404.87                0.13
 
 
-==============================================================================================================================================================================================================================
-                                                                                                   Slippage (ticks per lot)                                                                                                   
-==============================================================================================================================================================================================================================
+===============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                    
+===============================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
-33032       EUR_micro  dynamic_TF_carry  [-1]                 1.0927               None    1.0892      1.089        1.0894      1.0894        1.089  -0.0035  -0.0002      -0.0      -0.0004                 NaN       -0.0002
-33033       EUR_micro  dynamic_TF_carry  [-1]                 1.0927               None    1.0891     1.0889        1.0893      1.0893       1.0889  -0.0036  -0.0002      -0.0      -0.0004                 NaN       -0.0002
-33034       EUR_micro  dynamic_TF_carry  [-1]                 1.0927               None   1.08905     1.0889        1.0892      1.0892       1.0888 -0.00365 -0.00015   -0.0001      -0.0004                 NaN      -0.00025
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay  bid_ask execution versus_limit versus_parent_limit total_trading
+33035      FTSETAIWAN  dynamic_TF_carry   [1]                1497.75               None  1485.125    1485.25        1485.0      1485.0      1485.25    12.625   -0.125       0.0        -0.25                 NaN        -0.125
+33036      FTSECHINAA  dynamic_TF_carry  [-1]                11578.0               None   11500.5    11500.0       11501.0     11501.0      11501.0     -77.5     -0.5       1.0         -0.0                 NaN           0.5
+33037     GAS_US_mini  dynamic_TF_carry  [-1]                  2.665               None     2.705        2.7          2.71        2.71          2.7      0.04   -0.005      -0.0        -0.01                 NaN        -0.005
+33038             JPY  dynamic_TF_carry   [1]               0.006804               None   0.00683    0.00683      0.006829    0.006829     0.006826 -0.000026     -0.0  0.000004     0.000003                 NaN      0.000004
+33039       EUR_micro  dynamic_TF_carry  [-1]                  1.088               None   1.08695     1.0854        1.0885         NaN       1.0875  -0.00105 -0.00155    0.0021          NaN                 NaN       0.00055
+33040         BITCOIN  dynamic_TF_carry   [1]                42955.0               None   43202.5    43290.0       43115.0     43115.0      43235.0    -247.5    -87.5      55.0       -120.0                 NaN         -32.5
 
 
 ==============================================================================================================================================================
@@ -40,56 +49,87 @@ Trades report produced on 04/12/2023 22:49 from 03/12/2023 22:49 to 04/12/2023 2
 ==============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33032       EUR_micro  dynamic_TF_carry  [-1]        0.085889 -407.501318   -23.28579          -0.0       -46.571579                     NaN         -23.28579
-33033       EUR_micro  dynamic_TF_carry  [-1]        0.085889 -419.144213   -23.28579          -0.0       -46.571579                     NaN         -23.28579
-33034       EUR_micro  dynamic_TF_carry  [-1]        0.085889  -424.96566  -17.464342    -11.642895       -46.571579                     NaN        -29.107237
+33035      FTSETAIWAN  dynamic_TF_carry   [1]      193.468935  652.559543   -6.460986           0.0       -12.921971                     NaN         -6.460986
+33036      FTSECHINAA  dynamic_TF_carry  [-1]     1839.733207 -421.256733   -2.717785      5.435571             -0.0                     NaN          2.717785
+33037     GAS_US_mini  dynamic_TF_carry  [-1]         1.90222  210.280648  -26.285081          -0.0       -52.570162                     NaN        -26.285081
+33038             JPY  dynamic_TF_carry   [1]        0.000646 -394.489343   -7.735085     61.880681        46.410511                     NaN         54.145596
+33039       EUR_micro  dynamic_TF_carry  [-1]        0.085319 -123.067362 -181.670867    246.134724              NaN                     NaN         64.463856
+33040         BITCOIN  dynamic_TF_carry   [1]    17435.735511 -141.949848   -50.18429     31.544411       -68.824169                     NaN        -18.639879
 
 
-=======================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                      
-=======================================================================================================================================================================
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33032       EUR_micro  dynamic_TF_carry  [-1]          9868.356129 -34.539246    -1.973671           -0.0         -3.947342                      NaN          -1.973671
-33033       EUR_micro  dynamic_TF_carry  [-1]          9868.356129 -35.526082    -1.973671           -0.0         -3.947342                      NaN          -1.973671
-33034       EUR_micro  dynamic_TF_carry  [-1]          9868.356129   -36.0195    -1.480253      -0.986836         -3.947342                      NaN          -2.467089
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+33035      FTSETAIWAN  dynamic_TF_carry   [1]            31.669999  399.833733     -3.95875            0.0           -7.9175                      NaN           -3.95875
+33036      FTSECHINAA  dynamic_TF_carry  [-1]              0.79175  -61.360622    -0.395875        0.79175              -0.0                      NaN           0.395875
+33037     GAS_US_mini  dynamic_TF_carry  [-1]          1979.374913   79.174997    -9.896875           -0.0        -19.793749                      NaN          -9.896875
+33038             JPY  dynamic_TF_carry   [1]       9896874.567012 -252.370301    -4.948437      39.587498         29.690624                      NaN          34.639061
+33039       EUR_micro  dynamic_TF_carry  [-1]          9896.874567  -10.391718   -15.340156      20.783437               NaN                      NaN           5.443281
+33040         BITCOIN  dynamic_TF_carry   [1]             0.079175  -19.595812    -6.927812       4.354625            -9.501                      NaN          -2.573187
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry EUR_micro       -106.084828
+dynamic_TF_carry BITCOIN          -19.595812
+                 EUR_micro        -10.391718
+                 FTSECHINAA       -61.360622
+                 FTSETAIWAN       399.833733
+                 GAS_US_mini       79.174997
+                 JPY             -252.370301
 delay_cash Total Sum
                   delay_cash
 strategy_name               
-dynamic_TF_carry -106.084828
+dynamic_TF_carry  135.290275
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry EUR_micro          -5.427596
+dynamic_TF_carry BITCOIN            -6.927812
+                 EUR_micro         -15.340156
+                 FTSECHINAA         -0.395875
+                 FTSETAIWAN          -3.95875
+                 GAS_US_mini        -9.896875
+                 JPY                -4.948437
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -5.427596
+dynamic_TF_carry   -41.467904
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry EUR_micro            -0.986836
+dynamic_TF_carry BITCOIN               4.354625
+                 EUR_micro            20.783437
+                 FTSECHINAA             0.79175
+                 FTSETAIWAN                 0.0
+                 GAS_US_mini               -0.0
+                 JPY                  39.587498
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry      -0.986836
+dynamic_TF_carry       65.51731
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry EUR_micro              -11.842027
+dynamic_TF_carry BITCOIN                    -9.501
+                 EUR_micro                       0
+                 FTSECHINAA                   -0.0
+                 FTSETAIWAN                -7.9175
+                 GAS_US_mini            -19.793749
+                 JPY                     29.690624
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry        -11.842027
+dynamic_TF_carry         -7.521625
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry EUR_micro                              0
+dynamic_TF_carry BITCOIN                                0
+                 EUR_micro                              0
+                 FTSECHINAA                             0
+                 FTSETAIWAN                             0
+                 GAS_US_mini                            0
+                 JPY                                    0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -97,11 +137,16 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry EUR_micro                -6.414431
+dynamic_TF_carry BITCOIN                  -2.573187
+                 EUR_micro                 5.443281
+                 FTSECHINAA                0.395875
+                 FTSETAIWAN                -3.95875
+                 GAS_US_mini              -9.896875
+                 JPY                      34.639061
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry          -6.414431
+dynamic_TF_carry          24.049405
 
 ********************************************************************************
                                  END OF REPORT                                  
