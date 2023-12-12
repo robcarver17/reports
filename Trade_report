@@ -1,18 +1,16 @@
 
 ********************************************************************************
-Trades report produced on 11/12/2023 22:49 from 10/12/2023 22:49 to 11/12/2023 22:49
+Trades report produced on 12/12/2023 22:49 from 11/12/2023 22:49 to 12/12/2023 22:49
 ********************************************************************************
 
 
 
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
+============================================================================================
+                                       Broker orders                                        
+============================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-33041       EUR_micro  dynamic_TF_carry    [20240300] 2023-12-11 15:00:04   [1]       1.08000
-33042             MXP  dynamic_TF_carry    [20231200] 2023-12-11 15:00:19  [-1]       0.05732
-33043             MXP  dynamic_TF_carry    [20231200] 2023-12-11 15:00:55  [-1]       0.05733
+      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
+33044             MXP  dynamic_TF_carry    [20240300] 2023-12-12 15:00:16  [1]        0.0566
 
 
 =============================================================================================================================================================
@@ -20,19 +18,15 @@ Trades report produced on 11/12/2023 22:49 from 10/12/2023 22:49 to 11/12/2023 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-33041       EUR_micro  dynamic_TF_carry       2023-12-08 00:00:00  2023-12-11 15:00:03.443000  2023-12-11 15:00:04             313203.443               0.557
-33042             MXP  dynamic_TF_carry       2023-12-08 20:00:00  2023-12-11 15:00:18.710000  2023-12-11 15:00:19              241218.71                0.29
-33043             MXP  dynamic_TF_carry       2023-12-08 20:00:00  2023-12-11 15:00:34.951000  2023-12-11 15:00:55             241234.951              20.049
+33044             MXP  dynamic_TF_carry       2023-12-08 00:00:00  2023-12-12 15:00:07.515000  2023-12-12 15:00:16             399607.515               8.485
 
 
-================================================================================================================================================================================================================================
-                                                                                                    Slippage (ticks per lot)                                                                                                    
-================================================================================================================================================================================================================================
+==============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                   
+==============================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
-33041       EUR_micro  dynamic_TF_carry   [1]                 1.0807               None    1.0799       1.08        1.0798      1.0798         1.08    0.0008   -0.0001       0.0      -0.0002                 NaN       -0.0001
-33042             MXP  dynamic_TF_carry  [-1]                0.05756               None  0.057335    0.05733       0.05734     0.05734      0.05732 -0.000225 -0.000005  -0.00001     -0.00002                 NaN     -0.000015
-33043             MXP  dynamic_TF_carry  [-1]                0.05756               None  0.057325    0.05732       0.05733     0.05733      0.05733 -0.000235 -0.000005   0.00001         -0.0                 NaN      0.000005
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
+33044             MXP  dynamic_TF_carry   [1]                0.05672               None   0.05658    0.05659       0.05657     0.05657       0.0566  0.00014 -0.00001  -0.00001     -0.00003                 NaN      -0.00002
 
 
 ==============================================================================================================================================================
@@ -40,9 +34,7 @@ Trades report produced on 11/12/2023 22:49 from 10/12/2023 22:49 to 11/12/2023 2
 ==============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33041       EUR_micro  dynamic_TF_carry   [1]        0.082455   97.022694  -12.127837           0.0       -24.255673                     NaN        -12.127837
-33042             MXP  dynamic_TF_carry  [-1]        0.006988 -321.958663   -7.154637    -14.309274       -28.618548                     NaN        -21.463911
-33043             MXP  dynamic_TF_carry  [-1]        0.006988 -336.267937   -7.154637     14.309274             -0.0                     NaN          7.154637
+33044             MXP  dynamic_TF_carry   [1]        0.006766  206.924308  -14.780308    -14.780308       -44.340923                     NaN        -29.560615
 
 
 =======================================================================================================================================================================
@@ -50,51 +42,44 @@ Trades report produced on 11/12/2023 22:49 from 10/12/2023 22:49 to 11/12/2023 2
 =======================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33041       EUR_micro  dynamic_TF_carry   [1]           9936.80194   7.949442     -0.99368            0.0          -1.98736                      NaN           -0.99368
-33042             MXP  dynamic_TF_carry  [-1]        397472.077587 -89.431217     -1.98736      -3.974721         -7.949442                      NaN          -5.962081
-33043             MXP  dynamic_TF_carry  [-1]        397472.077587 -93.405938     -1.98736       3.974721              -0.0                      NaN            1.98736
+33044             MXP  dynamic_TF_carry   [1]        397960.848612  55.714519    -3.979608      -3.979608        -11.938825                      NaN          -7.959217
 
 delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry EUR_micro          7.949442
-                 MXP             -182.837156
+                                 delay_cash
+strategy_name    instrument_code           
+dynamic_TF_carry MXP              55.714519
 delay_cash Total Sum
-                  delay_cash
-strategy_name               
-dynamic_TF_carry -174.887714
+                 delay_cash
+strategy_name              
+dynamic_TF_carry  55.714519
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry EUR_micro           -0.99368
-                 MXP                -3.974721
+dynamic_TF_carry MXP                -3.979608
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -4.968401
+dynamic_TF_carry    -3.979608
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry EUR_micro                  0.0
-                 MXP                        0.0
+dynamic_TF_carry MXP                  -3.979608
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry            0.0
+dynamic_TF_carry      -3.979608
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry EUR_micro                -1.98736
-                 MXP                     -7.949442
+dynamic_TF_carry MXP                    -11.938825
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry         -9.936802
+dynamic_TF_carry        -11.938825
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry EUR_micro                              0
-                 MXP                                    0
+dynamic_TF_carry MXP                                    0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -102,12 +87,11 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry EUR_micro                 -0.99368
-                 MXP                      -3.974721
+dynamic_TF_carry MXP                      -7.959217
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry          -4.968401
+dynamic_TF_carry          -7.959217
 
 ********************************************************************************
                                  END OF REPORT                                  
