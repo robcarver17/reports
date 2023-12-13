@@ -1,15 +1,15 @@
 
 ********************************************************************************
-              Removed markets report produced on 12/12/2023 23:02               
+              Removed markets report produced on 13/12/2023 23:03               
 ********************************************************************************
 
 
 List of markets which should be marked as untradeable due to risk, liquidity or cost issues
-Following should be removed from trading (add to config.bad_markets) [0.300000 threshold]: ['BONO', 'SARONA', 'SUGAR16', 'US2', 'MSCIEMASIA', 'NIKKEI400', 'SONIA3', 'WHEAT_mini', 'GBPCHF', 'HIGHYIELD', 'CAD2', 'R1000', 'EU-INSURE', 'TIN_LME', 'COAL-GEORDIE', 'COAL', 'EURIBOR-ICE', 'IG', 'WHEAT_ICE', 'MUMMY'] 
+Following should be removed from trading (add to config.bad_markets) [0.300000 threshold]: ['IG', 'WHEAT_ICE', 'CAD2', 'SONIA3', 'MSCIEMASIA', 'US2', 'HIGHYIELD', 'SARONA', 'MUMMY', 'EURIBOR-ICE', 'R1000', 'WHEAT_mini', 'SUGAR16', 'EU-INSURE', 'GBPCHF', 'COAL-GEORDIE', 'TIN_LME', 'COAL'] 
 
 
 
-Following should be allowed to trade (delete from config.bad_markets) [0.300000 threshold]: ['OATIES', 'MILK', 'ZAR']
+Following should be allowed to trade (delete from config.bad_markets) [0.300000 threshold]: ['ZAR', 'OATIES', 'US-PROPERTY', 'MILK']
 
 
 
@@ -17,15 +17,15 @@ Markets too expensive (SR cost per trade > 0.010): ['AEX_mini', 'BB3M', 'BOVESPA
 
 
 
-Markets not enough risk volume (Volume in $m ann. risk per day < 1.50): ['AEX_mini', 'AUDJPY', 'BB3M', 'BBCOMM', 'BONO', 'BOVESPA', 'BUTTER', 'CAD_micro', 'CH10', 'CHEESE', 'CHFJPY', 'CHF_micro', 'CLP', 'CNH-onshore', 'COAL-GEORDIE', 'COPPER-micro', 'COPPER-mini', 'CORN_mini', 'COTTON', 'DJSTX-SMALL', 'EPRA-EUROPE', 'ETHANOL', 'ETHER-micro', 'EU-CHEM', 'EU-CONSTRUCTION', 'EU-DJ-OIL', 'EU-DJ-TECH', 'EU-DJ-TELECOM', 'EU-DJ-UTIL', 'EU-FOOD', 'EU-HOUSE', 'EU-INSURE', 'EU-MEDIA', 'EU-MID', 'EU-RETAIL', 'EU-TRAVEL', 'EURAUD', 'EURCAD', 'EURIBOR', 'EUROSTX-LARGE', 'EUROSTX-SMALL', 'EUROSTX200-LARGE', 'FTSEINDO', 'FTSEVIET', 'GASOILINE_micro', 'GBPCHF', 'GBPJPY', 'GBP_micro', 'GICS', 'HIGHYIELD', 'HOUSE-US', 'IBEX_mini', 'IG', 'INR', 'IRS', 'JGB-mini', 'JP-REALESTATE', 'JPY_mini', 'KRWUSD', 'LUMBER-new', 'MILKDRY', 'MILKWET', 'MSCIEMASIA', 'MSCIWORLD', 'MUMMY', 'NIKKEI400', 'NOK', 'OMX', 'PLN', 'R1000', 'RUR', 'SGD_mini', 'SGX', 'SMI-MID', 'STEEL', 'SUGAR16', 'SWISSLEAD', 'TIN_LME', 'TWD', 'TWD-mini', 'US-PROPERTY', 'VNKI', 'WHEAT_ICE', 'WHEAT_mini', 'WHEY']
+Markets not enough risk volume (Volume in $m ann. risk per day < 1.50): ['AEX_mini', 'AUDJPY', 'BB3M', 'BBCOMM', 'BONO', 'BOVESPA', 'BUTTER', 'CAD_micro', 'CH10', 'CHEESE', 'CHFJPY', 'CHF_micro', 'CLP', 'CNH-onshore', 'COAL-GEORDIE', 'COPPER-micro', 'COPPER-mini', 'CORN_mini', 'COTTON', 'DJSTX-SMALL', 'EPRA-EUROPE', 'ETHANOL', 'ETHER-micro', 'EU-CHEM', 'EU-CONSTRUCTION', 'EU-DJ-OIL', 'EU-DJ-TECH', 'EU-DJ-TELECOM', 'EU-DJ-UTIL', 'EU-FOOD', 'EU-HOUSE', 'EU-INSURE', 'EU-MEDIA', 'EU-MID', 'EU-RETAIL', 'EU-TRAVEL', 'EURAUD', 'EURCAD', 'EURIBOR', 'EUROSTX-LARGE', 'EUROSTX-SMALL', 'EUROSTX200-LARGE', 'FTSEINDO', 'FTSEVIET', 'GASOILINE_micro', 'GBPCHF', 'GBPJPY', 'GBP_micro', 'GICS', 'HIGHYIELD', 'HOUSE-US', 'IBEX_mini', 'IG', 'INR', 'IRS', 'JGB-mini', 'JP-REALESTATE', 'JPY_mini', 'KRWUSD', 'LUMBER-new', 'MILKDRY', 'MILKWET', 'MSCIEMASIA', 'MSCIWORLD', 'MUMMY', 'NOK', 'OMX', 'PLN', 'R1000', 'RUR', 'SGD_mini', 'SGX', 'SMI-MID', 'STEEL', 'SUGAR16', 'SWISSLEAD', 'TIN_LME', 'TWD', 'TWD-mini', 'VNKI', 'WHEAT_ICE', 'WHEAT_mini', 'WHEY']
 
 
 
-Markets not enough contract volume (Volume in contracts per day < 100): ['AEX_mini', 'AUDJPY', 'BB3M', 'BOVESPA', 'BUTTER', 'CH10', 'CHFJPY', 'CLP', 'CNH-onshore', 'COAL', 'COAL-GEORDIE', 'COPPER-mini', 'COTTON', 'ETHANOL', 'EU-CHEM', 'EU-DJ-TECH', 'EU-DJ-TELECOM', 'EURAUD', 'EURCAD', 'EUROSTX-LARGE', 'GASOILINE_micro', 'GBPJPY', 'GICS', 'HIGHYIELD', 'HOUSE-US', 'IG', 'IRS', 'JGB-mini', 'JP-REALESTATE', 'KRWUSD', 'MILKDRY', 'MILKWET', 'MSCIEMASIA', 'NOK', 'OMX', 'PLN', 'RUR', 'SEK', 'SGD_mini', 'SGX', 'STEEL', 'SUGAR16', 'SWISSLEAD', 'TIN_LME', 'TWD', 'TWD-mini', 'VNKI', 'WHEY']
+Markets not enough contract volume (Volume in contracts per day < 100): ['AEX_mini', 'AUDJPY', 'BB3M', 'BOVESPA', 'BUTTER', 'CH10', 'CHFJPY', 'CLP', 'CNH-onshore', 'COAL', 'COAL-GEORDIE', 'COPPER-mini', 'COTTON', 'ETHANOL', 'EU-CHEM', 'EU-DJ-TECH', 'EU-DJ-TELECOM', 'EU-RETAIL', 'EURAUD', 'EURCAD', 'EUROSTX-LARGE', 'GASOILINE_micro', 'GBPJPY', 'GICS', 'HIGHYIELD', 'HOUSE-US', 'IG', 'IRS', 'JGB-mini', 'JP-REALESTATE', 'KRWUSD', 'MILKDRY', 'MILKWET', 'MSCIEMASIA', 'NOK', 'OMX', 'PLN', 'RUR', 'SGD_mini', 'SGX', 'STEEL', 'SUGAR16', 'SWISSLEAD', 'TIN_LME', 'TWD', 'TWD-mini', 'VNKI', 'WHEY']
 
 
 
-Markets too safe (Annual % std. dev < 5.0): ['BB3M', 'BOBL', 'BTP3', 'CAD2', 'CAD5', 'CNH', 'ETHANOL', 'EURIBOR', 'EURIBOR-ICE', 'FED', 'GBPEUR', 'HOUSE-US', 'INR', 'JGB', 'JGB-SGX-mini', 'JGB-mini', 'KR3', 'SARONA', 'SGD', 'SHATZ', 'SOFR', 'SONIA3', 'US2', 'US3']
+Markets too safe (Annual % std. dev < 5.0): ['BB3M', 'BOBL', 'BTP3', 'CAD2', 'CNH', 'ETHANOL', 'EURIBOR', 'EURIBOR-ICE', 'FED', 'GBPEUR', 'HOUSE-US', 'INR', 'JGB', 'JGB-SGX-mini', 'JGB-mini', 'KR3', 'SARONA', 'SGD', 'SHATZ', 'SOFR', 'SONIA3', 'US2', 'US3']
 
 
 
@@ -41,7 +41,6 @@ exclude_instrument_lists:
     - AUDJPY 
     - BB3M 
     - BBCOMM 
-    - BONO 
     - BOVESPA 
     - BTP3 
     - BUTTER 
@@ -108,7 +107,6 @@ exclude_instrument_lists:
     - MSCIEMASIA 
     - MSCIWORLD 
     - MUMMY 
-    - NIKKEI400 
     - NOK 
     - OMX 
     - PLN 
@@ -130,7 +128,6 @@ exclude_instrument_lists:
     - TIN_LME 
     - TWD 
     - TWD-mini 
-    - US-PROPERTY 
     - US2 
     - VNKI 
     - WHEAT_ICE 
@@ -154,7 +151,6 @@ exclude_instrument_lists:
     - BTP3 
     - BUTTER 
     - CAD2 
-    - CAD5 
     - CAD_micro 
     - CH10 
     - CHEESE 
@@ -222,14 +218,12 @@ exclude_instrument_lists:
     - MSCIEMASIA 
     - MSCIWORLD 
     - MUMMY 
-    - NIKKEI400 
     - NOK 
     - OMX 
     - PLN 
     - R1000 
     - RUR 
     - SARONA 
-    - SEK 
     - SGD 
     - SGD_mini 
     - SGX 
@@ -243,7 +237,6 @@ exclude_instrument_lists:
     - TIN_LME 
     - TWD 
     - TWD-mini 
-    - US-PROPERTY 
     - US2 
     - US3 
     - VNKI 
