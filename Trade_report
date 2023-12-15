@@ -1,18 +1,20 @@
 
 ********************************************************************************
-Trades report produced on 14/12/2023 22:49 from 13/12/2023 22:49 to 14/12/2023 22:49
+Trades report produced on 15/12/2023 22:49 from 14/12/2023 22:49 to 15/12/2023 22:49
 ********************************************************************************
 
 
 
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
+============================================================================================
+                                       Broker orders                                        
+============================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-33052          EU-OIL  dynamic_TF_carry    [20231200] 2023-12-14 08:00:06  [-1]         350.1
-33053          EU-OIL  dynamic_TF_carry    [20231200] 2023-12-14 08:00:31  [-1]         350.1
-33051      FTSECHINAA  dynamic_TF_carry    [20231200] 2023-12-14 02:00:03   [1]       11200.0
+      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
+33054             CAC  dynamic_TF_carry    [20240100] 2023-12-15 08:00:07  [1]     7632.0000
+33055    COPPER-micro  dynamic_TF_carry    [20240300] 2023-12-15 14:00:05  [1]        3.8595
+33058             DOW  dynamic_TF_carry    [20240300] 2023-12-15 15:00:03  [1]    37564.0000
+33057       EUR_micro  dynamic_TF_carry    [20240300] 2023-12-15 15:00:01  [1]        1.0967
+33056      GOLD_micro  dynamic_TF_carry    [20240200] 2023-12-15 14:00:09  [1]     2046.4000
 
 
 =============================================================================================================================================================
@@ -20,19 +22,23 @@ Trades report produced on 14/12/2023 22:49 from 13/12/2023 22:49 to 14/12/2023 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-33051      FTSECHINAA  dynamic_TF_carry       2023-12-13 05:00:00  2023-12-14 02:00:02.229000  2023-12-14 02:00:03              75602.229               0.771
-33052          EU-OIL  dynamic_TF_carry       2023-12-13 16:00:00  2023-12-14 08:00:05.791000  2023-12-14 08:00:06              57605.791               0.209
-33053          EU-OIL  dynamic_TF_carry       2023-12-13 16:00:00  2023-12-14 08:00:10.153000  2023-12-14 08:00:31              57610.153              20.847
+33054             CAC  dynamic_TF_carry       2023-12-14 00:00:00  2023-12-15 08:00:06.479000  2023-12-15 08:00:07             115206.479               0.521
+33055    COPPER-micro  dynamic_TF_carry       2023-12-14 00:00:00  2023-12-15 14:00:05.246000  2023-12-15 14:00:05             136805.246                 NaN
+33056      GOLD_micro  dynamic_TF_carry       2023-12-14 00:00:00  2023-12-15 14:00:09.185000  2023-12-15 14:00:09             136809.185                 NaN
+33057       EUR_micro  dynamic_TF_carry       2023-12-14 00:00:00  2023-12-15 15:00:01.651000  2023-12-15 15:00:01             140401.651                 NaN
+33058             DOW  dynamic_TF_carry       2023-12-14 00:00:00  2023-12-15 15:00:03.027000  2023-12-15 15:00:03             140403.027                 NaN
 
 
-==========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                 
-==========================================================================================================================================================================================================================
+==============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                   
+==============================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
-33051      FTSECHINAA  dynamic_TF_carry   [1]                11246.0               None   11196.5    11197.0       11196.0     11196.0      11200.0  49.5    -0.5      -3.0         -4.0                 NaN          -3.5
-33052          EU-OIL  dynamic_TF_carry  [-1]                  348.1               None    350.45      349.9         351.0       351.0        350.1  2.35   -0.55       0.2         -0.9                 NaN         -0.35
-33053          EU-OIL  dynamic_TF_carry  [-1]                  348.1               None     350.4      350.1         350.7       350.7        350.1   2.3    -0.3      -0.0         -0.6                 NaN          -0.3
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
+33054             CAC  dynamic_TF_carry   [1]                 7608.0               None   7630.75     7631.0        7630.5      7630.5       7632.0   -22.75    -0.25      -1.0         -1.5                 NaN         -1.25
+33055    COPPER-micro  dynamic_TF_carry   [1]                  3.877               None   3.85925     3.8595         3.859         NaN       3.8595  0.01775 -0.00025       0.0          NaN                 NaN      -0.00025
+33056      GOLD_micro  dynamic_TF_carry   [1]                 2050.2               None   2046.45     2046.5        2046.4      2046.4       2046.4     3.75    -0.05       0.1          0.0                 NaN          0.05
+33057       EUR_micro  dynamic_TF_carry   [1]                 1.1036               None   1.09665     1.0967        1.0966      1.0966       1.0967  0.00695 -0.00005       0.0      -0.0001                 NaN      -0.00005
+33058             DOW  dynamic_TF_carry   [1]                37588.0               None   37560.0    37561.0       37559.0     37559.0      37564.0     28.0     -1.0      -3.0         -5.0                 NaN          -4.0
 
 
 ==============================================================================================================================================================
@@ -40,9 +46,11 @@ Trades report produced on 14/12/2023 22:49 from 13/12/2023 22:49 to 14/12/2023 2
 ==============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33051      FTSECHINAA  dynamic_TF_carry   [1]     1944.590908  254.552255   -2.571235    -15.427409       -20.569879                     NaN        -17.998644
-33052          EU-OIL  dynamic_TF_carry  [-1]       69.504768    338.1063  -79.131262     28.775004      -129.487519                     NaN        -50.356257
-33053          EU-OIL  dynamic_TF_carry  [-1]       69.504768  330.912549  -43.162506          -0.0       -86.325013                     NaN        -43.162506
+33054             CAC  dynamic_TF_carry   [1]      843.128055 -269.828526   -2.965149    -11.860595       -17.790892                     NaN        -14.825743
+33055    COPPER-micro  dynamic_TF_carry   [1]         0.76068   233.34394   -3.286534           0.0              NaN                     NaN         -3.286534
+33056      GOLD_micro  dynamic_TF_carry   [1]      314.707086  119.158423   -1.588779      3.177558              0.0                     NaN          1.588779
+33057       EUR_micro  dynamic_TF_carry   [1]        0.092257  753.329933    -5.41964           0.0        -10.83928                     NaN          -5.41964
+33058             DOW  dynamic_TF_carry   [1]     3860.090892   72.537152   -2.590613     -7.771838       -12.953063                     NaN         -10.36245
 
 
 ========================================================================================================================================================================
@@ -50,51 +58,68 @@ Trades report produced on 14/12/2023 22:49 from 13/12/2023 22:49 to 14/12/2023 2
 ========================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33051      FTSECHINAA  dynamic_TF_carry   [1]             0.790945    39.15179    -0.395473      -2.372836         -3.163781                      NaN          -2.768308
-33052          EU-OIL  dynamic_TF_carry  [-1]            43.116601  101.324013   -23.714131        8.62332        -38.804941                      NaN          -15.09081
-33053          EU-OIL  dynamic_TF_carry  [-1]            43.116601   99.168183    -12.93498           -0.0        -25.869961                      NaN          -12.93498
+33054             CAC  dynamic_TF_carry   [1]             8.606978 -195.808741    -2.151744      -8.606978        -12.910466                      NaN         -10.758722
+33055    COPPER-micro  dynamic_TF_carry   [1]          1958.472548   34.762888    -0.489618            0.0               NaN                      NaN          -0.489618
+33056      GOLD_micro  dynamic_TF_carry   [1]              7.83389   29.377088    -0.391695       0.783389               0.0                      NaN           0.391695
+33057       EUR_micro  dynamic_TF_carry   [1]           9792.36274   68.056921    -0.489618            0.0         -0.979236                      NaN          -0.489618
+33058             DOW  dynamic_TF_carry   [1]             0.391695   10.967446    -0.391695      -1.175084         -1.958473                      NaN          -1.566778
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry EU-OIL           200.492195
-                 FTSECHINAA         39.15179
+dynamic_TF_carry CAC             -195.808741
+                 COPPER-micro      34.762888
+                 DOW               10.967446
+                 EUR_micro         68.056921
+                 GOLD_micro        29.377088
 delay_cash Total Sum
-                  delay_cash
-strategy_name               
-dynamic_TF_carry  239.643986
+                 delay_cash
+strategy_name              
+dynamic_TF_carry -52.644398
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry EU-OIL            -36.649111
-                 FTSECHINAA         -0.395473
+dynamic_TF_carry CAC                -2.151744
+                 COPPER-micro       -0.489618
+                 DOW                -0.391695
+                 EUR_micro          -0.489618
+                 GOLD_micro         -0.391695
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry   -37.044584
+dynamic_TF_carry     -3.91437
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry EU-OIL                 8.62332
-                 FTSECHINAA           -2.372836
+dynamic_TF_carry CAC                  -8.606978
+                 COPPER-micro               0.0
+                 DOW                  -1.175084
+                 EUR_micro                  0.0
+                 GOLD_micro            0.783389
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry       6.250484
+dynamic_TF_carry      -8.998672
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry EU-OIL                 -64.674902
-                 FTSECHINAA              -3.163781
+dynamic_TF_carry CAC                    -12.910466
+                 COPPER-micro                    0
+                 DOW                     -1.958473
+                 EUR_micro               -0.979236
+                 GOLD_micro                    0.0
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry        -67.838683
+dynamic_TF_carry        -15.848175
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry EU-OIL                                 0
-                 FTSECHINAA                             0
+dynamic_TF_carry CAC                                    0
+                 COPPER-micro                           0
+                 DOW                                    0
+                 EUR_micro                              0
+                 GOLD_micro                             0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -102,12 +127,15 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry EU-OIL                  -28.025791
-                 FTSECHINAA               -2.768308
+dynamic_TF_carry CAC                     -10.758722
+                 COPPER-micro             -0.489618
+                 DOW                      -1.566778
+                 EUR_micro                -0.489618
+                 GOLD_micro                0.391695
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry         -30.794099
+dynamic_TF_carry         -12.913042
 
 ********************************************************************************
                                  END OF REPORT                                  
