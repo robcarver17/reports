@@ -1,34 +1,32 @@
 
 ********************************************************************************
-                 Reconcile report produced on 20/12/2023 22:49                  
+                 Reconcile report produced on 21/12/2023 22:48                  
 ********************************************************************************
 
 
-Breaks Optimal vs actual []
+Breaks Optimal vs actual ['dynamic_TF_carry KR10', 'dynamic_TF_carry EU-OIL', 'dynamic_TF_carry BITCOIN', 'dynamic_TF_carry FTSETAIWAN', 'dynamic_TF_carry IRON', 'dynamic_TF_carry NASDAQ_micro']
  Breaks Instrument vs Contract []
- Breaks Broker vs Contract [KR10/20231219]
+ Breaks Broker vs Contract []
 
 ===============================================================
                         Positions in DB                        
 ===============================================================
 
    instrument_code contract_date          expiry_date  position
-7          BITCOIN      20240126  2024-01-26 00:00:00       1.0
-12             CAC      20240119  2024-01-19 00:00:00       1.0
-14             CNH      20240115  2024-01-15 00:00:00       1.0
-9              DOW      20240315  2024-03-15 00:00:00       2.0
+6          BITCOIN      20240126  2024-01-26 00:00:00       1.0
+10             CAC      20240119  2024-01-19 00:00:00       1.0
+12             CNH      20240115  2024-01-15 00:00:00       1.0
+7              DOW      20240315  2024-03-15 00:00:00       2.0
 1        EUR_micro      20240318  2024-03-18 00:00:00      -2.0
-6       FTSETAIWAN      20231228  2023-12-28 00:00:00       1.0
-10         GAS-PEN      20240126  2024-01-26 00:00:00      -1.0
+8          GAS-PEN      20240126  2024-01-26 00:00:00      -1.0
 5      GAS_US_mini      20240126  2024-01-26 00:00:00      -1.0
-11            IRON      20240229  2024-02-29 00:00:00       1.0
+9             IRON      20240229  2024-02-29 00:00:00       1.0
 2              JPY      20240318  2024-03-18 00:00:00      -1.0
-8             KR10      20231219  2023-12-19 00:00:00       1.0
 3          LIVECOW      20240229  2024-02-29 00:00:00      -1.0
-13             MXP      20240318  2024-03-18 00:00:00       2.0
+11             MXP      20240318  2024-03-18 00:00:00       2.0
 4           NIKKEI      20240307  2024-03-07 00:00:00       2.0
 0              US2      20240328  2024-03-28 00:00:00      -1.0
-15             VIX      20240214  2024-02-14 00:00:00      -1.0
+13             VIX      20240214  2024-02-14 00:00:00      -1.0
 
 
 ===============================================================
@@ -37,40 +35,36 @@ Breaks Optimal vs actual []
 
    instrument_code contract_date          expiry_date  position
 13         BITCOIN      20240126  2024-01-26 00:00:00       1.0
-5              CAC      20240119  2024-01-19 00:00:00       1.0
-4              CNH      20240115  2024-01-15 00:00:00       1.0
-14             DOW      20240315  2024-03-15 00:00:00       2.0
-12       EUR_micro      20240318  2024-03-18 00:00:00      -2.0
-11      FTSETAIWAN      20231228  2023-12-28 00:00:00       1.0
-10         GAS-PEN      20240126  2024-01-26 00:00:00      -1.0
-6      GAS_US_mini      20240126  2024-01-26 00:00:00      -1.0
-7             IRON      20240229  2024-02-29 00:00:00       1.0
-3              JPY      20240318  2024-03-18 00:00:00      -1.0
-2          LIVECOW      20240229  2024-02-29 00:00:00      -1.0
-9              MXP      20240318  2024-03-18 00:00:00       2.0
-1           NIKKEI      20240307  2024-03-07 00:00:00       2.0
-0              US2      20240328  2024-03-28 00:00:00      -1.0
-8              VIX      20240214  2024-02-14 00:00:00      -1.0
+0              CAC      20240119  2024-01-19 00:00:00       1.0
+10             CNH      20240115  2024-01-15 00:00:00       1.0
+1              DOW      20240315  2024-03-15 00:00:00       2.0
+2        EUR_micro      20240318  2024-03-18 00:00:00      -2.0
+11         GAS-PEN      20240126  2024-01-26 00:00:00      -1.0
+8      GAS_US_mini      20240126  2024-01-26 00:00:00      -1.0
+5             IRON      20240229  2024-02-29 00:00:00       1.0
+9              JPY      20240318  2024-03-18 00:00:00      -1.0
+3          LIVECOW      20240229  2024-02-29 00:00:00      -1.0
+6              MXP      20240318  2024-03-18 00:00:00       2.0
+12          NIKKEI      20240307  2024-03-07 00:00:00       2.0
+7              US2      20240328  2024-03-28 00:00:00      -1.0
+4              VIX      20240214  2024-02-14 00:00:00      -1.0
 
 
-===============================================================================
-                                 Trades in DB                                  
-===============================================================================
+======================================================================================
+                                     Trades in DB                                     
+======================================================================================
 
-            strategy_name contract_date       fill_datetime  fill  filled_price
-BITCOIN  dynamic_TF_carry    [20231200] 2023-12-20 15:00:03  [-1]       44110.0
-BITCOIN  dynamic_TF_carry    [20231200] 2023-12-20 15:00:07  [-1]       44125.0
-BITCOIN  dynamic_TF_carry    [20231200] 2023-12-20 15:00:11  [-1]       44140.0
+               strategy_name contract_date           fill_datetime  fill  filled_price
+FTSETAIWAN  dynamic_TF_carry    [20231200] 2023-12-21 01:45:03.000  [-1]       1512.00
+KR10        dynamic_TF_carry    [20231200] 2023-12-21 08:35:53.199  [-1]        113.53
 
 
-===========================================================================
-                            Trades from broker                             
-===========================================================================
+==============================================================================
+                              Trades from broker                              
+==============================================================================
 
-        strategy_name contract_date       fill_datetime  fill  filled_price
-BITCOIN                  [20231229] 2023-12-20 15:00:11  [-1]       44140.0
-BITCOIN                  [20231229] 2023-12-20 15:00:03  [-1]       44110.0
-BITCOIN                  [20231229] 2023-12-20 15:00:07  [-1]       44125.0
+           strategy_name contract_date       fill_datetime  fill  filled_price
+FTSETAIWAN                  [20231228] 2023-12-21 01:45:03  [-1]        1512.0
 
 
 ==========================================================
@@ -90,7 +84,7 @@ dynamic_TF_carry CZK                     0       0   False
 dynamic_TF_carry US10                    0       0   False
 dynamic_TF_carry REDWHEAT                0       0   False
 dynamic_TF_carry TWD                     0       0   False
-dynamic_TF_carry KR10                    1       1   False
+dynamic_TF_carry KR10                    0       1    True
 dynamic_TF_carry NOK                     0       0   False
 dynamic_TF_carry EURCAD                  0       0   False
 dynamic_TF_carry EU-UTILS                0       0   False
@@ -120,7 +114,7 @@ dynamic_TF_carry EPRA-EUROPE             0       0   False
 dynamic_TF_carry CAC                     1       1   False
 dynamic_TF_carry US10U                   0       0   False
 dynamic_TF_carry FTSEVIET                0       0   False
-dynamic_TF_carry EU-OIL                  0       0   False
+dynamic_TF_carry EU-OIL                  0       1    True
 dynamic_TF_carry EU-REALESTATE           0       0   False
 dynamic_TF_carry KOSPI_mini              0       0   False
 dynamic_TF_carry US2                    -1      -1   False
@@ -145,7 +139,7 @@ dynamic_TF_carry US3                     0       0   False
 dynamic_TF_carry NIKKEI400               0       0   False
 dynamic_TF_carry JPY                    -1      -1   False
 dynamic_TF_carry DAX                     0       0   False
-dynamic_TF_carry BITCOIN                 1       1   False
+dynamic_TF_carry BITCOIN                 1       2    True
 dynamic_TF_carry US-MATERIAL             0       0   False
 dynamic_TF_carry IRS                     0       0   False
 dynamic_TF_carry EU-TECH                 0       0   False
@@ -189,7 +183,7 @@ dynamic_TF_carry US-DISCRETE             0       0   False
 dynamic_TF_carry MILKWET                 0       0   False
 dynamic_TF_carry ZAR                     0       0   False
 dynamic_TF_carry US-INDUSTRY             0       0   False
-dynamic_TF_carry FTSETAIWAN              1       1   False
+dynamic_TF_carry FTSETAIWAN              0       1    True
 dynamic_TF_carry MILK                    0       0   False
 dynamic_TF_carry BUXL                    0       0   False
 dynamic_TF_carry EU-TRAVEL               0       0   False
@@ -219,9 +213,9 @@ dynamic_TF_carry CNH                     1       1   False
 dynamic_TF_carry US-HEALTH               0       0   False
 dynamic_TF_carry AUDJPY                  0       0   False
 dynamic_TF_carry BUTTER                  0       0   False
-dynamic_TF_carry IRON                    1       1   False
+dynamic_TF_carry IRON                    1       2    True
 dynamic_TF_carry BTP3                    0       0   False
-dynamic_TF_carry NASDAQ_micro            0       0   False
+dynamic_TF_carry NASDAQ_micro            0       1    True
 dynamic_TF_carry WHEAT                   0       0   False
 dynamic_TF_carry R1000                   0       0   False
 dynamic_TF_carry KRWUSD                  0       0   False

@@ -1,38 +1,35 @@
 
 ********************************************************************************
-Trades report produced on 20/12/2023 22:49 from 19/12/2023 22:49 to 20/12/2023 22:49
+Trades report produced on 21/12/2023 22:49 from 20/12/2023 22:49 to 21/12/2023 22:49
 ********************************************************************************
 
 
 
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
+=================================================================================================
+                                          Broker orders                                          
+=================================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-33059         BITCOIN  dynamic_TF_carry    [20231200] 2023-12-20 15:00:03  [-1]       44110.0
-33060         BITCOIN  dynamic_TF_carry    [20231200] 2023-12-20 15:00:07  [-1]       44125.0
-33061         BITCOIN  dynamic_TF_carry    [20231200] 2023-12-20 15:00:11  [-1]       44140.0
-
-
-=============================================================================================================================================================
-                                                                           Delays                                                                            
-=============================================================================================================================================================
-
-      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-33059         BITCOIN  dynamic_TF_carry       2023-12-19 20:00:00  2023-12-20 15:00:02.796000  2023-12-20 15:00:03              68402.796               0.204
-33060         BITCOIN  dynamic_TF_carry       2023-12-19 20:00:00  2023-12-20 15:00:07.457000  2023-12-20 15:00:07              68407.457                 NaN
-33061         BITCOIN  dynamic_TF_carry       2023-12-19 20:00:00  2023-12-20 15:00:11.201000  2023-12-20 15:00:11              68411.201                 NaN
+      instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
+33062      FTSETAIWAN  dynamic_TF_carry    [20231200] 2023-12-21 01:45:03.000  [-1]       1512.00
+33063            KR10  dynamic_TF_carry    [20231200] 2023-12-21 08:35:53.199  [-1]        113.53
 
 
-============================================================================================================================================================================================================================
-                                                                                                  Slippage (ticks per lot)                                                                                                  
-============================================================================================================================================================================================================================
+====================================================================================================================================================================
+                                                                               Delays                                                                               
+====================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
-33059         BITCOIN  dynamic_TF_carry  [-1]                42460.0               None   44110.0    44095.0       44125.0     44125.0      44110.0  1650.0   -15.0      15.0        -15.0                 NaN           0.0
-33060         BITCOIN  dynamic_TF_carry  [-1]                42460.0               None   44117.5    44110.0       44125.0     44125.0      44125.0  1657.5    -7.5      15.0         -0.0                 NaN           7.5
-33061         BITCOIN  dynamic_TF_carry  [-1]                42460.0               None   44130.0    44120.0       44140.0     44140.0      44140.0  1670.0   -10.0      20.0         -0.0                 NaN          10.0
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
+33062      FTSETAIWAN  dynamic_TF_carry       2023-12-20 05:00:00  2023-12-21 01:45:02.180000         2023-12-21 01:45:03               74702.18                0.82
+33063            KR10  dynamic_TF_carry                       NaT                         NaT  2023-12-21 08:35:53.199000                    NaN                 NaN
+
+
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+33062      FTSETAIWAN  dynamic_TF_carry  [-1]                1530.25               None    1512.5    1512.25       1512.75     1512.75       1512.0 -17.75   -0.25     -0.25        -0.75                 NaN          -0.5
+33063            KR10  dynamic_TF_carry  [-1]                    NaN               None       NaN        NaN           NaN         NaN       113.53    NaN     NaN       NaN          NaN                 NaN           NaN
 
 
 ==============================================================================================================================================================
@@ -40,9 +37,8 @@ Trades report produced on 20/12/2023 22:49 from 19/12/2023 22:49 to 20/12/2023 2
 ==============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33059         BITCOIN  dynamic_TF_carry  [-1]    19184.359853   860.07561   -7.818869      7.818869        -7.818869                     NaN               0.0
-33060         BITCOIN  dynamic_TF_carry  [-1]    19184.359853  863.985044   -3.909435      7.818869             -0.0                     NaN          3.909435
-33061         BITCOIN  dynamic_TF_carry  [-1]    19184.359853  870.500769   -5.212579     10.425159             -0.0                     NaN          5.212579
+33062      FTSETAIWAN  dynamic_TF_carry  [-1]       182.00591 -975.243054  -13.735818    -13.735818       -41.207453                     NaN        -27.471635
+33063            KR10  dynamic_TF_carry  [-1]        9.397016         NaN         NaN           NaN              NaN                     NaN               NaN
 
 
 ========================================================================================================================================================================
@@ -50,46 +46,50 @@ Trades report produced on 20/12/2023 22:49 from 19/12/2023 22:49 to 20/12/2023 2
 ========================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33059         BITCOIN  dynamic_TF_carry  [-1]             0.078955  130.276186    -1.184329       1.184329         -1.184329                      NaN                0.0
-33060         BITCOIN  dynamic_TF_carry  [-1]             0.078955   130.86835    -0.592164       1.184329              -0.0                      NaN           0.592164
-33061         BITCOIN  dynamic_TF_carry  [-1]             0.078955  131.855291    -0.789553       1.579105              -0.0                      NaN           0.789553
+33062      FTSETAIWAN  dynamic_TF_carry  [-1]              31.6611 -561.984518    -7.915275      -7.915275        -23.745825                      NaN          -15.83055
+33063            KR10  dynamic_TF_carry  [-1]           606.808719         NaN          NaN            NaN               NaN                      NaN                NaN
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry BITCOIN          392.999826
+dynamic_TF_carry FTSETAIWAN      -561.984518
+                 KR10                      0
 delay_cash Total Sum
                   delay_cash
 strategy_name               
-dynamic_TF_carry  392.999826
+dynamic_TF_carry -561.984518
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry BITCOIN            -2.566046
+dynamic_TF_carry FTSETAIWAN         -7.915275
+                 KR10                       0
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -2.566046
+dynamic_TF_carry    -7.915275
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry BITCOIN               3.947763
+dynamic_TF_carry FTSETAIWAN           -7.915275
+                 KR10                         0
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry       3.947763
+dynamic_TF_carry      -7.915275
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry BITCOIN                 -1.184329
+dynamic_TF_carry FTSETAIWAN             -23.745825
+                 KR10                            0
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry         -1.184329
+dynamic_TF_carry        -23.745825
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry BITCOIN                                0
+dynamic_TF_carry FTSETAIWAN                             0
+                 KR10                                   0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -97,11 +97,12 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry BITCOIN                   1.381717
+dynamic_TF_carry FTSETAIWAN               -15.83055
+                 KR10                             0
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry           1.381717
+dynamic_TF_carry          -15.83055
 
 ********************************************************************************
                                  END OF REPORT                                  
