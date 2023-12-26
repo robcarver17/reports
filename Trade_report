@@ -1,21 +1,16 @@
 
 ********************************************************************************
-Trades report produced on 22/12/2023 22:49 from 21/12/2023 22:49 to 22/12/2023 22:49
+Trades report produced on 26/12/2023 22:49 from 25/12/2023 22:49 to 26/12/2023 22:49
 ********************************************************************************
 
 
 
-============================================================================================
-                                       Broker orders                                        
-============================================================================================
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
-33068         BITCOIN  dynamic_TF_carry    [20240100] 2023-12-22 15:00:03  [1]      44450.00
-33067          EU-OIL  dynamic_TF_carry    [20240300] 2023-12-22 08:00:10  [1]        357.30
-33066      FTSETAIWAN  dynamic_TF_carry    [20240100] 2023-12-22 01:45:07  [1]       1522.00
-33064            IRON  dynamic_TF_carry    [20240300] 2023-12-22 01:00:08  [1]        135.10
-33065            KR10  dynamic_TF_carry    [20240300] 2023-12-22 01:00:55  [1]        114.47
-33069    NASDAQ_micro  dynamic_TF_carry    [20240300] 2023-12-22 15:00:05  [1]      17028.50
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+33070             DOW  dynamic_TF_carry    [20240300] 2023-12-26 15:00:05  [-1]       37768.0
 
 
 =============================================================================================================================================================
@@ -23,113 +18,68 @@ Trades report produced on 22/12/2023 22:49 from 21/12/2023 22:49 to 22/12/2023 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-33064            IRON  dynamic_TF_carry       2023-12-21 00:00:00  2023-12-22 01:00:07.256000  2023-12-22 01:00:08              90007.256               0.744
-33065            KR10  dynamic_TF_carry       2023-12-19 00:00:00  2023-12-22 01:00:09.531000  2023-12-22 01:00:55             262809.531              45.469
-33066      FTSETAIWAN  dynamic_TF_carry       2023-12-21 00:00:00  2023-12-22 01:45:02.770000  2023-12-22 01:45:07               92702.77                4.23
-33067          EU-OIL  dynamic_TF_carry       2023-12-21 00:00:00  2023-12-22 08:00:06.927000  2023-12-22 08:00:10             115206.927               3.073
-33068         BITCOIN  dynamic_TF_carry       2023-12-21 00:00:00  2023-12-22 15:00:03.382000  2023-12-22 15:00:03             140403.382                 NaN
-33069    NASDAQ_micro  dynamic_TF_carry       2023-12-21 00:00:00  2023-12-22 15:00:04.834000  2023-12-22 15:00:05             140404.834               0.166
+33070             DOW  dynamic_TF_carry       2023-12-22 00:00:00  2023-12-26 15:00:03.816000  2023-12-26 15:00:05             399603.816               1.184
 
 
-==============================================================================================================================================================================================================================
-                                                                                                   Slippage (ticks per lot)                                                                                                   
-==============================================================================================================================================================================================================================
+==========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                 
+==========================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price  mid_price side_price offside_price limit_price filled_price    delay bid_ask execution versus_limit versus_parent_limit total_trading
-33064            IRON  dynamic_TF_carry   [1]                  131.8               None    134.975     135.05         134.9       134.9        135.1   -3.175  -0.075     -0.05         -0.2                 NaN        -0.125
-33065            KR10  dynamic_TF_carry   [1]                  113.7               None    114.475     114.48        114.47      114.47       114.47   -0.775  -0.005      0.01          0.0                 NaN         0.005
-33066      FTSETAIWAN  dynamic_TF_carry   [1]                1514.75               None   1522.125    1522.25        1522.0      1522.0       1522.0   -7.375  -0.125      0.25          0.0                 NaN         0.125
-33067          EU-OIL  dynamic_TF_carry   [1]                  355.0               None     356.25      357.1         355.4       355.4        357.3    -1.25   -0.85      -0.2         -1.9                 NaN         -1.05
-33068         BITCOIN  dynamic_TF_carry   [1]                44335.0               None    44422.5    44450.0       44395.0         NaN      44450.0    -87.5   -27.5       0.0          NaN                 NaN         -27.5
-33069    NASDAQ_micro  dynamic_TF_carry   [1]                16915.0               None  17026.875   17028.25       17025.5     17025.5      17028.5 -111.875  -1.375     -0.25         -3.0                 NaN        -1.625
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
+33070             DOW  dynamic_TF_carry  [-1]                37747.0               None   37767.5    37767.0       37768.0     37768.0      37768.0  20.5    -0.5       1.0         -0.0                 NaN           0.5
 
 
-==============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
-==============================================================================================================================================================
+=============================================================================================================================================================
+                                                    Slippage (normalised by annual vol, BP of annual SR)                                                     
+=============================================================================================================================================================
 
-      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33064            IRON  dynamic_TF_carry   [1]       34.170151 -929.173545  -21.948981    -14.632654       -58.530617                     NaN        -36.581636
-33065            KR10  dynamic_TF_carry   [1]        9.242651 -838.504024   -5.409703     10.819407              0.0                     NaN          5.409703
-33066      FTSETAIWAN  dynamic_TF_carry   [1]      177.365626 -415.807738   -7.047589     14.095178              0.0                     NaN          7.047589
-33067          EU-OIL  dynamic_TF_carry   [1]       65.257668  -191.54837 -130.252891    -30.647739      -291.153522                     NaN       -160.900631
-33068         BITCOIN  dynamic_TF_carry   [1]     18268.77524  -47.895931  -15.053007           0.0              NaN                     NaN        -15.053007
-33069    NASDAQ_micro  dynamic_TF_carry   [1]     2526.002894 -442.893396   -5.443383     -0.989706       -11.876471                     NaN         -6.433088
+      instrument_code     strategy_name trade last_annual_vol  delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+33070             DOW  dynamic_TF_carry  [-1]     4044.022452  50.692102   -1.236393      2.472785             -0.0                     NaN          1.236393
 
 
-========================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                       
-========================================================================================================================================================================
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33064            IRON  dynamic_TF_carry   [1]            78.654381 -249.727659    -5.899079      -3.932719        -15.730876                      NaN          -9.831798
-33065            KR10  dynamic_TF_carry   [1]           604.757803 -468.687298    -3.023789       6.047578               0.0                      NaN           3.023789
-33066      FTSETAIWAN  dynamic_TF_carry   [1]            31.461752 -232.030424    -3.932719       7.865438               0.0                      NaN           3.932719
-33067          EU-OIL  dynamic_TF_carry   [1]            43.252241  -54.065301   -36.764405      -8.650448        -82.179257                      NaN         -45.414853
-33068         BITCOIN  dynamic_TF_carry   [1]             0.078654   -6.882258    -2.162995            0.0               NaN                      NaN          -2.162995
-33069    NASDAQ_micro  dynamic_TF_carry   [1]             1.573088 -175.989177    -2.162995      -0.393272         -4.719263                      NaN          -2.556267
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+33070             DOW  dynamic_TF_carry  [-1]             0.393814   8.073186    -0.196907       0.393814              -0.0                      NaN           0.196907
 
 delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry BITCOIN           -6.882258
-                 EU-OIL           -54.065301
-                 FTSETAIWAN      -232.030424
-                 IRON            -249.727659
-                 KR10            -468.687298
-                 NASDAQ_micro    -175.989177
+                                 delay_cash
+strategy_name    instrument_code           
+dynamic_TF_carry DOW               8.073186
 delay_cash Total Sum
-                   delay_cash
-strategy_name                
-dynamic_TF_carry -1187.382117
+                 delay_cash
+strategy_name              
+dynamic_TF_carry   8.073186
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry BITCOIN            -2.162995
-                 EU-OIL            -36.764405
-                 FTSETAIWAN         -3.932719
-                 IRON               -5.899079
-                 KR10               -3.023789
-                 NASDAQ_micro       -2.162995
+dynamic_TF_carry DOW                -0.196907
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry   -53.945982
+dynamic_TF_carry    -0.196907
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry BITCOIN                    0.0
-                 EU-OIL               -8.650448
-                 FTSETAIWAN            7.865438
-                 IRON                 -3.932719
-                 KR10                  6.047578
-                 NASDAQ_micro         -0.393272
+dynamic_TF_carry DOW                   0.393814
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry       0.936577
+dynamic_TF_carry       0.393814
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry BITCOIN                         0
-                 EU-OIL                 -82.179257
-                 FTSETAIWAN                    0.0
-                 IRON                   -15.730876
-                 KR10                          0.0
-                 NASDAQ_micro            -4.719263
+dynamic_TF_carry DOW                          -0.0
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry       -102.629396
+dynamic_TF_carry              -0.0
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry BITCOIN                                0
-                 EU-OIL                                 0
-                 FTSETAIWAN                             0
-                 IRON                                   0
-                 KR10                                   0
-                 NASDAQ_micro                           0
+dynamic_TF_carry DOW                                    0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -137,16 +87,11 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry BITCOIN                  -2.162995
-                 EU-OIL                  -45.414853
-                 FTSETAIWAN                3.932719
-                 IRON                     -9.831798
-                 KR10                      3.023789
-                 NASDAQ_micro             -2.556267
+dynamic_TF_carry DOW                       0.196907
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry         -53.009405
+dynamic_TF_carry           0.196907
 
 ********************************************************************************
                                  END OF REPORT                                  
