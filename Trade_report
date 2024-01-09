@@ -1,15 +1,146 @@
 
 ********************************************************************************
-Trades report produced on 08/01/2024 22:49 from 07/01/2024 22:49 to 08/01/2024 22:49
+Trades report produced on 09/01/2024 22:49 from 08/01/2024 22:49 to 09/01/2024 22:49
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+33079    COPPER-micro  dynamic_TF_carry    [20240300] 2024-01-09 14:00:08  [-1]      3.801000
+33080      GOLD_micro  dynamic_TF_carry    [20240400] 2024-01-09 14:00:12  [-1]   2065.300000
+33081             JPY  dynamic_TF_carry    [20240300] 2024-01-09 15:00:03  [-1]      0.007025
+33078            KR10  dynamic_TF_carry    [20240300] 2024-01-09 01:00:58   [1]    113.950000
+33082         RUSSELL  dynamic_TF_carry    [20240300] 2024-01-09 15:00:05  [-1]   1974.300000
+33083         RUSSELL  dynamic_TF_carry    [20240300] 2024-01-09 15:00:09  [-1]   1974.500000
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+33078            KR10  dynamic_TF_carry       2024-01-08 00:00:00  2024-01-09 01:00:06.416000  2024-01-09 01:00:58              90006.416              51.584
+33079    COPPER-micro  dynamic_TF_carry       2024-01-08 00:00:00  2024-01-09 14:00:05.327000  2024-01-09 14:00:08             136805.327               2.673
+33080      GOLD_micro  dynamic_TF_carry       2024-01-08 00:00:00  2024-01-09 14:00:12.427000  2024-01-09 14:00:12             136812.427                 NaN
+33081             JPY  dynamic_TF_carry       2024-01-08 00:00:00  2024-01-09 15:00:03.554000  2024-01-09 15:00:03             140403.554                 NaN
+33082         RUSSELL  dynamic_TF_carry       2024-01-08 00:00:00  2024-01-09 15:00:05.264000  2024-01-09 15:00:05             140405.264                 NaN
+33083         RUSSELL  dynamic_TF_carry       2024-01-08 00:00:00  2024-01-09 15:00:09.111000  2024-01-09 15:00:09             140409.111                 NaN
+
+
+==============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                   
+==============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay bid_ask execution versus_limit versus_parent_limit total_trading
+33078            KR10  dynamic_TF_carry   [1]                  113.6               None   113.935     113.94        113.93      113.93       113.95    -0.335  -0.005     -0.01        -0.02                 NaN        -0.015
+33079    COPPER-micro  dynamic_TF_carry  [-1]                  3.823               None    3.8005        3.8         3.801       3.801        3.801   -0.0225 -0.0005     0.001         -0.0                 NaN        0.0005
+33080      GOLD_micro  dynamic_TF_carry  [-1]                 2052.9               None   2065.45     2065.3        2065.6      2065.6       2065.3     12.55   -0.15      -0.0         -0.3                 NaN         -0.15
+33081             JPY  dynamic_TF_carry  [-1]               0.007009               None  0.007025   0.007025      0.007025    0.007025     0.007025  0.000016    -0.0      -0.0         -0.0                 NaN          -0.0
+33082         RUSSELL  dynamic_TF_carry  [-1]                 1998.7               None   1974.45     1974.4        1974.5      1974.5       1974.3    -24.25   -0.05      -0.1         -0.2                 NaN         -0.15
+33083         RUSSELL  dynamic_TF_carry  [-1]                 1998.7               None   1974.35     1974.3        1974.4      1974.4       1974.5    -24.35   -0.05       0.2          0.1                 NaN          0.15
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+33078            KR10  dynamic_TF_carry   [1]        8.853844 -378.366714   -5.647264    -11.294529       -22.589058                     NaN        -16.941793
+33079    COPPER-micro  dynamic_TF_carry  [-1]        0.735825 -305.779039    -6.79509      13.59018             -0.0                     NaN           6.79509
+33080      GOLD_micro  dynamic_TF_carry  [-1]      261.695131  479.565666   -5.731861          -0.0       -11.463721                     NaN         -5.731861
+33081             JPY  dynamic_TF_carry  [-1]        0.000759  214.178765   -3.295058          -0.0        -6.590116                     NaN         -3.295058
+33082         RUSSELL  dynamic_TF_carry  [-1]      445.884386 -543.862955   -1.121367     -2.242734        -4.485468                     NaN         -3.364101
+33083         RUSSELL  dynamic_TF_carry  [-1]      445.884386 -546.105689   -1.121367      4.485468         2.242734                     NaN          3.364101
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+33078            KR10  dynamic_TF_carry   [1]           600.833968 -201.279379     -3.00417       -6.00834        -12.016679                      NaN           -9.01251
+33079    COPPER-micro  dynamic_TF_carry  [-1]          1963.201746  -44.172039    -0.981601       1.963202              -0.0                      NaN           0.981601
+33080      GOLD_micro  dynamic_TF_carry  [-1]             7.852807   98.552728    -1.177921           -0.0         -2.355842                      NaN          -1.177921
+33081             JPY  dynamic_TF_carry  [-1]       9816008.732321  159.510142    -2.454002           -0.0         -4.908004                      NaN          -2.454002
+33082         RUSSELL  dynamic_TF_carry  [-1]             3.926403  -95.215285     -0.19632       -0.39264         -0.785281                      NaN          -0.588961
+33083         RUSSELL  dynamic_TF_carry  [-1]             3.926403  -95.607925     -0.19632       0.785281           0.39264                      NaN           0.588961
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry COPPER-micro     -44.172039
+                 GOLD_micro        98.552728
+                 JPY              159.510142
+                 KR10            -201.279379
+                 RUSSELL          -190.82321
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -178.211759
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry COPPER-micro       -0.981601
+                 GOLD_micro         -1.177921
+                 JPY                -2.454002
+                 KR10                -3.00417
+                 RUSSELL             -0.39264
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry    -8.010334
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry COPPER-micro          1.963202
+                 GOLD_micro                -0.0
+                 JPY                       -0.0
+                 KR10                  -6.00834
+                 RUSSELL                0.39264
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry      -3.652498
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry COPPER-micro                 -0.0
+                 GOLD_micro              -2.355842
+                 JPY                     -4.908004
+                 KR10                   -12.016679
+                 RUSSELL                  -0.39264
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry        -19.673166
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry COPPER-micro                           0
+                 GOLD_micro                             0
+                 JPY                                    0
+                 KR10                                   0
+                 RUSSELL                                0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry COPPER-micro              0.981601
+                 GOLD_micro               -1.177921
+                 JPY                      -2.454002
+                 KR10                      -9.01251
+                 RUSSELL                        0.0
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry         -11.662832
 
 ********************************************************************************
                                  END OF REPORT                                  
