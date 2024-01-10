@@ -1,10 +1,10 @@
 
 ********************************************************************************
-                 Reconcile report produced on 09/01/2024 22:49                  
+                 Reconcile report produced on 10/01/2024 22:49                  
 ********************************************************************************
 
 
-Breaks Optimal vs actual []
+Breaks Optimal vs actual ['dynamic_TF_carry BOBL', 'dynamic_TF_carry EU-OIL', 'dynamic_TF_carry FTSECHINAA', 'dynamic_TF_carry GAS-PEN', 'dynamic_TF_carry GOLD_micro']
  Breaks Instrument vs Contract []
  Breaks Broker vs Contract []
 
@@ -15,7 +15,6 @@ Breaks Optimal vs actual []
    instrument_code contract_date          expiry_date  position
 11         BITCOIN      20240126  2024-01-26 00:00:00       3.0
 16             CAC      20240119  2024-01-19 00:00:00       1.0
-18             CNH      20240115  2024-01-15 00:00:00       1.0
 5     COPPER-micro      20240227  2024-02-27 00:00:00      -1.0
 7           EU-OIL      20240315  2024-03-15 00:00:00       1.0
 2        EUR_micro      20240318  2024-03-18 00:00:00      -2.0
@@ -32,7 +31,7 @@ Breaks Optimal vs actual []
 6           NIKKEI      20240307  2024-03-07 00:00:00       2.0
 13           R1000      20240315  2024-03-15 00:00:00       1.0
 10         RUSSELL      20240315  2024-03-15 00:00:00      -2.0
-19             VIX      20240214  2024-02-14 00:00:00      -1.0
+18             VIX      20240214  2024-02-14 00:00:00      -1.0
 
 
 ===============================================================
@@ -40,52 +39,41 @@ Breaks Optimal vs actual []
 ===============================================================
 
    instrument_code contract_date          expiry_date  position
-9          BITCOIN      20240126  2024-01-26 00:00:00       3.0
-10             CAC      20240119  2024-01-19 00:00:00       1.0
-0              CNH      20240115  2024-01-15 00:00:00       1.0
-4     COPPER-micro      20240227  2024-02-27 00:00:00      -1.0
-15          EU-OIL      20240315  2024-03-15 00:00:00       1.0
-16       EUR_micro      20240318  2024-03-18 00:00:00      -2.0
-6       FTSETAIWAN      20240130  2024-01-30 00:00:00       1.0
-19         GAS-PEN      20240126  2024-01-26 00:00:00      -1.0
-12     GAS_US_mini      20240126  2024-01-26 00:00:00      -1.0
-17      GOLD_micro      20240426  2024-04-26 00:00:00      -1.0
-11            IRON      20240229  2024-02-29 00:00:00       1.0
-18            IRON      20240328  2024-03-28 00:00:00       1.0
-13             JPY      20240318  2024-03-18 00:00:00      -2.0
-5             KR10      20240319  2024-03-19 00:00:00       2.0
-14         LEANHOG      20240412  2024-04-12 00:00:00      -1.0
-2              MXP      20240318  2024-03-18 00:00:00       2.0
-7           NIKKEI      20240307  2024-03-07 00:00:00       2.0
-1            R1000      20240315  2024-03-15 00:00:00       1.0
-8          RUSSELL      20240315  2024-03-15 00:00:00      -2.0
-3              VIX      20240214  2024-02-14 00:00:00      -1.0
+8          BITCOIN      20240126  2024-01-26 00:00:00       3.0
+15             CAC      20240119  2024-01-19 00:00:00       1.0
+3     COPPER-micro      20240227  2024-02-27 00:00:00      -1.0
+18          EU-OIL      20240315  2024-03-15 00:00:00       1.0
+12       EUR_micro      20240318  2024-03-18 00:00:00      -2.0
+9       FTSETAIWAN      20240130  2024-01-30 00:00:00       1.0
+0          GAS-PEN      20240126  2024-01-26 00:00:00      -1.0
+13     GAS_US_mini      20240126  2024-01-26 00:00:00      -1.0
+10      GOLD_micro      20240426  2024-04-26 00:00:00      -1.0
+1             IRON      20240328  2024-03-28 00:00:00       1.0
+5             IRON      20240229  2024-02-29 00:00:00       1.0
+7              JPY      20240318  2024-03-18 00:00:00      -2.0
+4             KR10      20240319  2024-03-19 00:00:00       2.0
+2          LEANHOG      20240412  2024-04-12 00:00:00      -1.0
+17             MXP      20240318  2024-03-18 00:00:00       2.0
+16          NIKKEI      20240307  2024-03-07 00:00:00       2.0
+11           R1000      20240315  2024-03-15 00:00:00       1.0
+6          RUSSELL      20240315  2024-03-15 00:00:00      -2.0
+14             VIX      20240214  2024-02-14 00:00:00      -1.0
 
 
-====================================================================================
-                                    Trades in DB                                    
-====================================================================================
+===========================================================================
+                               Trades in DB                                
+===========================================================================
 
-                 strategy_name contract_date       fill_datetime  fill  filled_price
-KR10          dynamic_TF_carry    [20240300] 2024-01-09 01:00:58   [1]    113.950000
-COPPER-micro  dynamic_TF_carry    [20240300] 2024-01-09 14:00:08  [-1]      3.801000
-GOLD_micro    dynamic_TF_carry    [20240400] 2024-01-09 14:00:12  [-1]   2065.300000
-JPY           dynamic_TF_carry    [20240300] 2024-01-09 15:00:03  [-1]      0.007025
-RUSSELL       dynamic_TF_carry    [20240300] 2024-01-09 15:00:05  [-1]   1974.300000
-RUSSELL       dynamic_TF_carry    [20240300] 2024-01-09 15:00:09  [-1]   1974.500000
+        strategy_name contract_date       fill_datetime  fill  filled_price
+CNH  dynamic_TF_carry    [20240100] 2024-01-10 01:00:08  [-1]        7.1826
 
 
-================================================================================
-                               Trades from broker                               
-================================================================================
+=======================================================================
+                          Trades from broker                           
+=======================================================================
 
-             strategy_name contract_date       fill_datetime  fill  filled_price
-RUSSELL                       [20240315] 2024-01-09 15:00:05  [-1]   1974.300000
-JPY                           [20240318] 2024-01-09 15:00:03  [-1]      0.007025
-GOLD_micro                    [20240426] 2024-01-09 14:00:12  [-1]   2065.300000
-COPPER-micro                  [20240227] 2024-01-09 14:00:08  [-1]      3.801000
-RUSSELL                       [20240315] 2024-01-09 15:00:09  [-1]   1974.500000
-KR10                          [20240319] 2024-01-09 01:00:58   [1]    113.950000
+    strategy_name contract_date       fill_datetime  fill  filled_price
+CNH                  [20240115] 2024-01-10 01:00:08  [-1]        7.1826
 
 
 ==========================================================
@@ -126,7 +114,7 @@ dynamic_TF_carry PALLAD                  0       0   False
 dynamic_TF_carry SOYBEAN                 0       0   False
 dynamic_TF_carry SEK                     0       0   False
 dynamic_TF_carry MSCIWORLD               0       0   False
-dynamic_TF_carry BOBL                    0       0   False
+dynamic_TF_carry BOBL                    0      -1    True
 dynamic_TF_carry COTTON                  0       0   False
 dynamic_TF_carry EU-DJ-UTIL              0       0   False
 dynamic_TF_carry OATIES                  0       0   False
@@ -135,7 +123,7 @@ dynamic_TF_carry EPRA-EUROPE             0       0   False
 dynamic_TF_carry CAC                     1       1   False
 dynamic_TF_carry US10U                   0       0   False
 dynamic_TF_carry FTSEVIET                0       0   False
-dynamic_TF_carry EU-OIL                  1       1   False
+dynamic_TF_carry EU-OIL                  1       0    True
 dynamic_TF_carry EU-REALESTATE           0       0   False
 dynamic_TF_carry KOSPI_mini              0       0   False
 dynamic_TF_carry US2                     0       0   False
@@ -230,7 +218,7 @@ dynamic_TF_carry SHATZ                   0       0   False
 dynamic_TF_carry GBPEUR                  0       0   False
 dynamic_TF_carry FEEDCOW                 0       0   False
 dynamic_TF_carry EU-HEALTH               0       0   False
-dynamic_TF_carry CNH                     1       1   False
+dynamic_TF_carry CNH                     0       0   False
 dynamic_TF_carry US-HEALTH               0       0   False
 dynamic_TF_carry AUDJPY                  0       0   False
 dynamic_TF_carry BUTTER                  0       0   False
@@ -243,11 +231,11 @@ dynamic_TF_carry KRWUSD                  0       0   False
 dynamic_TF_carry SGX                     0       0   False
 dynamic_TF_carry VNKI                    0       0   False
 dynamic_TF_carry US-ENERGY               0       0   False
-dynamic_TF_carry FTSECHINAA              0       0   False
-dynamic_TF_carry GAS-PEN                -1      -1   False
+dynamic_TF_carry FTSECHINAA              0      -1    True
+dynamic_TF_carry GAS-PEN                -1       0    True
 dynamic_TF_carry CHFJPY                  0       0   False
 dynamic_TF_carry BONO                    0       0   False
-dynamic_TF_carry GOLD_micro             -1      -1   False
+dynamic_TF_carry GOLD_micro             -1      -2    True
 dynamic_TF_carry SGD                     0       0   False
 dynamic_TF_carry KOSPI                   0       0   False
 dynamic_TF_carry EURAUD                  0       0   False
