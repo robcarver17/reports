@@ -1,15 +1,130 @@
 
 ********************************************************************************
-Trades report produced on 25/01/2024 22:49 from 24/01/2024 22:49 to 25/01/2024 22:49
+Trades report produced on 26/01/2024 22:49 from 25/01/2024 22:49 to 26/01/2024 22:49
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+33109      FTSETAIWAN  dynamic_TF_carry    [20240100] 2024-01-26 01:45:02  [-1]      1546.750
+33110     GAS_US_mini  dynamic_TF_carry    [20240300] 2024-01-26 14:00:06   [1]         2.155
+33108            IRON  dynamic_TF_carry    [20240200] 2024-01-26 01:00:08  [-1]       134.750
+33107           TOPIX  dynamic_TF_carry    [20240300] 2024-01-26 01:00:07   [1]      2508.750
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+33107           TOPIX  dynamic_TF_carry       2024-01-25 00:00:00  2024-01-26 01:00:06.778000  2024-01-26 01:00:07              90006.778               0.222
+33108            IRON  dynamic_TF_carry       2024-01-25 05:00:00  2024-01-26 01:00:08.483000  2024-01-26 01:00:08              72008.483                 NaN
+33109      FTSETAIWAN  dynamic_TF_carry       2024-01-25 05:00:00  2024-01-26 01:45:01.816000  2024-01-26 01:45:02              74701.816               0.184
+33110     GAS_US_mini  dynamic_TF_carry       2024-01-25 19:00:00  2024-01-26 14:00:05.098000  2024-01-26 14:00:06              68405.098               0.902
+
+
+============================================================================================================================================================================================================================
+                                                                                                  Slippage (ticks per lot)                                                                                                  
+============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
+33107           TOPIX  dynamic_TF_carry   [1]                 2529.0               None   2508.75     2509.0        2508.5         NaN      2508.75   20.25   -0.25      0.25          NaN                 NaN           0.0
+33108            IRON  dynamic_TF_carry  [-1]                 136.15               None     134.7     134.65        134.75      134.75       134.75   -1.45   -0.05       0.1         -0.0                 NaN          0.05
+33109      FTSETAIWAN  dynamic_TF_carry  [-1]                1547.75               None  1546.625     1546.5       1546.75     1546.75      1546.75  -1.125  -0.125      0.25         -0.0                 NaN         0.125
+33110     GAS_US_mini  dynamic_TF_carry   [1]                  2.185               None    2.1475       2.15         2.145       2.145        2.155  0.0375 -0.0025    -0.005        -0.01                 NaN       -0.0075
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+33107           TOPIX  dynamic_TF_carry   [1]      316.350456  640.112875   -7.902628      7.902628              NaN                     NaN               0.0
+33108            IRON  dynamic_TF_carry  [-1]       35.312225 -410.622665  -14.159402     28.318804             -0.0                     NaN         14.159402
+33109      FTSETAIWAN  dynamic_TF_carry  [-1]      208.366611  -53.991376   -5.999042     11.998084             -0.0                     NaN          5.999042
+33110     GAS_US_mini  dynamic_TF_carry   [1]        2.195291  170.820145   -11.38801    -22.776019       -45.552039                     NaN        -34.164029
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+33107           TOPIX  dynamic_TF_carry   [1]             5.331129   107.95536    -1.332782       1.332782               NaN                      NaN                0.0
+33108            IRON  dynamic_TF_carry  [-1]            78.774893 -114.223595    -3.938745       7.877489              -0.0                      NaN           3.938745
+33109      FTSETAIWAN  dynamic_TF_carry  [-1]            31.509957  -35.448702    -3.938745       7.877489              -0.0                      NaN           3.938745
+33110     GAS_US_mini  dynamic_TF_carry   [1]          1969.372322   73.851462    -4.923431      -9.846862        -19.693723                      NaN         -14.770292
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry FTSETAIWAN       -35.448702
+                 GAS_US_mini       73.851462
+                 IRON            -114.223595
+                 TOPIX             107.95536
+delay_cash Total Sum
+                 delay_cash
+strategy_name              
+dynamic_TF_carry  32.134526
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry FTSETAIWAN         -3.938745
+                 GAS_US_mini        -4.923431
+                 IRON               -3.938745
+                 TOPIX              -1.332782
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -14.133702
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry FTSETAIWAN            7.877489
+                 GAS_US_mini          -9.846862
+                 IRON                  7.877489
+                 TOPIX                 1.332782
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry       7.240899
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry FTSETAIWAN                   -0.0
+                 GAS_US_mini            -19.693723
+                 IRON                         -0.0
+                 TOPIX                           0
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry        -19.693723
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry FTSETAIWAN                             0
+                 GAS_US_mini                            0
+                 IRON                                   0
+                 TOPIX                                  0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry FTSETAIWAN                3.938745
+                 GAS_US_mini             -14.770292
+                 IRON                      3.938745
+                 TOPIX                          0.0
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry          -6.892803
 
 ********************************************************************************
                                  END OF REPORT                                  
