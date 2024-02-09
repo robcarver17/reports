@@ -1,152 +1,15 @@
 
 ********************************************************************************
-Trades report produced on 08/02/2024 22:49 from 07/02/2024 22:49 to 08/02/2024 22:49
+Trades report produced on 09/02/2024 22:49 from 08/02/2024 22:49 to 09/02/2024 22:49
 ********************************************************************************
 
 
-
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
-
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-33128            BOBL  dynamic_TF_carry    [20240300] 2024-02-08 08:00:06   [1]       117.390
-33131            CORN  dynamic_TF_carry    [20241200] 2024-02-08 15:30:15  [-1]       472.750
-33127      FTSECHINAA  dynamic_TF_carry    [20240200] 2024-02-08 02:00:03  [-1]     11567.000
-33129     GAS_US_mini  dynamic_TF_carry    [20240400] 2024-02-08 14:00:09  [-1]         1.945
-33126            KR10  dynamic_TF_carry    [20240300] 2024-02-08 01:00:34  [-1]       113.160
-33130          SILVER  dynamic_TF_carry    [20240300] 2024-02-08 14:00:15  [-1]        22.215
-
-
-=============================================================================================================================================================
-                                                                           Delays                                                                            
-=============================================================================================================================================================
-
-      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-33126            KR10  dynamic_TF_carry       2024-02-07 00:00:00  2024-02-08 01:00:07.073000  2024-02-08 01:00:34              90007.073              26.927
-33127      FTSECHINAA  dynamic_TF_carry       2024-02-07 00:00:00  2024-02-08 02:00:03.178000  2024-02-08 02:00:03              93603.178                 NaN
-33128            BOBL  dynamic_TF_carry       2024-02-07 00:00:00  2024-02-08 08:00:05.960000  2024-02-08 08:00:06              115205.96                0.04
-33129     GAS_US_mini  dynamic_TF_carry       2024-02-07 00:00:00  2024-02-08 14:00:02.453000  2024-02-08 14:00:09             136802.453               6.547
-33130          SILVER  dynamic_TF_carry       2024-02-07 00:00:00  2024-02-08 14:00:12.909000  2024-02-08 14:00:15             136812.909               2.091
-33131            CORN  dynamic_TF_carry       2024-02-07 00:00:00  2024-02-08 15:30:03.718000  2024-02-08 15:30:15             142203.718              11.282
-
-
-============================================================================================================================================================================================================================
-                                                                                                  Slippage (ticks per lot)                                                                                                  
-============================================================================================================================================================================================================================
-
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
-33126            KR10  dynamic_TF_carry  [-1]                  113.3               None   113.175     113.17        113.18      113.18       113.16  -0.125  -0.005     -0.01        -0.02                 NaN        -0.015
-33127      FTSECHINAA  dynamic_TF_carry  [-1]                11500.0               None   11566.5    11566.0       11567.0     11567.0      11567.0    66.5    -0.5       1.0         -0.0                 NaN           0.5
-33128            BOBL  dynamic_TF_carry   [1]                 117.55               None   117.395      117.4        117.39      117.39       117.39   0.155  -0.005      0.01          0.0                 NaN         0.005
-33129     GAS_US_mini  dynamic_TF_carry  [-1]                   1.98               None    1.9525       1.95         1.955       1.955        1.945 -0.0275 -0.0025    -0.005        -0.01                 NaN       -0.0075
-33130          SILVER  dynamic_TF_carry  [-1]                 22.305               None   22.2225      22.22        22.225      22.225       22.215 -0.0825 -0.0025    -0.005        -0.01                 NaN       -0.0075
-33131            CORN  dynamic_TF_carry  [-1]                 474.75               None   473.125      473.0        473.25      473.25       472.75  -1.625  -0.125     -0.25         -0.5                 NaN        -0.375
-
-
-==============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
-==============================================================================================================================================================
-
-      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33126            KR10  dynamic_TF_carry  [-1]        7.764607 -160.986905   -6.439476    -12.878952       -25.757905                     NaN        -19.318429
-33127      FTSECHINAA  dynamic_TF_carry  [-1]     2542.986711  261.503529   -1.966192      3.932384             -0.0                     NaN          1.966192
-33128            BOBL  dynamic_TF_carry   [1]        5.885458  263.360989   -8.495516     16.991032              0.0                     NaN          8.495516
-33129     GAS_US_mini  dynamic_TF_carry  [-1]        1.957068 -140.516323  -12.774211    -25.548422       -51.096845                     NaN        -38.322633
-33130          SILVER  dynamic_TF_carry  [-1]        5.476709 -150.637904   -4.564785      -9.12957        -18.25914                     NaN        -13.694355
-33131            CORN  dynamic_TF_carry  [-1]       69.866846 -232.585281  -17.891175    -35.782351       -71.564702                     NaN        -53.673526
-
-
-========================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                       
-========================================================================================================================================================================
-
-      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33126            KR10  dynamic_TF_carry  [-1]           596.663434  -74.582929    -2.983317      -5.966634        -11.933269                      NaN          -8.949952
-33127      FTSECHINAA  dynamic_TF_carry  [-1]             0.791593   52.640953    -0.395797       0.791593              -0.0                      NaN           0.395797
-33128            BOBL  dynamic_TF_carry   [1]           853.713562  132.325602    -4.268568       8.537136               0.0                      NaN           4.268568
-33129     GAS_US_mini  dynamic_TF_carry  [-1]          1978.983198  -54.422038    -4.947458      -9.894916        -19.789832                      NaN         -14.842374
-33130          SILVER  dynamic_TF_carry  [-1]           791.593279  -65.306446    -1.978983      -3.957966         -7.915933                      NaN           -5.93695
-33131            CORN  dynamic_TF_carry  [-1]            39.579664  -64.316954    -4.947458      -9.894916        -19.789832                      NaN         -14.842374
-
-delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry BOBL             132.325602
-                 CORN             -64.316954
-                 FTSECHINAA        52.640953
-                 GAS_US_mini      -54.422038
-                 KR10             -74.582929
-                 SILVER           -65.306446
-delay_cash Total Sum
-                 delay_cash
-strategy_name              
-dynamic_TF_carry -73.661812
-bid_ask_cash Sum
-                                 bid_ask_cash
-strategy_name    instrument_code             
-dynamic_TF_carry BOBL               -4.268568
-                 CORN               -4.947458
-                 FTSECHINAA         -0.395797
-                 GAS_US_mini        -4.947458
-                 KR10               -2.983317
-                 SILVER             -1.978983
-bid_ask_cash Total Sum
-                 bid_ask_cash
-strategy_name                
-dynamic_TF_carry   -19.521581
-execution_cash Sum
-                                 execution_cash
-strategy_name    instrument_code               
-dynamic_TF_carry BOBL                  8.537136
-                 CORN                 -9.894916
-                 FTSECHINAA            0.791593
-                 GAS_US_mini          -9.894916
-                 KR10                 -5.966634
-                 SILVER               -3.957966
-execution_cash Total Sum
-                 execution_cash
-strategy_name                  
-dynamic_TF_carry     -20.385704
-versus_limit_cash Sum
-                                 versus_limit_cash
-strategy_name    instrument_code                  
-dynamic_TF_carry BOBL                          0.0
-                 CORN                   -19.789832
-                 FTSECHINAA                   -0.0
-                 GAS_US_mini            -19.789832
-                 KR10                   -11.933269
-                 SILVER                  -7.915933
-versus_limit_cash Total Sum
-                 versus_limit_cash
-strategy_name                     
-dynamic_TF_carry        -59.428865
-versus_parent_limit_cash Sum
-                                 versus_parent_limit_cash
-strategy_name    instrument_code                         
-dynamic_TF_carry BOBL                                   0
-                 CORN                                   0
-                 FTSECHINAA                             0
-                 GAS_US_mini                            0
-                 KR10                                   0
-                 SILVER                                 0
-versus_parent_limit_cash Total Sum
-                 versus_parent_limit_cash
-strategy_name                            
-dynamic_TF_carry                        0
-total_trading_cash Sum
-                                 total_trading_cash
-strategy_name    instrument_code                   
-dynamic_TF_carry BOBL                      4.268568
-                 CORN                    -14.842374
-                 FTSECHINAA                0.395797
-                 GAS_US_mini             -14.842374
-                 KR10                     -8.949952
-                 SILVER                    -5.93695
-total_trading_cash Total Sum
-                 total_trading_cash
-strategy_name                      
-dynamic_TF_carry         -39.907285
+No trades
+No trades
+No trades
+No trades
+No trades
+No trades
 
 ********************************************************************************
                                  END OF REPORT                                  
