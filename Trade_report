@@ -1,152 +1,15 @@
 
 ********************************************************************************
-Trades report produced on 14/02/2024 22:49 from 13/02/2024 22:49 to 14/02/2024 22:49
+Trades report produced on 15/02/2024 22:49 from 14/02/2024 22:49 to 15/02/2024 22:49
 ********************************************************************************
 
 
-
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
-
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-33135            BOBL  dynamic_TF_carry    [20240300] 2024-02-14 08:00:06  [-1]        116.85
-33137             DOW  dynamic_TF_carry    [20240300] 2024-02-14 15:00:03  [-1]      38391.00
-33133            KR10  dynamic_TF_carry    [20240300] 2024-02-14 01:00:25  [-1]        111.75
-33136    NASDAQ_micro  dynamic_TF_carry    [20240300] 2024-02-14 15:00:01  [-1]      17796.00
-33134          NIKKEI  dynamic_TF_carry    [20240300] 2024-02-14 01:00:27   [1]      37755.00
-33132           TOPIX  dynamic_TF_carry    [20240300] 2024-02-14 01:00:06  [-1]       2583.25
-
-
-=============================================================================================================================================================
-                                                                           Delays                                                                            
-=============================================================================================================================================================
-
-      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-33132           TOPIX  dynamic_TF_carry       2024-02-13 00:00:00  2024-02-14 01:00:05.447000  2024-02-14 01:00:06              90005.447               0.553
-33133            KR10  dynamic_TF_carry       2024-02-13 00:00:00  2024-02-14 01:00:10.848000  2024-02-14 01:00:25              90010.848              14.152
-33134          NIKKEI  dynamic_TF_carry       2024-02-13 00:00:00  2024-02-14 01:00:25.859000  2024-02-14 01:00:27              90025.859               1.141
-33135            BOBL  dynamic_TF_carry       2024-02-13 00:00:00  2024-02-14 08:00:06.024000  2024-02-14 08:00:06             115206.024                 NaN
-33136    NASDAQ_micro  dynamic_TF_carry       2024-02-13 00:00:00  2024-02-14 15:00:01.680000  2024-02-14 15:00:01              140401.68                 NaN
-33137             DOW  dynamic_TF_carry       2024-02-13 00:00:00  2024-02-14 15:00:02.956000  2024-02-14 15:00:03             140402.956               0.044
-
-
-==============================================================================================================================================================================================================================
-                                                                                                   Slippage (ticks per lot)                                                                                                   
-==============================================================================================================================================================================================================================
-
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price  mid_price side_price offside_price limit_price filled_price    delay bid_ask execution versus_limit versus_parent_limit total_trading
-33132           TOPIX  dynamic_TF_carry  [-1]                 2602.0               None     2583.0    2582.75       2583.25     2583.25      2583.25    -19.0   -0.25       0.5         -0.0                 NaN          0.25
-33133            KR10  dynamic_TF_carry  [-1]                 112.68               None    111.765     111.76        111.77      111.77       111.75   -0.915  -0.005     -0.01        -0.02                 NaN        -0.015
-33134          NIKKEI  dynamic_TF_carry   [1]                37845.0               None    37757.5    37760.0       37755.0     37755.0      37755.0     87.5    -2.5       5.0          0.0                 NaN           2.5
-33135            BOBL  dynamic_TF_carry  [-1]                 116.77               None    116.845     116.84        116.85      116.85       116.85    0.075  -0.005      0.01         -0.0                 NaN         0.005
-33136    NASDAQ_micro  dynamic_TF_carry  [-1]               17558.75               None  17795.375   17795.25       17795.5         NaN      17796.0  236.625  -0.125      0.75          NaN                 NaN         0.625
-33137             DOW  dynamic_TF_carry  [-1]                38122.0               None    38390.5    38390.0       38391.0     38391.0      38391.0    268.5    -0.5       1.0         -0.0                 NaN           0.5
-
-
-===============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
-===============================================================================================================================================================
-
-      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33132           TOPIX  dynamic_TF_carry  [-1]      294.046552   -646.15619   -8.502055      17.00411             -0.0                     NaN          8.502055
-33133            KR10  dynamic_TF_carry  [-1]        8.218298 -1113.369239   -6.083985     -12.16797        -24.33594                     NaN        -18.251955
-33134          NIKKEI  dynamic_TF_carry   [1]     5247.056121   166.760176   -4.764576      9.529153              0.0                     NaN          4.764576
-33135            BOBL  dynamic_TF_carry  [-1]        5.605439   133.798625   -8.919908     17.839817             -0.0                     NaN          8.919908
-33136    NASDAQ_micro  dynamic_TF_carry  [-1]     2763.666486   856.199549   -0.452298      2.713786              NaN                     NaN          2.261489
-33137             DOW  dynamic_TF_carry  [-1]     3976.615106   675.197355   -1.257351      2.514702             -0.0                     NaN          1.257351
-
-
-========================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                       
-========================================================================================================================================================================
-
-      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33132           TOPIX  dynamic_TF_carry  [-1]             5.286401 -100.441612      -1.3216         2.6432              -0.0                      NaN             1.3216
-33133            KR10  dynamic_TF_carry  [-1]           594.363106 -543.842242    -2.971816      -5.943631        -11.887262                      NaN          -8.915447
-33134          NIKKEI  dynamic_TF_carry   [1]              0.52864   46.256006      -1.3216         2.6432               0.0                      NaN             1.3216
-33135            BOBL  dynamic_TF_carry  [-1]           852.103099   63.907732    -4.260515       8.521031              -0.0                      NaN           4.260515
-33136    NASDAQ_micro  dynamic_TF_carry  [-1]             1.590546  376.362899    -0.198818       1.192909               NaN                      NaN           0.994091
-33137             DOW  dynamic_TF_carry  [-1]             0.397636  106.765387    -0.198818       0.397636              -0.0                      NaN           0.198818
-
-delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry BOBL              63.907732
-                 DOW              106.765387
-                 KR10            -543.842242
-                 NASDAQ_micro     376.362899
-                 NIKKEI            46.256006
-                 TOPIX           -100.441612
-delay_cash Total Sum
-                 delay_cash
-strategy_name              
-dynamic_TF_carry  -50.99183
-bid_ask_cash Sum
-                                 bid_ask_cash
-strategy_name    instrument_code             
-dynamic_TF_carry BOBL               -4.260515
-                 DOW                -0.198818
-                 KR10               -2.971816
-                 NASDAQ_micro       -0.198818
-                 NIKKEI               -1.3216
-                 TOPIX                -1.3216
-bid_ask_cash Total Sum
-                 bid_ask_cash
-strategy_name                
-dynamic_TF_carry   -10.273168
-execution_cash Sum
-                                 execution_cash
-strategy_name    instrument_code               
-dynamic_TF_carry BOBL                  8.521031
-                 DOW                   0.397636
-                 KR10                 -5.943631
-                 NASDAQ_micro          1.192909
-                 NIKKEI                  2.6432
-                 TOPIX                   2.6432
-execution_cash Total Sum
-                 execution_cash
-strategy_name                  
-dynamic_TF_carry       9.454346
-versus_limit_cash Sum
-                                 versus_limit_cash
-strategy_name    instrument_code                  
-dynamic_TF_carry BOBL                         -0.0
-                 DOW                          -0.0
-                 KR10                   -11.887262
-                 NASDAQ_micro                    0
-                 NIKKEI                        0.0
-                 TOPIX                        -0.0
-versus_limit_cash Total Sum
-                 versus_limit_cash
-strategy_name                     
-dynamic_TF_carry        -11.887262
-versus_parent_limit_cash Sum
-                                 versus_parent_limit_cash
-strategy_name    instrument_code                         
-dynamic_TF_carry BOBL                                   0
-                 DOW                                    0
-                 KR10                                   0
-                 NASDAQ_micro                           0
-                 NIKKEI                                 0
-                 TOPIX                                  0
-versus_parent_limit_cash Total Sum
-                 versus_parent_limit_cash
-strategy_name                            
-dynamic_TF_carry                        0
-total_trading_cash Sum
-                                 total_trading_cash
-strategy_name    instrument_code                   
-dynamic_TF_carry BOBL                      4.260515
-                 DOW                       0.198818
-                 KR10                     -8.915447
-                 NASDAQ_micro              0.994091
-                 NIKKEI                      1.3216
-                 TOPIX                       1.3216
-total_trading_cash Total Sum
-                 total_trading_cash
-strategy_name                      
-dynamic_TF_carry          -0.818821
+No trades
+No trades
+No trades
+No trades
+No trades
+No trades
 
 ********************************************************************************
                                  END OF REPORT                                  
