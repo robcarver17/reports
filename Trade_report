@@ -1,15 +1,162 @@
 
 ********************************************************************************
-Trades report produced on 15/02/2024 22:49 from 14/02/2024 22:49 to 15/02/2024 22:49
+Trades report produced on 16/02/2024 22:49 from 15/02/2024 22:49 to 16/02/2024 22:49
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+33142         BITCOIN  dynamic_TF_carry    [20240200] 2024-02-16 15:00:12  [-1]     52190.000
+33143         BITCOIN  dynamic_TF_carry    [20240200] 2024-02-16 15:00:16  [-1]     52195.000
+33144         BITCOIN  dynamic_TF_carry    [20240300] 2024-02-16 15:00:25   [1]     52755.000
+33138      FTSECHINAA  dynamic_TF_carry    [20240200] 2024-02-16 02:00:05   [1]     11568.000
+33140     GAS_US_mini  dynamic_TF_carry    [20240400] 2024-02-16 14:00:50   [1]         1.660
+33145         LEANHOG  dynamic_TF_carry    [20240400] 2024-02-16 15:30:19   [1]        84.625
+33139          SILVER  dynamic_TF_carry    [20240300] 2024-02-16 14:00:03   [1]        23.070
+33141             VIX  dynamic_TF_carry    [20240300] 2024-02-16 15:00:11   [1]        15.250
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+33138      FTSECHINAA  dynamic_TF_carry       2024-02-15 05:00:00  2024-02-16 02:00:04.110000  2024-02-16 02:00:05               75604.11                0.89
+33139          SILVER  dynamic_TF_carry       2024-02-15 19:00:00  2024-02-16 14:00:02.323000  2024-02-16 14:00:03              68402.323               0.677
+33140     GAS_US_mini  dynamic_TF_carry       2024-02-15 19:00:00  2024-02-16 14:00:07.004000  2024-02-16 14:00:50              68407.004              42.996
+33141             VIX  dynamic_TF_carry       2024-02-15 20:00:00  2024-02-16 15:00:01.223000  2024-02-16 15:00:11              68401.223               9.777
+33142         BITCOIN  dynamic_TF_carry       2024-02-15 20:00:00  2024-02-16 15:00:12.780000  2024-02-16 15:00:12               68412.78                 NaN
+33143         BITCOIN  dynamic_TF_carry       2024-02-15 20:00:00  2024-02-16 15:00:16.627000  2024-02-16 15:00:16              68416.627                 NaN
+33144         BITCOIN  dynamic_TF_carry       2024-02-15 00:00:00  2024-02-16 15:00:21.072000  2024-02-16 15:00:25             140421.072               3.928
+33145         LEANHOG  dynamic_TF_carry       2024-02-15 19:00:00  2024-02-16 15:30:02.369000  2024-02-16 15:30:19              73802.369              16.631
+
+
+============================================================================================================================================================================================================================
+                                                                                                  Slippage (ticks per lot)                                                                                                  
+============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
+33138      FTSECHINAA  dynamic_TF_carry   [1]                11475.0               None   11568.0    11569.0       11567.0     11567.0      11568.0   -93.0    -1.0       1.0         -1.0                 NaN           0.0
+33139          SILVER  dynamic_TF_carry   [1]                  22.98               None   23.0725     23.075         23.07       23.07        23.07 -0.0925 -0.0025     0.005          0.0                 NaN        0.0025
+33140     GAS_US_mini  dynamic_TF_carry   [1]                  1.655               None    1.6625      1.665          1.66        1.66         1.66 -0.0075 -0.0025     0.005          0.0                 NaN        0.0025
+33141             VIX  dynamic_TF_carry   [1]                   15.1               None    15.175       15.2         15.15       15.15        15.25  -0.075  -0.025     -0.05         -0.1                 NaN        -0.075
+33142         BITCOIN  dynamic_TF_carry  [-1]                52035.0               None   52175.0    52170.0       52180.0     52180.0      52190.0   140.0    -5.0      20.0         10.0                 NaN          15.0
+33143         BITCOIN  dynamic_TF_carry  [-1]                52035.0               None   52190.0    52185.0       52195.0     52195.0      52195.0   155.0    -5.0      10.0         -0.0                 NaN           5.0
+33144         BITCOIN  dynamic_TF_carry   [1]                52590.0               None   52780.0    52805.0       52755.0     52755.0      52755.0  -190.0   -25.0      50.0          0.0                 NaN          25.0
+33145         LEANHOG  dynamic_TF_carry   [1]                   85.0               None   84.6375      84.65        84.625      84.625       84.625  0.3625 -0.0125     0.025          0.0                 NaN        0.0125
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+33138      FTSECHINAA  dynamic_TF_carry   [1]     2370.000228 -392.405026   -4.219409      4.219409        -4.219409                     NaN               0.0
+33139          SILVER  dynamic_TF_carry   [1]        5.836246 -158.492278   -4.283575       8.56715              0.0                     NaN          4.283575
+33140     GAS_US_mini  dynamic_TF_carry   [1]        1.825285  -41.089482  -13.696494     27.392988              0.0                     NaN         13.696494
+33141             VIX  dynamic_TF_carry   [1]        7.316145 -102.512998  -34.170999    -68.341999      -136.683998                     NaN       -102.512998
+33142         BITCOIN  dynamic_TF_carry  [-1]    19062.317921   73.443324   -2.622976     10.491903         5.245952                     NaN          7.868928
+33143         BITCOIN  dynamic_TF_carry  [-1]    19062.317921   81.312252   -2.622976      5.245952             -0.0                     NaN          2.622976
+33144         BITCOIN  dynamic_TF_carry   [1]    19062.317921  -99.673083  -13.114879     26.229759              0.0                     NaN         13.114879
+33145         LEANHOG  dynamic_TF_carry   [1]       20.144644   179.94858   -6.205123     12.410247              0.0                     NaN          6.205123
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+33138      FTSECHINAA  dynamic_TF_carry   [1]             0.793371  -73.783465    -0.793371       0.793371         -0.793371                      NaN                0.0
+33139          SILVER  dynamic_TF_carry   [1]           793.370595   -73.38678    -1.983426       3.966853               0.0                      NaN           1.983426
+33140     GAS_US_mini  dynamic_TF_carry   [1]          1983.426488  -14.875699    -4.958566       9.917132               0.0                      NaN           4.958566
+33141             VIX  dynamic_TF_carry   [1]           793.370595  -59.502795   -19.834265      -39.66853         -79.33706                      NaN         -59.502795
+33142         BITCOIN  dynamic_TF_carry  [-1]             0.079337   11.107188    -0.396685       1.586741          0.793371                      NaN           1.190056
+33143         BITCOIN  dynamic_TF_carry  [-1]             0.079337   12.297244    -0.396685       0.793371              -0.0                      NaN           0.396685
+33144         BITCOIN  dynamic_TF_carry   [1]             0.079337  -15.074041    -1.983426       3.966853               0.0                      NaN           1.983426
+33145         LEANHOG  dynamic_TF_carry   [1]           317.348238  115.038736    -3.966853       7.933706               0.0                      NaN           3.966853
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry BITCOIN            8.330391
+                 FTSECHINAA       -73.783465
+                 GAS_US_mini      -14.875699
+                 LEANHOG          115.038736
+                 SILVER            -73.38678
+                 VIX              -59.502795
+delay_cash Total Sum
+                 delay_cash
+strategy_name              
+dynamic_TF_carry -98.179611
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry BITCOIN            -2.776797
+                 FTSECHINAA         -0.793371
+                 GAS_US_mini        -4.958566
+                 LEANHOG            -3.966853
+                 SILVER             -1.983426
+                 VIX               -19.834265
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -34.313278
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry BITCOIN               6.346965
+                 FTSECHINAA            0.793371
+                 GAS_US_mini           9.917132
+                 LEANHOG               7.933706
+                 SILVER                3.966853
+                 VIX                  -39.66853
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry     -10.710503
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry BITCOIN                  0.793371
+                 FTSECHINAA              -0.793371
+                 GAS_US_mini                   0.0
+                 LEANHOG                       0.0
+                 SILVER                        0.0
+                 VIX                     -79.33706
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry         -79.33706
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry BITCOIN                                0
+                 FTSECHINAA                             0
+                 GAS_US_mini                            0
+                 LEANHOG                                0
+                 SILVER                                 0
+                 VIX                                    0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry BITCOIN                   3.570168
+                 FTSECHINAA                     0.0
+                 GAS_US_mini               4.958566
+                 LEANHOG                   3.966853
+                 SILVER                    1.983426
+                 VIX                     -59.502795
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry         -45.023781
 
 ********************************************************************************
                                  END OF REPORT                                  
