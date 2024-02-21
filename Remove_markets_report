@@ -1,15 +1,15 @@
 
 ********************************************************************************
-              Removed markets report produced on 20/02/2024 23:02               
+              Removed markets report produced on 21/02/2024 23:03               
 ********************************************************************************
 
 
 List of markets which should be marked as untradeable due to risk, liquidity or cost issues
-Following should be removed from trading (add to config.bad_markets) [0.300000 threshold]: ['COAL', 'HIGHYIELD', 'TIN_LME', 'SONIA3', 'CAD2', 'DJSTX-SMALL', 'WHEAT_mini', 'EURIBOR-ICE', 'MSCIEMASIA', 'WHEAT_ICE', 'SUGAR16', 'COAL-GEORDIE', 'GBPCHF', 'SARONA', 'NICKEL_LME', 'US2', 'BONO', 'IG', 'VIX_mini', 'IBEX_mini'] 
+Following should be removed from trading (add to config.bad_markets) [0.300000 threshold]: ['EURIBOR-ICE', 'US2', 'SUGAR16', 'WHEAT_mini', 'MSCIEMASIA', 'COAL', 'IBEX_mini', 'IG', 'GBPCHF', 'DJSTX-SMALL', 'HIGHYIELD', 'SARONA', 'TIN_LME', 'SONIA3', 'CAD2', 'NICKEL_LME', 'WHEAT_ICE', 'COAL-GEORDIE', 'VIX_mini'] 
 
 
 
-Following should be allowed to trade (delete from config.bad_markets) [0.300000 threshold]: ['ZAR', 'RICE', 'MILK', 'EU-DJ-TECH', 'US-PROPERTY']
+Following should be allowed to trade (delete from config.bad_markets) [0.300000 threshold]: ['US-PROPERTY', 'RICE', 'MILK', 'ZAR']
 
 
 
@@ -17,15 +17,15 @@ Markets too expensive (SR cost per trade > 0.010): ['AEX_mini', 'BB3M', 'BUTTER'
 
 
 
-Markets not enough risk volume (Volume in $m ann. risk per day < 1.50): ['AEX_mini', 'AUDJPY', 'BBCOMM', 'BONO', 'BOVESPA', 'BUTTER', 'CAD_micro', 'CH10', 'CHEESE', 'CHFJPY', 'CHF_micro', 'CLP', 'COAL-GEORDIE', 'COPPER-mini', 'CORN_mini', 'COTTON', 'CZK', 'DJSTX-SMALL', 'EPRA-EUROPE', 'ETHANOL', 'ETHER-micro', 'EU-CHEM', 'EU-CONSTRUCTION', 'EU-DJ-OIL', 'EU-DJ-TELECOM', 'EU-FOOD', 'EU-HOUSE', 'EU-INSURE', 'EU-MEDIA', 'EU-MID', 'EU-RETAIL', 'EU-TRAVEL', 'EURAUD', 'EURCAD', 'EUROSTX-LARGE', 'EUROSTX-SMALL', 'EUROSTX200-LARGE', 'FTSEINDO', 'FTSEVIET', 'GASOILINE_micro', 'GBPCHF', 'GBPJPY', 'GBP_micro', 'GICS', 'HIGHYIELD', 'HOUSE-US', 'IBEX_mini', 'IG', 'INR', 'IRS', 'JGB-mini', 'JP-REALESTATE', 'JPY_mini', 'KRWUSD', 'LUMBER-new', 'MILKDRY', 'MILKWET', 'MSCIEMASIA', 'MSCIWORLD', 'NICKEL_LME', 'NOK', 'OATIES', 'OMX', 'PLN', 'R1000', 'RUR', 'SEK', 'SGD_mini', 'SGX', 'SMI-MID', 'STEEL', 'SUGAR16', 'SWISSLEAD', 'TIN_LME', 'TWD', 'TWD-mini', 'VIX_mini', 'VNKI', 'WHEAT_ICE', 'WHEAT_mini', 'WHEY']
+Markets not enough risk volume (Volume in $m ann. risk per day < 1.50): ['AEX_mini', 'AUDJPY', 'BBCOMM', 'BONO', 'BOVESPA', 'BUTTER', 'CAD_micro', 'CH10', 'CHEESE', 'CHFJPY', 'CHF_micro', 'CLP', 'COAL-GEORDIE', 'COPPER-mini', 'CORN_mini', 'COTTON', 'CZK', 'DJSTX-SMALL', 'EPRA-EUROPE', 'ETHANOL', 'ETHER-micro', 'EU-CHEM', 'EU-CONSTRUCTION', 'EU-DJ-OIL', 'EU-DJ-TELECOM', 'EU-FOOD', 'EU-HOUSE', 'EU-INSURE', 'EU-MEDIA', 'EU-MID', 'EU-RETAIL', 'EU-TRAVEL', 'EURAUD', 'EURCAD', 'EUROSTX-LARGE', 'EUROSTX-SMALL', 'EUROSTX200-LARGE', 'FTSEINDO', 'FTSEVIET', 'GASOILINE_micro', 'GBPCHF', 'GBPJPY', 'GBP_micro', 'GICS', 'HIGHYIELD', 'HOUSE-US', 'IBEX_mini', 'IG', 'INR', 'IRS', 'JGB-mini', 'JP-REALESTATE', 'JPY_mini', 'KRWUSD', 'LUMBER-new', 'MILKDRY', 'MILKWET', 'MSCIEMASIA', 'MSCIWORLD', 'NICKEL_LME', 'NOK', 'OATIES', 'OMX', 'PLN', 'R1000', 'RUR', 'SGD_mini', 'SGX', 'SMI-MID', 'STEEL', 'SUGAR16', 'SWISSLEAD', 'TIN_LME', 'TWD', 'TWD-mini', 'VIX_mini', 'VNKI', 'WHEAT_ICE', 'WHEAT_mini', 'WHEY']
 
 
 
-Markets not enough contract volume (Volume in contracts per day < 100): ['AEX_mini', 'AUDJPY', 'BOVESPA', 'BUTTER', 'CH10', 'CHFJPY', 'CLP', 'COAL', 'COAL-GEORDIE', 'COPPER-mini', 'COTTON', 'CZK', 'EPRA-EUROPE', 'ETHANOL', 'EU-CHEM', 'EU-CONSTRUCTION', 'EU-DJ-TELECOM', 'EU-HOUSE', 'EU-RETAIL', 'EURAUD', 'EURCAD', 'EUROSTX-LARGE', 'EUROSTX200-LARGE', 'GASOILINE_micro', 'GBPJPY', 'GICS', 'HIGHYIELD', 'HOUSE-US', 'IG', 'IRS', 'JGB-mini', 'KRWUSD', 'MILKDRY', 'MILKWET', 'MSCIEMASIA', 'NICKEL_LME', 'NOK', 'OMX', 'PLN', 'RUR', 'SEK', 'SGD_mini', 'SGX', 'STEEL', 'SUGAR16', 'SWISSLEAD', 'TIN_LME', 'TWD', 'TWD-mini', 'VNKI', 'WHEY']
+Markets not enough contract volume (Volume in contracts per day < 100): ['AEX_mini', 'AUDJPY', 'BOVESPA', 'BUTTER', 'CH10', 'CHFJPY', 'CLP', 'COAL', 'COAL-GEORDIE', 'COPPER-mini', 'COTTON', 'CZK', 'EPRA-EUROPE', 'ETHANOL', 'EU-CHEM', 'EU-CONSTRUCTION', 'EU-DJ-TELECOM', 'EU-HOUSE', 'EU-MID', 'EU-RETAIL', 'EURAUD', 'EURCAD', 'EUROSTX-LARGE', 'EUROSTX-SMALL', 'EUROSTX200-LARGE', 'GASOILINE_micro', 'GBPJPY', 'GICS', 'HIGHYIELD', 'HOUSE-US', 'IG', 'IRS', 'JGB-mini', 'KRWUSD', 'MILKDRY', 'MILKWET', 'MSCIEMASIA', 'NICKEL_LME', 'NOK', 'OMX', 'PLN', 'RUR', 'SEK', 'SGD_mini', 'SGX', 'STEEL', 'SUGAR16', 'SWISSLEAD', 'TIN_LME', 'TWD', 'TWD-mini', 'VNKI', 'WHEY']
 
 
 
-Markets too safe (Annual % std. dev < 5.0): ['BB3M', 'BOBL', 'BTP3', 'CAD2', 'CNH', 'ETHANOL', 'EURIBOR', 'EURIBOR-ICE', 'FED', 'GBPEUR', 'HOUSE-US', 'INR', 'JGB', 'JGB-SGX-mini', 'JGB-mini', 'KR3', 'SARONA', 'SGD', 'SGD_mini', 'SHATZ', 'SOFR', 'SONIA3', 'US2', 'US3']
+Markets too safe (Annual % std. dev < 5.0): ['BB3M', 'BOBL', 'BTP3', 'CAD2', 'CAD5', 'CNH', 'CNH-onshore', 'ETHANOL', 'EURIBOR', 'EURIBOR-ICE', 'FED', 'GBPEUR', 'HOUSE-US', 'INR', 'JGB', 'JGB-SGX-mini', 'JGB-mini', 'KR3', 'SARONA', 'SGD', 'SGD_mini', 'SHATZ', 'SOFR', 'SONIA3', 'US2', 'US3']
 
 
 
@@ -41,7 +41,6 @@ exclude_instrument_lists:
     - AUDJPY 
     - BB3M 
     - BBCOMM 
-    - BONO 
     - BOVESPA 
     - BTP3 
     - BUTTER 
@@ -66,6 +65,7 @@ exclude_instrument_lists:
     - EU-CHEM 
     - EU-CONSTRUCTION 
     - EU-DJ-OIL 
+    - EU-DJ-TECH 
     - EU-DJ-TELECOM 
     - EU-DJ-UTIL 
     - EU-FOOD 
@@ -152,6 +152,7 @@ exclude_instrument_lists:
     - BTP3 
     - BUTTER 
     - CAD2 
+    - CAD5 
     - CAD_micro 
     - CH10 
     - CHEESE 
