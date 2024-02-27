@@ -1,17 +1,23 @@
 
 ********************************************************************************
-Trades report produced on 26/02/2024 22:49 from 25/02/2024 22:49 to 26/02/2024 22:49
+Trades report produced on 27/02/2024 22:49 from 26/02/2024 22:49 to 27/02/2024 22:49
 ********************************************************************************
 
 
 
-============================================================================================
-                                       Broker orders                                        
-============================================================================================
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
-33156             US2  dynamic_TF_carry    [20240300] 2024-02-26 15:00:15  [1]    101.859375
-33157             US2  dynamic_TF_carry    [20240300] 2024-02-26 15:00:29  [1]    101.859375
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+33165            CORN  dynamic_TF_carry    [20241200] 2024-02-27 15:30:12  [-1]        460.50
+33162      FTSETAIWAN  dynamic_TF_carry    [20240300] 2024-02-27 01:45:02   [1]       1617.75
+33163      GOLD_micro  dynamic_TF_carry    [20240400] 2024-02-27 14:00:06  [-1]       2044.80
+33159            IRON  dynamic_TF_carry    [20240300] 2024-02-27 01:00:09  [-1]        114.25
+33160          NIKKEI  dynamic_TF_carry    [20240300] 2024-02-27 01:00:15  [-1]      39345.00
+33161          NIKKEI  dynamic_TF_carry    [20240300] 2024-02-27 01:00:19  [-1]      39350.00
+33158          NIKKEI  dynamic_TF_carry    [20240300] 2024-02-27 01:00:08  [-1]      39350.00
+33164             US3  dynamic_TF_carry    [20240600] 2024-02-27 15:00:04  [-1]        104.25
 
 
 =============================================================================================================================================================
@@ -19,72 +25,121 @@ Trades report produced on 26/02/2024 22:49 from 25/02/2024 22:49 to 26/02/2024 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-33156             US2  dynamic_TF_carry       2024-02-23 20:00:00  2024-02-26 15:00:01.531000  2024-02-26 15:00:15             241201.531              13.469
-33157             US2  dynamic_TF_carry       2024-02-23 20:00:00  2024-02-26 15:00:19.526000  2024-02-26 15:00:29             241219.526               9.474
+33159            IRON  dynamic_TF_carry       2024-02-26 09:00:00  2024-02-27 01:00:09.003000  2024-02-27 01:00:09              57609.003                 NaN
+33160          NIKKEI  dynamic_TF_carry       2024-02-26 09:00:00  2024-02-27 01:00:13.447000  2024-02-27 01:00:15              57613.447               1.553
+33161          NIKKEI  dynamic_TF_carry       2024-02-26 09:00:00  2024-02-27 01:00:18.987000  2024-02-27 01:00:19              57618.987               0.013
+33158          NIKKEI  dynamic_TF_carry       2024-02-26 09:00:00  2024-02-27 01:00:07.026000  2024-02-27 01:00:08              57607.026               0.974
+33162      FTSETAIWAN  dynamic_TF_carry       2024-02-26 00:00:00  2024-02-27 01:45:01.925000  2024-02-27 01:45:02              92701.925               0.075
+33163      GOLD_micro  dynamic_TF_carry       2024-02-26 00:00:00  2024-02-27 14:00:05.935000  2024-02-27 14:00:06             136805.935               0.065
+33164             US3  dynamic_TF_carry       2024-02-26 00:00:00  2024-02-27 15:00:03.680000  2024-02-27 15:00:04              140403.68                0.32
+33165            CORN  dynamic_TF_carry       2024-02-26 00:00:00  2024-02-27 15:30:03.989000  2024-02-27 15:30:12             142203.989               8.011
 
 
-===================================================================================================================================================================================================================================
-                                                                                                     Slippage (ticks per lot)                                                                                                      
-===================================================================================================================================================================================================================================
+==================================================================================================================================================================================================================================
+                                                                                                     Slippage (ticks per lot)                                                                                                     
+==================================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price   mid_price  side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
-33156             US2  dynamic_TF_carry   [1]             101.878906               None  101.863281  101.867188    101.859375  101.859375   101.859375  0.015625 -0.003906  0.007812          0.0                 NaN      0.003906
-33157             US2  dynamic_TF_carry   [1]             101.878906               None  101.861328  101.863281    101.859375  101.859375   101.859375  0.017578 -0.001953  0.003906          0.0                 NaN      0.001953
-
-
-=============================================================================================================================================================
-                                                    Slippage (normalised by annual vol, BP of annual SR)                                                     
-=============================================================================================================================================================
-
-      instrument_code     strategy_name trade last_annual_vol  delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33156             US2  dynamic_TF_carry   [1]        2.351656  66.442545  -16.610636     33.221272              0.0                     NaN         16.610636
-33157             US2  dynamic_TF_carry   [1]        2.351656  74.747863   -8.305318     16.610636              0.0                     NaN          8.305318
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price   mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
+33159            IRON  dynamic_TF_carry  [-1]                 115.65               None       114.3     114.25        114.35      114.35       114.25     -1.35     -0.05      -0.0         -0.1                 NaN         -0.05
+33160          NIKKEI  dynamic_TF_carry  [-1]                39305.0               None     39352.5    39350.0       39355.0     39355.0      39345.0      47.5      -2.5      -5.0        -10.0                 NaN          -7.5
+33161          NIKKEI  dynamic_TF_carry  [-1]                39305.0               None     39347.5    39345.0       39350.0     39350.0      39350.0      42.5      -2.5       5.0         -0.0                 NaN           2.5
+33158          NIKKEI  dynamic_TF_carry  [-1]                39305.0               None     39357.5    39355.0       39360.0     39360.0      39350.0      52.5      -2.5      -5.0        -10.0                 NaN          -7.5
+33162      FTSETAIWAN  dynamic_TF_carry   [1]                 1616.0               None    1617.875     1618.0       1617.75     1617.75      1617.75    -1.875    -0.125      0.25          0.0                 NaN         0.125
+33163      GOLD_micro  dynamic_TF_carry  [-1]                 2042.0               None     2044.85     2044.8        2044.9      2044.9       2044.8      2.85     -0.05      -0.0         -0.1                 NaN         -0.05
+33164             US3  dynamic_TF_carry  [-1]             104.234375               None  104.261719     104.25    104.273438  104.273438       104.25  0.027344 -0.011719      -0.0    -0.023438                 NaN     -0.011719
+33165            CORN  dynamic_TF_carry  [-1]                  456.5               None     460.375     460.25         460.5       460.5        460.5     3.875    -0.125      0.25         -0.0                 NaN         0.125
 
 
-=======================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                      
-=======================================================================================================================================================================
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33156             US2  dynamic_TF_carry   [1]          1577.678998  24.651234    -6.162809      12.325617               0.0                      NaN           6.162809
-33157             US2  dynamic_TF_carry   [1]          1577.678998  27.732639    -3.081404       6.162809               0.0                      NaN           3.081404
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+33159            IRON  dynamic_TF_carry  [-1]        42.79144 -315.483657   -11.68458          -0.0        -23.36916                     NaN         -11.68458
+33160          NIKKEI  dynamic_TF_carry  [-1]     5415.462054   87.711814   -4.616411     -9.232823       -18.465645                     NaN        -13.849234
+33161          NIKKEI  dynamic_TF_carry  [-1]     5415.462054   78.478991   -4.616411      9.232823             -0.0                     NaN          4.616411
+33158          NIKKEI  dynamic_TF_carry  [-1]     5415.462054   96.944636   -4.616411     -9.232823       -18.465645                     NaN        -13.849234
+33162      FTSETAIWAN  dynamic_TF_carry   [1]      182.779682 -102.582518   -6.838835     13.677669              0.0                     NaN          6.838835
+33163      GOLD_micro  dynamic_TF_carry  [-1]      207.308093  137.476543   -2.411869          -0.0        -4.823738                     NaN         -2.411869
+33164             US3  dynamic_TF_carry  [-1]        3.548958   77.047271  -33.020259          -0.0       -66.040518                     NaN        -33.020259
+33165            CORN  dynamic_TF_carry  [-1]       81.035117  478.187747  -15.425411     30.850822             -0.0                     NaN         15.425411
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+33159            IRON  dynamic_TF_carry  [-1]            78.858134 -106.458481    -3.942907           -0.0         -7.885813                      NaN          -3.942907
+33160          NIKKEI  dynamic_TF_carry  [-1]             0.523971   24.888615    -1.309927      -2.619854         -5.239708                      NaN          -3.929781
+33161          NIKKEI  dynamic_TF_carry  [-1]             0.523971    22.26876    -1.309927       2.619854              -0.0                      NaN           1.309927
+33158          NIKKEI  dynamic_TF_carry  [-1]             0.523971   27.508469    -1.309927      -2.619854         -5.239708                      NaN          -3.929781
+33162      FTSETAIWAN  dynamic_TF_carry   [1]            31.543254  -59.143601    -3.942907       7.885813               0.0                      NaN           3.942907
+33163      GOLD_micro  dynamic_TF_carry  [-1]             7.885813   22.474568    -0.394291           -0.0         -0.788581                      NaN          -0.394291
+33164             US3  dynamic_TF_carry  [-1]          1577.162684   43.125542   -18.482375           -0.0         -36.96475                      NaN         -18.482375
+33165            CORN  dynamic_TF_carry  [-1]            39.429067  152.787635    -4.928633       9.857267              -0.0                      NaN           4.928633
 
 delay_cash Sum
-                                 delay_cash
-strategy_name    instrument_code           
-dynamic_TF_carry US2              52.383873
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry CORN             152.787635
+                 FTSETAIWAN       -59.143601
+                 GOLD_micro        22.474568
+                 IRON            -106.458481
+                 NIKKEI            74.665844
+                 US3               43.125542
 delay_cash Total Sum
-                 delay_cash
-strategy_name              
-dynamic_TF_carry  52.383873
+                  delay_cash
+strategy_name               
+dynamic_TF_carry  127.451507
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry US2                -9.244213
+dynamic_TF_carry CORN               -4.928633
+                 FTSETAIWAN         -3.942907
+                 GOLD_micro         -0.394291
+                 IRON               -3.942907
+                 NIKKEI             -3.929781
+                 US3               -18.482375
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -9.244213
+dynamic_TF_carry   -35.620894
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry US2                  18.488426
+dynamic_TF_carry CORN                  9.857267
+                 FTSETAIWAN            7.885813
+                 GOLD_micro                -0.0
+                 IRON                      -0.0
+                 NIKKEI               -2.619854
+                 US3                       -0.0
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry      18.488426
+dynamic_TF_carry      15.123226
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry US2                           0.0
+dynamic_TF_carry CORN                         -0.0
+                 FTSETAIWAN                    0.0
+                 GOLD_micro              -0.788581
+                 IRON                    -7.885813
+                 NIKKEI                 -10.479417
+                 US3                     -36.96475
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry               0.0
+dynamic_TF_carry        -56.118562
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry US2                                    0
+dynamic_TF_carry CORN                                   0
+                 FTSETAIWAN                             0
+                 GOLD_micro                             0
+                 IRON                                   0
+                 NIKKEI                                 0
+                 US3                                    0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -92,11 +147,16 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry US2                       9.244213
+dynamic_TF_carry CORN                      4.928633
+                 FTSETAIWAN                3.942907
+                 GOLD_micro               -0.394291
+                 IRON                     -3.942907
+                 NIKKEI                   -6.549635
+                 US3                     -18.482375
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry           9.244213
+dynamic_TF_carry         -20.497668
 
 ********************************************************************************
                                  END OF REPORT                                  
