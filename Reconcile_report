@@ -1,10 +1,10 @@
 
 ********************************************************************************
-                 Reconcile report produced on 01/03/2024 22:49                  
+                 Reconcile report produced on 04/03/2024 22:49                  
 ********************************************************************************
 
 
-Breaks Optimal vs actual []
+Breaks Optimal vs actual ['dynamic_TF_carry LIVECOW', 'dynamic_TF_carry NIKKEI', 'dynamic_TF_carry NASDAQ_micro', 'dynamic_TF_carry GOLD_micro']
  Breaks Instrument vs Contract []
  Breaks Broker vs Contract []
 
@@ -40,26 +40,26 @@ Breaks Optimal vs actual []
 ===============================================================
 
    instrument_code contract_date          expiry_date  position
-4          BITCOIN      20240328  2024-03-28 00:00:00       3.0
+15         BITCOIN      20240328  2024-03-28 00:00:00       3.0
 2             BOBL      20240307  2024-03-07 00:00:00      -2.0
-14             CAC      20240315  2024-03-15 00:00:00       1.0
-10             CHF      20240318  2024-03-18 00:00:00      -1.0
-7              CNH      20240318  2024-03-18 00:00:00       1.0
-3             CORN      20241213  2024-12-13 00:00:00      -2.0
-13          EU-OIL      20240315  2024-03-15 00:00:00       1.0
-0          EUROSTX      20240315  2024-03-15 00:00:00       1.0
-6        EUR_micro      20240318  2024-03-18 00:00:00      -3.0
-18      FTSETAIWAN      20240328  2024-03-28 00:00:00       1.0
-1      GAS_US_mini      20240425  2024-04-25 00:00:00      -1.0
-17      GOLD_micro      20240426  2024-04-26 00:00:00      -1.0
-19             JPY      20240318  2024-03-18 00:00:00      -1.0
-16             MXP      20240318  2024-03-18 00:00:00       2.0
-12          NIKKEI      20240613  2024-06-13 00:00:00       3.0
-11           R1000      20240315  2024-03-15 00:00:00       1.0
-9      SP500_micro      20240315  2024-03-15 00:00:00       1.0
-5              US2      20240628  2024-06-28 00:00:00      -1.0
-8              US3      20240628  2024-06-28 00:00:00      -1.0
-15          YENEUR      20240318  2024-03-18 00:00:00       1.0
+17             CAC      20240315  2024-03-15 00:00:00       1.0
+7              CHF      20240318  2024-03-18 00:00:00      -1.0
+16             CNH      20240318  2024-03-18 00:00:00       1.0
+19            CORN      20241213  2024-12-13 00:00:00      -2.0
+10          EU-OIL      20240315  2024-03-15 00:00:00       1.0
+12         EUROSTX      20240315  2024-03-15 00:00:00       1.0
+3        EUR_micro      20240318  2024-03-18 00:00:00      -3.0
+0       FTSETAIWAN      20240328  2024-03-28 00:00:00       1.0
+8      GAS_US_mini      20240425  2024-04-25 00:00:00      -1.0
+14      GOLD_micro      20240426  2024-04-26 00:00:00      -1.0
+6              JPY      20240318  2024-03-18 00:00:00      -1.0
+1              MXP      20240318  2024-03-18 00:00:00       2.0
+5           NIKKEI      20240613  2024-06-13 00:00:00       3.0
+18           R1000      20240315  2024-03-15 00:00:00       1.0
+11     SP500_micro      20240315  2024-03-15 00:00:00       1.0
+9              US2      20240628  2024-06-28 00:00:00      -1.0
+4              US3      20240628  2024-06-28 00:00:00      -1.0
+13          YENEUR      20240318  2024-03-18 00:00:00       1.0
 
 
 ===============
@@ -92,7 +92,7 @@ dynamic_TF_carry EUROSTX                 1       1   False
 dynamic_TF_carry CAD                     0       0   False
 dynamic_TF_carry US-PROPERTY             0       0   False
 dynamic_TF_carry EURIBOR                 0       0   False
-dynamic_TF_carry LIVECOW                 0       0   False
+dynamic_TF_carry LIVECOW                 0       1    True
 dynamic_TF_carry CZK                     0       0   False
 dynamic_TF_carry US10                    0       0   False
 dynamic_TF_carry REDWHEAT                0       0   False
@@ -216,7 +216,7 @@ dynamic_TF_carry HEATOIL                 0       0   False
 dynamic_TF_carry EU-DJ-TELECOM           0       0   False
 dynamic_TF_carry SP400                   0       0   False
 dynamic_TF_carry PLN                     0       0   False
-dynamic_TF_carry NIKKEI                  3       3   False
+dynamic_TF_carry NIKKEI                  3       4    True
 dynamic_TF_carry MUMMY                   0       0   False
 dynamic_TF_carry SHATZ                   0       0   False
 dynamic_TF_carry GBPEUR                  0       0   False
@@ -228,7 +228,7 @@ dynamic_TF_carry AUDJPY                  0       0   False
 dynamic_TF_carry BUTTER                  0       0   False
 dynamic_TF_carry IRON                    0       0   False
 dynamic_TF_carry BTP3                    0       0   False
-dynamic_TF_carry NASDAQ_micro            0       0   False
+dynamic_TF_carry NASDAQ_micro            0       1    True
 dynamic_TF_carry WHEAT                   0       0   False
 dynamic_TF_carry R1000                   1       1   False
 dynamic_TF_carry KRWUSD                  0       0   False
@@ -239,7 +239,7 @@ dynamic_TF_carry FTSECHINAA              0       0   False
 dynamic_TF_carry GAS-PEN                 0       0   False
 dynamic_TF_carry CHFJPY                  0       0   False
 dynamic_TF_carry BONO                    0       0   False
-dynamic_TF_carry GOLD_micro             -1      -1   False
+dynamic_TF_carry GOLD_micro             -1       0    True
 dynamic_TF_carry SGD                     0       0   False
 dynamic_TF_carry KOSPI                   0       0   False
 dynamic_TF_carry EURAUD                  0       0   False
