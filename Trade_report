@@ -1,175 +1,180 @@
 
 ********************************************************************************
-Trades report produced on 21/03/2024 22:50 from 20/03/2024 22:50 to 21/03/2024 22:50
+Trades report produced on 25/03/2024 22:50 from 24/03/2024 22:50 to 25/03/2024 22:50
 ********************************************************************************
 
 
 
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
+=================================================================================================
+                                          Broker orders                                          
+=================================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-33248         BITCOIN  dynamic_TF_carry    [20240400] 2024-03-21 15:00:16  [-1]   67790.00000
-33243      CHINAA-CON  dynamic_TF_carry    [20240400] 2024-03-21 02:00:07  [-1]    1945.60000
-33245      GOLD_micro  dynamic_TF_carry    [20240600] 2024-03-21 14:00:10  [-1]    2215.50000
-33244       HANG_mini  dynamic_TF_carry    [20240400] 2024-03-21 02:15:09  [-1]   17028.00000
-33242            IRON  dynamic_TF_carry    [20240500] 2024-03-21 01:00:11   [1]     105.80000
-33247             MXP  dynamic_TF_carry    [20240600] 2024-03-21 15:00:15   [1]       0.05885
-33249    NASDAQ_micro  dynamic_TF_carry    [20240600] 2024-03-21 15:00:17  [-1]   18647.75000
-33246     SP500_micro  dynamic_TF_carry    [20240600] 2024-03-21 15:00:03  [-1]    5317.75000
-33241           TOPIX  dynamic_TF_carry    [20240600] 2024-03-21 01:00:08   [1]    2776.00000
-33250             VIX  dynamic_TF_carry    [20240600] 2024-03-21 15:05:18  [-1]      16.15000
-
-
-=============================================================================================================================================================
-                                                                           Delays                                                                            
-=============================================================================================================================================================
-
-      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-33241           TOPIX  dynamic_TF_carry       2024-03-20 00:00:00  2024-03-21 01:00:07.532000  2024-03-21 01:00:08              90007.532               0.468
-33242            IRON  dynamic_TF_carry       2024-03-20 00:00:00  2024-03-21 01:00:09.466000  2024-03-21 01:00:11              90009.466               1.534
-33243      CHINAA-CON  dynamic_TF_carry       2024-03-20 00:00:00  2024-03-21 02:00:07.227000  2024-03-21 02:00:07              93607.227                 NaN
-33244       HANG_mini  dynamic_TF_carry       2024-03-20 00:00:00  2024-03-21 02:15:09.431000  2024-03-21 02:15:09              94509.431                 NaN
-33245      GOLD_micro  dynamic_TF_carry       2024-03-20 00:00:00  2024-03-21 14:00:09.622000  2024-03-21 14:00:10             136809.622               0.378
-33246     SP500_micro  dynamic_TF_carry       2024-03-20 00:00:00  2024-03-21 15:00:03.007000  2024-03-21 15:00:03             140403.007                 NaN
-33247             MXP  dynamic_TF_carry       2024-03-20 00:00:00  2024-03-21 15:00:04.097000  2024-03-21 15:00:15             140404.097              10.903
-33248         BITCOIN  dynamic_TF_carry       2024-03-20 00:00:00  2024-03-21 15:00:16.233000  2024-03-21 15:00:16             140416.233                 NaN
-33249    NASDAQ_micro  dynamic_TF_carry       2024-03-20 00:00:00  2024-03-21 15:00:17.083000  2024-03-21 15:00:17             140417.083                 NaN
-33250             VIX  dynamic_TF_carry       2024-03-20 00:00:00  2024-03-21 15:00:18.686000  2024-03-21 15:05:18             140418.686             299.314
+      instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
+33261         BITCOIN  dynamic_TF_carry    [20240400] 2024-03-25 15:00:35.000  [-1]   70520.00000
+33252            BUXL  dynamic_TF_carry    [20240600] 2024-03-25 08:00:05.000  [-1]     134.46000
+33259             CHF  dynamic_TF_carry    [20240600] 2024-03-25 15:00:13.000  [-1]       1.12445
+33251      CHINAA-CON  dynamic_TF_carry    [20240400] 2024-03-25 02:00:08.000  [-1]    1918.00000
+33258             DOW  dynamic_TF_carry    [20240600] 2024-03-25 15:00:08.000   [1]   39752.00000
+33254              DX  dynamic_TF_carry    [20240600] 2024-03-25 14:01:02.000   [1]     103.89500
+33256        MSCIEAFA  dynamic_TF_carry    [20240600] 2024-03-25 14:50:18.000   [1]    2354.10000
+33255        MSCIEAFA  dynamic_TF_carry    [20240600] 2024-03-25 19:30:01.731   [0]           NaN
+33257    NASDAQ_micro  dynamic_TF_carry    [20240600] 2024-03-25 15:00:05.000   [1]   18520.75000
+33253             SMI  dynamic_TF_carry    [20240600] 2024-03-25 08:00:10.000   [1]   11532.00000
+33260          YENEUR  dynamic_TF_carry    [20240600] 2024-03-25 15:00:32.000   [1]     162.54000
 
 
-=================================================================================================================================================================================================================================
-                                                                                                    Slippage (ticks per lot)                                                                                                     
-=================================================================================================================================================================================================================================
+====================================================================================================================================================================
+                                                                               Delays                                                                               
+====================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price  mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
-33241           TOPIX  dynamic_TF_carry   [1]                2762.25               None     2775.5    2775.75       2775.25     2775.25       2776.0    -13.25     -0.25     -0.25        -0.75                 NaN          -0.5
-33242            IRON  dynamic_TF_carry   [1]                 104.85               None     105.75      105.8         105.7       105.7        105.8      -0.9     -0.05       0.0         -0.1                 NaN         -0.05
-33243      CHINAA-CON  dynamic_TF_carry  [-1]                 1934.4               None     1943.4     1943.2        1943.6      1943.6       1945.6       9.0      -0.2       2.4          2.0                 NaN           2.2
-33244       HANG_mini  dynamic_TF_carry  [-1]                16626.0               None    17025.0    17023.0       17027.0     17027.0      17028.0     399.0      -2.0       5.0          1.0                 NaN           3.0
-33245      GOLD_micro  dynamic_TF_carry  [-1]                 2208.0               None    2215.65     2215.5        2215.8      2215.8       2215.5      7.65     -0.15      -0.0         -0.3                 NaN         -0.15
-33246     SP500_micro  dynamic_TF_carry  [-1]                 5290.5               None   5317.625     5317.5       5317.75     5317.75      5317.75    27.125    -0.125      0.25         -0.0                 NaN         0.125
-33247             MXP  dynamic_TF_carry   [1]                0.05907               None   0.058835    0.05884       0.05883     0.05883      0.05885  0.000235 -0.000005  -0.00001     -0.00002                 NaN     -0.000015
-33248         BITCOIN  dynamic_TF_carry  [-1]                67225.0               None    67827.5    67790.0       67865.0         NaN      67790.0     602.5     -37.5      -0.0          NaN                 NaN         -37.5
-33249    NASDAQ_micro  dynamic_TF_carry  [-1]                18534.5               None  18648.875   18648.75       18649.0     18649.0     18647.75   114.375    -0.125      -1.0        -1.25                 NaN        -1.125
-33250             VIX  dynamic_TF_carry  [-1]                   16.2               None     16.175      16.15          16.2        16.2        16.15    -0.025    -0.025      -0.0        -0.05                 NaN        -0.025
-
-
-==============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
-==============================================================================================================================================================
-
-      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33241           TOPIX  dynamic_TF_carry   [1]      384.079265 -344.980872   -6.509073     -6.509073       -19.527219                     NaN        -13.018146
-33242            IRON  dynamic_TF_carry   [1]       44.668824 -201.482806  -11.193489           0.0       -22.386978                     NaN        -11.193489
-33243      CHINAA-CON  dynamic_TF_carry  [-1]        311.2598  289.147523   -6.425501     77.106006        64.255005                     NaN         70.680506
-33244       HANG_mini  dynamic_TF_carry  [-1]     4177.158605  955.194757   -4.787944     11.969859         2.393972                     NaN          7.181915
-33245      GOLD_micro  dynamic_TF_carry  [-1]      247.457402  309.144117   -6.061649          -0.0       -12.123299                     NaN         -6.061649
-33246     SP500_micro  dynamic_TF_carry  [-1]      573.036064  473.355897   -2.181364      4.362727             -0.0                     NaN          2.181364
-33247             MXP  dynamic_TF_carry   [1]        0.004617  509.008717  -10.829973    -21.659945       -43.319891                     NaN        -32.489918
-33248         BITCOIN  dynamic_TF_carry  [-1]    30567.222255  197.106559  -12.268043          -0.0              NaN                     NaN        -12.268043
-33249    NASDAQ_micro  dynamic_TF_carry  [-1]     2801.885993  408.207187   -0.446128     -3.569025        -4.461281                     NaN         -4.015153
-33250             VIX  dynamic_TF_carry  [-1]        6.187164  -40.406238  -40.406238          -0.0       -80.812475                     NaN        -40.406238
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
+33251      CHINAA-CON  dynamic_TF_carry       2024-03-22 00:00:00  2024-03-25 02:00:07.719000         2024-03-25 02:00:08             266407.719               0.281
+33252            BUXL  dynamic_TF_carry       2024-03-21 00:00:00  2024-03-25 08:00:04.590000         2024-03-25 08:00:05              374404.59                0.41
+33253             SMI  dynamic_TF_carry       2024-03-21 00:00:00  2024-03-25 08:00:10.195000         2024-03-25 08:00:10             374410.195                 NaN
+33254              DX  dynamic_TF_carry       2024-03-21 00:00:00  2024-03-25 14:00:05.379000         2024-03-25 14:01:02             396005.379              56.621
+33257    NASDAQ_micro  dynamic_TF_carry       2024-03-21 00:00:00  2024-03-25 15:00:04.852000         2024-03-25 15:00:05             399604.852               0.148
+33258             DOW  dynamic_TF_carry       2024-03-21 00:00:00  2024-03-25 15:00:06.379000         2024-03-25 15:00:08             399606.379               1.621
+33259             CHF  dynamic_TF_carry       2024-03-21 00:00:00  2024-03-25 15:00:09.107000         2024-03-25 15:00:13             399609.107               3.893
+33260          YENEUR  dynamic_TF_carry       2024-03-21 00:00:00  2024-03-25 15:00:14.114000         2024-03-25 15:00:32             399614.114              17.886
+33261         BITCOIN  dynamic_TF_carry       2024-03-21 00:00:00  2024-03-25 15:00:33.851000         2024-03-25 15:00:35             399633.851               1.149
+33256        MSCIEAFA  dynamic_TF_carry       2024-03-21 00:00:00  2024-03-25 14:50:18.226000         2024-03-25 14:50:18             399018.226                 NaN
+33255        MSCIEAFA  dynamic_TF_carry       2024-03-21 00:00:00  2024-03-25 14:01:04.679000  2024-03-25 19:30:01.731000             396064.679           19737.052
 
 
-========================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                       
-========================================================================================================================================================================
+===============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                    
+===============================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33241           TOPIX  dynamic_TF_carry   [1]             5.176647  -68.590577    -1.294162      -1.294162         -3.882485                      NaN          -2.588324
-33242            IRON  dynamic_TF_carry   [1]            78.165304  -70.348774    -3.908265            0.0          -7.81653                      NaN          -3.908265
-33243      CHINAA-CON  dynamic_TF_carry  [-1]            19.541326  175.871934    -3.908265      46.899182         39.082652                      NaN          42.990917
-33244       HANG_mini  dynamic_TF_carry  [-1]             0.999531  398.812771    -1.999062       4.997654          0.999531                      NaN           2.998592
-33245      GOLD_micro  dynamic_TF_carry  [-1]              7.81653   59.796458     -1.17248           -0.0         -2.344959                      NaN           -1.17248
-33246     SP500_micro  dynamic_TF_carry  [-1]             3.908265  106.011694    -0.488533       0.977066              -0.0                      NaN           0.488533
-33247             MXP  dynamic_TF_carry   [1]        390826.519924   91.844232    -1.954133      -3.908265          -7.81653                      NaN          -5.862398
-33248         BITCOIN  dynamic_TF_carry  [-1]             0.078165   47.094596    -2.931199           -0.0               NaN                      NaN          -2.931199
-33249    NASDAQ_micro  dynamic_TF_carry  [-1]             1.563306  178.803133    -0.195413      -1.563306         -1.954133                      NaN          -1.758719
-33250             VIX  dynamic_TF_carry  [-1]            781.65304  -19.541326   -19.541326           -0.0        -39.082652                      NaN         -19.541326
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price  mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
+33251      CHINAA-CON  dynamic_TF_carry  [-1]                 1906.2               None     1914.6     1914.4        1914.8      1914.8       1918.0      8.4     -0.2       3.6          3.2                 NaN           3.4
+33252            BUXL  dynamic_TF_carry  [-1]                 132.48               None     134.47     134.46        134.48         NaN       134.46     1.99    -0.01      -0.0          NaN                 NaN         -0.01
+33253             SMI  dynamic_TF_carry   [1]                11607.0               None    11532.5    11533.0       11532.0     11532.0      11532.0     74.5     -0.5       1.0          0.0                 NaN           0.5
+33254              DX  dynamic_TF_carry   [1]                103.715               None   103.8925    103.895        103.89      103.89      103.895  -0.1775  -0.0025       0.0       -0.005                 NaN       -0.0025
+33257    NASDAQ_micro  dynamic_TF_carry   [1]               18584.75               None  18519.875    18520.0      18519.75         NaN     18520.75   64.875   -0.125     -0.75          NaN                 NaN        -0.875
+33258             DOW  dynamic_TF_carry   [1]                40248.0               None    39752.5    39753.0       39752.0     39752.0      39752.0    495.5     -0.5       1.0          0.0                 NaN           0.5
+33259             CHF  dynamic_TF_carry  [-1]                1.12435               None     1.1245    1.12445       1.12455     1.12455      1.12445  0.00015 -0.00005      -0.0      -0.0001                 NaN      -0.00005
+33260          YENEUR  dynamic_TF_carry   [1]                  163.1               None     162.53     162.54        162.52      162.52       162.54     0.57    -0.01       0.0        -0.02                 NaN         -0.01
+33261         BITCOIN  dynamic_TF_carry  [-1]                66500.0               None    70547.5    70505.0       70590.0     70590.0      70520.0   4047.5    -42.5      15.0        -70.0                 NaN         -27.5
+33256        MSCIEAFA  dynamic_TF_carry   [1]                 2358.9               None     2350.2     2350.3        2350.1      2350.1       2354.1      8.7     -0.1      -3.8         -4.0                 NaN          -3.9
+33255        MSCIEAFA  dynamic_TF_carry   [1]                 2358.9               None    2348.95     2349.0        2348.9      2348.9          NaN     9.95    -0.05       NaN          NaN                 NaN           NaN
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+33251      CHINAA-CON  dynamic_TF_carry  [-1]      306.482706   274.077454   -6.525654    117.461766       104.410459                     NaN        110.936113
+33252            BUXL  dynamic_TF_carry  [-1]       20.131433   988.503919   -4.967356          -0.0              NaN                     NaN         -4.967356
+33253             SMI  dynamic_TF_carry   [1]     1050.640351   709.091364   -4.759002      9.518005              0.0                     NaN          4.759002
+33254              DX  dynamic_TF_carry   [1]        5.520133  -321.550199   -4.528876           0.0        -9.057752                     NaN         -4.528876
+33257    NASDAQ_micro  dynamic_TF_carry   [1]     2801.885993    231.54047   -0.446128     -2.676768              NaN                     NaN         -3.122897
+33258             DOW  dynamic_TF_carry   [1]     3882.975464  1276.083263   -1.287672      2.575345              0.0                     NaN          1.287672
+33259             CHF  dynamic_TF_carry  [-1]        0.082958    18.081475   -6.027158          -0.0       -12.054317                     NaN         -6.027158
+33260          YENEUR  dynamic_TF_carry   [1]       12.901787   441.799262   -7.750864           0.0       -15.501728                     NaN         -7.750864
+33261         BITCOIN  dynamic_TF_carry  [-1]    30567.222255  1324.130785  -13.903782      4.907217       -22.900347                     NaN         -8.996565
+33256        MSCIEAFA  dynamic_TF_carry   [1]       268.36492   324.185442   -3.726269   -141.598239      -149.050778                     NaN       -145.324508
+33255        MSCIEAFA  dynamic_TF_carry   [1]       268.36492    370.76381   -1.863135           NaN              NaN                     NaN               NaN
+
+
+=========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                       
+=========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point   delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+33251      CHINAA-CON  dynamic_TF_carry  [-1]            19.832062   166.589322    -3.966412      71.395424         63.462599                      NaN          67.429011
+33252            BUXL  dynamic_TF_carry  [-1]           858.010368  1707.440633    -8.580104           -0.0               NaN                      NaN          -8.580104
+33253             SMI  dynamic_TF_carry   [1]             8.835382   658.235958    -4.417691       8.835382               0.0                      NaN           4.417691
+33254              DX  dynamic_TF_carry   [1]           793.282484  -140.807641    -1.983206            0.0         -3.966412                      NaN          -1.983206
+33257    NASDAQ_micro  dynamic_TF_carry   [1]             1.586565   102.928402    -0.198321      -1.189924               NaN                      NaN          -1.388244
+33258             DOW  dynamic_TF_carry   [1]             0.396641   196.535735    -0.198321       0.396641               0.0                      NaN           0.198321
+33259             CHF  dynamic_TF_carry  [-1]         99160.310491    14.874047    -4.958016           -0.0         -9.916031                      NaN          -4.958016
+33260          YENEUR  dynamic_TF_carry   [1]           655.265271   373.501204    -6.552653            0.0        -13.105305                      NaN          -6.552653
+33261         BITCOIN  dynamic_TF_carry  [-1]             0.079328   321.081085    -3.371451       1.189924         -5.552977                      NaN          -2.181527
+33256        MSCIEAFA  dynamic_TF_carry   [1]            39.664124   345.077881    -3.966412    -150.723672       -158.656497                      NaN        -154.690084
+33255        MSCIEAFA  dynamic_TF_carry   [1]            39.664124   394.658036    -1.983206            NaN               NaN                      NaN                NaN
 
 delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry BITCOIN           47.094596
-                 CHINAA-CON       175.871934
-                 GOLD_micro        59.796458
-                 HANG_mini        398.812771
-                 IRON             -70.348774
-                 MXP               91.844232
-                 NASDAQ_micro     178.803133
-                 SP500_micro      106.011694
-                 TOPIX            -68.590577
-                 VIX              -19.541326
+                                   delay_cash
+strategy_name    instrument_code             
+dynamic_TF_carry BITCOIN           321.081085
+                 BUXL             1707.440633
+                 CHF                14.874047
+                 CHINAA-CON        166.589322
+                 DOW               196.535735
+                 DX               -140.807641
+                 MSCIEAFA          739.735916
+                 NASDAQ_micro      102.928402
+                 SMI               658.235958
+                 YENEUR            373.501204
 delay_cash Total Sum
-                 delay_cash
-strategy_name              
-dynamic_TF_carry  899.75414
+                   delay_cash
+strategy_name                
+dynamic_TF_carry  4140.114661
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry BITCOIN            -2.931199
-                 CHINAA-CON         -3.908265
-                 GOLD_micro          -1.17248
-                 HANG_mini          -1.999062
-                 IRON               -3.908265
-                 MXP                -1.954133
-                 NASDAQ_micro       -0.195413
-                 SP500_micro        -0.488533
-                 TOPIX              -1.294162
-                 VIX               -19.541326
+dynamic_TF_carry BITCOIN            -3.371451
+                 BUXL               -8.580104
+                 CHF                -4.958016
+                 CHINAA-CON         -3.966412
+                 DOW                -0.198321
+                 DX                 -1.983206
+                 MSCIEAFA           -5.949619
+                 NASDAQ_micro       -0.198321
+                 SMI                -4.417691
+                 YENEUR             -6.552653
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry   -37.392837
+dynamic_TF_carry   -40.175792
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry BITCOIN                   -0.0
-                 CHINAA-CON           46.899182
-                 GOLD_micro                -0.0
-                 HANG_mini             4.997654
-                 IRON                       0.0
-                 MXP                  -3.908265
-                 NASDAQ_micro         -1.563306
-                 SP500_micro           0.977066
-                 TOPIX                -1.294162
-                 VIX                       -0.0
+dynamic_TF_carry BITCOIN               1.189924
+                 BUXL                      -0.0
+                 CHF                       -0.0
+                 CHINAA-CON           71.395424
+                 DOW                   0.396641
+                 DX                         0.0
+                 MSCIEAFA           -150.723672
+                 NASDAQ_micro         -1.189924
+                 SMI                   8.835382
+                 YENEUR                     0.0
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry      46.108169
+dynamic_TF_carry     -70.096225
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry BITCOIN                         0
-                 CHINAA-CON              39.082652
-                 GOLD_micro              -2.344959
-                 HANG_mini                0.999531
-                 IRON                     -7.81653
-                 MXP                      -7.81653
-                 NASDAQ_micro            -1.954133
-                 SP500_micro                  -0.0
-                 TOPIX                   -3.882485
-                 VIX                    -39.082652
+dynamic_TF_carry BITCOIN                 -5.552977
+                 BUXL                            0
+                 CHF                     -9.916031
+                 CHINAA-CON              63.462599
+                 DOW                           0.0
+                 DX                      -3.966412
+                 MSCIEAFA              -158.656497
+                 NASDAQ_micro                    0
+                 SMI                           0.0
+                 YENEUR                 -13.105305
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry        -22.815107
+dynamic_TF_carry       -127.734624
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
 dynamic_TF_carry BITCOIN                                0
+                 BUXL                                   0
+                 CHF                                    0
                  CHINAA-CON                             0
-                 GOLD_micro                             0
-                 HANG_mini                              0
-                 IRON                                   0
-                 MXP                                    0
+                 DOW                                    0
+                 DX                                     0
+                 MSCIEAFA                               0
                  NASDAQ_micro                           0
-                 SP500_micro                            0
-                 TOPIX                                  0
-                 VIX                                    0
+                 SMI                                    0
+                 YENEUR                                 0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -177,20 +182,20 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry BITCOIN                  -2.931199
-                 CHINAA-CON               42.990917
-                 GOLD_micro                -1.17248
-                 HANG_mini                 2.998592
-                 IRON                     -3.908265
-                 MXP                      -5.862398
-                 NASDAQ_micro             -1.758719
-                 SP500_micro               0.488533
-                 TOPIX                    -2.588324
-                 VIX                     -19.541326
+dynamic_TF_carry BITCOIN                  -2.181527
+                 BUXL                     -8.580104
+                 CHF                      -4.958016
+                 CHINAA-CON               67.429011
+                 DOW                       0.198321
+                 DX                       -1.983206
+                 MSCIEAFA               -154.690084
+                 NASDAQ_micro             -1.388244
+                 SMI                       4.417691
+                 YENEUR                   -6.552653
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry           8.715332
+dynamic_TF_carry        -108.288811
 
 ********************************************************************************
                                  END OF REPORT                                  
