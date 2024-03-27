@@ -1,10 +1,10 @@
 
 ********************************************************************************
-                 Reconcile report produced on 26/03/2024 22:49                  
+                 Reconcile report produced on 27/03/2024 22:49                  
 ********************************************************************************
 
 
-Breaks Optimal vs actual []
+Breaks Optimal vs actual ['dynamic_TF_carry GAS_US_mini', 'dynamic_TF_carry DOW']
  Breaks Instrument vs Contract []
  Breaks Broker vs Contract []
 
@@ -49,35 +49,35 @@ Breaks Optimal vs actual []
 ===============================================================
 
    instrument_code contract_date          expiry_date  position
-5              AEX      20240419  2024-04-19 00:00:00       1.0
-12         BITCOIN      20240426  2024-04-26 00:00:00      -2.0
-19            BOBL      20240606  2024-06-06 00:00:00      -1.0
-4             BUND      20240606  2024-06-06 00:00:00      -2.0
-14            BUXL      20240606  2024-06-06 00:00:00      -1.0
-27             CHF      20240617  2024-06-17 00:00:00      -2.0
-11      CHINAA-CON      20240419  2024-04-19 00:00:00      -2.0
-3            COCOA      20240716  2024-07-16 00:00:00       1.0
-2             CORN      20241213  2024-12-13 00:00:00      -2.0
-6              DOW      20240621  2024-06-21 00:00:00       1.0
-7        GASOILINE      20240531  2024-05-31 00:00:00       1.0
-22     GAS_US_mini      20240425  2024-04-25 00:00:00      -1.0
+14             AEX      20240419  2024-04-19 00:00:00       1.0
+19         BITCOIN      20240426  2024-04-26 00:00:00      -2.0
+8             BOBL      20240606  2024-06-06 00:00:00      -1.0
+9             BUND      20240606  2024-06-06 00:00:00      -2.0
+22            BUXL      20240606  2024-06-06 00:00:00      -1.0
+10             CHF      20240617  2024-06-17 00:00:00      -2.0
+24      CHINAA-CON      20240419  2024-04-19 00:00:00      -2.0
+2            COCOA      20240716  2024-07-16 00:00:00       1.0
+18            CORN      20241213  2024-12-13 00:00:00      -2.0
+25             DOW      20240621  2024-06-21 00:00:00       1.0
+5        GASOILINE      20240531  2024-05-31 00:00:00       1.0
+16     GAS_US_mini      20240425  2024-04-25 00:00:00      -1.0
 23      GOLD_micro      20240626  2024-06-26 00:00:00     -11.0
-18       HANG_mini      20240429  2024-04-29 00:00:00      -1.0
-1             IRON      20240531  2024-05-31 00:00:00       1.0
-20             JPY      20240617  2024-06-17 00:00:00      -1.0
-0          LIVECOW      20240628  2024-06-28 00:00:00       1.0
-17             MIB      20240621  2024-06-21 00:00:00       1.0
-25       MILLWHEAT      20240910  2024-09-10 00:00:00      -1.0
-21        MSCIEAFA      20240621  2024-06-21 00:00:00       1.0
-16             MXP      20240617  2024-06-17 00:00:00       4.0
-24    NASDAQ_micro      20240621  2024-06-21 00:00:00       2.0
-28          NIKKEI      20240613  2024-06-13 00:00:00       4.0
-13             SMI      20240621  2024-06-21 00:00:00       1.0
-10           TOPIX      20240613  2024-06-13 00:00:00       1.0
-26             US2      20240628  2024-06-28 00:00:00      -1.0
-8              US3      20240628  2024-06-28 00:00:00      -1.0
-9              VIX      20240618  2024-06-18 00:00:00      -2.0
-15          YENEUR      20240617  2024-06-17 00:00:00       2.0
+1        HANG_mini      20240429  2024-04-29 00:00:00      -1.0
+13            IRON      20240531  2024-05-31 00:00:00       1.0
+6              JPY      20240617  2024-06-17 00:00:00      -1.0
+15         LIVECOW      20240628  2024-06-28 00:00:00       1.0
+11             MIB      20240621  2024-06-21 00:00:00       1.0
+12       MILLWHEAT      20240910  2024-09-10 00:00:00      -1.0
+3         MSCIEAFA      20240621  2024-06-21 00:00:00       1.0
+4              MXP      20240617  2024-06-17 00:00:00       4.0
+17    NASDAQ_micro      20240621  2024-06-21 00:00:00       2.0
+26          NIKKEI      20240613  2024-06-13 00:00:00       4.0
+7              SMI      20240621  2024-06-21 00:00:00       1.0
+20           TOPIX      20240613  2024-06-13 00:00:00       1.0
+21             US2      20240628  2024-06-28 00:00:00      -1.0
+0              US3      20240628  2024-06-28 00:00:00      -1.0
+28             VIX      20240618  2024-06-18 00:00:00      -2.0
+27          YENEUR      20240617  2024-06-17 00:00:00       2.0
 
 
 ===============
@@ -175,7 +175,7 @@ dynamic_TF_carry US-TECH                 0       0   False
 dynamic_TF_carry AUD                     0       0   False
 dynamic_TF_carry CRUDE_ICE               0       0   False
 dynamic_TF_carry EU-BANKS                0       0   False
-dynamic_TF_carry GAS_US_mini            -1      -1   False
+dynamic_TF_carry GAS_US_mini            -1      -2    True
 dynamic_TF_carry PLAT                    0       0   False
 dynamic_TF_carry SOYMEAL                 0       0   False
 dynamic_TF_carry TOPIX                   1       1   False
@@ -305,7 +305,7 @@ dynamic_TF_carry KOSPI                   0       0   False
 dynamic_TF_carry EURAUD                  0       0   False
 dynamic_TF_carry CH10                    0       0   False
 dynamic_TF_carry BRE                     0       0   False
-dynamic_TF_carry DOW                     1       1   False
+dynamic_TF_carry DOW                     1       2    True
 dynamic_TF_carry SMI-MID                 0       0   False
 dynamic_TF_carry CANOLA                  0       0   False
 dynamic_TF_carry EU-AUTO                 0       0   False
