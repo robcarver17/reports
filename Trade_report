@@ -1,15 +1,155 @@
 
 ********************************************************************************
-Trades report produced on 29/03/2024 22:50 from 28/03/2024 22:50 to 29/03/2024 22:50
+Trades report produced on 02/04/2024 22:50 from 01/04/2024 22:50 to 02/04/2024 22:50
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+33268             DOW  dynamic_TF_carry    [20240600] 2024-04-02 15:00:02   [1]     39424.000
+33269             DOW  dynamic_TF_carry    [20240600] 2024-04-02 15:00:08   [1]     39422.000
+33265     GAS_US_mini  dynamic_TF_carry    [20240600] 2024-04-02 14:00:31  [-1]         2.015
+33266      GOLD_micro  dynamic_TF_carry    [20240600] 2024-04-02 14:00:32  [-1]      2277.500
+33267      GOLD_micro  dynamic_TF_carry    [20240600] 2024-04-02 14:00:37   [1]      2277.600
+33272      GOLD_micro  dynamic_TF_carry    [20240600] 2024-04-02 15:50:54   [1]      2284.300
+33273      GOLD_micro  dynamic_TF_carry    [20240600] 2024-04-02 15:51:00   [1]      2283.800
+33270      GOLD_micro  dynamic_TF_carry    [20240600] 2024-04-02 15:49:36   [1]      2283.200
+33271         LIVECOW  dynamic_TF_carry    [20240600] 2024-04-02 15:49:45  [-1]       176.175
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+33265     GAS_US_mini  dynamic_TF_carry       2024-03-28 00:00:00  2024-04-02 14:00:04.977000  2024-04-02 14:00:31             482404.977              26.023
+33266      GOLD_micro  dynamic_TF_carry       2024-03-28 00:00:00  2024-04-02 14:00:31.801000  2024-04-02 14:00:32             482431.801               0.199
+33267      GOLD_micro  dynamic_TF_carry       2024-03-28 00:00:00  2024-04-02 14:00:37.659000  2024-04-02 14:00:37             482437.659                 NaN
+33268             DOW  dynamic_TF_carry       2024-03-28 00:00:00  2024-04-02 15:00:02.379000  2024-04-02 15:00:02             486002.379                 NaN
+33269             DOW  dynamic_TF_carry       2024-03-28 00:00:00  2024-04-02 15:00:08.111000  2024-04-02 15:00:08             486008.111                 NaN
+33271         LIVECOW  dynamic_TF_carry       2024-03-28 23:00:00  2024-04-02 15:49:37.914000  2024-04-02 15:49:45             406177.914               7.086
+33272      GOLD_micro  dynamic_TF_carry       2024-03-28 23:00:00  2024-04-02 15:50:54.486000  2024-04-02 15:50:54             406254.486                 NaN
+33273      GOLD_micro  dynamic_TF_carry       2024-03-28 23:00:00  2024-04-02 15:51:00.284000  2024-04-02 15:51:00             406260.284                 NaN
+33270      GOLD_micro  dynamic_TF_carry       2024-03-28 23:00:00  2024-04-02 15:49:35.816000  2024-04-02 15:49:36             406175.816               0.184
+
+
+============================================================================================================================================================================================================================
+                                                                                                  Slippage (ticks per lot)                                                                                                  
+============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
+33265     GAS_US_mini  dynamic_TF_carry  [-1]                    2.0               None    2.0225       2.02         2.025       2.025        2.015  0.0225 -0.0025    -0.005        -0.01                 NaN       -0.0075
+33266      GOLD_micro  dynamic_TF_carry  [-1]                 2255.0               None    2277.6     2277.5        2277.7      2277.7       2277.5    22.6    -0.1      -0.0         -0.2                 NaN          -0.1
+33267      GOLD_micro  dynamic_TF_carry   [1]                 2255.0               None    2277.7     2277.8        2277.6      2277.6       2277.6   -22.7    -0.1       0.2          0.0                 NaN           0.1
+33268             DOW  dynamic_TF_carry   [1]                40140.0               None   39422.0    39425.0       39419.0     39419.0      39424.0   718.0    -3.0       1.0         -5.0                 NaN          -2.0
+33269             DOW  dynamic_TF_carry   [1]                40140.0               None   39423.5    39425.0       39422.0     39422.0      39422.0   716.5    -1.5       3.0          0.0                 NaN           1.5
+33271         LIVECOW  dynamic_TF_carry  [-1]                 180.25               None     176.2    176.175       176.225     176.225      176.175   -4.05  -0.025      -0.0        -0.05                 NaN        -0.025
+33272      GOLD_micro  dynamic_TF_carry   [1]                 2255.0               None   2283.25     2283.3        2283.2         NaN       2284.3  -28.25   -0.05      -1.0          NaN                 NaN         -1.05
+33273      GOLD_micro  dynamic_TF_carry   [1]                 2255.0               None    2283.7     2283.8        2283.6      2283.6       2283.8   -28.7    -0.1       0.0         -0.2                 NaN          -0.1
+33270      GOLD_micro  dynamic_TF_carry   [1]                 2255.0               None    2283.3     2283.4        2283.2      2283.2       2283.2   -28.3    -0.1       0.2          0.0                 NaN           0.1
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+33265     GAS_US_mini  dynamic_TF_carry  [-1]        1.564361   143.828687  -15.980965     -31.96193       -63.923861                     NaN        -47.942896
+33266      GOLD_micro  dynamic_TF_carry  [-1]      261.172159   865.329601   -3.828892          -0.0        -7.657784                     NaN         -3.828892
+33267      GOLD_micro  dynamic_TF_carry   [1]      261.172159  -869.158493   -3.828892      7.657784              0.0                     NaN          3.828892
+33268             DOW  dynamic_TF_carry   [1]     4158.754662  1726.478377   -7.213698      2.404566        -12.02283                     NaN         -4.809132
+33269             DOW  dynamic_TF_carry   [1]     4158.754662  1722.871528   -3.606849      7.213698              0.0                     NaN          3.606849
+33271         LIVECOW  dynamic_TF_carry  [-1]       21.670371 -1868.911279  -11.536489          -0.0       -23.072979                     NaN        -11.536489
+33272      GOLD_micro  dynamic_TF_carry   [1]      261.172159 -1081.662002   -1.914446     -38.28892              NaN                     NaN        -40.203366
+33273      GOLD_micro  dynamic_TF_carry   [1]      261.172159 -1098.892016   -3.828892           0.0        -7.657784                     NaN         -3.828892
+33270      GOLD_micro  dynamic_TF_carry   [1]      261.172159 -1083.576448   -3.828892      7.657784              0.0                     NaN          3.828892
+
+
+=========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                       
+=========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point   delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+33265     GAS_US_mini  dynamic_TF_carry  [-1]           1992.19855    44.824467    -4.980496      -9.960993        -19.921986                      NaN         -14.941489
+33266      GOLD_micro  dynamic_TF_carry  [-1]             7.968794   180.094749    -0.796879           -0.0         -1.593759                      NaN          -0.796879
+33267      GOLD_micro  dynamic_TF_carry   [1]             7.968794  -180.891628    -0.796879       1.593759               0.0                      NaN           0.796879
+33268             DOW  dynamic_TF_carry   [1]              0.39844   286.079712    -1.195319        0.39844         -1.992199                      NaN          -0.796879
+33269             DOW  dynamic_TF_carry   [1]              0.39844   285.482052     -0.59766       1.195319               0.0                      NaN            0.59766
+33271         LIVECOW  dynamic_TF_carry  [-1]           318.751768 -1290.944661    -7.968794           -0.0        -15.937588                      NaN          -7.968794
+33272      GOLD_micro  dynamic_TF_carry   [1]             7.968794  -225.118436     -0.39844      -7.968794               NaN                      NaN          -8.367234
+33273      GOLD_micro  dynamic_TF_carry   [1]             7.968794  -228.704394    -0.796879            0.0         -1.593759                      NaN          -0.796879
+33270      GOLD_micro  dynamic_TF_carry   [1]             7.968794  -225.516876    -0.796879       1.593759               0.0                      NaN           0.796879
+
+delay_cash Sum
+                                   delay_cash
+strategy_name    instrument_code             
+dynamic_TF_carry DOW               571.561764
+                 GAS_US_mini        44.824467
+                 GOLD_micro       -680.136585
+                 LIVECOW         -1290.944661
+delay_cash Total Sum
+                   delay_cash
+strategy_name                
+dynamic_TF_carry -1354.695014
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry DOW                -1.792979
+                 GAS_US_mini        -4.980496
+                 GOLD_micro         -3.585957
+                 LIVECOW            -7.968794
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -18.328227
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry DOW                   1.593759
+                 GAS_US_mini          -9.960993
+                 GOLD_micro           -4.781277
+                 LIVECOW                   -0.0
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry      -13.14851
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry DOW                     -1.992199
+                 GAS_US_mini            -19.921986
+                 GOLD_micro              -3.187518
+                 LIVECOW                -15.937588
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry         -41.03929
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry DOW                                    0
+                 GAS_US_mini                            0
+                 GOLD_micro                             0
+                 LIVECOW                                0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry DOW                       -0.19922
+                 GAS_US_mini             -14.941489
+                 GOLD_micro               -8.367234
+                 LIVECOW                  -7.968794
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry         -31.476737
 
 ********************************************************************************
                                  END OF REPORT                                  
