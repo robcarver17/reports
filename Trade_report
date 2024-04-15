@@ -1,15 +1,174 @@
 
 ********************************************************************************
-Trades report produced on 12/04/2024 22:50 from 11/04/2024 22:50 to 12/04/2024 22:50
+Trades report produced on 15/04/2024 22:50 from 14/04/2024 22:50 to 15/04/2024 22:50
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+33319             CHF  dynamic_TF_carry    [20240600] 2024-04-15 15:00:25  [-1]        1.1015
+33317         COTTON2  dynamic_TF_carry    [20240700] 2024-04-15 14:04:48  [-1]       85.6700
+33315       HANG_mini  dynamic_TF_carry    [20240500] 2024-04-15 02:17:36  [-1]    16354.0000
+33312            IRON  dynamic_TF_carry    [20240600] 2024-04-15 01:05:04   [1]      110.2000
+33314          NIKKEI  dynamic_TF_carry    [20240600] 2024-04-15 01:05:14  [-1]    39075.0000
+33316             SMI  dynamic_TF_carry    [20240600] 2024-04-15 08:00:18  [-1]    11358.0000
+33318     SP500_micro  dynamic_TF_carry    [20240600] 2024-04-15 15:00:02  [-1]     5209.0000
+33313           TOPIX  dynamic_TF_carry    [20240600] 2024-04-15 01:05:11  [-1]     2732.2500
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+33312            IRON  dynamic_TF_carry       2024-04-12 00:00:00  2024-04-15 01:00:04.403000  2024-04-15 01:05:04             262804.403             299.597
+33313           TOPIX  dynamic_TF_carry       2024-04-12 00:00:00  2024-04-15 01:05:10.253000  2024-04-15 01:05:11             263110.253               0.747
+33314          NIKKEI  dynamic_TF_carry       2024-04-12 00:00:00  2024-04-15 01:05:11.689000  2024-04-15 01:05:14             263111.689               2.311
+33315       HANG_mini  dynamic_TF_carry       2024-04-12 00:00:00  2024-04-15 02:15:08.698000  2024-04-15 02:17:36             267308.698             147.302
+33316             SMI  dynamic_TF_carry       2024-04-12 00:00:00  2024-04-15 08:00:08.307000  2024-04-15 08:00:18             288008.307               9.693
+33317         COTTON2  dynamic_TF_carry       2024-04-12 00:00:00  2024-04-15 14:00:05.035000  2024-04-15 14:04:48             309605.035             282.965
+33318     SP500_micro  dynamic_TF_carry       2024-04-12 00:00:00  2024-04-15 15:00:01.865000  2024-04-15 15:00:02             313201.865               0.135
+33319             CHF  dynamic_TF_carry       2024-04-12 00:00:00  2024-04-15 15:00:03.454000  2024-04-15 15:00:25             313203.454              21.546
+
+
+==============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                   
+==============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
+33312            IRON  dynamic_TF_carry   [1]                 108.45               None   110.125      110.2        110.05      110.05        110.2   -1.675   -0.075       0.0        -0.15                 NaN        -0.075
+33313           TOPIX  dynamic_TF_carry  [-1]                 2761.0               None   2732.75     2732.5        2733.0      2733.0      2732.25   -28.25    -0.25     -0.25        -0.75                 NaN          -0.5
+33314          NIKKEI  dynamic_TF_carry  [-1]                39630.0               None   39072.5    39070.0       39075.0     39075.0      39075.0   -557.5     -2.5       5.0         -0.0                 NaN           2.5
+33315       HANG_mini  dynamic_TF_carry  [-1]                16730.0               None   16388.0    16388.0       16388.0     16388.0      16354.0   -342.0     -0.0     -34.0        -34.0                 NaN         -34.0
+33316             SMI  dynamic_TF_carry  [-1]                11297.0               None   11352.0    11351.0       11353.0     11353.0      11358.0     55.0     -1.0       7.0          5.0                 NaN           6.0
+33317         COTTON2  dynamic_TF_carry  [-1]                  84.57               None    85.835      85.82         85.85       85.85        85.67    1.265   -0.015     -0.15        -0.18                 NaN        -0.165
+33318     SP500_micro  dynamic_TF_carry  [-1]                 5157.5               None  5208.875    5208.75        5209.0      5209.0       5209.0   51.375   -0.125      0.25         -0.0                 NaN         0.125
+33319             CHF  dynamic_TF_carry  [-1]                 1.1024               None   1.10145     1.1014        1.1015      1.1015       1.1015 -0.00095 -0.00005    0.0001         -0.0                 NaN       0.00005
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+33312            IRON  dynamic_TF_carry   [1]       42.638836 -392.834366  -17.589598           0.0       -35.179197                     NaN        -17.589598
+33313           TOPIX  dynamic_TF_carry  [-1]      344.036801 -821.133085   -7.266664     -7.266664       -21.799993                     NaN        -14.533329
+33314          NIKKEI  dynamic_TF_carry  [-1]     6089.326275 -915.536424   -4.105545      8.211089             -0.0                     NaN          4.105545
+33315       HANG_mini  dynamic_TF_carry  [-1]     3993.068135 -856.484258        -0.0    -85.147558       -85.147558                     NaN        -85.147558
+33316             SMI  dynamic_TF_carry  [-1]     1135.801352  484.239607   -8.804356     61.630495        44.021782                     NaN         52.826139
+33317         COTTON2  dynamic_TF_carry  [-1]       22.367607  565.550004   -6.706127    -67.061265       -80.473518                     NaN        -73.767392
+33318     SP500_micro  dynamic_TF_carry  [-1]      677.831296  757.931956   -1.844117      3.688233             -0.0                     NaN          1.844117
+33319             CHF  dynamic_TF_carry  [-1]        0.081664 -116.330276   -6.122646     12.245292             -0.0                     NaN          6.122646
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+33312            IRON  dynamic_TF_carry   [1]            80.224629 -134.376254    -6.016847            0.0        -12.033694                      NaN          -6.016847
+33313           TOPIX  dynamic_TF_carry  [-1]             5.214487 -147.309271    -1.303622      -1.303622         -3.910866                      NaN          -2.607244
+33314          NIKKEI  dynamic_TF_carry  [-1]             0.521449 -290.707676    -1.303622       2.607244              -0.0                      NaN           1.303622
+33315       HANG_mini  dynamic_TF_carry  [-1]             1.024118 -350.248523         -0.0     -34.820029        -34.820029                      NaN         -34.820029
+33316             SMI  dynamic_TF_carry  [-1]             8.779703  482.883674    -8.779703      61.457922         43.898516                      NaN          52.678219
+33317         COTTON2  dynamic_TF_carry  [-1]           401.123145  507.420778    -6.016847     -60.168472        -72.202166                      NaN         -66.185319
+33318     SP500_micro  dynamic_TF_carry  [-1]             4.011231  206.077016    -0.501404       1.002808              -0.0                      NaN           0.501404
+33319             CHF  dynamic_TF_carry  [-1]        100280.786201  -95.266747    -5.014039      10.028079              -0.0                      NaN           5.014039
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry CHF              -95.266747
+                 COTTON2          507.420778
+                 HANG_mini       -350.248523
+                 IRON            -134.376254
+                 NIKKEI          -290.707676
+                 SMI              482.883674
+                 SP500_micro      206.077016
+                 TOPIX           -147.309271
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry  178.472998
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry CHF                -5.014039
+                 COTTON2            -6.016847
+                 HANG_mini               -0.0
+                 IRON               -6.016847
+                 NIKKEI             -1.303622
+                 SMI                -8.779703
+                 SP500_micro        -0.501404
+                 TOPIX              -1.303622
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -28.936084
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry CHF                  10.028079
+                 COTTON2             -60.168472
+                 HANG_mini           -34.820029
+                 IRON                       0.0
+                 NIKKEI                2.607244
+                 SMI                  61.457922
+                 SP500_micro           1.002808
+                 TOPIX                -1.303622
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry      -21.19607
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry CHF                          -0.0
+                 COTTON2                -72.202166
+                 HANG_mini              -34.820029
+                 IRON                   -12.033694
+                 NIKKEI                       -0.0
+                 SMI                     43.898516
+                 SP500_micro                  -0.0
+                 TOPIX                   -3.910866
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry        -79.068239
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry CHF                                    0
+                 COTTON2                                0
+                 HANG_mini                              0
+                 IRON                                   0
+                 NIKKEI                                 0
+                 SMI                                    0
+                 SP500_micro                            0
+                 TOPIX                                  0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry CHF                       5.014039
+                 COTTON2                 -66.185319
+                 HANG_mini               -34.820029
+                 IRON                     -6.016847
+                 NIKKEI                    1.303622
+                 SMI                      52.678219
+                 SP500_micro               0.501404
+                 TOPIX                    -2.607244
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry         -50.132154
 
 ********************************************************************************
                                  END OF REPORT                                  
