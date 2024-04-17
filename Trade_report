@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 16/04/2024 22:50 from 15/04/2024 22:50 to 16/04/2024 22:50
+Trades report produced on 17/04/2024 22:50 from 16/04/2024 22:50 to 17/04/2024 22:50
 ********************************************************************************
 
 
@@ -10,7 +10,13 @@ Trades report produced on 16/04/2024 22:50 from 15/04/2024 22:50 to 16/04/2024 2
 =============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-33320     SP500_micro  dynamic_TF_carry    [20240600] 2024-04-16 15:00:02  [-1]       5101.25
+33322             AEX  dynamic_TF_carry    [20240400] 2024-04-17 08:00:04  [-1]        867.35
+33321            BOBL  dynamic_TF_carry    [20240600] 2024-04-17 08:00:03   [1]        117.18
+33327            CORN  dynamic_TF_carry    [20241200] 2024-04-17 15:30:26   [1]        466.50
+33323        EU-BASIC  dynamic_TF_carry    [20240600] 2024-04-17 08:00:07  [-1]        576.50
+33326          SOYOIL  dynamic_TF_carry    [20240800] 2024-04-17 15:30:03  [-1]         45.89
+33324     SP500_micro  dynamic_TF_carry    [20240600] 2024-04-17 15:00:03   [1]       5110.25
+33325            US30  dynamic_TF_carry    [20240600] 2024-04-17 15:00:15  [-1]        120.25
 
 
 =============================================================================================================================================================
@@ -18,68 +24,122 @@ Trades report produced on 16/04/2024 22:50 from 15/04/2024 22:50 to 16/04/2024 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-33320     SP500_micro  dynamic_TF_carry       2024-04-15 00:00:00  2024-04-16 15:00:01.347000  2024-04-16 15:00:02             140401.347               0.653
+33321            BOBL  dynamic_TF_carry       2024-04-16 00:00:00  2024-04-17 08:00:02.503000  2024-04-17 08:00:03             115202.503               0.497
+33322             AEX  dynamic_TF_carry       2024-04-16 00:00:00  2024-04-17 08:00:04.174000  2024-04-17 08:00:04             115204.174                 NaN
+33323        EU-BASIC  dynamic_TF_carry       2024-04-16 00:00:00  2024-04-17 08:00:06.059000  2024-04-17 08:00:07             115206.059               0.941
+33324     SP500_micro  dynamic_TF_carry       2024-04-16 00:00:00  2024-04-17 15:00:02.467000  2024-04-17 15:00:03             140402.467               0.533
+33325            US30  dynamic_TF_carry       2024-04-16 00:00:00  2024-04-17 15:00:04.023000  2024-04-17 15:00:15             140404.023              10.977
+33326          SOYOIL  dynamic_TF_carry       2024-04-16 00:00:00  2024-04-17 15:30:02.627000  2024-04-17 15:30:03             142202.627               0.373
+33327            CORN  dynamic_TF_carry       2024-04-16 00:00:00  2024-04-17 15:30:04.432000  2024-04-17 15:30:26             142204.432              21.568
 
 
-===========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                  
-===========================================================================================================================================================================================================================
+==================================================================================================================================================================================================================================
+                                                                                                     Slippage (ticks per lot)                                                                                                     
+==================================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
-33320     SP500_micro  dynamic_TF_carry  [-1]                 5103.0               None  5102.375    5102.25        5102.5      5102.5      5101.25 -0.625  -0.125      -1.0        -1.25                 NaN        -1.125
-
-
-============================================================================================================================================================
-                                                    Slippage (normalised by annual vol, BP of annual SR)                                                    
-============================================================================================================================================================
-
-      instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33320     SP500_micro  dynamic_TF_carry  [-1]      667.467735 -9.363748    -1.87275    -14.981998       -18.727497                     NaN        -16.854747
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price   mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
+33321            BOBL  dynamic_TF_carry   [1]                 117.23               None     117.185     117.19        117.18      117.18       117.18     0.045    -0.005      0.01          0.0                 NaN         0.005
+33322             AEX  dynamic_TF_carry  [-1]                 874.25               None       867.3     867.25        867.35      867.35       867.35     -6.95     -0.05       0.1         -0.0                 NaN          0.05
+33323        EU-BASIC  dynamic_TF_carry  [-1]                  572.3               None      578.05      576.5         579.6       579.6        576.5      5.75     -1.55      -0.0         -3.1                 NaN         -1.55
+33324     SP500_micro  dynamic_TF_carry   [1]                5111.25               None    5109.875     5110.0       5109.75     5109.75      5110.25     1.375    -0.125     -0.25         -0.5                 NaN        -0.375
+33325            US30  dynamic_TF_carry  [-1]              120.09375               None  120.296875  120.28125      120.3125    120.3125       120.25  0.203125 -0.015625  -0.03125      -0.0625                 NaN     -0.046875
+33326          SOYOIL  dynamic_TF_carry  [-1]                   45.7               None       45.88      45.87         45.89       45.89        45.89      0.18     -0.01      0.02         -0.0                 NaN          0.01
+33327            CORN  dynamic_TF_carry   [1]                 466.75               None     466.625     466.75         466.5       466.5        466.5     0.125    -0.125      0.25          0.0                 NaN         0.125
 
 
-=======================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                      
-=======================================================================================================================================================================
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33320     SP500_micro  dynamic_TF_carry  [-1]             4.018614  -2.511634    -0.502327      -4.018614         -5.023268                      NaN          -4.520941
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+33321            BOBL  dynamic_TF_carry   [1]         5.41698   83.072125   -9.230236     18.460472              0.0                     NaN          9.230236
+33322             AEX  dynamic_TF_carry  [-1]       93.415964 -743.984188   -5.352404     10.704808             -0.0                     NaN          5.352404
+33323        EU-BASIC  dynamic_TF_carry  [-1]      134.840103     426.431 -114.950965          -0.0       -229.90193                     NaN       -114.950965
+33324     SP500_micro  dynamic_TF_carry   [1]      655.273537   20.983603     -1.9076     -3.815201        -7.630401                     NaN         -5.722801
+33325            US30  dynamic_TF_carry  [-1]       19.825646  102.455676   -7.881206    -15.762412       -31.524823                     NaN        -23.643618
+33326          SOYOIL  dynamic_TF_carry  [-1]       12.537914  143.564551   -7.975808     15.951617             -0.0                     NaN          7.975808
+33327            CORN  dynamic_TF_carry   [1]       85.160023   14.678249  -14.678249     29.356497              0.0                     NaN         14.678249
+
+
+=========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                       
+=========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point   delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+33321            BOBL  dynamic_TF_carry   [1]           852.851706    38.378327    -4.264259       8.528517               0.0                      NaN           4.264259
+33322             AEX  dynamic_TF_carry  [-1]           170.570341 -1185.463872    -8.528517      17.057034              -0.0                      NaN           8.528517
+33323        EU-BASIC  dynamic_TF_carry  [-1]            42.642585   245.194866   -66.096007           -0.0       -132.192014                      NaN         -66.096007
+33324     SP500_micro  dynamic_TF_carry   [1]             4.018469     5.525395    -0.502309      -1.004617         -2.009234                      NaN          -1.506926
+33325            US30  dynamic_TF_carry  [-1]           803.693777   163.250298   -12.557715     -25.115431        -50.230861                      NaN         -37.673146
+33326          SOYOIL  dynamic_TF_carry  [-1]           482.216266    86.798928    -4.822163       9.644325              -0.0                      NaN           4.822163
+33327            CORN  dynamic_TF_carry   [1]            40.184689     5.023086    -5.023086      10.046172               0.0                      NaN           5.023086
 
 delay_cash Sum
-                                 delay_cash
-strategy_name    instrument_code           
-dynamic_TF_carry SP500_micro      -2.511634
+                                   delay_cash
+strategy_name    instrument_code             
+dynamic_TF_carry AEX             -1185.463872
+                 BOBL               38.378327
+                 CORN                5.023086
+                 EU-BASIC          245.194866
+                 SOYOIL             86.798928
+                 SP500_micro         5.525395
+                 US30              163.250298
 delay_cash Total Sum
-                 delay_cash
-strategy_name              
-dynamic_TF_carry  -2.511634
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -641.292973
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry SP500_micro        -0.502327
+dynamic_TF_carry AEX                -8.528517
+                 BOBL               -4.264259
+                 CORN               -5.023086
+                 EU-BASIC          -66.096007
+                 SOYOIL             -4.822163
+                 SP500_micro        -0.502309
+                 US30              -12.557715
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -0.502327
+dynamic_TF_carry  -101.794055
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry SP500_micro          -4.018614
+dynamic_TF_carry AEX                  17.057034
+                 BOBL                  8.528517
+                 CORN                 10.046172
+                 EU-BASIC                  -0.0
+                 SOYOIL                9.644325
+                 SP500_micro          -1.004617
+                 US30                -25.115431
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry      -4.018614
+dynamic_TF_carry      19.156001
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry SP500_micro             -5.023268
+dynamic_TF_carry AEX                          -0.0
+                 BOBL                          0.0
+                 CORN                          0.0
+                 EU-BASIC              -132.192014
+                 SOYOIL                       -0.0
+                 SP500_micro             -2.009234
+                 US30                   -50.230861
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry         -5.023268
+dynamic_TF_carry        -184.43211
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry SP500_micro                            0
+dynamic_TF_carry AEX                                    0
+                 BOBL                                   0
+                 CORN                                   0
+                 EU-BASIC                               0
+                 SOYOIL                                 0
+                 SP500_micro                            0
+                 US30                                   0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -87,11 +147,17 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry SP500_micro              -4.520941
+dynamic_TF_carry AEX                       8.528517
+                 BOBL                      4.264259
+                 CORN                      5.023086
+                 EU-BASIC                -66.096007
+                 SOYOIL                    4.822163
+                 SP500_micro              -1.506926
+                 US30                    -37.673146
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry          -4.520941
+dynamic_TF_carry         -82.638054
 
 ********************************************************************************
                                  END OF REPORT                                  
