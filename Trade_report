@@ -1,35 +1,41 @@
 
 ********************************************************************************
-Trades report produced on 22/04/2024 22:50 from 21/04/2024 22:50 to 22/04/2024 22:50
+Trades report produced on 23/04/2024 22:50 from 22/04/2024 22:50 to 23/04/2024 22:50
 ********************************************************************************
 
 
 
-============================================================================================
-                                       Broker orders                                        
-============================================================================================
+=================================================================================================
+                                          Broker orders                                          
+=================================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
-33346     GAS_US_mini  dynamic_TF_carry    [20240600] 2024-04-22 15:54:13  [1]         2.045
-33347     GAS_US_mini  dynamic_TF_carry    [20240600] 2024-04-22 15:55:23  [1]         2.050
-
-
-=============================================================================================================================================================
-                                                                           Delays                                                                            
-=============================================================================================================================================================
-
-      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-33346     GAS_US_mini  dynamic_TF_carry       2024-04-17 19:00:00  2024-04-22 15:53:52.389000  2024-04-22 15:54:13             420832.389              20.611
-33347     GAS_US_mini  dynamic_TF_carry       2024-04-17 19:00:00  2024-04-22 15:55:23.459000  2024-04-22 15:55:23             420923.459                 NaN
+      instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
+33351         BITCOIN  dynamic_TF_carry    [20240500] 2024-04-23 15:00:02.000  [-1]       67285.0
+33350      CHINAA-CON  dynamic_TF_carry    [20240400] 2024-04-23 11:36:41.248   [1]        1933.0
+33348            IRON  dynamic_TF_carry    [20240600] 2024-04-23 01:05:12.000   [1]         114.8
+33349          NIKKEI  dynamic_TF_carry    [20240600] 2024-04-23 01:05:15.000  [-1]       37785.0
 
 
-============================================================================================================================================================================================================================
-                                                                                                  Slippage (ticks per lot)                                                                                                  
-============================================================================================================================================================================================================================
+====================================================================================================================================================================
+                                                                               Delays                                                                               
+====================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
-33346     GAS_US_mini  dynamic_TF_carry   [1]                   1.95               None     2.045       2.05          2.04        2.04        2.045  -0.095  -0.005     0.005       -0.005                 NaN           0.0
-33347     GAS_US_mini  dynamic_TF_carry   [1]                   1.95               None    2.0425      2.045          2.04         NaN         2.05 -0.0925 -0.0025    -0.005          NaN                 NaN       -0.0075
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
+33348            IRON  dynamic_TF_carry       2024-04-22 00:00:00  2024-04-23 01:00:12.595000         2024-04-23 01:05:12              90012.595             299.405
+33349          NIKKEI  dynamic_TF_carry       2024-04-22 00:00:00  2024-04-23 01:05:13.726000         2024-04-23 01:05:15              90313.726               1.274
+33350      CHINAA-CON  dynamic_TF_carry                       NaT                         NaT  2024-04-23 11:36:41.248000                    NaN                 NaN
+33351         BITCOIN  dynamic_TF_carry       2024-04-22 00:00:00  2024-04-23 15:00:01.855000         2024-04-23 15:00:02             140401.855               0.145
+
+
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+33348            IRON  dynamic_TF_carry   [1]                 115.15               None   114.675      114.8        114.55      114.55        114.8  0.475  -0.125       0.0        -0.25                 NaN        -0.125
+33349          NIKKEI  dynamic_TF_carry  [-1]                37355.0               None   37782.5    37780.0       37785.0     37785.0      37785.0  427.5    -2.5       5.0         -0.0                 NaN           2.5
+33350      CHINAA-CON  dynamic_TF_carry   [1]                    NaN               None       NaN        NaN           NaN         NaN       1933.0    NaN     NaN       NaN          NaN                 NaN           NaN
+33351         BITCOIN  dynamic_TF_carry  [-1]                67075.0               None   67320.0    67285.0       67355.0     67355.0      67285.0  245.0   -35.0      -0.0        -70.0                 NaN         -35.0
 
 
 ==============================================================================================================================================================
@@ -37,8 +43,10 @@ Trades report produced on 22/04/2024 22:50 from 21/04/2024 22:50 to 22/04/2024 2
 ==============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33346     GAS_US_mini  dynamic_TF_carry   [1]        1.446092 -656.942978  -34.575946     34.575946       -34.575946                     NaN               0.0
-33347     GAS_US_mini  dynamic_TF_carry   [1]        1.446092 -639.655005  -17.287973    -34.575946              NaN                     NaN        -51.863919
+33348            IRON  dynamic_TF_carry   [1]       38.688619  122.775125  -32.309243           0.0       -64.618487                     NaN        -32.309243
+33349          NIKKEI  dynamic_TF_carry  [-1]     6850.394061  624.051691   -3.649425       7.29885             -0.0                     NaN          3.649425
+33350      CHINAA-CON  dynamic_TF_carry   [1]      292.721574         NaN         NaN           NaN              NaN                     NaN               NaN
+33351         BITCOIN  dynamic_TF_carry  [-1]    32532.746075   75.308736  -10.758391          -0.0       -21.516782                     NaN        -10.758391
 
 
 ========================================================================================================================================================================
@@ -46,45 +54,62 @@ Trades report produced on 22/04/2024 22:50 from 21/04/2024 22:50 to 22/04/2024 2
 ========================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33346     GAS_US_mini  dynamic_TF_carry   [1]          2022.285587 -192.117131   -10.111428      10.111428        -10.111428                      NaN                0.0
-33347     GAS_US_mini  dynamic_TF_carry   [1]          2022.285587 -187.061417    -5.055714     -10.111428               NaN                      NaN         -15.167142
+33348            IRON  dynamic_TF_carry   [1]             81.01233   38.480857   -10.126541            0.0        -20.253083                      NaN         -10.126541
+33349          NIKKEI  dynamic_TF_carry  [-1]             0.523439  223.770001    -1.308596       2.617193              -0.0                      NaN           1.308596
+33350      CHINAA-CON  dynamic_TF_carry   [1]            20.253083         NaN          NaN            NaN               NaN                      NaN                NaN
+33351         BITCOIN  dynamic_TF_carry  [-1]             0.081012   19.848021    -2.835432           -0.0         -5.670863                      NaN          -2.835432
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry GAS_US_mini     -379.178548
+dynamic_TF_carry BITCOIN           19.848021
+                 CHINAA-CON                0
+                 IRON              38.480857
+                 NIKKEI           223.770001
 delay_cash Total Sum
                   delay_cash
 strategy_name               
-dynamic_TF_carry -379.178548
+dynamic_TF_carry  282.098878
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry GAS_US_mini       -15.167142
+dynamic_TF_carry BITCOIN            -2.835432
+                 CHINAA-CON                 0
+                 IRON              -10.126541
+                 NIKKEI             -1.308596
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry   -15.167142
+dynamic_TF_carry   -14.270569
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry GAS_US_mini                0.0
+dynamic_TF_carry BITCOIN                   -0.0
+                 CHINAA-CON                   0
+                 IRON                       0.0
+                 NIKKEI                2.617193
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry            0.0
+dynamic_TF_carry       2.617193
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry GAS_US_mini            -10.111428
+dynamic_TF_carry BITCOIN                 -5.670863
+                 CHINAA-CON                      0
+                 IRON                   -20.253083
+                 NIKKEI                       -0.0
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry        -10.111428
+dynamic_TF_carry        -25.923946
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry GAS_US_mini                            0
+dynamic_TF_carry BITCOIN                                0
+                 CHINAA-CON                             0
+                 IRON                                   0
+                 NIKKEI                                 0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -92,11 +117,14 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry GAS_US_mini             -15.167142
+dynamic_TF_carry BITCOIN                  -2.835432
+                 CHINAA-CON                       0
+                 IRON                    -10.126541
+                 NIKKEI                    1.308596
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry         -15.167142
+dynamic_TF_carry         -11.653376
 
 ********************************************************************************
                                  END OF REPORT                                  
