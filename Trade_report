@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 29/04/2024 22:50 from 28/04/2024 22:50 to 29/04/2024 22:50
+Trades report produced on 30/04/2024 22:50 from 29/04/2024 22:50 to 30/04/2024 22:50
 ********************************************************************************
 
 
@@ -10,13 +10,10 @@ Trades report produced on 29/04/2024 22:50 from 28/04/2024 22:50 to 29/04/2024 2
 =============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-33374         BITCOIN  dynamic_TF_carry    [20240500] 2024-04-29 15:00:08  [-1]   62360.00000
-33369             CAC  dynamic_TF_carry    [20240500] 2024-04-29 08:58:58   [1]    8075.00000
-33370       GASOILINE  dynamic_TF_carry    [20240800] 2024-04-29 14:00:04   [1]       2.64850
-33371     GAS_US_mini  dynamic_TF_carry    [20240600] 2024-04-29 14:00:27   [1]       1.95000
-33372     GAS_US_mini  dynamic_TF_carry    [20240600] 2024-04-29 14:00:33   [1]       1.95500
-33373             JPY  dynamic_TF_carry    [20240600] 2024-04-29 15:00:07  [-1]       0.00643
-33375     SP500_micro  dynamic_TF_carry    [20240600] 2024-04-29 15:00:11   [1]    5143.50000
+33379   CRUDE_W_micro  dynamic_TF_carry    [20240700] 2024-04-30 14:00:08  [-1]         82.28
+33376            IRON  dynamic_TF_carry    [20240600] 2024-04-30 01:00:22  [-1]        117.00
+33377            IRON  dynamic_TF_carry    [20240600] 2024-04-30 01:02:15  [-1]        117.00
+33378            IRON  dynamic_TF_carry    [20240600] 2024-04-30 01:07:21  [-1]        116.95
 
 
 =============================================================================================================================================================
@@ -24,117 +21,85 @@ Trades report produced on 29/04/2024 22:50 from 28/04/2024 22:50 to 29/04/2024 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-33369             CAC  dynamic_TF_carry       2024-04-24 00:00:00  2024-04-29 08:58:54.347000  2024-04-29 08:58:58             464334.347               3.653
-33370       GASOILINE  dynamic_TF_carry       2024-04-24 00:00:00  2024-04-29 14:00:03.711000  2024-04-29 14:00:04             482403.711               0.289
-33371     GAS_US_mini  dynamic_TF_carry       2024-04-24 19:00:00  2024-04-29 14:00:05.761000  2024-04-29 14:00:27             414005.761              21.239
-33372     GAS_US_mini  dynamic_TF_carry       2024-04-24 19:00:00  2024-04-29 14:00:32.997000  2024-04-29 14:00:33             414032.997               0.003
-33373             JPY  dynamic_TF_carry       2024-04-24 00:00:00  2024-04-29 15:00:05.294000  2024-04-29 15:00:07             486005.294               1.706
-33374         BITCOIN  dynamic_TF_carry       2024-04-24 00:00:00  2024-04-29 15:00:07.919000  2024-04-29 15:00:08             486007.919               0.081
-33375     SP500_micro  dynamic_TF_carry       2024-04-24 00:00:00  2024-04-29 15:00:09.125000  2024-04-29 15:00:11             486009.125               1.875
+33379   CRUDE_W_micro  dynamic_TF_carry       2024-04-29 00:00:00  2024-04-30 14:00:07.503000  2024-04-30 14:00:08             136807.503               0.497
+33376            IRON  dynamic_TF_carry       2024-04-29 08:00:00  2024-04-30 01:00:07.910000  2024-04-30 01:00:22               61207.91               14.09
+33377            IRON  dynamic_TF_carry       2024-04-29 08:00:00  2024-04-30 01:00:28.607000  2024-04-30 01:02:15              61228.607             106.393
+33378            IRON  dynamic_TF_carry       2024-04-29 08:00:00  2024-04-30 01:02:21.286000  2024-04-30 01:07:21              61341.286             299.714
 
 
-==============================================================================================================================================================================================================================
-                                                                                                   Slippage (ticks per lot)                                                                                                   
-==============================================================================================================================================================================================================================
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay bid_ask execution versus_limit versus_parent_limit total_trading
-33369             CAC  dynamic_TF_carry   [1]                 8038.0               None    8074.5     8075.0        8074.0      8074.0       8075.0     -36.5    -0.5       0.0         -1.0                 NaN          -0.5
-33370       GASOILINE  dynamic_TF_carry   [1]                 2.6147               None    2.6492     2.6496        2.6488      2.6488       2.6485   -0.0345 -0.0004    0.0011       0.0003                 NaN        0.0007
-33371     GAS_US_mini  dynamic_TF_carry   [1]                   1.98               None    1.9475       1.95         1.945       1.945         1.95    0.0325 -0.0025       0.0       -0.005                 NaN       -0.0025
-33372     GAS_US_mini  dynamic_TF_carry   [1]                   1.98               None    1.9475       1.95         1.945         NaN        1.955    0.0325 -0.0025    -0.005          NaN                 NaN       -0.0075
-33373             JPY  dynamic_TF_carry  [-1]               0.006495               None  0.006429   0.006429       0.00643     0.00643      0.00643 -0.000066    -0.0  0.000001         -0.0                 NaN      0.000001
-33374         BITCOIN  dynamic_TF_carry  [-1]                64700.0               None   62370.0    62360.0       62380.0     62380.0      62360.0   -2330.0   -10.0      -0.0        -20.0                 NaN         -10.0
-33375     SP500_micro  dynamic_TF_carry   [1]                 5094.5               None  5142.625    5142.75        5142.5      5142.5       5143.5   -48.125  -0.125     -0.75         -1.0                 NaN        -0.875
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+33379   CRUDE_W_micro  dynamic_TF_carry  [-1]                   82.1               None    82.305      82.29         82.32       82.32        82.28  0.205  -0.015     -0.01        -0.04                 NaN        -0.025
+33376            IRON  dynamic_TF_carry  [-1]                 116.75               None     117.1      117.0         117.2       117.2        117.0   0.35    -0.1      -0.0         -0.2                 NaN          -0.1
+33377            IRON  dynamic_TF_carry  [-1]                 116.75               None   117.075      117.0        117.15      117.15        117.0  0.325  -0.075      -0.0        -0.15                 NaN        -0.075
+33378            IRON  dynamic_TF_carry  [-1]                 116.75               None    117.05      117.0         117.1       117.1       116.95    0.3   -0.05     -0.05        -0.15                 NaN          -0.1
 
 
-==============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
-==============================================================================================================================================================
+=============================================================================================================================================================
+                                                    Slippage (normalised by annual vol, BP of annual SR)                                                     
+=============================================================================================================================================================
 
-      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33369             CAC  dynamic_TF_carry   [1]      854.137872 -427.331479   -5.853856           0.0       -11.707712                     NaN         -5.853856
-33370       GASOILINE  dynamic_TF_carry   [1]         0.55734 -619.011867   -7.176949      19.73661         5.382712                     NaN         12.559661
-33371     GAS_US_mini  dynamic_TF_carry   [1]        1.559502  208.399808  -16.030754           0.0       -32.061509                     NaN        -16.030754
-33372     GAS_US_mini  dynamic_TF_carry   [1]        1.559502  208.399808  -16.030754    -32.061509              NaN                     NaN        -48.092263
-33373             JPY  dynamic_TF_carry  [-1]        0.000611 -1072.39599   -8.186229     16.372458             -0.0                     NaN          8.186229
-33374         BITCOIN  dynamic_TF_carry  [-1]    30816.238957 -756.094864   -3.245042          -0.0        -6.490085                     NaN         -3.245042
-33375     SP500_micro  dynamic_TF_carry   [1]      652.914057 -737.080164   -1.914494    -11.486964       -15.315951                     NaN        -13.401458
+      instrument_code     strategy_name trade last_annual_vol  delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+33379   CRUDE_W_micro  dynamic_TF_carry  [-1]       17.468803  117.35206   -8.586736     -5.724491       -22.897963                     NaN        -14.311227
+33376            IRON  dynamic_TF_carry  [-1]       39.207713   89.26815  -25.505186          -0.0       -51.010371                     NaN        -25.505186
+33377            IRON  dynamic_TF_carry  [-1]       39.207713  82.891853  -19.128889          -0.0       -38.257778                     NaN        -19.128889
+33378            IRON  dynamic_TF_carry  [-1]       39.207713  76.515557  -12.752593    -12.752593       -38.257778                     NaN        -25.505186
 
 
-=========================================================================================================================================================================
-                                                                       Slippage (In base currency)                                                                       
-=========================================================================================================================================================================
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point   delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33369             CAC  dynamic_TF_carry   [1]             8.554317  -312.232584    -4.277159            0.0         -8.554317                      NaN          -4.277159
-33370       GASOILINE  dynamic_TF_carry   [1]         33526.777518 -1156.673824   -13.410711      36.879455         10.058033                      NaN          23.468744
-33371     GAS_US_mini  dynamic_TF_carry   [1]          1995.641519    64.858349    -4.989104            0.0         -9.978208                      NaN          -4.989104
-33372     GAS_US_mini  dynamic_TF_carry   [1]          1995.641519    64.858349    -4.989104      -9.978208               NaN                      NaN         -14.967311
-33373             JPY  dynamic_TF_carry  [-1]       9978207.594613  -653.572597    -4.989104       9.978208              -0.0                      NaN           4.989104
-33374         BITCOIN  dynamic_TF_carry  [-1]             0.079826   -185.99379    -0.798257           -0.0         -1.596513                      NaN          -0.798257
-33375     SP500_micro  dynamic_TF_carry   [1]             3.991283  -192.080496     -0.49891      -2.993462         -3.991283                      NaN          -3.492373
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+33379   CRUDE_W_micro  dynamic_TF_carry  [-1]            79.771216  16.353099    -1.196568      -0.797712         -3.190849                      NaN           -1.99428
+33376            IRON  dynamic_TF_carry  [-1]            79.771216  27.919926    -7.977122           -0.0        -15.954243                      NaN          -7.977122
+33377            IRON  dynamic_TF_carry  [-1]            79.771216  25.925645    -5.982841           -0.0        -11.965682                      NaN          -5.982841
+33378            IRON  dynamic_TF_carry  [-1]            79.771216  23.931365    -3.988561      -3.988561        -11.965682                      NaN          -7.977122
 
 delay_cash Sum
-                                   delay_cash
-strategy_name    instrument_code             
-dynamic_TF_carry BITCOIN           -185.99379
-                 CAC              -312.232584
-                 GASOILINE       -1156.673824
-                 GAS_US_mini       129.716699
-                 JPY              -653.572597
-                 SP500_micro      -192.080496
+                                 delay_cash
+strategy_name    instrument_code           
+dynamic_TF_carry CRUDE_W_micro    16.353099
+                 IRON             77.776936
 delay_cash Total Sum
-                   delay_cash
-strategy_name                
-dynamic_TF_carry -2370.836593
+                 delay_cash
+strategy_name              
+dynamic_TF_carry  94.130035
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry BITCOIN            -0.798257
-                 CAC                -4.277159
-                 GASOILINE         -13.410711
-                 GAS_US_mini        -9.978208
-                 JPY                -4.989104
-                 SP500_micro         -0.49891
+dynamic_TF_carry CRUDE_W_micro      -1.196568
+                 IRON              -17.948524
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry   -33.952348
+dynamic_TF_carry   -19.145092
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry BITCOIN                   -0.0
-                 CAC                        0.0
-                 GASOILINE            36.879455
-                 GAS_US_mini          -9.978208
-                 JPY                   9.978208
-                 SP500_micro          -2.993462
+dynamic_TF_carry CRUDE_W_micro        -0.797712
+                 IRON                 -3.988561
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry      33.885993
+dynamic_TF_carry      -4.786273
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry BITCOIN                 -1.596513
-                 CAC                     -8.554317
-                 GASOILINE               10.058033
-                 GAS_US_mini             -9.978208
-                 JPY                          -0.0
-                 SP500_micro             -3.991283
+dynamic_TF_carry CRUDE_W_micro           -3.190849
+                 IRON                   -39.885608
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry        -14.062288
+dynamic_TF_carry        -43.076457
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry BITCOIN                                0
-                 CAC                                    0
-                 GASOILINE                              0
-                 GAS_US_mini                            0
-                 JPY                                    0
-                 SP500_micro                            0
+dynamic_TF_carry CRUDE_W_micro                          0
+                 IRON                                   0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -142,16 +107,12 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry BITCOIN                  -0.798257
-                 CAC                      -4.277159
-                 GASOILINE                23.468744
-                 GAS_US_mini             -19.956415
-                 JPY                       4.989104
-                 SP500_micro              -3.492373
+dynamic_TF_carry CRUDE_W_micro             -1.99428
+                 IRON                    -21.937084
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry          -0.066355
+dynamic_TF_carry         -23.931365
 
 ********************************************************************************
                                  END OF REPORT                                  
