@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 30/04/2024 22:50 from 29/04/2024 22:50 to 30/04/2024 22:50
+Trades report produced on 01/05/2024 22:50 from 30/04/2024 22:50 to 01/05/2024 22:50
 ********************************************************************************
 
 
@@ -10,10 +10,16 @@ Trades report produced on 30/04/2024 22:50 from 29/04/2024 22:50 to 30/04/2024 2
 =============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-33379   CRUDE_W_micro  dynamic_TF_carry    [20240700] 2024-04-30 14:00:08  [-1]         82.28
-33376            IRON  dynamic_TF_carry    [20240600] 2024-04-30 01:00:22  [-1]        117.00
-33377            IRON  dynamic_TF_carry    [20240600] 2024-04-30 01:02:15  [-1]        117.00
-33378            IRON  dynamic_TF_carry    [20240600] 2024-04-30 01:07:21  [-1]        116.95
+33383      CHINAA-CON  dynamic_TF_carry    [20240500] 2024-05-01 02:00:35   [1]      1969.000
+33386           COCOA  dynamic_TF_carry    [20240700] 2024-05-01 14:00:19  [-1]      8709.000
+33384              DX  dynamic_TF_carry    [20240600] 2024-05-01 14:00:05   [1]       106.095
+33382      FTSECHINAA  dynamic_TF_carry    [20240500] 2024-05-01 02:00:05  [-1]     12486.000
+33385     GAS_US_mini  dynamic_TF_carry    [20240700] 2024-05-01 14:00:07  [-1]         2.280
+33387      GOLD_micro  dynamic_TF_carry    [20240600] 2024-05-01 14:00:26   [1]      2309.000
+33389         LIVECOW  dynamic_TF_carry    [20240800] 2024-05-01 15:30:01  [-1]       173.050
+33388     SP500_micro  dynamic_TF_carry    [20240600] 2024-05-01 15:00:02   [1]      5056.500
+33380           TOPIX  dynamic_TF_carry    [20240600] 2024-05-01 01:00:12   [1]      2726.500
+33381           TOPIX  dynamic_TF_carry    [20240600] 2024-05-01 01:00:19   [1]      2727.500
 
 
 =============================================================================================================================================================
@@ -21,85 +27,144 @@ Trades report produced on 30/04/2024 22:50 from 29/04/2024 22:50 to 30/04/2024 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-33379   CRUDE_W_micro  dynamic_TF_carry       2024-04-29 00:00:00  2024-04-30 14:00:07.503000  2024-04-30 14:00:08             136807.503               0.497
-33376            IRON  dynamic_TF_carry       2024-04-29 08:00:00  2024-04-30 01:00:07.910000  2024-04-30 01:00:22               61207.91               14.09
-33377            IRON  dynamic_TF_carry       2024-04-29 08:00:00  2024-04-30 01:00:28.607000  2024-04-30 01:02:15              61228.607             106.393
-33378            IRON  dynamic_TF_carry       2024-04-29 08:00:00  2024-04-30 01:02:21.286000  2024-04-30 01:07:21              61341.286             299.714
+33380           TOPIX  dynamic_TF_carry       2024-04-30 00:00:00  2024-05-01 01:00:11.423000  2024-05-01 01:00:12              90011.423               0.577
+33381           TOPIX  dynamic_TF_carry       2024-04-30 00:00:00  2024-05-01 01:00:18.684000  2024-05-01 01:00:19              90018.684               0.316
+33382      FTSECHINAA  dynamic_TF_carry       2024-04-30 00:00:00  2024-05-01 02:00:04.115000  2024-05-01 02:00:05              93604.115               0.885
+33383      CHINAA-CON  dynamic_TF_carry       2024-04-30 00:00:00  2024-05-01 02:00:11.479000  2024-05-01 02:00:35              93611.479              23.521
+33384              DX  dynamic_TF_carry       2024-04-30 00:00:00  2024-05-01 14:00:04.574000  2024-05-01 14:00:05             136804.574               0.426
+33386           COCOA  dynamic_TF_carry       2024-04-30 00:00:00  2024-05-01 14:00:08.963000  2024-05-01 14:00:19             136808.963              10.037
+33387      GOLD_micro  dynamic_TF_carry       2024-04-30 00:00:00  2024-05-01 14:00:25.239000  2024-05-01 14:00:26             136825.239               0.761
+33388     SP500_micro  dynamic_TF_carry       2024-04-30 00:00:00  2024-05-01 15:00:02.105000  2024-05-01 15:00:02             140402.105                 NaN
+33389         LIVECOW  dynamic_TF_carry       2024-04-30 00:00:00  2024-05-01 15:30:01.617000  2024-05-01 15:30:01             142201.617                 NaN
+33385     GAS_US_mini  dynamic_TF_carry       2024-04-30 00:00:00  2024-05-01 14:00:07.434000  2024-05-01 14:00:07             136807.434                 NaN
 
 
-===========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                  
-===========================================================================================================================================================================================================================
+============================================================================================================================================================================================================================
+                                                                                                  Slippage (ticks per lot)                                                                                                  
+============================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
-33379   CRUDE_W_micro  dynamic_TF_carry  [-1]                   82.1               None    82.305      82.29         82.32       82.32        82.28  0.205  -0.015     -0.01        -0.04                 NaN        -0.025
-33376            IRON  dynamic_TF_carry  [-1]                 116.75               None     117.1      117.0         117.2       117.2        117.0   0.35    -0.1      -0.0         -0.2                 NaN          -0.1
-33377            IRON  dynamic_TF_carry  [-1]                 116.75               None   117.075      117.0        117.15      117.15        117.0  0.325  -0.075      -0.0        -0.15                 NaN        -0.075
-33378            IRON  dynamic_TF_carry  [-1]                 116.75               None    117.05      117.0         117.1       117.1       116.95    0.3   -0.05     -0.05        -0.15                 NaN          -0.1
-
-
-=============================================================================================================================================================
-                                                    Slippage (normalised by annual vol, BP of annual SR)                                                     
-=============================================================================================================================================================
-
-      instrument_code     strategy_name trade last_annual_vol  delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33379   CRUDE_W_micro  dynamic_TF_carry  [-1]       17.468803  117.35206   -8.586736     -5.724491       -22.897963                     NaN        -14.311227
-33376            IRON  dynamic_TF_carry  [-1]       39.207713   89.26815  -25.505186          -0.0       -51.010371                     NaN        -25.505186
-33377            IRON  dynamic_TF_carry  [-1]       39.207713  82.891853  -19.128889          -0.0       -38.257778                     NaN        -19.128889
-33378            IRON  dynamic_TF_carry  [-1]       39.207713  76.515557  -12.752593    -12.752593       -38.257778                     NaN        -25.505186
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
+33380           TOPIX  dynamic_TF_carry   [1]                 2743.5               None  2725.625     2726.0       2725.25     2725.25       2726.5  17.875  -0.375      -0.5        -1.25                 NaN        -0.875
+33381           TOPIX  dynamic_TF_carry   [1]                 2743.5               None  2727.875    2728.25        2727.5      2727.5       2727.5  15.625  -0.375      0.75          0.0                 NaN         0.375
+33382      FTSECHINAA  dynamic_TF_carry  [-1]                12614.0               None   12485.5    12485.0       12486.0     12486.0      12486.0  -128.5    -0.5       1.0         -0.0                 NaN           0.5
+33383      CHINAA-CON  dynamic_TF_carry   [1]                 1994.0               None    1978.0     1987.0        1969.0      1969.0       1969.0    16.0    -9.0      18.0          0.0                 NaN           9.0
+33384              DX  dynamic_TF_carry   [1]                106.075               None  106.1025    106.105         106.1         NaN      106.095 -0.0275 -0.0025      0.01          NaN                 NaN        0.0075
+33386           COCOA  dynamic_TF_carry  [-1]                 9069.0               None    8754.5     8750.0        8759.0      8759.0       8709.0  -314.5    -4.5     -41.0        -50.0                 NaN         -45.5
+33387      GOLD_micro  dynamic_TF_carry   [1]                 2302.4               None   2308.75     2308.8        2308.7      2308.7       2309.0   -6.35   -0.05      -0.2         -0.3                 NaN         -0.25
+33388     SP500_micro  dynamic_TF_carry   [1]                5096.25               None    5054.0    5054.25       5053.75     5053.75       5056.5   42.25   -0.25     -2.25        -2.75                 NaN          -2.5
+33389         LIVECOW  dynamic_TF_carry  [-1]                 173.35               None     173.1    173.075       173.125     173.125       173.05   -0.25  -0.025    -0.025       -0.075                 NaN         -0.05
+33385     GAS_US_mini  dynamic_TF_carry  [-1]                  2.315               None    2.2825       2.28         2.285         NaN         2.28 -0.0325 -0.0025      -0.0          NaN                 NaN       -0.0025
 
 
-=======================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                      
-=======================================================================================================================================================================
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33379   CRUDE_W_micro  dynamic_TF_carry  [-1]            79.771216  16.353099    -1.196568      -0.797712         -3.190849                      NaN           -1.99428
-33376            IRON  dynamic_TF_carry  [-1]            79.771216  27.919926    -7.977122           -0.0        -15.954243                      NaN          -7.977122
-33377            IRON  dynamic_TF_carry  [-1]            79.771216  25.925645    -5.982841           -0.0        -11.965682                      NaN          -5.982841
-33378            IRON  dynamic_TF_carry  [-1]            79.771216  23.931365    -3.988561      -3.988561        -11.965682                      NaN          -7.977122
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+33380           TOPIX  dynamic_TF_carry   [1]      444.964795  401.717174   -8.427633    -11.236844        -28.09211                     NaN        -19.664477
+33381           TOPIX  dynamic_TF_carry   [1]      444.964795  351.151376   -8.427633     16.855266              0.0                     NaN          8.427633
+33382      FTSECHINAA  dynamic_TF_carry  [-1]     1873.194204 -685.994008   -2.669237      5.338475             -0.0                     NaN          2.669237
+33383      CHINAA-CON  dynamic_TF_carry   [1]      264.602715  604.680115 -340.132565    680.265129              0.0                     NaN        340.132565
+33384              DX  dynamic_TF_carry   [1]        6.423974  -42.808389   -3.891672     15.566687              NaN                     NaN         11.675015
+33386           COCOA  dynamic_TF_carry  [-1]     7185.483172 -437.688034   -6.262627    -57.059489       -69.584743                     NaN        -63.322116
+33387      GOLD_micro  dynamic_TF_carry   [1]      375.696643 -169.019344   -1.330861     -5.323444        -7.985166                     NaN         -6.654305
+33388     SP500_micro  dynamic_TF_carry   [1]      715.196775  590.746512   -3.495541    -31.459873       -38.450956                     NaN        -34.955415
+33389         LIVECOW  dynamic_TF_carry  [-1]       25.694517  -97.297024   -9.729702     -9.729702       -29.189107                     NaN        -19.459405
+33385     GAS_US_mini  dynamic_TF_carry  [-1]        1.560873 -208.216858  -16.016681          -0.0              NaN                     NaN        -16.016681
+
+
+=========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                       
+=========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point   delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+33380           TOPIX  dynamic_TF_carry   [1]             5.075963    90.732842    -1.903486      -2.537982         -6.344954                      NaN          -4.441468
+33381           TOPIX  dynamic_TF_carry   [1]             5.075963    79.311925    -1.903486       3.806972               0.0                      NaN           1.903486
+33382      FTSECHINAA  dynamic_TF_carry  [-1]             0.801594  -103.004773    -0.400797       0.801594              -0.0                      NaN           0.400797
+33383      CHINAA-CON  dynamic_TF_carry   [1]            20.039839   320.637427  -180.358553     360.717106               0.0                      NaN         180.358553
+33384              DX  dynamic_TF_carry   [1]           801.593568   -22.043823    -2.003984       8.015936               NaN                      NaN           6.011952
+33386           COCOA  dynamic_TF_carry  [-1]             8.015936 -2521.011771   -36.071711    -328.653363       -400.796784                      NaN        -364.725073
+33387      GOLD_micro  dynamic_TF_carry   [1]             8.015936   -50.901192    -0.400797      -1.603187         -2.404781                      NaN          -2.003984
+33388     SP500_micro  dynamic_TF_carry   [1]             4.007968   169.336641    -1.001992      -9.017928        -11.021912                      NaN          -10.01992
+33389         LIVECOW  dynamic_TF_carry  [-1]           320.637427   -80.159357    -8.015936      -8.015936        -24.047807                      NaN         -16.031871
+33385     GAS_US_mini  dynamic_TF_carry  [-1]           2003.98392   -65.129477     -5.00996           -0.0               NaN                      NaN           -5.00996
 
 delay_cash Sum
-                                 delay_cash
-strategy_name    instrument_code           
-dynamic_TF_carry CRUDE_W_micro    16.353099
-                 IRON             77.776936
+                                   delay_cash
+strategy_name    instrument_code             
+dynamic_TF_carry CHINAA-CON        320.637427
+                 COCOA           -2521.011771
+                 DX                -22.043823
+                 FTSECHINAA       -103.004773
+                 GAS_US_mini       -65.129477
+                 GOLD_micro        -50.901192
+                 LIVECOW           -80.159357
+                 SP500_micro       169.336641
+                 TOPIX             170.044767
 delay_cash Total Sum
-                 delay_cash
-strategy_name              
-dynamic_TF_carry  94.130035
+                   delay_cash
+strategy_name                
+dynamic_TF_carry -2182.231559
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry CRUDE_W_micro      -1.196568
-                 IRON              -17.948524
+dynamic_TF_carry CHINAA-CON       -180.358553
+                 COCOA             -36.071711
+                 DX                 -2.003984
+                 FTSECHINAA         -0.400797
+                 GAS_US_mini         -5.00996
+                 GOLD_micro         -0.400797
+                 LIVECOW            -8.015936
+                 SP500_micro        -1.001992
+                 TOPIX              -3.806972
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry   -19.145092
+dynamic_TF_carry  -237.070701
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry CRUDE_W_micro        -0.797712
-                 IRON                 -3.988561
+dynamic_TF_carry CHINAA-CON          360.717106
+                 COCOA              -328.653363
+                 DX                    8.015936
+                 FTSECHINAA            0.801594
+                 GAS_US_mini               -0.0
+                 GOLD_micro           -1.603187
+                 LIVECOW              -8.015936
+                 SP500_micro          -9.017928
+                 TOPIX                 1.268991
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry      -4.786273
+dynamic_TF_carry      23.513212
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry CRUDE_W_micro           -3.190849
-                 IRON                   -39.885608
+dynamic_TF_carry CHINAA-CON                    0.0
+                 COCOA                 -400.796784
+                 DX                              0
+                 FTSECHINAA                   -0.0
+                 GAS_US_mini                     0
+                 GOLD_micro              -2.404781
+                 LIVECOW                -24.047807
+                 SP500_micro            -11.021912
+                 TOPIX                   -6.344954
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry        -43.076457
+dynamic_TF_carry       -444.616237
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry CRUDE_W_micro                          0
-                 IRON                                   0
+dynamic_TF_carry CHINAA-CON                             0
+                 COCOA                                  0
+                 DX                                     0
+                 FTSECHINAA                             0
+                 GAS_US_mini                            0
+                 GOLD_micro                             0
+                 LIVECOW                                0
+                 SP500_micro                            0
+                 TOPIX                                  0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -107,12 +172,19 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry CRUDE_W_micro             -1.99428
-                 IRON                    -21.937084
+dynamic_TF_carry CHINAA-CON              180.358553
+                 COCOA                  -364.725073
+                 DX                        6.011952
+                 FTSECHINAA                0.400797
+                 GAS_US_mini               -5.00996
+                 GOLD_micro               -2.003984
+                 LIVECOW                 -16.031871
+                 SP500_micro              -10.01992
+                 TOPIX                    -2.537982
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry         -23.931365
+dynamic_TF_carry        -213.557488
 
 ********************************************************************************
                                  END OF REPORT                                  
