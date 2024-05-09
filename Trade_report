@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 08/05/2024 22:50 from 07/05/2024 22:50 to 08/05/2024 22:50
+Trades report produced on 09/05/2024 22:50 from 08/05/2024 22:50 to 09/05/2024 22:50
 ********************************************************************************
 
 
@@ -10,10 +10,10 @@ Trades report produced on 08/05/2024 22:50 from 07/05/2024 22:50 to 08/05/2024 2
 =============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-33433             CAC  dynamic_TF_carry    [20240500] 2024-05-08 08:00:06  [-1]        8088.0
-33434             DAX  dynamic_TF_carry    [20240600] 2024-05-08 08:00:08  [-1]       18623.0
-33432          KOSDAQ  dynamic_TF_carry    [20240600] 2024-05-08 01:00:14  [-1]        1437.9
-33435             MIB  dynamic_TF_carry    [20240600] 2024-05-08 08:05:19   [1]       33970.0
+33437       GASOILINE  dynamic_TF_carry    [20240800] 2024-05-09 14:00:11  [-1]        2.4993
+33436            IRON  dynamic_TF_carry    [20240700] 2024-05-09 01:04:27   [1]      116.2000
+33439         SOYMEAL  dynamic_TF_carry    [20240900] 2024-05-09 15:30:09   [1]      372.2000
+33438     SP500_micro  dynamic_TF_carry    [20240600] 2024-05-09 15:00:04   [1]     5213.0000
 
 
 =============================================================================================================================================================
@@ -21,21 +21,21 @@ Trades report produced on 08/05/2024 22:50 from 07/05/2024 22:50 to 08/05/2024 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-33432          KOSDAQ  dynamic_TF_carry       2024-05-07 00:00:00  2024-05-08 01:00:13.179000  2024-05-08 01:00:14              90013.179               0.821
-33433             CAC  dynamic_TF_carry       2024-05-07 00:00:00  2024-05-08 08:00:05.914000  2024-05-08 08:00:06             115205.914               0.086
-33434             DAX  dynamic_TF_carry       2024-05-07 00:00:00  2024-05-08 08:00:07.962000  2024-05-08 08:00:08             115207.962               0.038
-33435             MIB  dynamic_TF_carry       2024-05-07 00:00:00  2024-05-08 08:00:14.091000  2024-05-08 08:05:19             115214.091             304.909
+33436            IRON  dynamic_TF_carry       2024-05-08 00:00:00  2024-05-09 01:04:26.449000  2024-05-09 01:04:27              90266.449               0.551
+33437       GASOILINE  dynamic_TF_carry       2024-05-08 00:00:00  2024-05-09 14:00:10.947000  2024-05-09 14:00:11             136810.947               0.053
+33438     SP500_micro  dynamic_TF_carry       2024-05-08 00:00:00  2024-05-09 15:00:04.414000  2024-05-09 15:00:04             140404.414                 NaN
+33439         SOYMEAL  dynamic_TF_carry       2024-05-08 00:00:00  2024-05-09 15:30:01.572000  2024-05-09 15:30:09             142201.572               7.428
 
 
-==========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                 
-==========================================================================================================================================================================================================================
+============================================================================================================================================================================================================================
+                                                                                                  Slippage (ticks per lot)                                                                                                  
+============================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
-33432          KOSDAQ  dynamic_TF_carry  [-1]                 1442.5               None   1437.65     1437.4        1437.9      1437.9       1437.9 -4.85   -0.25       0.5         -0.0                 NaN          0.25
-33433             CAC  dynamic_TF_carry  [-1]                 8059.5               None    8091.0     8090.5        8091.5      8091.5       8088.0  31.5    -0.5      -2.5         -3.5                 NaN          -3.0
-33434             DAX  dynamic_TF_carry  [-1]                18574.0               None   18625.0    18624.0       18626.0     18626.0      18623.0  51.0    -1.0      -1.0         -3.0                 NaN          -2.0
-33435             MIB  dynamic_TF_carry   [1]                33920.0               None   33960.0    33965.0       33955.0     33955.0      33970.0 -40.0    -5.0      -5.0        -15.0                 NaN         -10.0
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
+33436            IRON  dynamic_TF_carry   [1]                 117.05               None   116.125      116.2        116.05         NaN        116.2   0.925  -0.075       0.0          NaN                 NaN        -0.075
+33437       GASOILINE  dynamic_TF_carry  [-1]                 2.4777               None    2.4998     2.4996           2.5         2.5       2.4993  0.0221 -0.0002   -0.0003      -0.0007                 NaN       -0.0005
+33438     SP500_micro  dynamic_TF_carry   [1]                5208.75               None  5213.125    5213.25        5213.0      5213.0       5213.0  -4.375  -0.125      0.25          0.0                 NaN         0.125
+33439         SOYMEAL  dynamic_TF_carry   [1]                  375.0               None    372.25      372.3         372.2       372.2        372.2    2.75   -0.05       0.1          0.0                 NaN          0.05
 
 
 ==============================================================================================================================================================
@@ -43,10 +43,10 @@ Trades report produced on 08/05/2024 22:50 from 07/05/2024 22:50 to 08/05/2024 2
 ==============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33432          KOSDAQ  dynamic_TF_carry  [-1]       339.48902 -142.861763   -7.364008     14.728017             -0.0                     NaN          7.364008
-33433             CAC  dynamic_TF_carry  [-1]      884.768277  356.025423   -5.651197    -28.255986        -39.55838                     NaN        -33.907183
-33434             DAX  dynamic_TF_carry  [-1]     2329.294253  218.950439   -4.293146     -4.293146       -12.879438                     NaN         -8.586292
-33435             MIB  dynamic_TF_carry   [1]     4372.509444  -91.480649  -11.435081    -11.435081       -34.305243                     NaN        -22.870162
+33436            IRON  dynamic_TF_carry   [1]       37.680386  245.485809  -19.904255           0.0              NaN                     NaN        -19.904255
+33437       GASOILINE  dynamic_TF_carry  [-1]        0.612098  361.053051   -3.267448     -4.901173        -11.43607                     NaN         -8.168621
+33438     SP500_micro  dynamic_TF_carry   [1]      666.484179  -65.642969   -1.875513      3.751027              0.0                     NaN          1.875513
+33439         SOYMEAL  dynamic_TF_carry   [1]       89.023259  308.908035    -5.61651     11.233019              0.0                     NaN           5.61651
 
 
 ========================================================================================================================================================================
@@ -54,62 +54,62 @@ Trades report produced on 08/05/2024 22:50 from 07/05/2024 22:50 to 08/05/2024 2
 ========================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33432          KOSDAQ  dynamic_TF_carry  [-1]             5.892128   -28.57682    -1.473032       2.946064              -0.0                      NaN           1.473032
-33433             CAC  dynamic_TF_carry  [-1]             8.601666  270.952471    -4.300833     -21.504164         -30.10583                      NaN         -25.804997
-33434             DAX  dynamic_TF_carry  [-1]             0.860167   43.868495    -0.860167      -0.860167           -2.5805                      NaN          -1.720333
-33435             MIB  dynamic_TF_carry   [1]             4.300833 -172.033315   -21.504164     -21.504164        -64.512493                      NaN         -43.008329
+33436            IRON  dynamic_TF_carry   [1]            80.059885   74.055393    -6.004491            0.0               NaN                      NaN          -6.004491
+33437       GASOILINE  dynamic_TF_carry  [-1]         33625.151613  743.115851     -6.72503     -10.087545        -23.537606                      NaN         -16.812576
+33438     SP500_micro  dynamic_TF_carry   [1]             4.002994    -17.5131    -0.500374       1.000749               0.0                      NaN           0.500374
+33439         SOYMEAL  dynamic_TF_carry   [1]            80.059885  220.164683    -4.002994       8.005988               0.0                      NaN           4.002994
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry CAC              270.952471
-                 DAX               43.868495
-                 KOSDAQ            -28.57682
-                 MIB             -172.033315
+dynamic_TF_carry GASOILINE        743.115851
+                 IRON              74.055393
+                 SOYMEAL          220.164683
+                 SP500_micro        -17.5131
 delay_cash Total Sum
-                  delay_cash
-strategy_name               
-dynamic_TF_carry  114.210831
+                   delay_cash
+strategy_name                
+dynamic_TF_carry  1019.822827
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry CAC                -4.300833
-                 DAX                -0.860167
-                 KOSDAQ             -1.473032
-                 MIB               -21.504164
+dynamic_TF_carry GASOILINE           -6.72503
+                 IRON               -6.004491
+                 SOYMEAL            -4.002994
+                 SP500_micro        -0.500374
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry   -28.138196
+dynamic_TF_carry    -17.23289
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry CAC                 -21.504164
-                 DAX                  -0.860167
-                 KOSDAQ                2.946064
-                 MIB                 -21.504164
+dynamic_TF_carry GASOILINE           -10.087545
+                 IRON                       0.0
+                 SOYMEAL               8.005988
+                 SP500_micro           1.000749
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry     -40.922431
+dynamic_TF_carry      -1.080808
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry CAC                     -30.10583
-                 DAX                       -2.5805
-                 KOSDAQ                       -0.0
-                 MIB                    -64.512493
+dynamic_TF_carry GASOILINE              -23.537606
+                 IRON                            0
+                 SOYMEAL                       0.0
+                 SP500_micro                   0.0
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry        -97.198823
+dynamic_TF_carry        -23.537606
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry CAC                                    0
-                 DAX                                    0
-                 KOSDAQ                                 0
-                 MIB                                    0
+dynamic_TF_carry GASOILINE                              0
+                 IRON                                   0
+                 SOYMEAL                                0
+                 SP500_micro                            0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -117,14 +117,14 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry CAC                     -25.804997
-                 DAX                      -1.720333
-                 KOSDAQ                    1.473032
-                 MIB                     -43.008329
+dynamic_TF_carry GASOILINE               -16.812576
+                 IRON                     -6.004491
+                 SOYMEAL                   4.002994
+                 SP500_micro               0.500374
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry         -69.060627
+dynamic_TF_carry         -18.313699
 
 ********************************************************************************
                                  END OF REPORT                                  
