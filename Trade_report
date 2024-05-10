@@ -1,130 +1,15 @@
 
 ********************************************************************************
-Trades report produced on 09/05/2024 22:50 from 08/05/2024 22:50 to 09/05/2024 22:50
+Trades report produced on 10/05/2024 22:50 from 09/05/2024 22:50 to 10/05/2024 22:50
 ********************************************************************************
 
 
-
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
-
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-33437       GASOILINE  dynamic_TF_carry    [20240800] 2024-05-09 14:00:11  [-1]        2.4993
-33436            IRON  dynamic_TF_carry    [20240700] 2024-05-09 01:04:27   [1]      116.2000
-33439         SOYMEAL  dynamic_TF_carry    [20240900] 2024-05-09 15:30:09   [1]      372.2000
-33438     SP500_micro  dynamic_TF_carry    [20240600] 2024-05-09 15:00:04   [1]     5213.0000
-
-
-=============================================================================================================================================================
-                                                                           Delays                                                                            
-=============================================================================================================================================================
-
-      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-33436            IRON  dynamic_TF_carry       2024-05-08 00:00:00  2024-05-09 01:04:26.449000  2024-05-09 01:04:27              90266.449               0.551
-33437       GASOILINE  dynamic_TF_carry       2024-05-08 00:00:00  2024-05-09 14:00:10.947000  2024-05-09 14:00:11             136810.947               0.053
-33438     SP500_micro  dynamic_TF_carry       2024-05-08 00:00:00  2024-05-09 15:00:04.414000  2024-05-09 15:00:04             140404.414                 NaN
-33439         SOYMEAL  dynamic_TF_carry       2024-05-08 00:00:00  2024-05-09 15:30:01.572000  2024-05-09 15:30:09             142201.572               7.428
-
-
-============================================================================================================================================================================================================================
-                                                                                                  Slippage (ticks per lot)                                                                                                  
-============================================================================================================================================================================================================================
-
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
-33436            IRON  dynamic_TF_carry   [1]                 117.05               None   116.125      116.2        116.05         NaN        116.2   0.925  -0.075       0.0          NaN                 NaN        -0.075
-33437       GASOILINE  dynamic_TF_carry  [-1]                 2.4777               None    2.4998     2.4996           2.5         2.5       2.4993  0.0221 -0.0002   -0.0003      -0.0007                 NaN       -0.0005
-33438     SP500_micro  dynamic_TF_carry   [1]                5208.75               None  5213.125    5213.25        5213.0      5213.0       5213.0  -4.375  -0.125      0.25          0.0                 NaN         0.125
-33439         SOYMEAL  dynamic_TF_carry   [1]                  375.0               None    372.25      372.3         372.2       372.2        372.2    2.75   -0.05       0.1          0.0                 NaN          0.05
-
-
-==============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
-==============================================================================================================================================================
-
-      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33436            IRON  dynamic_TF_carry   [1]       37.680386  245.485809  -19.904255           0.0              NaN                     NaN        -19.904255
-33437       GASOILINE  dynamic_TF_carry  [-1]        0.612098  361.053051   -3.267448     -4.901173        -11.43607                     NaN         -8.168621
-33438     SP500_micro  dynamic_TF_carry   [1]      666.484179  -65.642969   -1.875513      3.751027              0.0                     NaN          1.875513
-33439         SOYMEAL  dynamic_TF_carry   [1]       89.023259  308.908035    -5.61651     11.233019              0.0                     NaN           5.61651
-
-
-========================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                       
-========================================================================================================================================================================
-
-      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33436            IRON  dynamic_TF_carry   [1]            80.059885   74.055393    -6.004491            0.0               NaN                      NaN          -6.004491
-33437       GASOILINE  dynamic_TF_carry  [-1]         33625.151613  743.115851     -6.72503     -10.087545        -23.537606                      NaN         -16.812576
-33438     SP500_micro  dynamic_TF_carry   [1]             4.002994    -17.5131    -0.500374       1.000749               0.0                      NaN           0.500374
-33439         SOYMEAL  dynamic_TF_carry   [1]            80.059885  220.164683    -4.002994       8.005988               0.0                      NaN           4.002994
-
-delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry GASOILINE        743.115851
-                 IRON              74.055393
-                 SOYMEAL          220.164683
-                 SP500_micro        -17.5131
-delay_cash Total Sum
-                   delay_cash
-strategy_name                
-dynamic_TF_carry  1019.822827
-bid_ask_cash Sum
-                                 bid_ask_cash
-strategy_name    instrument_code             
-dynamic_TF_carry GASOILINE           -6.72503
-                 IRON               -6.004491
-                 SOYMEAL            -4.002994
-                 SP500_micro        -0.500374
-bid_ask_cash Total Sum
-                 bid_ask_cash
-strategy_name                
-dynamic_TF_carry    -17.23289
-execution_cash Sum
-                                 execution_cash
-strategy_name    instrument_code               
-dynamic_TF_carry GASOILINE           -10.087545
-                 IRON                       0.0
-                 SOYMEAL               8.005988
-                 SP500_micro           1.000749
-execution_cash Total Sum
-                 execution_cash
-strategy_name                  
-dynamic_TF_carry      -1.080808
-versus_limit_cash Sum
-                                 versus_limit_cash
-strategy_name    instrument_code                  
-dynamic_TF_carry GASOILINE              -23.537606
-                 IRON                            0
-                 SOYMEAL                       0.0
-                 SP500_micro                   0.0
-versus_limit_cash Total Sum
-                 versus_limit_cash
-strategy_name                     
-dynamic_TF_carry        -23.537606
-versus_parent_limit_cash Sum
-                                 versus_parent_limit_cash
-strategy_name    instrument_code                         
-dynamic_TF_carry GASOILINE                              0
-                 IRON                                   0
-                 SOYMEAL                                0
-                 SP500_micro                            0
-versus_parent_limit_cash Total Sum
-                 versus_parent_limit_cash
-strategy_name                            
-dynamic_TF_carry                        0
-total_trading_cash Sum
-                                 total_trading_cash
-strategy_name    instrument_code                   
-dynamic_TF_carry GASOILINE               -16.812576
-                 IRON                     -6.004491
-                 SOYMEAL                   4.002994
-                 SP500_micro               0.500374
-total_trading_cash Total Sum
-                 total_trading_cash
-strategy_name                      
-dynamic_TF_carry         -18.313699
+No trades
+No trades
+No trades
+No trades
+No trades
+No trades
 
 ********************************************************************************
                                  END OF REPORT                                  
