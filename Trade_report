@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 15/05/2024 22:50 from 14/05/2024 22:50 to 15/05/2024 22:50
+Trades report produced on 16/05/2024 22:50 from 15/05/2024 22:50 to 16/05/2024 22:50
 ********************************************************************************
 
 
@@ -10,8 +10,13 @@ Trades report produced on 15/05/2024 22:50 from 14/05/2024 22:50 to 15/05/2024 2
 =============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-33449             DOW  dynamic_TF_carry    [20240600] 2024-05-15 15:00:06   [1]       39815.0
-33448      GOLD_micro  dynamic_TF_carry    [20240800] 2024-05-15 14:00:02  [-1]        2400.4
+33453             CAC  dynamic_TF_carry    [20240600] 2024-05-16 08:00:10   [1]   8198.000000
+33451      CHINAA-CON  dynamic_TF_carry    [20240600] 2024-05-16 02:05:08  [-1]   1990.400000
+33452             DAX  dynamic_TF_carry    [20240600] 2024-05-16 08:00:03  [-1]  18956.000000
+33455             JPY  dynamic_TF_carry    [20240600] 2024-05-16 15:00:05   [1]      0.006462
+33450          NIKKEI  dynamic_TF_carry    [20240600] 2024-05-16 01:00:09   [1]  38745.000000
+33454            PLAT  dynamic_TF_carry    [20240700] 2024-05-16 14:00:05   [1]   1072.400000
+33456             VIX  dynamic_TF_carry    [20240800] 2024-05-16 15:05:06  [-1]     15.150000
 
 
 =============================================================================================================================================================
@@ -19,17 +24,27 @@ Trades report produced on 15/05/2024 22:50 from 14/05/2024 22:50 to 15/05/2024 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-33448      GOLD_micro  dynamic_TF_carry       2024-05-14 00:00:00  2024-05-15 14:00:01.796000  2024-05-15 14:00:02             136801.796               0.204
-33449             DOW  dynamic_TF_carry       2024-05-14 00:00:00  2024-05-15 15:00:05.467000  2024-05-15 15:00:06             140405.467               0.533
+33450          NIKKEI  dynamic_TF_carry       2024-05-15 00:00:00  2024-05-16 01:00:07.523000  2024-05-16 01:00:09              90007.523               1.477
+33451      CHINAA-CON  dynamic_TF_carry       2024-05-15 00:00:00  2024-05-16 02:00:08.323000  2024-05-16 02:05:08              93608.323             299.677
+33452             DAX  dynamic_TF_carry       2024-05-15 00:00:00  2024-05-16 08:00:03.009000  2024-05-16 08:00:03             115203.009                 NaN
+33453             CAC  dynamic_TF_carry       2024-05-15 00:00:00  2024-05-16 08:00:09.307000  2024-05-16 08:00:10             115209.307               0.693
+33454            PLAT  dynamic_TF_carry       2024-05-15 00:00:00  2024-05-16 14:00:04.767000  2024-05-16 14:00:05             136804.767               0.233
+33455             JPY  dynamic_TF_carry       2024-05-15 00:00:00  2024-05-16 15:00:03.133000  2024-05-16 15:00:05             140403.133               1.867
+33456             VIX  dynamic_TF_carry       2024-05-15 00:00:00  2024-05-16 15:00:06.306000  2024-05-16 15:05:06             140406.306             299.694
 
 
-===========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                  
-===========================================================================================================================================================================================================================
+==============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                   
+==============================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
-33448      GOLD_micro  dynamic_TF_carry  [-1]                 2383.7               None   2400.45     2400.3        2400.6         NaN       2400.4  16.75   -0.15       0.1          NaN                 NaN         -0.05
-33449             DOW  dynamic_TF_carry   [1]                39671.0               None   39816.0    39817.0       39815.0     39815.0      39815.0 -145.0    -1.0       2.0          0.0                 NaN           1.0
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay bid_ask execution versus_limit versus_parent_limit total_trading
+33450          NIKKEI  dynamic_TF_carry   [1]                38430.0               None   38742.5    38745.0       38740.0     38740.0      38745.0    -312.5    -2.5       0.0         -5.0                 NaN          -2.5
+33451      CHINAA-CON  dynamic_TF_carry  [-1]                 2000.8               None    1990.3     1983.0        1997.6      1997.6       1990.4     -10.5    -7.3       7.4         -7.2                 NaN           0.1
+33452             DAX  dynamic_TF_carry  [-1]                18967.0               None   18960.0    18959.0       18961.0         NaN      18956.0      -7.0    -1.0      -3.0          NaN                 NaN          -4.0
+33453             CAC  dynamic_TF_carry   [1]                 8200.0               None   8197.75     8198.5        8197.0      8197.0       8198.0      2.25   -0.75       0.5         -1.0                 NaN         -0.25
+33454            PLAT  dynamic_TF_carry   [1]                 1073.2               None    1072.2     1072.4        1072.0      1072.0       1072.4       1.0    -0.2       0.0         -0.4                 NaN          -0.2
+33455             JPY  dynamic_TF_carry   [1]               0.006489               None  0.006462   0.006463      0.006462    0.006462     0.006462  0.000026    -0.0  0.000001          0.0                 NaN           0.0
+33456             VIX  dynamic_TF_carry  [-1]                  15.15               None    15.175      15.15          15.2        15.2        15.15     0.025  -0.025      -0.0        -0.05                 NaN        -0.025
 
 
 ==============================================================================================================================================================
@@ -37,8 +52,13 @@ Trades report produced on 15/05/2024 22:50 from 14/05/2024 22:50 to 15/05/2024 2
 ==============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33448      GOLD_micro  dynamic_TF_carry  [-1]      350.334456  478.114547   -4.281623      2.854415              NaN                     NaN         -1.427208
-33449             DOW  dynamic_TF_carry   [1]     4177.867155 -347.067043   -2.393566      4.787132              0.0                     NaN          2.393566
+33450          NIKKEI  dynamic_TF_carry   [1]     6384.698628  -489.45145   -3.915612           0.0        -7.831223                     NaN         -3.915612
+33451      CHINAA-CON  dynamic_TF_carry  [-1]      266.219342 -394.411613 -274.209979     277.96628      -270.453677                     NaN          3.756301
+33452             DAX  dynamic_TF_carry  [-1]     2215.581817   -31.59441   -4.513487    -13.540461              NaN                     NaN        -18.053948
+33453             CAC  dynamic_TF_carry   [1]      814.029482   27.640277   -9.213426      6.142284       -12.284567                     NaN         -3.071142
+33454            PLAT  dynamic_TF_carry   [1]      256.295982   39.017389   -7.803478           0.0       -15.606956                     NaN         -7.803478
+33455             JPY  dynamic_TF_carry   [1]        0.000747  351.360854   -3.346294      6.692588              0.0                     NaN          3.346294
+33456             VIX  dynamic_TF_carry  [-1]        6.314029   39.594368  -39.594368          -0.0       -79.188736                     NaN        -39.594368
 
 
 ========================================================================================================================================================================
@@ -46,50 +66,80 @@ Trades report produced on 15/05/2024 22:50 from 14/05/2024 22:50 to 15/05/2024 2
 ========================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33448      GOLD_micro  dynamic_TF_carry  [-1]             7.937988  132.961306    -1.190698       0.793799               NaN                      NaN          -0.396899
-33449             DOW  dynamic_TF_carry   [1]             0.396899  -57.550416    -0.396899       0.793799               0.0                      NaN           0.396899
+33450          NIKKEI  dynamic_TF_carry   [1]             0.511426 -159.820726    -1.278566            0.0         -2.557132                      NaN          -1.278566
+33451      CHINAA-CON  dynamic_TF_carry  [-1]            19.711969 -206.975671  -143.897372     145.868568       -141.926175                      NaN           1.971197
+33452             DAX  dynamic_TF_carry  [-1]             0.857782   -6.004475    -0.857782      -2.573346               NaN                      NaN          -3.431128
+33453             CAC  dynamic_TF_carry   [1]             8.577821   19.300097    -6.433366        4.28891         -8.577821                      NaN          -2.144455
+33454            PLAT  dynamic_TF_carry   [1]            39.423937   39.423937    -7.884787            0.0        -15.769575                      NaN          -7.884787
+33455             JPY  dynamic_TF_carry   [1]       9855984.356582  258.719589    -2.463996       4.927992               0.0                      NaN           2.463996
+33456             VIX  dynamic_TF_carry  [-1]           788.478749   19.711969   -19.711969           -0.0        -39.423937                      NaN         -19.711969
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry DOW              -57.550416
-                 GOLD_micro       132.961306
+dynamic_TF_carry CAC               19.300097
+                 CHINAA-CON      -206.975671
+                 DAX               -6.004475
+                 JPY              258.719589
+                 NIKKEI          -159.820726
+                 PLAT              39.423937
+                 VIX               19.711969
 delay_cash Total Sum
                  delay_cash
 strategy_name              
-dynamic_TF_carry   75.41089
+dynamic_TF_carry  -35.64528
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry DOW                -0.396899
-                 GOLD_micro         -1.190698
+dynamic_TF_carry CAC                -6.433366
+                 CHINAA-CON       -143.897372
+                 DAX                -0.857782
+                 JPY                -2.463996
+                 NIKKEI             -1.278566
+                 PLAT               -7.884787
+                 VIX               -19.711969
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -1.587598
+dynamic_TF_carry  -182.527837
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry DOW                   0.793799
-                 GOLD_micro            0.793799
+dynamic_TF_carry CAC                    4.28891
+                 CHINAA-CON          145.868568
+                 DAX                  -2.573346
+                 JPY                   4.927992
+                 NIKKEI                     0.0
+                 PLAT                       0.0
+                 VIX                       -0.0
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry       1.587598
+dynamic_TF_carry     152.512125
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry DOW                           0.0
-                 GOLD_micro                      0
+dynamic_TF_carry CAC                     -8.577821
+                 CHINAA-CON            -141.926175
+                 DAX                             0
+                 JPY                           0.0
+                 NIKKEI                  -2.557132
+                 PLAT                   -15.769575
+                 VIX                    -39.423937
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry               0.0
+dynamic_TF_carry        -208.25464
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry DOW                                    0
-                 GOLD_micro                             0
+dynamic_TF_carry CAC                                    0
+                 CHINAA-CON                             0
+                 DAX                                    0
+                 JPY                                    0
+                 NIKKEI                                 0
+                 PLAT                                   0
+                 VIX                                    0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -97,12 +147,17 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry DOW                       0.396899
-                 GOLD_micro               -0.396899
+dynamic_TF_carry CAC                      -2.144455
+                 CHINAA-CON                1.971197
+                 DAX                      -3.431128
+                 JPY                       2.463996
+                 NIKKEI                   -1.278566
+                 PLAT                     -7.884787
+                 VIX                     -19.711969
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry                0.0
+dynamic_TF_carry         -30.015713
 
 ********************************************************************************
                                  END OF REPORT                                  
