@@ -1,19 +1,19 @@
 
 ********************************************************************************
-              Removed markets report produced on 27/05/2024 23:07               
+              Removed markets report produced on 28/05/2024 23:08               
 ********************************************************************************
 
 
 List of markets which should be marked as untradeable due to risk, liquidity or cost issues
-Following should be removed from trading (add to config.bad_markets) [0.300000 threshold]: ['MSCIWORLD', 'EU-INSURE'] 
+Following should be removed from trading (add to config.bad_markets) [0.300000 threshold]: ['EU-INSURE', 'MSCIWORLD'] 
 
 
 
-Following should be allowed to trade (delete from config.bad_markets) [0.300000 threshold]: ['EU-REALESTATE', 'SEK', 'OATIES', 'US-PROPERTY', 'SOYBEAN_mini', 'CHFJPY']
+Following should be allowed to trade (delete from config.bad_markets) [0.300000 threshold]: ['US-PROPERTY', 'EU-REALESTATE', 'CHFJPY', 'SEK', 'OATIES', 'SOYBEAN_mini']
 
 
 
-Markets too expensive (SR cost per trade > 0.010): ['AEX_mini', 'BB3M', 'BOVESPA', 'BUTTER', 'CH10', 'CNH-onshore', 'COAL', 'COAL-GEORDIE', 'COTTON', 'CZK', 'EPRA-EUROPE', 'EURIBOR', 'FTSEINDO', 'FTSEVIET', 'GASOILINE_micro', 'HOUSE-US', 'IRS', 'JGB-mini', 'LUMBER-new', 'MILKDRY', 'MILKWET', 'OMX', 'SGX', 'SMI-MID', 'STEEL', 'SUGAR16', 'SWISSLEAD', 'TIN_LME', 'VNKI', 'WHEAT_ICE', 'WHEY']
+Markets too expensive (SR cost per trade > 0.010): ['AEX_mini', 'BB3M', 'BOVESPA', 'BUTTER', 'CH10', 'CNH-onshore', 'COAL', 'COAL-GEORDIE', 'COTTON', 'CZK', 'EPRA-EUROPE', 'EURIBOR', 'FTSEINDO', 'FTSEVIET', 'GASOILINE_micro', 'HOUSE-US', 'IRS', 'JGB-mini', 'LUMBER-new', 'MILKDRY', 'MILKWET', 'OMX', 'SGX', 'SMI-MID', 'STEEL', 'SUGAR16', 'SWISSLEAD', 'TIN_LME', 'V2X', 'VNKI', 'WHEAT_ICE', 'WHEY']
 
 
 
@@ -242,6 +242,7 @@ exclude_instrument_lists:
     - US2 
     - US3 
     - US5 
+    - V2X 
     - VIX_mini 
     - VNKI 
     - WHEAT_ICE 
