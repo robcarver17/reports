@@ -1,15 +1,190 @@
 
 ********************************************************************************
-Trades report produced on 29/05/2024 22:50 from 28/05/2024 22:50 to 29/05/2024 22:50
+Trades report produced on 30/05/2024 22:50 from 29/05/2024 22:50 to 30/05/2024 22:50
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=================================================================================================
+                                          Broker orders                                          
+=================================================================================================
+
+      instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
+33474            BUXL  dynamic_TF_carry    [20240600] 2024-05-30 09:30:53.000   [1]    125.760000
+33471             CAC  dynamic_TF_carry    [20240600] 2024-05-30 08:00:09.000  [-1]   7914.000000
+33473           CAD10  dynamic_TF_carry    [20240600] 2024-05-30 08:51:06.429   [1]    117.780000
+33472      GOLD_micro  dynamic_TF_carry    [20240600] 2024-05-30 08:50:42.232   [2]   2338.300000
+33475             JPY  dynamic_TF_carry    [20240600] 2024-05-30 15:00:08.000  [-1]      0.006399
+33467          KOSDAQ  dynamic_TF_carry    [20240600] 2024-05-30 01:00:11.000  [-1]   1326.600000
+33469            KR10  dynamic_TF_carry    [20240600] 2024-05-30 01:00:13.000  [-1]    111.790000
+33470          NIKKEI  dynamic_TF_carry    [20240600] 2024-05-30 01:00:15.000   [1]  38055.000000
+33466          SPI200  dynamic_TF_carry    [20240600] 2024-05-30 19:30:01.342   [0]           NaN
+33468          SPI200  dynamic_TF_carry    [20240600] 2024-05-30 01:00:12.000  [-1]   7625.000000
+
+
+====================================================================================================================================================================
+                                                                               Delays                                                                               
+====================================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
+33467          KOSDAQ  dynamic_TF_carry       2024-05-29 00:00:00  2024-05-30 01:00:10.972000         2024-05-30 01:00:11              90010.972               0.028
+33469            KR10  dynamic_TF_carry       2024-05-29 00:00:00  2024-05-30 01:00:13.145000         2024-05-30 01:00:13              90013.145                 NaN
+33470          NIKKEI  dynamic_TF_carry       2024-05-29 00:00:00  2024-05-30 01:00:14.147000         2024-05-30 01:00:15              90014.147               0.853
+33471             CAC  dynamic_TF_carry       2024-05-29 00:00:00  2024-05-30 08:00:08.915000         2024-05-30 08:00:09             115208.915               0.085
+33472      GOLD_micro  dynamic_TF_carry                       NaT                         NaT  2024-05-30 08:50:42.232000                    NaN                 NaN
+33473           CAD10  dynamic_TF_carry                       NaT                         NaT  2024-05-30 08:51:06.429000                    NaN                 NaN
+33474            BUXL  dynamic_TF_carry       2024-05-29 16:00:00  2024-05-30 09:30:52.503000         2024-05-30 09:30:53              63052.503               0.497
+33475             JPY  dynamic_TF_carry       2024-05-29 00:00:00  2024-05-30 15:00:04.441000         2024-05-30 15:00:08             140404.441               3.559
+33466          SPI200  dynamic_TF_carry       2024-05-29 00:00:00  2024-05-30 00:50:01.643000  2024-05-30 19:30:01.342000              89401.643           67199.699
+33468          SPI200  dynamic_TF_carry       2024-05-29 00:00:00  2024-05-30 01:00:12.170000         2024-05-30 01:00:12               90012.17                 NaN
+
+
+==============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                   
+==============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay bid_ask execution versus_limit versus_parent_limit total_trading
+33467          KOSDAQ  dynamic_TF_carry  [-1]                 1340.2               None    1326.4     1326.2        1326.6      1326.6       1326.6     -13.8    -0.2       0.4         -0.0                 NaN           0.2
+33469            KR10  dynamic_TF_carry  [-1]                 112.13               None   111.785     111.78        111.79      111.79       111.79    -0.345  -0.005      0.01         -0.0                 NaN         0.005
+33470          NIKKEI  dynamic_TF_carry   [1]                38685.0               None   38042.5    38045.0       38040.0     38040.0      38055.0     642.5    -2.5     -10.0        -15.0                 NaN         -12.5
+33471             CAC  dynamic_TF_carry  [-1]                 7944.5               None    7914.5     7914.0        7915.0      7915.0       7914.0     -30.0    -0.5      -0.0         -1.0                 NaN          -0.5
+33472      GOLD_micro  dynamic_TF_carry   [2]                    NaN               None       NaN        NaN           NaN         NaN       2338.3       NaN     NaN       NaN          NaN                 NaN           NaN
+33473           CAD10  dynamic_TF_carry   [1]                    NaN               None       NaN        NaN           NaN         NaN       117.78       NaN     NaN       NaN          NaN                 NaN           NaN
+33474            BUXL  dynamic_TF_carry   [1]                  125.7               None    125.77     125.78        125.76      125.76       125.76     -0.07   -0.01      0.02          0.0                 NaN          0.01
+33475             JPY  dynamic_TF_carry  [-1]               0.006362               None    0.0064   0.006399        0.0064      0.0064     0.006399  0.000038    -0.0      -0.0    -0.000001                 NaN     -0.000001
+33466          SPI200  dynamic_TF_carry  [-1]                 7685.0               None    7636.5     7630.0        7643.0      7643.0          NaN     -48.5    -6.5       NaN          NaN                 NaN           NaN
+33468          SPI200  dynamic_TF_carry  [-1]                 7685.0               None    7616.5     7616.0        7617.0         NaN       7625.0     -68.5    -0.5       9.0          NaN                 NaN           8.5
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+33467          KOSDAQ  dynamic_TF_carry  [-1]      346.470272  -398.302571   -5.772501     11.545002             -0.0                     NaN          5.772501
+33469            KR10  dynamic_TF_carry  [-1]        6.103656  -565.235046   -8.191812     16.383625             -0.0                     NaN          8.191812
+33470          NIKKEI  dynamic_TF_carry   [1]     6057.959735  1060.588099   -4.126802    -16.507208       -24.760812                     NaN         -20.63401
+33471             CAC  dynamic_TF_carry  [-1]      859.807959  -348.915123   -5.815252          -0.0       -11.630504                     NaN         -5.815252
+33472      GOLD_micro  dynamic_TF_carry   [2]      368.988425          NaN         NaN           NaN              NaN                     NaN               NaN
+33473           CAD10  dynamic_TF_carry   [1]        8.270687          NaN         NaN           NaN              NaN                     NaN               NaN
+33474            BUXL  dynamic_TF_carry   [1]       22.313055   -31.371769   -4.481681      8.963362              0.0                     NaN          4.481681
+33475             JPY  dynamic_TF_carry  [-1]        0.000634   595.718482   -3.945156     -7.890311       -15.780622                     NaN        -11.835467
+33466          SPI200  dynamic_TF_carry  [-1]      880.023539  -551.121622  -73.861661           NaN              NaN                     NaN               NaN
+33468          SPI200  dynamic_TF_carry  [-1]      880.023539   -778.38827   -5.681666    102.269992              NaN                     NaN         96.588325
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+33467          KOSDAQ  dynamic_TF_carry  [-1]             5.784162  -79.821434    -1.156832       2.313665              -0.0                      NaN           1.156832
+33469            KR10  dynamic_TF_carry  [-1]           578.416189 -199.553585    -2.892081       5.784162              -0.0                      NaN           2.892081
+33470          NIKKEI  dynamic_TF_carry   [1]             0.502164  322.640512    -1.255411      -5.021642         -7.532463                      NaN          -6.277053
+33471             CAC  dynamic_TF_carry  [-1]             8.505093 -255.152805    -4.252547           -0.0         -8.505093                      NaN          -4.252547
+33472      GOLD_micro  dynamic_TF_carry   [2]             7.881618         NaN          NaN            NaN               NaN                      NaN                NaN
+33473           CAD10  dynamic_TF_carry   [1]           574.012206         NaN          NaN            NaN               NaN                      NaN                NaN
+33474            BUXL  dynamic_TF_carry   [1]            850.50935  -59.535654    -8.505093      17.010187               0.0                      NaN           8.505093
+33475             JPY  dynamic_TF_carry  [-1]       9852022.620244  371.913854    -2.463006      -4.926011         -9.852023                      NaN          -7.389017
+33466          SPI200  dynamic_TF_carry  [-1]            12.996296 -630.320339   -84.475922            NaN               NaN                      NaN                NaN
+33468          SPI200  dynamic_TF_carry  [-1]            12.996296 -890.246251    -6.498148     116.966661               NaN                      NaN         110.468513
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry BUXL             -59.535654
+                 CAC             -255.152805
+                 CAD10                     0
+                 GOLD_micro                0
+                 JPY              371.913854
+                 KOSDAQ           -79.821434
+                 KR10            -199.553585
+                 NIKKEI           322.640512
+                 SPI200          -1520.56659
+delay_cash Total Sum
+                   delay_cash
+strategy_name                
+dynamic_TF_carry -1420.075703
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry BUXL               -8.505093
+                 CAC                -4.252547
+                 CAD10                      0
+                 GOLD_micro                 0
+                 JPY                -2.463006
+                 KOSDAQ             -1.156832
+                 KR10               -2.892081
+                 NIKKEI             -1.255411
+                 SPI200            -90.974069
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry  -111.499039
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry BUXL                 17.010187
+                 CAC                       -0.0
+                 CAD10                        0
+                 GOLD_micro                   0
+                 JPY                  -4.926011
+                 KOSDAQ                2.313665
+                 KR10                  5.784162
+                 NIKKEI               -5.021642
+                 SPI200              116.966661
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry     132.127021
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry BUXL                          0.0
+                 CAC                     -8.505093
+                 CAD10                           0
+                 GOLD_micro                      0
+                 JPY                     -9.852023
+                 KOSDAQ                       -0.0
+                 KR10                         -0.0
+                 NIKKEI                  -7.532463
+                 SPI200                          0
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry        -25.889579
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry BUXL                                   0
+                 CAC                                    0
+                 CAD10                                  0
+                 GOLD_micro                             0
+                 JPY                                    0
+                 KOSDAQ                                 0
+                 KR10                                   0
+                 NIKKEI                                 0
+                 SPI200                                 0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry BUXL                      8.505093
+                 CAC                      -4.252547
+                 CAD10                            0
+                 GOLD_micro                       0
+                 JPY                      -7.389017
+                 KOSDAQ                    1.156832
+                 KR10                      2.892081
+                 NIKKEI                   -6.277053
+                 SPI200                  110.468513
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry         105.103903
 
 ********************************************************************************
                                  END OF REPORT                                  
