@@ -1,146 +1,15 @@
 
 ********************************************************************************
-Trades report produced on 03/06/2024 22:50 from 02/06/2024 22:50 to 03/06/2024 22:50
+Trades report produced on 04/06/2024 22:50 from 03/06/2024 22:50 to 04/06/2024 22:50
 ********************************************************************************
 
 
-
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
-
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-33499   CRUDE_W_micro  dynamic_TF_carry    [20240800] 2024-06-03 14:00:05  [-1]      76.41000
-33497      FTSETAIWAN  dynamic_TF_carry    [20240600] 2024-06-03 01:45:04   [1]    1815.50000
-33498     GAS_US_mini  dynamic_TF_carry    [20240800] 2024-06-03 14:00:04  [-1]       2.82000
-33496          NIKKEI  dynamic_TF_carry    [20240900] 2024-06-03 01:00:19   [1]   38780.00000
-33495          NIKKEI  dynamic_TF_carry    [20240900] 2024-06-03 01:00:12   [1]   38765.00000
-33500            US10  dynamic_TF_carry    [20240900] 2024-06-03 15:00:03  [-1]     109.40625
-
-
-=============================================================================================================================================================
-                                                                           Delays                                                                            
-=============================================================================================================================================================
-
-      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-33496          NIKKEI  dynamic_TF_carry       2024-05-31 00:00:00  2024-06-03 01:00:17.860000  2024-06-03 01:00:19              262817.86                1.14
-33495          NIKKEI  dynamic_TF_carry       2024-05-31 00:00:00  2024-06-03 01:00:11.097000  2024-06-03 01:00:12             262811.097               0.903
-33497      FTSETAIWAN  dynamic_TF_carry       2024-05-30 00:00:00  2024-06-03 01:45:04.103000  2024-06-03 01:45:04             351904.103                 NaN
-33498     GAS_US_mini  dynamic_TF_carry       2024-05-31 00:00:00  2024-06-03 14:00:03.838000  2024-06-03 14:00:04             309603.838               0.162
-33499   CRUDE_W_micro  dynamic_TF_carry       2024-05-31 00:00:00  2024-06-03 14:00:05.582000  2024-06-03 14:00:05             309605.582                 NaN
-33500            US10  dynamic_TF_carry       2024-05-31 00:00:00  2024-06-03 15:00:03.055000  2024-06-03 15:00:03             313203.055                 NaN
-
-
-===================================================================================================================================================================================================================================
-                                                                                                     Slippage (ticks per lot)                                                                                                      
-===================================================================================================================================================================================================================================
-
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price   mid_price  side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
-33496          NIKKEI  dynamic_TF_carry   [1]                38365.0               None     38762.5     38765.0       38760.0     38760.0      38780.0    -397.5      -2.5     -15.0        -20.0                 NaN         -17.5
-33495          NIKKEI  dynamic_TF_carry   [1]                38365.0               None     38755.0     38760.0       38750.0     38750.0      38765.0    -390.0      -5.0      -5.0        -15.0                 NaN         -10.0
-33497      FTSETAIWAN  dynamic_TF_carry   [1]                 1812.0               None     1815.75      1816.0        1815.5      1815.5       1815.5     -3.75     -0.25       0.5          0.0                 NaN          0.25
-33498     GAS_US_mini  dynamic_TF_carry  [-1]                  2.665               None       2.825        2.82          2.83        2.83         2.82      0.16    -0.005      -0.0        -0.01                 NaN        -0.005
-33499   CRUDE_W_micro  dynamic_TF_carry  [-1]                   76.8               None        76.4       76.39         76.41       76.41        76.41      -0.4     -0.01      0.02         -0.0                 NaN          0.01
-33500            US10  dynamic_TF_carry  [-1]              108.84375               None  109.398438  109.390625     109.40625   109.40625    109.40625  0.554688 -0.007812  0.015625         -0.0                 NaN      0.007812
-
-
-==============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
-==============================================================================================================================================================
-
-      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33496          NIKKEI  dynamic_TF_carry   [1]     6220.862033 -638.978968   -4.018736    -24.112414       -32.149885                     NaN         -28.13115
-33495          NIKKEI  dynamic_TF_carry   [1]     6220.862033 -626.922761   -8.037471     -8.037471       -24.112414                     NaN        -16.074943
-33497      FTSETAIWAN  dynamic_TF_carry   [1]      272.918961 -137.403425   -9.160228     18.320457              0.0                     NaN          9.160228
-33498     GAS_US_mini  dynamic_TF_carry  [-1]        1.842863  868.214089   -27.13169          -0.0       -54.263381                     NaN         -27.13169
-33499   CRUDE_W_micro  dynamic_TF_carry  [-1]       19.416537 -206.009962   -5.150249     10.300498             -0.0                     NaN          5.150249
-33500            US10  dynamic_TF_carry  [-1]        6.723679  824.976163  -11.619383     23.238765             -0.0                     NaN         11.619383
-
-
-========================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                       
-========================================================================================================================================================================
-
-      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33496          NIKKEI  dynamic_TF_carry   [1]             0.498721 -198.241603    -1.246803      -7.480815          -9.97442                      NaN          -8.727618
-33495          NIKKEI  dynamic_TF_carry   [1]             0.498721 -194.501195    -2.493605      -2.493605         -7.480815                      NaN           -4.98721
-33497      FTSETAIWAN  dynamic_TF_carry   [1]            31.400871 -117.753268    -7.850218      15.700436               0.0                      NaN           7.850218
-33498     GAS_US_mini  dynamic_TF_carry  [-1]          1962.554461  314.008714    -9.812772           -0.0        -19.625545                      NaN          -9.812772
-33499   CRUDE_W_micro  dynamic_TF_carry  [-1]            78.502178  -31.400871    -0.785022       1.570044              -0.0                      NaN           0.785022
-33500            US10  dynamic_TF_carry  [-1]           785.021784  435.441771    -6.132983      12.265965              -0.0                      NaN           6.132983
-
-delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry CRUDE_W_micro    -31.400871
-                 FTSETAIWAN      -117.753268
-                 GAS_US_mini      314.008714
-                 NIKKEI          -392.742797
-                 US10             435.441771
-delay_cash Total Sum
-                  delay_cash
-strategy_name               
-dynamic_TF_carry  207.553548
-bid_ask_cash Sum
-                                 bid_ask_cash
-strategy_name    instrument_code             
-dynamic_TF_carry CRUDE_W_micro      -0.785022
-                 FTSETAIWAN         -7.850218
-                 GAS_US_mini        -9.812772
-                 NIKKEI             -3.740408
-                 US10               -6.132983
-bid_ask_cash Total Sum
-                 bid_ask_cash
-strategy_name                
-dynamic_TF_carry   -28.321402
-execution_cash Sum
-                                 execution_cash
-strategy_name    instrument_code               
-dynamic_TF_carry CRUDE_W_micro         1.570044
-                 FTSETAIWAN           15.700436
-                 GAS_US_mini               -0.0
-                 NIKKEI                -9.97442
-                 US10                 12.265965
-execution_cash Total Sum
-                 execution_cash
-strategy_name                  
-dynamic_TF_carry      19.562024
-versus_limit_cash Sum
-                                 versus_limit_cash
-strategy_name    instrument_code                  
-dynamic_TF_carry CRUDE_W_micro                -0.0
-                 FTSETAIWAN                    0.0
-                 GAS_US_mini            -19.625545
-                 NIKKEI                 -17.455235
-                 US10                         -0.0
-versus_limit_cash Total Sum
-                 versus_limit_cash
-strategy_name                     
-dynamic_TF_carry         -37.08078
-versus_parent_limit_cash Sum
-                                 versus_parent_limit_cash
-strategy_name    instrument_code                         
-dynamic_TF_carry CRUDE_W_micro                          0
-                 FTSETAIWAN                             0
-                 GAS_US_mini                            0
-                 NIKKEI                                 0
-                 US10                                   0
-versus_parent_limit_cash Total Sum
-                 versus_parent_limit_cash
-strategy_name                            
-dynamic_TF_carry                        0
-total_trading_cash Sum
-                                 total_trading_cash
-strategy_name    instrument_code                   
-dynamic_TF_carry CRUDE_W_micro             0.785022
-                 FTSETAIWAN                7.850218
-                 GAS_US_mini              -9.812772
-                 NIKKEI                  -13.714828
-                 US10                      6.132983
-total_trading_cash Total Sum
-                 total_trading_cash
-strategy_name                      
-dynamic_TF_carry          -8.759378
+No trades
+No trades
+No trades
+No trades
+No trades
+No trades
 
 ********************************************************************************
                                  END OF REPORT                                  
