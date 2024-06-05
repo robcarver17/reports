@@ -1,15 +1,97 @@
 
 ********************************************************************************
-Trades report produced on 04/06/2024 22:50 from 03/06/2024 22:50 to 04/06/2024 22:50
+Trades report produced on 05/06/2024 22:50 from 04/06/2024 22:50 to 05/06/2024 22:50
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+================================================================================================
+                                         Broker orders                                          
+================================================================================================
+
+      instrument_code     strategy_name contract_date           fill_datetime fill  filled_price
+33501         BITCOIN  dynamic_TF_carry    [20240500] 2024-06-05 07:13:55.743  [4]       67680.0
+
+
+========================================================================================================================================================
+                                                                         Delays                                                                         
+========================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
+33501         BITCOIN  dynamic_TF_carry                      None            None  2024-06-05 07:13:55.743000                    NaN                 NaN
+
+
+==========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                 
+==========================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
+33501         BITCOIN  dynamic_TF_carry   [4]                   None               None      None       None          None        None      67680.0   NaN     NaN       NaN          NaN                 NaN           NaN
+
+
+============================================================================================================================================================
+                                                    Slippage (normalised by annual vol, BP of annual SR)                                                    
+============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+33501         BITCOIN  dynamic_TF_carry   [4]    28152.840451       NaN         NaN           NaN              NaN                     NaN               NaN
+
+
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+33501         BITCOIN  dynamic_TF_carry   [4]               0.0783        NaN          NaN            NaN               NaN                      NaN                NaN
+
+delay_cash Sum
+                                 delay_cash
+strategy_name    instrument_code           
+dynamic_TF_carry BITCOIN                  0
+delay_cash Total Sum
+                 delay_cash
+strategy_name              
+dynamic_TF_carry          0
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry BITCOIN                    0
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry            0
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry BITCOIN                      0
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry              0
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry BITCOIN                         0
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry                 0
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry BITCOIN                                0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry BITCOIN                          0
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry                  0
 
 ********************************************************************************
                                  END OF REPORT                                  
