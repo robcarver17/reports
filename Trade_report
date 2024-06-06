@@ -1,85 +1,215 @@
 
 ********************************************************************************
-Trades report produced on 05/06/2024 22:50 from 04/06/2024 22:50 to 05/06/2024 22:50
+Trades report produced on 06/06/2024 22:50 from 05/06/2024 22:50 to 06/06/2024 22:50
 ********************************************************************************
 
 
 
-================================================================================================
-                                         Broker orders                                          
-================================================================================================
+=================================================================================================
+                                          Broker orders                                          
+=================================================================================================
 
-      instrument_code     strategy_name contract_date           fill_datetime fill  filled_price
-33501         BITCOIN  dynamic_TF_carry    [20240500] 2024-06-05 07:13:55.743  [4]       67680.0
-
-
-========================================================================================================================================================
-                                                                         Delays                                                                         
-========================================================================================================================================================
-
-      instrument_code     strategy_name parent_reference_datetime submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
-33501         BITCOIN  dynamic_TF_carry                      None            None  2024-06-05 07:13:55.743000                    NaN                 NaN
-
-
-==========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                 
-==========================================================================================================================================================================================================================
-
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
-33501         BITCOIN  dynamic_TF_carry   [4]                   None               None      None       None          None        None      67680.0   NaN     NaN       NaN          NaN                 NaN           NaN
-
-
-============================================================================================================================================================
-                                                    Slippage (normalised by annual vol, BP of annual SR)                                                    
-============================================================================================================================================================
-
-      instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33501         BITCOIN  dynamic_TF_carry   [4]    28152.840451       NaN         NaN           NaN              NaN                     NaN               NaN
+      instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
+33503       ALUMINIUM  dynamic_TF_carry    [20240700] 2024-06-06 07:13:04.641   [1]    2562.50000
+33512         BITCOIN  dynamic_TF_carry    [20240600] 2024-06-06 15:00:50.000  [-1]   71570.00000
+33506           CAD10  dynamic_TF_carry    [20240900] 2024-06-06 19:30:00.370   [0]           NaN
+33507           CAD10  dynamic_TF_carry    [20240900] 2024-06-06 14:12:47.000   [1]     121.10000
+33509             CHF  dynamic_TF_carry    [20240600] 2024-06-06 15:00:11.000   [1]       1.12300
+33504   CRUDE_W_micro  dynamic_TF_carry    [20240800] 2024-06-06 14:00:06.000  [-1]      73.87000
+33502        MSCISING  dynamic_TF_carry    [20240600] 2024-06-06 01:30:11.000   [1]     311.00000
+33514             MXP  dynamic_TF_carry    [20240600] 2024-06-06 15:00:57.000  [-1]       0.05684
+33515             MXP  dynamic_TF_carry    [20240600] 2024-06-06 15:01:07.000  [-1]       0.05683
+33508             MXP  dynamic_TF_carry    [20240600] 2024-06-06 15:00:04.000  [-1]       0.05683
+33516             MXP  dynamic_TF_carry    [20240600] 2024-06-06 15:01:16.000  [-1]       0.05682
+33513    NASDAQ_micro  dynamic_TF_carry    [20240600] 2024-06-06 15:00:52.000   [1]   19046.50000
+33505          SILVER  dynamic_TF_carry    [20240900] 2024-06-06 14:00:13.000  [-1]      30.67000
+33510     SP500_micro  dynamic_TF_carry    [20240600] 2024-06-06 15:00:12.000   [1]    5363.75000
+33511            US10  dynamic_TF_carry    [20240900] 2024-06-06 15:00:49.000   [1]     110.25000
+33517           WHEAT  dynamic_TF_carry    [20241200] 2024-06-06 15:30:09.000  [-1]     698.25000
 
 
-=======================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                      
-=======================================================================================================================================================================
+====================================================================================================================================================================
+                                                                               Delays                                                                               
+====================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33501         BITCOIN  dynamic_TF_carry   [4]               0.0783        NaN          NaN            NaN               NaN                      NaN                NaN
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
+33502        MSCISING  dynamic_TF_carry       2024-06-05 00:00:00  2024-06-06 01:30:07.251000         2024-06-06 01:30:11              91807.251               3.749
+33503       ALUMINIUM  dynamic_TF_carry                       NaT                         NaT  2024-06-06 07:13:04.641000                    NaN                 NaN
+33504   CRUDE_W_micro  dynamic_TF_carry       2024-06-05 00:00:00  2024-06-06 14:00:05.948000         2024-06-06 14:00:06             136805.948               0.052
+33505          SILVER  dynamic_TF_carry       2024-06-05 00:00:00  2024-06-06 14:00:13.135000         2024-06-06 14:00:13             136813.135                 NaN
+33509             CHF  dynamic_TF_carry       2024-06-05 00:00:00  2024-06-06 15:00:05.235000         2024-06-06 15:00:11             140405.235               5.765
+33510     SP500_micro  dynamic_TF_carry       2024-06-05 00:00:00  2024-06-06 15:00:12.039000         2024-06-06 15:00:12             140412.039                 NaN
+33511            US10  dynamic_TF_carry       2024-06-05 00:00:00  2024-06-06 15:00:13.267000         2024-06-06 15:00:49             140413.267              35.733
+33512         BITCOIN  dynamic_TF_carry       2024-05-31 00:00:00  2024-06-06 15:00:50.309000         2024-06-06 15:00:50             572450.309                 NaN
+33513    NASDAQ_micro  dynamic_TF_carry       2024-06-05 00:00:00  2024-06-06 15:00:51.935000         2024-06-06 15:00:52             140451.935               0.065
+33514             MXP  dynamic_TF_carry       2024-06-05 00:00:00  2024-06-06 15:00:57.470000         2024-06-06 15:00:57              140457.47                 NaN
+33515             MXP  dynamic_TF_carry       2024-06-05 00:00:00  2024-06-06 15:01:03.149000         2024-06-06 15:01:07             140463.149               3.851
+33508             MXP  dynamic_TF_carry       2024-06-05 00:00:00  2024-06-06 15:00:01.916000         2024-06-06 15:00:04             140401.916               2.084
+33516             MXP  dynamic_TF_carry       2024-06-05 00:00:00  2024-06-06 15:01:12.800000         2024-06-06 15:01:16               140472.8                 3.2
+33517           WHEAT  dynamic_TF_carry       2024-06-05 00:00:00  2024-06-06 15:30:09.227000         2024-06-06 15:30:09             142209.227                 NaN
+33506           CAD10  dynamic_TF_carry       2024-06-05 00:00:00  2024-06-06 14:00:14.695000  2024-06-06 19:30:00.370000             136814.695           19785.675
+33507           CAD10  dynamic_TF_carry       2024-06-05 00:00:00  2024-06-06 14:10:20.036000         2024-06-06 14:12:47             137420.036             146.964
+
+
+===================================================================================================================================================================================================================================
+                                                                                                     Slippage (ticks per lot)                                                                                                      
+===================================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price   mid_price  side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
+33502        MSCISING  dynamic_TF_carry   [1]                 311.75               None       311.0       311.1         310.9       310.9        311.0      0.75      -0.1       0.1         -0.1                 NaN           0.0
+33503       ALUMINIUM  dynamic_TF_carry   [1]                    NaN               None         NaN         NaN           NaN         NaN       2562.5       NaN       NaN       NaN          NaN                 NaN           NaN
+33504   CRUDE_W_micro  dynamic_TF_carry  [-1]                  73.91               None       73.84       73.83         73.85       73.85        73.87     -0.07     -0.01      0.04         0.02                 NaN          0.03
+33505          SILVER  dynamic_TF_carry  [-1]                  30.48               None       30.68      30.675        30.685      30.685        30.67       0.2    -0.005    -0.005       -0.015                 NaN         -0.01
+33509             CHF  dynamic_TF_carry   [1]                1.12095               None    1.122925     1.12295        1.1229      1.1229        1.123 -0.001975 -0.000025  -0.00005      -0.0001                 NaN     -0.000075
+33510     SP500_micro  dynamic_TF_carry   [1]                 5359.5               None      5363.5     5363.75       5363.25     5363.25      5363.75      -4.0     -0.25       0.0         -0.5                 NaN         -0.25
+33511            US10  dynamic_TF_carry   [1]             110.265625               None  110.257812  110.265625        110.25      110.25       110.25  0.007812 -0.007812  0.015625          0.0                 NaN      0.007812
+33512         BITCOIN  dynamic_TF_carry  [-1]                67905.0               None     71577.5     71570.0       71585.0     71585.0      71570.0    3672.5      -7.5      -0.0        -15.0                 NaN          -7.5
+33513    NASDAQ_micro  dynamic_TF_carry   [1]               19040.25               None     19046.0    19046.25      19045.75    19045.75      19046.5     -5.75     -0.25     -0.25        -0.75                 NaN          -0.5
+33514             MXP  dynamic_TF_carry  [-1]                0.05673               None    0.056835     0.05683       0.05684     0.05684      0.05684  0.000105 -0.000005   0.00001         -0.0                 NaN      0.000005
+33515             MXP  dynamic_TF_carry  [-1]                0.05673               None     0.05684     0.05683       0.05685     0.05685      0.05683   0.00011  -0.00001      -0.0     -0.00002                 NaN      -0.00001
+33508             MXP  dynamic_TF_carry  [-1]                0.05673               None    0.056845     0.05684       0.05685     0.05685      0.05683  0.000115 -0.000005  -0.00001     -0.00002                 NaN     -0.000015
+33516             MXP  dynamic_TF_carry  [-1]                0.05673               None     0.05683     0.05682       0.05684     0.05684      0.05682    0.0001  -0.00001      -0.0     -0.00002                 NaN      -0.00001
+33517           WHEAT  dynamic_TF_carry  [-1]                 693.75               None     698.125       698.0        698.25      698.25       698.25     4.375    -0.125      0.25         -0.0                 NaN         0.125
+33506           CAD10  dynamic_TF_carry   [1]                 121.24               None     121.075      121.08        121.07      121.07          NaN     0.165    -0.005       NaN          NaN                 NaN           NaN
+33507           CAD10  dynamic_TF_carry   [1]                 121.24               None     121.035      121.04        121.03      121.03        121.1     0.205    -0.005     -0.06        -0.07                 NaN        -0.065
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+33502        MSCISING  dynamic_TF_carry   [1]       33.380485   224.682175  -29.957623     29.957623       -29.957623                     NaN               0.0
+33503       ALUMINIUM  dynamic_TF_carry   [1]      648.342268          NaN         NaN           NaN              NaN                     NaN               NaN
+33504   CRUDE_W_micro  dynamic_TF_carry  [-1]       20.494409   -34.155656   -4.879379     19.517518         9.758759                     NaN         14.638138
+33505          SILVER  dynamic_TF_carry  [-1]       10.590384   188.850569   -4.721264     -4.721264       -14.163793                     NaN         -9.442528
+33509             CHF  dynamic_TF_carry   [1]        0.079885  -247.230887   -3.129505      -6.25901        -12.51802                     NaN         -9.388515
+33510     SP500_micro  dynamic_TF_carry   [1]      594.692985   -67.261597    -4.20385           0.0          -8.4077                     NaN          -4.20385
+33511            US10  dynamic_TF_carry   [1]        6.624708    11.792972  -11.792972     23.585945              0.0                     NaN         11.792972
+33512         BITCOIN  dynamic_TF_carry  [-1]    28152.840451  1304.486489    -2.66403          -0.0        -5.328059                     NaN          -2.66403
+33513    NASDAQ_micro  dynamic_TF_carry   [1]     2782.184542   -20.667213   -0.898574     -0.898574        -2.695723                     NaN         -1.797149
+33514             MXP  dynamic_TF_carry  [-1]        0.008987    116.83261   -5.563458     11.126915             -0.0                     NaN          5.563458
+33515             MXP  dynamic_TF_carry  [-1]        0.008987   122.396067  -11.126915          -0.0        -22.25383                     NaN        -11.126915
+33508             MXP  dynamic_TF_carry  [-1]        0.008987   127.959525   -5.563458    -11.126915        -22.25383                     NaN        -16.690373
+33516             MXP  dynamic_TF_carry  [-1]        0.008987   111.269152  -11.126915          -0.0        -22.25383                     NaN        -11.126915
+33517           WHEAT  dynamic_TF_carry  [-1]      191.037803   229.012266   -6.543208     13.086415             -0.0                     NaN          6.543208
+33506           CAD10  dynamic_TF_carry   [1]         8.80698   187.351393   -5.677315           NaN              NaN                     NaN               NaN
+33507           CAD10  dynamic_TF_carry   [1]         8.80698   232.769912   -5.677315    -68.127779       -79.482409                     NaN        -73.805094
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+33502        MSCISING  dynamic_TF_carry   [1]            58.037354   43.528015    -5.803735       5.803735         -5.803735                      NaN                0.0
+33503       ALUMINIUM  dynamic_TF_carry   [1]            19.539799         NaN          NaN            NaN               NaN                      NaN                NaN
+33504   CRUDE_W_micro  dynamic_TF_carry  [-1]            78.159195   -5.471144    -0.781592       3.126368          1.563184                      NaN           2.344776
+33505          SILVER  dynamic_TF_carry  [-1]           781.591946  156.318389     -3.90796       -3.90796        -11.723879                      NaN          -7.815919
+33509             CHF  dynamic_TF_carry   [1]          97698.99331 -192.955512    -2.442475       -4.88495         -9.769899                      NaN          -7.327424
+33510     SP500_micro  dynamic_TF_carry   [1]              3.90796  -15.631839     -0.97699            0.0          -1.95398                      NaN           -0.97699
+33511            US10  dynamic_TF_carry   [1]           781.591946    6.106187    -6.106187      12.212374               0.0                      NaN           6.106187
+33512         BITCOIN  dynamic_TF_carry  [-1]             0.078159  287.039642    -0.586194           -0.0         -1.172388                      NaN          -0.586194
+33513    NASDAQ_micro  dynamic_TF_carry   [1]             1.563184   -8.988307    -0.390796      -0.390796         -1.172388                      NaN          -0.781592
+33514             MXP  dynamic_TF_carry  [-1]        390795.973238   41.033577     -1.95398        3.90796              -0.0                      NaN            1.95398
+33515             MXP  dynamic_TF_carry  [-1]        390795.973238   42.987557     -3.90796           -0.0         -7.815919                      NaN           -3.90796
+33508             MXP  dynamic_TF_carry  [-1]        390795.973238   44.941537     -1.95398       -3.90796         -7.815919                      NaN           -5.86194
+33516             MXP  dynamic_TF_carry  [-1]        390795.973238   39.079597     -3.90796           -0.0         -7.815919                      NaN           -3.90796
+33517           WHEAT  dynamic_TF_carry  [-1]            39.079597  170.973238     -4.88495       9.769899              -0.0                      NaN            4.88495
+33506           CAD10  dynamic_TF_carry   [1]           571.372556   94.276472    -2.856863            NaN               NaN                      NaN                NaN
+33507           CAD10  dynamic_TF_carry   [1]           571.372556  117.131374    -2.856863     -34.282353        -39.996079                      NaN         -37.139216
 
 delay_cash Sum
-                                 delay_cash
-strategy_name    instrument_code           
-dynamic_TF_carry BITCOIN                  0
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry ALUMINIUM                 0
+                 BITCOIN          287.039642
+                 CAD10            211.407846
+                 CHF             -192.955512
+                 CRUDE_W_micro     -5.471144
+                 MSCISING          43.528015
+                 MXP              168.042268
+                 NASDAQ_micro      -8.988307
+                 SILVER           156.318389
+                 SP500_micro      -15.631839
+                 US10               6.106187
+                 WHEAT            170.973238
 delay_cash Total Sum
-                 delay_cash
-strategy_name              
-dynamic_TF_carry          0
+                  delay_cash
+strategy_name               
+dynamic_TF_carry  820.368785
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry BITCOIN                    0
+dynamic_TF_carry ALUMINIUM                  0
+                 BITCOIN            -0.586194
+                 CAD10              -5.713726
+                 CHF                -2.442475
+                 CRUDE_W_micro      -0.781592
+                 MSCISING           -5.803735
+                 MXP               -11.723879
+                 NASDAQ_micro       -0.390796
+                 SILVER              -3.90796
+                 SP500_micro         -0.97699
+                 US10               -6.106187
+                 WHEAT               -4.88495
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry            0
+dynamic_TF_carry   -43.318483
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry BITCOIN                      0
+dynamic_TF_carry ALUMINIUM                    0
+                 BITCOIN                   -0.0
+                 CAD10               -34.282353
+                 CHF                   -4.88495
+                 CRUDE_W_micro         3.126368
+                 MSCISING              5.803735
+                 MXP                        0.0
+                 NASDAQ_micro         -0.390796
+                 SILVER                -3.90796
+                 SP500_micro                0.0
+                 US10                 12.212374
+                 WHEAT                 9.769899
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry              0
+dynamic_TF_carry     -12.553682
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry BITCOIN                         0
+dynamic_TF_carry ALUMINIUM                       0
+                 BITCOIN                 -1.172388
+                 CAD10                  -39.996079
+                 CHF                     -9.769899
+                 CRUDE_W_micro            1.563184
+                 MSCISING                -5.803735
+                 MXP                    -23.447758
+                 NASDAQ_micro            -1.172388
+                 SILVER                 -11.723879
+                 SP500_micro              -1.95398
+                 US10                          0.0
+                 WHEAT                        -0.0
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry                 0
+dynamic_TF_carry        -93.476923
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry BITCOIN                                0
+dynamic_TF_carry ALUMINIUM                              0
+                 BITCOIN                                0
+                 CAD10                                  0
+                 CHF                                    0
+                 CRUDE_W_micro                          0
+                 MSCISING                               0
+                 MXP                                    0
+                 NASDAQ_micro                           0
+                 SILVER                                 0
+                 SP500_micro                            0
+                 US10                                   0
+                 WHEAT                                  0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -87,11 +217,22 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry BITCOIN                          0
+dynamic_TF_carry ALUMINIUM                        0
+                 BITCOIN                  -0.586194
+                 CAD10                   -37.139216
+                 CHF                      -7.327424
+                 CRUDE_W_micro             2.344776
+                 MSCISING                       0.0
+                 MXP                     -11.723879
+                 NASDAQ_micro             -0.781592
+                 SILVER                   -7.815919
+                 SP500_micro               -0.97699
+                 US10                      6.106187
+                 WHEAT                      4.88495
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry                  0
+dynamic_TF_carry         -53.015303
 
 ********************************************************************************
                                  END OF REPORT                                  
