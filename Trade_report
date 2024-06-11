@@ -1,80 +1,44 @@
 
 ********************************************************************************
-Trades report produced on 10/06/2024 22:50 from 09/06/2024 22:50 to 10/06/2024 22:50
+Trades report produced on 11/06/2024 22:50 from 10/06/2024 22:50 to 11/06/2024 22:50
 ********************************************************************************
 
 
 
-=================================================================================================
-                                          Broker orders                                          
-=================================================================================================
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
 
-      instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
-33545             CHF  dynamic_TF_carry    [20240600] 2024-06-10 17:35:03.000   [1]      1.116300
-33544         COTTON2  dynamic_TF_carry    [20240700] 2024-06-10 19:30:00.142   [0]           NaN
-33550         COTTON2  dynamic_TF_carry    [20240700] 2024-06-10 19:30:00.177   [0]           NaN
-33551         COTTON2  dynamic_TF_carry    [20240700] 2024-06-10 17:51:19.000   [1]     71.930000
-33546             GBP  dynamic_TF_carry    [20240600] 2024-06-10 17:35:31.000  [-1]      1.273400
-33543             JPY  dynamic_TF_carry    [20240600] 2024-06-10 17:24:55.000   [1]      0.006380
-33541             MXP  dynamic_TF_carry    [20240600] 2024-06-10 17:23:52.000  [-1]      0.054250
-33549    NASDAQ_micro  dynamic_TF_carry    [20240600] 2024-06-10 17:41:11.000  [-1]  19105.500000
-33542    NASDAQ_micro  dynamic_TF_carry    [20240600] 2024-06-10 17:23:53.000  [-1]  19107.750000
-33547             US2  dynamic_TF_carry    [20240600] 2024-06-10 17:35:33.000   [1]    101.664063
-33548             VIX  dynamic_TF_carry    [20240700] 2024-06-10 17:40:34.000   [1]     14.250000
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+33553            IRON  dynamic_TF_carry    [20240700] 2024-06-11 01:02:46  [-1]        107.65
+33554           TOPIX  dynamic_TF_carry    [20240600] 2024-06-11 01:02:48   [1]       2790.75
 
 
-====================================================================================================================================================================
-                                                                               Delays                                                                               
-====================================================================================================================================================================
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
 
-      instrument_code     strategy_name parent_reference_datetime             submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
-33541             MXP  dynamic_TF_carry       2024-06-07 20:00:00  2024-06-10 17:23:51.931000         2024-06-10 17:23:52             249831.931               0.069
-33543             JPY  dynamic_TF_carry       2024-06-07 20:00:00  2024-06-10 17:23:54.191000         2024-06-10 17:24:55             249834.191              60.809
-33545             CHF  dynamic_TF_carry       2024-06-07 20:00:00  2024-06-10 17:34:57.818000         2024-06-10 17:35:03             250497.818               5.182
-33546             GBP  dynamic_TF_carry       2024-06-07 20:00:00  2024-06-10 17:35:04.046000         2024-06-10 17:35:31             250504.046              26.954
-33547             US2  dynamic_TF_carry       2024-06-06 23:00:00  2024-06-10 17:35:32.090000         2024-06-10 17:35:33              326132.09                0.91
-33548             VIX  dynamic_TF_carry       2024-06-07 20:00:00  2024-06-10 17:35:34.371000         2024-06-10 17:40:34             250534.371             299.629
-33549    NASDAQ_micro  dynamic_TF_carry       2024-06-07 20:00:00  2024-06-10 17:41:11.496000         2024-06-10 17:41:11             250871.496                 NaN
-33542    NASDAQ_micro  dynamic_TF_carry       2024-06-07 20:00:00  2024-06-10 17:23:53.377000         2024-06-10 17:23:53             249833.377                 NaN
-33544         COTTON2  dynamic_TF_carry       2024-06-07 19:00:00  2024-06-10 17:24:57.008000  2024-06-10 19:30:00.142000             253497.008            7503.134
-33550         COTTON2  dynamic_TF_carry       2024-06-07 19:00:00  2024-06-10 17:41:12.136000  2024-06-10 19:30:00.177000             254472.136            6528.041
-33551         COTTON2  dynamic_TF_carry       2024-06-07 19:00:00  2024-06-10 17:51:17.071000         2024-06-10 17:51:19             255077.071               1.929
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+33553            IRON  dynamic_TF_carry       2024-06-10 00:00:00  2024-06-11 01:00:13.451000  2024-06-11 01:02:46              90013.451             152.549
+33554           TOPIX  dynamic_TF_carry       2024-06-10 00:00:00  2024-06-11 01:02:47.739000  2024-06-11 01:02:48              90167.739               0.261
 
 
-===================================================================================================================================================================================================================================
-                                                                                                     Slippage (ticks per lot)                                                                                                      
-===================================================================================================================================================================================================================================
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price   mid_price  side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
-33541             MXP  dynamic_TF_carry  [-1]                0.05414               None    0.054255     0.05425       0.05426         NaN      0.05425  0.000115 -0.000005      -0.0          NaN                 NaN     -0.000005
-33543             JPY  dynamic_TF_carry   [1]               0.006393               None     0.00638     0.00638      0.006379    0.006379      0.00638  0.000013      -0.0       0.0    -0.000001                 NaN          -0.0
-33545             CHF  dynamic_TF_carry   [1]                 1.1164               None     1.11625      1.1163        1.1162      1.1162       1.1163   0.00015  -0.00005       0.0      -0.0001                 NaN      -0.00005
-33546             GBP  dynamic_TF_carry  [-1]                 1.2725               None     1.27335      1.2733        1.2734      1.2734       1.2734   0.00085  -0.00005    0.0001         -0.0                 NaN       0.00005
-33547             US2  dynamic_TF_carry   [1]             101.898438               None  101.654297  101.664062    101.644531         NaN   101.664063  0.244141 -0.009766      -0.0          NaN                 NaN     -0.009766
-33548             VIX  dynamic_TF_carry   [1]                   14.2               None      14.225       14.25          14.2        14.2        14.25    -0.025    -0.025       0.0        -0.05                 NaN        -0.025
-33549    NASDAQ_micro  dynamic_TF_carry  [-1]                19026.5               None   19105.125     19105.0      19105.25    19105.25      19105.5    78.625    -0.125       0.5         0.25                 NaN         0.375
-33542    NASDAQ_micro  dynamic_TF_carry  [-1]                19026.5               None   19108.125     19108.0      19108.25         NaN     19107.75    81.625    -0.125     -0.25          NaN                 NaN        -0.375
-33544         COTTON2  dynamic_TF_carry   [1]                  73.85               None      71.645       71.66         71.63       71.63          NaN     2.205    -0.015       NaN          NaN                 NaN           NaN
-33550         COTTON2  dynamic_TF_carry   [1]                  73.85               None      71.645       71.66         71.63       71.63          NaN     2.205    -0.015       NaN          NaN                 NaN           NaN
-33551         COTTON2  dynamic_TF_carry   [1]                  73.85               None      71.815       71.83          71.8         NaN        71.93     2.035    -0.015      -0.1          NaN                 NaN        -0.115
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+33553            IRON  dynamic_TF_carry  [-1]                 105.95               None     107.7     107.65        107.75      107.75       107.65   1.75   -0.05      -0.0         -0.1                 NaN         -0.05
+33554           TOPIX  dynamic_TF_carry   [1]                2775.25               None    2791.0    2791.25       2790.75     2790.75      2790.75 -15.75   -0.25       0.5          0.0                 NaN          0.25
 
 
-===============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
-===============================================================================================================================================================
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
 
-      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33541             MXP  dynamic_TF_carry  [-1]        0.011421   100.692088   -4.377917          -0.0              NaN                     NaN         -4.377917
-33543             JPY  dynamic_TF_carry   [1]        0.000647   204.906821   -3.866166           0.0        -7.732333                     NaN         -3.866166
-33545             CHF  dynamic_TF_carry   [1]        0.080886    18.544554   -6.181518           0.0       -12.363036                     NaN         -6.181518
-33546             GBP  dynamic_TF_carry  [-1]        0.077412   109.801414   -6.458907     12.917813             -0.0                     NaN          6.458907
-33547             US2  dynamic_TF_carry   [1]        1.954569  1249.076602  -49.963064     -0.002558              NaN                     NaN        -49.965622
-33548             VIX  dynamic_TF_carry   [1]        5.375887   -46.503955  -46.503955           0.0        -93.00791                     NaN        -46.503955
-33549    NASDAQ_micro  dynamic_TF_carry  [-1]     2673.929245   294.042934   -0.467477      1.869907         0.934954                     NaN          1.402431
-33542    NASDAQ_micro  dynamic_TF_carry  [-1]     2673.929245   305.262378   -0.467477     -0.934954              NaN                     NaN         -1.402431
-33544         COTTON2  dynamic_TF_carry   [1]       25.529238   863.715549   -5.875616           NaN              NaN                     NaN               NaN
-33550         COTTON2  dynamic_TF_carry   [1]       25.529238   863.715549   -5.875616           NaN              NaN                     NaN               NaN
-33551         COTTON2  dynamic_TF_carry   [1]       25.529238   797.125235   -5.875616    -39.170773              NaN                     NaN        -45.046389
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+33553            IRON  dynamic_TF_carry  [-1]       33.247005  526.363202  -15.038949          -0.0       -30.077897                     NaN        -15.038949
+33554           TOPIX  dynamic_TF_carry   [1]      362.274133 -434.753646   -6.900852     13.801703              0.0                     NaN          6.900852
 
 
 ========================================================================================================================================================================
@@ -82,89 +46,50 @@ Trades report produced on 10/06/2024 22:50 from 09/06/2024 22:50 to 10/06/2024 2
 ========================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33541             MXP  dynamic_TF_carry  [-1]        393448.298926   45.246554    -1.967241           -0.0               NaN                      NaN          -1.967241
-33543             JPY  dynamic_TF_carry   [1]       9836207.473157  130.329749    -2.459052            0.0         -4.918104                      NaN          -2.459052
-33545             CHF  dynamic_TF_carry   [1]         98362.074732   14.754311    -4.918104            0.0         -9.836207                      NaN          -4.918104
-33546             GBP  dynamic_TF_carry  [-1]         49181.037366   41.803882    -2.459052       4.918104              -0.0                      NaN           2.459052
-33547             US2  dynamic_TF_carry   [1]          1573.793196  384.226854   -15.369074      -0.000787               NaN                      NaN         -15.369861
-33548             VIX  dynamic_TF_carry   [1]           786.896598  -19.672415   -19.672415            0.0         -39.34483                      NaN         -19.672415
-33549    NASDAQ_micro  dynamic_TF_carry  [-1]             1.573793   123.73949    -0.196724       0.786897          0.393448                      NaN           0.590172
-33542    NASDAQ_micro  dynamic_TF_carry  [-1]             1.573793   128.46087    -0.196724      -0.393448               NaN                      NaN          -0.590172
-33544         COTTON2  dynamic_TF_carry   [1]           393.448299  867.553499    -5.901724            NaN               NaN                      NaN                NaN
-33550         COTTON2  dynamic_TF_carry   [1]           393.448299  867.553499    -5.901724            NaN               NaN                      NaN                NaN
-33551         COTTON2  dynamic_TF_carry   [1]           393.448299  800.667288    -5.901724      -39.34483               NaN                      NaN         -45.246554
+33553            IRON  dynamic_TF_carry  [-1]            78.510499  137.393373    -3.925525           -0.0          -7.85105                      NaN          -3.925525
+33554           TOPIX  dynamic_TF_carry   [1]             4.990973  -78.607823    -1.247743       2.495486               0.0                      NaN           1.247743
 
 delay_cash Sum
-                                   delay_cash
-strategy_name    instrument_code             
-dynamic_TF_carry CHF                14.754311
-                 COTTON2          2535.774287
-                 GBP                41.803882
-                 JPY               130.329749
-                 MXP                45.246554
-                 NASDAQ_micro       252.20036
-                 US2               384.226854
-                 VIX               -19.672415
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry IRON             137.393373
+                 TOPIX            -78.607823
 delay_cash Total Sum
-                   delay_cash
-strategy_name                
-dynamic_TF_carry  3384.663582
+                 delay_cash
+strategy_name              
+dynamic_TF_carry   58.78555
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry CHF                -4.918104
-                 COTTON2           -17.705173
-                 GBP                -2.459052
-                 JPY                -2.459052
-                 MXP                -1.967241
-                 NASDAQ_micro       -0.393448
-                 US2               -15.369074
-                 VIX               -19.672415
+dynamic_TF_carry IRON               -3.925525
+                 TOPIX              -1.247743
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -64.94356
+dynamic_TF_carry    -5.173268
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry CHF                        0.0
-                 COTTON2              -39.34483
-                 GBP                   4.918104
-                 JPY                        0.0
-                 MXP                       -0.0
-                 NASDAQ_micro          0.393448
-                 US2                  -0.000787
-                 VIX                        0.0
+dynamic_TF_carry IRON                      -0.0
+                 TOPIX                 2.495486
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry     -34.034065
+dynamic_TF_carry       2.495486
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry CHF                     -9.836207
-                 COTTON2                         0
-                 GBP                          -0.0
-                 JPY                     -4.918104
-                 MXP                             0
-                 NASDAQ_micro             0.393448
-                 US2                             0
-                 VIX                     -39.34483
+dynamic_TF_carry IRON                     -7.85105
+                 TOPIX                         0.0
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry        -53.705693
+dynamic_TF_carry          -7.85105
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry CHF                                    0
-                 COTTON2                                0
-                 GBP                                    0
-                 JPY                                    0
-                 MXP                                    0
-                 NASDAQ_micro                           0
-                 US2                                    0
-                 VIX                                    0
+dynamic_TF_carry IRON                                   0
+                 TOPIX                                  0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -172,18 +97,12 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry CHF                      -4.918104
-                 COTTON2                 -45.246554
-                 GBP                       2.459052
-                 JPY                      -2.459052
-                 MXP                      -1.967241
-                 NASDAQ_micro                   0.0
-                 US2                     -15.369861
-                 VIX                     -19.672415
+dynamic_TF_carry IRON                     -3.925525
+                 TOPIX                     1.247743
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry         -87.174176
+dynamic_TF_carry          -2.677782
 
 ********************************************************************************
                                  END OF REPORT                                  
