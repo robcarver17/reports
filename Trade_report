@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 12/06/2024 22:50 from 11/06/2024 22:50 to 12/06/2024 22:50
+Trades report produced on 14/06/2024 22:50 from 13/06/2024 22:50 to 14/06/2024 22:50
 ********************************************************************************
 
 
@@ -10,9 +10,11 @@ Trades report produced on 12/06/2024 22:50 from 11/06/2024 22:50 to 12/06/2024 2
 =============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-33560              DX  dynamic_TF_carry    [20240900] 2024-06-12 15:36:13   [1]    103.880000
-33559             JPY  dynamic_TF_carry    [20240900] 2024-06-12 15:36:10  [-1]      0.006509
-33558    NASDAQ_micro  dynamic_TF_carry    [20240900] 2024-06-12 15:36:05   [1]  19797.750000
+33563        MSCIEAFA  dynamic_TF_carry    [20240600] 2024-06-14 14:00:08  [-1]        2307.7
+33564        MSCIEAFA  dynamic_TF_carry    [20240900] 2024-06-14 14:00:19   [1]        2334.0
+33566         RUSSELL  dynamic_TF_carry    [20240900] 2024-06-14 15:00:06  [-1]        2034.3
+33565     SP500_micro  dynamic_TF_carry    [20240600] 2024-06-14 15:00:05  [-1]        5416.5
+33567     SP500_micro  dynamic_TF_carry    [20240900] 2024-06-14 15:00:13   [1]        5486.0
 
 
 =============================================================================================================================================================
@@ -20,19 +22,23 @@ Trades report produced on 12/06/2024 22:50 from 11/06/2024 22:50 to 12/06/2024 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-33558    NASDAQ_micro  dynamic_TF_carry       2024-06-10 00:00:00  2024-06-12 15:36:05.028000  2024-06-12 15:36:05             228965.028                 NaN
-33559             JPY  dynamic_TF_carry       2024-06-10 00:00:00  2024-06-12 15:36:10.431000  2024-06-12 15:36:10             228970.431                 NaN
-33560              DX  dynamic_TF_carry       2024-06-11 00:00:00  2024-06-12 15:36:13.436000  2024-06-12 15:36:13             142573.436                 NaN
+33563        MSCIEAFA  dynamic_TF_carry       2024-06-12 20:00:00  2024-06-14 14:00:02.029000  2024-06-14 14:00:08             151202.029               5.971
+33564        MSCIEAFA  dynamic_TF_carry       2024-06-12 00:00:00  2024-06-14 14:00:14.517000  2024-06-14 14:00:19             223214.517               4.483
+33565     SP500_micro  dynamic_TF_carry       2024-06-12 20:00:00  2024-06-14 15:00:04.006000  2024-06-14 15:00:05             154804.006               0.994
+33566         RUSSELL  dynamic_TF_carry       2024-06-12 00:00:00  2024-06-14 15:00:06.262000  2024-06-14 15:00:06             226806.262                 NaN
+33567     SP500_micro  dynamic_TF_carry       2024-06-12 00:00:00  2024-06-14 15:00:12.734000  2024-06-14 15:00:13             226812.734               0.266
 
 
-==============================================================================================================================================================================================================================
-                                                                                                   Slippage (ticks per lot)                                                                                                   
-==============================================================================================================================================================================================================================
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay bid_ask execution versus_limit versus_parent_limit total_trading
-33558    NASDAQ_micro  dynamic_TF_carry   [1]                19365.5               None   19797.0    19797.5       19796.5     19796.5     19797.75    -431.5    -0.5     -0.25        -1.25                 NaN         -0.75
-33559             JPY  dynamic_TF_carry  [-1]               0.006461               None  0.006509   0.006509       0.00651     0.00651     0.006509  0.000049    -0.0      -0.0    -0.000001                 NaN          -0.0
-33560              DX  dynamic_TF_carry   [1]                104.785               None    103.95    103.955       103.945     103.945       103.88     0.835  -0.005     0.075        0.065                 NaN          0.07
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+33563        MSCIEAFA  dynamic_TF_carry  [-1]                 2373.6               None    2307.5     2307.3        2307.7      2307.7       2307.7  -66.1    -0.2       0.4         -0.0                 NaN           0.2
+33564        MSCIEAFA  dynamic_TF_carry   [1]                 2400.9               None   2333.65     2334.0        2333.3      2333.3       2334.0  67.25   -0.35       0.0         -0.7                 NaN         -0.35
+33565     SP500_micro  dynamic_TF_carry  [-1]                 5441.0               None    5416.5     5416.5        5416.5      5416.5       5416.5  -24.5    -0.0      -0.0         -0.0                 NaN          -0.0
+33566         RUSSELL  dynamic_TF_carry  [-1]                 2094.6               None    2034.6     2034.4        2034.8      2034.8       2034.3  -60.0    -0.2      -0.1         -0.5                 NaN          -0.3
+33567     SP500_micro  dynamic_TF_carry   [1]                 5506.0               None    5485.5    5485.75       5485.25     5485.25       5486.0   20.5   -0.25     -0.25        -0.75                 NaN          -0.5
 
 
 ===============================================================================================================================================================
@@ -40,66 +46,70 @@ Trades report produced on 12/06/2024 22:50 from 11/06/2024 22:50 to 12/06/2024 2
 ===============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33558    NASDAQ_micro  dynamic_TF_carry   [1]     2690.370813 -1603.868128    -1.85848      -0.92924          -4.6462                     NaN          -2.78772
-33559             JPY  dynamic_TF_carry  [-1]        0.000627   781.297176    -7.97242          -0.0        -15.94484                     NaN          -7.97242
-33560              DX  dynamic_TF_carry   [1]        6.629608  1259.501307   -7.541924     113.12886        98.045012                     NaN        105.586936
+33563        MSCIEAFA  dynamic_TF_carry  [-1]      318.351246 -2076.322956   -6.282369     12.564738             -0.0                     NaN          6.282369
+33564        MSCIEAFA  dynamic_TF_carry   [1]      318.351246  2112.446578  -10.994146           0.0       -21.988292                     NaN        -10.994146
+33565     SP500_micro  dynamic_TF_carry  [-1]      553.510752  -442.629162        -0.0          -0.0             -0.0                     NaN              -0.0
+33566         RUSSELL  dynamic_TF_carry  [-1]      371.116373 -1616.743543   -5.389145     -2.694573       -13.472863                     NaN         -8.083718
+33567     SP500_micro  dynamic_TF_carry   [1]      553.510752   370.363176   -4.516624     -4.516624       -13.549872                     NaN         -9.033248
 
 
-========================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                       
-========================================================================================================================================================================
+=========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                       
+=========================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33558    NASDAQ_micro  dynamic_TF_carry   [1]             1.569538 -677.255819    -0.784769      -0.392385         -1.961923                      NaN          -1.177154
-33559             JPY  dynamic_TF_carry  [-1]       9809614.992231  480.671135    -4.904807           -0.0         -9.809615                      NaN          -4.904807
-33560              DX  dynamic_TF_carry   [1]           784.769199  655.282281    -3.923846       58.85769         51.009998                      NaN          54.933844
+      instrument_code     strategy_name trade value_of_price_point   delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+33563        MSCIEAFA  dynamic_TF_carry  [-1]            39.321314 -2599.138863    -7.864263      15.728526              -0.0                      NaN           7.864263
+33564        MSCIEAFA  dynamic_TF_carry   [1]            39.321314  2644.358374    -13.76246            0.0         -27.52492                      NaN          -13.76246
+33565     SP500_micro  dynamic_TF_carry  [-1]             3.932131    -96.33722         -0.0           -0.0              -0.0                      NaN               -0.0
+33566         RUSSELL  dynamic_TF_carry  [-1]             3.932131  -235.927885    -0.786426      -0.393213         -1.966066                      NaN          -1.179639
+33567     SP500_micro  dynamic_TF_carry   [1]             3.932131    80.608694    -0.983033      -0.983033         -2.949099                      NaN          -1.966066
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry DX               655.282281
-                 JPY              480.671135
-                 NASDAQ_micro    -677.255819
+dynamic_TF_carry MSCIEAFA          45.219511
+                 RUSSELL         -235.927885
+                 SP500_micro      -15.728526
 delay_cash Total Sum
                   delay_cash
 strategy_name               
-dynamic_TF_carry  458.697597
+dynamic_TF_carry -206.436899
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry DX                 -3.923846
-                 JPY                -4.904807
-                 NASDAQ_micro       -0.784769
+dynamic_TF_carry MSCIEAFA          -21.626723
+                 RUSSELL            -0.786426
+                 SP500_micro        -0.983033
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -9.613423
+dynamic_TF_carry   -23.396182
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry DX                    58.85769
-                 JPY                       -0.0
-                 NASDAQ_micro         -0.392385
+dynamic_TF_carry MSCIEAFA             15.728526
+                 RUSSELL              -0.393213
+                 SP500_micro          -0.983033
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry      58.465305
+dynamic_TF_carry       14.35228
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry DX                      51.009998
-                 JPY                     -9.809615
-                 NASDAQ_micro            -1.961923
+dynamic_TF_carry MSCIEAFA                -27.52492
+                 RUSSELL                 -1.966066
+                 SP500_micro             -2.949099
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry          39.23846
+dynamic_TF_carry        -32.440084
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry DX                                     0
-                 JPY                                    0
-                 NASDAQ_micro                           0
+dynamic_TF_carry MSCIEAFA                               0
+                 RUSSELL                                0
+                 SP500_micro                            0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -107,13 +117,13 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry DX                       54.933844
-                 JPY                      -4.904807
-                 NASDAQ_micro             -1.177154
+dynamic_TF_carry MSCIEAFA                 -5.898197
+                 RUSSELL                  -1.179639
+                 SP500_micro              -1.966066
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry          48.851883
+dynamic_TF_carry          -9.043902
 
 ********************************************************************************
                                  END OF REPORT                                  
