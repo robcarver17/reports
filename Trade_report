@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 19/06/2024 22:50 from 18/06/2024 22:50 to 19/06/2024 22:50
+Trades report produced on 20/06/2024 22:49 from 19/06/2024 22:49 to 20/06/2024 22:49
 ********************************************************************************
 
 
@@ -10,14 +10,8 @@ Trades report produced on 19/06/2024 22:50 from 18/06/2024 22:50 to 19/06/2024 2
 =============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-33591            BUND  dynamic_TF_carry    [20240900] 2024-06-19 09:20:38   [1]       132.670
-33594   CRUDE_W_micro  dynamic_TF_carry    [20240800] 2024-06-19 14:00:08   [1]        81.040
-33593         EUROSTX  dynamic_TF_carry    [20240900] 2024-06-19 09:23:23  [-1]      4949.000
-33596             GBP  dynamic_TF_carry    [20240900] 2024-06-19 15:01:11  [-1]         1.273
-33592             MIB  dynamic_TF_carry    [20240900] 2024-06-19 09:20:41   [1]     33645.000
-33589          NIKKEI  dynamic_TF_carry    [20240900] 2024-06-19 01:00:16   [1]     38675.000
-33588           TOPIX  dynamic_TF_carry    [20240900] 2024-06-19 01:00:14   [1]      2727.500
-33595          YENEUR  dynamic_TF_carry    [20240900] 2024-06-19 15:00:26   [1]       168.070
+33598      FTSECHINAA  dynamic_TF_carry    [20240700] 2024-06-20 02:02:31  [-1]       12058.0
+33597      FTSETAIWAN  dynamic_TF_carry    [20240600] 2024-06-20 02:00:30  [-1]        1962.0
 
 
 =============================================================================================================================================================
@@ -25,29 +19,17 @@ Trades report produced on 19/06/2024 22:50 from 18/06/2024 22:50 to 19/06/2024 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-33588           TOPIX  dynamic_TF_carry       2024-06-18 00:00:00  2024-06-19 01:00:13.293000  2024-06-19 01:00:14              90013.293               0.707
-33589          NIKKEI  dynamic_TF_carry       2024-06-18 00:00:00  2024-06-19 01:00:14.919000  2024-06-19 01:00:16              90014.919               1.081
-33591            BUND  dynamic_TF_carry       2024-06-18 00:00:00  2024-06-19 09:20:32.941000  2024-06-19 09:20:38             120032.941               5.059
-33592             MIB  dynamic_TF_carry       2024-06-18 00:00:00  2024-06-19 09:20:41.254000  2024-06-19 09:20:41             120041.254                 NaN
-33593         EUROSTX  dynamic_TF_carry       2024-06-18 00:00:00  2024-06-19 09:22:58.395000  2024-06-19 09:23:23             120178.395              24.605
-33594   CRUDE_W_micro  dynamic_TF_carry       2024-06-18 00:00:00  2024-06-19 14:00:08.472000  2024-06-19 14:00:08             136808.472                 NaN
-33595          YENEUR  dynamic_TF_carry       2024-06-18 00:00:00  2024-06-19 15:00:02.599000  2024-06-19 15:00:26             140402.599              23.401
-33596             GBP  dynamic_TF_carry       2024-06-18 00:00:00  2024-06-19 15:00:26.999000  2024-06-19 15:01:11             140426.999              44.001
+33597      FTSETAIWAN  dynamic_TF_carry       2024-06-19 04:00:00  2024-06-20 02:00:27.195000  2024-06-20 02:00:30              79227.195               2.805
+33598      FTSECHINAA  dynamic_TF_carry       2024-06-19 00:00:00  2024-06-20 02:02:29.821000  2024-06-20 02:02:31              93749.821               1.179
 
 
-==============================================================================================================================================================================================================================
-                                                                                                   Slippage (ticks per lot)                                                                                                   
-==============================================================================================================================================================================================================================
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
-33588           TOPIX  dynamic_TF_carry   [1]                 2715.0               None  2726.875    2727.25        2726.5      2726.5       2727.5  -11.875   -0.375     -0.25         -1.0                 NaN        -0.625
-33589          NIKKEI  dynamic_TF_carry   [1]                38420.0               None   38662.5    38665.0       38660.0     38660.0      38675.0   -242.5     -2.5     -10.0        -15.0                 NaN         -12.5
-33591            BUND  dynamic_TF_carry   [1]                  132.6               None   132.675     132.68        132.67      132.67       132.67   -0.075   -0.005      0.01          0.0                 NaN         0.005
-33592             MIB  dynamic_TF_carry   [1]                33480.0               None   33660.0    33670.0       33650.0     33650.0      33645.0   -180.0    -10.0      25.0          5.0                 NaN          15.0
-33593         EUROSTX  dynamic_TF_carry  [-1]                 4957.0               None    4948.5     4948.0        4949.0      4949.0       4949.0     -8.5     -0.5       1.0         -0.0                 NaN           0.5
-33594   CRUDE_W_micro  dynamic_TF_carry   [1]                  80.64               None    81.015      81.02         81.01         NaN        81.04   -0.375   -0.005     -0.02          NaN                 NaN        -0.025
-33595          YENEUR  dynamic_TF_carry   [1]                 167.84               None    168.05     168.06        168.04      168.04       168.07    -0.21    -0.01     -0.01        -0.03                 NaN         -0.02
-33596             GBP  dynamic_TF_carry  [-1]                 1.2716               None   1.27295     1.2729         1.273       1.273        1.273  0.00135 -0.00005    0.0001         -0.0                 NaN       0.00005
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+33597      FTSETAIWAN  dynamic_TF_carry  [-1]                1961.75               None  1962.375    1962.25        1962.5      1962.5       1962.0  0.625  -0.125     -0.25         -0.5                 NaN        -0.375
+33598      FTSECHINAA  dynamic_TF_carry  [-1]                12044.0               None   12061.0    12059.0       12063.0     12063.0      12058.0   17.0    -2.0      -1.0         -5.0                 NaN          -3.0
 
 
 ==============================================================================================================================================================
@@ -55,101 +37,59 @@ Trades report produced on 19/06/2024 22:50 from 18/06/2024 22:50 to 19/06/2024 2
 ==============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33588           TOPIX  dynamic_TF_carry   [1]      382.443109 -310.503699    -9.80538      -6.53692        -26.14768                     NaN          -16.3423
-33589          NIKKEI  dynamic_TF_carry   [1]      5865.85319 -413.409596   -4.261955    -17.047818       -25.571728                     NaN        -21.309773
-33591            BUND  dynamic_TF_carry   [1]       10.860797  -69.055704   -4.603714      9.207427              0.0                     NaN          4.603714
-33592             MIB  dynamic_TF_carry   [1]     5603.624614 -321.220661  -17.845592     44.613981         8.922796                     NaN         26.768388
-33593         EUROSTX  dynamic_TF_carry  [-1]      720.684287 -117.943462   -6.937851     13.875701             -0.0                     NaN          6.937851
-33594   CRUDE_W_micro  dynamic_TF_carry   [1]       20.810697 -180.195788   -2.402611     -9.610442              NaN                     NaN        -12.013053
-33595          YENEUR  dynamic_TF_carry   [1]       13.273211 -158.213413   -7.533972     -7.533972       -22.601916                     NaN        -15.067944
-33596             GBP  dynamic_TF_carry  [-1]        0.079301  170.236582   -6.305059     12.610117             -0.0                     NaN          6.305059
+33597      FTSETAIWAN  dynamic_TF_carry  [-1]      253.608824   24.644253   -4.928851     -9.857701       -19.715402                     NaN        -14.786552
+33598      FTSECHINAA  dynamic_TF_carry  [-1]     1654.344789  102.759716  -12.089378     -6.044689       -30.223446                     NaN        -18.134067
 
 
-========================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                       
-========================================================================================================================================================================
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33588           TOPIX  dynamic_TF_carry   [1]             4.981279  -59.152686     -1.86798       -1.24532         -4.981279                      NaN          -3.113299
-33589          NIKKEI  dynamic_TF_carry   [1]             0.498128 -120.796012     -1.24532      -4.981279         -7.471918                      NaN          -6.226599
-33591            BUND  dynamic_TF_carry   [1]           843.950309  -63.296273    -4.219752       8.439503               0.0                      NaN           4.219752
-33592             MIB  dynamic_TF_carry   [1]             4.219752 -759.555278   -42.197515     105.493789         21.098758                      NaN          63.296273
-33593         EUROSTX  dynamic_TF_carry  [-1]             8.439503  -71.735776    -4.219752       8.439503              -0.0                      NaN           4.219752
-33594   CRUDE_W_micro  dynamic_TF_carry   [1]            78.600595  -29.475223    -0.393003      -1.572012               NaN                      NaN          -1.965015
-33595          YENEUR  dynamic_TF_carry   [1]           622.659854 -130.758569    -6.226599      -6.226599        -18.679796                      NaN         -12.453197
-33596             GBP  dynamic_TF_carry  [-1]         49125.371879   66.319252    -2.456269       4.912537              -0.0                      NaN           2.456269
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+33597      FTSETAIWAN  dynamic_TF_carry  [-1]             31.47153  19.669706    -3.933941      -7.867883        -15.735765                      NaN         -11.801824
+33598      FTSECHINAA  dynamic_TF_carry  [-1]             0.786788    13.3754    -1.573577      -0.786788         -3.933941                      NaN          -2.360365
 
 delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry BUND             -63.296273
-                 CRUDE_W_micro    -29.475223
-                 EUROSTX          -71.735776
-                 GBP               66.319252
-                 MIB             -759.555278
-                 NIKKEI          -120.796012
-                 TOPIX            -59.152686
-                 YENEUR          -130.758569
+                                 delay_cash
+strategy_name    instrument_code           
+dynamic_TF_carry FTSECHINAA         13.3754
+                 FTSETAIWAN       19.669706
 delay_cash Total Sum
-                   delay_cash
-strategy_name                
-dynamic_TF_carry -1168.450566
+                 delay_cash
+strategy_name              
+dynamic_TF_carry  33.045107
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry BUND               -4.219752
-                 CRUDE_W_micro      -0.393003
-                 EUROSTX            -4.219752
-                 GBP                -2.456269
-                 MIB               -42.197515
-                 NIKKEI              -1.24532
-                 TOPIX               -1.86798
-                 YENEUR             -6.226599
+dynamic_TF_carry FTSECHINAA         -1.573577
+                 FTSETAIWAN         -3.933941
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry   -62.826188
+dynamic_TF_carry    -5.507518
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry BUND                  8.439503
-                 CRUDE_W_micro        -1.572012
-                 EUROSTX               8.439503
-                 GBP                   4.912537
-                 MIB                 105.493789
-                 NIKKEI               -4.981279
-                 TOPIX                 -1.24532
-                 YENEUR               -6.226599
+dynamic_TF_carry FTSECHINAA           -0.786788
+                 FTSETAIWAN           -7.867883
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry     113.260123
+dynamic_TF_carry      -8.654671
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry BUND                          0.0
-                 CRUDE_W_micro                   0
-                 EUROSTX                      -0.0
-                 GBP                          -0.0
-                 MIB                     21.098758
-                 NIKKEI                  -7.471918
-                 TOPIX                   -4.981279
-                 YENEUR                 -18.679796
+dynamic_TF_carry FTSECHINAA              -3.933941
+                 FTSETAIWAN             -15.735765
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry        -10.034235
+dynamic_TF_carry        -19.669706
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry BUND                                   0
-                 CRUDE_W_micro                          0
-                 EUROSTX                                0
-                 GBP                                    0
-                 MIB                                    0
-                 NIKKEI                                 0
-                 TOPIX                                  0
-                 YENEUR                                 0
+dynamic_TF_carry FTSECHINAA                             0
+                 FTSETAIWAN                             0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -157,18 +97,12 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry BUND                      4.219752
-                 CRUDE_W_micro            -1.965015
-                 EUROSTX                   4.219752
-                 GBP                       2.456269
-                 MIB                      63.296273
-                 NIKKEI                   -6.226599
-                 TOPIX                    -3.113299
-                 YENEUR                  -12.453197
+dynamic_TF_carry FTSECHINAA               -2.360365
+                 FTSETAIWAN              -11.801824
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry          50.433935
+dynamic_TF_carry         -14.162189
 
 ********************************************************************************
                                  END OF REPORT                                  
