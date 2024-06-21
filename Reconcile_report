@@ -1,10 +1,10 @@
 
 ********************************************************************************
-                 Reconcile report produced on 20/06/2024 22:49                  
+                 Reconcile report produced on 21/06/2024 22:49                  
 ********************************************************************************
 
 
-Breaks Optimal vs actual ['dynamic_TF_carry FTSECHINAA']
+Breaks Optimal vs actual ['dynamic_TF_carry TOPIX', 'dynamic_TF_carry DOW']
  Breaks Instrument vs Contract []
  Breaks Broker vs Contract []
 
@@ -17,7 +17,7 @@ Breaks Optimal vs actual ['dynamic_TF_carry FTSECHINAA']
 16            BUND      20240906  2024-09-06 00:00:00      -1.0
 0             CORN      20241213  2024-12-13 00:00:00      -1.0
 5          EUROSTX      20240920  2024-09-20 00:00:00      -2.0
-17      FTSECHINAA      20240730  2024-07-30 00:00:00      -1.0
+17      FTSECHINAA      20240730  2024-07-30 00:00:00      -2.0
 10     GAS_US_mini      20240726  2024-07-26 00:00:00      -1.0
 9              JPY      20240916  2024-09-16 00:00:00      -2.0
 15         LIVECOW      20240830  2024-08-30 00:00:00       1.0
@@ -38,24 +38,24 @@ Breaks Optimal vs actual ['dynamic_TF_carry FTSECHINAA']
 ===============================================================
 
    instrument_code contract_date          expiry_date  position
-6              AEX      20240621  2024-06-21 00:00:00       1.0
-15            BUND      20240906  2024-09-06 00:00:00      -1.0
-9             CORN      20241213  2024-12-13 00:00:00      -1.0
-8          EUROSTX      20240920  2024-09-20 00:00:00      -2.0
-10      FTSECHINAA      20240730  2024-07-30 00:00:00      -1.0
-2      GAS_US_mini      20240726  2024-07-26 00:00:00      -1.0
-0              JPY      20240916  2024-09-16 00:00:00      -2.0
-16         LIVECOW      20240830  2024-08-30 00:00:00       1.0
-3              MIB      20240920  2024-09-20 00:00:00       1.0
-7         MSCISING      20240627  2024-06-27 00:00:00       1.0
-1     NASDAQ_micro      20240920  2024-09-20 00:00:00       2.0
-5           NIKKEI      20240912  2024-09-12 00:00:00       3.0
-12         RUSSELL      20240920  2024-09-20 00:00:00      -1.0
-17     SP500_micro      20240920  2024-09-20 00:00:00       1.0
-14           TOPIX      20240912  2024-09-12 00:00:00       1.0
+14             AEX      20240621  2024-06-21 00:00:00       1.0
+4             BUND      20240906  2024-09-06 00:00:00      -1.0
+1             CORN      20241213  2024-12-13 00:00:00      -1.0
+5          EUROSTX      20240920  2024-09-20 00:00:00      -2.0
+17      FTSECHINAA      20240730  2024-07-30 00:00:00      -2.0
+15     GAS_US_mini      20240726  2024-07-26 00:00:00      -1.0
+6              JPY      20240916  2024-09-16 00:00:00      -2.0
+7          LIVECOW      20240830  2024-08-30 00:00:00       1.0
+9              MIB      20240920  2024-09-20 00:00:00       1.0
+10        MSCISING      20240627  2024-06-27 00:00:00       1.0
+12    NASDAQ_micro      20240920  2024-09-20 00:00:00       2.0
+2           NIKKEI      20240912  2024-09-12 00:00:00       3.0
+16         RUSSELL      20240920  2024-09-20 00:00:00      -1.0
+13     SP500_micro      20240920  2024-09-20 00:00:00       1.0
+8            TOPIX      20240912  2024-09-12 00:00:00       1.0
 11             V2X      20240918  2024-09-18 00:00:00      -2.0
-13             VIX      20240821  2024-08-21 00:00:00      -5.0
-4           YENEUR      20240916  2024-09-16 00:00:00       1.0
+0              VIX      20240821  2024-08-21 00:00:00      -5.0
+3           YENEUR      20240916  2024-09-16 00:00:00       1.0
 
 
 ==================================================================================
@@ -63,8 +63,7 @@ Breaks Optimal vs actual ['dynamic_TF_carry FTSECHINAA']
 ==================================================================================
 
                strategy_name contract_date       fill_datetime  fill  filled_price
-FTSETAIWAN  dynamic_TF_carry    [20240600] 2024-06-20 02:00:30  [-1]        1962.0
-FTSECHINAA  dynamic_TF_carry    [20240700] 2024-06-20 02:02:31  [-1]       12058.0
+FTSECHINAA  dynamic_TF_carry    [20240700] 2024-06-21 02:02:48  [-1]       11985.0
 
 
 ==============================================================================
@@ -72,8 +71,7 @@ FTSECHINAA  dynamic_TF_carry    [20240700] 2024-06-20 02:02:31  [-1]       12058
 ==============================================================================
 
            strategy_name contract_date       fill_datetime  fill  filled_price
-FTSETAIWAN                  [20240627] 2024-06-20 02:00:30  [-1]        1962.0
-FTSECHINAA                  [20240730] 2024-06-20 02:02:31  [-1]       12058.0
+FTSECHINAA                  [20240730] 2024-06-21 02:02:48  [-1]       11985.0
 
 
 ==========================================================
@@ -156,7 +154,7 @@ dynamic_TF_carry EU-BANKS                0       0   False
 dynamic_TF_carry GAS_US_mini            -1      -1   False
 dynamic_TF_carry PLAT                    0       0   False
 dynamic_TF_carry SOYMEAL                 0       0   False
-dynamic_TF_carry TOPIX                   1       1   False
+dynamic_TF_carry TOPIX                   1       2    True
 dynamic_TF_carry EU-INSURE               0       0   False
 dynamic_TF_carry CHINAA-CON              0       0   False
 dynamic_TF_carry MILKDRY                 0       0   False
@@ -271,7 +269,7 @@ dynamic_TF_carry KRWUSD                  0       0   False
 dynamic_TF_carry SGX                     0       0   False
 dynamic_TF_carry VNKI                    0       0   False
 dynamic_TF_carry US-ENERGY               0       0   False
-dynamic_TF_carry FTSECHINAA             -1      -2    True
+dynamic_TF_carry FTSECHINAA             -2      -2   False
 dynamic_TF_carry SONIA3                  0       0   False
 dynamic_TF_carry GAS-PEN                 0       0   False
 dynamic_TF_carry CHFJPY                  0       0   False
@@ -283,7 +281,7 @@ dynamic_TF_carry KOSPI                   0       0   False
 dynamic_TF_carry EURAUD                  0       0   False
 dynamic_TF_carry CH10                    0       0   False
 dynamic_TF_carry BRE                     0       0   False
-dynamic_TF_carry DOW                     0       0   False
+dynamic_TF_carry DOW                     0       2    True
 dynamic_TF_carry SMI-MID                 0       0   False
 dynamic_TF_carry CANOLA                  0       0   False
 dynamic_TF_carry EU-AUTO                 0       0   False

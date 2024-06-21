@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 20/06/2024 22:49 from 19/06/2024 22:49 to 20/06/2024 22:49
+Trades report produced on 21/06/2024 22:49 from 20/06/2024 22:49 to 21/06/2024 22:49
 ********************************************************************************
 
 
@@ -10,8 +10,7 @@ Trades report produced on 20/06/2024 22:49 from 19/06/2024 22:49 to 20/06/2024 2
 =============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-33598      FTSECHINAA  dynamic_TF_carry    [20240700] 2024-06-20 02:02:31  [-1]       12058.0
-33597      FTSETAIWAN  dynamic_TF_carry    [20240600] 2024-06-20 02:00:30  [-1]        1962.0
+33599      FTSECHINAA  dynamic_TF_carry    [20240700] 2024-06-21 02:02:48  [-1]       11985.0
 
 
 =============================================================================================================================================================
@@ -19,17 +18,15 @@ Trades report produced on 20/06/2024 22:49 from 19/06/2024 22:49 to 20/06/2024 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-33597      FTSETAIWAN  dynamic_TF_carry       2024-06-19 04:00:00  2024-06-20 02:00:27.195000  2024-06-20 02:00:30              79227.195               2.805
-33598      FTSECHINAA  dynamic_TF_carry       2024-06-19 00:00:00  2024-06-20 02:02:29.821000  2024-06-20 02:02:31              93749.821               1.179
+33599      FTSECHINAA  dynamic_TF_carry       2024-06-20 00:00:00  2024-06-21 02:02:32.789000  2024-06-21 02:02:48              93752.789              15.211
 
 
-===========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                  
-===========================================================================================================================================================================================================================
+==========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                 
+==========================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
-33597      FTSETAIWAN  dynamic_TF_carry  [-1]                1961.75               None  1962.375    1962.25        1962.5      1962.5       1962.0  0.625  -0.125     -0.25         -0.5                 NaN        -0.375
-33598      FTSECHINAA  dynamic_TF_carry  [-1]                12044.0               None   12061.0    12059.0       12063.0     12063.0      12058.0   17.0    -2.0      -1.0         -5.0                 NaN          -3.0
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
+33599      FTSECHINAA  dynamic_TF_carry  [-1]                12018.0               None   11987.0    11986.0       11988.0     11988.0      11985.0 -31.0    -1.0      -1.0         -3.0                 NaN          -2.0
 
 
 ==============================================================================================================================================================
@@ -37,8 +34,7 @@ Trades report produced on 20/06/2024 22:49 from 19/06/2024 22:49 to 20/06/2024 2
 ==============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33597      FTSETAIWAN  dynamic_TF_carry  [-1]      253.608824   24.644253   -4.928851     -9.857701       -19.715402                     NaN        -14.786552
-33598      FTSECHINAA  dynamic_TF_carry  [-1]     1654.344789  102.759716  -12.089378     -6.044689       -30.223446                     NaN        -18.134067
+33599      FTSECHINAA  dynamic_TF_carry  [-1]     1677.235025 -184.828003   -5.962194     -5.962194       -17.886581                     NaN        -11.924387
 
 
 =======================================================================================================================================================================
@@ -46,50 +42,44 @@ Trades report produced on 20/06/2024 22:49 from 19/06/2024 22:49 to 20/06/2024 2
 =======================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33597      FTSETAIWAN  dynamic_TF_carry  [-1]             31.47153  19.669706    -3.933941      -7.867883        -15.735765                      NaN         -11.801824
-33598      FTSECHINAA  dynamic_TF_carry  [-1]             0.786788    13.3754    -1.573577      -0.786788         -3.933941                      NaN          -2.360365
+33599      FTSECHINAA  dynamic_TF_carry  [-1]             0.789297 -24.468211    -0.789297      -0.789297         -2.367891                      NaN          -1.578594
 
 delay_cash Sum
                                  delay_cash
 strategy_name    instrument_code           
-dynamic_TF_carry FTSECHINAA         13.3754
-                 FTSETAIWAN       19.669706
+dynamic_TF_carry FTSECHINAA      -24.468211
 delay_cash Total Sum
                  delay_cash
 strategy_name              
-dynamic_TF_carry  33.045107
+dynamic_TF_carry -24.468211
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry FTSECHINAA         -1.573577
-                 FTSETAIWAN         -3.933941
+dynamic_TF_carry FTSECHINAA         -0.789297
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -5.507518
+dynamic_TF_carry    -0.789297
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry FTSECHINAA           -0.786788
-                 FTSETAIWAN           -7.867883
+dynamic_TF_carry FTSECHINAA           -0.789297
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry      -8.654671
+dynamic_TF_carry      -0.789297
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry FTSECHINAA              -3.933941
-                 FTSETAIWAN             -15.735765
+dynamic_TF_carry FTSECHINAA              -2.367891
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry        -19.669706
+dynamic_TF_carry         -2.367891
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
 dynamic_TF_carry FTSECHINAA                             0
-                 FTSETAIWAN                             0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -97,12 +87,11 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry FTSECHINAA               -2.360365
-                 FTSETAIWAN              -11.801824
+dynamic_TF_carry FTSECHINAA               -1.578594
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry         -14.162189
+dynamic_TF_carry          -1.578594
 
 ********************************************************************************
                                  END OF REPORT                                  
