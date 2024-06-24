@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 21/06/2024 22:49 from 20/06/2024 22:49 to 21/06/2024 22:49
+Trades report produced on 24/06/2024 22:49 from 23/06/2024 22:49 to 24/06/2024 22:49
 ********************************************************************************
 
 
@@ -10,7 +10,10 @@ Trades report produced on 21/06/2024 22:49 from 20/06/2024 22:49 to 21/06/2024 2
 =============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-33599      FTSECHINAA  dynamic_TF_carry    [20240700] 2024-06-21 02:02:48  [-1]       11985.0
+33601             DOW  dynamic_TF_carry    [20240900] 2024-06-24 15:00:04   [1]     39851.000
+33602             DOW  dynamic_TF_carry    [20240900] 2024-06-24 15:00:09   [1]     39845.000
+33600     GAS_US_mini  dynamic_TF_carry    [20240800] 2024-06-24 14:00:13   [1]         2.815
+33603         LIVECOW  dynamic_TF_carry    [20240800] 2024-06-24 15:30:12  [-1]       184.350
 
 
 =============================================================================================================================================================
@@ -18,15 +21,21 @@ Trades report produced on 21/06/2024 22:49 from 20/06/2024 22:49 to 21/06/2024 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-33599      FTSECHINAA  dynamic_TF_carry       2024-06-20 00:00:00  2024-06-21 02:02:32.789000  2024-06-21 02:02:48              93752.789              15.211
+33600     GAS_US_mini  dynamic_TF_carry       2024-06-21 19:00:00  2024-06-24 14:00:07.031000  2024-06-24 14:00:13             241207.031               5.969
+33601             DOW  dynamic_TF_carry       2024-06-21 00:00:00  2024-06-24 15:00:04.676000  2024-06-24 15:00:04             313204.676                 NaN
+33602             DOW  dynamic_TF_carry       2024-06-21 00:00:00  2024-06-24 15:00:09.678000  2024-06-24 15:00:09             313209.678                 NaN
+33603         LIVECOW  dynamic_TF_carry       2024-06-21 19:00:00  2024-06-24 15:30:03.830000  2024-06-24 15:30:12              246603.83                8.17
 
 
-==========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                 
-==========================================================================================================================================================================================================================
+============================================================================================================================================================================================================================
+                                                                                                  Slippage (ticks per lot)                                                                                                  
+============================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
-33599      FTSECHINAA  dynamic_TF_carry  [-1]                12018.0               None   11987.0    11986.0       11988.0     11988.0      11985.0 -31.0    -1.0      -1.0         -3.0                 NaN          -2.0
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
+33600     GAS_US_mini  dynamic_TF_carry   [1]                   2.84               None    2.8175       2.82         2.815       2.815        2.815  0.0225 -0.0025     0.005          0.0                 NaN        0.0025
+33601             DOW  dynamic_TF_carry   [1]                39572.0               None   39851.5    39852.0       39851.0     39851.0      39851.0  -279.5    -0.5       1.0          0.0                 NaN           0.5
+33602             DOW  dynamic_TF_carry   [1]                39572.0               None   39850.5    39851.0       39850.0     39850.0      39845.0  -278.5    -0.5       6.0          5.0                 NaN           5.5
+33603         LIVECOW  dynamic_TF_carry  [-1]                183.275               None  184.3375    184.325        184.35      184.35       184.35  1.0625 -0.0125     0.025         -0.0                 NaN        0.0125
 
 
 ==============================================================================================================================================================
@@ -34,52 +43,68 @@ Trades report produced on 21/06/2024 22:49 from 20/06/2024 22:49 to 21/06/2024 2
 ==============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33599      FTSECHINAA  dynamic_TF_carry  [-1]     1677.235025 -184.828003   -5.962194     -5.962194       -17.886581                     NaN        -11.924387
+33600     GAS_US_mini  dynamic_TF_carry   [1]        1.803563  124.753025  -13.861447     27.722895              0.0                     NaN         13.861447
+33601             DOW  dynamic_TF_carry   [1]     3995.681928 -699.505128   -1.251351      2.502702              0.0                     NaN          1.251351
+33602             DOW  dynamic_TF_carry   [1]     3995.681928 -697.002427   -1.251351      15.01621        12.513509                     NaN         13.764859
+33603         LIVECOW  dynamic_TF_carry  [-1]       22.214933  478.281894   -5.626846     11.253692             -0.0                     NaN          5.626846
 
 
-=======================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                      
-=======================================================================================================================================================================
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33599      FTSECHINAA  dynamic_TF_carry  [-1]             0.789297 -24.468211    -0.789297      -0.789297         -2.367891                      NaN          -1.578594
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+33600     GAS_US_mini  dynamic_TF_carry   [1]          1975.300838   44.444269    -4.938252       9.876504               0.0                      NaN           4.938252
+33601             DOW  dynamic_TF_carry   [1]              0.39506 -110.419317     -0.19753        0.39506               0.0                      NaN            0.19753
+33602             DOW  dynamic_TF_carry   [1]              0.39506 -110.024257     -0.19753       2.370361          1.975301                      NaN           2.172831
+33603         LIVECOW  dynamic_TF_carry  [-1]           316.048134  335.801143    -3.950602       7.901203              -0.0                      NaN           3.950602
 
 delay_cash Sum
-                                 delay_cash
-strategy_name    instrument_code           
-dynamic_TF_carry FTSECHINAA      -24.468211
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry DOW             -220.443574
+                 GAS_US_mini       44.444269
+                 LIVECOW          335.801143
 delay_cash Total Sum
-                 delay_cash
-strategy_name              
-dynamic_TF_carry -24.468211
+                  delay_cash
+strategy_name               
+dynamic_TF_carry  159.801838
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry FTSECHINAA         -0.789297
+dynamic_TF_carry DOW                 -0.39506
+                 GAS_US_mini        -4.938252
+                 LIVECOW            -3.950602
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -0.789297
+dynamic_TF_carry    -9.283914
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry FTSECHINAA           -0.789297
+dynamic_TF_carry DOW                   2.765421
+                 GAS_US_mini           9.876504
+                 LIVECOW               7.901203
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry      -0.789297
+dynamic_TF_carry      20.543129
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry FTSECHINAA              -2.367891
+dynamic_TF_carry DOW                      1.975301
+                 GAS_US_mini                   0.0
+                 LIVECOW                      -0.0
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry         -2.367891
+dynamic_TF_carry          1.975301
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry FTSECHINAA                             0
+dynamic_TF_carry DOW                                    0
+                 GAS_US_mini                            0
+                 LIVECOW                                0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -87,11 +112,13 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry FTSECHINAA               -1.578594
+dynamic_TF_carry DOW                       2.370361
+                 GAS_US_mini               4.938252
+                 LIVECOW                   3.950602
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry          -1.578594
+dynamic_TF_carry          11.259215
 
 ********************************************************************************
                                  END OF REPORT                                  

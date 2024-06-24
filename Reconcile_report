@@ -1,12 +1,12 @@
 
 ********************************************************************************
-                 Reconcile report produced on 21/06/2024 22:49                  
+                 Reconcile report produced on 24/06/2024 22:49                  
 ********************************************************************************
 
 
-Breaks Optimal vs actual ['dynamic_TF_carry TOPIX', 'dynamic_TF_carry DOW']
+Breaks Optimal vs actual ['dynamic_TF_carry LIVECOW', 'dynamic_TF_carry TOPIX', 'dynamic_TF_carry CHINAA-CON', 'dynamic_TF_carry DAX', 'dynamic_TF_carry BITCOIN', 'dynamic_TF_carry YENEUR', 'dynamic_TF_carry FTSETAIWAN', 'dynamic_TF_carry DOW']
  Breaks Instrument vs Contract []
- Breaks Broker vs Contract []
+ Breaks Broker vs Contract [AEX/20240621]
 
 ===============================================================
                         Positions in DB                        
@@ -14,13 +14,12 @@ Breaks Optimal vs actual ['dynamic_TF_carry TOPIX', 'dynamic_TF_carry DOW']
 
    instrument_code contract_date          expiry_date  position
 14             AEX      20240621  2024-06-21 00:00:00       1.0
-16            BUND      20240906  2024-09-06 00:00:00      -1.0
+15            BUND      20240906  2024-09-06 00:00:00      -1.0
 0             CORN      20241213  2024-12-13 00:00:00      -1.0
+10             DOW      20240920  2024-09-20 00:00:00       2.0
 5          EUROSTX      20240920  2024-09-20 00:00:00      -2.0
-17      FTSECHINAA      20240730  2024-07-30 00:00:00      -2.0
-10     GAS_US_mini      20240726  2024-07-26 00:00:00      -1.0
+16      FTSECHINAA      20240730  2024-07-30 00:00:00      -2.0
 9              JPY      20240916  2024-09-16 00:00:00      -2.0
-15         LIVECOW      20240830  2024-08-30 00:00:00       1.0
 8              MIB      20240920  2024-09-20 00:00:00       1.0
 13        MSCISING      20240627  2024-06-27 00:00:00       1.0
 2     NASDAQ_micro      20240920  2024-09-20 00:00:00       2.0
@@ -38,40 +37,44 @@ Breaks Optimal vs actual ['dynamic_TF_carry TOPIX', 'dynamic_TF_carry DOW']
 ===============================================================
 
    instrument_code contract_date          expiry_date  position
-14             AEX      20240621  2024-06-21 00:00:00       1.0
-4             BUND      20240906  2024-09-06 00:00:00      -1.0
-1             CORN      20241213  2024-12-13 00:00:00      -1.0
-5          EUROSTX      20240920  2024-09-20 00:00:00      -2.0
-17      FTSECHINAA      20240730  2024-07-30 00:00:00      -2.0
-15     GAS_US_mini      20240726  2024-07-26 00:00:00      -1.0
-6              JPY      20240916  2024-09-16 00:00:00      -2.0
-7          LIVECOW      20240830  2024-08-30 00:00:00       1.0
-9              MIB      20240920  2024-09-20 00:00:00       1.0
-10        MSCISING      20240627  2024-06-27 00:00:00       1.0
-12    NASDAQ_micro      20240920  2024-09-20 00:00:00       2.0
-2           NIKKEI      20240912  2024-09-12 00:00:00       3.0
-16         RUSSELL      20240920  2024-09-20 00:00:00      -1.0
-13     SP500_micro      20240920  2024-09-20 00:00:00       1.0
-8            TOPIX      20240912  2024-09-12 00:00:00       1.0
-11             V2X      20240918  2024-09-18 00:00:00      -2.0
-0              VIX      20240821  2024-08-21 00:00:00      -5.0
-3           YENEUR      20240916  2024-09-16 00:00:00       1.0
+1             BUND      20240906  2024-09-06 00:00:00      -1.0
+13            CORN      20241213  2024-12-13 00:00:00      -1.0
+6              DOW      20240920  2024-09-20 00:00:00       2.0
+0          EUROSTX      20240920  2024-09-20 00:00:00      -2.0
+2       FTSECHINAA      20240730  2024-07-30 00:00:00      -2.0
+7              JPY      20240916  2024-09-16 00:00:00      -2.0
+3              MIB      20240920  2024-09-20 00:00:00       1.0
+12        MSCISING      20240627  2024-06-27 00:00:00       1.0
+14    NASDAQ_micro      20240920  2024-09-20 00:00:00       2.0
+9           NIKKEI      20240912  2024-09-12 00:00:00       3.0
+11         RUSSELL      20240920  2024-09-20 00:00:00      -1.0
+4      SP500_micro      20240920  2024-09-20 00:00:00       1.0
+15           TOPIX      20240912  2024-09-12 00:00:00       1.0
+8              V2X      20240918  2024-09-18 00:00:00      -2.0
+5              VIX      20240821  2024-08-21 00:00:00      -5.0
+10          YENEUR      20240916  2024-09-16 00:00:00       1.0
 
 
-==================================================================================
-                                   Trades in DB                                   
-==================================================================================
+===================================================================================
+                                   Trades in DB                                    
+===================================================================================
 
-               strategy_name contract_date       fill_datetime  fill  filled_price
-FTSECHINAA  dynamic_TF_carry    [20240700] 2024-06-21 02:02:48  [-1]       11985.0
+                strategy_name contract_date       fill_datetime  fill  filled_price
+GAS_US_mini  dynamic_TF_carry    [20240800] 2024-06-24 14:00:13   [1]         2.815
+DOW          dynamic_TF_carry    [20240900] 2024-06-24 15:00:04   [1]     39851.000
+DOW          dynamic_TF_carry    [20240900] 2024-06-24 15:00:09   [1]     39845.000
+LIVECOW      dynamic_TF_carry    [20240800] 2024-06-24 15:30:12  [-1]       184.350
 
 
-==============================================================================
-                              Trades from broker                              
-==============================================================================
+===============================================================================
+                              Trades from broker                               
+===============================================================================
 
-           strategy_name contract_date       fill_datetime  fill  filled_price
-FTSECHINAA                  [20240730] 2024-06-21 02:02:48  [-1]       11985.0
+            strategy_name contract_date       fill_datetime  fill  filled_price
+DOW                          [20240920] 2024-06-24 15:00:09   [1]     39845.000
+LIVECOW                      [20240830] 2024-06-24 15:30:12  [-1]       184.350
+GAS_US_mini                  [20240726] 2024-06-24 14:00:13   [1]         2.815
+DOW                          [20240920] 2024-06-24 15:00:04   [1]     39851.000
 
 
 ==========================================================
@@ -89,7 +92,7 @@ dynamic_TF_carry CAD                     0       0   False
 dynamic_TF_carry US-PROPERTY             0       0   False
 dynamic_TF_carry EURIBOR                 0       0   False
 dynamic_TF_carry NICKEL_LME              0       0   False
-dynamic_TF_carry LIVECOW                 1       1   False
+dynamic_TF_carry LIVECOW                 0       1    True
 dynamic_TF_carry MSCIEMASIA              0       0   False
 dynamic_TF_carry CZK                     0       0   False
 dynamic_TF_carry MSCIEAFA                0       0   False
@@ -151,12 +154,12 @@ dynamic_TF_carry US-TECH                 0       0   False
 dynamic_TF_carry AUD                     0       0   False
 dynamic_TF_carry CRUDE_ICE               0       0   False
 dynamic_TF_carry EU-BANKS                0       0   False
-dynamic_TF_carry GAS_US_mini            -1      -1   False
+dynamic_TF_carry GAS_US_mini             0       0   False
 dynamic_TF_carry PLAT                    0       0   False
 dynamic_TF_carry SOYMEAL                 0       0   False
 dynamic_TF_carry TOPIX                   1       2    True
 dynamic_TF_carry EU-INSURE               0       0   False
-dynamic_TF_carry CHINAA-CON              0       0   False
+dynamic_TF_carry CHINAA-CON              0      -1    True
 dynamic_TF_carry MILKDRY                 0       0   False
 dynamic_TF_carry ETHEREUM                0       0   False
 dynamic_TF_carry FTSE100                 0       0   False
@@ -165,11 +168,11 @@ dynamic_TF_carry NIKKEI400               0       0   False
 dynamic_TF_carry JPY                    -2      -2   False
 dynamic_TF_carry IBEX_mini               0       0   False
 dynamic_TF_carry CRUDE_W_micro           0       0   False
-dynamic_TF_carry DAX                     0       0   False
+dynamic_TF_carry DAX                     0      -1    True
 dynamic_TF_carry CAD5                    0       0   False
 dynamic_TF_carry DX                      0       0   False
 dynamic_TF_carry FANG                    0       0   False
-dynamic_TF_carry BITCOIN                 0       0   False
+dynamic_TF_carry BITCOIN                 0      -1    True
 dynamic_TF_carry US-MATERIAL             0       0   False
 dynamic_TF_carry IRS                     0       0   False
 dynamic_TF_carry EU-TECH                 0       0   False
@@ -201,7 +204,7 @@ dynamic_TF_carry ALUMINIUM               0       0   False
 dynamic_TF_carry FTSECHINAH              0       0   False
 dynamic_TF_carry BTP                     0       0   False
 dynamic_TF_carry SUGAR16                 0       0   False
-dynamic_TF_carry YENEUR                  1       1   False
+dynamic_TF_carry YENEUR                  1       2    True
 dynamic_TF_carry SOYBEAN_mini            0       0   False
 dynamic_TF_carry SILVER                  0       0   False
 dynamic_TF_carry EUR                     0       0   False
@@ -223,7 +226,7 @@ dynamic_TF_carry ZAR                     0       0   False
 dynamic_TF_carry SUGAR11                 0       0   False
 dynamic_TF_carry ROBUSTA                 0       0   False
 dynamic_TF_carry US-INDUSTRY             0       0   False
-dynamic_TF_carry FTSETAIWAN              0       0   False
+dynamic_TF_carry FTSETAIWAN              0       1    True
 dynamic_TF_carry MILK                    0       0   False
 dynamic_TF_carry BUXL                    0       0   False
 dynamic_TF_carry EU-TRAVEL               0       0   False
@@ -281,7 +284,7 @@ dynamic_TF_carry KOSPI                   0       0   False
 dynamic_TF_carry EURAUD                  0       0   False
 dynamic_TF_carry CH10                    0       0   False
 dynamic_TF_carry BRE                     0       0   False
-dynamic_TF_carry DOW                     0       2    True
+dynamic_TF_carry DOW                     2       4    True
 dynamic_TF_carry SMI-MID                 0       0   False
 dynamic_TF_carry CANOLA                  0       0   False
 dynamic_TF_carry EU-AUTO                 0       0   False
