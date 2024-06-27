@@ -1,141 +1,15 @@
 
 ********************************************************************************
-Trades report produced on 26/06/2024 22:50 from 25/06/2024 22:50 to 26/06/2024 22:50
+Trades report produced on 27/06/2024 22:50 from 26/06/2024 22:50 to 27/06/2024 22:50
 ********************************************************************************
 
 
-
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
-
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-33616             AEX  dynamic_TF_carry    [20240700] 2024-06-26 08:00:07   [1]        934.35
-33618         BITCOIN  dynamic_TF_carry    [20240700] 2024-06-26 15:00:06  [-1]      62250.00
-33617   CRUDE_W_micro  dynamic_TF_carry    [20240900] 2024-06-26 14:00:08   [1]         80.36
-33619             DOW  dynamic_TF_carry    [20240900] 2024-06-26 15:00:08   [1]      39354.00
-33615           TOPIX  dynamic_TF_carry    [20240900] 2024-06-26 02:02:27   [1]       2789.00
-
-
-=============================================================================================================================================================
-                                                                           Delays                                                                            
-=============================================================================================================================================================
-
-      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-33615           TOPIX  dynamic_TF_carry       2024-06-25 00:00:00  2024-06-26 02:02:22.697000  2024-06-26 02:02:27              93742.697               4.303
-33616             AEX  dynamic_TF_carry       2024-06-21 00:00:00  2024-06-26 08:00:06.783000  2024-06-26 08:00:07             460806.783               0.217
-33617   CRUDE_W_micro  dynamic_TF_carry       2024-06-25 00:00:00  2024-06-26 14:00:07.407000  2024-06-26 14:00:08             136807.407               0.593
-33618         BITCOIN  dynamic_TF_carry       2024-06-25 00:00:00  2024-06-26 15:00:04.675000  2024-06-26 15:00:06             140404.675               1.325
-33619             DOW  dynamic_TF_carry       2024-06-25 00:00:00  2024-06-26 15:00:08.013000  2024-06-26 15:00:08             140408.013                 NaN
-
-
-===========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                  
-===========================================================================================================================================================================================================================
-
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
-33615           TOPIX  dynamic_TF_carry   [1]                2776.75               None    2788.5    2788.75       2788.25     2788.25       2789.0 -11.75   -0.25     -0.25        -0.75                 NaN          -0.5
-33616             AEX  dynamic_TF_carry   [1]                  930.8               None   934.125     934.25         934.0       934.0       934.35 -3.325  -0.125      -0.1        -0.35                 NaN        -0.225
-33617   CRUDE_W_micro  dynamic_TF_carry   [1]                  79.98               None     80.34      80.35         80.33       80.33        80.36  -0.36   -0.01     -0.01        -0.03                 NaN         -0.02
-33618         BITCOIN  dynamic_TF_carry  [-1]                62445.0               None   62280.0    62265.0       62295.0     62295.0      62250.0 -165.0   -15.0     -15.0        -45.0                 NaN         -30.0
-33619             DOW  dynamic_TF_carry   [1]                39552.0               None   39353.5    39355.0       39352.0     39352.0      39354.0  198.5    -1.5       1.0         -2.0                 NaN          -0.5
-
-
-==============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
-==============================================================================================================================================================
-
-      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33615           TOPIX  dynamic_TF_carry   [1]      375.847159  -312.62708    -6.65164      -6.65164        -19.95492                     NaN         -13.30328
-33616             AEX  dynamic_TF_carry   [1]        93.22757 -356.654154  -13.408051    -10.726441       -37.542543                     NaN        -24.134492
-33617   CRUDE_W_micro  dynamic_TF_carry   [1]       19.777235 -182.027467   -5.056319     -5.056319       -15.168956                     NaN        -10.112637
-33618         BITCOIN  dynamic_TF_carry  [-1]    27605.998696  -59.769618   -5.433602     -5.433602       -16.300805                     NaN        -10.867203
-33619             DOW  dynamic_TF_carry   [1]     4041.851577  491.111552    -3.71117      2.474114        -4.948227                     NaN         -1.237057
-
-
-========================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                       
-========================================================================================================================================================================
-
-      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33615           TOPIX  dynamic_TF_carry   [1]             4.931882   -57.94961     -1.23297       -1.23297         -3.698911                      NaN          -2.465941
-33616             AEX  dynamic_TF_carry   [1]            168.75069 -561.096043   -21.093836     -16.875069        -59.062741                      NaN         -37.968905
-33617   CRUDE_W_micro  dynamic_TF_carry   [1]             78.82084  -28.375502    -0.788208      -0.788208         -2.364625                      NaN          -1.576417
-33618         BITCOIN  dynamic_TF_carry  [-1]             0.078821  -13.005439    -1.182313      -1.182313         -3.546938                      NaN          -2.364625
-33619             DOW  dynamic_TF_carry   [1]             0.394104   78.229684    -0.591156       0.394104         -0.788208                      NaN          -0.197052
-
-delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry AEX             -561.096043
-                 BITCOIN          -13.005439
-                 CRUDE_W_micro    -28.375502
-                 DOW               78.229684
-                 TOPIX             -57.94961
-delay_cash Total Sum
-                 delay_cash
-strategy_name              
-dynamic_TF_carry -582.19691
-bid_ask_cash Sum
-                                 bid_ask_cash
-strategy_name    instrument_code             
-dynamic_TF_carry AEX               -21.093836
-                 BITCOIN            -1.182313
-                 CRUDE_W_micro      -0.788208
-                 DOW                -0.591156
-                 TOPIX               -1.23297
-bid_ask_cash Total Sum
-                 bid_ask_cash
-strategy_name                
-dynamic_TF_carry   -24.888484
-execution_cash Sum
-                                 execution_cash
-strategy_name    instrument_code               
-dynamic_TF_carry AEX                 -16.875069
-                 BITCOIN              -1.182313
-                 CRUDE_W_micro        -0.788208
-                 DOW                   0.394104
-                 TOPIX                 -1.23297
-execution_cash Total Sum
-                 execution_cash
-strategy_name                  
-dynamic_TF_carry     -19.684456
-versus_limit_cash Sum
-                                 versus_limit_cash
-strategy_name    instrument_code                  
-dynamic_TF_carry AEX                    -59.062741
-                 BITCOIN                 -3.546938
-                 CRUDE_W_micro           -2.364625
-                 DOW                     -0.788208
-                 TOPIX                   -3.698911
-versus_limit_cash Total Sum
-                 versus_limit_cash
-strategy_name                     
-dynamic_TF_carry        -69.461424
-versus_parent_limit_cash Sum
-                                 versus_parent_limit_cash
-strategy_name    instrument_code                         
-dynamic_TF_carry AEX                                    0
-                 BITCOIN                                0
-                 CRUDE_W_micro                          0
-                 DOW                                    0
-                 TOPIX                                  0
-versus_parent_limit_cash Total Sum
-                 versus_parent_limit_cash
-strategy_name                            
-dynamic_TF_carry                        0
-total_trading_cash Sum
-                                 total_trading_cash
-strategy_name    instrument_code                   
-dynamic_TF_carry AEX                     -37.968905
-                 BITCOIN                  -2.364625
-                 CRUDE_W_micro            -1.576417
-                 DOW                      -0.197052
-                 TOPIX                    -2.465941
-total_trading_cash Total Sum
-                 total_trading_cash
-strategy_name                      
-dynamic_TF_carry          -44.57294
+No trades
+No trades
+No trades
+No trades
+No trades
+No trades
 
 ********************************************************************************
                                  END OF REPORT                                  
