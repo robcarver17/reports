@@ -1,23 +1,17 @@
 
 ********************************************************************************
-Trades report produced on 28/06/2024 22:50 from 27/06/2024 22:50 to 28/06/2024 22:50
+Trades report produced on 01/07/2024 22:50 from 30/06/2024 22:50 to 01/07/2024 22:50
 ********************************************************************************
 
 
 
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
+============================================================================================
+                                       Broker orders                                        
+============================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-33623       ALUMINIUM  dynamic_TF_carry    [20240900] 2024-06-28 14:00:07  [-1]     2507.5000
-33622            BUND  dynamic_TF_carry    [20240900] 2024-06-28 08:00:11  [-1]      132.0600
-33625   CRUDE_W_micro  dynamic_TF_carry    [20241000] 2024-06-28 14:00:12  [-1]       80.3500
-33624       GASOILINE  dynamic_TF_carry    [20241000] 2024-06-28 14:00:09   [1]        2.3171
-33626     GAS_US_mini  dynamic_TF_carry    [20240900] 2024-06-28 14:00:17  [-1]        2.7150
-33620          KOSDAQ  dynamic_TF_carry    [20240900] 2024-06-28 02:00:30  [-1]     1367.9000
-33621        MSCISING  dynamic_TF_carry    [20240700] 2024-06-28 02:02:27   [1]      315.7000
-33627    NASDAQ_micro  dynamic_TF_carry    [20240900] 2024-06-28 15:00:02  [-1]    20163.5000
+      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
+33628             VIX  dynamic_TF_carry    [20240800] 2024-07-01 15:00:10  [1]         14.75
+33629             VIX  dynamic_TF_carry    [20240800] 2024-07-01 15:00:15  [1]         14.80
 
 
 =============================================================================================================================================================
@@ -25,131 +19,72 @@ Trades report produced on 28/06/2024 22:50 from 27/06/2024 22:50 to 28/06/2024 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-33620          KOSDAQ  dynamic_TF_carry       2024-06-27 00:00:00  2024-06-28 02:00:29.463000  2024-06-28 02:00:30              93629.463               0.537
-33621        MSCISING  dynamic_TF_carry       2024-06-27 00:00:00  2024-06-28 02:02:24.009000  2024-06-28 02:02:27              93744.009               2.991
-33622            BUND  dynamic_TF_carry       2024-06-27 00:00:00  2024-06-28 08:00:10.809000  2024-06-28 08:00:11             115210.809               0.191
-33623       ALUMINIUM  dynamic_TF_carry       2024-06-27 00:00:00  2024-06-28 14:00:06.707000  2024-06-28 14:00:07             136806.707               0.293
-33624       GASOILINE  dynamic_TF_carry       2024-06-27 00:00:00  2024-06-28 14:00:08.219000  2024-06-28 14:00:09             136808.219               0.781
-33625   CRUDE_W_micro  dynamic_TF_carry       2024-06-27 00:00:00  2024-06-28 14:00:10.907000  2024-06-28 14:00:12             136810.907               1.093
-33626     GAS_US_mini  dynamic_TF_carry       2024-06-27 00:00:00  2024-06-28 14:00:17.786000  2024-06-28 14:00:17             136817.786                 NaN
-33627    NASDAQ_micro  dynamic_TF_carry       2024-06-27 00:00:00  2024-06-28 15:00:02.763000  2024-06-28 15:00:02             140402.763                 NaN
+33628             VIX  dynamic_TF_carry       2024-06-28 20:00:00  2024-07-01 15:00:04.415000  2024-07-01 15:00:10             241204.415               5.585
+33629             VIX  dynamic_TF_carry       2024-06-28 20:00:00  2024-07-01 15:00:15.421000  2024-07-01 15:00:15             241215.421                 NaN
 
 
-==============================================================================================================================================================================================================================
-                                                                                                   Slippage (ticks per lot)                                                                                                   
-==============================================================================================================================================================================================================================
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price  mid_price side_price offside_price limit_price filled_price    delay bid_ask execution versus_limit versus_parent_limit total_trading
-33620          KOSDAQ  dynamic_TF_carry  [-1]                 1367.6               None    1368.05     1367.9        1368.2      1368.2       1367.9     0.45   -0.15      -0.0         -0.3                 NaN         -0.15
-33621        MSCISING  dynamic_TF_carry   [1]                  316.2               None    315.725     315.75         315.7       315.7        315.7    0.475  -0.025      0.05          0.0                 NaN         0.025
-33622            BUND  dynamic_TF_carry  [-1]                 132.03               None     132.08     132.07        132.09      132.09       132.06     0.05   -0.01     -0.01        -0.03                 NaN         -0.02
-33623       ALUMINIUM  dynamic_TF_carry  [-1]                2463.75               None     2508.5     2507.5        2509.5      2509.5       2507.5    44.75    -1.0      -0.0         -2.0                 NaN          -1.0
-33624       GASOILINE  dynamic_TF_carry   [1]                 2.3031               None     2.3166     2.3168        2.3164      2.3164       2.3171  -0.0135 -0.0002   -0.0003      -0.0007                 NaN       -0.0005
-33625   CRUDE_W_micro  dynamic_TF_carry  [-1]                  80.04               None     80.385      80.37          80.4        80.4        80.35    0.345  -0.015     -0.02        -0.05                 NaN        -0.035
-33626     GAS_US_mini  dynamic_TF_carry  [-1]                  2.675               None     2.7125       2.71         2.715       2.715        2.715   0.0375 -0.0025     0.005         -0.0                 NaN        0.0025
-33627    NASDAQ_micro  dynamic_TF_carry  [-1]                20047.5               None  20162.875   20162.25       20163.5     20163.5      20163.5  115.375  -0.625      1.25         -0.0                 NaN         0.625
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+33628             VIX  dynamic_TF_carry   [1]                  14.85               None    14.775       14.8         14.75       14.75        14.75  0.075  -0.025      0.05          0.0                 NaN         0.025
+33629             VIX  dynamic_TF_carry   [1]                  14.85               None     14.75       14.8          14.7        14.7         14.8    0.1   -0.05       0.0         -0.1                 NaN         -0.05
 
 
-==============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
-==============================================================================================================================================================
+=============================================================================================================================================================
+                                                    Slippage (normalised by annual vol, BP of annual SR)                                                     
+=============================================================================================================================================================
 
-      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33620          KOSDAQ  dynamic_TF_carry  [-1]      274.954846   16.366324   -5.455441          -0.0       -10.910882                     NaN         -5.455441
-33621        MSCISING  dynamic_TF_carry   [1]       30.294724  156.792976   -8.252262     16.504524              0.0                     NaN          8.252262
-33622            BUND  dynamic_TF_carry  [-1]        9.868932   50.664043  -10.132809    -10.132809       -30.398426                     NaN        -20.265617
-33623       ALUMINIUM  dynamic_TF_carry  [-1]      562.000818  796.262186  -17.793568          -0.0       -35.587137                     NaN        -17.793568
-33624       GASOILINE  dynamic_TF_carry   [1]        0.538259 -250.808632   -3.715683     -5.573525       -13.004892                     NaN         -9.289209
-33625   CRUDE_W_micro  dynamic_TF_carry  [-1]       19.307362  178.688319   -7.769057    -10.358743       -25.896858                     NaN          -18.1278
-33626     GAS_US_mini  dynamic_TF_carry  [-1]        1.758298  213.274439  -14.218296     28.436592             -0.0                     NaN         14.218296
-33627    NASDAQ_micro  dynamic_TF_carry  [-1]     2631.584729  438.424037   -2.374995       4.74999             -0.0                     NaN          2.374995
+      instrument_code     strategy_name trade last_annual_vol  delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+33628             VIX  dynamic_TF_carry   [1]         5.01824  149.45478   -49.81826      99.63652              0.0                     NaN          49.81826
+33629             VIX  dynamic_TF_carry   [1]         5.01824  199.27304   -99.63652           0.0       -199.27304                     NaN         -99.63652
 
 
-========================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                       
-========================================================================================================================================================================
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33620          KOSDAQ  dynamic_TF_carry  [-1]             5.712623     2.57068    -0.856893           -0.0         -1.713787                      NaN          -0.856893
-33621        MSCISING  dynamic_TF_carry   [1]            58.287639   27.686629    -1.457191       2.914382               0.0                      NaN           1.457191
-33622            BUND  dynamic_TF_carry  [-1]           846.309431   42.315472    -8.463094      -8.463094        -25.389283                      NaN         -16.926189
-33623       ALUMINIUM  dynamic_TF_carry  [-1]            19.790694   885.63354   -19.790694           -0.0        -39.581387                      NaN         -19.790694
-33624       GASOILINE  dynamic_TF_carry   [1]         33248.365289 -448.852931    -6.649673       -9.97451        -23.273856                      NaN         -16.624183
-33625   CRUDE_W_micro  dynamic_TF_carry  [-1]            79.162774   27.311157    -1.187442      -1.583255         -3.958139                      NaN          -2.770697
-33626     GAS_US_mini  dynamic_TF_carry  [-1]          1979.069362   74.215101    -4.947673       9.895347              -0.0                      NaN           4.947673
-33627    NASDAQ_micro  dynamic_TF_carry  [-1]             1.583255  182.668102    -0.989535       1.979069              -0.0                      NaN           0.989535
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+33628             VIX  dynamic_TF_carry   [1]           789.107165  59.183037   -19.727679      39.455358               0.0                      NaN          19.727679
+33629             VIX  dynamic_TF_carry   [1]           789.107165  78.910716   -39.455358            0.0        -78.910716                      NaN         -39.455358
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry ALUMINIUM         885.63354
-                 BUND              42.315472
-                 CRUDE_W_micro     27.311157
-                 GASOILINE       -448.852931
-                 GAS_US_mini       74.215101
-                 KOSDAQ              2.57068
-                 MSCISING          27.686629
-                 NASDAQ_micro     182.668102
+dynamic_TF_carry VIX              138.093754
 delay_cash Total Sum
                   delay_cash
 strategy_name               
-dynamic_TF_carry  793.547749
+dynamic_TF_carry  138.093754
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry ALUMINIUM         -19.790694
-                 BUND               -8.463094
-                 CRUDE_W_micro      -1.187442
-                 GASOILINE          -6.649673
-                 GAS_US_mini        -4.947673
-                 KOSDAQ             -0.856893
-                 MSCISING           -1.457191
-                 NASDAQ_micro       -0.989535
+dynamic_TF_carry VIX               -59.183037
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry   -44.342195
+dynamic_TF_carry   -59.183037
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry ALUMINIUM                 -0.0
-                 BUND                 -8.463094
-                 CRUDE_W_micro        -1.583255
-                 GASOILINE             -9.97451
-                 GAS_US_mini           9.895347
-                 KOSDAQ                    -0.0
-                 MSCISING              2.914382
-                 NASDAQ_micro          1.979069
+dynamic_TF_carry VIX                  39.455358
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry      -5.232061
+dynamic_TF_carry      39.455358
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry ALUMINIUM              -39.581387
-                 BUND                   -25.389283
-                 CRUDE_W_micro           -3.958139
-                 GASOILINE              -23.273856
-                 GAS_US_mini                  -0.0
-                 KOSDAQ                  -1.713787
-                 MSCISING                      0.0
-                 NASDAQ_micro                 -0.0
+dynamic_TF_carry VIX                    -78.910716
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry        -93.916452
+dynamic_TF_carry        -78.910716
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry ALUMINIUM                              0
-                 BUND                                   0
-                 CRUDE_W_micro                          0
-                 GASOILINE                              0
-                 GAS_US_mini                            0
-                 KOSDAQ                                 0
-                 MSCISING                               0
-                 NASDAQ_micro                           0
+dynamic_TF_carry VIX                                    0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -157,18 +92,11 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry ALUMINIUM               -19.790694
-                 BUND                    -16.926189
-                 CRUDE_W_micro            -2.770697
-                 GASOILINE               -16.624183
-                 GAS_US_mini               4.947673
-                 KOSDAQ                   -0.856893
-                 MSCISING                  1.457191
-                 NASDAQ_micro              0.989535
+dynamic_TF_carry VIX                     -19.727679
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry         -49.574256
+dynamic_TF_carry         -19.727679
 
 ********************************************************************************
                                  END OF REPORT                                  
