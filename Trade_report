@@ -1,41 +1,50 @@
 
 ********************************************************************************
-Trades report produced on 08/07/2024 22:50 from 07/07/2024 22:50 to 08/07/2024 22:50
+Trades report produced on 09/07/2024 22:50 from 08/07/2024 22:50 to 09/07/2024 22:50
 ********************************************************************************
 
 
 
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
+=================================================================================================
+                                          Broker orders                                          
+=================================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-33656         BITCOIN  dynamic_TF_carry    [20240700] 2024-07-08 15:00:08  [-1]      57480.00
-33657             VIX  dynamic_TF_carry    [20240800] 2024-07-08 15:05:09   [1]         14.20
-33658             VIX  dynamic_TF_carry    [20240800] 2024-07-08 15:10:15   [1]         14.20
-33659             VIX  dynamic_TF_carry    [20240800] 2024-07-08 15:14:43   [1]         14.15
-
-
-=============================================================================================================================================================
-                                                                           Delays                                                                            
-=============================================================================================================================================================
-
-      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-33656         BITCOIN  dynamic_TF_carry       2024-07-05 00:00:00  2024-07-08 15:00:05.370000  2024-07-08 15:00:08              313205.37                2.63
-33657             VIX  dynamic_TF_carry       2024-07-05 20:00:00  2024-07-08 15:00:09.583000  2024-07-08 15:05:09             241209.583             299.417
-33658             VIX  dynamic_TF_carry       2024-07-05 20:00:00  2024-07-08 15:05:15.260000  2024-07-08 15:10:15              241515.26              299.74
-33659             VIX  dynamic_TF_carry       2024-07-05 20:00:00  2024-07-08 15:10:20.659000  2024-07-08 15:14:43             241820.659             262.341
+      instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
+33666         BITCOIN  dynamic_TF_carry    [20240800] 2024-07-09 15:00:08.000  [-1]      58190.00
+33661            BUND  dynamic_TF_carry    [20240900] 2024-07-09 08:00:05.000   [1]        131.13
+33662         EU-AUTO  dynamic_TF_carry    [20240900] 2024-07-09 08:00:11.000  [-1]        630.70
+33665     GAS_US_mini  dynamic_TF_carry    [20240900] 2024-07-09 14:11:35.000  [-1]          2.44
+33660          KOSDAQ  dynamic_TF_carry    [20240900] 2024-07-09 02:02:26.000   [1]       1452.80
+33664        MSCIEAFA  dynamic_TF_carry    [20240900] 2024-07-09 14:11:33.000   [1]       2375.40
+33663        MSCIEAFA  dynamic_TF_carry    [20240900] 2024-07-09 19:30:00.944   [0]           NaN
 
 
-===========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                  
-===========================================================================================================================================================================================================================
+====================================================================================================================================================================
+                                                                               Delays                                                                               
+====================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
-33656         BITCOIN  dynamic_TF_carry  [-1]                56790.0               None   57470.0    57460.0       57480.0     57480.0      57480.0  680.0   -10.0      20.0         -0.0                 NaN          10.0
-33657             VIX  dynamic_TF_carry   [1]                  14.35               None    14.175       14.2         14.15       14.15         14.2  0.175  -0.025       0.0        -0.05                 NaN        -0.025
-33658             VIX  dynamic_TF_carry   [1]                  14.35               None    14.175       14.2         14.15       14.15         14.2  0.175  -0.025       0.0        -0.05                 NaN        -0.025
-33659             VIX  dynamic_TF_carry   [1]                  14.35               None    14.175       14.2         14.15       14.15        14.15  0.175  -0.025      0.05          0.0                 NaN         0.025
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
+33660          KOSDAQ  dynamic_TF_carry       2024-07-08 00:00:00  2024-07-09 02:02:24.857000         2024-07-09 02:02:26              93744.857               1.143
+33661            BUND  dynamic_TF_carry       2024-07-08 00:00:00  2024-07-09 08:00:04.920000         2024-07-09 08:00:05              115204.92                0.08
+33662         EU-AUTO  dynamic_TF_carry       2024-07-08 00:00:00  2024-07-09 08:00:11.050000         2024-07-09 08:00:11              115211.05                 NaN
+33665     GAS_US_mini  dynamic_TF_carry       2024-07-08 00:00:00  2024-07-09 14:11:34.318000         2024-07-09 14:11:35             137494.318               0.682
+33666         BITCOIN  dynamic_TF_carry       2024-07-08 00:00:00  2024-07-09 15:00:04.147000         2024-07-09 15:00:08             140404.147               3.853
+33664        MSCIEAFA  dynamic_TF_carry       2024-07-08 00:00:00  2024-07-09 14:10:48.667000         2024-07-09 14:11:33             137448.667              44.333
+33663        MSCIEAFA  dynamic_TF_carry       2024-07-08 00:00:00  2024-07-09 14:00:04.275000  2024-07-09 19:30:00.944000             136804.275           19796.669
+
+
+============================================================================================================================================================================================================================
+                                                                                                  Slippage (ticks per lot)                                                                                                  
+============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
+33660          KOSDAQ  dynamic_TF_carry   [1]                 1444.6               None   1452.65     1452.7        1452.6      1452.6       1452.8   -8.05   -0.05      -0.1         -0.2                 NaN         -0.15
+33661            BUND  dynamic_TF_carry   [1]                 131.28               None   131.115     131.12        131.11         NaN       131.13   0.165  -0.005     -0.01          NaN                 NaN        -0.015
+33662         EU-AUTO  dynamic_TF_carry  [-1]                  637.0               None     630.6      629.9         631.3       631.3        630.7    -6.4    -0.7       0.8         -0.6                 NaN           0.1
+33665     GAS_US_mini  dynamic_TF_carry  [-1]                   2.39               None     2.445       2.44          2.45        2.45         2.44   0.055  -0.005      -0.0        -0.01                 NaN        -0.005
+33666         BITCOIN  dynamic_TF_carry  [-1]                57000.0               None   58167.5    58145.0       58190.0     58190.0      58190.0  1167.5   -22.5      45.0         -0.0                 NaN          22.5
+33664        MSCIEAFA  dynamic_TF_carry   [1]                 2380.9               None   2374.75     2374.9        2374.6      2374.6       2375.4    6.15   -0.15      -0.5         -0.8                 NaN         -0.65
+33663        MSCIEAFA  dynamic_TF_carry   [1]                 2380.9               None   2372.15     2372.3        2372.0      2372.0          NaN    8.75   -0.15       NaN          NaN                 NaN           NaN
 
 
 ==============================================================================================================================================================
@@ -43,10 +52,13 @@ Trades report produced on 08/07/2024 22:50 from 07/07/2024 22:50 to 08/07/2024 2
 ==============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33656         BITCOIN  dynamic_TF_carry  [-1]    26677.213958  254.899181   -3.748517      7.497035             -0.0                     NaN          3.748517
-33657             VIX  dynamic_TF_carry   [1]         4.93373  354.701203    -50.6716           0.0      -101.343201                     NaN          -50.6716
-33658             VIX  dynamic_TF_carry   [1]         4.93373  354.701203    -50.6716           0.0      -101.343201                     NaN          -50.6716
-33659             VIX  dynamic_TF_carry   [1]         4.93373  354.701203    -50.6716    101.343201              0.0                     NaN           50.6716
+33660          KOSDAQ  dynamic_TF_carry   [1]      316.201384 -254.584591   -1.581271     -3.162541        -6.325083                     NaN         -4.743812
+33661            BUND  dynamic_TF_carry   [1]        9.955517  165.737252   -5.022341    -10.044682              NaN                     NaN        -15.067023
+33662         EU-AUTO  dynamic_TF_carry  [-1]      107.880895 -593.246837  -64.886373     74.155855       -55.616891                     NaN          9.269482
+33665     GAS_US_mini  dynamic_TF_carry  [-1]        1.646951  333.950393  -30.359127          -0.0       -60.718253                     NaN        -30.359127
+33666         BITCOIN  dynamic_TF_carry  [-1]    26677.213958  437.639403   -8.434164     16.868328             -0.0                     NaN          8.434164
+33664        MSCIEAFA  dynamic_TF_carry   [1]      280.386368  219.340192   -5.349761    -17.832536       -28.532058                     NaN        -23.182297
+33663        MSCIEAFA  dynamic_TF_carry   [1]      280.386368  312.069379   -5.349761           NaN              NaN                     NaN               NaN
 
 
 ========================================================================================================================================================================
@@ -54,52 +66,75 @@ Trades report produced on 08/07/2024 22:50 from 07/07/2024 22:50 to 08/07/2024 2
 ========================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33656         BITCOIN  dynamic_TF_carry  [-1]             0.077974   53.022476    -0.779742       1.559485              -0.0                      NaN           0.779742
-33657             VIX  dynamic_TF_carry   [1]           779.742295  136.454902   -19.493557            0.0        -38.987115                      NaN         -19.493557
-33658             VIX  dynamic_TF_carry   [1]           779.742295  136.454902   -19.493557            0.0        -38.987115                      NaN         -19.493557
-33659             VIX  dynamic_TF_carry   [1]           779.742295  136.454902   -19.493557      38.987115               0.0                      NaN          19.493557
+33660          KOSDAQ  dynamic_TF_carry   [1]             5.668207  -45.629067     -0.28341      -0.566821         -1.133641                      NaN          -0.850231
+33661            BUND  dynamic_TF_carry   [1]           845.285861  139.472167    -4.226429      -8.452859               NaN                      NaN         -12.679288
+33662         EU-AUTO  dynamic_TF_carry  [-1]            42.264293 -270.491476   -29.585005      33.811434        -25.358576                      NaN           4.226429
+33665     GAS_US_mini  dynamic_TF_carry  [-1]          1951.539374  107.334666    -9.757697           -0.0        -19.515394                      NaN          -9.757697
+33666         BITCOIN  dynamic_TF_carry  [-1]             0.078062   91.136889    -1.756385       3.512771              -0.0                      NaN           1.756385
+33664        MSCIEAFA  dynamic_TF_carry   [1]            39.030787  240.039343    -5.854618     -19.515394         -31.22463                      NaN         -25.370012
+33663        MSCIEAFA  dynamic_TF_carry   [1]            39.030787   341.51939    -5.854618            NaN               NaN                      NaN                NaN
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry BITCOIN           53.022476
-                 VIX              409.364705
+dynamic_TF_carry BITCOIN           91.136889
+                 BUND             139.472167
+                 EU-AUTO         -270.491476
+                 GAS_US_mini      107.334666
+                 KOSDAQ           -45.629067
+                 MSCIEAFA         581.558734
 delay_cash Total Sum
                   delay_cash
 strategy_name               
-dynamic_TF_carry  462.387181
+dynamic_TF_carry  603.381912
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry BITCOIN            -0.779742
-                 VIX               -58.480672
+dynamic_TF_carry BITCOIN            -1.756385
+                 BUND               -4.226429
+                 EU-AUTO           -29.585005
+                 GAS_US_mini        -9.757697
+                 KOSDAQ              -0.28341
+                 MSCIEAFA          -11.709236
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry   -59.260414
+dynamic_TF_carry   -57.318163
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry BITCOIN               1.559485
-                 VIX                  38.987115
+dynamic_TF_carry BITCOIN               3.512771
+                 BUND                 -8.452859
+                 EU-AUTO              33.811434
+                 GAS_US_mini               -0.0
+                 KOSDAQ               -0.566821
+                 MSCIEAFA            -19.515394
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry      40.546599
+dynamic_TF_carry       8.789132
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
 dynamic_TF_carry BITCOIN                      -0.0
-                 VIX                     -77.97423
+                 BUND                            0
+                 EU-AUTO                -25.358576
+                 GAS_US_mini            -19.515394
+                 KOSDAQ                  -1.133641
+                 MSCIEAFA                -31.22463
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry         -77.97423
+dynamic_TF_carry        -77.232241
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
 dynamic_TF_carry BITCOIN                                0
-                 VIX                                    0
+                 BUND                                   0
+                 EU-AUTO                                0
+                 GAS_US_mini                            0
+                 KOSDAQ                                 0
+                 MSCIEAFA                               0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -107,12 +142,16 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry BITCOIN                   0.779742
-                 VIX                     -19.493557
+dynamic_TF_carry BITCOIN                   1.756385
+                 BUND                    -12.679288
+                 EU-AUTO                   4.226429
+                 GAS_US_mini              -9.757697
+                 KOSDAQ                   -0.850231
+                 MSCIEAFA                -25.370012
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry         -18.713815
+dynamic_TF_carry         -42.674413
 
 ********************************************************************************
                                  END OF REPORT                                  
