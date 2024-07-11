@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 10/07/2024 22:50 from 09/07/2024 22:50 to 10/07/2024 22:50
+Trades report produced on 11/07/2024 22:50 from 10/07/2024 22:50 to 11/07/2024 22:50
 ********************************************************************************
 
 
@@ -10,8 +10,9 @@ Trades report produced on 10/07/2024 22:50 from 09/07/2024 22:50 to 10/07/2024 2
 =============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-33667      FTSECHINAA  dynamic_TF_carry    [20240700] 2024-07-10 02:02:35  [-1]      11968.00
-33668     SP500_micro  dynamic_TF_carry    [20240900] 2024-07-10 15:00:05  [-1]       5645.75
+33669     GAS_US_mini  dynamic_TF_carry    [20240900] 2024-07-11 14:00:08  [-1]         2.300
+33671         LIVECOW  dynamic_TF_carry    [20241000] 2024-07-11 15:30:08  [-1]       183.625
+33670    NASDAQ_micro  dynamic_TF_carry    [20240900] 2024-07-11 15:00:22   [1]     20857.000
 
 
 =============================================================================================================================================================
@@ -19,26 +20,29 @@ Trades report produced on 10/07/2024 22:50 from 09/07/2024 22:50 to 10/07/2024 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-33667      FTSECHINAA  dynamic_TF_carry       2024-07-09 00:00:00  2024-07-10 02:02:31.845000  2024-07-10 02:02:35              93751.845               3.155
-33668     SP500_micro  dynamic_TF_carry       2024-06-14 00:00:00  2024-07-10 15:00:02.996000  2024-07-10 15:00:05            2300402.996               2.004
+33669     GAS_US_mini  dynamic_TF_carry       2024-07-10 00:00:00  2024-07-11 14:00:07.203000  2024-07-11 14:00:08             136807.203               0.797
+33670    NASDAQ_micro  dynamic_TF_carry       2024-07-10 00:00:00  2024-07-11 15:00:21.864000  2024-07-11 15:00:22             140421.864               0.136
+33671         LIVECOW  dynamic_TF_carry       2024-07-10 00:00:00  2024-07-11 15:30:06.033000  2024-07-11 15:30:08             142206.033               1.967
 
 
-=============================================================================================================================================================================================================================
-                                                                                                  Slippage (ticks per lot)                                                                                                   
-=============================================================================================================================================================================================================================
+============================================================================================================================================================================================================================
+                                                                                                  Slippage (ticks per lot)                                                                                                  
+============================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay bid_ask execution versus_limit versus_parent_limit total_trading
-33667      FTSECHINAA  dynamic_TF_carry  [-1]                11824.0               None   11969.5    11969.0       11970.0     11970.0      11968.0    145.5    -0.5      -1.0         -2.0                 NaN          -1.5
-33668     SP500_micro  dynamic_TF_carry  [-1]                 5432.5               None  5645.625     5645.5       5645.75     5645.75      5645.75  213.125  -0.125      0.25         -0.0                 NaN         0.125
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price  mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+33669     GAS_US_mini  dynamic_TF_carry  [-1]                  2.345               None      2.305        2.3          2.31        2.31          2.3  -0.04  -0.005      -0.0        -0.01                 NaN        -0.005
+33670    NASDAQ_micro  dynamic_TF_carry   [1]               20860.25               None  20856.375    20856.5      20856.25    20856.25      20857.0  3.875  -0.125      -0.5        -0.75                 NaN        -0.625
+33671         LIVECOW  dynamic_TF_carry  [-1]                183.225               None     183.65    183.625       183.675     183.675      183.625  0.425  -0.025      -0.0        -0.05                 NaN        -0.025
 
 
-===============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
-===============================================================================================================================================================
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
 
-      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33667      FTSECHINAA  dynamic_TF_carry  [-1]     1638.704762   887.896364    -3.05119     -6.102381       -12.204761                     NaN         -9.153571
-33668     SP500_micro  dynamic_TF_carry  [-1]      553.510752  3850.422044   -2.258312      4.516624             -0.0                     NaN          2.258312
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+33669     GAS_US_mini  dynamic_TF_carry  [-1]        1.554868 -257.256575  -32.157072          -0.0       -64.314144                     NaN        -32.157072
+33670    NASDAQ_micro  dynamic_TF_carry   [1]     2939.989568   13.180319   -0.425172     -1.700686        -2.551029                     NaN         -2.125858
+33671         LIVECOW  dynamic_TF_carry  [-1]       20.881617  203.528297  -11.972253          -0.0       -23.944506                     NaN        -11.972253
 
 
 ========================================================================================================================================================================
@@ -46,50 +50,56 @@ Trades report produced on 10/07/2024 22:50 from 09/07/2024 22:50 to 10/07/2024 2
 ========================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33667      FTSECHINAA  dynamic_TF_carry  [-1]             0.781827  113.755859    -0.390914      -0.781827         -1.563654                      NaN          -1.172741
-33668     SP500_micro  dynamic_TF_carry  [-1]             3.909136  833.134619    -0.488642       0.977284              -0.0                      NaN           0.488642
+33669     GAS_US_mini  dynamic_TF_carry  [-1]          1943.498608  -77.739944    -9.717493           -0.0        -19.434986                      NaN          -9.717493
+33670    NASDAQ_micro  dynamic_TF_carry   [1]             1.554799    6.024846     -0.19435      -0.777399         -1.166099                      NaN          -0.971749
+33671         LIVECOW  dynamic_TF_carry  [-1]           310.959777  132.157905    -7.773994           -0.0        -15.547989                      NaN          -7.773994
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry FTSECHINAA       113.755859
-                 SP500_micro      833.134619
+dynamic_TF_carry GAS_US_mini      -77.739944
+                 LIVECOW          132.157905
+                 NASDAQ_micro       6.024846
 delay_cash Total Sum
-                  delay_cash
-strategy_name               
-dynamic_TF_carry  946.890478
+                 delay_cash
+strategy_name              
+dynamic_TF_carry  60.442807
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry FTSECHINAA         -0.390914
-                 SP500_micro        -0.488642
+dynamic_TF_carry GAS_US_mini        -9.717493
+                 LIVECOW            -7.773994
+                 NASDAQ_micro        -0.19435
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -0.879556
+dynamic_TF_carry   -17.685837
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry FTSECHINAA           -0.781827
-                 SP500_micro           0.977284
+dynamic_TF_carry GAS_US_mini               -0.0
+                 LIVECOW                   -0.0
+                 NASDAQ_micro         -0.777399
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry       0.195457
+dynamic_TF_carry      -0.777399
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry FTSECHINAA              -1.563654
-                 SP500_micro                  -0.0
+dynamic_TF_carry GAS_US_mini            -19.434986
+                 LIVECOW                -15.547989
+                 NASDAQ_micro            -1.166099
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry         -1.563654
+dynamic_TF_carry        -36.149074
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry FTSECHINAA                             0
-                 SP500_micro                            0
+dynamic_TF_carry GAS_US_mini                            0
+                 LIVECOW                                0
+                 NASDAQ_micro                           0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -97,12 +107,13 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry FTSECHINAA               -1.172741
-                 SP500_micro               0.488642
+dynamic_TF_carry GAS_US_mini              -9.717493
+                 LIVECOW                  -7.773994
+                 NASDAQ_micro             -0.971749
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry          -0.684099
+dynamic_TF_carry         -18.463237
 
 ********************************************************************************
                                  END OF REPORT                                  
