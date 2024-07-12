@@ -1,38 +1,53 @@
 
 ********************************************************************************
-Trades report produced on 11/07/2024 22:50 from 10/07/2024 22:50 to 11/07/2024 22:50
+Trades report produced on 12/07/2024 22:50 from 11/07/2024 22:50 to 12/07/2024 22:50
 ********************************************************************************
 
 
 
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
+=================================================================================================
+                                          Broker orders                                          
+=================================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-33669     GAS_US_mini  dynamic_TF_carry    [20240900] 2024-07-11 14:00:08  [-1]         2.300
-33671         LIVECOW  dynamic_TF_carry    [20241000] 2024-07-11 15:30:08  [-1]       183.625
-33670    NASDAQ_micro  dynamic_TF_carry    [20240900] 2024-07-11 15:00:22   [1]     20857.000
-
-
-=============================================================================================================================================================
-                                                                           Delays                                                                            
-=============================================================================================================================================================
-
-      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-33669     GAS_US_mini  dynamic_TF_carry       2024-07-10 00:00:00  2024-07-11 14:00:07.203000  2024-07-11 14:00:08             136807.203               0.797
-33670    NASDAQ_micro  dynamic_TF_carry       2024-07-10 00:00:00  2024-07-11 15:00:21.864000  2024-07-11 15:00:22             140421.864               0.136
-33671         LIVECOW  dynamic_TF_carry       2024-07-10 00:00:00  2024-07-11 15:30:06.033000  2024-07-11 15:30:08             142206.033               1.967
+      instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
+33676           CAD10  dynamic_TF_carry    [20240900] 2024-07-12 14:07:59.000   [1]     120.94000
+33677    NASDAQ_micro  dynamic_TF_carry    [20240900] 2024-07-12 15:00:04.000  [-1]   20553.25000
+33678             NZD  dynamic_TF_carry    [20240900] 2024-07-12 15:00:06.000   [1]       0.61205
+33679         RUSSELL  dynamic_TF_carry    [20240900] 2024-07-12 15:00:24.000   [1]    2174.30000
+33672          SPI200  dynamic_TF_carry    [20240900] 2024-07-12 19:30:00.622   [0]           NaN
+33673          SPI200  dynamic_TF_carry    [20240900] 2024-07-12 19:30:00.647   [0]           NaN
+33674          SPI200  dynamic_TF_carry    [20240900] 2024-07-12 19:30:00.672   [0]           NaN
+33675          SPI200  dynamic_TF_carry    [20240900] 2024-07-12 02:33:24.000   [1]    7948.00000
 
 
-============================================================================================================================================================================================================================
-                                                                                                  Slippage (ticks per lot)                                                                                                  
-============================================================================================================================================================================================================================
+====================================================================================================================================================================
+                                                                               Delays                                                                               
+====================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price  mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
-33669     GAS_US_mini  dynamic_TF_carry  [-1]                  2.345               None      2.305        2.3          2.31        2.31          2.3  -0.04  -0.005      -0.0        -0.01                 NaN        -0.005
-33670    NASDAQ_micro  dynamic_TF_carry   [1]               20860.25               None  20856.375    20856.5      20856.25    20856.25      20857.0  3.875  -0.125      -0.5        -0.75                 NaN        -0.625
-33671         LIVECOW  dynamic_TF_carry  [-1]                183.225               None     183.65    183.625       183.675     183.675      183.625  0.425  -0.025      -0.0        -0.05                 NaN        -0.025
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
+33676           CAD10  dynamic_TF_carry       2024-07-11 00:00:00  2024-07-12 14:00:09.414000         2024-07-12 14:07:59             136809.414             469.586
+33677    NASDAQ_micro  dynamic_TF_carry       2024-07-11 00:00:00  2024-07-12 15:00:04.227000         2024-07-12 15:00:04             140404.227                 NaN
+33678             NZD  dynamic_TF_carry       2024-07-11 00:00:00  2024-07-12 15:00:05.611000         2024-07-12 15:00:06             140405.611               0.389
+33679         RUSSELL  dynamic_TF_carry       2024-07-11 00:00:00  2024-07-12 15:00:24.467000         2024-07-12 15:00:24             140424.467                 NaN
+33672          SPI200  dynamic_TF_carry       2024-07-11 00:00:00  2024-07-12 02:02:30.413000  2024-07-12 19:30:00.622000              93750.413           62850.209
+33673          SPI200  dynamic_TF_carry       2024-07-11 00:00:00  2024-07-12 02:12:36.238000  2024-07-12 19:30:00.647000              94356.238           62244.409
+33674          SPI200  dynamic_TF_carry       2024-07-11 00:00:00  2024-07-12 02:22:42.083000  2024-07-12 19:30:00.672000              94962.083           61638.589
+33675          SPI200  dynamic_TF_carry       2024-07-11 00:00:00  2024-07-12 02:32:47.946000         2024-07-12 02:33:24              95567.946              36.054
+
+
+===============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                    
+===============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price  mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
+33676           CAD10  dynamic_TF_carry   [1]                  120.9               None    120.825     120.83        120.82      120.82       120.94    0.075   -0.005     -0.11        -0.12                 NaN        -0.115
+33677    NASDAQ_micro  dynamic_TF_carry  [-1]               20470.75               None  20552.375    20551.5      20553.25    20553.25     20553.25   81.625   -0.875      1.75         -0.0                 NaN         0.875
+33678             NZD  dynamic_TF_carry   [1]                 0.6097               None    0.61195      0.612        0.6119      0.6119      0.61205 -0.00225 -0.00005  -0.00005     -0.00015                 NaN       -0.0001
+33679         RUSSELL  dynamic_TF_carry   [1]                 2137.2               None     2174.1     2174.2        2174.0      2174.0       2174.3    -36.9     -0.1      -0.1         -0.3                 NaN          -0.2
+33672          SPI200  dynamic_TF_carry   [1]                 7871.0               None     7926.5     7927.0        7926.0      7926.0          NaN    -55.5     -0.5       NaN          NaN                 NaN           NaN
+33673          SPI200  dynamic_TF_carry   [1]                 7871.0               None     7936.5     7937.0        7936.0      7936.0          NaN    -65.5     -0.5       NaN          NaN                 NaN           NaN
+33674          SPI200  dynamic_TF_carry   [1]                 7871.0               None     7939.5     7940.0        7939.0      7939.0          NaN    -68.5     -0.5       NaN          NaN                 NaN           NaN
+33675          SPI200  dynamic_TF_carry   [1]                 7871.0               None     7946.5     7947.0        7946.0      7946.0       7948.0    -75.5     -0.5      -1.0         -2.0                 NaN          -1.5
 
 
 ==============================================================================================================================================================
@@ -40,9 +55,14 @@ Trades report produced on 11/07/2024 22:50 from 10/07/2024 22:50 to 11/07/2024 2
 ==============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33669     GAS_US_mini  dynamic_TF_carry  [-1]        1.554868 -257.256575  -32.157072          -0.0       -64.314144                     NaN        -32.157072
-33670    NASDAQ_micro  dynamic_TF_carry   [1]     2939.989568   13.180319   -0.425172     -1.700686        -2.551029                     NaN         -2.125858
-33671         LIVECOW  dynamic_TF_carry  [-1]       20.881617  203.528297  -11.972253          -0.0       -23.944506                     NaN        -11.972253
+33676           CAD10  dynamic_TF_carry   [1]        8.626165   86.944775   -5.796318   -127.519003       -139.11164                     NaN       -133.315321
+33677    NASDAQ_micro  dynamic_TF_carry  [-1]     2939.989568   277.63704   -2.976201      5.952402             -0.0                     NaN          2.976201
+33678             NZD  dynamic_TF_carry   [1]        0.049827  -451.56055  -10.034679    -10.034679       -30.104037                     NaN        -20.069358
+33679         RUSSELL  dynamic_TF_carry   [1]        389.7368 -946.792811   -2.565834     -2.565834        -7.697503                     NaN         -5.131668
+33672          SPI200  dynamic_TF_carry   [1]      825.888374 -672.003648   -6.054087           NaN              NaN                     NaN               NaN
+33673          SPI200  dynamic_TF_carry   [1]      825.888374 -793.085386   -6.054087           NaN              NaN                     NaN               NaN
+33674          SPI200  dynamic_TF_carry   [1]      825.888374 -829.409908   -6.054087           NaN              NaN                     NaN               NaN
+33675          SPI200  dynamic_TF_carry   [1]      825.888374 -914.167125   -6.054087    -12.108174       -24.216348                     NaN        -18.162261
 
 
 ========================================================================================================================================================================
@@ -50,56 +70,71 @@ Trades report produced on 11/07/2024 22:50 from 10/07/2024 22:50 to 11/07/2024 2
 ========================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33669     GAS_US_mini  dynamic_TF_carry  [-1]          1943.498608  -77.739944    -9.717493           -0.0        -19.434986                      NaN          -9.717493
-33670    NASDAQ_micro  dynamic_TF_carry   [1]             1.554799    6.024846     -0.19435      -0.777399         -1.166099                      NaN          -0.971749
-33671         LIVECOW  dynamic_TF_carry  [-1]           310.959777  132.157905    -7.773994           -0.0        -15.547989                      NaN          -7.773994
+33676           CAD10  dynamic_TF_carry   [1]           568.475211   42.635641    -2.842376     -62.532273        -68.217025                      NaN         -65.374649
+33677    NASDAQ_micro  dynamic_TF_carry  [-1]             1.548737  126.415642    -1.355145       2.710289              -0.0                      NaN           1.355145
+33678             NZD  dynamic_TF_carry   [1]         77436.840577 -174.232891    -3.871842      -3.871842        -11.615526                      NaN          -7.743684
+33679         RUSSELL  dynamic_TF_carry   [1]             3.871842 -142.870971    -0.387184      -0.387184         -1.161553                      NaN          -0.774368
+33672          SPI200  dynamic_TF_carry   [1]            13.108605 -727.527587    -6.554303            NaN               NaN                      NaN                NaN
+33673          SPI200  dynamic_TF_carry   [1]            13.108605 -858.613639    -6.554303            NaN               NaN                      NaN                NaN
+33674          SPI200  dynamic_TF_carry   [1]            13.108605 -897.939454    -6.554303            NaN               NaN                      NaN                NaN
+33675          SPI200  dynamic_TF_carry   [1]            13.108605  -989.69969    -6.554303     -13.108605         -26.21721                      NaN         -19.662908
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry GAS_US_mini      -77.739944
-                 LIVECOW          132.157905
-                 NASDAQ_micro       6.024846
+dynamic_TF_carry CAD10             42.635641
+                 NASDAQ_micro     126.415642
+                 NZD             -174.232891
+                 RUSSELL         -142.870971
+                 SPI200          -3473.78037
 delay_cash Total Sum
-                 delay_cash
-strategy_name              
-dynamic_TF_carry  60.442807
+                   delay_cash
+strategy_name                
+dynamic_TF_carry -3621.832949
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry GAS_US_mini        -9.717493
-                 LIVECOW            -7.773994
-                 NASDAQ_micro        -0.19435
+dynamic_TF_carry CAD10              -2.842376
+                 NASDAQ_micro       -1.355145
+                 NZD                -3.871842
+                 RUSSELL            -0.387184
+                 SPI200             -26.21721
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry   -17.685837
+dynamic_TF_carry   -34.673757
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry GAS_US_mini               -0.0
-                 LIVECOW                   -0.0
-                 NASDAQ_micro         -0.777399
+dynamic_TF_carry CAD10               -62.532273
+                 NASDAQ_micro          2.710289
+                 NZD                  -3.871842
+                 RUSSELL              -0.387184
+                 SPI200              -13.108605
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry      -0.777399
+dynamic_TF_carry     -77.189615
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry GAS_US_mini            -19.434986
-                 LIVECOW                -15.547989
-                 NASDAQ_micro            -1.166099
+dynamic_TF_carry CAD10                  -68.217025
+                 NASDAQ_micro                 -0.0
+                 NZD                    -11.615526
+                 RUSSELL                 -1.161553
+                 SPI200                  -26.21721
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry        -36.149074
+dynamic_TF_carry       -107.211314
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry GAS_US_mini                            0
-                 LIVECOW                                0
+dynamic_TF_carry CAD10                                  0
                  NASDAQ_micro                           0
+                 NZD                                    0
+                 RUSSELL                                0
+                 SPI200                                 0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -107,13 +142,15 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry GAS_US_mini              -9.717493
-                 LIVECOW                  -7.773994
-                 NASDAQ_micro             -0.971749
+dynamic_TF_carry CAD10                   -65.374649
+                 NASDAQ_micro              1.355145
+                 NZD                      -7.743684
+                 RUSSELL                  -0.774368
+                 SPI200                  -19.662908
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry         -18.463237
+dynamic_TF_carry         -92.200465
 
 ********************************************************************************
                                  END OF REPORT                                  
