@@ -1,68 +1,48 @@
 
 ********************************************************************************
-Trades report produced on 12/07/2024 22:50 from 11/07/2024 22:50 to 12/07/2024 22:50
+Trades report produced on 15/07/2024 22:50 from 14/07/2024 22:50 to 15/07/2024 22:50
 ********************************************************************************
 
 
 
-=================================================================================================
-                                          Broker orders                                          
-=================================================================================================
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
 
-      instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
-33676           CAD10  dynamic_TF_carry    [20240900] 2024-07-12 14:07:59.000   [1]     120.94000
-33677    NASDAQ_micro  dynamic_TF_carry    [20240900] 2024-07-12 15:00:04.000  [-1]   20553.25000
-33678             NZD  dynamic_TF_carry    [20240900] 2024-07-12 15:00:06.000   [1]       0.61205
-33679         RUSSELL  dynamic_TF_carry    [20240900] 2024-07-12 15:00:24.000   [1]    2174.30000
-33672          SPI200  dynamic_TF_carry    [20240900] 2024-07-12 19:30:00.622   [0]           NaN
-33673          SPI200  dynamic_TF_carry    [20240900] 2024-07-12 19:30:00.647   [0]           NaN
-33674          SPI200  dynamic_TF_carry    [20240900] 2024-07-12 19:30:00.672   [0]           NaN
-33675          SPI200  dynamic_TF_carry    [20240900] 2024-07-12 02:33:24.000   [1]    7948.00000
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+33680             VIX  dynamic_TF_carry    [20240900] 2024-07-15 15:00:31  [-1]         14.80
+33681             VIX  dynamic_TF_carry    [20240900] 2024-07-15 15:01:19  [-1]         14.85
+33682             VIX  dynamic_TF_carry    [20240900] 2024-07-15 15:06:25  [-1]         14.85
 
 
-====================================================================================================================================================================
-                                                                               Delays                                                                               
-====================================================================================================================================================================
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
 
-      instrument_code     strategy_name parent_reference_datetime             submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
-33676           CAD10  dynamic_TF_carry       2024-07-11 00:00:00  2024-07-12 14:00:09.414000         2024-07-12 14:07:59             136809.414             469.586
-33677    NASDAQ_micro  dynamic_TF_carry       2024-07-11 00:00:00  2024-07-12 15:00:04.227000         2024-07-12 15:00:04             140404.227                 NaN
-33678             NZD  dynamic_TF_carry       2024-07-11 00:00:00  2024-07-12 15:00:05.611000         2024-07-12 15:00:06             140405.611               0.389
-33679         RUSSELL  dynamic_TF_carry       2024-07-11 00:00:00  2024-07-12 15:00:24.467000         2024-07-12 15:00:24             140424.467                 NaN
-33672          SPI200  dynamic_TF_carry       2024-07-11 00:00:00  2024-07-12 02:02:30.413000  2024-07-12 19:30:00.622000              93750.413           62850.209
-33673          SPI200  dynamic_TF_carry       2024-07-11 00:00:00  2024-07-12 02:12:36.238000  2024-07-12 19:30:00.647000              94356.238           62244.409
-33674          SPI200  dynamic_TF_carry       2024-07-11 00:00:00  2024-07-12 02:22:42.083000  2024-07-12 19:30:00.672000              94962.083           61638.589
-33675          SPI200  dynamic_TF_carry       2024-07-11 00:00:00  2024-07-12 02:32:47.946000         2024-07-12 02:33:24              95567.946              36.054
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+33680             VIX  dynamic_TF_carry       2024-07-11 00:00:00  2024-07-15 15:00:15.181000  2024-07-15 15:00:31             399615.181              15.819
+33681             VIX  dynamic_TF_carry       2024-07-11 00:00:00  2024-07-15 15:00:36.535000  2024-07-15 15:01:19             399636.535              42.465
+33682             VIX  dynamic_TF_carry       2024-07-11 00:00:00  2024-07-15 15:01:25.560000  2024-07-15 15:06:25              399685.56              299.44
 
 
-===============================================================================================================================================================================================================================
-                                                                                                   Slippage (ticks per lot)                                                                                                    
-===============================================================================================================================================================================================================================
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price  mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
-33676           CAD10  dynamic_TF_carry   [1]                  120.9               None    120.825     120.83        120.82      120.82       120.94    0.075   -0.005     -0.11        -0.12                 NaN        -0.115
-33677    NASDAQ_micro  dynamic_TF_carry  [-1]               20470.75               None  20552.375    20551.5      20553.25    20553.25     20553.25   81.625   -0.875      1.75         -0.0                 NaN         0.875
-33678             NZD  dynamic_TF_carry   [1]                 0.6097               None    0.61195      0.612        0.6119      0.6119      0.61205 -0.00225 -0.00005  -0.00005     -0.00015                 NaN       -0.0001
-33679         RUSSELL  dynamic_TF_carry   [1]                 2137.2               None     2174.1     2174.2        2174.0      2174.0       2174.3    -36.9     -0.1      -0.1         -0.3                 NaN          -0.2
-33672          SPI200  dynamic_TF_carry   [1]                 7871.0               None     7926.5     7927.0        7926.0      7926.0          NaN    -55.5     -0.5       NaN          NaN                 NaN           NaN
-33673          SPI200  dynamic_TF_carry   [1]                 7871.0               None     7936.5     7937.0        7936.0      7936.0          NaN    -65.5     -0.5       NaN          NaN                 NaN           NaN
-33674          SPI200  dynamic_TF_carry   [1]                 7871.0               None     7939.5     7940.0        7939.0      7939.0          NaN    -68.5     -0.5       NaN          NaN                 NaN           NaN
-33675          SPI200  dynamic_TF_carry   [1]                 7871.0               None     7946.5     7947.0        7946.0      7946.0       7948.0    -75.5     -0.5      -1.0         -2.0                 NaN          -1.5
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+33680             VIX  dynamic_TF_carry  [-1]                  15.35               None    14.875      14.85          14.9        14.9         14.8 -0.475  -0.025     -0.05         -0.1                 NaN        -0.075
+33681             VIX  dynamic_TF_carry  [-1]                  15.35               None    14.825       14.8         14.85       14.85        14.85 -0.525  -0.025      0.05         -0.0                 NaN         0.025
+33682             VIX  dynamic_TF_carry  [-1]                  15.35               None    14.875      14.85          14.9        14.9        14.85 -0.475  -0.025      -0.0        -0.05                 NaN        -0.025
 
 
-==============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
-==============================================================================================================================================================
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
 
-      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33676           CAD10  dynamic_TF_carry   [1]        8.626165   86.944775   -5.796318   -127.519003       -139.11164                     NaN       -133.315321
-33677    NASDAQ_micro  dynamic_TF_carry  [-1]     2939.989568   277.63704   -2.976201      5.952402             -0.0                     NaN          2.976201
-33678             NZD  dynamic_TF_carry   [1]        0.049827  -451.56055  -10.034679    -10.034679       -30.104037                     NaN        -20.069358
-33679         RUSSELL  dynamic_TF_carry   [1]        389.7368 -946.792811   -2.565834     -2.565834        -7.697503                     NaN         -5.131668
-33672          SPI200  dynamic_TF_carry   [1]      825.888374 -672.003648   -6.054087           NaN              NaN                     NaN               NaN
-33673          SPI200  dynamic_TF_carry   [1]      825.888374 -793.085386   -6.054087           NaN              NaN                     NaN               NaN
-33674          SPI200  dynamic_TF_carry   [1]      825.888374 -829.409908   -6.054087           NaN              NaN                     NaN               NaN
-33675          SPI200  dynamic_TF_carry   [1]      825.888374 -914.167125   -6.054087    -12.108174       -24.216348                     NaN        -18.162261
+      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+33680             VIX  dynamic_TF_carry  [-1]        4.799855  -989.613216  -52.084906   -104.169812      -208.339624                     NaN       -156.254718
+33681             VIX  dynamic_TF_carry  [-1]        4.799855 -1093.783028  -52.084906    104.169812             -0.0                     NaN         52.084906
+33682             VIX  dynamic_TF_carry  [-1]        4.799855  -989.613216  -52.084906          -0.0      -104.169812                     NaN        -52.084906
 
 
 ========================================================================================================================================================================
@@ -70,71 +50,46 @@ Trades report produced on 12/07/2024 22:50 from 11/07/2024 22:50 to 12/07/2024 2
 ========================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33676           CAD10  dynamic_TF_carry   [1]           568.475211   42.635641    -2.842376     -62.532273        -68.217025                      NaN         -65.374649
-33677    NASDAQ_micro  dynamic_TF_carry  [-1]             1.548737  126.415642    -1.355145       2.710289              -0.0                      NaN           1.355145
-33678             NZD  dynamic_TF_carry   [1]         77436.840577 -174.232891    -3.871842      -3.871842        -11.615526                      NaN          -7.743684
-33679         RUSSELL  dynamic_TF_carry   [1]             3.871842 -142.870971    -0.387184      -0.387184         -1.161553                      NaN          -0.774368
-33672          SPI200  dynamic_TF_carry   [1]            13.108605 -727.527587    -6.554303            NaN               NaN                      NaN                NaN
-33673          SPI200  dynamic_TF_carry   [1]            13.108605 -858.613639    -6.554303            NaN               NaN                      NaN                NaN
-33674          SPI200  dynamic_TF_carry   [1]            13.108605 -897.939454    -6.554303            NaN               NaN                      NaN                NaN
-33675          SPI200  dynamic_TF_carry   [1]            13.108605  -989.69969    -6.554303     -13.108605         -26.21721                      NaN         -19.662908
+33680             VIX  dynamic_TF_carry  [-1]           770.472415 -365.974397    -19.26181     -38.523621        -77.047242                      NaN         -57.785431
+33681             VIX  dynamic_TF_carry  [-1]           770.472415 -404.498018    -19.26181      38.523621              -0.0                      NaN           19.26181
+33682             VIX  dynamic_TF_carry  [-1]           770.472415 -365.974397    -19.26181           -0.0        -38.523621                      NaN          -19.26181
 
 delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry CAD10             42.635641
-                 NASDAQ_micro     126.415642
-                 NZD             -174.232891
-                 RUSSELL         -142.870971
-                 SPI200          -3473.78037
+                                   delay_cash
+strategy_name    instrument_code             
+dynamic_TF_carry VIX             -1136.446812
 delay_cash Total Sum
                    delay_cash
 strategy_name                
-dynamic_TF_carry -3621.832949
+dynamic_TF_carry -1136.446812
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry CAD10              -2.842376
-                 NASDAQ_micro       -1.355145
-                 NZD                -3.871842
-                 RUSSELL            -0.387184
-                 SPI200             -26.21721
+dynamic_TF_carry VIX               -57.785431
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry   -34.673757
+dynamic_TF_carry   -57.785431
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry CAD10               -62.532273
-                 NASDAQ_micro          2.710289
-                 NZD                  -3.871842
-                 RUSSELL              -0.387184
-                 SPI200              -13.108605
+dynamic_TF_carry VIX                        0.0
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry     -77.189615
+dynamic_TF_carry            0.0
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry CAD10                  -68.217025
-                 NASDAQ_micro                 -0.0
-                 NZD                    -11.615526
-                 RUSSELL                 -1.161553
-                 SPI200                  -26.21721
+dynamic_TF_carry VIX                   -115.570862
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry       -107.211314
+dynamic_TF_carry       -115.570862
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry CAD10                                  0
-                 NASDAQ_micro                           0
-                 NZD                                    0
-                 RUSSELL                                0
-                 SPI200                                 0
+dynamic_TF_carry VIX                                    0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -142,15 +97,11 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry CAD10                   -65.374649
-                 NASDAQ_micro              1.355145
-                 NZD                      -7.743684
-                 RUSSELL                  -0.774368
-                 SPI200                  -19.662908
+dynamic_TF_carry VIX                     -57.785431
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry         -92.200465
+dynamic_TF_carry         -57.785431
 
 ********************************************************************************
                                  END OF REPORT                                  
