@@ -1,18 +1,16 @@
 
 ********************************************************************************
-Trades report produced on 15/07/2024 22:50 from 14/07/2024 22:50 to 15/07/2024 22:50
+Trades report produced on 16/07/2024 22:50 from 15/07/2024 22:50 to 16/07/2024 22:50
 ********************************************************************************
 
 
 
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
+============================================================================================
+                                       Broker orders                                        
+============================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-33680             VIX  dynamic_TF_carry    [20240900] 2024-07-15 15:00:31  [-1]         14.80
-33681             VIX  dynamic_TF_carry    [20240900] 2024-07-15 15:01:19  [-1]         14.85
-33682             VIX  dynamic_TF_carry    [20240900] 2024-07-15 15:06:25  [-1]         14.85
+      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
+33683      CHINAA-CON  dynamic_TF_carry    [20240700] 2024-07-16 02:07:32  [1]        1954.2
 
 
 =============================================================================================================================================================
@@ -20,29 +18,23 @@ Trades report produced on 15/07/2024 22:50 from 14/07/2024 22:50 to 15/07/2024 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-33680             VIX  dynamic_TF_carry       2024-07-11 00:00:00  2024-07-15 15:00:15.181000  2024-07-15 15:00:31             399615.181              15.819
-33681             VIX  dynamic_TF_carry       2024-07-11 00:00:00  2024-07-15 15:00:36.535000  2024-07-15 15:01:19             399636.535              42.465
-33682             VIX  dynamic_TF_carry       2024-07-11 00:00:00  2024-07-15 15:01:25.560000  2024-07-15 15:06:25              399685.56              299.44
+33683      CHINAA-CON  dynamic_TF_carry       2024-07-15 08:00:00  2024-07-16 02:02:32.061000  2024-07-16 02:07:32              64952.061             299.939
 
 
-===========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                  
-===========================================================================================================================================================================================================================
+==========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                 
+==========================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
-33680             VIX  dynamic_TF_carry  [-1]                  15.35               None    14.875      14.85          14.9        14.9         14.8 -0.475  -0.025     -0.05         -0.1                 NaN        -0.075
-33681             VIX  dynamic_TF_carry  [-1]                  15.35               None    14.825       14.8         14.85       14.85        14.85 -0.525  -0.025      0.05         -0.0                 NaN         0.025
-33682             VIX  dynamic_TF_carry  [-1]                  15.35               None    14.875      14.85          14.9        14.9        14.85 -0.475  -0.025      -0.0        -0.05                 NaN        -0.025
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
+33683      CHINAA-CON  dynamic_TF_carry   [1]                 1957.4               None    1965.4     1979.8        1951.0      1951.0       1954.2  -8.0   -14.4      25.6         -3.2                 NaN          11.2
 
 
-===============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
-===============================================================================================================================================================
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
 
-      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33680             VIX  dynamic_TF_carry  [-1]        4.799855  -989.613216  -52.084906   -104.169812      -208.339624                     NaN       -156.254718
-33681             VIX  dynamic_TF_carry  [-1]        4.799855 -1093.783028  -52.084906    104.169812             -0.0                     NaN         52.084906
-33682             VIX  dynamic_TF_carry  [-1]        4.799855  -989.613216  -52.084906          -0.0      -104.169812                     NaN        -52.084906
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+33683      CHINAA-CON  dynamic_TF_carry   [1]      251.886723 -317.603084  -571.68555   1016.329867      -127.041233                     NaN        444.644317
 
 
 ========================================================================================================================================================================
@@ -50,46 +42,44 @@ Trades report produced on 15/07/2024 22:50 from 14/07/2024 22:50 to 15/07/2024 2
 ========================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33680             VIX  dynamic_TF_carry  [-1]           770.472415 -365.974397    -19.26181     -38.523621        -77.047242                      NaN         -57.785431
-33681             VIX  dynamic_TF_carry  [-1]           770.472415 -404.498018    -19.26181      38.523621              -0.0                      NaN           19.26181
-33682             VIX  dynamic_TF_carry  [-1]           770.472415 -365.974397    -19.26181           -0.0        -38.523621                      NaN          -19.26181
+33683      CHINAA-CON  dynamic_TF_carry   [1]            19.293324 -154.346593  -277.823867     493.909098        -61.738637                      NaN          216.08523
 
 delay_cash Sum
-                                   delay_cash
-strategy_name    instrument_code             
-dynamic_TF_carry VIX             -1136.446812
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry CHINAA-CON      -154.346593
 delay_cash Total Sum
-                   delay_cash
-strategy_name                
-dynamic_TF_carry -1136.446812
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -154.346593
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry VIX               -57.785431
+dynamic_TF_carry CHINAA-CON       -277.823867
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry   -57.785431
+dynamic_TF_carry  -277.823867
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry VIX                        0.0
+dynamic_TF_carry CHINAA-CON          493.909098
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry            0.0
+dynamic_TF_carry     493.909098
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry VIX                   -115.570862
+dynamic_TF_carry CHINAA-CON             -61.738637
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry       -115.570862
+dynamic_TF_carry        -61.738637
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry VIX                                    0
+dynamic_TF_carry CHINAA-CON                             0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -97,11 +87,11 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry VIX                     -57.785431
+dynamic_TF_carry CHINAA-CON               216.08523
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry         -57.785431
+dynamic_TF_carry          216.08523
 
 ********************************************************************************
                                  END OF REPORT                                  
