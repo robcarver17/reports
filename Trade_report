@@ -1,16 +1,19 @@
 
 ********************************************************************************
-Trades report produced on 31/07/2024 22:50 from 30/07/2024 22:50 to 31/07/2024 22:50
+Trades report produced on 01/08/2024 22:50 from 31/07/2024 22:50 to 01/08/2024 22:50
 ********************************************************************************
 
 
 
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
+============================================================================================
+                                       Broker orders                                        
+============================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-33726          NIKKEI  dynamic_TF_carry    [20240900] 2024-07-31 02:02:21  [-1]       38200.0
+      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
+33730             CHF  dynamic_TF_carry    [20240900] 2024-08-01 15:00:02  [1]        1.1492
+33729              DX  dynamic_TF_carry    [20240900] 2024-08-01 14:05:25  [1]      104.1200
+33728          NIKKEI  dynamic_TF_carry    [20240900] 2024-08-01 02:04:55  [1]    38105.0000
+33727          SPI200  dynamic_TF_carry    [20240900] 2024-08-01 02:04:54  [1]     8092.0000
 
 
 =============================================================================================================================================================
@@ -18,68 +21,95 @@ Trades report produced on 31/07/2024 22:50 from 30/07/2024 22:50 to 31/07/2024 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-33726          NIKKEI  dynamic_TF_carry       2024-07-30 00:00:00  2024-07-31 02:02:18.907000  2024-07-31 02:02:21              93738.907               2.093
+33727          SPI200  dynamic_TF_carry       2024-07-31 00:00:00  2024-08-01 02:02:22.626000  2024-08-01 02:04:54              93742.626             151.374
+33728          NIKKEI  dynamic_TF_carry       2024-07-31 00:00:00  2024-08-01 02:04:54.905000  2024-08-01 02:04:55              93894.905               0.095
+33729              DX  dynamic_TF_carry       2024-07-31 00:00:00  2024-08-01 14:00:05.738000  2024-08-01 14:05:25             136805.738             319.262
+33730             CHF  dynamic_TF_carry       2024-07-31 00:00:00  2024-08-01 15:00:02.324000  2024-08-01 15:00:02             140402.324                 NaN
 
 
-==========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                 
-==========================================================================================================================================================================================================================
+================================================================================================================================================================================================================================
+                                                                                                    Slippage (ticks per lot)                                                                                                    
+================================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
-33726          NIKKEI  dynamic_TF_carry  [-1]                38230.0               None   38207.5    38205.0       38210.0     38210.0      38200.0 -22.5    -2.5      -5.0        -10.0                 NaN          -7.5
-
-
-=============================================================================================================================================================
-                                                    Slippage (normalised by annual vol, BP of annual SR)                                                     
-=============================================================================================================================================================
-
-      instrument_code     strategy_name trade last_annual_vol  delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33726          NIKKEI  dynamic_TF_carry  [-1]     7366.667228 -30.542984   -3.393665      -6.78733        -13.57466                     NaN        -10.180995
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
+33727          SPI200  dynamic_TF_carry   [1]                 8014.0               None    8091.5     8092.0        8091.0      8091.0       8092.0     -77.5      -0.5       0.0         -1.0                 NaN          -0.5
+33728          NIKKEI  dynamic_TF_carry   [1]                38440.0               None   38097.5    38100.0       38095.0     38095.0      38105.0     342.5      -2.5      -5.0        -10.0                 NaN          -7.5
+33729              DX  dynamic_TF_carry   [1]                 103.82               None   104.095      104.1        104.09      104.09       104.12    -0.275    -0.005     -0.02        -0.03                 NaN        -0.025
+33730             CHF  dynamic_TF_carry   [1]                 1.1451               None  1.149375    1.14945        1.1493      1.1493       1.1492 -0.004275 -0.000075   0.00025       0.0001                 NaN      0.000175
 
 
-=======================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                      
-=======================================================================================================================================================================
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33726          NIKKEI  dynamic_TF_carry  [-1]             0.509474  -11.46316    -1.273684      -2.547369         -5.094738                      NaN          -3.821053
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+33727          SPI200  dynamic_TF_carry   [1]     1005.309591   -770.9068   -4.973592           0.0        -9.947185                     NaN         -4.973592
+33728          NIKKEI  dynamic_TF_carry   [1]     8253.347807  414.983117   -3.029074     -6.058148       -12.116295                     NaN         -9.087222
+33729              DX  dynamic_TF_carry   [1]        5.438879  -505.61887    -9.19307    -36.772281       -55.158422                     NaN        -45.965352
+33730             CHF  dynamic_TF_carry   [1]        0.078246 -546.354803   -9.585172     31.950573        12.780229                     NaN         22.365401
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+33727          SPI200  dynamic_TF_carry   [1]            12.715135 -985.422943    -6.357567            0.0        -12.715135                      NaN          -6.357567
+33728          NIKKEI  dynamic_TF_carry   [1]             0.519882  178.059439    -1.299704      -2.599408         -5.198816                      NaN          -3.899112
+33729              DX  dynamic_TF_carry   [1]           778.416079 -214.064422     -3.89208     -15.568322        -23.352482                      NaN         -19.460402
+33730             CHF  dynamic_TF_carry   [1]          97302.00987 -415.966092    -7.297651      24.325502          9.730201                      NaN          17.027852
 
 delay_cash Sum
-                                 delay_cash
-strategy_name    instrument_code           
-dynamic_TF_carry NIKKEI           -11.46316
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry CHF             -415.966092
+                 DX              -214.064422
+                 NIKKEI           178.059439
+                 SPI200          -985.422943
 delay_cash Total Sum
-                 delay_cash
-strategy_name              
-dynamic_TF_carry  -11.46316
+                   delay_cash
+strategy_name                
+dynamic_TF_carry -1437.394018
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry NIKKEI             -1.273684
+dynamic_TF_carry CHF                -7.297651
+                 DX                  -3.89208
+                 NIKKEI             -1.299704
+                 SPI200             -6.357567
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -1.273684
+dynamic_TF_carry   -18.847002
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry NIKKEI               -2.547369
+dynamic_TF_carry CHF                  24.325502
+                 DX                  -15.568322
+                 NIKKEI               -2.599408
+                 SPI200                     0.0
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry      -2.547369
+dynamic_TF_carry       6.157773
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry NIKKEI                  -5.094738
+dynamic_TF_carry CHF                      9.730201
+                 DX                     -23.352482
+                 NIKKEI                  -5.198816
+                 SPI200                 -12.715135
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry         -5.094738
+dynamic_TF_carry        -31.536232
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry NIKKEI                                 0
+dynamic_TF_carry CHF                                    0
+                 DX                                     0
+                 NIKKEI                                 0
+                 SPI200                                 0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -87,11 +117,14 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry NIKKEI                   -3.821053
+dynamic_TF_carry CHF                      17.027852
+                 DX                      -19.460402
+                 NIKKEI                   -3.899112
+                 SPI200                   -6.357567
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry          -3.821053
+dynamic_TF_carry         -12.689229
 
 ********************************************************************************
                                  END OF REPORT                                  
