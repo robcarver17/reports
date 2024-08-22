@@ -1,105 +1,295 @@
 
 ********************************************************************************
-Trades report produced on 21/08/2024 22:50 from 20/08/2024 22:50 to 21/08/2024 22:50
+Trades report produced on 22/08/2024 22:50 from 21/08/2024 22:50 to 22/08/2024 22:50
 ********************************************************************************
 
 
 
-=================================================================================================
-                                          Broker orders                                          
-=================================================================================================
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
 
-      instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
-33737       ALUMINIUM  dynamic_TF_carry    [20240900] 2024-08-21 20:23:55.231   [1]       2183.75
-33738   CRUDE_W_micro  dynamic_TF_carry    [20241000] 2024-08-21 20:24:09.321   [1]         72.82
-33739   CRUDE_W_micro  dynamic_TF_carry    [20240900] 2024-08-21 20:28:12.188  [-1]         73.73
-33740   CRUDE_W_micro  dynamic_TF_carry    [20241000] 2024-08-21 20:30:23.333  [-1]         72.82
-
-
-========================================================================================================================================================
-                                                                         Delays                                                                         
-========================================================================================================================================================
-
-      instrument_code     strategy_name parent_reference_datetime submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
-33737       ALUMINIUM  dynamic_TF_carry                      None            None  2024-08-21 20:23:55.231000                    NaN                 NaN
-33738   CRUDE_W_micro  dynamic_TF_carry                      None            None  2024-08-21 20:24:09.321000                    NaN                 NaN
-33739   CRUDE_W_micro  dynamic_TF_carry                      None            None  2024-08-21 20:28:12.188000                    NaN                 NaN
-33740   CRUDE_W_micro  dynamic_TF_carry                      None            None  2024-08-21 20:30:23.333000                    NaN                 NaN
-
-
-==========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                 
-==========================================================================================================================================================================================================================
-
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
-33737       ALUMINIUM  dynamic_TF_carry   [1]                   None               None      None       None          None        None      2183.75   NaN     NaN       NaN          NaN                 NaN           NaN
-33738   CRUDE_W_micro  dynamic_TF_carry   [1]                   None               None      None       None          None        None        72.82   NaN     NaN       NaN          NaN                 NaN           NaN
-33739   CRUDE_W_micro  dynamic_TF_carry  [-1]                   None               None      None       None          None        None        73.73   NaN     NaN       NaN          NaN                 NaN           NaN
-33740   CRUDE_W_micro  dynamic_TF_carry  [-1]                   None               None      None       None          None        None        72.82   NaN     NaN       NaN          NaN                 NaN           NaN
-
-
-============================================================================================================================================================
-                                                    Slippage (normalised by annual vol, BP of annual SR)                                                    
-============================================================================================================================================================
-
-      instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33737       ALUMINIUM  dynamic_TF_carry   [1]      537.946704       NaN         NaN           NaN              NaN                     NaN               NaN
-33738   CRUDE_W_micro  dynamic_TF_carry   [1]         22.9969       NaN         NaN           NaN              NaN                     NaN               NaN
-33739   CRUDE_W_micro  dynamic_TF_carry  [-1]         22.9969       NaN         NaN           NaN              NaN                     NaN               NaN
-33740   CRUDE_W_micro  dynamic_TF_carry  [-1]         22.9969       NaN         NaN           NaN              NaN                     NaN               NaN
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+33765         BITCOIN  dynamic_TF_carry    [20240800] 2024-08-22 15:04:37   [1]      60755.00
+33762         BITCOIN  dynamic_TF_carry    [20240800] 2024-08-22 15:03:29   [1]      60810.00
+33759         BITCOIN  dynamic_TF_carry    [20240800] 2024-08-22 15:03:23  [-1]      60815.00
+33764         BITCOIN  dynamic_TF_carry    [20240800] 2024-08-22 15:04:36  [-1]      60750.00
+33754           CAD10  dynamic_TF_carry    [20240900] 2024-08-22 14:00:24  [-1]        124.43
+33767            CORN  dynamic_TF_carry    [20241200] 2024-08-22 15:30:23  [-1]        395.25
+33756   CRUDE_W_micro  dynamic_TF_carry    [20241000] 2024-08-22 14:00:48   [1]         72.16
+33752   CRUDE_W_micro  dynamic_TF_carry    [20241000] 2024-08-22 14:00:05  [-1]         72.25
+33749             DAX  dynamic_TF_carry    [20240900] 2024-08-22 08:02:26  [-1]      18515.00
+33763             DOW  dynamic_TF_carry    [20240900] 2024-08-22 15:03:30   [1]      41007.00
+33757             DOW  dynamic_TF_carry    [20240900] 2024-08-22 15:00:02  [-1]      41002.00
+33745         EU-AUTO  dynamic_TF_carry    [20240900] 2024-08-22 08:00:16   [1]        606.40
+33748        EU-BANKS  dynamic_TF_carry    [20240900] 2024-08-22 08:01:44   [1]        139.20
+33753     GAS_US_mini  dynamic_TF_carry    [20241000] 2024-08-22 14:00:19   [1]          2.26
+33755     GAS_US_mini  dynamic_TF_carry    [20241000] 2024-08-22 14:00:47  [-1]          2.26
+33743          KOSDAQ  dynamic_TF_carry    [20240900] 2024-08-22 02:02:44   [1]       1302.30
+33741            KR10  dynamic_TF_carry    [20240900] 2024-08-22 02:00:32   [1]        117.17
+33766         LIVECOW  dynamic_TF_carry    [20241000] 2024-08-22 15:30:01  [-1]        174.60
+33744             MIB  dynamic_TF_carry    [20240900] 2024-08-22 08:00:06  [-1]      33415.00
+33742          NIKKEI  dynamic_TF_carry    [20240900] 2024-08-22 02:00:35  [-1]      38155.00
+33747             V2X  dynamic_TF_carry    [20241000] 2024-08-22 08:01:34   [1]         18.15
+33750             V2X  dynamic_TF_carry    [20241000] 2024-08-22 08:02:27  [-1]         18.15
+33746             V2X  dynamic_TF_carry    [20241000] 2024-08-22 08:00:33  [-1]         18.05
+33751             V2X  dynamic_TF_carry    [20241000] 2024-08-22 08:02:28   [1]         18.20
+33758             VIX  dynamic_TF_carry    [20241100] 2024-08-22 15:03:20  [-1]         17.95
+33761             VIX  dynamic_TF_carry    [20241100] 2024-08-22 15:03:27   [1]         17.95
+33760          YENEUR  dynamic_TF_carry    [20240900] 2024-08-22 15:03:26  [-1]        162.39
 
 
-=======================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                      
-=======================================================================================================================================================================
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33737       ALUMINIUM  dynamic_TF_carry   [1]            19.632711        NaN          NaN            NaN               NaN                      NaN                NaN
-33738   CRUDE_W_micro  dynamic_TF_carry   [1]            78.530845        NaN          NaN            NaN               NaN                      NaN                NaN
-33739   CRUDE_W_micro  dynamic_TF_carry  [-1]            78.530845        NaN          NaN            NaN               NaN                      NaN                NaN
-33740   CRUDE_W_micro  dynamic_TF_carry  [-1]            78.530845        NaN          NaN            NaN               NaN                      NaN                NaN
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+33741            KR10  dynamic_TF_carry       2024-08-02 00:00:00  2024-08-22 02:00:30.899000  2024-08-22 02:00:32            1735230.899               1.101
+33742          NIKKEI  dynamic_TF_carry       2024-08-02 00:00:00  2024-08-22 02:00:34.537000  2024-08-22 02:00:35            1735234.537               0.463
+33743          KOSDAQ  dynamic_TF_carry       2024-08-02 00:00:00  2024-08-22 02:02:39.477000  2024-08-22 02:02:44            1735359.477               4.523
+33744             MIB  dynamic_TF_carry       2024-08-02 00:00:00  2024-08-22 08:00:05.526000  2024-08-22 08:00:06            1756805.526               0.474
+33745         EU-AUTO  dynamic_TF_carry       2024-08-02 00:00:00  2024-08-22 08:00:07.347000  2024-08-22 08:00:16            1756807.347               8.653
+33748        EU-BANKS  dynamic_TF_carry       2024-08-02 00:00:00  2024-08-22 08:01:35.951000  2024-08-22 08:01:44            1756895.951               8.049
+33749             DAX  dynamic_TF_carry       2024-08-02 00:00:00  2024-08-22 08:02:24.074000  2024-08-22 08:02:26            1756944.074               1.926
+33746             V2X  dynamic_TF_carry       2024-08-02 00:00:00  2024-08-22 08:00:17.730000  2024-08-22 08:00:33             1756817.73               15.27
+33750             V2X  dynamic_TF_carry       2024-08-02 00:00:00  2024-08-22 08:02:27.095000  2024-08-22 08:02:27            1756947.095                 NaN
+33747             V2X  dynamic_TF_carry       2024-08-02 00:00:00  2024-08-22 08:00:34.562000  2024-08-22 08:01:34            1756834.562              59.438
+33751             V2X  dynamic_TF_carry       2024-08-02 00:00:00  2024-08-22 08:02:27.710000  2024-08-22 08:02:28             1756947.71                0.29
+33752   CRUDE_W_micro  dynamic_TF_carry       2024-08-02 00:00:00  2024-08-22 14:00:05.375000  2024-08-22 14:00:05            1778405.375                 NaN
+33753     GAS_US_mini  dynamic_TF_carry       2024-08-02 00:00:00  2024-08-22 14:00:17.663000  2024-08-22 14:00:19            1778417.663               1.337
+33754           CAD10  dynamic_TF_carry       2024-08-02 00:00:00  2024-08-22 14:00:24.407000  2024-08-22 14:00:24            1778424.407                 NaN
+33755     GAS_US_mini  dynamic_TF_carry       2024-08-02 00:00:00  2024-08-22 14:00:25.353000  2024-08-22 14:00:47            1778425.353              21.647
+33756   CRUDE_W_micro  dynamic_TF_carry       2024-08-02 00:00:00  2024-08-22 14:00:48.254000  2024-08-22 14:00:48            1778448.254                 NaN
+33757             DOW  dynamic_TF_carry       2024-08-02 00:00:00  2024-08-22 15:00:02.523000  2024-08-22 15:00:02            1782002.523                 NaN
+33758             VIX  dynamic_TF_carry       2024-08-02 00:00:00  2024-08-22 15:00:04.242000  2024-08-22 15:03:20            1782004.242             195.758
+33760          YENEUR  dynamic_TF_carry       2024-08-02 00:00:00  2024-08-22 15:03:24.589000  2024-08-22 15:03:26            1782204.589               1.411
+33761             VIX  dynamic_TF_carry       2024-08-02 00:00:00  2024-08-22 15:03:27.663000  2024-08-22 15:03:27            1782207.663                 NaN
+33763             DOW  dynamic_TF_carry       2024-08-02 00:00:00  2024-08-22 15:03:30.302000  2024-08-22 15:03:30            1782210.302                 NaN
+33764         BITCOIN  dynamic_TF_carry       2024-08-02 00:00:00  2024-08-22 15:04:36.074000  2024-08-22 15:04:36            1782276.074                 NaN
+33759         BITCOIN  dynamic_TF_carry       2024-08-02 00:00:00  2024-08-22 15:03:22.002000  2024-08-22 15:03:23            1782202.002               0.998
+33762         BITCOIN  dynamic_TF_carry       2024-08-02 00:00:00  2024-08-22 15:03:28.807000  2024-08-22 15:03:29            1782208.807               0.193
+33765         BITCOIN  dynamic_TF_carry       2024-08-02 00:00:00  2024-08-22 15:04:36.779000  2024-08-22 15:04:37            1782276.779               0.221
+33766         LIVECOW  dynamic_TF_carry       2024-08-02 00:00:00  2024-08-22 15:30:01.125000  2024-08-22 15:30:01            1783801.125                 NaN
+33767            CORN  dynamic_TF_carry       2024-08-02 00:00:00  2024-08-22 15:30:02.717000  2024-08-22 15:30:23            1783802.717              20.283
+
+
+============================================================================================================================================================================================================================
+                                                                                                  Slippage (ticks per lot)                                                                                                  
+============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
+33741            KR10  dynamic_TF_carry   [1]                 117.39               None   117.155     117.16        117.15      117.15       117.17   0.235  -0.005     -0.01        -0.02                 NaN        -0.015
+33742          NIKKEI  dynamic_TF_carry  [-1]                36340.0               None   38172.5    38170.0       38175.0     38175.0      38155.0  1832.5    -2.5     -15.0        -20.0                 NaN         -17.5
+33743          KOSDAQ  dynamic_TF_carry   [1]                 1317.6               None    1302.4     1302.5        1302.3      1302.3       1302.3    15.2    -0.1       0.2          0.0                 NaN           0.1
+33744             MIB  dynamic_TF_carry  [-1]                32145.0               None   33390.0    33385.0       33395.0     33395.0      33415.0  1245.0    -5.0      30.0         20.0                 NaN          25.0
+33745         EU-AUTO  dynamic_TF_carry   [1]                  580.9               None     605.1      606.1         604.1       604.1        606.4   -24.2    -1.0      -0.3         -2.3                 NaN          -1.3
+33748        EU-BANKS  dynamic_TF_carry   [1]                  132.9               None    139.15      139.2         139.1       139.1        139.2   -6.25   -0.05       0.0         -0.1                 NaN         -0.05
+33749             DAX  dynamic_TF_carry  [-1]                17724.0               None   18514.0    18513.0       18515.0     18515.0      18515.0   790.0    -1.0       2.0         -0.0                 NaN           1.0
+33746             V2X  dynamic_TF_carry  [-1]                   22.1               None    18.025       18.0         18.05       18.05        18.05  -4.075  -0.025      0.05         -0.0                 NaN         0.025
+33750             V2X  dynamic_TF_carry  [-1]                   22.1               None    18.025       18.0         18.05       18.05        18.15  -4.075  -0.025      0.15          0.1                 NaN         0.125
+33747             V2X  dynamic_TF_carry   [1]                   22.1               None    18.075       18.1         18.05       18.05        18.15   4.025  -0.025     -0.05         -0.1                 NaN        -0.075
+33751             V2X  dynamic_TF_carry   [1]                   22.1               None    18.125      18.15          18.1        18.1         18.2   3.975  -0.025     -0.05         -0.1                 NaN        -0.075
+33752   CRUDE_W_micro  dynamic_TF_carry  [-1]                  72.82               None    72.245      72.24         72.25       72.25        72.25  -0.575  -0.005      0.01         -0.0                 NaN         0.005
+33753     GAS_US_mini  dynamic_TF_carry   [1]                  2.085               None    2.2625      2.265          2.26        2.26         2.26 -0.1775 -0.0025     0.005          0.0                 NaN        0.0025
+33754           CAD10  dynamic_TF_carry  [-1]                 125.02               None   124.395     124.39         124.4       124.4       124.43  -0.625  -0.005      0.04         0.03                 NaN         0.035
+33755     GAS_US_mini  dynamic_TF_carry  [-1]                  2.085               None    2.2575      2.255          2.26        2.26         2.26  0.1725 -0.0025     0.005         -0.0                 NaN        0.0025
+33756   CRUDE_W_micro  dynamic_TF_carry   [1]                  72.82               None    72.165      72.17         72.16       72.16        72.16   0.655  -0.005      0.01          0.0                 NaN         0.005
+33757             DOW  dynamic_TF_carry  [-1]                39759.0               None   41003.5    41002.0       41005.0     41005.0      41002.0  1244.5    -1.5      -0.0         -3.0                 NaN          -1.5
+33758             VIX  dynamic_TF_carry  [-1]                  20.35               None    17.925       17.9         17.95       17.95        17.95  -2.425  -0.025      0.05         -0.0                 NaN         0.025
+33760          YENEUR  dynamic_TF_carry  [-1]                 159.29               None   162.405     162.39        162.42      162.42       162.39   3.115  -0.015      -0.0        -0.03                 NaN        -0.015
+33761             VIX  dynamic_TF_carry   [1]                  20.35               None    17.975       18.0         17.95       17.95        17.95   2.375  -0.025      0.05          0.0                 NaN         0.025
+33763             DOW  dynamic_TF_carry   [1]                39759.0               None   41003.0    41004.0       41002.0     41002.0      41007.0 -1244.0    -1.0      -3.0         -5.0                 NaN          -4.0
+33764         BITCOIN  dynamic_TF_carry  [-1]                63215.0               None   60815.0    60810.0       60820.0     60820.0      60750.0 -2400.0    -5.0     -60.0        -70.0                 NaN         -65.0
+33759         BITCOIN  dynamic_TF_carry  [-1]                63215.0               None   60807.5    60800.0       60815.0     60815.0      60815.0 -2407.5    -7.5      15.0         -0.0                 NaN           7.5
+33762         BITCOIN  dynamic_TF_carry   [1]                63215.0               None   60805.0    60815.0       60795.0     60795.0      60810.0  2410.0   -10.0       5.0        -15.0                 NaN          -5.0
+33765         BITCOIN  dynamic_TF_carry   [1]                63215.0               None   60747.5    60755.0       60740.0     60740.0      60755.0  2467.5    -7.5       0.0        -15.0                 NaN          -7.5
+33766         LIVECOW  dynamic_TF_carry  [-1]                181.925               None  174.6375    174.625        174.65      174.65        174.6 -7.2875 -0.0125    -0.025        -0.05                 NaN       -0.0375
+33767            CORN  dynamic_TF_carry  [-1]                 403.75               None   395.625      395.5        395.75      395.75       395.25  -8.125  -0.125     -0.25         -0.5                 NaN        -0.375
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+33741            KR10  dynamic_TF_carry   [1]        6.262263   375.263717   -7.984334    -15.968669       -31.937338                     NaN        -23.953003
+33742          NIKKEI  dynamic_TF_carry  [-1]    14918.971085  1228.301864   -1.675719    -10.054313        -13.40575                     NaN        -11.730031
+33743          KOSDAQ  dynamic_TF_carry   [1]      574.072966   264.774705   -1.741939      3.483878              0.0                     NaN          1.741939
+33744             MIB  dynamic_TF_carry  [-1]     5415.235243  2299.069097   -9.233209     55.399255        36.932837                     NaN         46.166046
+33745         EU-AUTO  dynamic_TF_carry   [1]       113.34425 -2135.088452  -88.226796    -26.468039       -202.92163                     NaN       -114.694834
+33748        EU-BANKS  dynamic_TF_carry   [1]       30.533099 -2046.958938  -16.375672           0.0       -32.751343                     NaN        -16.375672
+33749             DAX  dynamic_TF_carry  [-1]     2589.019348  3051.348383   -3.862466      7.724933             -0.0                     NaN          3.862466
+33746             V2X  dynamic_TF_carry  [-1]        16.56486 -2460.026897   -15.09219     30.184379             -0.0                     NaN          15.09219
+33750             V2X  dynamic_TF_carry  [-1]        16.56486 -2460.026897   -15.09219     90.553137        60.368758                     NaN         75.460948
+33747             V2X  dynamic_TF_carry   [1]        16.56486  2429.842517   -15.09219    -30.184379       -60.368758                     NaN        -45.276569
+33751             V2X  dynamic_TF_carry   [1]        16.56486  2399.658138   -15.09219    -30.184379       -60.368758                     NaN        -45.276569
+33752   CRUDE_W_micro  dynamic_TF_carry  [-1]       21.539622  -266.949898   -2.321303      4.642607             -0.0                     NaN          2.321303
+33753     GAS_US_mini  dynamic_TF_carry   [1]        1.412948 -1256.239159  -17.693509     35.387019              0.0                     NaN         17.693509
+33754           CAD10  dynamic_TF_carry  [-1]        8.123921  -769.332905   -6.154663     49.237306        36.927979                     NaN         43.082643
+33755     GAS_US_mini  dynamic_TF_carry  [-1]        1.412948   1220.85214  -17.693509     35.387019             -0.0                     NaN         17.693509
+33756   CRUDE_W_micro  dynamic_TF_carry   [1]       21.539622   304.090753   -2.321303      4.642607              0.0                     NaN          2.321303
+33757             DOW  dynamic_TF_carry  [-1]     5365.214827  2319.571611   -2.795787          -0.0        -5.591575                     NaN         -2.795787
+33758             VIX  dynamic_TF_carry  [-1]       11.876027 -2041.928641  -21.050811     42.101621             -0.0                     NaN         21.050811
+33760          YENEUR  dynamic_TF_carry  [-1]       16.894295  1843.817722   -8.878737          -0.0       -17.757474                     NaN         -8.878737
+33761             VIX  dynamic_TF_carry   [1]       11.876027   1999.82702  -21.050811     42.101621              0.0                     NaN         21.050811
+33763             DOW  dynamic_TF_carry   [1]     5365.214827 -2318.639682   -1.863858     -5.591575        -9.319291                     NaN         -7.455433
+33764         BITCOIN  dynamic_TF_carry  [-1]     32534.90387  -737.669307   -1.536811    -18.441733       -21.515355                     NaN        -19.978544
+33759         BITCOIN  dynamic_TF_carry  [-1]     32534.90387  -739.974524   -2.305217      4.610433             -0.0                     NaN          2.305217
+33762         BITCOIN  dynamic_TF_carry   [1]     32534.90387   740.742929   -3.073622      1.536811        -4.610433                     NaN         -1.536811
+33765         BITCOIN  dynamic_TF_carry   [1]     32534.90387   758.416257   -2.305217           0.0        -4.610433                     NaN         -2.305217
+33766         LIVECOW  dynamic_TF_carry  [-1]       24.533479 -2970.430745   -5.095078    -10.190157       -20.380314                     NaN        -15.285235
+33767            CORN  dynamic_TF_carry  [-1]       87.690875  -926.550227  -14.254619    -28.509238       -57.018475                     NaN        -42.763857
+
+
+=========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                       
+=========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point   delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+33741            KR10  dynamic_TF_carry   [1]           569.525389   133.838466    -2.847627      -5.695254        -11.390508                      NaN          -8.542881
+33742          NIKKEI  dynamic_TF_carry  [-1]             0.526056    963.99737     -1.31514      -7.890838        -10.521117                      NaN          -9.205978
+33743          KOSDAQ  dynamic_TF_carry   [1]             5.695254    86.567859    -0.569525       1.139051               0.0                      NaN           0.569525
+33744             MIB  dynamic_TF_carry  [-1]             4.258122  5301.361845    -21.29061     127.743659         85.162439                      NaN         106.453049
+33745         EU-AUTO  dynamic_TF_carry   [1]             42.58122 -1030.465515    -42.58122     -12.774366        -97.936805                      NaN         -55.355586
+33748        EU-BANKS  dynamic_TF_carry   [1]             42.58122  -266.132623    -2.129061            0.0         -4.258122                      NaN          -2.129061
+33749             DAX  dynamic_TF_carry  [-1]             0.851624    672.78327    -0.851624       1.703249              -0.0                      NaN           0.851624
+33746             V2X  dynamic_TF_carry  [-1]            85.162439   -347.03694    -2.129061       4.258122              -0.0                      NaN           2.129061
+33750             V2X  dynamic_TF_carry  [-1]            85.162439   -347.03694    -2.129061      12.774366          8.516244                      NaN          10.645305
+33747             V2X  dynamic_TF_carry   [1]            85.162439   342.778818    -2.129061      -4.258122         -8.516244                      NaN          -6.387183
+33751             V2X  dynamic_TF_carry   [1]            85.162439   338.520696    -2.129061      -4.258122         -8.516244                      NaN          -6.387183
+33752   CRUDE_W_micro  dynamic_TF_carry  [-1]            76.433024   -43.948989    -0.382165        0.76433              -0.0                      NaN           0.382165
+33753     GAS_US_mini  dynamic_TF_carry   [1]          1910.825591  -339.171542    -4.777064       9.554128               0.0                      NaN           4.777064
+33754           CAD10  dynamic_TF_carry  [-1]           562.617719  -351.636074    -2.813089      22.504709         16.878532                      NaN           19.69162
+33755     GAS_US_mini  dynamic_TF_carry  [-1]          1910.825591   329.617415    -4.777064       9.554128              -0.0                      NaN           4.777064
+33756   CRUDE_W_micro  dynamic_TF_carry   [1]            76.433024     50.06363    -0.382165        0.76433               0.0                      NaN           0.382165
+33757             DOW  dynamic_TF_carry  [-1]             0.382165    475.60449    -0.573248           -0.0         -1.146495                      NaN          -0.573248
+33758             VIX  dynamic_TF_carry  [-1]           764.330237 -1853.500824   -19.108256      38.216512              -0.0                      NaN          19.108256
+33760          YENEUR  dynamic_TF_carry  [-1]           657.569829  2048.330018    -9.863547           -0.0        -19.727095                      NaN          -9.863547
+33761             VIX  dynamic_TF_carry   [1]           764.330237  1815.284312   -19.108256      38.216512               0.0                      NaN          19.108256
+33763             DOW  dynamic_TF_carry   [1]             0.382165  -475.413407    -0.382165      -1.146495         -1.910826                      NaN           -1.52866
+33764         BITCOIN  dynamic_TF_carry  [-1]             0.076433  -183.439257    -0.382165      -4.585981         -5.350312                      NaN          -4.968147
+33759         BITCOIN  dynamic_TF_carry  [-1]             0.076433  -184.012504    -0.573248       1.146495              -0.0                      NaN           0.573248
+33762         BITCOIN  dynamic_TF_carry   [1]             0.076433   184.203587     -0.76433       0.382165         -1.146495                      NaN          -0.382165
+33765         BITCOIN  dynamic_TF_carry   [1]             0.076433   188.598486    -0.573248            0.0         -1.146495                      NaN          -0.573248
+33766         LIVECOW  dynamic_TF_carry  [-1]           305.732095 -2228.022639    -3.821651      -7.643302        -15.286605                      NaN         -11.464954
+33767            CORN  dynamic_TF_carry  [-1]            38.216512  -310.509159    -4.777064      -9.554128        -19.108256                      NaN         -14.331192
 
 delay_cash Sum
-                                 delay_cash
-strategy_name    instrument_code           
-dynamic_TF_carry ALUMINIUM                0
-                 CRUDE_W_micro            0
+                                   delay_cash
+strategy_name    instrument_code             
+dynamic_TF_carry BITCOIN             5.350312
+                 CAD10            -351.636074
+                 CORN             -310.509159
+                 CRUDE_W_micro       6.114642
+                 DAX                672.78327
+                 DOW                 0.191083
+                 EU-AUTO         -1030.465515
+                 EU-BANKS         -266.132623
+                 GAS_US_mini        -9.554128
+                 KOSDAQ             86.567859
+                 KR10              133.838466
+                 LIVECOW         -2228.022639
+                 MIB              5301.361845
+                 NIKKEI             963.99737
+                 V2X               -12.774366
+                 VIX               -38.216512
+                 YENEUR           2048.330018
 delay_cash Total Sum
-                 delay_cash
-strategy_name              
-dynamic_TF_carry          0
+                   delay_cash
+strategy_name                
+dynamic_TF_carry  4971.223849
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry ALUMINIUM                  0
-                 CRUDE_W_micro              0
+dynamic_TF_carry BITCOIN            -2.292991
+                 CAD10              -2.813089
+                 CORN               -4.777064
+                 CRUDE_W_micro       -0.76433
+                 DAX                -0.851624
+                 DOW                -0.955413
+                 EU-AUTO            -42.58122
+                 EU-BANKS           -2.129061
+                 GAS_US_mini        -9.554128
+                 KOSDAQ             -0.569525
+                 KR10               -2.847627
+                 LIVECOW            -3.821651
+                 MIB                -21.29061
+                 NIKKEI              -1.31514
+                 V2X                -8.516244
+                 VIX               -38.216512
+                 YENEUR             -9.863547
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry            0
+dynamic_TF_carry  -153.159775
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry ALUMINIUM                    0
-                 CRUDE_W_micro                0
+dynamic_TF_carry BITCOIN              -3.057321
+                 CAD10                22.504709
+                 CORN                 -9.554128
+                 CRUDE_W_micro          1.52866
+                 DAX                   1.703249
+                 DOW                  -1.146495
+                 EU-AUTO             -12.774366
+                 EU-BANKS                   0.0
+                 GAS_US_mini          19.108256
+                 KOSDAQ                1.139051
+                 KR10                 -5.695254
+                 LIVECOW              -7.643302
+                 MIB                 127.743659
+                 NIKKEI               -7.890838
+                 V2X                   8.516244
+                 VIX                  76.433024
+                 YENEUR                    -0.0
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry              0
+dynamic_TF_carry     210.915147
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry ALUMINIUM                       0
-                 CRUDE_W_micro                   0
+dynamic_TF_carry BITCOIN                 -7.643302
+                 CAD10                   16.878532
+                 CORN                   -19.108256
+                 CRUDE_W_micro                 0.0
+                 DAX                          -0.0
+                 DOW                     -3.057321
+                 EU-AUTO                -97.936805
+                 EU-BANKS                -4.258122
+                 GAS_US_mini                   0.0
+                 KOSDAQ                        0.0
+                 KR10                   -11.390508
+                 LIVECOW                -15.286605
+                 MIB                     85.162439
+                 NIKKEI                 -10.521117
+                 V2X                     -8.516244
+                 VIX                           0.0
+                 YENEUR                 -19.727095
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry                 0
+dynamic_TF_carry        -95.404404
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry ALUMINIUM                              0
+dynamic_TF_carry BITCOIN                                0
+                 CAD10                                  0
+                 CORN                                   0
                  CRUDE_W_micro                          0
+                 DAX                                    0
+                 DOW                                    0
+                 EU-AUTO                                0
+                 EU-BANKS                               0
+                 GAS_US_mini                            0
+                 KOSDAQ                                 0
+                 KR10                                   0
+                 LIVECOW                                0
+                 MIB                                    0
+                 NIKKEI                                 0
+                 V2X                                    0
+                 VIX                                    0
+                 YENEUR                                 0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -107,12 +297,27 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry ALUMINIUM                        0
-                 CRUDE_W_micro                    0
+dynamic_TF_carry BITCOIN                  -5.350312
+                 CAD10                     19.69162
+                 CORN                    -14.331192
+                 CRUDE_W_micro              0.76433
+                 DAX                       0.851624
+                 DOW                      -2.101908
+                 EU-AUTO                 -55.355586
+                 EU-BANKS                 -2.129061
+                 GAS_US_mini               9.554128
+                 KOSDAQ                    0.569525
+                 KR10                     -8.542881
+                 LIVECOW                 -11.464954
+                 MIB                     106.453049
+                 NIKKEI                   -9.205978
+                 V2X                            0.0
+                 VIX                      38.216512
+                 YENEUR                   -9.863547
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry                  0
+dynamic_TF_carry          57.755371
 
 ********************************************************************************
                                  END OF REPORT                                  
