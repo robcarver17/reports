@@ -1,15 +1,15 @@
 
 ********************************************************************************
-              Removed markets report produced on 27/08/2024 23:05               
+              Removed markets report produced on 28/08/2024 23:05               
 ********************************************************************************
 
 
 List of markets which should be marked as untradeable due to risk, liquidity or cost issues
-Following should be removed from trading (add to config.bad_markets) [0.300000 threshold]: ['BONO'] 
+Following should be removed from trading (add to config.bad_markets) [0.300000 threshold]: ['MSCIWORLD', 'BONO'] 
 
 
 
-Following should be allowed to trade (delete from config.bad_markets) [0.300000 threshold]: ['EU-DJ-TECH', 'EUR_micro', 'EU-REALESTATE', 'DJSTX-SMALL', 'CHFJPY', 'SEK', 'NOK', 'JPY_mini', 'AUDJPY', 'VIX_mini', 'EU-FOOD']
+Following should be allowed to trade (delete from config.bad_markets) [0.300000 threshold]: ['DJSTX-SMALL', 'VIX_mini', 'EU-FOOD', 'EU-REALESTATE', 'NOK', 'SEK', 'JPY_mini', 'EU-DJ-TECH', 'AUDJPY']
 
 
 
@@ -17,7 +17,7 @@ Markets too expensive (SR cost per trade > 0.010): ['AEX_mini', 'BB3M', 'BOVESPA
 
 
 
-Markets not enough risk volume (Volume in $m ann. risk per day < 1.50): ['AEX_mini', 'BBCOMM', 'BONO', 'BOVESPA', 'BUTTER', 'CAD_micro', 'CH10', 'CHEESE', 'CHF_micro', 'CLP', 'CNH-onshore', 'COAL-GEORDIE', 'COPPER-mini', 'CORN_mini', 'COTTON', 'CZK', 'EPRA-EUROPE', 'EU-CHEM', 'EU-CONSTRUCTION', 'EU-DJ-OIL', 'EU-DJ-TELECOM', 'EU-DJ-UTIL', 'EU-HOUSE', 'EU-MEDIA', 'EU-MID', 'EU-RETAIL', 'EU-TRAVEL', 'EURAUD', 'EURCAD', 'EUROSTX-LARGE', 'EUROSTX-SMALL', 'EUROSTX200-LARGE', 'FTSEINDO', 'FTSEVIET', 'GASOILINE_micro', 'GBPCHF', 'GBPJPY', 'GBP_micro', 'GICS', 'HIGHYIELD', 'IBEX_mini', 'IG', 'INR', 'IRS', 'JGB-mini', 'JP-REALESTATE', 'KRWUSD', 'MILKDRY', 'MSCIEMASIA', 'OATIES', 'OMX', 'PLN', 'R1000', 'RUR', 'SGD_mini', 'SGX', 'SMI-MID', 'STEEL', 'SUGAR16', 'SWISSLEAD', 'TWD', 'TWD-mini', 'US-PROPERTY', 'VNKI', 'WHEAT_ICE', 'WHEAT_mini', 'WHEY']
+Markets not enough risk volume (Volume in $m ann. risk per day < 1.50): ['AEX_mini', 'BBCOMM', 'BONO', 'BOVESPA', 'BUTTER', 'CAD_micro', 'CH10', 'CHEESE', 'CHF_micro', 'CLP', 'CNH-onshore', 'COAL-GEORDIE', 'COPPER-mini', 'CORN_mini', 'COTTON', 'CZK', 'EPRA-EUROPE', 'EU-CHEM', 'EU-CONSTRUCTION', 'EU-DJ-OIL', 'EU-DJ-TELECOM', 'EU-DJ-UTIL', 'EU-HOUSE', 'EU-MEDIA', 'EU-MID', 'EU-RETAIL', 'EU-TRAVEL', 'EURAUD', 'EURCAD', 'EUROSTX-LARGE', 'EUROSTX-SMALL', 'EUROSTX200-LARGE', 'FTSEINDO', 'FTSEVIET', 'GASOILINE_micro', 'GBPCHF', 'GBPJPY', 'GBP_micro', 'GICS', 'HIGHYIELD', 'IBEX_mini', 'IG', 'INR', 'IRS', 'JGB-mini', 'JP-REALESTATE', 'KRWUSD', 'MILKDRY', 'MSCIEMASIA', 'MSCIWORLD', 'OATIES', 'OMX', 'PLN', 'R1000', 'RUR', 'SGD', 'SGD_mini', 'SGX', 'SMI-MID', 'STEEL', 'SUGAR16', 'SWISSLEAD', 'TWD', 'TWD-mini', 'US-PROPERTY', 'VNKI', 'WHEAT_ICE', 'WHEAT_mini', 'WHEY']
 
 
 
@@ -25,7 +25,7 @@ Markets not enough contract volume (Volume in contracts per day < 100): ['AEX_mi
 
 
 
-Markets too safe (Annual % std. dev < 5.0): ['BB3M', 'BOBL', 'BTP3', 'CAD', 'CAD2', 'CAD5', 'CAD_micro', 'CH10', 'EURIBOR', 'EURIBOR-ICE', 'FED', 'GBPEUR', 'HIGHYIELD', 'HOUSE-US', 'INR', 'JGB', 'JGB-SGX-mini', 'JGB-mini', 'KR3', 'SARONA', 'SGD', 'SGD_mini', 'SHATZ', 'SOFR', 'SONIA3', 'US2', 'US3', 'US5']
+Markets too safe (Annual % std. dev < 5.0): ['BB3M', 'BOBL', 'BTP3', 'CAD', 'CAD2', 'CAD5', 'CAD_micro', 'CH10', 'EURIBOR', 'EURIBOR-ICE', 'EUR_micro', 'FED', 'GBPEUR', 'HIGHYIELD', 'HOUSE-US', 'INR', 'JGB', 'JGB-SGX-mini', 'JGB-mini', 'KR3', 'SARONA', 'SGD', 'SGD_mini', 'SHATZ', 'SOFR', 'SONIA3', 'US2', 'US3', 'US5']
 
 
 
@@ -51,6 +51,7 @@ exclude_instrument_lists:
     - CAD_micro 
     - CH10 
     - CHEESE 
+    - CHFJPY 
     - CHF_micro 
     - CLP 
     - CNH 
@@ -80,6 +81,7 @@ exclude_instrument_lists:
     - EUROSTX-LARGE 
     - EUROSTX-SMALL 
     - EUROSTX200-LARGE 
+    - EUR_micro 
     - EUR_mini 
     - FED 
     - FTSEINDO 
@@ -106,6 +108,7 @@ exclude_instrument_lists:
     - MILKDRY 
     - MILKWET 
     - MSCIEMASIA 
+    - MSCIWORLD 
     - OATIES 
     - OMX 
     - PLN 
@@ -183,6 +186,7 @@ exclude_instrument_lists:
     - EUROSTX-LARGE 
     - EUROSTX-SMALL 
     - EUROSTX200-LARGE 
+    - EUR_micro 
     - FED 
     - FTSEINDO 
     - FTSEVIET 
@@ -207,6 +211,7 @@ exclude_instrument_lists:
     - MILKDRY 
     - MILKWET 
     - MSCIEMASIA 
+    - MSCIWORLD 
     - OATIES 
     - OMX 
     - PLN 
