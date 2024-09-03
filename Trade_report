@@ -1,15 +1,206 @@
 
 ********************************************************************************
-Trades report produced on 02/09/2024 22:50 from 01/09/2024 22:50 to 02/09/2024 22:50
+Trades report produced on 03/09/2024 22:50 from 02/09/2024 22:50 to 03/09/2024 22:50
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=================================================================================================
+                                          Broker orders                                          
+=================================================================================================
+
+      instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
+33809         BITCOIN  dynamic_TF_carry    [20240900] 2024-09-03 15:00:03.000  [-1]      58535.00
+33805          CANOLA  dynamic_TF_carry    [20250100] 2024-09-03 14:03:22.000  [-1]        580.60
+33808   CRUDE_W_micro  dynamic_TF_carry    [20241200] 2024-09-03 14:04:06.000  [-1]         70.21
+33807   CRUDE_W_micro  dynamic_TF_carry    [20241200] 2024-09-03 14:04:01.000  [-1]         70.22
+33802          EU-OIL  dynamic_TF_carry    [20240900] 2024-09-03 08:00:28.000  [-1]        355.50
+33801            KR10  dynamic_TF_carry    [20240900] 2024-09-03 02:07:30.000  [-1]        115.92
+33810         LEANHOG  dynamic_TF_carry    [20241200] 2024-09-03 15:30:12.000   [1]         72.20
+33803             MIB  dynamic_TF_carry    [20240900] 2024-09-03 19:30:00.786   [0]           NaN
+33804             MIB  dynamic_TF_carry    [20240900] 2024-09-03 08:11:17.000   [1]      34430.00
+33806        MSCIEAFA  dynamic_TF_carry    [20240900] 2024-09-03 14:03:55.000  [-1]       2444.10
+33800        MSCISING  dynamic_TF_carry    [20240900] 2024-09-03 02:05:17.000   [1]        323.95
+33799           MUMMY  dynamic_TF_carry    [20241200] 2024-09-03 02:05:08.000   [1]        668.00
+
+
+====================================================================================================================================================================
+                                                                               Delays                                                                               
+====================================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
+33799           MUMMY  dynamic_TF_carry       2024-08-30 00:00:00  2024-09-03 02:00:28.669000         2024-09-03 02:05:08             352828.669             279.331
+33800        MSCISING  dynamic_TF_carry       2024-08-30 00:00:00  2024-09-03 02:05:12.549000         2024-09-03 02:05:17             353112.549               4.451
+33801            KR10  dynamic_TF_carry       2024-08-30 00:00:00  2024-09-03 02:07:19.265000         2024-09-03 02:07:30             353239.265              10.735
+33802          EU-OIL  dynamic_TF_carry       2024-08-30 00:00:00  2024-09-03 08:00:07.386000         2024-09-03 08:00:28             374407.386              20.614
+33805          CANOLA  dynamic_TF_carry       2024-08-30 00:00:00  2024-09-03 14:00:04.533000         2024-09-03 14:03:22             396004.533             197.467
+33806        MSCIEAFA  dynamic_TF_carry       2024-08-30 00:00:00  2024-09-03 14:03:23.922000         2024-09-03 14:03:55             396203.922              31.078
+33808   CRUDE_W_micro  dynamic_TF_carry       2024-08-30 00:00:00  2024-09-03 14:04:06.690000         2024-09-03 14:04:06              396246.69                 NaN
+33807   CRUDE_W_micro  dynamic_TF_carry       2024-08-30 00:00:00  2024-09-03 14:04:01.190000         2024-09-03 14:04:01              396241.19                 NaN
+33809         BITCOIN  dynamic_TF_carry       2024-08-30 00:00:00  2024-09-03 15:00:02.898000         2024-09-03 15:00:03             399602.898               0.102
+33810         LEANHOG  dynamic_TF_carry       2024-08-30 00:00:00  2024-09-03 15:30:05.614000         2024-09-03 15:30:12             401405.614               6.386
+33803             MIB  dynamic_TF_carry       2024-08-30 00:00:00  2024-09-03 08:00:33.982000  2024-09-03 19:30:00.786000             374433.982           41366.804
+33804             MIB  dynamic_TF_carry       2024-08-30 00:00:00  2024-09-03 08:11:17.475000         2024-09-03 08:11:17             375077.475                 NaN
+
+
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+33799           MUMMY  dynamic_TF_carry   [1]                  656.0               None     669.0      670.0         668.0       668.0        668.0  -13.0    -1.0       2.0          0.0                 NaN           1.0
+33800        MSCISING  dynamic_TF_carry   [1]                  319.6               None   323.875      323.9        323.85      323.85       323.95 -4.275  -0.025     -0.05         -0.1                 NaN        -0.075
+33801            KR10  dynamic_TF_carry  [-1]                 116.21               None   115.915     115.91        115.92      115.92       115.92 -0.295  -0.005      0.01         -0.0                 NaN         0.005
+33802          EU-OIL  dynamic_TF_carry  [-1]                  355.4               None     355.8      355.4         356.2       356.2        355.5    0.4    -0.4       0.1         -0.7                 NaN          -0.3
+33805          CANOLA  dynamic_TF_carry  [-1]                  624.0               None     582.3      582.0         582.6       582.6        580.6  -41.7    -0.3      -1.4         -2.0                 NaN          -1.7
+33806        MSCIEAFA  dynamic_TF_carry  [-1]                 2452.3               None    2444.0     2443.9        2444.1      2444.1       2444.1   -8.3    -0.1       0.2         -0.0                 NaN           0.1
+33808   CRUDE_W_micro  dynamic_TF_carry  [-1]                  71.73               None     70.23      70.22         70.24       70.24        70.21   -1.5   -0.01     -0.01        -0.03                 NaN         -0.02
+33807   CRUDE_W_micro  dynamic_TF_carry  [-1]                  71.73               None    70.225      70.21         70.24       70.24        70.22 -1.505  -0.015      0.01        -0.02                 NaN        -0.005
+33809         BITCOIN  dynamic_TF_carry  [-1]                59320.0               None   58570.0    58560.0       58580.0     58580.0      58535.0 -750.0   -10.0     -25.0        -45.0                 NaN         -35.0
+33810         LEANHOG  dynamic_TF_carry   [1]                 72.675               None    72.175       72.2         72.15       72.15         72.2    0.5  -0.025       0.0        -0.05                 NaN        -0.025
+33803             MIB  dynamic_TF_carry   [1]                34450.0               None   34432.5    34435.0       34430.0     34430.0          NaN   17.5    -2.5       NaN          NaN                 NaN           NaN
+33804             MIB  dynamic_TF_carry   [1]                34450.0               None   34442.5    34445.0       34440.0     34440.0      34430.0    7.5    -2.5      15.0         10.0                 NaN          12.5
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+33799           MUMMY  dynamic_TF_carry   [1]      266.891818  -487.088742  -37.468365     74.936729              0.0                     NaN         37.468365
+33800        MSCISING  dynamic_TF_carry   [1]       52.698412  -811.219895   -4.743976     -9.487952       -18.975904                     NaN        -14.231928
+33801            KR10  dynamic_TF_carry  [-1]        6.463484  -456.410182   -7.735766     15.471532             -0.0                     NaN          7.735766
+33802          EU-OIL  dynamic_TF_carry  [-1]       66.851516    59.834096  -59.834096     14.958524      -104.709668                     NaN        -44.875572
+33805          CANOLA  dynamic_TF_carry  [-1]      172.606396 -2415.901199  -17.380584    -81.109393      -115.870561                     NaN        -98.489977
+33806        MSCIEAFA  dynamic_TF_carry  [-1]      350.003075  -237.140774   -2.857118      5.714236             -0.0                     NaN          2.857118
+33808   CRUDE_W_micro  dynamic_TF_carry  [-1]       22.857339  -656.244379   -4.374963     -4.374963       -13.124888                     NaN         -8.749925
+33807   CRUDE_W_micro  dynamic_TF_carry  [-1]       22.857339  -658.431861   -6.562444      4.374963        -8.749925                     NaN         -2.187481
+33809         BITCOIN  dynamic_TF_carry  [-1]    29516.983056  -254.091009    -3.38788       -8.4697       -15.245461                     NaN         -11.85758
+33810         LEANHOG  dynamic_TF_carry   [1]        18.21221   274.541092  -13.727055           0.0       -27.454109                     NaN        -13.727055
+33803             MIB  dynamic_TF_carry   [1]     4993.563118    35.045116   -5.006445           NaN              NaN                     NaN               NaN
+33804             MIB  dynamic_TF_carry   [1]     4993.563118    15.019336   -5.006445     30.038671        20.025781                     NaN         25.032226
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+33799           MUMMY  dynamic_TF_carry   [1]             5.208445  -67.709785    -5.208445       10.41689               0.0                      NaN           5.208445
+33800        MSCISING  dynamic_TF_carry   [1]             58.22596 -248.915977    -1.455649      -2.911298         -5.822596                      NaN          -4.366947
+33801            KR10  dynamic_TF_carry  [-1]           565.118149 -166.709854    -2.825591       5.651181              -0.0                      NaN           2.825591
+33802          EU-OIL  dynamic_TF_carry  [-1]            42.135407   16.854163   -16.854163       4.213541        -29.494785                      NaN         -12.640622
+33805          CANOLA  dynamic_TF_carry  [-1]            11.268087  -469.87922    -3.380426     -15.775322        -22.536174                      NaN         -19.155748
+33806        MSCIEAFA  dynamic_TF_carry  [-1]            38.106416 -316.283253    -3.810642       7.621283              -0.0                      NaN           3.810642
+33808   CRUDE_W_micro  dynamic_TF_carry  [-1]            76.212832 -114.319248    -0.762128      -0.762128         -2.286385                      NaN          -1.524257
+33807   CRUDE_W_micro  dynamic_TF_carry  [-1]            76.212832 -114.700312    -1.143192       0.762128         -1.524257                      NaN          -0.381064
+33809         BITCOIN  dynamic_TF_carry  [-1]             0.076213  -57.159624    -0.762128      -1.905321         -3.429577                      NaN          -2.667449
+33810         LEANHOG  dynamic_TF_carry   [1]           304.851328  152.425664    -7.621283            0.0        -15.242566                      NaN          -7.621283
+33803             MIB  dynamic_TF_carry   [1]             4.213541   73.736963   -10.533852            NaN               NaN                      NaN                NaN
+33804             MIB  dynamic_TF_carry   [1]             4.213541   31.601556   -10.533852      63.203111         42.135407                      NaN          52.669259
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry BITCOIN          -57.159624
+                 CANOLA           -469.87922
+                 CRUDE_W_micro    -229.01956
+                 EU-OIL            16.854163
+                 KR10            -166.709854
+                 LEANHOG          152.425664
+                 MIB              105.338518
+                 MSCIEAFA        -316.283253
+                 MSCISING        -248.915977
+                 MUMMY            -67.709785
+delay_cash Total Sum
+                   delay_cash
+strategy_name                
+dynamic_TF_carry -1281.058928
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry BITCOIN            -0.762128
+                 CANOLA             -3.380426
+                 CRUDE_W_micro      -1.905321
+                 EU-OIL            -16.854163
+                 KR10               -2.825591
+                 LEANHOG            -7.621283
+                 MIB               -21.067704
+                 MSCIEAFA           -3.810642
+                 MSCISING           -1.455649
+                 MUMMY              -5.208445
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -64.891351
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry BITCOIN              -1.905321
+                 CANOLA              -15.775322
+                 CRUDE_W_micro              0.0
+                 EU-OIL                4.213541
+                 KR10                  5.651181
+                 LEANHOG                    0.0
+                 MIB                  63.203111
+                 MSCIEAFA              7.621283
+                 MSCISING             -2.911298
+                 MUMMY                 10.41689
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry      70.514066
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry BITCOIN                 -3.429577
+                 CANOLA                 -22.536174
+                 CRUDE_W_micro           -3.810642
+                 EU-OIL                 -29.494785
+                 KR10                         -0.0
+                 LEANHOG                -15.242566
+                 MIB                     42.135407
+                 MSCIEAFA                     -0.0
+                 MSCISING                -5.822596
+                 MUMMY                         0.0
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry        -38.200933
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry BITCOIN                                0
+                 CANOLA                                 0
+                 CRUDE_W_micro                          0
+                 EU-OIL                                 0
+                 KR10                                   0
+                 LEANHOG                                0
+                 MIB                                    0
+                 MSCIEAFA                               0
+                 MSCISING                               0
+                 MUMMY                                  0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry BITCOIN                  -2.667449
+                 CANOLA                  -19.155748
+                 CRUDE_W_micro            -1.905321
+                 EU-OIL                  -12.640622
+                 KR10                      2.825591
+                 LEANHOG                  -7.621283
+                 MIB                      52.669259
+                 MSCIEAFA                  3.810642
+                 MSCISING                 -4.366947
+                 MUMMY                     5.208445
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry          16.156567
 
 ********************************************************************************
                                  END OF REPORT                                  
