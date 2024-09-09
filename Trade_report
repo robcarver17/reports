@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 06/09/2024 22:50 from 05/09/2024 22:50 to 06/09/2024 22:50
+Trades report produced on 09/09/2024 22:50 from 08/09/2024 22:50 to 09/09/2024 22:50
 ********************************************************************************
 
 
@@ -10,8 +10,13 @@ Trades report produced on 06/09/2024 22:50 from 05/09/2024 22:50 to 06/09/2024 2
 =============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-33821             DOW  dynamic_TF_carry    [20240900] 2024-09-06 15:00:04  [-1]   40941.00000
-33822             MXP  dynamic_TF_carry    [20240900] 2024-09-06 15:00:18   [1]       0.05011
+33825       ALUMINIUM  dynamic_TF_carry    [20241100] 2024-09-09 14:00:10  [-1]      2262.500
+33828             DOW  dynamic_TF_carry    [20240900] 2024-09-09 15:00:11  [-1]     40709.000
+33829             DOW  dynamic_TF_carry    [20240900] 2024-09-09 15:00:16  [-1]     40710.000
+33823         EU-AUTO  dynamic_TF_carry    [20240900] 2024-09-09 10:01:56   [1]       581.900
+33824             MIB  dynamic_TF_carry    [20240900] 2024-09-09 10:04:39  [-1]     33575.000
+33827         RUSSELL  dynamic_TF_carry    [20241200] 2024-09-09 15:00:09  [-1]      2125.300
+33826            US20  dynamic_TF_carry    [20241200] 2024-09-09 15:00:06   [1]       125.625
 
 
 =============================================================================================================================================================
@@ -19,17 +24,27 @@ Trades report produced on 06/09/2024 22:50 from 05/09/2024 22:50 to 06/09/2024 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-33821             DOW  dynamic_TF_carry       2024-09-05 00:00:00  2024-09-06 15:00:03.773000  2024-09-06 15:00:04             140403.773               0.227
-33822             MXP  dynamic_TF_carry       2024-09-05 20:00:00  2024-09-06 15:00:05.989000  2024-09-06 15:00:18              68405.989              12.011
+33823         EU-AUTO  dynamic_TF_carry       2024-09-06 00:00:00  2024-09-09 10:01:55.594000  2024-09-09 10:01:56             295315.594               0.406
+33824             MIB  dynamic_TF_carry       2024-09-06 00:00:00  2024-09-09 10:04:29.117000  2024-09-09 10:04:39             295469.117               9.883
+33825       ALUMINIUM  dynamic_TF_carry       2024-09-06 00:00:00  2024-09-09 14:00:10.486000  2024-09-09 14:00:10             309610.486                 NaN
+33826            US20  dynamic_TF_carry       2024-09-06 00:00:00  2024-09-09 15:00:05.824000  2024-09-09 15:00:06             313205.824               0.176
+33827         RUSSELL  dynamic_TF_carry       2024-09-06 00:00:00  2024-09-09 15:00:07.434000  2024-09-09 15:00:09             313207.434               1.566
+33828             DOW  dynamic_TF_carry       2024-09-06 20:00:00  2024-09-09 15:00:11.116000  2024-09-09 15:00:11             241211.116                 NaN
+33829             DOW  dynamic_TF_carry       2024-09-06 20:00:00  2024-09-09 15:00:16.790000  2024-09-09 15:00:16              241216.79                 NaN
 
 
-================================================================================================================================================================================================================================
-                                                                                                    Slippage (ticks per lot)                                                                                                    
-================================================================================================================================================================================================================================
+==================================================================================================================================================================================================================================
+                                                                                                     Slippage (ticks per lot)                                                                                                     
+==================================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
-33821             DOW  dynamic_TF_carry  [-1]                40854.0               None   40945.0    40944.0       40946.0     40946.0      40941.0      91.0      -1.0      -3.0         -5.0                 NaN          -4.0
-33822             MXP  dynamic_TF_carry   [1]                0.05002               None  0.050105    0.05011        0.0501      0.0501      0.05011 -0.000085 -0.000005       0.0     -0.00001                 NaN     -0.000005
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price   mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
+33823         EU-AUTO  dynamic_TF_carry   [1]                  580.0               None      581.75      581.9         581.6         NaN        581.9     -1.75     -0.15       0.0          NaN                 NaN         -0.15
+33824             MIB  dynamic_TF_carry  [-1]                33455.0               None     33582.5    33580.0       33585.0     33585.0      33575.0     127.5      -2.5      -5.0        -10.0                 NaN          -7.5
+33825       ALUMINIUM  dynamic_TF_carry  [-1]                2266.25               None      2263.0     2262.5        2263.5      2263.5       2262.5     -3.25      -0.5      -0.0         -1.0                 NaN          -0.5
+33826            US20  dynamic_TF_carry   [1]               125.8125               None  125.640625  125.65625       125.625     125.625      125.625  0.171875 -0.015625   0.03125          0.0                 NaN      0.015625
+33827         RUSSELL  dynamic_TF_carry  [-1]                 2121.1               None     2125.75     2125.3        2126.2      2126.2       2125.3      4.65     -0.45      -0.0         -0.9                 NaN         -0.45
+33828             DOW  dynamic_TF_carry  [-1]                40476.0               None     40712.0    40711.0       40713.0     40713.0      40709.0     236.0      -1.0      -2.0         -4.0                 NaN          -3.0
+33829             DOW  dynamic_TF_carry  [-1]                40476.0               None     40709.0    40708.0       40710.0     40710.0      40710.0     233.0      -1.0       2.0         -0.0                 NaN           1.0
 
 
 ==============================================================================================================================================================
@@ -37,59 +52,89 @@ Trades report produced on 06/09/2024 22:50 from 05/09/2024 22:50 to 06/09/2024 2
 ==============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33821             DOW  dynamic_TF_carry  [-1]     4770.690016  190.748088   -2.096133     -6.288399       -10.480664                     NaN         -8.384531
-33822             MXP  dynamic_TF_carry   [1]        0.007981 -106.504794   -6.264988           0.0       -12.529976                     NaN         -6.264988
+33823         EU-AUTO  dynamic_TF_carry   [1]      106.689611 -164.027218  -14.059476           0.0              NaN                     NaN        -14.059476
+33824             MIB  dynamic_TF_carry  [-1]     4851.928246  262.782122   -5.152591    -10.305181       -20.610363                     NaN        -15.457772
+33825       ALUMINIUM  dynamic_TF_carry  [-1]      603.361646  -53.864876   -8.286904          -0.0       -16.573808                     NaN         -8.286904
+33826            US20  dynamic_TF_carry   [1]       12.631157  136.072252  -12.370205     24.740409              0.0                     NaN         12.370205
+33827         RUSSELL  dynamic_TF_carry  [-1]      485.658619   95.746267   -9.265768          -0.0       -18.531536                     NaN         -9.265768
+33828             DOW  dynamic_TF_carry  [-1]     5075.045867  465.020428   -1.970426     -3.940851        -7.881702                     NaN         -5.911277
+33829             DOW  dynamic_TF_carry  [-1]     5075.045867  459.109151   -1.970426      3.940851             -0.0                     NaN          1.970426
 
 
-=======================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                      
-=======================================================================================================================================================================
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33821             DOW  dynamic_TF_carry  [-1]             0.379419  34.527111    -0.379419      -1.138256         -1.897094                      NaN          -1.517675
-33822             MXP  dynamic_TF_carry   [1]        379418.806273 -32.250599    -1.897094            0.0         -3.794188                      NaN          -1.897094
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+33823         EU-AUTO  dynamic_TF_carry   [1]            42.213584  -73.873773    -6.332038            0.0               NaN                      NaN          -6.332038
+33824             MIB  dynamic_TF_carry  [-1]             4.221358  538.223202   -10.553396     -21.106792        -42.213584                      NaN         -31.660188
+33825       ALUMINIUM  dynamic_TF_carry  [-1]            19.100737  -62.077396    -9.550369           -0.0        -19.100737                      NaN          -9.550369
+33826            US20  dynamic_TF_carry   [1]           764.029492  131.317569   -11.937961      23.875922               0.0                      NaN          11.937961
+33827         RUSSELL  dynamic_TF_carry  [-1]             3.820147   17.763686    -1.719066           -0.0         -3.438133                      NaN          -1.719066
+33828             DOW  dynamic_TF_carry  [-1]             0.382015    90.15548    -0.382015      -0.764029         -1.528059                      NaN          -1.146044
+33829             DOW  dynamic_TF_carry  [-1]             0.382015   89.009436    -0.382015       0.764029              -0.0                      NaN           0.382015
 
 delay_cash Sum
-                                 delay_cash
-strategy_name    instrument_code           
-dynamic_TF_carry DOW              34.527111
-                 MXP             -32.250599
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry ALUMINIUM        -62.077396
+                 DOW              179.164916
+                 EU-AUTO          -73.873773
+                 MIB              538.223202
+                 RUSSELL           17.763686
+                 US20             131.317569
 delay_cash Total Sum
-                 delay_cash
-strategy_name              
-dynamic_TF_carry   2.276513
+                  delay_cash
+strategy_name               
+dynamic_TF_carry  730.518203
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry DOW                -0.379419
-                 MXP                -1.897094
+dynamic_TF_carry ALUMINIUM          -9.550369
+                 DOW                -0.764029
+                 EU-AUTO            -6.332038
+                 MIB               -10.553396
+                 RUSSELL            -1.719066
+                 US20              -11.937961
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -2.276513
+dynamic_TF_carry   -40.856859
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry DOW                  -1.138256
-                 MXP                        0.0
+dynamic_TF_carry ALUMINIUM                 -0.0
+                 DOW                        0.0
+                 EU-AUTO                    0.0
+                 MIB                 -21.106792
+                 RUSSELL                   -0.0
+                 US20                 23.875922
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry      -1.138256
+dynamic_TF_carry       2.769129
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry DOW                     -1.897094
-                 MXP                     -3.794188
+dynamic_TF_carry ALUMINIUM              -19.100737
+                 DOW                     -1.528059
+                 EU-AUTO                         0
+                 MIB                    -42.213584
+                 RUSSELL                 -3.438133
+                 US20                          0.0
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry         -5.691282
+dynamic_TF_carry        -66.280513
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry DOW                                    0
-                 MXP                                    0
+dynamic_TF_carry ALUMINIUM                              0
+                 DOW                                    0
+                 EU-AUTO                                0
+                 MIB                                    0
+                 RUSSELL                                0
+                 US20                                   0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -97,12 +142,16 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry DOW                      -1.517675
-                 MXP                      -1.897094
+dynamic_TF_carry ALUMINIUM                -9.550369
+                 DOW                      -0.764029
+                 EU-AUTO                  -6.332038
+                 MIB                     -31.660188
+                 RUSSELL                  -1.719066
+                 US20                     11.937961
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry          -3.414769
+dynamic_TF_carry          -38.08773
 
 ********************************************************************************
                                  END OF REPORT                                  
