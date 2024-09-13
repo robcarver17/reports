@@ -1,15 +1,163 @@
 
 ********************************************************************************
-Trades report produced on 12/09/2024 22:50 from 11/09/2024 22:50 to 12/09/2024 22:50
+Trades report produced on 13/09/2024 22:50 from 12/09/2024 22:50 to 13/09/2024 22:50
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+33838             DOW  dynamic_TF_carry    [20241200] 2024-09-13 15:00:04   [1]   41777.00000
+33835            KR10  dynamic_TF_carry    [20241200] 2024-09-13 02:00:35   [1]     117.77000
+33836        MSCISING  dynamic_TF_carry    [20240900] 2024-09-13 02:02:36   [1]     333.10000
+33834          NIKKEI  dynamic_TF_carry    [20241200] 2024-09-13 02:00:32  [-1]   36485.00000
+33837          SILVER  dynamic_TF_carry    [20241200] 2024-09-13 14:00:10   [1]      30.55000
+33840     SP500_micro  dynamic_TF_carry    [20241200] 2024-09-13 15:00:09   [1]    5681.50000
+33839           US10U  dynamic_TF_carry    [20241200] 2024-09-13 15:00:07   [1]     119.71875
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+33834          NIKKEI  dynamic_TF_carry       2024-09-12 00:00:00  2024-09-13 02:00:30.887000  2024-09-13 02:00:32              93630.887               1.113
+33835            KR10  dynamic_TF_carry       2024-09-12 00:00:00  2024-09-13 02:00:34.455000  2024-09-13 02:00:35              93634.455               0.545
+33836        MSCISING  dynamic_TF_carry       2024-09-12 00:00:00  2024-09-13 02:02:33.031000  2024-09-13 02:02:36              93753.031               2.969
+33837          SILVER  dynamic_TF_carry       2024-09-12 00:00:00  2024-09-13 14:00:08.498000  2024-09-13 14:00:10             136808.498               1.502
+33838             DOW  dynamic_TF_carry       2024-09-12 00:00:00  2024-09-13 15:00:02.967000  2024-09-13 15:00:04             140402.967               1.033
+33839           US10U  dynamic_TF_carry       2024-09-12 00:00:00  2024-09-13 15:00:05.460000  2024-09-13 15:00:07              140405.46                1.54
+33840     SP500_micro  dynamic_TF_carry       2024-09-12 00:00:00  2024-09-13 15:00:08.543000  2024-09-13 15:00:09             140408.543               0.457
+
+
+===================================================================================================================================================================================================================================
+                                                                                                     Slippage (ticks per lot)                                                                                                      
+===================================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price   mid_price  side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
+33834          NIKKEI  dynamic_TF_carry  [-1]                36500.0               None     36482.5     36480.0       36485.0     36485.0      36485.0     -17.5      -2.5       5.0         -0.0                 NaN           2.5
+33835            KR10  dynamic_TF_carry   [1]                 117.54               None     117.775      117.78        117.77      117.77       117.77    -0.235    -0.005      0.01          0.0                 NaN         0.005
+33836        MSCISING  dynamic_TF_carry   [1]                 331.75               None     333.175      333.25         333.1       333.1        333.1    -1.425    -0.075      0.15          0.0                 NaN         0.075
+33837          SILVER  dynamic_TF_carry   [1]                 30.115               None     30.5525      30.555         30.55       30.55        30.55   -0.4375   -0.0025     0.005          0.0                 NaN        0.0025
+33838             DOW  dynamic_TF_carry   [1]                41448.0               None     41770.5     41775.0       41766.0     41766.0      41777.0    -322.5      -4.5      -2.0        -11.0                 NaN          -6.5
+33839           US10U  dynamic_TF_carry   [1]                119.625               None  119.695312  119.703125      119.6875    119.6875    119.71875 -0.070312 -0.007812 -0.015625     -0.03125                 NaN     -0.023438
+33840     SP500_micro  dynamic_TF_carry   [1]                 5657.5               None      5679.0     5679.25       5678.75     5678.75       5681.5     -21.5     -0.25     -2.25        -2.75                 NaN          -2.5
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+33834          NIKKEI  dynamic_TF_carry  [-1]    11598.201095  -15.088547   -2.155507      4.311013             -0.0                     NaN          2.155507
+33835            KR10  dynamic_TF_carry   [1]        6.515231 -360.693284   -7.674325      15.34865              0.0                     NaN          7.674325
+33836        MSCISING  dynamic_TF_carry   [1]       52.166983 -273.161282   -14.37691     28.753819              0.0                     NaN          14.37691
+33837          SILVER  dynamic_TF_carry   [1]        9.012069 -485.460097   -2.774058      5.548115              0.0                     NaN          2.774058
+33838             DOW  dynamic_TF_carry   [1]     4806.876999 -670.913776   -9.361588     -4.160706       -22.883881                     NaN        -13.522293
+33839           US10U  dynamic_TF_carry   [1]        7.823878  -89.869116   -9.985457    -19.970915       -39.941829                     NaN        -29.956372
+33840     SP500_micro  dynamic_TF_carry   [1]        805.9029 -266.781519   -3.102111    -27.918996       -34.123218                     NaN        -31.021107
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+33834          NIKKEI  dynamic_TF_carry  [-1]             0.540151   -9.452647    -1.350378       2.700756              -0.0                      NaN           1.350378
+33835            KR10  dynamic_TF_carry   [1]           575.193633 -135.170504    -2.875968       5.751936               0.0                      NaN           2.875968
+33836        MSCISING  dynamic_TF_carry   [1]            58.579183  -83.475335    -4.393439       8.786877               0.0                      NaN           4.393439
+33837          SILVER  dynamic_TF_carry   [1]           760.838139 -332.866686    -1.902095       3.804191               0.0                      NaN           1.902095
+33838             DOW  dynamic_TF_carry   [1]             0.380419  -122.68515    -1.711886      -0.760838          -4.18461                      NaN          -2.472724
+33839           US10U  dynamic_TF_carry   [1]           760.838139  -53.496432    -5.944048     -11.888096        -23.776192                      NaN         -17.832144
+33840     SP500_micro  dynamic_TF_carry   [1]             3.804191    -81.7901    -0.951048      -8.559429        -10.461524                      NaN          -9.510477
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry DOW              -122.68515
+                 KR10            -135.170504
+                 MSCISING         -83.475335
+                 NIKKEI            -9.452647
+                 SILVER          -332.866686
+                 SP500_micro        -81.7901
+                 US10U            -53.496432
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -818.936853
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry DOW                -1.711886
+                 KR10               -2.875968
+                 MSCISING           -4.393439
+                 NIKKEI             -1.350378
+                 SILVER             -1.902095
+                 SP500_micro        -0.951048
+                 US10U              -5.944048
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -19.128862
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry DOW                  -0.760838
+                 KR10                  5.751936
+                 MSCISING              8.786877
+                 NIKKEI                2.700756
+                 SILVER                3.804191
+                 SP500_micro          -8.559429
+                 US10U               -11.888096
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry      -0.164602
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry DOW                      -4.18461
+                 KR10                          0.0
+                 MSCISING                      0.0
+                 NIKKEI                       -0.0
+                 SILVER                        0.0
+                 SP500_micro            -10.461524
+                 US10U                  -23.776192
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry        -38.422326
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry DOW                                    0
+                 KR10                                   0
+                 MSCISING                               0
+                 NIKKEI                                 0
+                 SILVER                                 0
+                 SP500_micro                            0
+                 US10U                                  0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry DOW                      -2.472724
+                 KR10                      2.875968
+                 MSCISING                  4.393439
+                 NIKKEI                    1.350378
+                 SILVER                    1.902095
+                 SP500_micro              -9.510477
+                 US10U                   -17.832144
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry         -19.293464
 
 ********************************************************************************
                                  END OF REPORT                                  
