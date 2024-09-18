@@ -1,36 +1,32 @@
 
 ********************************************************************************
-Trades report produced on 17/09/2024 22:50 from 16/09/2024 22:50 to 17/09/2024 22:50
+Trades report produced on 18/09/2024 22:50 from 17/09/2024 22:50 to 18/09/2024 22:50
 ********************************************************************************
 
 
 
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
+=================================================================================================
+                                          Broker orders                                          
+=================================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-33852         BITCOIN  dynamic_TF_carry    [20241000] 2024-09-17 15:00:16  [-1]     59580.000
-33853            CORN  dynamic_TF_carry    [20241200] 2024-09-17 15:30:07   [1]       409.000
-33850             DOW  dynamic_TF_carry    [20241200] 2024-09-17 15:00:03  [-1]     42086.000
-33849         GAS-PEN  dynamic_TF_carry    [20241100] 2024-09-17 14:03:55  [-1]         2.667
-33848      GOLD_micro  dynamic_TF_carry    [20241200] 2024-09-17 14:03:07   [1]      2603.600
-33847        MSCIEAFA  dynamic_TF_carry    [20241200] 2024-09-17 14:03:04   [1]      2449.900
-33851         RUSSELL  dynamic_TF_carry    [20241200] 2024-09-17 15:00:05   [1]      2226.900
+      instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
+33858         BITCOIN  dynamic_TF_carry    [20241000] 2024-09-18 15:00:04.000  [-1]       59925.0
+33856      GOLD_micro  dynamic_TF_carry    [20241200] 2024-09-18 14:11:01.000   [1]        2604.7
+33854        MSCIEAFA  dynamic_TF_carry    [20241200] 2024-09-18 19:30:01.623   [0]           NaN
+33855        MSCIEAFA  dynamic_TF_carry    [20241200] 2024-09-18 14:10:59.000   [1]        2434.2
+33857     SP500_micro  dynamic_TF_carry    [20241200] 2024-09-18 15:00:02.000   [1]        5699.5
 
 
-=============================================================================================================================================================
-                                                                           Delays                                                                            
-=============================================================================================================================================================
+====================================================================================================================================================================
+                                                                               Delays                                                                               
+====================================================================================================================================================================
 
-      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-33847        MSCIEAFA  dynamic_TF_carry       2024-09-16 00:00:00  2024-09-17 14:00:07.402000  2024-09-17 14:03:04             136807.402             176.598
-33848      GOLD_micro  dynamic_TF_carry       2024-09-16 00:00:00  2024-09-17 14:03:05.353000  2024-09-17 14:03:07             136985.353               1.647
-33849         GAS-PEN  dynamic_TF_carry       2024-09-16 00:00:00  2024-09-17 14:03:54.956000  2024-09-17 14:03:55             137034.956               0.044
-33850             DOW  dynamic_TF_carry       2024-09-16 00:00:00  2024-09-17 15:00:03.448000  2024-09-17 15:00:03             140403.448                 NaN
-33851         RUSSELL  dynamic_TF_carry       2024-09-16 00:00:00  2024-09-17 15:00:05.055000  2024-09-17 15:00:05             140405.055                 NaN
-33852         BITCOIN  dynamic_TF_carry       2024-09-16 00:00:00  2024-09-17 15:00:06.971000  2024-09-17 15:00:16             140406.971               9.029
-33853            CORN  dynamic_TF_carry       2024-09-16 00:00:00  2024-09-17 15:30:01.431000  2024-09-17 15:30:07             142201.431               5.569
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
+33856      GOLD_micro  dynamic_TF_carry       2024-09-17 00:00:00  2024-09-18 14:11:00.102000         2024-09-18 14:11:01             137460.102               0.898
+33857     SP500_micro  dynamic_TF_carry       2024-09-17 00:00:00  2024-09-18 15:00:01.947000         2024-09-18 15:00:02             140401.947               0.053
+33858         BITCOIN  dynamic_TF_carry       2024-09-17 00:00:00  2024-09-18 15:00:04.057000         2024-09-18 15:00:04             140404.057                 NaN
+33854        MSCIEAFA  dynamic_TF_carry       2024-09-17 00:00:00  2024-09-18 14:00:01.638000  2024-09-18 19:30:01.623000             136801.638           19799.985
+33855        MSCIEAFA  dynamic_TF_carry       2024-09-17 00:00:00  2024-09-18 14:10:49.569000         2024-09-18 14:10:59             137449.569               9.431
 
 
 ============================================================================================================================================================================================================================
@@ -38,13 +34,11 @@ Trades report produced on 17/09/2024 22:50 from 16/09/2024 22:50 to 17/09/2024 2
 ============================================================================================================================================================================================================================
 
       instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
-33847        MSCIEAFA  dynamic_TF_carry   [1]                 2445.5               None    2449.4     2449.5        2449.3      2449.3       2449.9    -3.9    -0.1      -0.4         -0.6                 NaN          -0.5
-33848      GOLD_micro  dynamic_TF_carry   [1]                 2607.2               None   2603.65     2603.7        2603.6      2603.6       2603.6    3.55   -0.05       0.1          0.0                 NaN          0.05
-33849         GAS-PEN  dynamic_TF_carry  [-1]                  2.629               None    2.6695      2.668         2.671       2.671        2.667  0.0405 -0.0015    -0.001       -0.004                 NaN       -0.0025
-33850             DOW  dynamic_TF_carry  [-1]                42039.0               None   42087.0    42086.0       42088.0         NaN      42086.0    48.0    -1.0      -0.0          NaN                 NaN          -1.0
-33851         RUSSELL  dynamic_TF_carry   [1]                 2214.1               None    2226.7     2226.8        2226.6      2226.6       2226.9   -12.6    -0.1      -0.1         -0.3                 NaN          -0.2
-33852         BITCOIN  dynamic_TF_carry  [-1]                58245.0               None   59550.0    59520.0       59580.0     59580.0      59580.0  1305.0   -30.0      60.0         -0.0                 NaN          30.0
-33853            CORN  dynamic_TF_carry   [1]                 410.25               None   408.625     408.75         408.5       408.5        409.0   1.625  -0.125     -0.25         -0.5                 NaN        -0.375
+33856      GOLD_micro  dynamic_TF_carry   [1]                 2597.8               None    2604.6     2604.7        2604.5      2604.5       2604.7    -6.8    -0.1       0.0         -0.2                 NaN          -0.1
+33857     SP500_micro  dynamic_TF_carry   [1]                5687.75               None   5698.75     5699.0        5698.5      5698.5       5699.5   -11.0   -0.25      -0.5         -1.0                 NaN         -0.75
+33858         BITCOIN  dynamic_TF_carry  [-1]                61175.0               None   59962.5    59925.0       60000.0     60000.0      59925.0 -1212.5   -37.5      -0.0        -75.0                 NaN         -37.5
+33854        MSCIEAFA  dynamic_TF_carry   [1]                 2434.2               None    2432.7     2432.8        2432.6      2432.6          NaN     1.5    -0.1       NaN          NaN                 NaN           NaN
+33855        MSCIEAFA  dynamic_TF_carry   [1]                 2434.2               None   2433.05     2433.1        2433.0      2433.0       2434.2    1.15   -0.05      -1.1         -1.2                 NaN         -1.15
 
 
 ==============================================================================================================================================================
@@ -52,94 +46,75 @@ Trades report produced on 17/09/2024 22:50 from 16/09/2024 22:50 to 17/09/2024 2
 ==============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33847        MSCIEAFA  dynamic_TF_carry   [1]      323.296153 -120.632428   -3.093139    -12.372557       -18.558835                     NaN        -15.465696
-33848      GOLD_micro  dynamic_TF_carry   [1]      327.211862  108.492399   -1.528062      3.056124              0.0                     NaN          1.528062
-33849         GAS-PEN  dynamic_TF_carry  [-1]        1.396301  290.052057  -10.742669     -7.161779       -28.647117                     NaN        -17.904448
-33850             DOW  dynamic_TF_carry  [-1]     4635.411274  103.550682   -2.157306          -0.0              NaN                     NaN         -2.157306
-33851         RUSSELL  dynamic_TF_carry   [1]      459.450016 -274.240931   -2.176515     -2.176515        -6.529546                     NaN         -4.353031
-33852         BITCOIN  dynamic_TF_carry  [-1]    30566.947487  426.931737   -9.814523     19.629045             -0.0                     NaN          9.814523
-33853            CORN  dynamic_TF_carry   [1]       78.936838  205.860792  -15.835446    -31.670891       -63.341782                     NaN        -47.506337
+33856      GOLD_micro  dynamic_TF_carry   [1]      327.211862 -207.816427   -3.056124           0.0        -6.112248                     NaN         -3.056124
+33857     SP500_micro  dynamic_TF_carry   [1]      771.750264 -142.533155    -3.23939      -6.47878        -12.95756                     NaN          -9.71817
+33858         BITCOIN  dynamic_TF_carry  [-1]    30566.947487 -396.670292  -12.268153          -0.0       -24.536307                     NaN        -12.268153
+33854        MSCIEAFA  dynamic_TF_carry   [1]      323.296153   46.397088   -3.093139           NaN              NaN                     NaN               NaN
+33855        MSCIEAFA  dynamic_TF_carry   [1]      323.296153   35.571101    -1.54657    -34.024531        -37.11767                     NaN        -35.571101
 
 
-========================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                       
-========================================================================================================================================================================
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33847        MSCIEAFA  dynamic_TF_carry   [1]            37.860718   -147.6568    -3.786072     -15.144287        -22.716431                      NaN         -18.930359
-33848      GOLD_micro  dynamic_TF_carry   [1]             7.572144    26.88111    -0.378607       0.757214               0.0                      NaN           0.378607
-33849         GAS-PEN  dynamic_TF_carry  [-1]          7572.143598  306.671816   -11.358215      -7.572144        -30.288574                      NaN         -18.930359
-33850             DOW  dynamic_TF_carry  [-1]             0.378607   18.173145    -0.378607           -0.0               NaN                      NaN          -0.378607
-33851         RUSSELL  dynamic_TF_carry   [1]             3.786072  -47.704505    -0.378607      -0.378607         -1.135822                      NaN          -0.757214
-33852         BITCOIN  dynamic_TF_carry  [-1]             0.075721   98.816474    -2.271643       4.543286              -0.0                      NaN           2.271643
-33853            CORN  dynamic_TF_carry   [1]            37.860718   61.523667     -4.73259      -9.465179        -18.930359                      NaN         -14.197769
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+33856      GOLD_micro  dynamic_TF_carry   [1]             7.598178  -51.66761    -0.759818            0.0         -1.519636                      NaN          -0.759818
+33857     SP500_micro  dynamic_TF_carry   [1]             3.799089 -41.789979    -0.949772      -1.899544         -3.799089                      NaN          -2.849317
+33858         BITCOIN  dynamic_TF_carry  [-1]             0.075982 -92.127908    -2.849317           -0.0         -5.698633                      NaN          -2.849317
+33854        MSCIEAFA  dynamic_TF_carry   [1]             37.99089  56.986335    -3.799089            NaN               NaN                      NaN                NaN
+33855        MSCIEAFA  dynamic_TF_carry   [1]             37.99089  43.689523    -1.899544     -41.789979        -45.589068                      NaN         -43.689523
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry BITCOIN           98.816474
-                 CORN              61.523667
-                 DOW               18.173145
-                 GAS-PEN          306.671816
-                 GOLD_micro         26.88111
-                 MSCIEAFA          -147.6568
-                 RUSSELL          -47.704505
+dynamic_TF_carry BITCOIN          -92.127908
+                 GOLD_micro        -51.66761
+                 MSCIEAFA         100.675858
+                 SP500_micro      -41.789979
 delay_cash Total Sum
-                  delay_cash
-strategy_name               
-dynamic_TF_carry  316.704906
+                 delay_cash
+strategy_name              
+dynamic_TF_carry -84.909639
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry BITCOIN            -2.271643
-                 CORN                -4.73259
-                 DOW                -0.378607
-                 GAS-PEN           -11.358215
-                 GOLD_micro         -0.378607
-                 MSCIEAFA           -3.786072
-                 RUSSELL            -0.378607
+dynamic_TF_carry BITCOIN            -2.849317
+                 GOLD_micro         -0.759818
+                 MSCIEAFA           -5.698633
+                 SP500_micro        -0.949772
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry   -23.284342
+dynamic_TF_carry    -10.25754
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry BITCOIN               4.543286
-                 CORN                 -9.465179
-                 DOW                       -0.0
-                 GAS-PEN              -7.572144
-                 GOLD_micro            0.757214
-                 MSCIEAFA            -15.144287
-                 RUSSELL              -0.378607
+dynamic_TF_carry BITCOIN                   -0.0
+                 GOLD_micro                 0.0
+                 MSCIEAFA            -41.789979
+                 SP500_micro          -1.899544
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry     -27.259717
+dynamic_TF_carry     -43.689523
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry BITCOIN                      -0.0
-                 CORN                   -18.930359
-                 DOW                             0
-                 GAS-PEN                -30.288574
-                 GOLD_micro                    0.0
-                 MSCIEAFA               -22.716431
-                 RUSSELL                 -1.135822
+dynamic_TF_carry BITCOIN                 -5.698633
+                 GOLD_micro              -1.519636
+                 MSCIEAFA               -45.589068
+                 SP500_micro             -3.799089
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry        -73.071186
+dynamic_TF_carry        -56.606426
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
 dynamic_TF_carry BITCOIN                                0
-                 CORN                                   0
-                 DOW                                    0
-                 GAS-PEN                                0
                  GOLD_micro                             0
                  MSCIEAFA                               0
-                 RUSSELL                                0
+                 SP500_micro                            0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -147,17 +122,14 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry BITCOIN                   2.271643
-                 CORN                    -14.197769
-                 DOW                      -0.378607
-                 GAS-PEN                 -18.930359
-                 GOLD_micro                0.378607
-                 MSCIEAFA                -18.930359
-                 RUSSELL                  -0.757214
+dynamic_TF_carry BITCOIN                  -2.849317
+                 GOLD_micro               -0.759818
+                 MSCIEAFA                -43.689523
+                 SP500_micro              -2.849317
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry         -50.544059
+dynamic_TF_carry         -50.147975
 
 ********************************************************************************
                                  END OF REPORT                                  
