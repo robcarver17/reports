@@ -1,32 +1,24 @@
 
 ********************************************************************************
-Trades report produced on 20/09/2024 22:50 from 19/09/2024 22:50 to 20/09/2024 22:50
+Trades report produced on 24/09/2024 22:50 from 23/09/2024 22:50 to 24/09/2024 22:50
 ********************************************************************************
 
 
 
-=================================================================================================
-                                          Broker orders                                          
-=================================================================================================
+================================================================================================
+                                         Broker orders                                          
+================================================================================================
 
-      instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
-33864      BRENT-LAST  dynamic_TF_carry    [20241200] 2024-09-20 15:02:48.000   [1]         73.32
-33862             DAX  dynamic_TF_carry    [20241200] 2024-09-20 08:00:07.000   [1]      19087.00
-33863      GOLD_micro  dynamic_TF_carry    [20241200] 2024-09-20 15:01:09.000  [-1]       2630.40
-33860          SPI200  dynamic_TF_carry    [20241200] 2024-09-20 02:02:25.000   [1]       8290.00
-33861             VIX  dynamic_TF_carry    [20240900] 2024-09-20 07:15:20.221   [3]         17.80
+      instrument_code     strategy_name contract_date           fill_datetime fill  filled_price
+33872      CHINAA-CON  dynamic_TF_carry    [20240900] 2024-09-24 10:11:37.836  [1]        1795.6
 
 
-====================================================================================================================================================================
-                                                                               Delays                                                                               
-====================================================================================================================================================================
+========================================================================================================================================================
+                                                                         Delays                                                                         
+========================================================================================================================================================
 
-      instrument_code     strategy_name parent_reference_datetime             submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
-33860          SPI200  dynamic_TF_carry       2024-09-19 00:00:00  2024-09-20 02:02:24.638000         2024-09-20 02:02:25              93744.638               0.362
-33861             VIX  dynamic_TF_carry                       NaT                         NaT  2024-09-20 07:15:20.221000                    NaN                 NaN
-33862             DAX  dynamic_TF_carry       2024-09-19 00:00:00  2024-09-20 08:00:07.245000         2024-09-20 08:00:07             115207.245                 NaN
-33863      GOLD_micro  dynamic_TF_carry       2024-09-19 00:00:00  2024-09-20 15:01:08.991000         2024-09-20 15:01:09             140468.991               0.009
-33864      BRENT-LAST  dynamic_TF_carry       2024-09-19 00:00:00  2024-09-20 15:02:47.114000         2024-09-20 15:02:48             140567.114               0.886
+      instrument_code     strategy_name parent_reference_datetime submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
+33872      CHINAA-CON  dynamic_TF_carry                      None            None  2024-09-24 10:11:37.836000                    NaN                 NaN
 
 
 ==========================================================================================================================================================================================================================
@@ -34,92 +26,60 @@ Trades report produced on 20/09/2024 22:50 from 19/09/2024 22:50 to 20/09/2024 2
 ==========================================================================================================================================================================================================================
 
       instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
-33860          SPI200  dynamic_TF_carry   [1]                 8220.0               None    8294.5     8295.0        8294.0      8294.0       8290.0 -74.5    -0.5       5.0          4.0                 NaN           4.5
-33861             VIX  dynamic_TF_carry   [3]                    NaN               None       NaN        NaN           NaN         NaN         17.8   NaN     NaN       NaN          NaN                 NaN           NaN
-33862             DAX  dynamic_TF_carry   [1]                19159.0               None   19090.0    19091.0       19089.0     19089.0      19087.0  69.0    -1.0       4.0          2.0                 NaN           3.0
-33863      GOLD_micro  dynamic_TF_carry  [-1]                 2612.8               None    2630.3     2630.2        2630.4      2630.4       2630.4  17.5    -0.1       0.2         -0.0                 NaN           0.1
-33864      BRENT-LAST  dynamic_TF_carry   [1]                  73.89               None     73.33      73.34         73.32       73.32        73.32  0.56   -0.01      0.02          0.0                 NaN          0.01
+33872      CHINAA-CON  dynamic_TF_carry   [1]                   None               None      None       None          None        None       1795.6   NaN     NaN       NaN          NaN                 NaN           NaN
 
 
-==============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
-==============================================================================================================================================================
+============================================================================================================================================================
+                                                    Slippage (normalised by annual vol, BP of annual SR)                                                    
+============================================================================================================================================================
 
-      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33860          SPI200  dynamic_TF_carry   [1]      919.926252 -809.847527   -5.435218     54.352183        43.481746                     NaN         48.916965
-33861             VIX  dynamic_TF_carry   [3]        9.497692         NaN         NaN           NaN              NaN                     NaN               NaN
-33862             DAX  dynamic_TF_carry   [1]      2372.47838  290.835105   -4.215002     16.860006         8.430003                     NaN         12.645005
-33863      GOLD_micro  dynamic_TF_carry  [-1]      326.893914  535.341872   -3.059096      6.118193             -0.0                     NaN          3.059096
-33864      BRENT-LAST  dynamic_TF_carry   [1]       20.263155  276.363673   -4.935066      9.870131              0.0                     NaN          4.935066
+      instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+33872      CHINAA-CON  dynamic_TF_carry   [1]      263.977801       NaN         NaN           NaN              NaN                     NaN               NaN
 
 
-========================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                       
-========================================================================================================================================================================
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33860          SPI200  dynamic_TF_carry   [1]            12.802745 -953.804534    -6.401373      64.013727         51.210982                      NaN          57.612354
-33861             VIX  dynamic_TF_carry   [3]           751.345848         NaN          NaN            NaN               NaN                      NaN                NaN
-33862             DAX  dynamic_TF_carry   [1]             0.839009    57.89163    -0.839009       3.356037          1.678018                      NaN           2.517027
-33863      GOLD_micro  dynamic_TF_carry  [-1]             7.513458  131.485523    -0.751346       1.502692              -0.0                      NaN           0.751346
-33864      BRENT-LAST  dynamic_TF_carry   [1]           751.345848  420.753675    -7.513458      15.026917               0.0                      NaN           7.513458
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+33872      CHINAA-CON  dynamic_TF_carry   [1]            18.692777        NaN          NaN            NaN               NaN                      NaN                NaN
 
 delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry BRENT-LAST       420.753675
-                 DAX                57.89163
-                 GOLD_micro       131.485523
-                 SPI200          -953.804534
-                 VIX                       0
+                                 delay_cash
+strategy_name    instrument_code           
+dynamic_TF_carry CHINAA-CON               0
 delay_cash Total Sum
-                  delay_cash
-strategy_name               
-dynamic_TF_carry -343.673706
+                 delay_cash
+strategy_name              
+dynamic_TF_carry          0
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry BRENT-LAST         -7.513458
-                 DAX                -0.839009
-                 GOLD_micro         -0.751346
-                 SPI200             -6.401373
-                 VIX                        0
+dynamic_TF_carry CHINAA-CON                 0
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry   -15.505186
+dynamic_TF_carry            0
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry BRENT-LAST           15.026917
-                 DAX                   3.356037
-                 GOLD_micro            1.502692
-                 SPI200               64.013727
-                 VIX                          0
+dynamic_TF_carry CHINAA-CON                   0
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry      83.899372
+dynamic_TF_carry              0
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry BRENT-LAST                    0.0
-                 DAX                      1.678018
-                 GOLD_micro                   -0.0
-                 SPI200                  51.210982
-                 VIX                             0
+dynamic_TF_carry CHINAA-CON                      0
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry            52.889
+dynamic_TF_carry                 0
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry BRENT-LAST                             0
-                 DAX                                    0
-                 GOLD_micro                             0
-                 SPI200                                 0
-                 VIX                                    0
+dynamic_TF_carry CHINAA-CON                             0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -127,15 +87,11 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry BRENT-LAST                7.513458
-                 DAX                       2.517027
-                 GOLD_micro                0.751346
-                 SPI200                   57.612354
-                 VIX                              0
+dynamic_TF_carry CHINAA-CON                       0
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry          68.394186
+dynamic_TF_carry                  0
 
 ********************************************************************************
                                  END OF REPORT                                  
