@@ -1,15 +1,97 @@
 
 ********************************************************************************
-Trades report produced on 30/09/2024 22:50 from 29/09/2024 22:50 to 30/09/2024 22:50
+Trades report produced on 01/10/2024 22:50 from 30/09/2024 22:50 to 01/10/2024 22:50
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+33881     SP500_micro  dynamic_TF_carry    [20241200] 2024-10-01 15:00:05  [-1]        5766.0
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+33881     SP500_micro  dynamic_TF_carry       2024-09-30 00:00:00  2024-10-01 15:00:04.909000  2024-10-01 15:00:05             140404.909               0.091
+
+
+============================================================================================================================================================================================================================
+                                                                                                  Slippage (ticks per lot)                                                                                                  
+============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
+33881     SP500_micro  dynamic_TF_carry  [-1]                5780.25               None  5763.625    5763.25        5764.0      5764.0       5766.0 -16.625  -0.375      2.75          2.0                 NaN         2.375
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+33881     SP500_micro  dynamic_TF_carry  [-1]      676.181077 -245.866094   -5.545852     40.669579        29.577876                     NaN         35.123728
+
+
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+33881     SP500_micro  dynamic_TF_carry  [-1]              3.73917 -62.163708    -1.402189      10.282719          7.478341                      NaN            8.88053
+
+delay_cash Sum
+                                 delay_cash
+strategy_name    instrument_code           
+dynamic_TF_carry SP500_micro     -62.163708
+delay_cash Total Sum
+                 delay_cash
+strategy_name              
+dynamic_TF_carry -62.163708
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry SP500_micro        -1.402189
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry    -1.402189
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry SP500_micro          10.282719
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry      10.282719
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry SP500_micro              7.478341
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry          7.478341
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry SP500_micro                            0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry SP500_micro                8.88053
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry            8.88053
 
 ********************************************************************************
                                  END OF REPORT                                  
