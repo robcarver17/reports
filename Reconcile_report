@@ -1,10 +1,10 @@
 
 ********************************************************************************
-                 Reconcile report produced on 09/10/2024 22:49                  
+                 Reconcile report produced on 10/10/2024 22:49                  
 ********************************************************************************
 
 
-Breaks Optimal vs actual []
+Breaks Optimal vs actual ['dynamic_TF_carry MSCIEAFA', 'dynamic_TF_carry KR10', 'dynamic_TF_carry TOPIX', 'dynamic_TF_carry JPY', 'dynamic_TF_carry FTSETAIWAN', 'dynamic_TF_carry BRE', 'dynamic_TF_carry DOW', 'dynamic_TF_carry VIX']
  Breaks Instrument vs Contract []
  Breaks Broker vs Contract []
 
@@ -44,46 +44,48 @@ Breaks Optimal vs actual []
 ===============================================================
 
    instrument_code contract_date          expiry_date  position
-20         BITCOIN      20241025  2024-10-25 00:00:00      -2.0
-9              BRE      20241031  2024-10-31 00:00:00       1.0
-2           CANOLA      20250114  2025-01-14 00:00:00      -1.0
-5             CORN      20241213  2024-12-13 00:00:00      -1.0
-17         COTTON2      20241206  2024-12-06 00:00:00      -1.0
-12   CRUDE_W_micro      20241218  2024-12-18 00:00:00       1.0
-23             DOW      20241220  2024-12-20 00:00:00       2.0
-22         EU-AUTO      20241220  2024-12-20 00:00:00      -1.0
-21         GAS-PEN      20241028  2024-10-28 00:00:00      -1.0
-3             IRON      20241129  2024-11-29 00:00:00      -1.0
-18             JPY      20241216  2024-12-16 00:00:00      -1.0
-16            KR10      20241217  2024-12-17 00:00:00       2.0
-19         LEANHOG      20241213  2024-12-13 00:00:00       1.0
-8          LEANHOG      20250214  2025-02-14 00:00:00       1.0
-11         LIVECOW      20250228  2025-02-28 00:00:00       1.0
-13             MIB      20241220  2024-12-20 00:00:00       1.0
-1         MSCIEAFA      20241220  2024-12-20 00:00:00       2.0
-10        MSCISING      20241029  2024-10-29 00:00:00       2.0
-0       MSCITAIWAN      20241030  2024-10-30 00:00:00       1.0
-14           MUMMY      20241212  2024-12-12 00:00:00       1.0
-15          SILVER      20241227  2024-12-27 00:00:00       1.0
-4          SOYMEAL      20250114  2025-01-14 00:00:00      -1.0
-7          SUGAR11      20250430  2025-04-30 00:00:00       1.0
-6           YENEUR      20241216  2024-12-16 00:00:00       1.0
+6          BITCOIN      20241025  2024-10-25 00:00:00      -2.0
+23             BRE      20241031  2024-10-31 00:00:00       1.0
+8           CANOLA      20250114  2025-01-14 00:00:00      -1.0
+7             CORN      20241213  2024-12-13 00:00:00      -1.0
+10         COTTON2      20241206  2024-12-06 00:00:00      -1.0
+18   CRUDE_W_micro      20241218  2024-12-18 00:00:00       1.0
+4              DOW      20241220  2024-12-20 00:00:00       2.0
+15         EU-AUTO      20241220  2024-12-20 00:00:00      -1.0
+12         GAS-PEN      20241028  2024-10-28 00:00:00      -1.0
+17            IRON      20241129  2024-11-29 00:00:00      -1.0
+2              JPY      20241216  2024-12-16 00:00:00      -1.0
+22            KR10      20241217  2024-12-17 00:00:00       2.0
+11         LEANHOG      20241213  2024-12-13 00:00:00       1.0
+3          LEANHOG      20250214  2025-02-14 00:00:00       1.0
+13         LIVECOW      20250228  2025-02-28 00:00:00       1.0
+19             MIB      20241220  2024-12-20 00:00:00       1.0
+16        MSCIEAFA      20241220  2024-12-20 00:00:00       2.0
+20        MSCISING      20241029  2024-10-29 00:00:00       2.0
+21      MSCITAIWAN      20241030  2024-10-30 00:00:00       1.0
+1            MUMMY      20241212  2024-12-12 00:00:00       1.0
+14          SILVER      20241227  2024-12-27 00:00:00       1.0
+9          SOYMEAL      20250114  2025-01-14 00:00:00      -1.0
+5          SUGAR11      20250430  2025-04-30 00:00:00       1.0
+0           YENEUR      20241216  2024-12-16 00:00:00       1.0
 
 
-==========================================================================
-                               Trades in DB                               
-==========================================================================
+===============
+ Trades in DB  
+===============
 
-        strategy_name contract_date       fill_datetime fill  filled_price
-DOW  dynamic_TF_carry    [20241200] 2024-10-09 15:00:04  [1]       42530.0
+Empty DataFrame
+Columns: [strategy_name, contract_date, fill_datetime, fill, filled_price]
+Index: []
 
 
-======================================================================
-                          Trades from broker                          
-======================================================================
+==================
+Trades from broker
+==================
 
-    strategy_name contract_date       fill_datetime fill  filled_price
-DOW                  [20241220] 2024-10-09 15:00:04  [1]       42530.0
+Empty DataFrame
+Columns: [strategy_name, contract_date, fill_datetime, fill, filled_price]
+Index: []
 
 
 ==========================================================
@@ -104,11 +106,11 @@ dynamic_TF_carry NICKEL_LME              0       0   False
 dynamic_TF_carry LIVECOW                 1       1   False
 dynamic_TF_carry MSCIEMASIA              0       0   False
 dynamic_TF_carry CZK                     0       0   False
-dynamic_TF_carry MSCIEAFA                2       2   False
+dynamic_TF_carry MSCIEAFA                2       1    True
 dynamic_TF_carry US10                    0       0   False
 dynamic_TF_carry REDWHEAT                0       0   False
 dynamic_TF_carry TWD                     0       0   False
-dynamic_TF_carry KR10                    2       2   False
+dynamic_TF_carry KR10                    2       1    True
 dynamic_TF_carry MIB                     1       1   False
 dynamic_TF_carry HANGENT_mini            0       0   False
 dynamic_TF_carry NOK                     0       0   False
@@ -166,7 +168,7 @@ dynamic_TF_carry EU-BANKS                0       0   False
 dynamic_TF_carry GAS_US_mini             0       0   False
 dynamic_TF_carry PLAT                    0       0   False
 dynamic_TF_carry SOYMEAL                -1      -1   False
-dynamic_TF_carry TOPIX                   0       0   False
+dynamic_TF_carry TOPIX                   0       1    True
 dynamic_TF_carry EU-INSURE               0       0   False
 dynamic_TF_carry CHINAA-CON              0       0   False
 dynamic_TF_carry MILKDRY                 0       0   False
@@ -174,7 +176,7 @@ dynamic_TF_carry ETHEREUM                0       0   False
 dynamic_TF_carry FTSE100                 0       0   False
 dynamic_TF_carry US3                     0       0   False
 dynamic_TF_carry NIKKEI400               0       0   False
-dynamic_TF_carry JPY                    -1      -1   False
+dynamic_TF_carry JPY                    -1       0    True
 dynamic_TF_carry IBEX_mini               0       0   False
 dynamic_TF_carry CRUDE_W_micro           1       1   False
 dynamic_TF_carry DAX                     0       0   False
@@ -235,7 +237,7 @@ dynamic_TF_carry ZAR                     0       0   False
 dynamic_TF_carry SUGAR11                 1       1   False
 dynamic_TF_carry ROBUSTA                 0       0   False
 dynamic_TF_carry US-INDUSTRY             0       0   False
-dynamic_TF_carry FTSETAIWAN              0       0   False
+dynamic_TF_carry FTSETAIWAN              0       1    True
 dynamic_TF_carry MILK                    0       0   False
 dynamic_TF_carry BUXL                    0       0   False
 dynamic_TF_carry EU-TRAVEL               0       0   False
@@ -292,14 +294,14 @@ dynamic_TF_carry SGD                     0       0   False
 dynamic_TF_carry KOSPI                   0       0   False
 dynamic_TF_carry EURAUD                  0       0   False
 dynamic_TF_carry CH10                    0       0   False
-dynamic_TF_carry BRE                     1       1   False
-dynamic_TF_carry DOW                     2       2   False
+dynamic_TF_carry BRE                     1       0    True
+dynamic_TF_carry DOW                     2       3    True
 dynamic_TF_carry SMI-MID                 0       0   False
 dynamic_TF_carry CANOLA                 -1      -1   False
 dynamic_TF_carry EU-AUTO                -1      -1   False
 dynamic_TF_carry IG                      0       0   False
 dynamic_TF_carry LEAD_LME                0       0   False
-dynamic_TF_carry VIX                     0       0   False
+dynamic_TF_carry VIX                     0      -1    True
 dynamic_TF_carry INR                     0       0   False
 dynamic_TF_carry MSCITAIWAN              1       1   False
 dynamic_TF_carry US30                    0       0   False
