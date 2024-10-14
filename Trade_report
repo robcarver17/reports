@@ -1,23 +1,17 @@
 
 ********************************************************************************
-Trades report produced on 11/10/2024 22:50 from 10/10/2024 22:50 to 11/10/2024 22:50
+Trades report produced on 14/10/2024 22:50 from 13/10/2024 22:50 to 14/10/2024 22:50
 ********************************************************************************
 
 
 
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
+============================================================================================
+                                       Broker orders                                        
+============================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-33923             BRE  dynamic_TF_carry    [20241100] 2024-10-11 15:00:14  [-1]      0.176800
-33926             DOW  dynamic_TF_carry    [20241200] 2024-10-11 15:00:18   [1]  42902.000000
-33919      FTSETAIWAN  dynamic_TF_carry    [20241000] 2024-10-11 02:00:31   [1]   1906.750000
-33925             JPY  dynamic_TF_carry    [20241200] 2024-10-11 15:00:16   [1]      0.006764
-33920            KR10  dynamic_TF_carry    [20241200] 2024-10-11 02:00:34  [-1]    116.510000
-33922        MSCIEAFA  dynamic_TF_carry    [20241200] 2024-10-11 14:00:06  [-1]   2429.900000
-33921           TOPIX  dynamic_TF_carry    [20241200] 2024-10-11 02:02:35   [1]   2721.250000
-33924             VIX  dynamic_TF_carry    [20241200] 2024-10-11 15:00:15  [-1]     19.050000
+      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
+33928         BITCOIN  dynamic_TF_carry    [20241000] 2024-10-14 15:00:11  [1]       65355.0
+33927         BITCOIN  dynamic_TF_carry    [20241000] 2024-10-14 15:00:06  [1]       65360.0
 
 
 =============================================================================================================================================================
@@ -25,29 +19,17 @@ Trades report produced on 11/10/2024 22:50 from 10/10/2024 22:50 to 11/10/2024 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-33919      FTSETAIWAN  dynamic_TF_carry       2024-10-10 00:00:00  2024-10-11 02:00:29.467000  2024-10-11 02:00:31              93629.467               1.533
-33920            KR10  dynamic_TF_carry       2024-10-10 00:00:00  2024-10-11 02:00:33.610000  2024-10-11 02:00:34               93633.61                0.39
-33921           TOPIX  dynamic_TF_carry       2024-10-10 00:00:00  2024-10-11 02:02:32.962000  2024-10-11 02:02:35              93752.962               2.038
-33922        MSCIEAFA  dynamic_TF_carry       2024-10-10 00:00:00  2024-10-11 14:00:05.987000  2024-10-11 14:00:06             136805.987               0.013
-33923             BRE  dynamic_TF_carry       2024-10-10 00:00:00  2024-10-11 15:00:05.168000  2024-10-11 15:00:14             140405.168               8.832
-33924             VIX  dynamic_TF_carry       2024-10-10 00:00:00  2024-10-11 15:00:15.087000  2024-10-11 15:00:15             140415.087                 NaN
-33925             JPY  dynamic_TF_carry       2024-10-10 00:00:00  2024-10-11 15:00:16.447000  2024-10-11 15:00:16             140416.447                 NaN
-33926             DOW  dynamic_TF_carry       2024-10-10 00:00:00  2024-10-11 15:00:18.355000  2024-10-11 15:00:18             140418.355                 NaN
+33928         BITCOIN  dynamic_TF_carry       2024-10-11 20:00:00  2024-10-14 15:00:11.114000  2024-10-14 15:00:11             241211.114                 NaN
+33927         BITCOIN  dynamic_TF_carry       2024-10-11 20:00:00  2024-10-14 15:00:05.479000  2024-10-14 15:00:06             241205.479               0.521
 
 
-===============================================================================================================================================================================================================================
-                                                                                                   Slippage (ticks per lot)                                                                                                    
-===============================================================================================================================================================================================================================
+============================================================================================================================================================================================================================
+                                                                                                  Slippage (ticks per lot)                                                                                                  
+============================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay  bid_ask execution versus_limit versus_parent_limit total_trading
-33919      FTSETAIWAN  dynamic_TF_carry   [1]                 1902.0               None  1906.375     1906.5       1906.25     1906.25      1906.75    -4.375   -0.125     -0.25         -0.5                 NaN        -0.375
-33920            KR10  dynamic_TF_carry  [-1]                 116.36               None   116.525     116.52        116.53      116.53       116.51     0.165   -0.005     -0.01        -0.02                 NaN        -0.015
-33921           TOPIX  dynamic_TF_carry   [1]                 2715.5               None  2721.375     2721.5       2721.25     2721.25      2721.25    -5.875   -0.125      0.25          0.0                 NaN         0.125
-33922        MSCIEAFA  dynamic_TF_carry  [-1]                 2426.9               None    2429.2     2429.0        2429.4      2429.4       2429.9       2.3     -0.2       0.9          0.5                 NaN           0.7
-33923             BRE  dynamic_TF_carry  [-1]                 0.1786               None   0.17675     0.1767        0.1768      0.1768       0.1768  -0.00185 -0.00005    0.0001         -0.0                 NaN       0.00005
-33924             VIX  dynamic_TF_carry  [-1]                   19.1               None    19.025       19.0         19.05       19.05        19.05    -0.075   -0.025      0.05         -0.0                 NaN         0.025
-33925             JPY  dynamic_TF_carry   [1]               0.006783               None  0.006764   0.006764      0.006764    0.006764     0.006764  0.000019     -0.0       0.0          0.0                 NaN           0.0
-33926             DOW  dynamic_TF_carry   [1]                42629.0               None   42910.0    42911.0       42909.0     42909.0      42902.0    -281.0     -1.0       9.0          7.0                 NaN           8.0
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
+33928         BITCOIN  dynamic_TF_carry   [1]                63430.0               None   65355.0    65360.0       65350.0         NaN      65355.0 -1925.0    -5.0       5.0          NaN                 NaN           0.0
+33927         BITCOIN  dynamic_TF_carry   [1]                63430.0               None   65382.5    65390.0       65375.0     65375.0      65360.0 -1952.5    -7.5      30.0         15.0                 NaN          22.5
 
 
 ==============================================================================================================================================================
@@ -55,14 +37,8 @@ Trades report produced on 11/10/2024 22:50 from 10/10/2024 22:50 to 11/10/2024 2
 ==============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33919      FTSETAIWAN  dynamic_TF_carry   [1]      368.792445 -118.630413    -3.38944     -6.778881       -13.557761                     NaN        -10.168321
-33920            KR10  dynamic_TF_carry  [-1]        6.875911    239.9682   -7.271764    -14.543527       -29.087055                     NaN        -21.815291
-33921           TOPIX  dynamic_TF_carry   [1]       658.87154  -89.167609   -1.897183      3.794366              0.0                     NaN          1.897183
-33922        MSCIEAFA  dynamic_TF_carry  [-1]      327.647413   70.197411   -6.104123     27.468552        15.260307                     NaN         21.364429
-33923             BRE  dynamic_TF_carry  [-1]        0.022183 -833.965272  -22.539602     45.079204             -0.0                     NaN         22.539602
-33924             VIX  dynamic_TF_carry  [-1]        8.653041  -86.674734  -28.891578     57.783156             -0.0                     NaN         28.891578
-33925             JPY  dynamic_TF_carry   [1]        0.000857  218.687344   -2.915831      5.831663              0.0                     NaN          2.915831
-33926             DOW  dynamic_TF_carry   [1]     4330.733989 -648.850751   -2.309077     20.781697        16.163542                     NaN         18.472619
+33928         BITCOIN  dynamic_TF_carry   [1]    28312.605628 -679.909163   -1.765998      1.765998              NaN                     NaN               0.0
+33927         BITCOIN  dynamic_TF_carry   [1]    28312.605628 -689.622151   -2.648997     10.595987         5.297993                     NaN           7.94699
 
 
 ========================================================================================================================================================================
@@ -70,86 +46,45 @@ Trades report produced on 11/10/2024 22:50 from 10/10/2024 22:50 to 11/10/2024 2
 ========================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33919      FTSETAIWAN  dynamic_TF_carry   [1]            30.657332 -134.125825    -3.832166      -7.664333        -15.328666                      NaN         -11.496499
-33920            KR10  dynamic_TF_carry  [-1]            568.97708   93.881218    -2.844885      -5.689771        -11.379542                      NaN          -8.534656
-33921           TOPIX  dynamic_TF_carry   [1]              5.15452  -30.282804    -0.644315        1.28863               0.0                      NaN           0.644315
-33922        MSCIEAFA  dynamic_TF_carry  [-1]            38.321664   88.139828    -7.664333      34.489498         19.160832                      NaN          26.825165
-33923             BRE  dynamic_TF_carry  [-1]         76643.328773 -141.790158    -3.832166       7.664333              -0.0                      NaN           3.832166
-33924             VIX  dynamic_TF_carry  [-1]           766.433288  -57.482497   -19.160832      38.321664              -0.0                      NaN          19.160832
-33925             JPY  dynamic_TF_carry   [1]       9580416.096632  179.632802    -2.395104       4.790208               0.0                      NaN           2.395104
-33926             DOW  dynamic_TF_carry   [1]             0.383217 -107.683877    -0.383217        3.44895          2.682517                      NaN           3.065733
+33928         BITCOIN  dynamic_TF_carry   [1]             0.076535 -147.330073    -0.382676       0.382676               NaN                      NaN                0.0
+33927         BITCOIN  dynamic_TF_carry   [1]             0.076535 -149.434788    -0.574013       2.296053          1.148027                      NaN            1.72204
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry BRE             -141.790158
-                 DOW             -107.683877
-                 FTSETAIWAN      -134.125825
-                 JPY              179.632802
-                 KR10              93.881218
-                 MSCIEAFA          88.139828
-                 TOPIX            -30.282804
-                 VIX              -57.482497
+dynamic_TF_carry BITCOIN         -296.764861
 delay_cash Total Sum
                   delay_cash
 strategy_name               
-dynamic_TF_carry -109.711313
+dynamic_TF_carry -296.764861
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry BRE                -3.832166
-                 DOW                -0.383217
-                 FTSETAIWAN         -3.832166
-                 JPY                -2.395104
-                 KR10               -2.844885
-                 MSCIEAFA           -7.664333
-                 TOPIX              -0.644315
-                 VIX               -19.160832
+dynamic_TF_carry BITCOIN            -0.956689
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry   -40.757019
+dynamic_TF_carry    -0.956689
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry BRE                   7.664333
-                 DOW                    3.44895
-                 FTSETAIWAN           -7.664333
-                 JPY                   4.790208
-                 KR10                 -5.689771
-                 MSCIEAFA             34.489498
-                 TOPIX                  1.28863
-                 VIX                  38.321664
+dynamic_TF_carry BITCOIN               2.678729
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry      76.649179
+dynamic_TF_carry       2.678729
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry BRE                          -0.0
-                 DOW                      2.682517
-                 FTSETAIWAN             -15.328666
-                 JPY                           0.0
-                 KR10                   -11.379542
-                 MSCIEAFA                19.160832
-                 TOPIX                         0.0
-                 VIX                          -0.0
+dynamic_TF_carry BITCOIN                  1.148027
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry         -4.864859
+dynamic_TF_carry          1.148027
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry BRE                                    0
-                 DOW                                    0
-                 FTSETAIWAN                             0
-                 JPY                                    0
-                 KR10                                   0
-                 MSCIEAFA                               0
-                 TOPIX                                  0
-                 VIX                                    0
+dynamic_TF_carry BITCOIN                                0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -157,18 +92,11 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry BRE                       3.832166
-                 DOW                       3.065733
-                 FTSETAIWAN              -11.496499
-                 JPY                       2.395104
-                 KR10                     -8.534656
-                 MSCIEAFA                 26.825165
-                 TOPIX                     0.644315
-                 VIX                      19.160832
+dynamic_TF_carry BITCOIN                    1.72204
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry           35.89216
+dynamic_TF_carry            1.72204
 
 ********************************************************************************
                                  END OF REPORT                                  
