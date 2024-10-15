@@ -1,10 +1,10 @@
 
 ********************************************************************************
-                 Reconcile report produced on 14/10/2024 22:49                  
+                 Reconcile report produced on 15/10/2024 22:49                  
 ********************************************************************************
 
 
-Breaks Optimal vs actual []
+Breaks Optimal vs actual ['dynamic_TF_carry RUSSELL']
  Breaks Instrument vs Contract []
  Breaks Broker vs Contract []
 
@@ -44,48 +44,48 @@ Breaks Optimal vs actual []
 ===============================================================
 
    instrument_code contract_date          expiry_date  position
-13          CANOLA      20250114  2025-01-14 00:00:00      -1.0
-15            CORN      20241213  2024-12-13 00:00:00      -1.0
-5          COTTON2      20241206  2024-12-06 00:00:00      -1.0
-14   CRUDE_W_micro      20241218  2024-12-18 00:00:00       1.0
-21             DOW      20241220  2024-12-20 00:00:00       3.0
-8          EU-AUTO      20241220  2024-12-20 00:00:00      -1.0
-3       FTSETAIWAN      20241030  2024-10-30 00:00:00       1.0
-17         GAS-PEN      20241028  2024-10-28 00:00:00      -1.0
-2             IRON      20241129  2024-11-29 00:00:00      -1.0
+5           CANOLA      20250114  2025-01-14 00:00:00      -1.0
+22            CORN      20241213  2024-12-13 00:00:00      -1.0
+19         COTTON2      20241206  2024-12-06 00:00:00      -1.0
+3    CRUDE_W_micro      20241218  2024-12-18 00:00:00       1.0
+23             DOW      20241220  2024-12-20 00:00:00       3.0
+13         EU-AUTO      20241220  2024-12-20 00:00:00      -1.0
+7       FTSETAIWAN      20241030  2024-10-30 00:00:00       1.0
+15         GAS-PEN      20241028  2024-10-28 00:00:00      -1.0
+12            IRON      20241129  2024-11-29 00:00:00      -1.0
 9             KR10      20241217  2024-12-17 00:00:00       1.0
-16         LEANHOG      20241213  2024-12-13 00:00:00       1.0
-18         LEANHOG      20250214  2025-02-14 00:00:00       1.0
-19         LIVECOW      20250228  2025-02-28 00:00:00       1.0
-6              MIB      20241220  2024-12-20 00:00:00       1.0
-23        MSCIEAFA      20241220  2024-12-20 00:00:00       1.0
-22        MSCISING      20241029  2024-10-29 00:00:00       2.0
-1       MSCITAIWAN      20241030  2024-10-30 00:00:00       1.0
-20           MUMMY      20241212  2024-12-12 00:00:00       1.0
-4           SILVER      20241227  2024-12-27 00:00:00       1.0
-12         SOYMEAL      20250114  2025-01-14 00:00:00      -1.0
-10         SUGAR11      20250430  2025-04-30 00:00:00       1.0
-11           TOPIX      20241212  2024-12-12 00:00:00       1.0
-7              VIX      20241218  2024-12-18 00:00:00      -1.0
-0           YENEUR      20241216  2024-12-16 00:00:00       1.0
+8          LEANHOG      20250214  2025-02-14 00:00:00       1.0
+10         LEANHOG      20241213  2024-12-13 00:00:00       1.0
+4          LIVECOW      20250228  2025-02-28 00:00:00       1.0
+14             MIB      20241220  2024-12-20 00:00:00       1.0
+20        MSCIEAFA      20241220  2024-12-20 00:00:00       1.0
+1         MSCISING      20241029  2024-10-29 00:00:00       2.0
+11      MSCITAIWAN      20241030  2024-10-30 00:00:00       1.0
+17           MUMMY      20241212  2024-12-12 00:00:00       1.0
+2           SILVER      20241227  2024-12-27 00:00:00       1.0
+6          SOYMEAL      20250114  2025-01-14 00:00:00      -1.0
+16         SUGAR11      20250430  2025-04-30 00:00:00       1.0
+0            TOPIX      20241212  2024-12-12 00:00:00       1.0
+21             VIX      20241218  2024-12-18 00:00:00      -1.0
+18          YENEUR      20241216  2024-12-16 00:00:00       1.0
 
 
-==============================================================================
-                                 Trades in DB                                 
-==============================================================================
+===============
+ Trades in DB  
+===============
 
-            strategy_name contract_date       fill_datetime fill  filled_price
-BITCOIN  dynamic_TF_carry    [20241000] 2024-10-14 15:00:11  [1]       65355.0
-BITCOIN  dynamic_TF_carry    [20241000] 2024-10-14 15:00:06  [1]       65360.0
+Empty DataFrame
+Columns: [strategy_name, contract_date, fill_datetime, fill, filled_price]
+Index: []
 
 
-==========================================================================
-                            Trades from broker                            
-==========================================================================
+==================
+Trades from broker
+==================
 
-        strategy_name contract_date       fill_datetime fill  filled_price
-BITCOIN                  [20241025] 2024-10-14 15:00:06  [1]       65360.0
-BITCOIN                  [20241025] 2024-10-14 15:00:11  [1]       65355.0
+Empty DataFrame
+Columns: [strategy_name, contract_date, fill_datetime, fill, filled_price]
+Index: []
 
 
 ==========================================================
@@ -193,7 +193,7 @@ dynamic_TF_carry EU-MID                  0       0   False
 dynamic_TF_carry FED                     0       0   False
 dynamic_TF_carry LUMBER-new              0       0   False
 dynamic_TF_carry EUA                     0       0   False
-dynamic_TF_carry RUSSELL                 0       0   False
+dynamic_TF_carry RUSSELL                 0       1    True
 dynamic_TF_carry WHEY                    0       0   False
 dynamic_TF_carry EUROSTX200-LARGE        0       0   False
 dynamic_TF_carry BB3M                    0       0   False
