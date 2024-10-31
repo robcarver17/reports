@@ -1,32 +1,35 @@
 
 ********************************************************************************
-Trades report produced on 30/10/2024 22:50 from 29/10/2024 22:50 to 30/10/2024 22:50
+Trades report produced on 31/10/2024 22:50 from 30/10/2024 22:50 to 31/10/2024 22:50
 ********************************************************************************
 
 
 
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
+=================================================================================================
+                                          Broker orders                                          
+=================================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-33954             DOW  dynamic_TF_carry    [20241200] 2024-10-30 15:00:05  [-1]       42566.0
-
-
-=============================================================================================================================================================
-                                                                           Delays                                                                            
-=============================================================================================================================================================
-
-      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-33954             DOW  dynamic_TF_carry       2024-10-29 00:00:00  2024-10-30 15:00:04.562000  2024-10-30 15:00:05             140404.562               0.438
+      instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
+33956   CRUDE_W_micro  dynamic_TF_carry    [20250200] 2024-10-31 14:00:12.000  [-1]         68.47
+33955        MSCISING  dynamic_TF_carry    [20241000] 2024-10-31 09:58:01.894  [-2]        348.85
 
 
-==========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                 
-==========================================================================================================================================================================================================================
+====================================================================================================================================================================
+                                                                               Delays                                                                               
+====================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
-33954             DOW  dynamic_TF_carry  [-1]                42496.0               None   42567.5    42567.0       42568.0     42568.0      42566.0  71.5    -0.5      -1.0         -2.0                 NaN          -1.5
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
+33955        MSCISING  dynamic_TF_carry                       NaT                         NaT  2024-10-31 09:58:01.894000                    NaN                 NaN
+33956   CRUDE_W_micro  dynamic_TF_carry       2024-10-29 00:00:00  2024-10-31 14:00:10.757000         2024-10-31 14:00:12             223210.757               1.243
+
+
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+33955        MSCISING  dynamic_TF_carry  [-2]                    NaN               None       NaN        NaN           NaN         NaN       348.85    NaN     NaN       NaN          NaN                 NaN           NaN
+33956   CRUDE_W_micro  dynamic_TF_carry  [-1]                  66.58               None    68.495      68.48         68.51       68.51        68.47  1.915  -0.015     -0.01        -0.04                 NaN        -0.025
 
 
 ==============================================================================================================================================================
@@ -34,52 +37,59 @@ Trades report produced on 30/10/2024 22:50 from 29/10/2024 22:50 to 30/10/2024 2
 ==============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-33954             DOW  dynamic_TF_carry  [-1]     4336.961042  164.861984   -1.152881     -2.305762        -4.611524                     NaN         -3.458643
+33955        MSCISING  dynamic_TF_carry  [-2]       40.043468         NaN         NaN           NaN              NaN                     NaN               NaN
+33956   CRUDE_W_micro  dynamic_TF_carry  [-1]        24.75197  773.675784   -6.060124     -4.040082        -16.16033                     NaN        -10.100206
 
 
-=======================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                      
-=======================================================================================================================================================================
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-33954             DOW  dynamic_TF_carry  [-1]             0.384354  27.481292    -0.192177      -0.384354         -0.768707                      NaN          -0.576531
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+33955        MSCISING  dynamic_TF_carry  [-2]            58.314847         NaN          NaN            NaN               NaN                      NaN                NaN
+33956   CRUDE_W_micro  dynamic_TF_carry  [-1]            77.084064  147.615983    -1.156261      -0.770841         -3.083363                      NaN          -1.927102
 
 delay_cash Sum
-                                 delay_cash
-strategy_name    instrument_code           
-dynamic_TF_carry DOW              27.481292
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry CRUDE_W_micro    147.615983
+                 MSCISING                  0
 delay_cash Total Sum
-                 delay_cash
-strategy_name              
-dynamic_TF_carry  27.481292
+                  delay_cash
+strategy_name               
+dynamic_TF_carry  147.615983
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry DOW                -0.192177
+dynamic_TF_carry CRUDE_W_micro      -1.156261
+                 MSCISING                   0
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -0.192177
+dynamic_TF_carry    -1.156261
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry DOW                  -0.384354
+dynamic_TF_carry CRUDE_W_micro        -0.770841
+                 MSCISING                     0
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry      -0.384354
+dynamic_TF_carry      -0.770841
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry DOW                     -0.768707
+dynamic_TF_carry CRUDE_W_micro           -3.083363
+                 MSCISING                        0
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry         -0.768707
+dynamic_TF_carry         -3.083363
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry DOW                                    0
+dynamic_TF_carry CRUDE_W_micro                          0
+                 MSCISING                               0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -87,11 +97,12 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry DOW                      -0.576531
+dynamic_TF_carry CRUDE_W_micro            -1.927102
+                 MSCISING                         0
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry          -0.576531
+dynamic_TF_carry          -1.927102
 
 ********************************************************************************
                                  END OF REPORT                                  
