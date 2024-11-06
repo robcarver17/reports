@@ -1,15 +1,201 @@
 
 ********************************************************************************
-Trades report produced on 05/11/2024 22:50 from 04/11/2024 22:50 to 05/11/2024 22:50
+Trades report produced on 06/11/2024 22:50 from 05/11/2024 22:50 to 06/11/2024 22:50
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+33980   CRUDE_W_micro  dynamic_TF_carry    [20250100] 2024-11-06 14:00:06   [1]        69.660
+33981   CRUDE_W_micro  dynamic_TF_carry    [20250200] 2024-11-06 14:00:09   [1]        69.320
+33985             DOW  dynamic_TF_carry    [20241200] 2024-11-06 15:00:09  [-1]     43582.000
+33982     GAS_US_mini  dynamic_TF_carry    [20250100] 2024-11-06 14:00:15  [-1]         2.955
+33977          KOSDAQ  dynamic_TF_carry    [20241200] 2024-11-06 02:00:35   [1]      1308.200
+33987         LIVECOW  dynamic_TF_carry    [20250200] 2024-11-06 15:30:07  [-1]       186.875
+33979        MSCISING  dynamic_TF_carry    [20241100] 2024-11-06 02:03:08   [1]       343.450
+33978      MSCITAIWAN  dynamic_TF_carry    [20241100] 2024-11-06 02:02:54   [1]       965.300
+33983    NASDAQ_micro  dynamic_TF_carry    [20241200] 2024-11-06 15:00:06  [-1]     20678.250
+33984         RUSSELL  dynamic_TF_carry    [20241200] 2024-11-06 15:00:07   [1]      2372.200
+33986     SP500_micro  dynamic_TF_carry    [20241200] 2024-11-06 15:00:11  [-1]      5910.750
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+33977          KOSDAQ  dynamic_TF_carry       2024-11-05 00:00:00  2024-11-06 02:00:33.624000  2024-11-06 02:00:35              93633.624               1.376
+33978      MSCITAIWAN  dynamic_TF_carry       2024-11-05 00:00:00  2024-11-06 02:02:46.380000  2024-11-06 02:02:54               93766.38                7.62
+33979        MSCISING  dynamic_TF_carry       2024-11-05 00:00:00  2024-11-06 02:03:00.949000  2024-11-06 02:03:08              93780.949               7.051
+33980   CRUDE_W_micro  dynamic_TF_carry       2024-11-05 00:00:00  2024-11-06 14:00:06.155000  2024-11-06 14:00:06             136806.155                 NaN
+33981   CRUDE_W_micro  dynamic_TF_carry       2024-11-05 00:00:00  2024-11-06 14:00:07.869000  2024-11-06 14:00:09             136807.869               1.131
+33982     GAS_US_mini  dynamic_TF_carry       2024-11-05 00:00:00  2024-11-06 14:00:14.933000  2024-11-06 14:00:15             136814.933               0.067
+33983    NASDAQ_micro  dynamic_TF_carry       2024-11-05 00:00:00  2024-11-06 15:00:06.136000  2024-11-06 15:00:06             140406.136                 NaN
+33984         RUSSELL  dynamic_TF_carry       2024-11-05 00:00:00  2024-11-06 15:00:07.511000  2024-11-06 15:00:07             140407.511                 NaN
+33985             DOW  dynamic_TF_carry       2024-11-05 00:00:00  2024-11-06 15:00:09.206000  2024-11-06 15:00:09             140409.206                 NaN
+33986     SP500_micro  dynamic_TF_carry       2024-11-05 00:00:00  2024-11-06 15:00:10.822000  2024-11-06 15:00:11             140410.822               0.178
+33987         LIVECOW  dynamic_TF_carry       2024-11-05 00:00:00  2024-11-06 15:30:04.769000  2024-11-06 15:30:07             142204.769               2.231
+
+
+=============================================================================================================================================================================================================================
+                                                                                                  Slippage (ticks per lot)                                                                                                   
+=============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay bid_ask execution versus_limit versus_parent_limit total_trading
+33977          KOSDAQ  dynamic_TF_carry   [1]                 1301.1               None    1308.0     1308.1        1307.9      1307.9       1308.2     -6.9    -0.1      -0.1         -0.3                 NaN          -0.2
+33978      MSCITAIWAN  dynamic_TF_carry   [1]                  961.5               None     965.1      965.3         964.9       964.9        965.3     -3.6    -0.2       0.0         -0.4                 NaN          -0.2
+33979        MSCISING  dynamic_TF_carry   [1]                 340.55               None    343.35      343.4         343.3       343.3       343.45     -2.8   -0.05     -0.05        -0.15                 NaN          -0.1
+33980   CRUDE_W_micro  dynamic_TF_carry   [1]                  71.79               None     69.67      69.68         69.66       69.66        69.66     2.12   -0.01      0.02          0.0                 NaN          0.01
+33981   CRUDE_W_micro  dynamic_TF_carry   [1]                  71.42               None    69.295      69.31         69.28       69.28        69.32    2.125  -0.015     -0.01        -0.04                 NaN        -0.025
+33982     GAS_US_mini  dynamic_TF_carry  [-1]                   2.94               None     2.955       2.95          2.96        2.96        2.955    0.015  -0.005     0.005       -0.005                 NaN           0.0
+33983    NASDAQ_micro  dynamic_TF_carry  [-1]               20324.25               None  20680.25    20680.0       20680.5     20680.5     20678.25    356.0   -0.25     -1.75        -2.25                 NaN          -2.0
+33984         RUSSELL  dynamic_TF_carry   [1]                 2264.0               None    2371.6     2371.7        2371.5      2371.5       2372.2   -107.6    -0.1      -0.5         -0.7                 NaN          -0.6
+33985             DOW  dynamic_TF_carry  [-1]                42310.0               None   43587.0    43586.0       43588.0     43588.0      43582.0   1277.0    -1.0      -4.0         -6.0                 NaN          -5.0
+33986     SP500_micro  dynamic_TF_carry  [-1]                 5796.5               None  5911.125     5911.0       5911.25     5911.25      5910.75  114.625  -0.125     -0.25         -0.5                 NaN        -0.375
+33987         LIVECOW  dynamic_TF_carry  [-1]                 185.95               None  186.9375    186.925        186.95      186.95      186.875   0.9875 -0.0125     -0.05       -0.075                 NaN       -0.0625
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+33977          KOSDAQ  dynamic_TF_carry   [1]      411.580477  -167.646436   -2.429658     -2.429658        -7.288975                     NaN         -4.859317
+33978      MSCITAIWAN  dynamic_TF_carry   [1]      167.110356  -215.426506  -11.968139           0.0       -23.936278                     NaN        -11.968139
+33979        MSCISING  dynamic_TF_carry   [1]       36.368833  -769.889973  -13.748035    -13.748035       -41.244106                     NaN         -27.49607
+33980   CRUDE_W_micro  dynamic_TF_carry   [1]       24.567954   862.912718   -4.070343      8.140686              0.0                     NaN          4.070343
+33981   CRUDE_W_micro  dynamic_TF_carry   [1]       24.567954   864.947889   -6.105515     -4.070343       -16.281372                     NaN        -10.175858
+33982     GAS_US_mini  dynamic_TF_carry  [-1]        1.475031   101.692804  -33.897601     33.897601       -33.897601                     NaN               0.0
+33983    NASDAQ_micro  dynamic_TF_carry  [-1]     3149.875109   1130.20354   -0.793682     -5.555776         -7.14314                     NaN         -6.349458
+33984         RUSSELL  dynamic_TF_carry   [1]      382.469572 -2813.295695   -2.614587    -13.072935        -18.30211                     NaN        -15.687522
+33985             DOW  dynamic_TF_carry  [-1]     4369.821258  2922.316325   -2.288423     -9.153692       -13.730539                     NaN        -11.442116
+33986     SP500_micro  dynamic_TF_carry  [-1]      647.821906  1769.390615   -1.929543     -3.859085        -7.718171                     NaN         -5.788628
+33987         LIVECOW  dynamic_TF_carry  [-1]       16.890568   584.645807    -7.40058    -29.602319       -44.403479                     NaN        -37.002899
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+33977          KOSDAQ  dynamic_TF_carry   [1]              5.57821   -38.48965    -0.557821      -0.557821         -1.673463                      NaN          -1.115642
+33978      MSCITAIWAN  dynamic_TF_carry   [1]            77.732089 -279.835519   -15.546418            0.0        -31.092835                      NaN         -15.546418
+33979        MSCISING  dynamic_TF_carry   [1]            58.352386 -163.386681    -2.917619      -2.917619         -8.752858                      NaN          -5.835239
+33980   CRUDE_W_micro  dynamic_TF_carry   [1]            77.732089  164.792028    -0.777321       1.554642               0.0                      NaN           0.777321
+33981   CRUDE_W_micro  dynamic_TF_carry   [1]            77.732089  165.180688    -1.165981      -0.777321         -3.109284                      NaN          -1.943302
+33982     GAS_US_mini  dynamic_TF_carry  [-1]          1943.302215   29.149533    -9.716511       9.716511         -9.716511                      NaN                0.0
+33983    NASDAQ_micro  dynamic_TF_carry  [-1]             1.554642  553.452471     -0.38866      -2.720623         -3.497944                      NaN          -3.109284
+33984         RUSSELL  dynamic_TF_carry   [1]             3.886604 -418.198637     -0.38866      -1.943302         -2.720623                      NaN          -2.331963
+33985             DOW  dynamic_TF_carry  [-1]              0.38866  496.319386     -0.38866      -1.554642         -2.331963                      NaN          -1.943302
+33986     SP500_micro  dynamic_TF_carry  [-1]             3.886604  445.502033    -0.485826      -0.971651         -1.943302                      NaN          -1.457477
+33987         LIVECOW  dynamic_TF_carry  [-1]           310.928354   307.04175    -3.886604     -15.546418        -23.319627                      NaN         -19.433022
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry CRUDE_W_micro    329.972716
+                 DOW              496.319386
+                 GAS_US_mini       29.149533
+                 KOSDAQ            -38.48965
+                 LIVECOW           307.04175
+                 MSCISING        -163.386681
+                 MSCITAIWAN      -279.835519
+                 NASDAQ_micro     553.452471
+                 RUSSELL         -418.198637
+                 SP500_micro      445.502033
+delay_cash Total Sum
+                   delay_cash
+strategy_name                
+dynamic_TF_carry  1261.527402
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry CRUDE_W_micro      -1.943302
+                 DOW                 -0.38866
+                 GAS_US_mini        -9.716511
+                 KOSDAQ             -0.557821
+                 LIVECOW            -3.886604
+                 MSCISING           -2.917619
+                 MSCITAIWAN        -15.546418
+                 NASDAQ_micro        -0.38866
+                 RUSSELL             -0.38866
+                 SP500_micro        -0.485826
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -36.220083
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry CRUDE_W_micro         0.777321
+                 DOW                  -1.554642
+                 GAS_US_mini           9.716511
+                 KOSDAQ               -0.557821
+                 LIVECOW             -15.546418
+                 MSCISING             -2.917619
+                 MSCITAIWAN                 0.0
+                 NASDAQ_micro         -2.720623
+                 RUSSELL              -1.943302
+                 SP500_micro          -0.971651
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry     -15.718244
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry CRUDE_W_micro           -3.109284
+                 DOW                     -2.331963
+                 GAS_US_mini             -9.716511
+                 KOSDAQ                  -1.673463
+                 LIVECOW                -23.319627
+                 MSCISING                -8.752858
+                 MSCITAIWAN             -31.092835
+                 NASDAQ_micro            -3.497944
+                 RUSSELL                 -2.720623
+                 SP500_micro             -1.943302
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry         -88.15841
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry CRUDE_W_micro                          0
+                 DOW                                    0
+                 GAS_US_mini                            0
+                 KOSDAQ                                 0
+                 LIVECOW                                0
+                 MSCISING                               0
+                 MSCITAIWAN                             0
+                 NASDAQ_micro                           0
+                 RUSSELL                                0
+                 SP500_micro                            0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry CRUDE_W_micro            -1.165981
+                 DOW                      -1.943302
+                 GAS_US_mini                    0.0
+                 KOSDAQ                   -1.115642
+                 LIVECOW                 -19.433022
+                 MSCISING                 -5.835239
+                 MSCITAIWAN              -15.546418
+                 NASDAQ_micro             -3.109284
+                 RUSSELL                  -2.331963
+                 SP500_micro              -1.457477
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry         -51.938327
 
 ********************************************************************************
                                  END OF REPORT                                  
