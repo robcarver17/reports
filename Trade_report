@@ -1,15 +1,218 @@
 
 ********************************************************************************
-Trades report produced on 07/11/2024 22:50 from 06/11/2024 22:50 to 07/11/2024 22:50
+Trades report produced on 08/11/2024 22:50 from 07/11/2024 22:50 to 08/11/2024 22:50
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+33996         BITCOIN  dynamic_TF_carry    [20241200] 2024-11-08 15:00:02   [1]    77040.0000
+33998             CAD  dynamic_TF_carry    [20241200] 2024-11-08 15:00:10  [-1]        0.7202
+33994   CRUDE_W_micro  dynamic_TF_carry    [20250200] 2024-11-08 14:00:20   [1]       70.6800
+33999             DOW  dynamic_TF_carry    [20241200] 2024-11-08 15:00:12   [1]    44024.0000
+33991        EU-BASIC  dynamic_TF_carry    [20241200] 2024-11-08 08:00:08   [1]      567.2000
+33988      FTSETAIWAN  dynamic_TF_carry    [20241100] 2024-11-08 02:00:35   [1]     1981.2500
+33993     GAS_US_mini  dynamic_TF_carry    [20250100] 2024-11-08 14:00:13  [-1]        2.9450
+33992      GOLD_micro  dynamic_TF_carry    [20241200] 2024-11-08 14:00:05  [-1]     2705.1000
+33990    HANGENT_mini  dynamic_TF_carry    [20241100] 2024-11-08 02:15:04   [1]     7602.0000
+33997    NASDAQ_micro  dynamic_TF_carry    [20241200] 2024-11-08 15:00:04   [1]    21209.5000
+33989          NIKKEI  dynamic_TF_carry    [20241200] 2024-11-08 02:02:35  [-1]    39460.0000
+33995            PLAT  dynamic_TF_carry    [20250100] 2024-11-08 14:00:26  [-1]      991.0000
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+33988      FTSETAIWAN  dynamic_TF_carry       2024-11-07 00:00:00  2024-11-08 02:00:31.716000  2024-11-08 02:00:35              93631.716               3.284
+33989          NIKKEI  dynamic_TF_carry       2024-11-07 00:00:00  2024-11-08 02:02:31.398000  2024-11-08 02:02:35              93751.398               3.602
+33990    HANGENT_mini  dynamic_TF_carry       2024-11-07 00:00:00  2024-11-08 02:15:02.805000  2024-11-08 02:15:04              94502.805               1.195
+33991        EU-BASIC  dynamic_TF_carry       2024-11-07 00:00:00  2024-11-08 08:00:07.717000  2024-11-08 08:00:08             115207.717               0.283
+33992      GOLD_micro  dynamic_TF_carry       2024-11-07 00:00:00  2024-11-08 14:00:04.994000  2024-11-08 14:00:05             136804.994               0.006
+33993     GAS_US_mini  dynamic_TF_carry       2024-11-07 00:00:00  2024-11-08 14:00:06.712000  2024-11-08 14:00:13             136806.712               6.288
+33994   CRUDE_W_micro  dynamic_TF_carry       2024-11-07 00:00:00  2024-11-08 14:00:14.818000  2024-11-08 14:00:20             136814.818               5.182
+33995            PLAT  dynamic_TF_carry       2024-11-07 00:00:00  2024-11-08 14:00:26.225000  2024-11-08 14:00:26             136826.225                 NaN
+33996         BITCOIN  dynamic_TF_carry       2024-11-07 00:00:00  2024-11-08 15:00:02.521000  2024-11-08 15:00:02             140402.521                 NaN
+33997    NASDAQ_micro  dynamic_TF_carry       2024-11-07 00:00:00  2024-11-08 15:00:04.554000  2024-11-08 15:00:04             140404.554                 NaN
+33998             CAD  dynamic_TF_carry       2024-11-07 00:00:00  2024-11-08 15:00:06.309000  2024-11-08 15:00:10             140406.309               3.691
+33999             DOW  dynamic_TF_carry       2024-11-07 00:00:00  2024-11-08 15:00:11.957000  2024-11-08 15:00:12             140411.957               0.043
+
+
+=================================================================================================================================================================================================================================
+                                                                                                    Slippage (ticks per lot)                                                                                                     
+=================================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price  mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
+33988      FTSETAIWAN  dynamic_TF_carry   [1]                 1965.0               None   1981.375     1981.5       1981.25     1981.25      1981.25   -16.375    -0.125      0.25          0.0                 NaN         0.125
+33989          NIKKEI  dynamic_TF_carry  [-1]                39365.0               None    39467.5    39465.0       39470.0     39470.0      39460.0     102.5      -2.5      -5.0        -10.0                 NaN          -7.5
+33990    HANGENT_mini  dynamic_TF_carry   [1]                 7482.0               None     7600.0     7601.0        7599.0      7599.0       7602.0    -118.0      -1.0      -1.0         -3.0                 NaN          -2.0
+33991        EU-BASIC  dynamic_TF_carry   [1]                  571.3               None      566.6      567.4         565.8       565.8        567.2       4.7      -0.8       0.2         -1.4                 NaN          -0.6
+33992      GOLD_micro  dynamic_TF_carry  [-1]                 2714.2               None    2705.35     2705.3        2705.4      2705.4       2705.1     -8.85     -0.05      -0.2         -0.3                 NaN         -0.25
+33993     GAS_US_mini  dynamic_TF_carry  [-1]                   2.95               None     2.9425       2.94         2.945       2.945        2.945   -0.0075   -0.0025     0.005         -0.0                 NaN        0.0025
+33994   CRUDE_W_micro  dynamic_TF_carry   [1]                  71.35               None      70.69       70.7         70.68       70.68        70.68      0.66     -0.01      0.02          0.0                 NaN          0.01
+33995            PLAT  dynamic_TF_carry  [-1]                 1004.5               None      991.2      991.0         991.4       991.4        991.0     -13.3      -0.2      -0.0         -0.4                 NaN          -0.2
+33996         BITCOIN  dynamic_TF_carry   [1]                77795.0               None    76927.5    77145.0       76710.0     76710.0      77040.0     867.5    -217.5     105.0       -330.0                 NaN        -112.5
+33997    NASDAQ_micro  dynamic_TF_carry   [1]                21237.0               None  21210.875   21212.25       21209.5     21209.5      21209.5    26.125    -1.375      2.75          0.0                 NaN         1.375
+33998             CAD  dynamic_TF_carry  [-1]                 0.7232               None   0.720175    0.72015        0.7202      0.7202       0.7202 -0.003025 -0.000025   0.00005         -0.0                 NaN      0.000025
+33999             DOW  dynamic_TF_carry   [1]                43926.0               None    44025.0    44026.0       44024.0     44024.0      44024.0     -99.0      -1.0       2.0          0.0                 NaN           1.0
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+33988      FTSETAIWAN  dynamic_TF_carry   [1]      316.153936 -517.943892    -3.95377       7.90754              0.0                     NaN           3.95377
+33989          NIKKEI  dynamic_TF_carry  [-1]     8921.128852  114.895774   -2.802336     -5.604672       -11.209344                     NaN         -8.407008
+33990    HANGENT_mini  dynamic_TF_carry   [1]     2632.298316 -448.277459   -3.798962     -3.798962       -11.396885                     NaN         -7.597923
+33991        EU-BASIC  dynamic_TF_carry   [1]      157.301188  298.789861  -50.857849     12.714462       -89.001235                     NaN        -38.143386
+33992      GOLD_micro  dynamic_TF_carry  [-1]      422.736945 -209.350049   -1.182769     -4.731075        -7.096612                     NaN         -5.913843
+33993     GAS_US_mini  dynamic_TF_carry  [-1]        1.397357  -53.672762  -17.890921     35.781841             -0.0                     NaN         17.890921
+33994   CRUDE_W_micro  dynamic_TF_carry   [1]       23.620839  279.414296    -4.23355        8.4671              0.0                     NaN           4.23355
+33995            PLAT  dynamic_TF_carry  [-1]      263.290854 -505.144778   -7.596162          -0.0       -15.192324                     NaN         -7.596162
+33996         BITCOIN  dynamic_TF_carry   [1]    32444.241795  267.381807   -67.03809     32.363216      -101.712964                     NaN        -34.674874
+33997    NASDAQ_micro  dynamic_TF_carry   [1]     3474.357232   75.193765   -3.957567      7.915133              0.0                     NaN          3.957567
+33998             CAD  dynamic_TF_carry  [-1]        0.040576  -745.51226   -6.161258     12.322517             -0.0                     NaN          6.161258
+33999             DOW  dynamic_TF_carry   [1]     6055.658685 -163.483454   -1.651348      3.302696              0.0                     NaN          1.651348
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+33988      FTSETAIWAN  dynamic_TF_carry   [1]            30.839806 -505.001831    -3.854976       7.709952               0.0                      NaN           3.854976
+33989          NIKKEI  dynamic_TF_carry  [-1]             0.504717   51.733463    -1.261792      -2.523584         -5.047167                      NaN          -3.785375
+33990    HANGENT_mini  dynamic_TF_carry   [1]              0.99203 -117.059519     -0.99203       -0.99203         -2.976089                      NaN           -1.98406
+33991        EU-BASIC  dynamic_TF_carry   [1]            41.555097  195.308957   -33.244078       8.311019        -58.177136                      NaN         -24.933058
+33992      GOLD_micro  dynamic_TF_carry  [-1]             7.709952  -68.233072    -0.385498       -1.54199         -2.312985                      NaN          -1.927488
+33993     GAS_US_mini  dynamic_TF_carry  [-1]          1927.487905  -14.456159     -4.81872        9.63744              -0.0                      NaN            4.81872
+33994   CRUDE_W_micro  dynamic_TF_carry   [1]            77.099516   50.885681    -0.770995        1.54199               0.0                      NaN           0.770995
+33995            PLAT  dynamic_TF_carry  [-1]            38.549758 -512.711783    -7.709952           -0.0        -15.419903                      NaN          -7.709952
+33996         BITCOIN  dynamic_TF_carry   [1]               0.0771    66.88383   -16.769145       8.095449         -25.44284                      NaN          -8.673696
+33997    NASDAQ_micro  dynamic_TF_carry   [1]              1.54199   40.284497    -2.120237       4.240473               0.0                      NaN           2.120237
+33998             CAD  dynamic_TF_carry  [-1]         77099.516201 -233.226037    -1.927488       3.854976              -0.0                      NaN           1.927488
+33999             DOW  dynamic_TF_carry   [1]             0.385498  -38.164261    -0.385498       0.770995               0.0                      NaN           0.385498
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry BITCOIN            66.88383
+                 CAD             -233.226037
+                 CRUDE_W_micro     50.885681
+                 DOW              -38.164261
+                 EU-BASIC         195.308957
+                 FTSETAIWAN      -505.001831
+                 GAS_US_mini      -14.456159
+                 GOLD_micro       -68.233072
+                 HANGENT_mini    -117.059519
+                 NASDAQ_micro      40.284497
+                 NIKKEI            51.733463
+                 PLAT            -512.711783
+delay_cash Total Sum
+                   delay_cash
+strategy_name                
+dynamic_TF_carry -1083.756232
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry BITCOIN           -16.769145
+                 CAD                -1.927488
+                 CRUDE_W_micro      -0.770995
+                 DOW                -0.385498
+                 EU-BASIC          -33.244078
+                 FTSETAIWAN         -3.854976
+                 GAS_US_mini         -4.81872
+                 GOLD_micro         -0.385498
+                 HANGENT_mini        -0.99203
+                 NASDAQ_micro       -2.120237
+                 NIKKEI             -1.261792
+                 PLAT               -7.709952
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -74.240406
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry BITCOIN               8.095449
+                 CAD                   3.854976
+                 CRUDE_W_micro          1.54199
+                 DOW                   0.770995
+                 EU-BASIC              8.311019
+                 FTSETAIWAN            7.709952
+                 GAS_US_mini            9.63744
+                 GOLD_micro            -1.54199
+                 HANGENT_mini          -0.99203
+                 NASDAQ_micro          4.240473
+                 NIKKEI               -2.523584
+                 PLAT                      -0.0
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry      39.104691
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry BITCOIN                 -25.44284
+                 CAD                          -0.0
+                 CRUDE_W_micro                 0.0
+                 DOW                           0.0
+                 EU-BASIC               -58.177136
+                 FTSETAIWAN                    0.0
+                 GAS_US_mini                  -0.0
+                 GOLD_micro              -2.312985
+                 HANGENT_mini            -2.976089
+                 NASDAQ_micro                  0.0
+                 NIKKEI                  -5.047167
+                 PLAT                   -15.419903
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry       -109.376122
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry BITCOIN                                0
+                 CAD                                    0
+                 CRUDE_W_micro                          0
+                 DOW                                    0
+                 EU-BASIC                               0
+                 FTSETAIWAN                             0
+                 GAS_US_mini                            0
+                 GOLD_micro                             0
+                 HANGENT_mini                           0
+                 NASDAQ_micro                           0
+                 NIKKEI                                 0
+                 PLAT                                   0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry BITCOIN                  -8.673696
+                 CAD                       1.927488
+                 CRUDE_W_micro             0.770995
+                 DOW                       0.385498
+                 EU-BASIC                -24.933058
+                 FTSETAIWAN                3.854976
+                 GAS_US_mini                4.81872
+                 GOLD_micro               -1.927488
+                 HANGENT_mini              -1.98406
+                 NASDAQ_micro              2.120237
+                 NIKKEI                   -3.785375
+                 PLAT                     -7.709952
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry         -35.135716
 
 ********************************************************************************
                                  END OF REPORT                                  
