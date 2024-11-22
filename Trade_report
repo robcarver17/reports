@@ -1,15 +1,160 @@
 
 ********************************************************************************
-Trades report produced on 21/11/2024 22:50 from 20/11/2024 22:50 to 21/11/2024 22:50
+Trades report produced on 22/11/2024 22:50 from 21/11/2024 22:50 to 22/11/2024 22:50
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=================================================================================================
+                                          Broker orders                                          
+=================================================================================================
+
+      instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
+34077            CORN  dynamic_TF_carry    [20241200] 2024-11-22 15:30:42.000   [1]     428.75000
+34070         COTTON2  dynamic_TF_carry    [20241200] 2024-11-22 09:04:48.582   [1]      68.60000
+34071         COTTON2  dynamic_TF_carry    [20241200] 2024-11-22 19:30:00.496   [0]           NaN
+34072         COTTON2  dynamic_TF_carry    [20241200] 2024-11-22 19:30:00.517   [0]           NaN
+34073         COTTON2  dynamic_TF_carry    [20241200] 2024-11-22 19:30:00.538   [0]           NaN
+34074         COTTON2  dynamic_TF_carry    [20241200] 2024-11-22 19:30:00.558   [0]           NaN
+34075         COTTON2  dynamic_TF_carry    [20241200] 2024-11-22 19:30:00.585   [0]           NaN
+34068        MSCISING  dynamic_TF_carry    [20241100] 2024-11-22 02:02:32.000  [-1]     375.45000
+34069        MSCISING  dynamic_TF_carry    [20241100] 2024-11-22 02:02:38.000  [-1]     375.50000
+34076            US30  dynamic_TF_carry    [20241200] 2024-11-22 15:00:03.000   [1]     122.59375
+
+
+====================================================================================================================================================================
+                                                                               Delays                                                                               
+====================================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
+34068        MSCISING  dynamic_TF_carry       2024-11-21 05:00:00  2024-11-22 02:02:30.350000         2024-11-22 02:02:32               75750.35                1.65
+34069        MSCISING  dynamic_TF_carry       2024-11-21 05:00:00  2024-11-22 02:02:38.540000         2024-11-22 02:02:38               75758.54                 NaN
+34070         COTTON2  dynamic_TF_carry                       NaT                         NaT  2024-11-22 09:04:48.582000                    NaN                 NaN
+34076            US30  dynamic_TF_carry       2024-11-21 20:00:00  2024-11-22 15:00:03.219000         2024-11-22 15:00:03              68403.219                 NaN
+34077            CORN  dynamic_TF_carry       2024-11-21 19:00:00  2024-11-22 15:30:02.165000         2024-11-22 15:30:42              73802.165              39.835
+34071         COTTON2  dynamic_TF_carry       2024-11-21 19:00:00  2024-11-22 14:00:05.714000  2024-11-22 19:30:00.496000              68405.714           19794.782
+34072         COTTON2  dynamic_TF_carry       2024-11-21 19:00:00  2024-11-22 14:10:53.275000  2024-11-22 19:30:00.517000              69053.275           19147.242
+34073         COTTON2  dynamic_TF_carry       2024-11-21 19:00:00  2024-11-22 14:20:58.573000  2024-11-22 19:30:00.538000              69658.573           18541.965
+34074         COTTON2  dynamic_TF_carry       2024-11-21 19:00:00  2024-11-22 14:31:03.852000  2024-11-22 19:30:00.558000              70263.852           17936.706
+34075         COTTON2  dynamic_TF_carry       2024-11-21 19:00:00  2024-11-22 14:41:08.991000  2024-11-22 19:30:00.585000              70868.991           17331.594
+
+
+==============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                   
+==============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
+34068        MSCISING  dynamic_TF_carry  [-1]                 373.95               None   375.525      375.5        375.55      375.55       375.45    1.575   -0.025     -0.05         -0.1                 NaN        -0.075
+34069        MSCISING  dynamic_TF_carry  [-1]                 373.95               None   375.475     375.45         375.5       375.5        375.5    1.525   -0.025      0.05         -0.0                 NaN         0.025
+34070         COTTON2  dynamic_TF_carry   [1]                    NaN               None       NaN        NaN           NaN         NaN         68.6      NaN      NaN       NaN          NaN                 NaN           NaN
+34076            US30  dynamic_TF_carry   [1]              122.28125               None  122.5625  122.59375     122.53125   122.53125    122.59375 -0.28125 -0.03125       0.0      -0.0625                 NaN      -0.03125
+34077            CORN  dynamic_TF_carry   [1]                  427.0               None   428.875      429.0        428.75      428.75       428.75   -1.875   -0.125      0.25          0.0                 NaN         0.125
+34071         COTTON2  dynamic_TF_carry   [1]                   68.6               None    69.485      69.99         68.98       68.98          NaN   -0.885   -0.505       NaN          NaN                 NaN           NaN
+34072         COTTON2  dynamic_TF_carry   [1]                   68.6               None    69.765      70.02         69.51       69.51          NaN   -1.165   -0.255       NaN          NaN                 NaN           NaN
+34073         COTTON2  dynamic_TF_carry   [1]                   68.6               None    69.735      69.99         69.48       69.48          NaN   -1.135   -0.255       NaN          NaN                 NaN           NaN
+34074         COTTON2  dynamic_TF_carry   [1]                   68.6               None    69.765      70.02         69.51       69.51          NaN   -1.165   -0.255       NaN          NaN                 NaN           NaN
+34075         COTTON2  dynamic_TF_carry   [1]                   68.6               None    69.815      70.07         69.56         NaN          NaN   -1.215   -0.255       NaN          NaN                 NaN           NaN
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34068        MSCISING  dynamic_TF_carry  [-1]       49.082434   320.88873   -5.093472    -10.186944       -20.373888                     NaN        -15.280416
+34069        MSCISING  dynamic_TF_carry  [-1]       49.082434  310.701786   -5.093472     10.186944             -0.0                     NaN          5.093472
+34070         COTTON2  dynamic_TF_carry   [1]       16.359576         NaN         NaN           NaN              NaN                     NaN               NaN
+34076            US30  dynamic_TF_carry   [1]       18.925737 -148.607162  -16.511907           0.0       -33.023814                     NaN        -16.511907
+34077            CORN  dynamic_TF_carry   [1]       73.492993 -255.126364  -17.008424     34.016849              0.0                     NaN         17.008424
+34071         COTTON2  dynamic_TF_carry   [1]       16.359576 -540.967558 -308.687703           NaN              NaN                     NaN               NaN
+34072         COTTON2  dynamic_TF_carry   [1]       16.359576 -712.121136 -155.872008           NaN              NaN                     NaN               NaN
+34073         COTTON2  dynamic_TF_carry   [1]       16.359576 -693.783252 -155.872008           NaN              NaN                     NaN               NaN
+34074         COTTON2  dynamic_TF_carry   [1]       16.359576 -712.121136 -155.872008           NaN              NaN                     NaN               NaN
+34075         COTTON2  dynamic_TF_carry   [1]       16.359576 -742.684274 -155.872008           NaN              NaN                     NaN               NaN
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34068        MSCISING  dynamic_TF_carry  [-1]            59.113753   93.104161    -1.477844      -2.955688         -5.911375                      NaN          -4.433531
+34069        MSCISING  dynamic_TF_carry  [-1]            59.113753   90.148473    -1.477844       2.955688              -0.0                      NaN           1.477844
+34070         COTTON2  dynamic_TF_carry   [1]           397.987774         NaN          NaN            NaN               NaN                      NaN                NaN
+34076            US30  dynamic_TF_carry   [1]           795.975548 -223.868123   -24.874236            0.0        -49.748472                      NaN         -24.874236
+34077            CORN  dynamic_TF_carry   [1]            39.798777  -74.622708    -4.974847       9.949694               0.0                      NaN           4.974847
+34071         COTTON2  dynamic_TF_carry   [1]           397.987774  -352.21918  -200.983826            NaN               NaN                      NaN                NaN
+34072         COTTON2  dynamic_TF_carry   [1]           397.987774 -463.655756  -101.486882            NaN               NaN                      NaN                NaN
+34073         COTTON2  dynamic_TF_carry   [1]           397.987774 -451.716123  -101.486882            NaN               NaN                      NaN                NaN
+34074         COTTON2  dynamic_TF_carry   [1]           397.987774 -463.655756  -101.486882            NaN               NaN                      NaN                NaN
+34075         COTTON2  dynamic_TF_carry   [1]           397.987774 -483.555145  -101.486882            NaN               NaN                      NaN                NaN
+
+delay_cash Sum
+                                   delay_cash
+strategy_name    instrument_code             
+dynamic_TF_carry CORN              -74.622708
+                 COTTON2         -2214.801961
+                 MSCISING          183.252633
+                 US30             -223.868123
+delay_cash Total Sum
+                   delay_cash
+strategy_name                
+dynamic_TF_carry -2330.040158
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry CORN               -4.974847
+                 COTTON2          -606.931355
+                 MSCISING           -2.955688
+                 US30              -24.874236
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry  -639.736126
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry CORN                  9.949694
+                 COTTON2                      0
+                 MSCISING                   0.0
+                 US30                       0.0
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry       9.949694
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry CORN                          0.0
+                 COTTON2                         0
+                 MSCISING                -5.911375
+                 US30                   -49.748472
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry        -55.659847
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry CORN                                   0
+                 COTTON2                                0
+                 MSCISING                               0
+                 US30                                   0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry CORN                      4.974847
+                 COTTON2                          0
+                 MSCISING                 -2.955688
+                 US30                    -24.874236
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry         -22.855076
 
 ********************************************************************************
                                  END OF REPORT                                  
