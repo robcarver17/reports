@@ -1,32 +1,62 @@
 
 ********************************************************************************
-Trades report produced on 02/12/2024 22:50 from 01/12/2024 22:50 to 02/12/2024 22:50
+Trades report produced on 03/12/2024 22:50 from 02/12/2024 22:50 to 03/12/2024 22:50
 ********************************************************************************
 
 
 
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
+=================================================================================================
+                                          Broker orders                                          
+=================================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-34121     GAS_US_mini  dynamic_TF_carry    [20250200] 2024-12-02 14:00:09  [-1]         3.055
+      instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
+34132             DOW  dynamic_TF_carry    [20250300] 2024-12-03 15:00:04.000   [1]  45278.000000
+34125         EUROSTX  dynamic_TF_carry    [20241200] 2024-12-03 08:10:59.000  [-1]   4888.000000
+34122      FTSECHINAH  dynamic_TF_carry    [20241200] 2024-12-03 02:02:29.000  [-1]  13542.500000
+34130     GAS_US_mini  dynamic_TF_carry    [20250200] 2024-12-03 14:00:23.000  [-1]      2.995000
+34123       HANG_mini  dynamic_TF_carry    [20241200] 2024-12-03 02:15:06.000   [1]  19483.000000
+34131             JPY  dynamic_TF_carry    [20241200] 2024-12-03 15:00:02.000   [1]      0.006722
+34124             MIB  dynamic_TF_carry    [20241200] 2024-12-03 19:30:03.332   [0]           NaN
+34126             MIB  dynamic_TF_carry    [20241200] 2024-12-03 19:30:03.360   [0]           NaN
+34127             MIB  dynamic_TF_carry    [20241200] 2024-12-03 19:30:03.388   [0]           NaN
+34128             MIB  dynamic_TF_carry    [20241200] 2024-12-03 19:30:03.418   [0]           NaN
+34129             MIB  dynamic_TF_carry    [20241200] 2024-12-03 19:30:03.447   [0]           NaN
 
 
-=============================================================================================================================================================
-                                                                           Delays                                                                            
-=============================================================================================================================================================
+====================================================================================================================================================================
+                                                                               Delays                                                                               
+====================================================================================================================================================================
 
-      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-34121     GAS_US_mini  dynamic_TF_carry       2024-11-29 00:00:00  2024-12-02 14:00:09.069000  2024-12-02 14:00:09             309609.069                 NaN
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
+34122      FTSECHINAH  dynamic_TF_carry       2024-12-02 00:00:00  2024-12-03 02:02:27.954000         2024-12-03 02:02:29              93747.954               1.046
+34123       HANG_mini  dynamic_TF_carry       2024-12-02 00:00:00  2024-12-03 02:15:05.895000         2024-12-03 02:15:06              94505.895               0.105
+34125         EUROSTX  dynamic_TF_carry       2024-12-02 00:00:00  2024-12-03 08:10:51.748000         2024-12-03 08:10:59             115851.748               7.252
+34130     GAS_US_mini  dynamic_TF_carry       2024-12-02 00:00:00  2024-12-03 14:00:07.689000         2024-12-03 14:00:23             136807.689              15.311
+34131             JPY  dynamic_TF_carry       2024-12-02 00:00:00  2024-12-03 15:00:01.991000         2024-12-03 15:00:02             140401.991               0.009
+34132             DOW  dynamic_TF_carry       2024-12-02 00:00:00  2024-12-03 15:00:03.633000         2024-12-03 15:00:04             140403.633               0.367
+34124             MIB  dynamic_TF_carry       2024-12-02 00:00:00  2024-12-03 08:00:06.143000  2024-12-03 19:30:03.332000             115206.143           41397.189
+34126             MIB  dynamic_TF_carry       2024-12-02 00:00:00  2024-12-03 08:11:00.099000  2024-12-03 19:30:03.360000             115860.099           40743.261
+34127             MIB  dynamic_TF_carry       2024-12-02 00:00:00  2024-12-03 08:21:05.651000  2024-12-03 19:30:03.388000             116465.651           40137.737
+34128             MIB  dynamic_TF_carry       2024-12-02 00:00:00  2024-12-03 08:31:11.332000  2024-12-03 19:30:03.418000             117071.332           39532.086
+34129             MIB  dynamic_TF_carry       2024-12-02 00:00:00  2024-12-03 08:41:16.864000  2024-12-03 19:30:03.447000             117676.864           38926.583
 
 
-============================================================================================================================================================================================================================
-                                                                                                  Slippage (ticks per lot)                                                                                                  
-============================================================================================================================================================================================================================
+================================================================================================================================================================================================================================
+                                                                                                    Slippage (ticks per lot)                                                                                                    
+================================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
-34121     GAS_US_mini  dynamic_TF_carry  [-1]                  3.185               None    3.0575      3.055          3.06        None        3.055 -0.1275 -0.0025      -0.0          NaN                 NaN       -0.0025
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
+34122      FTSECHINAH  dynamic_TF_carry  [-1]                13520.0               None   13547.5    13545.0       13550.0     13550.0      13542.5      27.5      -2.5      -2.5         -7.5                 NaN          -5.0
+34123       HANG_mini  dynamic_TF_carry   [1]                19489.0               None   19482.0    19483.0       19481.0     19481.0      19483.0       7.0      -1.0       0.0         -2.0                 NaN          -1.0
+34125         EUROSTX  dynamic_TF_carry  [-1]                 4838.0               None    4889.5     4889.0        4890.0      4890.0       4888.0      51.5      -0.5      -1.0         -2.0                 NaN          -1.5
+34130     GAS_US_mini  dynamic_TF_carry  [-1]                   3.06               None    2.9925       2.99         2.995       2.995        2.995   -0.0675   -0.0025     0.005         -0.0                 NaN        0.0025
+34131             JPY  dynamic_TF_carry   [1]               0.006699               None  0.006722   0.006723      0.006722    0.006722     0.006722 -0.000023 -0.000001  0.000001          0.0                 NaN           0.0
+34132             DOW  dynamic_TF_carry   [1]                45424.0               None   45271.0    45275.0       45267.0     45267.0      45278.0     153.0      -4.0      -3.0        -11.0                 NaN          -7.0
+34124             MIB  dynamic_TF_carry   [1]                33460.0               None   33647.5    33650.0       33645.0     33645.0          NaN    -187.5      -2.5       NaN          NaN                 NaN           NaN
+34126             MIB  dynamic_TF_carry   [1]                33460.0               None   33640.0    33645.0       33635.0     33635.0          NaN    -180.0      -5.0       NaN          NaN                 NaN           NaN
+34127             MIB  dynamic_TF_carry   [1]                33460.0               None   33737.5    33740.0       33735.0     33735.0          NaN    -277.5      -2.5       NaN          NaN                 NaN           NaN
+34128             MIB  dynamic_TF_carry   [1]                33460.0               None   33817.5    33820.0       33815.0     33815.0          NaN    -357.5      -2.5       NaN          NaN                 NaN           NaN
+34129             MIB  dynamic_TF_carry   [1]                33460.0               None   33855.0    33860.0       33850.0     33850.0          NaN    -395.0      -5.0       NaN          NaN                 NaN           NaN
 
 
 ==============================================================================================================================================================
@@ -34,52 +64,102 @@ Trades report produced on 02/12/2024 22:50 from 01/12/2024 22:50 to 02/12/2024 2
 ==============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-34121     GAS_US_mini  dynamic_TF_carry  [-1]        1.923688 -662.789457  -12.995872          -0.0              NaN                     NaN        -12.995872
+34122      FTSECHINAH  dynamic_TF_carry  [-1]     4484.397434   61.323735   -5.574885     -5.574885       -16.724655                     NaN         -11.14977
+34123       HANG_mini  dynamic_TF_carry   [1]     5205.965816   13.446112   -1.920873           0.0        -3.841746                     NaN         -1.920873
+34125         EUROSTX  dynamic_TF_carry  [-1]      687.050041  749.581499    -7.27749    -14.554981       -29.109961                     NaN        -21.832471
+34130     GAS_US_mini  dynamic_TF_carry  [-1]        1.923688 -350.888536  -12.995872     25.991743             -0.0                     NaN         12.995872
+34131             JPY  dynamic_TF_carry   [1]         0.00077 -298.622128   -6.491785     12.983571              0.0                     NaN          6.491785
+34132             DOW  dynamic_TF_carry   [1]     5122.541373  298.679872   -7.808624     -5.856468       -21.473716                     NaN        -13.665092
+34124             MIB  dynamic_TF_carry   [1]     4450.250446 -421.324602   -5.617661           NaN              NaN                     NaN               NaN
+34126             MIB  dynamic_TF_carry   [1]     4450.250446 -404.471618  -11.235323           NaN              NaN                     NaN               NaN
+34127             MIB  dynamic_TF_carry   [1]     4450.250446 -623.560412   -5.617661           NaN              NaN                     NaN               NaN
+34128             MIB  dynamic_TF_carry   [1]     4450.250446 -803.325575   -5.617661           NaN              NaN                     NaN               NaN
+34129             MIB  dynamic_TF_carry   [1]     4450.250446 -887.590496  -11.235323           NaN              NaN                     NaN               NaN
 
 
-========================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                       
-========================================================================================================================================================================
+=========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                       
+=========================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-34121     GAS_US_mini  dynamic_TF_carry  [-1]          1967.613089 -250.870669    -4.919033           -0.0               NaN                      NaN          -4.919033
+      instrument_code     strategy_name trade value_of_price_point   delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34122      FTSECHINAH  dynamic_TF_carry  [-1]             1.581196    43.482901    -3.952991      -3.952991        -11.858973                      NaN          -7.905982
+34123       HANG_mini  dynamic_TF_carry   [1]             1.015787     7.110509    -1.015787            0.0         -2.031574                      NaN          -1.015787
+34125         EUROSTX  dynamic_TF_carry  [-1]             8.291438   427.009068    -4.145719      -8.291438        -16.582876                      NaN         -12.437157
+34130     GAS_US_mini  dynamic_TF_carry  [-1]          1976.495515  -133.413447    -4.941239       9.882478              -0.0                      NaN           4.941239
+34131             JPY  dynamic_TF_carry   [1]       9882477.576658  -227.296984    -4.941239       9.882478               0.0                      NaN           4.941239
+34132             DOW  dynamic_TF_carry   [1]             0.395299    60.480763    -1.581196      -1.185897          -4.34829                      NaN          -2.767094
+34124             MIB  dynamic_TF_carry   [1]             4.145719  -777.322333   -10.364298            NaN               NaN                      NaN                NaN
+34126             MIB  dynamic_TF_carry   [1]             4.145719   -746.22944   -20.728596            NaN               NaN                      NaN                NaN
+34127             MIB  dynamic_TF_carry   [1]             4.145719 -1150.437053   -10.364298            NaN               NaN                      NaN                NaN
+34128             MIB  dynamic_TF_carry   [1]             4.145719 -1482.094581   -10.364298            NaN               NaN                      NaN                NaN
+34129             MIB  dynamic_TF_carry   [1]             4.145719 -1637.559048   -20.728596            NaN               NaN                      NaN                NaN
 
 delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry GAS_US_mini     -250.870669
+                                   delay_cash
+strategy_name    instrument_code             
+dynamic_TF_carry DOW                60.480763
+                 EUROSTX           427.009068
+                 FTSECHINAH         43.482901
+                 GAS_US_mini      -133.413447
+                 HANG_mini           7.110509
+                 JPY              -227.296984
+                 MIB             -5793.642454
 delay_cash Total Sum
-                  delay_cash
-strategy_name               
-dynamic_TF_carry -250.870669
+                   delay_cash
+strategy_name                
+dynamic_TF_carry -5616.269644
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry GAS_US_mini        -4.919033
+dynamic_TF_carry DOW                -1.581196
+                 EUROSTX            -4.145719
+                 FTSECHINAH         -3.952991
+                 GAS_US_mini        -4.941239
+                 HANG_mini          -1.015787
+                 JPY                -4.941239
+                 MIB               -72.550084
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -4.919033
+dynamic_TF_carry   -93.128256
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry GAS_US_mini               -0.0
+dynamic_TF_carry DOW                  -1.185897
+                 EUROSTX              -8.291438
+                 FTSECHINAH           -3.952991
+                 GAS_US_mini           9.882478
+                 HANG_mini                  0.0
+                 JPY                   9.882478
+                 MIB                          0
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry           -0.0
+dynamic_TF_carry       6.334629
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry GAS_US_mini                     0
+dynamic_TF_carry DOW                      -4.34829
+                 EUROSTX                -16.582876
+                 FTSECHINAH             -11.858973
+                 GAS_US_mini                  -0.0
+                 HANG_mini               -2.031574
+                 JPY                           0.0
+                 MIB                             0
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry                 0
+dynamic_TF_carry        -34.821714
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry GAS_US_mini                            0
+dynamic_TF_carry DOW                                    0
+                 EUROSTX                                0
+                 FTSECHINAH                             0
+                 GAS_US_mini                            0
+                 HANG_mini                              0
+                 JPY                                    0
+                 MIB                                    0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -87,11 +167,17 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry GAS_US_mini              -4.919033
+dynamic_TF_carry DOW                      -2.767094
+                 EUROSTX                 -12.437157
+                 FTSECHINAH               -7.905982
+                 GAS_US_mini               4.941239
+                 HANG_mini                -1.015787
+                 JPY                       4.941239
+                 MIB                              0
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry          -4.919033
+dynamic_TF_carry         -14.243543
 
 ********************************************************************************
                                  END OF REPORT                                  
