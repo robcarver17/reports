@@ -1,15 +1,167 @@
 
 ********************************************************************************
-Trades report produced on 16/12/2024 22:50 from 15/12/2024 22:50 to 16/12/2024 22:50
+Trades report produced on 17/12/2024 22:50 from 16/12/2024 22:50 to 17/12/2024 22:50
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+34200             BTP  dynamic_TF_carry    [20250300] 2024-12-17 08:00:31  [-1]       120.950
+34203           CAD10  dynamic_TF_carry    [20250300] 2024-12-17 14:00:11  [-1]       122.920
+34202   CRUDE_W_micro  dynamic_TF_carry    [20250300] 2024-12-17 14:00:10   [1]        69.120
+34204   CRUDE_W_micro  dynamic_TF_carry    [20250300] 2024-12-17 14:00:19   [1]        69.120
+34205             DOW  dynamic_TF_carry    [20250300] 2024-12-17 15:00:04  [-1]     44053.000
+34206             DOW  dynamic_TF_carry    [20250300] 2024-12-17 15:00:10  [-1]     44056.000
+34207             DOW  dynamic_TF_carry    [20250300] 2024-12-17 15:00:16  [-1]     44046.000
+34201     GAS_US_mini  dynamic_TF_carry    [20250200] 2024-12-17 14:00:03   [1]         2.985
+34208         SOYMEAL  dynamic_TF_carry    [20250300] 2024-12-17 15:30:29  [-1]       292.200
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+34200             BTP  dynamic_TF_carry       2024-12-16 00:00:00  2024-12-17 08:00:07.028000  2024-12-17 08:00:31             115207.028              23.972
+34201     GAS_US_mini  dynamic_TF_carry       2024-12-16 00:00:00  2024-12-17 14:00:02.937000  2024-12-17 14:00:03             136802.937               0.063
+34203           CAD10  dynamic_TF_carry       2024-12-16 00:00:00  2024-12-17 14:00:11.416000  2024-12-17 14:00:11             136811.416                 NaN
+34202   CRUDE_W_micro  dynamic_TF_carry       2024-12-16 00:00:00  2024-12-17 14:00:10.369000  2024-12-17 14:00:10             136810.369                 NaN
+34204   CRUDE_W_micro  dynamic_TF_carry       2024-12-16 00:00:00  2024-12-17 14:00:16.943000  2024-12-17 14:00:19             136816.943               2.057
+34205             DOW  dynamic_TF_carry       2024-12-16 00:00:00  2024-12-17 15:00:04.433000  2024-12-17 15:00:04             140404.433                 NaN
+34206             DOW  dynamic_TF_carry       2024-12-16 00:00:00  2024-12-17 15:00:10.705000  2024-12-17 15:00:10             140410.705                 NaN
+34207             DOW  dynamic_TF_carry       2024-12-16 00:00:00  2024-12-17 15:00:16.423000  2024-12-17 15:00:16             140416.423                 NaN
+34208         SOYMEAL  dynamic_TF_carry       2024-12-16 00:00:00  2024-12-17 15:30:15.650000  2024-12-17 15:30:29              142215.65               13.35
+
+
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+34200             BTP  dynamic_TF_carry  [-1]                 121.29               None   120.965     120.96        120.97      120.97       120.95 -0.325  -0.005     -0.01        -0.02                 NaN        -0.015
+34201     GAS_US_mini  dynamic_TF_carry   [1]                   3.03               None      2.98      2.985         2.975       2.975        2.985   0.05  -0.005       0.0        -0.01                 NaN        -0.005
+34203           CAD10  dynamic_TF_carry  [-1]                 122.89               None    122.71      122.7        122.72      122.72       122.92  -0.18   -0.01      0.22          0.2                 NaN          0.21
+34202   CRUDE_W_micro  dynamic_TF_carry   [1]                  69.71               None    69.075      69.09         69.06       69.06        69.12  0.635  -0.015     -0.03        -0.06                 NaN        -0.045
+34204   CRUDE_W_micro  dynamic_TF_carry   [1]                  69.71               None     69.09       69.1         69.08       69.08        69.12   0.62   -0.01     -0.02        -0.04                 NaN         -0.03
+34205             DOW  dynamic_TF_carry  [-1]                44351.0               None   44054.5    44053.0       44056.0     44056.0      44053.0 -296.5    -1.5      -0.0         -3.0                 NaN          -1.5
+34206             DOW  dynamic_TF_carry  [-1]                44351.0               None   44054.0    44053.0       44055.0     44055.0      44056.0 -297.0    -1.0       3.0          1.0                 NaN           2.0
+34207             DOW  dynamic_TF_carry  [-1]                44351.0               None   44057.0    44056.0       44058.0     44058.0      44046.0 -294.0    -1.0     -10.0        -12.0                 NaN         -11.0
+34208         SOYMEAL  dynamic_TF_carry  [-1]                  293.3               None    292.15      292.1         292.2       292.2        292.2  -1.15   -0.05       0.1         -0.0                 NaN          0.05
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34200             BTP  dynamic_TF_carry  [-1]        7.601837 -427.528261   -6.577358    -13.154716       -26.309431                     NaN        -19.732074
+34201     GAS_US_mini  dynamic_TF_carry   [1]        1.674125  298.663417  -29.866342           0.0       -59.732683                     NaN        -29.866342
+34203           CAD10  dynamic_TF_carry  [-1]        8.296399 -216.961593  -12.053422    265.175281       241.068437                     NaN        253.121859
+34202   CRUDE_W_micro  dynamic_TF_carry   [1]       19.091481  332.609089   -7.856908    -15.713815        -31.42763                     NaN        -23.570723
+34204   CRUDE_W_micro  dynamic_TF_carry   [1]       19.091481  324.752181   -5.237938    -10.475877       -20.951754                     NaN        -15.713815
+34205             DOW  dynamic_TF_carry  [-1]     4472.303012  -662.96939   -3.353977          -0.0        -6.707953                     NaN         -3.353977
+34206             DOW  dynamic_TF_carry  [-1]     4472.303012 -664.087382   -2.235984      6.707953         2.235984                     NaN          4.471969
+34207             DOW  dynamic_TF_carry  [-1]     4472.303012 -657.379429   -2.235984    -22.359845       -26.831813                     NaN        -24.595829
+34208         SOYMEAL  dynamic_TF_carry  [-1]       55.026712 -208.989407   -9.086496     18.172992             -0.0                     NaN          9.086496
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34200             BTP  dynamic_TF_carry  [-1]            828.49344 -269.260368    -4.142467      -8.284934        -16.569869                      NaN         -12.427402
+34201     GAS_US_mini  dynamic_TF_carry   [1]          1972.246547   98.612327    -9.861233            0.0        -19.722465                      NaN          -9.861233
+34203           CAD10  dynamic_TF_carry  [-1]           553.042559  -99.547661    -5.530426     121.669363        110.608512                      NaN         116.138937
+34202   CRUDE_W_micro  dynamic_TF_carry   [1]            78.889862   50.095062    -1.183348      -2.366696         -4.733392                      NaN          -3.550044
+34204   CRUDE_W_micro  dynamic_TF_carry   [1]            78.889862   48.911714    -0.788899      -1.577797         -3.155594                      NaN          -2.366696
+34205             DOW  dynamic_TF_carry  [-1]             0.394449  -116.95422    -0.591674           -0.0         -1.183348                      NaN          -0.591674
+34206             DOW  dynamic_TF_carry  [-1]             0.394449 -117.151445    -0.394449       1.183348          0.394449                      NaN           0.788899
+34207             DOW  dynamic_TF_carry  [-1]             0.394449 -115.968097    -0.394449      -3.944493         -4.733392                      NaN          -4.338942
+34208         SOYMEAL  dynamic_TF_carry  [-1]            78.889862  -90.723341    -3.944493       7.888986              -0.0                      NaN           3.944493
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry BTP             -269.260368
+                 CAD10            -99.547661
+                 CRUDE_W_micro     99.006777
+                 DOW             -350.073762
+                 GAS_US_mini       98.612327
+                 SOYMEAL          -90.723341
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -611.986028
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry BTP                -4.142467
+                 CAD10              -5.530426
+                 CRUDE_W_micro      -1.972247
+                 DOW                -1.380573
+                 GAS_US_mini        -9.861233
+                 SOYMEAL            -3.944493
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -26.831438
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry BTP                  -8.284934
+                 CAD10               121.669363
+                 CRUDE_W_micro        -3.944493
+                 DOW                  -2.761145
+                 GAS_US_mini                0.0
+                 SOYMEAL               7.888986
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry     114.567776
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry BTP                    -16.569869
+                 CAD10                  110.608512
+                 CRUDE_W_micro           -7.888986
+                 DOW                      -5.52229
+                 GAS_US_mini            -19.722465
+                 SOYMEAL                      -0.0
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry         60.904901
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry BTP                                    0
+                 CAD10                                  0
+                 CRUDE_W_micro                          0
+                 DOW                                    0
+                 GAS_US_mini                            0
+                 SOYMEAL                                0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry BTP                     -12.427402
+                 CAD10                   116.138937
+                 CRUDE_W_micro             -5.91674
+                 DOW                      -4.141718
+                 GAS_US_mini              -9.861233
+                 SOYMEAL                   3.944493
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry          87.736339
 
 ********************************************************************************
                                  END OF REPORT                                  
