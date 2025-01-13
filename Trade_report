@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 10/01/2025 22:50 from 09/01/2025 22:50 to 10/01/2025 22:50
+Trades report produced on 13/01/2025 22:50 from 12/01/2025 22:50 to 13/01/2025 22:50
 ********************************************************************************
 
 
@@ -10,9 +10,11 @@ Trades report produced on 10/01/2025 22:50 from 09/01/2025 22:50 to 10/01/2025 2
 =============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-34284    COPPER-micro  dynamic_TF_carry    [20250300] 2025-01-10 14:00:10  [-1]         4.333
-34282          RUBBER  dynamic_TF_carry    [20250200] 2025-01-10 02:03:41  [-1]       189.700
-34283          RUBBER  dynamic_TF_carry    [20250200] 2025-01-10 02:04:03  [-1]       189.600
+34288          COPPER  dynamic_TF_carry    [20250300] 2025-01-13 14:00:11   [1]       4.29950
+34287    COPPER-micro  dynamic_TF_carry    [20250300] 2025-01-13 14:00:05  [-1]       4.29750
+34286             DAX  dynamic_TF_carry    [20250300] 2025-01-13 08:00:20  [-1]   20299.00000
+34285         EURO600  dynamic_TF_carry    [20250300] 2025-01-13 08:00:15  [-1]     510.40000
+34289           US10U  dynamic_TF_carry    [20250300] 2025-01-13 15:00:10  [-1]     109.53125
 
 
 =============================================================================================================================================================
@@ -20,81 +22,104 @@ Trades report produced on 10/01/2025 22:50 from 09/01/2025 22:50 to 10/01/2025 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-34282          RUBBER  dynamic_TF_carry       2025-01-09 08:00:00  2025-01-10 02:02:06.230000  2025-01-10 02:03:41               64926.23               94.77
-34283          RUBBER  dynamic_TF_carry       2025-01-09 08:00:00  2025-01-10 02:03:46.398000  2025-01-10 02:04:03              65026.398              16.602
-34284    COPPER-micro  dynamic_TF_carry       2024-02-29 00:00:00  2025-01-10 14:00:09.957000  2025-01-10 14:00:10           27352809.957               0.043
+34285         EURO600  dynamic_TF_carry       2025-01-10 00:00:00  2025-01-13 08:00:04.967000  2025-01-13 08:00:15             288004.967              10.033
+34286             DAX  dynamic_TF_carry       2025-01-10 00:00:00  2025-01-13 08:00:20.059000  2025-01-13 08:00:20             288020.059                 NaN
+34287    COPPER-micro  dynamic_TF_carry       2024-02-29 00:00:00  2025-01-13 14:00:05.556000  2025-01-13 14:00:05           27612005.556                 NaN
+34288          COPPER  dynamic_TF_carry       2025-01-07 00:00:00  2025-01-13 14:00:10.676000  2025-01-13 14:00:11             568810.676               0.324
+34289           US10U  dynamic_TF_carry       2025-01-10 00:00:00  2025-01-13 15:00:03.775000  2025-01-13 15:00:10             313203.775               6.225
 
 
-===========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                  
-===========================================================================================================================================================================================================================
+===================================================================================================================================================================================================================================
+                                                                                                     Slippage (ticks per lot)                                                                                                      
+===================================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
-34282          RUBBER  dynamic_TF_carry  [-1]                  188.1               None     189.8      189.7         189.9       189.9        189.7    1.7    -0.1      -0.0         -0.2                 NaN          -0.1
-34283          RUBBER  dynamic_TF_carry  [-1]                  188.1               None    189.75      189.7         189.8       189.8        189.6   1.65   -0.05      -0.1         -0.2                 NaN         -0.15
-34284    COPPER-micro  dynamic_TF_carry  [-1]                   3.92               None     4.334     4.3335        4.3345      4.3345        4.333  0.414 -0.0005   -0.0005      -0.0015                 NaN        -0.001
-
-
-==============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
-==============================================================================================================================================================
-
-      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-34282          RUBBER  dynamic_TF_carry  [-1]       49.410623  344.055566  -20.238563          -0.0       -40.477125                     NaN        -20.238563
-34283          RUBBER  dynamic_TF_carry  [-1]       49.410623  333.936285  -10.119281    -20.238563       -40.477125                     NaN        -30.357844
-34284    COPPER-micro  dynamic_TF_carry  [-1]          0.8177  5062.98243   -6.114713     -6.114713       -18.344139                     NaN        -12.229426
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price   mid_price  side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
+34285         EURO600  dynamic_TF_carry  [-1]                  512.5               None       510.6       510.5         510.7       510.7        510.4      -1.9      -0.1      -0.1         -0.3                 NaN          -0.2
+34286             DAX  dynamic_TF_carry  [-1]                20325.0               None     20301.5     20300.0       20303.0         NaN      20299.0     -23.5      -1.5      -1.0          NaN                 NaN          -2.5
+34287    COPPER-micro  dynamic_TF_carry  [-1]                   3.92               None     4.29775      4.2975         4.298       4.298       4.2975   0.37775  -0.00025      -0.0      -0.0005                 NaN      -0.00025
+34288          COPPER  dynamic_TF_carry   [1]                  4.182               None       4.299      4.2995        4.2985      4.2985       4.2995    -0.117   -0.0005       0.0       -0.001                 NaN       -0.0005
+34289           US10U  dynamic_TF_carry  [-1]              109.53125               None  109.523438  109.515625     109.53125   109.53125    109.53125 -0.007812 -0.007812  0.015625         -0.0                 NaN      0.007812
 
 
-=======================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                      
-=======================================================================================================================================================================
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-34282          RUBBER  dynamic_TF_carry  [-1]            40.749962  69.274936    -4.074996           -0.0         -8.149992                      NaN          -4.074996
-34283          RUBBER  dynamic_TF_carry  [-1]            40.749962  67.237438    -2.037498      -4.074996         -8.149992                      NaN          -6.112494
-34284    COPPER-micro  dynamic_TF_carry  [-1]          2037.498115  843.52422    -1.018749      -1.018749         -3.056247                      NaN          -2.037498
+      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34285         EURO600  dynamic_TF_carry  [-1]       53.609643  -354.413848   -18.65336     -18.65336       -55.960081                     NaN        -37.306721
+34286             DAX  dynamic_TF_carry  [-1]     2187.279791  -107.439387   -6.857833     -4.571889              NaN                     NaN        -11.429722
+34287    COPPER-micro  dynamic_TF_carry  [-1]        0.801558  4712.694902   -3.118924          -0.0        -6.237849                     NaN         -3.118924
+34288          COPPER  dynamic_TF_carry   [1]        0.803797 -1455.591124   -6.220475           0.0        -12.44095                     NaN         -6.220475
+34289           US10U  dynamic_TF_carry  [-1]        7.608535   -10.268073  -10.268073     20.536147             -0.0                     NaN         10.268073
+
+
+=========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                       
+=========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point   delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34285         EURO600  dynamic_TF_carry  [-1]            42.069573   -79.932189    -4.206957      -4.206957        -12.620872                      NaN          -8.413915
+34286             DAX  dynamic_TF_carry  [-1]             0.841391   -19.772699    -1.262087      -0.841391               NaN                      NaN          -2.103479
+34287    COPPER-micro  dynamic_TF_carry  [-1]            2058.6213   777.644196    -0.514655           -0.0         -1.029311                      NaN          -0.514655
+34288          COPPER  dynamic_TF_carry   [1]         20586.213001 -2408.586921   -10.293107            0.0        -20.586213                      NaN         -10.293107
+34289           US10U  dynamic_TF_carry  [-1]            823.44852    -6.433192    -6.433192      12.866383              -0.0                      NaN           6.433192
 
 delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry COPPER-micro      843.52422
-                 RUBBER           136.512374
+                                   delay_cash
+strategy_name    instrument_code             
+dynamic_TF_carry COPPER          -2408.586921
+                 COPPER-micro      777.644196
+                 DAX               -19.772699
+                 EURO600           -79.932189
+                 US10U              -6.433192
 delay_cash Total Sum
-                  delay_cash
-strategy_name               
-dynamic_TF_carry  980.036593
+                   delay_cash
+strategy_name                
+dynamic_TF_carry -1737.080805
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry COPPER-micro       -1.018749
-                 RUBBER             -6.112494
+dynamic_TF_carry COPPER            -10.293107
+                 COPPER-micro       -0.514655
+                 DAX                -1.262087
+                 EURO600            -4.206957
+                 US10U              -6.433192
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -7.131243
+dynamic_TF_carry   -22.709998
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry COPPER-micro         -1.018749
-                 RUBBER               -4.074996
+dynamic_TF_carry COPPER                     0.0
+                 COPPER-micro              -0.0
+                 DAX                  -0.841391
+                 EURO600              -4.206957
+                 US10U                12.866383
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry      -5.093745
+dynamic_TF_carry       7.818034
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry COPPER-micro            -3.056247
-                 RUBBER                 -16.299985
+dynamic_TF_carry COPPER                 -20.586213
+                 COPPER-micro            -1.029311
+                 DAX                             0
+                 EURO600                -12.620872
+                 US10U                        -0.0
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry        -19.356232
+dynamic_TF_carry        -34.236396
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry COPPER-micro                           0
-                 RUBBER                                 0
+dynamic_TF_carry COPPER                                 0
+                 COPPER-micro                           0
+                 DAX                                    0
+                 EURO600                                0
+                 US10U                                  0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -102,12 +127,15 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry COPPER-micro             -2.037498
-                 RUBBER                  -10.187491
+dynamic_TF_carry COPPER                  -10.293107
+                 COPPER-micro             -0.514655
+                 DAX                      -2.103479
+                 EURO600                  -8.413915
+                 US10U                     6.433192
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry         -12.224989
+dynamic_TF_carry         -14.891964
 
 ********************************************************************************
                                  END OF REPORT                                  
