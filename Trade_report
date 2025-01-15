@@ -1,151 +1,15 @@
 
 ********************************************************************************
-Trades report produced on 14/01/2025 22:51 from 13/01/2025 22:51 to 14/01/2025 22:51
+Trades report produced on 15/01/2025 22:50 from 14/01/2025 22:50 to 15/01/2025 22:50
 ********************************************************************************
 
 
-
-=================================================================================================
-                                          Broker orders                                          
-=================================================================================================
-
-      instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
-34291             DAX  dynamic_TF_carry    [20250300] 2025-01-14 08:00:03.000   [1]  20355.000000
-34293             DAX  dynamic_TF_carry    [20250300] 2025-01-14 08:10:09.000   [1]  20373.000000
-34296         FEEDCOW  dynamic_TF_carry    [20250500] 2025-01-14 15:30:03.000   [1]    268.475000
-34295             JPY  dynamic_TF_carry    [20250300] 2025-01-14 15:00:14.000  [-1]      0.006383
-34292             MIB  dynamic_TF_carry    [20250300] 2025-01-14 19:30:00.317   [0]           NaN
-34294             MIB  dynamic_TF_carry    [20250300] 2025-01-14 08:12:20.000  [-1]  35105.000000
-34290           TOPIX  dynamic_TF_carry    [20250300] 2025-01-14 02:02:08.000   [1]   2678.250000
-
-
-====================================================================================================================================================================
-                                                                               Delays                                                                               
-====================================================================================================================================================================
-
-      instrument_code     strategy_name parent_reference_datetime             submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
-34290           TOPIX  dynamic_TF_carry       2025-01-10 00:00:00  2025-01-14 02:02:07.306000         2025-01-14 02:02:08             352927.306               0.694
-34291             DAX  dynamic_TF_carry       2025-01-13 00:00:00  2025-01-14 08:00:02.320000         2025-01-14 08:00:03              115202.32                0.68
-34293             DAX  dynamic_TF_carry       2025-01-13 00:00:00  2025-01-14 08:10:08.744000         2025-01-14 08:10:09             115808.744               0.256
-34295             JPY  dynamic_TF_carry       2025-01-13 00:00:00  2025-01-14 15:00:02.783000         2025-01-14 15:00:14             140402.783              11.217
-34296         FEEDCOW  dynamic_TF_carry       2025-01-13 00:00:00  2025-01-14 15:30:03.201000         2025-01-14 15:30:03             142203.201                 NaN
-34292             MIB  dynamic_TF_carry       2025-01-13 00:00:00  2025-01-14 08:00:07.907000  2025-01-14 19:30:00.317000             115207.907            41392.41
-34294             MIB  dynamic_TF_carry       2025-01-13 00:00:00  2025-01-14 08:10:55.882000         2025-01-14 08:12:20             115855.882              84.118
-
-
-==============================================================================================================================================================================================================================
-                                                                                                   Slippage (ticks per lot)                                                                                                   
-==============================================================================================================================================================================================================================
-
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay bid_ask execution versus_limit versus_parent_limit total_trading
-34290           TOPIX  dynamic_TF_carry   [1]                 2720.0               None    2678.5    2678.75       2678.25     2678.25      2678.25      41.5   -0.25       0.5          0.0                 NaN          0.25
-34291             DAX  dynamic_TF_carry   [1]                20286.0               None   20348.0    20349.0       20347.0     20347.0      20355.0     -62.0    -1.0      -6.0         -8.0                 NaN          -7.0
-34293             DAX  dynamic_TF_carry   [1]                20286.0               None   20355.0    20356.0       20354.0     20354.0      20373.0     -69.0    -1.0     -17.0        -19.0                 NaN         -18.0
-34295             JPY  dynamic_TF_carry  [-1]               0.006387               None  0.006383   0.006383      0.006383    0.006383     0.006383 -0.000004    -0.0       0.0         -0.0                 NaN           0.0
-34296         FEEDCOW  dynamic_TF_carry   [1]                 267.75               None     268.4    268.475       268.325     268.325      268.475     -0.65  -0.075       0.0        -0.15                 NaN        -0.075
-34292             MIB  dynamic_TF_carry  [-1]                34905.0               None   35155.0    35150.0       35160.0     35160.0          NaN     250.0    -5.0       NaN          NaN                 NaN           NaN
-34294             MIB  dynamic_TF_carry  [-1]                34905.0               None   35115.0    35110.0       35120.0     35120.0      35105.0     210.0    -5.0      -5.0        -15.0                 NaN         -10.0
-
-
-==============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
-==============================================================================================================================================================
-
-      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-34290           TOPIX  dynamic_TF_carry   [1]      422.690061  981.806857   -5.914499     11.828998              0.0                     NaN          5.914499
-34291             DAX  dynamic_TF_carry   [1]     2175.309403 -285.016926   -4.597047    -27.582283       -36.776378                     NaN         -32.17933
-34293             DAX  dynamic_TF_carry   [1]     2175.309403 -317.196257   -4.597047    -78.149802       -87.343897                     NaN         -82.74685
-34295             JPY  dynamic_TF_carry  [-1]        0.000589  -72.205935   -4.247408      8.494816             -0.0                     NaN          4.247408
-34296         FEEDCOW  dynamic_TF_carry   [1]       30.469478 -213.328236  -24.614797           0.0       -49.229593                     NaN        -24.614797
-34292             MIB  dynamic_TF_carry  [-1]     4690.908078  532.945852  -10.658917           NaN              NaN                     NaN               NaN
-34294             MIB  dynamic_TF_carry  [-1]     4690.908078  447.674515  -10.658917    -10.658917       -31.976751                     NaN        -21.317834
-
-
-=========================================================================================================================================================================
-                                                                       Slippage (In base currency)                                                                       
-=========================================================================================================================================================================
-
-      instrument_code     strategy_name trade value_of_price_point   delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-34290           TOPIX  dynamic_TF_carry   [1]             5.195586   215.616839    -1.298897       2.597793               0.0                      NaN           1.298897
-34291             DAX  dynamic_TF_carry   [1]             0.839405    -52.04309    -0.839405      -5.036428         -6.715237                      NaN          -5.875833
-34293             DAX  dynamic_TF_carry   [1]             0.839405   -57.918923    -0.839405      -14.26988        -15.948689                      NaN         -15.109284
-34295             JPY  dynamic_TF_carry  [-1]       10230304.61755   -43.478795    -2.557576       5.115152              -0.0                      NaN           2.557576
-34296         FEEDCOW  dynamic_TF_carry   [1]           409.212185   -265.98792   -30.690914            0.0        -61.381828                      NaN         -30.690914
-34292             MIB  dynamic_TF_carry  [-1]             4.197023  1049.255848   -20.985117            NaN               NaN                      NaN                NaN
-34294             MIB  dynamic_TF_carry  [-1]             4.197023   881.374912   -20.985117     -20.985117        -62.955351                      NaN         -41.970234
-
-delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry DAX             -109.962013
-                 FEEDCOW          -265.98792
-                 JPY              -43.478795
-                 MIB              1930.63076
-                 TOPIX            215.616839
-delay_cash Total Sum
-                   delay_cash
-strategy_name                
-dynamic_TF_carry  1726.818871
-bid_ask_cash Sum
-                                 bid_ask_cash
-strategy_name    instrument_code             
-dynamic_TF_carry DAX                -1.678809
-                 FEEDCOW           -30.690914
-                 JPY                -2.557576
-                 MIB               -41.970234
-                 TOPIX              -1.298897
-bid_ask_cash Total Sum
-                 bid_ask_cash
-strategy_name                
-dynamic_TF_carry    -78.19643
-execution_cash Sum
-                                 execution_cash
-strategy_name    instrument_code               
-dynamic_TF_carry DAX                 -19.306308
-                 FEEDCOW                    0.0
-                 JPY                   5.115152
-                 MIB                 -20.985117
-                 TOPIX                 2.597793
-execution_cash Total Sum
-                 execution_cash
-strategy_name                  
-dynamic_TF_carry     -32.578479
-versus_limit_cash Sum
-                                 versus_limit_cash
-strategy_name    instrument_code                  
-dynamic_TF_carry DAX                    -22.663926
-                 FEEDCOW                -61.381828
-                 JPY                          -0.0
-                 MIB                    -62.955351
-                 TOPIX                         0.0
-versus_limit_cash Total Sum
-                 versus_limit_cash
-strategy_name                     
-dynamic_TF_carry       -147.001105
-versus_parent_limit_cash Sum
-                                 versus_parent_limit_cash
-strategy_name    instrument_code                         
-dynamic_TF_carry DAX                                    0
-                 FEEDCOW                                0
-                 JPY                                    0
-                 MIB                                    0
-                 TOPIX                                  0
-versus_parent_limit_cash Total Sum
-                 versus_parent_limit_cash
-strategy_name                            
-dynamic_TF_carry                        0
-total_trading_cash Sum
-                                 total_trading_cash
-strategy_name    instrument_code                   
-dynamic_TF_carry DAX                     -20.985117
-                 FEEDCOW                 -30.690914
-                 JPY                       2.557576
-                 MIB                     -41.970234
-                 TOPIX                     1.298897
-total_trading_cash Total Sum
-                 total_trading_cash
-strategy_name                      
-dynamic_TF_carry         -89.789792
+No trades
+No trades
+No trades
+No trades
+No trades
+No trades
 
 ********************************************************************************
                                  END OF REPORT                                  
