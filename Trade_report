@@ -1,15 +1,174 @@
 
 ********************************************************************************
-Trades report produced on 15/01/2025 22:50 from 14/01/2025 22:50 to 15/01/2025 22:50
+Trades report produced on 16/01/2025 22:50 from 15/01/2025 22:50 to 16/01/2025 22:50
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+34299             DAX  dynamic_TF_carry    [20250300] 2025-01-16 08:00:11   [1]  20814.000000
+34298         EURO600  dynamic_TF_carry    [20250300] 2025-01-16 08:00:06   [1]    520.100000
+34303             JPY  dynamic_TF_carry    [20250300] 2025-01-16 15:01:29   [1]      0.006448
+34302         RUSSELL  dynamic_TF_carry    [20250300] 2025-01-16 15:01:27   [1]   2261.800000
+34304         SOYMEAL  dynamic_TF_carry    [20250500] 2025-01-16 15:30:06   [1]    304.500000
+34297           TOPIX  dynamic_TF_carry    [20250300] 2025-01-16 02:02:07  [-1]   2692.000000
+34301             VIX  dynamic_TF_carry    [20250300] 2025-01-16 15:01:26  [-1]     17.850000
+34300          YENEUR  dynamic_TF_carry    [20250300] 2025-01-16 15:00:05   [1]    159.840000
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+34297           TOPIX  dynamic_TF_carry       2025-01-15 00:00:00  2025-01-16 02:02:05.672000  2025-01-16 02:02:07              93725.672               1.328
+34298         EURO600  dynamic_TF_carry       2025-01-15 00:00:00  2025-01-16 08:00:06.090000  2025-01-16 08:00:06              115206.09                 NaN
+34299             DAX  dynamic_TF_carry       2025-01-15 00:00:00  2025-01-16 08:00:11.262000  2025-01-16 08:00:11             115211.262                 NaN
+34300          YENEUR  dynamic_TF_carry       2025-01-15 00:00:00  2025-01-16 15:00:05.075000  2025-01-16 15:00:05             140405.075                 NaN
+34301             VIX  dynamic_TF_carry       2025-01-15 00:00:00  2025-01-16 15:00:06.713000  2025-01-16 15:01:26             140406.713              79.287
+34302         RUSSELL  dynamic_TF_carry       2025-01-15 00:00:00  2025-01-16 15:01:27.499000  2025-01-16 15:01:27             140487.499                 NaN
+34303             JPY  dynamic_TF_carry       2025-01-15 00:00:00  2025-01-16 15:01:29.199000  2025-01-16 15:01:29             140489.199                 NaN
+34304         SOYMEAL  dynamic_TF_carry       2025-01-15 00:00:00  2025-01-16 15:30:02.366000  2025-01-16 15:30:06             142202.366               3.634
+
+
+==============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                   
+==============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay bid_ask execution versus_limit versus_parent_limit total_trading
+34297           TOPIX  dynamic_TF_carry  [-1]                2687.75               None   2692.25     2692.0        2692.5      2692.5       2692.0       4.5   -0.25      -0.0         -0.5                 NaN         -0.25
+34298         EURO600  dynamic_TF_carry   [1]                  516.9               None    520.05      520.1         520.0         NaN        520.1     -3.15   -0.05       0.0          NaN                 NaN         -0.05
+34299             DAX  dynamic_TF_carry   [1]                20748.0               None   20815.0    20816.0       20814.0     20814.0      20814.0     -67.0    -1.0       2.0          0.0                 NaN           1.0
+34300          YENEUR  dynamic_TF_carry   [1]                 160.34               None    159.82     159.85        159.79      159.79       159.84      0.52   -0.03      0.01        -0.05                 NaN         -0.02
+34301             VIX  dynamic_TF_carry  [-1]                   18.0               None    17.825       17.8         17.85       17.85        17.85    -0.175  -0.025      0.05         -0.0                 NaN         0.025
+34302         RUSSELL  dynamic_TF_carry   [1]                 2278.9               None   2261.65     2261.7        2261.6      2261.6       2261.8     17.25   -0.05      -0.1         -0.2                 NaN         -0.15
+34303             JPY  dynamic_TF_carry   [1]               0.006437               None  0.006448   0.006449      0.006448    0.006448     0.006448 -0.000011    -0.0  0.000001          0.0                 NaN           0.0
+34304         SOYMEAL  dynamic_TF_carry   [1]                  309.2               None    304.55      304.6         304.5       304.5        304.5      4.65   -0.05       0.1          0.0                 NaN          0.05
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34297           TOPIX  dynamic_TF_carry  [-1]      395.558175  113.763292   -6.320183          -0.0       -12.640366                     NaN         -6.320183
+34298         EURO600  dynamic_TF_carry   [1]       58.309868  -540.21731   -8.574878           0.0              NaN                     NaN         -8.574878
+34299             DAX  dynamic_TF_carry   [1]     2378.795254 -281.655178   -4.203809      8.407617              0.0                     NaN          4.203809
+34300          YENEUR  dynamic_TF_carry   [1]       15.982074  325.364534  -18.771031       6.25701       -31.285051                     NaN        -12.514021
+34301             VIX  dynamic_TF_carry  [-1]       11.251624 -155.533109  -22.219016     44.438031             -0.0                     NaN         22.219016
+34302         RUSSELL  dynamic_TF_carry   [1]      442.689206  389.663894   -1.129461     -2.258921        -4.517842                     NaN         -3.388382
+34303             JPY  dynamic_TF_carry   [1]        0.000627   -179.5414   -3.989809      7.979618              0.0                     NaN          3.989809
+34304         SOYMEAL  dynamic_TF_carry   [1]       79.798197  582.719934   -6.265806     12.531611              0.0                     NaN          6.265806
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34297           TOPIX  dynamic_TF_carry  [-1]             5.243536   23.595913    -1.310884           -0.0         -2.621768                      NaN          -1.310884
+34298         EURO600  dynamic_TF_carry   [1]            42.114797 -132.661609     -2.10574            0.0               NaN                      NaN           -2.10574
+34299             DAX  dynamic_TF_carry   [1]             0.842296  -56.433827    -0.842296       1.684592               0.0                      NaN           0.842296
+34300          YENEUR  dynamic_TF_carry   [1]           655.442022  340.829851   -19.663261        6.55442        -32.772101                      NaN          -13.10884
+34301             VIX  dynamic_TF_carry  [-1]           818.689033 -143.270581   -20.467226      40.934452              -0.0                      NaN          20.467226
+34302         RUSSELL  dynamic_TF_carry   [1]             4.093445   70.611929    -0.204672      -0.409345         -0.818689                      NaN          -0.614017
+34303             JPY  dynamic_TF_carry   [1]      10233612.915638 -115.128145    -2.558403       5.116806               0.0                      NaN           2.558403
+34304         SOYMEAL  dynamic_TF_carry   [1]            81.868903    380.6904    -4.093445        8.18689               0.0                      NaN           4.093445
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry DAX              -56.433827
+                 EURO600         -132.661609
+                 JPY             -115.128145
+                 RUSSELL           70.611929
+                 SOYMEAL            380.6904
+                 TOPIX             23.595913
+                 VIX             -143.270581
+                 YENEUR           340.829851
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry  368.233931
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry DAX                -0.842296
+                 EURO600             -2.10574
+                 JPY                -2.558403
+                 RUSSELL            -0.204672
+                 SOYMEAL            -4.093445
+                 TOPIX              -1.310884
+                 VIX               -20.467226
+                 YENEUR            -19.663261
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -51.245927
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry DAX                   1.684592
+                 EURO600                    0.0
+                 JPY                   5.116806
+                 RUSSELL              -0.409345
+                 SOYMEAL                8.18689
+                 TOPIX                     -0.0
+                 VIX                  40.934452
+                 YENEUR                 6.55442
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry      62.067816
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry DAX                           0.0
+                 EURO600                         0
+                 JPY                           0.0
+                 RUSSELL                 -0.818689
+                 SOYMEAL                       0.0
+                 TOPIX                   -2.621768
+                 VIX                          -0.0
+                 YENEUR                 -32.772101
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry        -36.212558
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry DAX                                    0
+                 EURO600                                0
+                 JPY                                    0
+                 RUSSELL                                0
+                 SOYMEAL                                0
+                 TOPIX                                  0
+                 VIX                                    0
+                 YENEUR                                 0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry DAX                       0.842296
+                 EURO600                   -2.10574
+                 JPY                       2.558403
+                 RUSSELL                  -0.614017
+                 SOYMEAL                   4.093445
+                 TOPIX                    -1.310884
+                 VIX                      20.467226
+                 YENEUR                   -13.10884
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry          10.821889
 
 ********************************************************************************
                                  END OF REPORT                                  
