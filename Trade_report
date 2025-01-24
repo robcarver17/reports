@@ -1,17 +1,19 @@
 
 ********************************************************************************
-Trades report produced on 23/01/2025 22:50 from 22/01/2025 22:50 to 23/01/2025 22:50
+Trades report produced on 24/01/2025 22:50 from 23/01/2025 22:50 to 24/01/2025 22:50
 ********************************************************************************
 
 
 
-============================================================================================
-                                       Broker orders                                        
-============================================================================================
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
-34321             BRE  dynamic_TF_carry    [20250200] 2025-01-23 15:00:05  [1]        0.1681
-34322             VIX  dynamic_TF_carry    [20250300] 2025-01-23 15:05:07  [1]       17.4000
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+34325        MSCISING  dynamic_TF_carry    [20250100] 2025-01-24 02:02:56  [-1]         380.4
+34326        MSCISING  dynamic_TF_carry    [20250100] 2025-01-24 02:03:40  [-1]         380.4
+34323      MSCITAIWAN  dynamic_TF_carry    [20250200] 2025-01-24 02:02:14   [1]        1010.0
+34324          NIKKEI  dynamic_TF_carry    [20250300] 2025-01-24 02:02:15  [-1]       40125.0
 
 
 =============================================================================================================================================================
@@ -19,77 +21,90 @@ Trades report produced on 23/01/2025 22:50 from 22/01/2025 22:50 to 23/01/2025 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-34321             BRE  dynamic_TF_carry       2025-01-22 19:00:00  2025-01-23 15:00:05.098000  2025-01-23 15:00:05              72005.098                 NaN
-34322             VIX  dynamic_TF_carry       2025-01-22 20:00:00  2025-01-23 15:00:06.867000  2025-01-23 15:05:07              68406.867             300.133
+34323      MSCITAIWAN  dynamic_TF_carry       2025-01-23 00:00:00  2025-01-24 02:02:12.344000  2025-01-24 02:02:14              93732.344               1.656
+34324          NIKKEI  dynamic_TF_carry       2025-01-23 00:00:00  2025-01-24 02:02:14.895000  2025-01-24 02:02:15              93734.895               0.105
+34325        MSCISING  dynamic_TF_carry       2025-01-23 05:00:00  2025-01-24 02:02:16.595000  2025-01-24 02:02:56              75736.595              39.405
+34326        MSCISING  dynamic_TF_carry       2025-01-23 05:00:00  2025-01-24 02:03:00.977000  2025-01-24 02:03:40              75780.977              39.023
 
 
-================================================================================================================================================================================================================================
-                                                                                                    Slippage (ticks per lot)                                                                                                    
-================================================================================================================================================================================================================================
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
-34321             BRE  dynamic_TF_carry   [1]                0.16795               None  0.168075     0.1681       0.16805         NaN       0.1681 -0.000125 -0.000025       0.0          NaN                 NaN     -0.000025
-34322             VIX  dynamic_TF_carry   [1]                  17.55               None    17.375       17.4         17.35       17.35         17.4     0.175    -0.025       0.0        -0.05                 NaN        -0.025
-
-
-=============================================================================================================================================================
-                                                    Slippage (normalised by annual vol, BP of annual SR)                                                     
-=============================================================================================================================================================
-
-      instrument_code     strategy_name trade last_annual_vol  delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-34321             BRE  dynamic_TF_carry   [1]        0.022127 -56.493283  -11.298657           0.0              NaN                     NaN        -11.298657
-34322             VIX  dynamic_TF_carry   [1]       10.321364  169.55124  -24.221606           0.0       -48.443212                     NaN        -24.221606
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+34323      MSCITAIWAN  dynamic_TF_carry   [1]                 1012.1               None    1009.6     1010.0        1009.2      1009.2       1010.0    2.5    -0.4       0.0         -0.8                 NaN          -0.4
+34324          NIKKEI  dynamic_TF_carry  [-1]                40025.0               None   40132.5    40130.0       40135.0     40135.0      40125.0  107.5    -2.5      -5.0        -10.0                 NaN          -7.5
+34325        MSCISING  dynamic_TF_carry  [-1]                 381.65               None   380.375     380.35         380.4       380.4        380.4 -1.275  -0.025      0.05         -0.0                 NaN         0.025
+34326        MSCISING  dynamic_TF_carry  [-1]                 381.65               None   380.375     380.35         380.4       380.4        380.4 -1.275  -0.025      0.05         -0.0                 NaN         0.025
 
 
-========================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                       
-========================================================================================================================================================================
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-34321             BRE  dynamic_TF_carry   [1]         81251.929733  -10.156491    -2.031298            0.0               NaN                      NaN          -2.031298
-34322             VIX  dynamic_TF_carry   [1]           812.519297  142.190877   -20.312982            0.0        -40.625965                      NaN         -20.312982
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34323      MSCITAIWAN  dynamic_TF_carry   [1]      194.100498  128.799257  -20.607881           0.0       -41.215762                     NaN        -20.607881
+34324          NIKKEI  dynamic_TF_carry  [-1]     6054.296224  177.559862   -4.129299     -8.258598       -16.517196                     NaN        -12.387897
+34325        MSCISING  dynamic_TF_carry  [-1]       44.876062 -284.115839   -5.570899     11.141798             -0.0                     NaN          5.570899
+34326        MSCISING  dynamic_TF_carry  [-1]       44.876062 -284.115839   -5.570899     11.141798             -0.0                     NaN          5.570899
+
+
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34323      MSCITAIWAN  dynamic_TF_carry   [1]            80.652316  201.63079   -32.260926            0.0        -64.521853                      NaN         -32.260926
+34324          NIKKEI  dynamic_TF_carry  [-1]             0.519053  55.798228    -1.297633      -2.595266         -5.190533                      NaN            -3.8929
+34325        MSCISING  dynamic_TF_carry  [-1]            59.818226 -76.268238    -1.495456       2.990911              -0.0                      NaN           1.495456
+34326        MSCISING  dynamic_TF_carry  [-1]            59.818226 -76.268238    -1.495456       2.990911              -0.0                      NaN           1.495456
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry BRE              -10.156491
-                 VIX              142.190877
+dynamic_TF_carry MSCISING        -152.536476
+                 MSCITAIWAN        201.63079
+                 NIKKEI            55.798228
 delay_cash Total Sum
                   delay_cash
 strategy_name               
-dynamic_TF_carry  132.034386
+dynamic_TF_carry  104.892542
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry BRE                -2.031298
-                 VIX               -20.312982
+dynamic_TF_carry MSCISING           -2.990911
+                 MSCITAIWAN        -32.260926
+                 NIKKEI             -1.297633
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry   -22.344281
+dynamic_TF_carry   -36.549471
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry BRE                        0.0
-                 VIX                        0.0
+dynamic_TF_carry MSCISING              5.981823
+                 MSCITAIWAN                 0.0
+                 NIKKEI               -2.595266
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry            0.0
+dynamic_TF_carry       3.386556
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry BRE                             0
-                 VIX                    -40.625965
+dynamic_TF_carry MSCISING                     -0.0
+                 MSCITAIWAN             -64.521853
+                 NIKKEI                  -5.190533
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry        -40.625965
+dynamic_TF_carry        -69.712386
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry BRE                                    0
-                 VIX                                    0
+dynamic_TF_carry MSCISING                               0
+                 MSCITAIWAN                             0
+                 NIKKEI                                 0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -97,12 +112,13 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry BRE                      -2.031298
-                 VIX                     -20.312982
+dynamic_TF_carry MSCISING                  2.990911
+                 MSCITAIWAN              -32.260926
+                 NIKKEI                     -3.8929
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry         -22.344281
+dynamic_TF_carry         -33.162915
 
 ********************************************************************************
                                  END OF REPORT                                  

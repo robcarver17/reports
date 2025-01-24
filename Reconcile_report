@@ -1,10 +1,10 @@
 
 ********************************************************************************
-                 Reconcile report produced on 23/01/2025 22:50                  
+                 Reconcile report produced on 24/01/2025 22:50                  
 ********************************************************************************
 
 
-Breaks Optimal vs actual ['dynamic_TF_carry SP500_micro', 'dynamic_TF_carry CRUDE_W_micro', 'dynamic_TF_carry RUSSELL', 'dynamic_TF_carry MXP', 'dynamic_TF_carry VIX', 'dynamic_TF_carry NIKKEI', 'dynamic_TF_carry MSCITAIWAN', 'dynamic_TF_carry GOLD_micro']
+Breaks Optimal vs actual ['dynamic_TF_carry CRUDE_W_micro', 'dynamic_TF_carry MSCISING', 'dynamic_TF_carry RUSSELL', 'dynamic_TF_carry MXP', 'dynamic_TF_carry VIX', 'dynamic_TF_carry TOPIX', 'dynamic_TF_carry GOLD_micro', 'dynamic_TF_carry BITCOIN']
  Breaks Instrument vs Contract []
  Breaks Broker vs Contract []
 
@@ -17,18 +17,17 @@ Breaks Optimal vs actual ['dynamic_TF_carry SP500_micro', 'dynamic_TF_carry CRUD
 0           CANOLA      20250514  2025-05-14 00:00:00      -1.0
 3              CHF      20250317  2025-03-17 00:00:00      -3.0
 1     COPPER-micro      20250226  2025-02-26 00:00:00      -1.0
-7    CRUDE_W_micro      20250319  2025-03-19 00:00:00       3.0
+6    CRUDE_W_micro      20250319  2025-03-19 00:00:00       3.0
 9              DAX      20250321  2025-03-21 00:00:00       1.0
-6          FEEDCOW      20250522  2025-05-22 00:00:00       1.0
+5          FEEDCOW      20250522  2025-05-22 00:00:00       1.0
 14             MIB      20250321  2025-03-21 00:00:00       1.0
-15        MSCISING      20250128  2025-01-28 00:00:00       2.0
+8       MSCITAIWAN      20250227  2025-02-27 00:00:00       1.0
 13             MXP      20250317  2025-03-17 00:00:00      -1.0
-5           NIKKEI      20250313  2025-03-13 00:00:00       1.0
 10             OAT      20250306  2025-03-06 00:00:00      -1.0
 11         RUSSELL      20250321  2025-03-21 00:00:00      -1.0
 2          SUGAR11      20250430  2025-04-30 00:00:00      -1.0
-8            TOPIX      20250313  2025-03-13 00:00:00       1.0
-16            US30      20250320  2025-03-20 00:00:00      -1.0
+7            TOPIX      20250313  2025-03-13 00:00:00       1.0
+15            US30      20250320  2025-03-20 00:00:00      -1.0
 12          YENEUR      20250317  2025-03-17 00:00:00       1.0
 
 
@@ -38,40 +37,43 @@ Breaks Optimal vs actual ['dynamic_TF_carry SP500_micro', 'dynamic_TF_carry CRUD
 
    instrument_code contract_date          expiry_date  position
 13       ALUMINIUM      20250327  2025-03-27 00:00:00      -1.0
-0           CANOLA      20250514  2025-05-14 00:00:00      -1.0
-11             CHF      20250317  2025-03-17 00:00:00      -3.0
-14    COPPER-micro      20250226  2025-02-26 00:00:00      -1.0
-7    CRUDE_W_micro      20250319  2025-03-19 00:00:00       3.0
-4              DAX      20250321  2025-03-21 00:00:00       1.0
-16         FEEDCOW      20250522  2025-05-22 00:00:00       1.0
-15             MIB      20250321  2025-03-21 00:00:00       1.0
-10        MSCISING      20250128  2025-01-28 00:00:00       2.0
-1              MXP      20250317  2025-03-17 00:00:00      -1.0
-6           NIKKEI      20250313  2025-03-13 00:00:00       1.0
-2              OAT      20250306  2025-03-06 00:00:00      -1.0
+9           CANOLA      20250514  2025-05-14 00:00:00      -1.0
+8              CHF      20250317  2025-03-17 00:00:00      -3.0
+6     COPPER-micro      20250226  2025-02-26 00:00:00      -1.0
+5    CRUDE_W_micro      20250319  2025-03-19 00:00:00       3.0
+12             DAX      20250321  2025-03-21 00:00:00       1.0
+10         FEEDCOW      20250522  2025-05-22 00:00:00       1.0
+4              MIB      20250321  2025-03-21 00:00:00       1.0
+2       MSCITAIWAN      20250227  2025-02-27 00:00:00       1.0
+0              MXP      20250317  2025-03-17 00:00:00      -1.0
+14             OAT      20250306  2025-03-06 00:00:00      -1.0
 3          RUSSELL      20250321  2025-03-21 00:00:00      -1.0
-8          SUGAR11      20250430  2025-04-30 00:00:00      -1.0
-9            TOPIX      20250313  2025-03-13 00:00:00       1.0
-12            US30      20250320  2025-03-20 00:00:00      -1.0
-5           YENEUR      20250317  2025-03-17 00:00:00       1.0
+1          SUGAR11      20250430  2025-04-30 00:00:00      -1.0
+11           TOPIX      20250313  2025-03-13 00:00:00       1.0
+7             US30      20250320  2025-03-20 00:00:00      -1.0
+15          YENEUR      20250317  2025-03-17 00:00:00       1.0
 
 
-==========================================================================
-                               Trades in DB                               
-==========================================================================
+==================================================================================
+                                   Trades in DB                                   
+==================================================================================
 
-        strategy_name contract_date       fill_datetime fill  filled_price
-BRE  dynamic_TF_carry    [20250200] 2025-01-23 15:00:05  [1]        0.1681
-VIX  dynamic_TF_carry    [20250300] 2025-01-23 15:05:07  [1]       17.4000
+               strategy_name contract_date       fill_datetime  fill  filled_price
+MSCITAIWAN  dynamic_TF_carry    [20250200] 2025-01-24 02:02:14   [1]        1010.0
+NIKKEI      dynamic_TF_carry    [20250300] 2025-01-24 02:02:15  [-1]       40125.0
+MSCISING    dynamic_TF_carry    [20250100] 2025-01-24 02:02:56  [-1]         380.4
+MSCISING    dynamic_TF_carry    [20250100] 2025-01-24 02:03:40  [-1]         380.4
 
 
-======================================================================
-                          Trades from broker                          
-======================================================================
+==============================================================================
+                              Trades from broker                              
+==============================================================================
 
-    strategy_name contract_date       fill_datetime fill  filled_price
-VIX                  [20250318] 2025-01-23 15:05:07  [1]       17.4000
-BRE                  [20250131] 2025-01-23 15:00:05  [1]        0.1681
+           strategy_name contract_date       fill_datetime  fill  filled_price
+NIKKEI                      [20250313] 2025-01-24 02:02:15  [-1]       40125.0
+MSCITAIWAN                  [20250227] 2025-01-24 02:02:14   [1]        1010.0
+MSCISING                    [20250128] 2025-01-24 02:03:40  [-1]         380.4
+MSCISING                    [20250128] 2025-01-24 02:02:56  [-1]         380.4
 
 
 ==========================================================
@@ -127,7 +129,7 @@ dynamic_TF_carry FEEDCOW                 1       1   False
 dynamic_TF_carry CAD5                    0       0   False
 dynamic_TF_carry MUMMY                   0       0   False
 dynamic_TF_carry GBPEUR                  0       0   False
-dynamic_TF_carry SP500_micro             0       1    True
+dynamic_TF_carry SP500_micro             0       0   False
 dynamic_TF_carry HOUSE-US                0       0   False
 dynamic_TF_carry US30                   -1      -1   False
 dynamic_TF_carry LUMBER-new              0       0   False
@@ -157,7 +159,7 @@ dynamic_TF_carry CHEESE                  0       0   False
 dynamic_TF_carry AEX                     0       0   False
 dynamic_TF_carry MSCIWORLD               0       0   False
 dynamic_TF_carry JPY                     0       0   False
-dynamic_TF_carry MSCISING                2       2   False
+dynamic_TF_carry MSCISING                0       1    True
 dynamic_TF_carry IBEX_mini               0       0   False
 dynamic_TF_carry SILVER                  0       0   False
 dynamic_TF_carry RUSSELL                -1       0    True
@@ -223,7 +225,7 @@ dynamic_TF_carry BUND                    0       0   False
 dynamic_TF_carry EUROSTX200-LARGE        0       0   False
 dynamic_TF_carry EURIBOR                 0       0   False
 dynamic_TF_carry EUROSTX                 0       0   False
-dynamic_TF_carry NIKKEI                  1       0    True
+dynamic_TF_carry NIKKEI                  0       0   False
 dynamic_TF_carry LIVECOW                 0       0   False
 dynamic_TF_carry KR10                    0       0   False
 dynamic_TF_carry US3                     0       0   False
@@ -238,13 +240,13 @@ dynamic_TF_carry DX                      0       0   False
 dynamic_TF_carry MILKWET                 0       0   False
 dynamic_TF_carry INR                     0       0   False
 dynamic_TF_carry EUROSTX-SMALL           0       0   False
-dynamic_TF_carry TOPIX                   1       1   False
+dynamic_TF_carry TOPIX                   1       2    True
 dynamic_TF_carry ETHANOL                 0       0   False
 dynamic_TF_carry CAD                     0       0   False
 dynamic_TF_carry ALUMINIUM              -1      -1   False
 dynamic_TF_carry NASDAQ_micro            0       0   False
 dynamic_TF_carry NICKEL_LME              0       0   False
-dynamic_TF_carry MSCITAIWAN              0       1    True
+dynamic_TF_carry MSCITAIWAN              1       1   False
 dynamic_TF_carry SWISSLEAD               0       0   False
 dynamic_TF_carry SUGAR16                 0       0   False
 dynamic_TF_carry EU-REALESTATE           0       0   False
@@ -292,7 +294,7 @@ dynamic_TF_carry CAC                     0       0   False
 dynamic_TF_carry JGB-SGX-mini            0       0   False
 dynamic_TF_carry BUXL                    0       0   False
 dynamic_TF_carry US-MATERIAL             0       0   False
-dynamic_TF_carry BITCOIN                 0       0   False
+dynamic_TF_carry BITCOIN                 0       1    True
 dynamic_TF_carry OAT                    -1      -1   False
 dynamic_TF_carry CHFJPY                  0       0   False
 
