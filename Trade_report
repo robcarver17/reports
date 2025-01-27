@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 24/01/2025 22:50 from 23/01/2025 22:50 to 24/01/2025 22:50
+Trades report produced on 27/01/2025 22:50 from 26/01/2025 22:50 to 27/01/2025 22:50
 ********************************************************************************
 
 
@@ -10,10 +10,15 @@ Trades report produced on 24/01/2025 22:50 from 23/01/2025 22:50 to 24/01/2025 2
 =============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-34325        MSCISING  dynamic_TF_carry    [20250100] 2025-01-24 02:02:56  [-1]         380.4
-34326        MSCISING  dynamic_TF_carry    [20250100] 2025-01-24 02:03:40  [-1]         380.4
-34323      MSCITAIWAN  dynamic_TF_carry    [20250200] 2025-01-24 02:02:14   [1]        1010.0
-34324          NIKKEI  dynamic_TF_carry    [20250300] 2025-01-24 02:02:15  [-1]       40125.0
+34335         BITCOIN  dynamic_TF_carry    [20250300] 2025-01-27 15:00:27   [1]   103670.0000
+34330   CRUDE_W_micro  dynamic_TF_carry    [20250400] 2025-01-27 14:00:08  [-1]       73.6100
+34331   CRUDE_W_micro  dynamic_TF_carry    [20250400] 2025-01-27 14:00:13  [-1]       73.5800
+34329      GOLD_micro  dynamic_TF_carry    [20250400] 2025-01-27 14:00:03   [1]     2789.7000
+34328        MSCISING  dynamic_TF_carry    [20250200] 2025-01-27 02:38:43   [1]      378.8000
+34334             MXP  dynamic_TF_carry    [20250300] 2025-01-27 15:00:19   [1]        0.0482
+34333         RUSSELL  dynamic_TF_carry    [20250300] 2025-01-27 15:00:06   [1]     2326.3000
+34327           TOPIX  dynamic_TF_carry    [20250300] 2025-01-27 02:00:31   [1]     2767.5000
+34332             VIX  dynamic_TF_carry    [20250400] 2025-01-27 15:00:04  [-1]       18.5000
 
 
 =============================================================================================================================================================
@@ -21,90 +26,135 @@ Trades report produced on 24/01/2025 22:50 from 23/01/2025 22:50 to 24/01/2025 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-34323      MSCITAIWAN  dynamic_TF_carry       2025-01-23 00:00:00  2025-01-24 02:02:12.344000  2025-01-24 02:02:14              93732.344               1.656
-34324          NIKKEI  dynamic_TF_carry       2025-01-23 00:00:00  2025-01-24 02:02:14.895000  2025-01-24 02:02:15              93734.895               0.105
-34325        MSCISING  dynamic_TF_carry       2025-01-23 05:00:00  2025-01-24 02:02:16.595000  2025-01-24 02:02:56              75736.595              39.405
-34326        MSCISING  dynamic_TF_carry       2025-01-23 05:00:00  2025-01-24 02:03:00.977000  2025-01-24 02:03:40              75780.977              39.023
+34327           TOPIX  dynamic_TF_carry       2025-01-24 00:00:00  2025-01-27 02:00:29.251000  2025-01-27 02:00:31             266429.251               1.749
+34328        MSCISING  dynamic_TF_carry       2025-01-24 00:00:00  2025-01-27 02:37:44.921000  2025-01-27 02:38:43             268664.921              58.079
+34329      GOLD_micro  dynamic_TF_carry       2025-01-24 00:00:00  2025-01-27 14:00:02.739000  2025-01-27 14:00:03             309602.739               0.261
+34330   CRUDE_W_micro  dynamic_TF_carry       2025-01-24 00:00:00  2025-01-27 14:00:08.008000  2025-01-27 14:00:08             309608.008                 NaN
+34331   CRUDE_W_micro  dynamic_TF_carry       2025-01-24 00:00:00  2025-01-27 14:00:13.143000  2025-01-27 14:00:13             309613.143                 NaN
+34332             VIX  dynamic_TF_carry       2025-01-24 00:00:00  2025-01-27 15:00:03.372000  2025-01-27 15:00:04             313203.372               0.628
+34333         RUSSELL  dynamic_TF_carry       2025-01-24 00:00:00  2025-01-27 15:00:05.780000  2025-01-27 15:00:06              313205.78                0.22
+34334             MXP  dynamic_TF_carry       2025-01-24 00:00:00  2025-01-27 15:00:08.172000  2025-01-27 15:00:19             313208.172              10.828
+34335         BITCOIN  dynamic_TF_carry       2025-01-24 00:00:00  2025-01-27 15:00:20.568000  2025-01-27 15:00:27             313220.568               6.432
 
 
-===========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                  
-===========================================================================================================================================================================================================================
+================================================================================================================================================================================================================================
+                                                                                                    Slippage (ticks per lot)                                                                                                    
+================================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
-34323      MSCITAIWAN  dynamic_TF_carry   [1]                 1012.1               None    1009.6     1010.0        1009.2      1009.2       1010.0    2.5    -0.4       0.0         -0.8                 NaN          -0.4
-34324          NIKKEI  dynamic_TF_carry  [-1]                40025.0               None   40132.5    40130.0       40135.0     40135.0      40125.0  107.5    -2.5      -5.0        -10.0                 NaN          -7.5
-34325        MSCISING  dynamic_TF_carry  [-1]                 381.65               None   380.375     380.35         380.4       380.4        380.4 -1.275  -0.025      0.05         -0.0                 NaN         0.025
-34326        MSCISING  dynamic_TF_carry  [-1]                 381.65               None   380.375     380.35         380.4       380.4        380.4 -1.275  -0.025      0.05         -0.0                 NaN         0.025
-
-
-==============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
-==============================================================================================================================================================
-
-      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-34323      MSCITAIWAN  dynamic_TF_carry   [1]      194.100498  128.799257  -20.607881           0.0       -41.215762                     NaN        -20.607881
-34324          NIKKEI  dynamic_TF_carry  [-1]     6054.296224  177.559862   -4.129299     -8.258598       -16.517196                     NaN        -12.387897
-34325        MSCISING  dynamic_TF_carry  [-1]       44.876062 -284.115839   -5.570899     11.141798             -0.0                     NaN          5.570899
-34326        MSCISING  dynamic_TF_carry  [-1]       44.876062 -284.115839   -5.570899     11.141798             -0.0                     NaN          5.570899
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
+34327           TOPIX  dynamic_TF_carry   [1]                 2770.0               None   2767.75     2768.0        2767.5      2767.5       2767.5      2.25     -0.25       0.5          0.0                 NaN          0.25
+34328        MSCISING  dynamic_TF_carry   [1]                 380.25               None   378.825     378.85         378.8       378.8        378.8     1.425    -0.025      0.05          0.0                 NaN         0.025
+34329      GOLD_micro  dynamic_TF_carry   [1]                 2809.1               None   2789.55     2789.7        2789.4      2789.4       2789.7     19.55     -0.15       0.0         -0.3                 NaN         -0.15
+34330   CRUDE_W_micro  dynamic_TF_carry  [-1]                  73.89               None    73.635      73.62         73.65       73.65        73.61    -0.255    -0.015     -0.01        -0.04                 NaN        -0.025
+34331   CRUDE_W_micro  dynamic_TF_carry  [-1]                  73.89               None     73.62      73.61         73.63       73.63        73.58     -0.27     -0.01     -0.03        -0.05                 NaN         -0.04
+34332             VIX  dynamic_TF_carry  [-1]                  17.85               None      18.5      18.45         18.55       18.55         18.5      0.65     -0.05      0.05        -0.05                 NaN           0.0
+34333         RUSSELL  dynamic_TF_carry   [1]                 2317.8               None    2326.1     2326.3        2325.9      2325.9       2326.3      -8.3      -0.2       0.0         -0.4                 NaN          -0.2
+34334             MXP  dynamic_TF_carry   [1]                 0.0489               None  0.048205    0.04821        0.0482      0.0482       0.0482  0.000695 -0.000005   0.00001          0.0                 NaN      0.000005
+34335         BITCOIN  dynamic_TF_carry   [1]               108425.0               None  103515.0   103670.0      103360.0    103360.0     103670.0    4910.0    -155.0       0.0       -310.0                 NaN        -155.0
 
 
-=======================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                      
-=======================================================================================================================================================================
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-34323      MSCITAIWAN  dynamic_TF_carry   [1]            80.652316  201.63079   -32.260926            0.0        -64.521853                      NaN         -32.260926
-34324          NIKKEI  dynamic_TF_carry  [-1]             0.519053  55.798228    -1.297633      -2.595266         -5.190533                      NaN            -3.8929
-34325        MSCISING  dynamic_TF_carry  [-1]            59.818226 -76.268238    -1.495456       2.990911              -0.0                      NaN           1.495456
-34326        MSCISING  dynamic_TF_carry  [-1]            59.818226 -76.268238    -1.495456       2.990911              -0.0                      NaN           1.495456
+      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34327           TOPIX  dynamic_TF_carry   [1]      375.292918     59.95317   -6.661463     13.322927              0.0                     NaN          6.661463
+34328        MSCISING  dynamic_TF_carry   [1]       44.089978   323.202701   -5.670223     11.340446              0.0                     NaN          5.670223
+34329      GOLD_micro  dynamic_TF_carry   [1]      365.617576   534.711712   -4.102647           0.0        -8.205295                     NaN         -4.102647
+34330   CRUDE_W_micro  dynamic_TF_carry  [-1]       17.578078  -145.067051   -8.533356     -5.688904       -22.755616                     NaN         -14.22226
+34331   CRUDE_W_micro  dynamic_TF_carry  [-1]       17.578078  -153.600407   -5.688904    -17.066712        -28.44452                     NaN        -22.755616
+34332             VIX  dynamic_TF_carry  [-1]       10.053575    646.53616  -49.733551     49.733551       -49.733551                     NaN               0.0
+34333         RUSSELL  dynamic_TF_carry   [1]      410.294807  -202.293567   -4.874544           0.0        -9.749088                     NaN         -4.874544
+34334             MXP  dynamic_TF_carry   [1]        0.007204   964.767758   -6.940775      13.88155              0.0                     NaN          6.940775
+34335         BITCOIN  dynamic_TF_carry   [1]    43591.397191  1126.369035  -35.557475           0.0       -71.114949                     NaN        -35.557475
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34327           TOPIX  dynamic_TF_carry   [1]             5.148624   11.584405    -1.287156       2.574312               0.0                      NaN           1.287156
+34328        MSCISING  dynamic_TF_carry   [1]             59.53521   84.837675     -1.48838       2.976761               0.0                      NaN            1.48838
+34329      GOLD_micro  dynamic_TF_carry   [1]             8.030258  156.991544    -1.204539            0.0         -2.409077                      NaN          -1.204539
+34330   CRUDE_W_micro  dynamic_TF_carry  [-1]             80.30258  -20.477158    -1.204539      -0.803026         -3.212103                      NaN          -2.007565
+34331   CRUDE_W_micro  dynamic_TF_carry  [-1]             80.30258  -21.681697    -0.803026      -2.409077         -4.015129                      NaN          -3.212103
+34332             VIX  dynamic_TF_carry  [-1]           803.025801  521.966771    -40.15129       40.15129         -40.15129                      NaN                0.0
+34333         RUSSELL  dynamic_TF_carry   [1]             4.015129  -33.325571    -0.803026            0.0         -1.606052                      NaN          -0.803026
+34334             MXP  dynamic_TF_carry   [1]        401512.900609  279.051466    -2.007565       4.015129               0.0                      NaN           2.007565
+34335         BITCOIN  dynamic_TF_carry   [1]             0.080303  394.285668     -12.4469            0.0          -24.8938                      NaN           -12.4469
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry MSCISING        -152.536476
-                 MSCITAIWAN        201.63079
-                 NIKKEI            55.798228
+dynamic_TF_carry BITCOIN          394.285668
+                 CRUDE_W_micro    -42.158855
+                 GOLD_micro       156.991544
+                 MSCISING          84.837675
+                 MXP              279.051466
+                 RUSSELL          -33.325571
+                 TOPIX             11.584405
+                 VIX              521.966771
 delay_cash Total Sum
-                  delay_cash
-strategy_name               
-dynamic_TF_carry  104.892542
+                   delay_cash
+strategy_name                
+dynamic_TF_carry  1373.233104
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry MSCISING           -2.990911
-                 MSCITAIWAN        -32.260926
-                 NIKKEI             -1.297633
+dynamic_TF_carry BITCOIN             -12.4469
+                 CRUDE_W_micro      -2.007565
+                 GOLD_micro         -1.204539
+                 MSCISING            -1.48838
+                 MXP                -2.007565
+                 RUSSELL            -0.803026
+                 TOPIX              -1.287156
+                 VIX                -40.15129
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry   -36.549471
+dynamic_TF_carry    -61.39642
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry MSCISING              5.981823
-                 MSCITAIWAN                 0.0
-                 NIKKEI               -2.595266
+dynamic_TF_carry BITCOIN                    0.0
+                 CRUDE_W_micro        -3.212103
+                 GOLD_micro                 0.0
+                 MSCISING              2.976761
+                 MXP                   4.015129
+                 RUSSELL                    0.0
+                 TOPIX                 2.574312
+                 VIX                   40.15129
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry       3.386556
+dynamic_TF_carry      46.505389
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry MSCISING                     -0.0
-                 MSCITAIWAN             -64.521853
-                 NIKKEI                  -5.190533
+dynamic_TF_carry BITCOIN                  -24.8938
+                 CRUDE_W_micro           -7.227232
+                 GOLD_micro              -2.409077
+                 MSCISING                      0.0
+                 MXP                           0.0
+                 RUSSELL                 -1.606052
+                 TOPIX                         0.0
+                 VIX                     -40.15129
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry        -69.712386
+dynamic_TF_carry        -76.287451
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry MSCISING                               0
-                 MSCITAIWAN                             0
-                 NIKKEI                                 0
+dynamic_TF_carry BITCOIN                                0
+                 CRUDE_W_micro                          0
+                 GOLD_micro                             0
+                 MSCISING                               0
+                 MXP                                    0
+                 RUSSELL                                0
+                 TOPIX                                  0
+                 VIX                                    0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -112,13 +162,18 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry MSCISING                  2.990911
-                 MSCITAIWAN              -32.260926
-                 NIKKEI                     -3.8929
+dynamic_TF_carry BITCOIN                   -12.4469
+                 CRUDE_W_micro            -5.219668
+                 GOLD_micro               -1.204539
+                 MSCISING                   1.48838
+                 MXP                       2.007565
+                 RUSSELL                  -0.803026
+                 TOPIX                     1.287156
+                 VIX                            0.0
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry         -33.162915
+dynamic_TF_carry         -14.891031
 
 ********************************************************************************
                                  END OF REPORT                                  
