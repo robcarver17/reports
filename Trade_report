@@ -1,23 +1,17 @@
 
 ********************************************************************************
-Trades report produced on 31/01/2025 22:51 from 30/01/2025 22:51 to 31/01/2025 22:51
+Trades report produced on 03/02/2025 22:50 from 02/02/2025 22:50 to 03/02/2025 22:50
 ********************************************************************************
 
 
 
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
+============================================================================================
+                                       Broker orders                                        
+============================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-34356             BRE  dynamic_TF_carry    [20250300] 2025-01-31 15:00:22   [1]        0.1709
-34355             CAD  dynamic_TF_carry    [20250300] 2025-01-31 15:00:04  [-1]        0.6899
-34353          CANOLA  dynamic_TF_carry    [20250500] 2025-01-31 14:00:05   [1]      638.3000
-34354          COFFEE  dynamic_TF_carry    [20250500] 2025-01-31 14:00:07   [1]      365.0500
-34357             DOW  dynamic_TF_carry    [20250300] 2025-01-31 15:00:24  [-1]    45047.0000
-34351        MSCISING  dynamic_TF_carry    [20250200] 2025-01-31 02:02:11  [-1]      392.5000
-34352             SMI  dynamic_TF_carry    [20250300] 2025-01-31 08:00:06   [1]    12675.0000
-34350           TOPIX  dynamic_TF_carry    [20250300] 2025-01-31 02:00:30   [1]     2782.7500
+      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
+34358    COPPER-micro  dynamic_TF_carry    [20250300] 2025-02-03 14:00:07  [1]         4.274
+34359             DOW  dynamic_TF_carry    [20250300] 2025-02-03 15:00:04  [1]     44031.000
 
 
 =============================================================================================================================================================
@@ -25,29 +19,17 @@ Trades report produced on 31/01/2025 22:51 from 30/01/2025 22:51 to 31/01/2025 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-34350           TOPIX  dynamic_TF_carry       2025-01-30 00:00:00  2025-01-31 02:00:29.286000  2025-01-31 02:00:30              93629.286               0.714
-34351        MSCISING  dynamic_TF_carry       2025-01-30 00:00:00  2025-01-31 02:02:06.867000  2025-01-31 02:02:11              93726.867               4.133
-34352             SMI  dynamic_TF_carry       2025-01-30 00:00:00  2025-01-31 08:00:06.244000  2025-01-31 08:00:06             115206.244                 NaN
-34353          CANOLA  dynamic_TF_carry       2025-01-30 00:00:00  2025-01-31 14:00:05.318000  2025-01-31 14:00:05             136805.318                 NaN
-34354          COFFEE  dynamic_TF_carry       2025-01-30 00:00:00  2025-01-31 14:00:07.233000  2025-01-31 14:00:07             136807.233                 NaN
-34355             CAD  dynamic_TF_carry       2025-01-30 00:00:00  2025-01-31 15:00:02.020000  2025-01-31 15:00:04              140402.02                1.98
-34356             BRE  dynamic_TF_carry       2025-01-30 00:00:00  2025-01-31 15:00:05.963000  2025-01-31 15:00:22             140405.963              16.037
-34357             DOW  dynamic_TF_carry       2025-01-30 00:00:00  2025-01-31 15:00:24.262000  2025-01-31 15:00:24             140424.262                 NaN
+34358    COPPER-micro  dynamic_TF_carry       2025-01-31 20:00:00  2025-02-03 14:00:06.448000  2025-02-03 14:00:07             237606.448               0.552
+34359             DOW  dynamic_TF_carry       2025-01-31 00:00:00  2025-02-03 15:00:04.125000  2025-02-03 15:00:04             313204.125                 NaN
 
 
-================================================================================================================================================================================================================================
-                                                                                                    Slippage (ticks per lot)                                                                                                    
-================================================================================================================================================================================================================================
+============================================================================================================================================================================================================================
+                                                                                                  Slippage (ticks per lot)                                                                                                  
+============================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
-34350           TOPIX  dynamic_TF_carry   [1]                2778.25               None    2782.5    2782.75       2782.25     2782.25      2782.75     -4.25     -0.25       0.0         -0.5                 NaN         -0.25
-34351        MSCISING  dynamic_TF_carry  [-1]                 383.85               None   392.625      392.6        392.65      392.65        392.5     8.775    -0.025      -0.1        -0.15                 NaN        -0.125
-34352             SMI  dynamic_TF_carry   [1]                12584.0               None   12676.5    12678.0       12675.0     12675.0      12675.0     -92.5      -1.5       3.0          0.0                 NaN           1.5
-34353          CANOLA  dynamic_TF_carry   [1]                  648.3               None     638.4      638.5         638.3       638.3        638.3       9.9      -0.1       0.2          0.0                 NaN           0.1
-34354          COFFEE  dynamic_TF_carry   [1]                  370.8               None   366.125     366.25         366.0       366.0       365.05     4.675    -0.125       1.2         0.95                 NaN         1.075
-34355             CAD  dynamic_TF_carry  [-1]                 0.6952               None  0.689975    0.68995          0.69        0.69       0.6899 -0.005225 -0.000025  -0.00005      -0.0001                 NaN     -0.000075
-34356             BRE  dynamic_TF_carry   [1]                 0.1699               None   0.17095      0.171        0.1709      0.1709       0.1709  -0.00105  -0.00005    0.0001          0.0                 NaN       0.00005
-34357             DOW  dynamic_TF_carry  [-1]                45169.0               None   45052.0    45051.0       45053.0     45053.0      45047.0    -117.0      -1.0      -4.0         -6.0                 NaN          -5.0
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
+34358    COPPER-micro  dynamic_TF_carry   [1]                  4.259               None    4.2735      4.274         4.273       4.273        4.274 -0.0145 -0.0005       0.0       -0.001                 NaN       -0.0005
+34359             DOW  dynamic_TF_carry   [1]                44713.0               None   44023.5    44027.0       44020.0     44020.0      44031.0   689.5    -3.5      -4.0        -11.0                 NaN          -7.5
 
 
 ===============================================================================================================================================================
@@ -55,101 +37,59 @@ Trades report produced on 31/01/2025 22:51 from 30/01/2025 22:51 to 31/01/2025 2
 ===============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-34350           TOPIX  dynamic_TF_carry   [1]      371.194196  -114.495325   -6.735019           0.0       -13.470038                     NaN         -6.735019
-34351        MSCISING  dynamic_TF_carry  [-1]       46.029051  1906.404709   -5.431352     -21.72541       -32.588115                     NaN        -27.156762
-34352             SMI  dynamic_TF_carry   [1]     1234.334633  -749.391596  -12.152296     24.304592              0.0                     NaN         12.152296
-34353          CANOLA  dynamic_TF_carry   [1]      140.792454   703.162684   -7.102653     14.205307              0.0                     NaN          7.102653
-34354          COFFEE  dynamic_TF_carry   [1]       83.553696    559.52043  -14.960439    143.620217       113.699339                     NaN        128.659778
-34355             CAD  dynamic_TF_carry  [-1]         0.03999 -1306.566954   -6.251517    -12.503033       -25.006066                     NaN         -18.75455
-34356             BRE  dynamic_TF_carry   [1]        0.020115  -522.003843  -24.857326     49.714652              0.0                     NaN         24.857326
-34357             DOW  dynamic_TF_carry  [-1]     4644.894208  -251.889483   -2.152902     -8.611606       -12.917409                     NaN        -10.764508
+34358    COPPER-micro  dynamic_TF_carry   [1]         0.75312  -192.532355   -6.639047           0.0       -13.278093                     NaN         -6.639047
+34359             DOW  dynamic_TF_carry   [1]     4558.573286  1512.534639   -7.677841     -8.774675       -24.130357                     NaN        -16.452516
 
 
-=========================================================================================================================================================================
-                                                                       Slippage (In base currency)                                                                       
-=========================================================================================================================================================================
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point   delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-34350           TOPIX  dynamic_TF_carry   [1]             5.201057   -22.104493    -1.300264            0.0         -2.600529                      NaN          -1.300264
-34351        MSCISING  dynamic_TF_carry  [-1]            59.378173   521.043468    -1.484454      -5.937817         -8.906726                      NaN          -7.422272
-34352             SMI  dynamic_TF_carry   [1]              8.83712  -817.433639   -13.255681      26.511361               0.0                      NaN          13.255681
-34353          CANOLA  dynamic_TF_carry   [1]              11.1257    110.14443     -1.11257        2.22514               0.0                      NaN            1.11257
-34354          COFFEE  dynamic_TF_carry   [1]           301.733155  1410.602501   -37.716644     362.079786        286.646497                      NaN         324.363142
-34355             CAD  dynamic_TF_carry  [-1]         80462.174732  -420.414863    -2.011554      -4.023109         -8.046217                      NaN          -6.034663
-34356             BRE  dynamic_TF_carry   [1]         80462.174732   -84.485283    -4.023109       8.046217               0.0                      NaN           4.023109
-34357             DOW  dynamic_TF_carry  [-1]             0.402311   -47.070372    -0.402311      -1.609243         -2.413865                      NaN          -2.011554
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34358    COPPER-micro  dynamic_TF_carry   [1]          2034.629392  -29.502126    -1.017315            0.0         -2.034629                      NaN          -1.017315
+34359             DOW  dynamic_TF_carry   [1]             0.406926  280.575393    -1.424241      -1.627704         -4.476185                      NaN          -3.051944
 
 delay_cash Sum
-                                   delay_cash
-strategy_name    instrument_code             
-dynamic_TF_carry BRE               -84.485283
-                 CAD              -420.414863
-                 CANOLA             110.14443
-                 COFFEE           1410.602501
-                 DOW               -47.070372
-                 MSCISING          521.043468
-                 SMI              -817.433639
-                 TOPIX             -22.104493
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry COPPER-micro     -29.502126
+                 DOW              280.575393
 delay_cash Total Sum
                   delay_cash
 strategy_name               
-dynamic_TF_carry  650.281748
+dynamic_TF_carry  251.073267
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry BRE                -4.023109
-                 CAD                -2.011554
-                 CANOLA              -1.11257
-                 COFFEE            -37.716644
-                 DOW                -0.402311
-                 MSCISING           -1.484454
-                 SMI               -13.255681
-                 TOPIX              -1.300264
+dynamic_TF_carry COPPER-micro       -1.017315
+                 DOW                -1.424241
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry   -61.306588
+dynamic_TF_carry    -2.441555
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry BRE                   8.046217
-                 CAD                  -4.023109
-                 CANOLA                 2.22514
-                 COFFEE              362.079786
-                 DOW                  -1.609243
-                 MSCISING             -5.937817
-                 SMI                  26.511361
-                 TOPIX                      0.0
+dynamic_TF_carry COPPER-micro               0.0
+                 DOW                  -1.627704
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry     387.292335
+dynamic_TF_carry      -1.627704
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry BRE                           0.0
-                 CAD                     -8.046217
-                 CANOLA                        0.0
-                 COFFEE                 286.646497
-                 DOW                     -2.413865
-                 MSCISING                -8.906726
-                 SMI                           0.0
-                 TOPIX                   -2.600529
+dynamic_TF_carry COPPER-micro            -2.034629
+                 DOW                     -4.476185
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry         264.67916
+dynamic_TF_carry         -6.510814
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry BRE                                    0
-                 CAD                                    0
-                 CANOLA                                 0
-                 COFFEE                                 0
+dynamic_TF_carry COPPER-micro                           0
                  DOW                                    0
-                 MSCISING                               0
-                 SMI                                    0
-                 TOPIX                                  0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -157,18 +97,12 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry BRE                       4.023109
-                 CAD                      -6.034663
-                 CANOLA                     1.11257
-                 COFFEE                  324.363142
-                 DOW                      -2.011554
-                 MSCISING                 -7.422272
-                 SMI                      13.255681
-                 TOPIX                    -1.300264
+dynamic_TF_carry COPPER-micro             -1.017315
+                 DOW                      -3.051944
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry         325.985748
+dynamic_TF_carry          -4.069259
 
 ********************************************************************************
                                  END OF REPORT                                  
