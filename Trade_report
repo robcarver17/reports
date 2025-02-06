@@ -1,85 +1,170 @@
 
 ********************************************************************************
-Trades report produced on 05/02/2025 22:51 from 04/02/2025 22:51 to 05/02/2025 22:51
+Trades report produced on 06/02/2025 22:51 from 05/02/2025 22:51 to 06/02/2025 22:51
 ********************************************************************************
 
 
 
-============================================================================================
-                                       Broker orders                                        
-============================================================================================
+=================================================================================================
+                                          Broker orders                                          
+=================================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
-34366           TOPIX  dynamic_TF_carry    [20250300] 2025-02-05 02:02:09  [1]        2744.0
-
-
-=============================================================================================================================================================
-                                                                           Delays                                                                            
-=============================================================================================================================================================
-
-      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-34366           TOPIX  dynamic_TF_carry       2025-02-04 00:00:00  2025-02-05 02:02:06.461000  2025-02-05 02:02:09              93726.461               2.539
-
-
-==========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                 
-==========================================================================================================================================================================================================================
-
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
-34366           TOPIX  dynamic_TF_carry   [1]                2745.75               None   2743.75     2744.0        2743.5      2743.5       2744.0   2.0   -0.25       0.0         -0.5                 NaN         -0.25
+      instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
+34368       ALUMINIUM  dynamic_TF_carry    [20250300] 2025-02-06 08:40:58.872   [1]    2587.25000
+34370    COPPER-micro  dynamic_TF_carry    [20250500] 2025-02-06 14:10:56.000  [-1]       4.50200
+34369              DX  dynamic_TF_carry    [20250300] 2025-02-06 19:30:03.358   [0]           NaN
+34371              DX  dynamic_TF_carry    [20250300] 2025-02-06 14:15:44.000  [-1]     107.84000
+34375             GBP  dynamic_TF_carry    [20250300] 2025-02-06 15:01:13.000   [1]       1.23920
+34367       HANG_mini  dynamic_TF_carry    [20250300] 2025-02-06 02:15:05.000   [1]   20625.00000
+34374             MXP  dynamic_TF_carry    [20250300] 2025-02-06 15:01:07.000   [1]       0.04838
+34376         RUSSELL  dynamic_TF_carry    [20250300] 2025-02-06 15:01:15.000  [-1]    2325.10000
+34373             VIX  dynamic_TF_carry    [20250500] 2025-02-06 15:00:41.000  [-1]      18.15000
+34372          YENEUR  dynamic_TF_carry    [20250300] 2025-02-06 15:00:05.000  [-1]     157.23000
 
 
-=============================================================================================================================================================
-                                                    Slippage (normalised by annual vol, BP of annual SR)                                                     
-=============================================================================================================================================================
+====================================================================================================================================================================
+                                                                               Delays                                                                               
+====================================================================================================================================================================
 
-      instrument_code     strategy_name trade last_annual_vol  delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-34366           TOPIX  dynamic_TF_carry   [1]      404.385614  49.457744   -6.182218           0.0       -12.364436                     NaN         -6.182218
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
+34367       HANG_mini  dynamic_TF_carry       2025-02-05 00:00:00  2025-02-06 02:15:04.063000         2025-02-06 02:15:05              94504.063               0.937
+34368       ALUMINIUM  dynamic_TF_carry                       NaT                         NaT  2025-02-06 08:40:58.872000                    NaN                 NaN
+34370    COPPER-micro  dynamic_TF_carry       2024-02-29 00:00:00  2025-02-06 14:10:53.113000         2025-02-06 14:10:56           29686253.113               2.887
+34372          YENEUR  dynamic_TF_carry       2025-02-05 00:00:00  2025-02-06 15:00:05.255000         2025-02-06 15:00:05             140405.255                 NaN
+34373             VIX  dynamic_TF_carry       2025-02-05 00:00:00  2025-02-06 15:00:07.089000         2025-02-06 15:00:41             140407.089              33.911
+34374             MXP  dynamic_TF_carry       2025-02-05 00:00:00  2025-02-06 15:00:42.383000         2025-02-06 15:01:07             140442.383              24.617
+34375             GBP  dynamic_TF_carry       2025-02-05 00:00:00  2025-02-06 15:01:09.153000         2025-02-06 15:01:13             140469.153               3.847
+34376         RUSSELL  dynamic_TF_carry       2025-02-05 00:00:00  2025-02-06 15:01:15.269000         2025-02-06 15:01:15             140475.269                 NaN
+34369              DX  dynamic_TF_carry       2025-02-05 00:00:00  2025-02-06 14:00:04.263000  2025-02-06 19:30:03.358000             136804.263           19799.095
+34371              DX  dynamic_TF_carry       2025-02-05 00:00:00  2025-02-06 14:10:56.895000         2025-02-06 14:15:44             137456.895             287.105
 
 
-=======================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                      
-=======================================================================================================================================================================
+================================================================================================================================================================================================================================
+                                                                                                    Slippage (ticks per lot)                                                                                                    
+================================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-34366           TOPIX  dynamic_TF_carry   [1]             5.232906  10.465813    -1.308227            0.0         -2.616453                      NaN          -1.308227
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
+34367       HANG_mini  dynamic_TF_carry   [1]                20600.0               None   20627.5    20630.0       20625.0     20625.0      20625.0     -27.5      -2.5       5.0          0.0                 NaN           2.5
+34368       ALUMINIUM  dynamic_TF_carry   [1]                    NaN               None       NaN        NaN           NaN         NaN      2587.25       NaN       NaN       NaN          NaN                 NaN           NaN
+34370    COPPER-micro  dynamic_TF_carry  [-1]                 3.9205               None    4.5015      4.501         4.502       4.502        4.502     0.581   -0.0005     0.001         -0.0                 NaN        0.0005
+34372          YENEUR  dynamic_TF_carry  [-1]                 158.38               None    157.25     157.24        157.26      157.26       157.23     -1.13     -0.01     -0.01        -0.03                 NaN         -0.02
+34373             VIX  dynamic_TF_carry  [-1]                  18.25               None    18.125       18.1         18.15       18.15        18.15    -0.125    -0.025      0.05         -0.0                 NaN         0.025
+34374             MXP  dynamic_TF_carry   [1]                 0.0483               None  0.048365    0.04837       0.04836     0.04836      0.04838 -0.000065 -0.000005  -0.00001     -0.00002                 NaN     -0.000015
+34375             GBP  dynamic_TF_carry   [1]                 1.2498               None   1.23905     1.2391         1.239       1.239       1.2392   0.01075  -0.00005   -0.0001      -0.0002                 NaN      -0.00015
+34376         RUSSELL  dynamic_TF_carry  [-1]                 2319.9               None   2324.95     2324.9        2325.0      2325.0       2325.1      5.05     -0.05       0.2          0.1                 NaN          0.15
+34369              DX  dynamic_TF_carry  [-1]                107.435               None    107.88    107.875       107.885     107.885          NaN     0.445    -0.005       NaN          NaN                 NaN           NaN
+34371              DX  dynamic_TF_carry  [-1]                107.435               None  107.8875    107.885        107.89      107.89       107.84    0.4525   -0.0025    -0.045        -0.05                 NaN       -0.0475
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34367       HANG_mini  dynamic_TF_carry   [1]     4244.105468   -64.795751   -5.890523     11.781046              0.0                     NaN          5.890523
+34368       ALUMINIUM  dynamic_TF_carry   [1]      517.744793          NaN         NaN           NaN              NaN                     NaN               NaN
+34370    COPPER-micro  dynamic_TF_carry  [-1]        0.783148  7418.777754    -6.38449     12.768981             -0.0                     NaN           6.38449
+34372          YENEUR  dynamic_TF_carry  [-1]       15.987535  -706.800659   -6.254873     -6.254873       -18.764619                     NaN        -12.509746
+34373             VIX  dynamic_TF_carry  [-1]        8.564048  -145.959014  -29.191803     58.383605             -0.0                     NaN         29.191803
+34374             MXP  dynamic_TF_carry   [1]        0.006908    -94.09647    -7.23819     -14.47638        -28.95276                     NaN         -21.71457
+34375             GBP  dynamic_TF_carry   [1]         0.09441  1138.651551   -5.296054    -10.592107       -21.184215                     NaN        -15.888161
+34376         RUSSELL  dynamic_TF_carry  [-1]       371.00881   136.115366   -1.347677      5.390708         2.695354                     NaN          4.043031
+34369              DX  dynamic_TF_carry  [-1]        9.434317   471.682282   -5.299801           NaN              NaN                     NaN               NaN
+34371              DX  dynamic_TF_carry  [-1]        9.434317   479.631984     -2.6499    -47.698208       -52.998009                     NaN        -50.348109
+
+
+=========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                       
+=========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point   delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34367       HANG_mini  dynamic_TF_carry   [1]             1.028635   -28.287464    -2.571588       5.143175               0.0                      NaN           2.571588
+34368       ALUMINIUM  dynamic_TF_carry   [1]            20.023307          NaN          NaN            NaN               NaN                      NaN                NaN
+34370    COPPER-micro  dynamic_TF_carry  [-1]          2002.330713  1163.354144    -1.001165       2.002331              -0.0                      NaN           1.001165
+34372          YENEUR  dynamic_TF_carry  [-1]           656.116808  -741.411993    -6.561168      -6.561168        -19.683504                      NaN         -13.122336
+34373             VIX  dynamic_TF_carry  [-1]           800.932285  -100.116536   -20.023307      40.046614              -0.0                      NaN          20.023307
+34374             MXP  dynamic_TF_carry   [1]         400466.14259   -26.030299    -2.002331      -4.004661         -8.009323                      NaN          -6.006992
+34375             GBP  dynamic_TF_carry   [1]         50058.267824   538.126379    -2.502913      -5.005827        -10.011654                      NaN           -7.50874
+34376         RUSSELL  dynamic_TF_carry  [-1]             4.004661     20.22354    -0.200233       0.800932          0.400466                      NaN           0.600699
+34369              DX  dynamic_TF_carry  [-1]           800.932285   356.414867    -4.004661            NaN               NaN                      NaN                NaN
+34371              DX  dynamic_TF_carry  [-1]           800.932285   362.421859    -2.002331     -36.041953        -40.046614                      NaN         -38.044284
 
 delay_cash Sum
-                                 delay_cash
-strategy_name    instrument_code           
-dynamic_TF_carry TOPIX            10.465813
+                                   delay_cash
+strategy_name    instrument_code             
+dynamic_TF_carry ALUMINIUM                  0
+                 COPPER-micro     1163.354144
+                 DX                718.836726
+                 GBP               538.126379
+                 HANG_mini         -28.287464
+                 MXP               -26.030299
+                 RUSSELL             20.22354
+                 VIX              -100.116536
+                 YENEUR           -741.411993
 delay_cash Total Sum
-                 delay_cash
-strategy_name              
-dynamic_TF_carry  10.465813
+                   delay_cash
+strategy_name                
+dynamic_TF_carry  1544.694498
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry TOPIX              -1.308227
+dynamic_TF_carry ALUMINIUM                  0
+                 COPPER-micro       -1.001165
+                 DX                 -6.006992
+                 GBP                -2.502913
+                 HANG_mini          -2.571588
+                 MXP                -2.002331
+                 RUSSELL            -0.200233
+                 VIX               -20.023307
+                 YENEUR             -6.561168
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -1.308227
+dynamic_TF_carry   -40.869698
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry TOPIX                      0.0
+dynamic_TF_carry ALUMINIUM                    0
+                 COPPER-micro          2.002331
+                 DX                  -36.041953
+                 GBP                  -5.005827
+                 HANG_mini             5.143175
+                 MXP                  -4.004661
+                 RUSSELL               0.800932
+                 VIX                  40.046614
+                 YENEUR               -6.561168
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry            0.0
+dynamic_TF_carry      -3.620557
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry TOPIX                   -2.616453
+dynamic_TF_carry ALUMINIUM                       0
+                 COPPER-micro                 -0.0
+                 DX                     -40.046614
+                 GBP                    -10.011654
+                 HANG_mini                     0.0
+                 MXP                     -8.009323
+                 RUSSELL                  0.400466
+                 VIX                          -0.0
+                 YENEUR                 -19.683504
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry         -2.616453
+dynamic_TF_carry        -77.350629
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry TOPIX                                  0
+dynamic_TF_carry ALUMINIUM                              0
+                 COPPER-micro                           0
+                 DX                                     0
+                 GBP                                    0
+                 HANG_mini                              0
+                 MXP                                    0
+                 RUSSELL                                0
+                 VIX                                    0
+                 YENEUR                                 0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -87,11 +172,19 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry TOPIX                    -1.308227
+dynamic_TF_carry ALUMINIUM                        0
+                 COPPER-micro              1.001165
+                 DX                      -38.044284
+                 GBP                       -7.50874
+                 HANG_mini                 2.571588
+                 MXP                      -6.006992
+                 RUSSELL                   0.600699
+                 VIX                      20.023307
+                 YENEUR                  -13.122336
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry          -1.308227
+dynamic_TF_carry         -40.485593
 
 ********************************************************************************
                                  END OF REPORT                                  
