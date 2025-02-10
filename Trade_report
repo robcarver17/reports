@@ -1,16 +1,16 @@
 
 ********************************************************************************
-Trades report produced on 07/02/2025 22:51 from 06/02/2025 22:51 to 07/02/2025 22:51
+Trades report produced on 10/02/2025 22:50 from 09/02/2025 22:50 to 10/02/2025 22:50
 ********************************************************************************
 
 
 
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
+============================================================================================
+                                       Broker orders                                        
+============================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-34377         RUSSELL  dynamic_TF_carry    [20250300] 2025-02-07 15:00:02  [-1]        2309.0
+      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
+34378         RUSSELL  dynamic_TF_carry    [20250300] 2025-02-10 15:00:05  [1]        2286.8
 
 
 =============================================================================================================================================================
@@ -18,23 +18,23 @@ Trades report produced on 07/02/2025 22:51 from 06/02/2025 22:51 to 07/02/2025 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-34377         RUSSELL  dynamic_TF_carry       2025-02-05 00:00:00  2025-02-07 15:00:01.328000  2025-02-07 15:00:02             226801.328               0.672
+34378         RUSSELL  dynamic_TF_carry       2025-02-07 00:00:00  2025-02-10 15:00:04.605000  2025-02-10 15:00:05             313204.605               0.395
 
 
-===========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                  
-===========================================================================================================================================================================================================================
+==========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                 
+==========================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
-34377         RUSSELL  dynamic_TF_carry  [-1]                 2319.9               None   2308.65     2308.3        2309.0      2309.0       2309.0 -11.25   -0.35       0.7         -0.0                 NaN          0.35
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
+34378         RUSSELL  dynamic_TF_carry   [1]                 2287.7               None    2286.7     2286.8        2286.6        None       2286.8   1.0    -0.1       0.0          NaN                 NaN          -0.1
 
 
-==============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
-==============================================================================================================================================================
+=============================================================================================================================================================
+                                                    Slippage (normalised by annual vol, BP of annual SR)                                                     
+=============================================================================================================================================================
 
-      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-34377         RUSSELL  dynamic_TF_carry  [-1]      374.982333 -300.014134   -9.333773     18.667546             -0.0                     NaN          9.333773
+      instrument_code     strategy_name trade last_annual_vol  delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34378         RUSSELL  dynamic_TF_carry   [1]      367.131797  27.238175   -2.723817           0.0              NaN                     NaN         -2.723817
 
 
 =======================================================================================================================================================================
@@ -42,40 +42,40 @@ Trades report produced on 07/02/2025 22:51 from 06/02/2025 22:51 to 07/02/2025 2
 =======================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-34377         RUSSELL  dynamic_TF_carry  [-1]             4.023643 -45.265983    -1.408275        2.81655              -0.0                      NaN           1.408275
+34378         RUSSELL  dynamic_TF_carry   [1]             4.029155   4.029155    -0.402915            0.0               NaN                      NaN          -0.402915
 
 delay_cash Sum
                                  delay_cash
 strategy_name    instrument_code           
-dynamic_TF_carry RUSSELL         -45.265983
+dynamic_TF_carry RUSSELL           4.029155
 delay_cash Total Sum
                  delay_cash
 strategy_name              
-dynamic_TF_carry -45.265983
+dynamic_TF_carry   4.029155
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry RUSSELL            -1.408275
+dynamic_TF_carry RUSSELL            -0.402915
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -1.408275
+dynamic_TF_carry    -0.402915
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry RUSSELL                2.81655
+dynamic_TF_carry RUSSELL                    0.0
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry        2.81655
+dynamic_TF_carry            0.0
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry RUSSELL                      -0.0
+dynamic_TF_carry RUSSELL                         0
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry              -0.0
+dynamic_TF_carry                 0
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
@@ -87,11 +87,11 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry RUSSELL                   1.408275
+dynamic_TF_carry RUSSELL                  -0.402915
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry           1.408275
+dynamic_TF_carry          -0.402915
 
 ********************************************************************************
                                  END OF REPORT                                  
