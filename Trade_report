@@ -1,16 +1,24 @@
 
 ********************************************************************************
-Trades report produced on 10/02/2025 22:50 from 09/02/2025 22:50 to 10/02/2025 22:50
+Trades report produced on 11/02/2025 22:51 from 10/02/2025 22:51 to 11/02/2025 22:51
 ********************************************************************************
 
 
 
-============================================================================================
-                                       Broker orders                                        
-============================================================================================
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
-34378         RUSSELL  dynamic_TF_carry    [20250300] 2025-02-10 15:00:05  [1]        2286.8
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+34383          COFFEE  dynamic_TF_carry    [20250500] 2025-02-11 14:03:19  [-1]      404.2500
+34387             DOW  dynamic_TF_carry    [20250300] 2025-02-11 15:00:12  [-1]    44491.0000
+34382              DX  dynamic_TF_carry    [20250300] 2025-02-11 14:00:04   [1]      108.1050
+34385             GBP  dynamic_TF_carry    [20250300] 2025-02-11 15:00:07  [-1]        1.2407
+34379        MSCISING  dynamic_TF_carry    [20250200] 2025-02-11 02:02:16   [1]      390.3000
+34381        MSCISING  dynamic_TF_carry    [20250200] 2025-02-11 02:02:51   [1]      390.4500
+34384          SILVER  dynamic_TF_carry    [20250500] 2025-02-11 14:04:09   [1]       32.3000
+34380           TOPIX  dynamic_TF_carry    [20250300] 2025-02-11 02:02:45   [1]     2729.5000
+34386            US30  dynamic_TF_carry    [20250300] 2025-02-11 15:00:10   [1]      119.9375
 
 
 =============================================================================================================================================================
@@ -18,68 +26,135 @@ Trades report produced on 10/02/2025 22:50 from 09/02/2025 22:50 to 10/02/2025 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-34378         RUSSELL  dynamic_TF_carry       2025-02-07 00:00:00  2025-02-10 15:00:04.605000  2025-02-10 15:00:05             313204.605               0.395
+34380           TOPIX  dynamic_TF_carry       2025-02-10 00:00:00  2025-02-11 02:02:17.745000  2025-02-11 02:02:45              93737.745              27.255
+34379        MSCISING  dynamic_TF_carry       2025-02-10 00:00:00  2025-02-11 02:02:14.953000  2025-02-11 02:02:16              93734.953               1.047
+34381        MSCISING  dynamic_TF_carry       2025-02-10 00:00:00  2025-02-11 02:02:50.709000  2025-02-11 02:02:51              93770.709               0.291
+34382              DX  dynamic_TF_carry       2025-02-10 00:00:00  2025-02-11 14:00:04.105000  2025-02-11 14:00:04             136804.105                 NaN
+34383          COFFEE  dynamic_TF_carry       2025-02-10 00:00:00  2025-02-11 14:00:05.945000  2025-02-11 14:03:19             136805.945             193.055
+34384          SILVER  dynamic_TF_carry       2025-02-10 00:00:00  2025-02-11 14:04:09.141000  2025-02-11 14:04:09             137049.141                 NaN
+34385             GBP  dynamic_TF_carry       2025-02-10 00:00:00  2025-02-11 15:00:05.859000  2025-02-11 15:00:07             140405.859               1.141
+34386            US30  dynamic_TF_carry       2025-02-10 00:00:00  2025-02-11 15:00:09.318000  2025-02-11 15:00:10             140409.318               0.682
+34387             DOW  dynamic_TF_carry       2025-02-10 00:00:00  2025-02-11 15:00:12.135000  2025-02-11 15:00:12             140412.135                 NaN
 
 
-==========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                 
-==========================================================================================================================================================================================================================
+==================================================================================================================================================================================================================================
+                                                                                                     Slippage (ticks per lot)                                                                                                     
+==================================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
-34378         RUSSELL  dynamic_TF_carry   [1]                 2287.7               None    2286.7     2286.8        2286.6        None       2286.8   1.0    -0.1       0.0          NaN                 NaN          -0.1
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price   mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
+34380           TOPIX  dynamic_TF_carry   [1]                 2737.0               None     2729.75     2730.0        2729.5      2729.5       2729.5      7.25     -0.25       0.5          0.0                 NaN          0.25
+34379        MSCISING  dynamic_TF_carry   [1]                  393.8               None       390.2     390.25        390.15      390.15        390.3       3.6     -0.05     -0.05        -0.15                 NaN          -0.1
+34381        MSCISING  dynamic_TF_carry   [1]                  393.8               None     390.275      390.3        390.25      390.25       390.45     3.525    -0.025     -0.15         -0.2                 NaN        -0.175
+34382              DX  dynamic_TF_carry   [1]                 108.19               None    108.1575     108.16       108.155         NaN      108.105    0.0325   -0.0025     0.055          NaN                 NaN        0.0525
+34383          COFFEE  dynamic_TF_carry  [-1]                  424.1               None      405.55     405.45        405.65      405.65       404.25    -18.55      -0.1      -1.2         -1.4                 NaN          -1.3
+34384          SILVER  dynamic_TF_carry   [1]                  32.82               None     32.2925       32.3        32.285      32.285         32.3    0.5275   -0.0075       0.0       -0.015                 NaN       -0.0075
+34385             GBP  dynamic_TF_carry  [-1]                 1.2366               None     1.24065     1.2406        1.2407      1.2407       1.2407   0.00405  -0.00005    0.0001         -0.0                 NaN       0.00005
+34386            US30  dynamic_TF_carry   [1]                120.375               None  119.953125  119.96875      119.9375    119.9375     119.9375  0.421875 -0.015625   0.03125          0.0                 NaN      0.015625
+34387             DOW  dynamic_TF_carry  [-1]                44554.0               None     44493.0    44492.0       44494.0         NaN      44491.0     -61.0      -1.0      -1.0          NaN                 NaN          -2.0
 
 
-=============================================================================================================================================================
-                                                    Slippage (normalised by annual vol, BP of annual SR)                                                     
-=============================================================================================================================================================
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
 
-      instrument_code     strategy_name trade last_annual_vol  delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-34378         RUSSELL  dynamic_TF_carry   [1]      367.131797  27.238175   -2.723817           0.0              NaN                     NaN         -2.723817
+      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34380           TOPIX  dynamic_TF_carry   [1]      377.678409   191.962258   -6.619388     13.238776              0.0                     NaN          6.619388
+34379        MSCISING  dynamic_TF_carry   [1]       42.069328   855.730336  -11.885144    -11.885144       -35.655431                     NaN        -23.770287
+34381        MSCISING  dynamic_TF_carry   [1]       42.069328    837.90262   -5.942572    -35.655431       -47.540574                     NaN        -41.598002
+34382              DX  dynamic_TF_carry   [1]        8.874559    36.621539   -2.817041     61.974913              NaN                     NaN         59.157871
+34383          COFFEE  dynamic_TF_carry  [-1]       117.67078 -1576.432144   -8.498286   -101.979438      -118.976011                     NaN       -110.477724
+34384          SILVER  dynamic_TF_carry   [1]        7.884349   669.046979   -9.512516           0.0       -19.025033                     NaN         -9.512516
+34385             GBP  dynamic_TF_carry  [-1]        0.093832   431.621405   -5.328659     10.657319             -0.0                     NaN          5.328659
+34386            US30  dynamic_TF_carry   [1]        15.95054   264.489477   -9.795907     19.591813              0.0                     NaN          9.795907
+34387             DOW  dynamic_TF_carry  [-1]     4450.559139   -137.06143   -2.246909     -2.246909              NaN                     NaN         -4.493817
 
 
-=======================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                      
-=======================================================================================================================================================================
+=========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                       
+=========================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-34378         RUSSELL  dynamic_TF_carry   [1]             4.029155   4.029155    -0.402915            0.0               NaN                      NaN          -0.402915
+      instrument_code     strategy_name trade value_of_price_point   delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34380           TOPIX  dynamic_TF_carry   [1]             5.325913    38.612866    -1.331478       2.662956               0.0                      NaN           1.331478
+34379        MSCISING  dynamic_TF_carry   [1]            59.687388   214.874597    -2.984369      -2.984369         -8.953108                      NaN          -5.968739
+34381        MSCISING  dynamic_TF_carry   [1]            59.687388   210.398043    -1.492185      -8.953108        -11.937478                      NaN         -10.445293
+34382              DX  dynamic_TF_carry   [1]           809.107312    26.295988    -2.022768      44.500902               NaN                      NaN          42.478134
+34383          COFFEE  dynamic_TF_carry  [-1]           303.415242 -5628.352738   -30.341524     -364.09829       -424.781339                      NaN        -394.439815
+34384          SILVER  dynamic_TF_carry   [1]           809.107312   426.804107    -6.068305            0.0         -12.13661                      NaN          -6.068305
+34385             GBP  dynamic_TF_carry  [-1]         50569.206994   204.805288     -2.52846       5.056921              -0.0                      NaN            2.52846
+34386            US30  dynamic_TF_carry   [1]           809.107312   341.342147   -12.642302      25.284603               0.0                      NaN          12.642302
+34387             DOW  dynamic_TF_carry  [-1]             0.404554   -24.677773    -0.404554      -0.404554               NaN                      NaN          -0.809107
 
 delay_cash Sum
-                                 delay_cash
-strategy_name    instrument_code           
-dynamic_TF_carry RUSSELL           4.029155
+                                   delay_cash
+strategy_name    instrument_code             
+dynamic_TF_carry COFFEE          -5628.352738
+                 DOW               -24.677773
+                 DX                 26.295988
+                 GBP               204.805288
+                 MSCISING          425.272641
+                 SILVER            426.804107
+                 TOPIX              38.612866
+                 US30              341.342147
 delay_cash Total Sum
-                 delay_cash
-strategy_name              
-dynamic_TF_carry   4.029155
+                   delay_cash
+strategy_name                
+dynamic_TF_carry -4189.897475
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry RUSSELL            -0.402915
+dynamic_TF_carry COFFEE            -30.341524
+                 DOW                -0.404554
+                 DX                 -2.022768
+                 GBP                 -2.52846
+                 MSCISING           -4.476554
+                 SILVER             -6.068305
+                 TOPIX              -1.331478
+                 US30              -12.642302
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -0.402915
+dynamic_TF_carry   -59.815945
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry RUSSELL                    0.0
+dynamic_TF_carry COFFEE              -364.09829
+                 DOW                  -0.404554
+                 DX                   44.500902
+                 GBP                   5.056921
+                 MSCISING            -11.937478
+                 SILVER                     0.0
+                 TOPIX                 2.662956
+                 US30                 25.284603
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry            0.0
+dynamic_TF_carry    -298.934939
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry RUSSELL                         0
+dynamic_TF_carry COFFEE                -424.781339
+                 DOW                             0
+                 DX                              0
+                 GBP                          -0.0
+                 MSCISING               -20.890586
+                 SILVER                  -12.13661
+                 TOPIX                         0.0
+                 US30                          0.0
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry                 0
+dynamic_TF_carry       -457.808534
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry RUSSELL                                0
+dynamic_TF_carry COFFEE                                 0
+                 DOW                                    0
+                 DX                                     0
+                 GBP                                    0
+                 MSCISING                               0
+                 SILVER                                 0
+                 TOPIX                                  0
+                 US30                                   0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -87,11 +162,18 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry RUSSELL                  -0.402915
+dynamic_TF_carry COFFEE                 -394.439815
+                 DOW                      -0.809107
+                 DX                       42.478134
+                 GBP                        2.52846
+                 MSCISING                -16.414032
+                 SILVER                   -6.068305
+                 TOPIX                     1.331478
+                 US30                     12.642302
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry          -0.402915
+dynamic_TF_carry        -358.750884
 
 ********************************************************************************
                                  END OF REPORT                                  
