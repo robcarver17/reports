@@ -1,10 +1,10 @@
 
 ********************************************************************************
-                 Reconcile report produced on 18/02/2025 22:50                  
+                 Reconcile report produced on 19/02/2025 22:50                  
 ********************************************************************************
 
 
-Breaks Optimal vs actual ['dynamic_TF_carry EUR_micro']
+Breaks Optimal vs actual ['dynamic_TF_carry MUMMY']
  Breaks Instrument vs Contract []
  Breaks Broker vs Contract []
 
@@ -20,7 +20,7 @@ Breaks Optimal vs actual ['dynamic_TF_carry EUR_micro']
 20           CAD10      20250320  2025-03-20 00:00:00       1.0
 2              CHF      20250317  2025-03-17 00:00:00      -2.0
 18    COPPER-micro      20250428  2025-04-28 00:00:00      -2.0
-21       EUR_micro      20250616  2025-06-16 00:00:00      -1.0
+21       EUR_micro      20250616  2025-06-16 00:00:00      -3.0
 4          FEEDCOW      20250522  2025-05-22 00:00:00       1.0
 6       FTSETAIWAN      20250226  2025-02-26 00:00:00      -1.0
 14             GBP      20250616  2025-06-16 00:00:00       1.0
@@ -45,49 +45,49 @@ Breaks Optimal vs actual ['dynamic_TF_carry EUR_micro']
 ===============================================================
 
    instrument_code contract_date          expiry_date  position
-20         BITCOIN      20250328  2025-03-28 00:00:00       1.0
-2             BUND      20250306  2025-03-06 00:00:00      -1.0
-21             CAC      20250321  2025-03-21 00:00:00       1.0
-24             CAD      20250318  2025-03-18 00:00:00      -1.0
-19           CAD10      20250320  2025-03-20 00:00:00       1.0
-10             CHF      20250317  2025-03-17 00:00:00      -2.0
-12    COPPER-micro      20250428  2025-04-28 00:00:00      -2.0
-8        EUR_micro      20250616  2025-06-16 00:00:00      -1.0
-22         FEEDCOW      20250522  2025-05-22 00:00:00       1.0
-4       FTSETAIWAN      20250226  2025-02-26 00:00:00      -1.0
-0              GBP      20250616  2025-06-16 00:00:00       1.0
-5       GOLD_micro      20250428  2025-04-28 00:00:00       1.0
+9          BITCOIN      20250328  2025-03-28 00:00:00       1.0
+6             BUND      20250306  2025-03-06 00:00:00      -1.0
+13             CAC      20250321  2025-03-21 00:00:00       1.0
+14             CAD      20250318  2025-03-18 00:00:00      -1.0
+1            CAD10      20250320  2025-03-20 00:00:00       1.0
+15             CHF      20250317  2025-03-17 00:00:00      -2.0
+0     COPPER-micro      20250428  2025-04-28 00:00:00      -2.0
+24       EUR_micro      20250616  2025-06-16 00:00:00      -3.0
+16         FEEDCOW      20250522  2025-05-22 00:00:00       1.0
+19      FTSETAIWAN      20250226  2025-02-26 00:00:00      -1.0
+23             GBP      20250616  2025-06-16 00:00:00       1.0
+11      GOLD_micro      20250428  2025-04-28 00:00:00       1.0
 3        HANG_mini      20250328  2025-03-28 00:00:00       1.0
-13             JPY      20250317  2025-03-17 00:00:00      -1.0
-14             MIB      20250321  2025-03-21 00:00:00       1.0
-17        MSCISING      20250227  2025-02-27 00:00:00       3.0
+7              JPY      20250317  2025-03-17 00:00:00      -1.0
+4              MIB      20250321  2025-03-21 00:00:00       1.0
+12        MSCISING      20250227  2025-02-27 00:00:00       3.0
 18      MSCITAIWAN      20250227  2025-02-27 00:00:00       1.0
-16         RUSSELL      20250321  2025-03-21 00:00:00      -2.0
-7           SILVER      20250528  2025-05-28 00:00:00       1.0
-11             SMI      20250321  2025-03-21 00:00:00       1.0
-1      SP500_micro      20250321  2025-03-21 00:00:00       1.0
-15         SUGAR11      20250430  2025-04-30 00:00:00      -1.0
-6            TOPIX      20250313  2025-03-13 00:00:00       6.0
-23             VIX      20250521  2025-05-21 00:00:00      -1.0
-9              VIX      20250416  2025-04-16 00:00:00      -1.0
+17         RUSSELL      20250321  2025-03-21 00:00:00      -2.0
+22          SILVER      20250528  2025-05-28 00:00:00       1.0
+2              SMI      20250321  2025-03-21 00:00:00       1.0
+8      SP500_micro      20250321  2025-03-21 00:00:00       1.0
+21         SUGAR11      20250430  2025-04-30 00:00:00      -1.0
+20           TOPIX      20250313  2025-03-13 00:00:00       6.0
+10             VIX      20250416  2025-04-16 00:00:00      -1.0
+5              VIX      20250521  2025-05-21 00:00:00      -1.0
 
 
-===============
- Trades in DB  
-===============
+=================================================================================
+                                  Trades in DB                                   
+=================================================================================
 
-Empty DataFrame
-Columns: [strategy_name, contract_date, fill_datetime, fill, filled_price]
-Index: []
+              strategy_name contract_date       fill_datetime  fill  filled_price
+EUR_micro  dynamic_TF_carry    [20250600] 2025-02-19 15:00:08  [-1]        1.0498
+EUR_micro  dynamic_TF_carry    [20250600] 2025-02-19 15:00:13  [-1]        1.0498
 
 
-==================
-Trades from broker
-==================
+=============================================================================
+                             Trades from broker                              
+=============================================================================
 
-Empty DataFrame
-Columns: [strategy_name, contract_date, fill_datetime, fill, filled_price]
-Index: []
+          strategy_name contract_date       fill_datetime  fill  filled_price
+EUR_micro                  [20250616] 2025-02-19 15:00:08  [-1]        1.0498
+EUR_micro                  [20250616] 2025-02-19 15:00:13  [-1]        1.0498
 
 
 ==========================================================
@@ -141,7 +141,7 @@ dynamic_TF_carry SEK                     0       0   False
 dynamic_TF_carry EU-TECH                 0       0   False
 dynamic_TF_carry FEEDCOW                 1       1   False
 dynamic_TF_carry CAD5                    0       0   False
-dynamic_TF_carry MUMMY                   0       0   False
+dynamic_TF_carry MUMMY                   0       1    True
 dynamic_TF_carry GBPEUR                  0       0   False
 dynamic_TF_carry SP500_micro             1       1   False
 dynamic_TF_carry HOUSE-US                0       0   False
@@ -221,7 +221,7 @@ dynamic_TF_carry HANGENT_mini            0       0   False
 dynamic_TF_carry COFFEE                  0       0   False
 dynamic_TF_carry REDWHEAT                0       0   False
 dynamic_TF_carry ZINC_LME                0       0   False
-dynamic_TF_carry EUR_micro              -1      -3    True
+dynamic_TF_carry EUR_micro              -3      -3   False
 dynamic_TF_carry AUDJPY                  0       0   False
 dynamic_TF_carry SUGAR_WHITE             0       0   False
 dynamic_TF_carry SOFR                    0       0   False
