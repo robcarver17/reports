@@ -1,15 +1,119 @@
 
 ********************************************************************************
-Trades report produced on 26/02/2025 22:51 from 25/02/2025 22:51 to 26/02/2025 22:51
+Trades report produced on 27/02/2025 22:51 from 26/02/2025 22:51 to 27/02/2025 22:51
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+============================================================================================
+                                       Broker orders                                        
+============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
+34427            BUXL  dynamic_TF_carry    [20250300] 2025-02-27 08:00:09  [1]        129.38
+34428           CAD10  dynamic_TF_carry    [20250600] 2025-02-27 14:02:11  [1]        124.00
+34426        MSCISING  dynamic_TF_carry    [20250300] 2025-02-27 02:02:24  [1]        396.70
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+34426        MSCISING  dynamic_TF_carry       2025-02-26 00:00:00  2025-02-27 02:02:18.469000  2025-02-27 02:02:24              93738.469               5.531
+34427            BUXL  dynamic_TF_carry       2025-02-24 16:00:00  2025-02-27 08:00:09.371000  2025-02-27 08:00:09             230409.371                 NaN
+34428           CAD10  dynamic_TF_carry       2025-02-24 00:00:00  2025-02-27 14:00:07.129000  2025-02-27 14:02:11             309607.129             123.871
+
+
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+34426        MSCISING  dynamic_TF_carry   [1]                 394.35               None   396.725     396.75         396.7       396.7        396.7 -2.375  -0.025      0.05          0.0                 NaN         0.025
+34427            BUXL  dynamic_TF_carry   [1]                  128.3               None    129.41     129.42         129.4       129.4       129.38  -1.11   -0.01      0.04         0.02                 NaN          0.03
+34428           CAD10  dynamic_TF_carry   [1]                 123.19               None   123.765     123.77        123.76      123.76        124.0 -0.575  -0.005     -0.23        -0.24                 NaN        -0.235
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34426        MSCISING  dynamic_TF_carry   [1]       45.258904 -524.758616   -5.523775      11.04755              0.0                     NaN          5.523775
+34427            BUXL  dynamic_TF_carry   [1]       19.211777 -577.770592    -5.20514     20.820562        10.410281                     NaN         15.615421
+34428           CAD10  dynamic_TF_carry   [1]        8.785117 -654.516078   -5.691444   -261.806431       -273.18932                     NaN       -267.497875
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34426        MSCISING  dynamic_TF_carry   [1]            58.913273 -139.919023    -1.472832       2.945664               0.0                      NaN           1.472832
+34427            BUXL  dynamic_TF_carry   [1]           826.977909 -917.945479    -8.269779      33.079116         16.539558                      NaN          24.809337
+34428           CAD10  dynamic_TF_carry   [1]           550.328732 -316.439021    -2.751644    -126.575608       -132.078896                      NaN        -129.327252
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry BUXL            -917.945479
+                 CAD10           -316.439021
+                 MSCISING        -139.919023
+delay_cash Total Sum
+                   delay_cash
+strategy_name                
+dynamic_TF_carry -1374.303522
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry BUXL               -8.269779
+                 CAD10              -2.751644
+                 MSCISING           -1.472832
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -12.494255
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry BUXL                 33.079116
+                 CAD10              -126.575608
+                 MSCISING              2.945664
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry     -90.550828
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry BUXL                    16.539558
+                 CAD10                 -132.078896
+                 MSCISING                      0.0
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry       -115.539338
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry BUXL                                   0
+                 CAD10                                  0
+                 MSCISING                               0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry BUXL                     24.809337
+                 CAD10                  -129.327252
+                 MSCISING                  1.472832
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry        -103.045083
 
 ********************************************************************************
                                  END OF REPORT                                  
