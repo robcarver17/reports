@@ -1,15 +1,200 @@
 
 ********************************************************************************
-Trades report produced on 04/03/2025 22:51 from 03/03/2025 22:51 to 04/03/2025 22:51
+Trades report produced on 05/03/2025 22:51 from 04/03/2025 22:51 to 05/03/2025 22:51
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+34446             BTP  dynamic_TF_carry    [20250600] 2025-03-05 08:00:14  [-1]      118.3100
+34450             DOW  dynamic_TF_carry    [20250300] 2025-03-05 15:00:06  [-1]    42768.0000
+34451       EUR_micro  dynamic_TF_carry    [20250600] 2025-03-05 15:00:08   [1]        1.0825
+34452       EUR_micro  dynamic_TF_carry    [20250600] 2025-03-05 15:00:13   [1]        1.0830
+34453       EUR_micro  dynamic_TF_carry    [20250600] 2025-03-05 15:00:18   [1]        1.0824
+34448     GAS_US_mini  dynamic_TF_carry    [20250500] 2025-03-05 14:00:08  [-1]        4.4600
+34445       HANG_mini  dynamic_TF_carry    [20250300] 2025-03-05 02:15:02  [-1]    23260.0000
+34454         LEANHOG  dynamic_TF_carry    [20250600] 2025-03-05 15:30:03  [-1]       93.9750
+34447          SILVER  dynamic_TF_carry    [20250500] 2025-03-05 14:00:02   [1]       32.6500
+34449     SP500_micro  dynamic_TF_carry    [20250300] 2025-03-05 15:00:05  [-1]     5798.0000
+34443           TOPIX  dynamic_TF_carry    [20250300] 2025-03-05 02:02:20  [-1]     2709.7500
+34444           TOPIX  dynamic_TF_carry    [20250300] 2025-03-05 02:02:26  [-1]     2710.2500
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+34443           TOPIX  dynamic_TF_carry       2025-03-04 00:00:00  2025-03-05 02:02:18.897000  2025-03-05 02:02:20              93738.897               1.103
+34444           TOPIX  dynamic_TF_carry       2025-03-04 00:00:00  2025-03-05 02:02:25.358000  2025-03-05 02:02:26              93745.358               0.642
+34445       HANG_mini  dynamic_TF_carry       2025-03-04 00:00:00  2025-03-05 02:15:02.296000  2025-03-05 02:15:02              94502.296                 NaN
+34446             BTP  dynamic_TF_carry       2025-03-04 00:00:00  2025-03-05 08:00:08.006000  2025-03-05 08:00:14             115208.006               5.994
+34447          SILVER  dynamic_TF_carry       2025-03-04 00:00:00  2025-03-05 14:00:02.770000  2025-03-05 14:00:02              136802.77                 NaN
+34448     GAS_US_mini  dynamic_TF_carry       2025-03-04 00:00:00  2025-03-05 14:00:08.008000  2025-03-05 14:00:08             136808.008                 NaN
+34449     SP500_micro  dynamic_TF_carry       2025-03-04 00:00:00  2025-03-05 15:00:04.860000  2025-03-05 15:00:05              140404.86                0.14
+34450             DOW  dynamic_TF_carry       2025-03-04 00:00:00  2025-03-05 15:00:06.536000  2025-03-05 15:00:06             140406.536                 NaN
+34451       EUR_micro  dynamic_TF_carry       2025-03-04 00:00:00  2025-03-05 15:00:08.167000  2025-03-05 15:00:08             140408.167                 NaN
+34452       EUR_micro  dynamic_TF_carry       2025-03-04 00:00:00  2025-03-05 15:00:13.015000  2025-03-05 15:00:13             140413.015                 NaN
+34453       EUR_micro  dynamic_TF_carry       2025-03-04 00:00:00  2025-03-05 15:00:18.488000  2025-03-05 15:00:18             140418.488                 NaN
+34454         LEANHOG  dynamic_TF_carry       2025-03-04 00:00:00  2025-03-05 15:30:01.291000  2025-03-05 15:30:03             142201.291               1.709
+
+
+==============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                   
+==============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
+34443           TOPIX  dynamic_TF_carry  [-1]                2700.75               None   2710.25     2710.0        2710.5      2710.5      2709.75      9.5    -0.25     -0.25        -0.75                 NaN          -0.5
+34444           TOPIX  dynamic_TF_carry  [-1]                2700.75               None    2710.0    2709.75       2710.25     2710.25      2710.25     9.25    -0.25       0.5         -0.0                 NaN          0.25
+34445       HANG_mini  dynamic_TF_carry  [-1]                22935.0               None   23258.5    23258.0       23259.0     23259.0      23260.0    323.5     -0.5       2.0          1.0                 NaN           1.5
+34446             BTP  dynamic_TF_carry  [-1]                 119.54               None   118.315     118.31        118.32      118.32       118.31   -1.225   -0.005      -0.0        -0.01                 NaN        -0.005
+34447          SILVER  dynamic_TF_carry   [1]                  32.63               None   32.6525     32.655         32.65       32.65        32.65  -0.0225  -0.0025     0.005          0.0                 NaN        0.0025
+34448     GAS_US_mini  dynamic_TF_carry  [-1]                   4.37               None    4.4625       4.46         4.465         NaN         4.46   0.0925  -0.0025      -0.0          NaN                 NaN       -0.0025
+34449     SP500_micro  dynamic_TF_carry  [-1]                5852.75               None    5798.0     5798.0        5798.0      5798.0       5798.0   -54.75     -0.0      -0.0         -0.0                 NaN          -0.0
+34450             DOW  dynamic_TF_carry  [-1]                43145.0               None   42777.5    42772.0       42783.0     42783.0      42768.0   -367.5     -5.5      -4.0        -15.0                 NaN          -9.5
+34451       EUR_micro  dynamic_TF_carry   [1]                 1.0681               None   1.08275      1.083        1.0825      1.0825       1.0825 -0.01465 -0.00025    0.0005          0.0                 NaN       0.00025
+34452       EUR_micro  dynamic_TF_carry   [1]                 1.0681               None   1.08265      1.083        1.0823      1.0823        1.083 -0.01455 -0.00035       0.0      -0.0007                 NaN      -0.00035
+34453       EUR_micro  dynamic_TF_carry   [1]                 1.0681               None    1.0827      1.083        1.0824      1.0824       1.0824  -0.0146  -0.0003    0.0006          0.0                 NaN        0.0003
+34454         LEANHOG  dynamic_TF_carry  [-1]                  93.05               None   93.9875     93.975          94.0        94.0       93.975   0.9375  -0.0125      -0.0       -0.025                 NaN       -0.0125
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34443           TOPIX  dynamic_TF_carry  [-1]      324.834814   292.456338   -7.696219     -7.696219       -23.088658                     NaN        -15.392439
+34444           TOPIX  dynamic_TF_carry  [-1]      324.834814   284.760118   -7.696219     15.392439             -0.0                     NaN          7.696219
+34445       HANG_mini  dynamic_TF_carry  [-1]     5760.048005   561.627264   -0.868048      3.472193         1.736097                     NaN          2.604145
+34446             BTP  dynamic_TF_carry  [-1]       11.059282 -1107.666812   -4.521089          -0.0        -9.042178                     NaN         -4.521089
+34447          SILVER  dynamic_TF_carry   [1]        7.713156   -29.170938   -3.241215      6.482431              0.0                     NaN          3.241215
+34448     GAS_US_mini  dynamic_TF_carry  [-1]        2.180213   424.270493   -11.46677          -0.0              NaN                     NaN         -11.46677
+34449     SP500_micro  dynamic_TF_carry  [-1]      767.293732  -713.546817        -0.0          -0.0             -0.0                     NaN              -0.0
+34450             DOW  dynamic_TF_carry  [-1]     5144.450608  -714.361995  -10.691132     -7.775369       -29.157632                     NaN        -18.466501
+34451       EUR_micro  dynamic_TF_carry   [1]        0.102075 -1435.225818  -24.491908     48.983816              0.0                     NaN         24.491908
+34452       EUR_micro  dynamic_TF_carry   [1]        0.102075 -1425.429055  -34.288671           0.0       -68.577343                     NaN        -34.288671
+34453       EUR_micro  dynamic_TF_carry   [1]        0.102075 -1430.327436   -29.39029      58.78058              0.0                     NaN          29.39029
+34454         LEANHOG  dynamic_TF_carry  [-1]       24.049679   389.818089   -5.197575          -0.0       -10.395149                     NaN         -5.197575
+
+
+=========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                       
+=========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point   delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34443           TOPIX  dynamic_TF_carry  [-1]             5.218708    49.577726    -1.304677      -1.304677         -3.914031                      NaN          -2.609354
+34444           TOPIX  dynamic_TF_carry  [-1]             5.218708    48.273049    -1.304677       2.609354              -0.0                      NaN           1.304677
+34445       HANG_mini  dynamic_TF_carry  [-1]             1.005236   325.193806    -0.502618       2.010472          1.005236                      NaN           1.507854
+34446             BTP  dynamic_TF_carry  [-1]           830.760216 -1017.681264    -4.153801           -0.0         -8.307602                      NaN          -4.153801
+34447          SILVER  dynamic_TF_carry   [1]            781.31104   -17.579498    -1.953278       3.906555               0.0                      NaN           1.953278
+34448     GAS_US_mini  dynamic_TF_carry  [-1]            1953.2776   180.678178    -4.883194           -0.0               NaN                      NaN          -4.883194
+34449     SP500_micro  dynamic_TF_carry  [-1]             3.906555  -213.883897         -0.0           -0.0              -0.0                      NaN               -0.0
+34450             DOW  dynamic_TF_carry  [-1]             0.390656  -143.565904    -2.148605      -1.562622         -5.859833                      NaN          -3.711227
+34451       EUR_micro  dynamic_TF_carry   [1]          9766.387999  -143.077584    -2.441597       4.883194               0.0                      NaN           2.441597
+34452       EUR_micro  dynamic_TF_carry   [1]          9766.387999  -142.100945    -3.418236            0.0         -6.836472                      NaN          -3.418236
+34453       EUR_micro  dynamic_TF_carry   [1]          9766.387999  -142.589265    -2.929916       5.859833               0.0                      NaN           2.929916
+34454         LEANHOG  dynamic_TF_carry  [-1]           312.524416    292.99164    -3.906555           -0.0          -7.81311                      NaN          -3.906555
+
+delay_cash Sum
+                                   delay_cash
+strategy_name    instrument_code             
+dynamic_TF_carry BTP             -1017.681264
+                 DOW              -143.565904
+                 EUR_micro        -427.767794
+                 GAS_US_mini       180.678178
+                 HANG_mini         325.193806
+                 LEANHOG            292.99164
+                 SILVER            -17.579498
+                 SP500_micro      -213.883897
+                 TOPIX              97.850775
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -923.763959
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry BTP                -4.153801
+                 DOW                -2.148605
+                 EUR_micro          -8.789749
+                 GAS_US_mini        -4.883194
+                 HANG_mini          -0.502618
+                 LEANHOG            -3.906555
+                 SILVER             -1.953278
+                 SP500_micro             -0.0
+                 TOPIX              -2.609354
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -28.947154
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry BTP                       -0.0
+                 DOW                  -1.562622
+                 EUR_micro            10.743027
+                 GAS_US_mini               -0.0
+                 HANG_mini             2.010472
+                 LEANHOG                   -0.0
+                 SILVER                3.906555
+                 SP500_micro               -0.0
+                 TOPIX                 1.304677
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry      16.402109
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry BTP                     -8.307602
+                 DOW                     -5.859833
+                 EUR_micro               -6.836472
+                 GAS_US_mini                     0
+                 HANG_mini                1.005236
+                 LEANHOG                  -7.81311
+                 SILVER                        0.0
+                 SP500_micro                  -0.0
+                 TOPIX                   -3.914031
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry        -31.725812
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry BTP                                    0
+                 DOW                                    0
+                 EUR_micro                              0
+                 GAS_US_mini                            0
+                 HANG_mini                              0
+                 LEANHOG                                0
+                 SILVER                                 0
+                 SP500_micro                            0
+                 TOPIX                                  0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry BTP                      -4.153801
+                 DOW                      -3.711227
+                 EUR_micro                 1.953278
+                 GAS_US_mini              -4.883194
+                 HANG_mini                 1.507854
+                 LEANHOG                  -3.906555
+                 SILVER                    1.953278
+                 SP500_micro                   -0.0
+                 TOPIX                    -1.304677
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry         -12.545046
 
 ********************************************************************************
                                  END OF REPORT                                  
