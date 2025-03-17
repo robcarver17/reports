@@ -1,15 +1,171 @@
 
 ********************************************************************************
-Trades report produced on 14/03/2025 22:50 from 13/03/2025 22:50 to 14/03/2025 22:50
+Trades report produced on 17/03/2025 22:50 from 16/03/2025 22:50 to 17/03/2025 22:50
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+34476    COPPER-micro  dynamic_TF_carry    [20250500] 2025-03-17 14:00:09   [1]        4.9145
+34480       EUR_micro  dynamic_TF_carry    [20250600] 2025-03-17 15:00:20   [1]        1.0972
+34477       EUR_micro  dynamic_TF_carry    [20250600] 2025-03-17 15:00:03   [1]        1.0972
+34475             MIB  dynamic_TF_carry    [20250300] 2025-03-17 08:00:10  [-1]    38705.0000
+34479         RUSSELL  dynamic_TF_carry    [20250300] 2025-03-17 15:00:07   [1]     2052.3000
+34482         RUSSELL  dynamic_TF_carry    [20250300] 2025-03-17 15:00:22   [1]     2054.4000
+34483         RUSSELL  dynamic_TF_carry    [20250300] 2025-03-17 15:00:27   [1]     2054.6000
+34484         RUSSELL  dynamic_TF_carry    [20250300] 2025-03-17 15:00:32   [1]     2054.9000
+34485         RUSSELL  dynamic_TF_carry    [20250300] 2025-03-17 15:00:37   [1]     2054.3000
+34481     SP500_micro  dynamic_TF_carry    [20250300] 2025-03-17 15:00:21   [1]     5655.0000
+34478     SP500_micro  dynamic_TF_carry    [20250300] 2025-03-17 15:00:05   [1]     5649.2500
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+34475             MIB  dynamic_TF_carry       2025-03-14 15:00:00  2025-03-17 08:00:09.867000  2025-03-17 08:00:10             234009.867               0.133
+34476    COPPER-micro  dynamic_TF_carry       2024-02-29 00:00:00  2025-03-17 14:00:09.288000  2025-03-17 14:00:09           33055209.288                 NaN
+34480       EUR_micro  dynamic_TF_carry       2025-03-14 00:00:00  2025-03-17 15:00:12.230000  2025-03-17 15:00:20              313212.23                7.77
+34477       EUR_micro  dynamic_TF_carry       2025-03-14 00:00:00  2025-03-17 15:00:03.738000  2025-03-17 15:00:03             313203.738                 NaN
+34481     SP500_micro  dynamic_TF_carry       2025-03-14 20:00:00  2025-03-17 15:00:21.104000  2025-03-17 15:00:21             241221.104                 NaN
+34478     SP500_micro  dynamic_TF_carry       2025-03-14 20:00:00  2025-03-17 15:00:05.335000  2025-03-17 15:00:05             241205.335                 NaN
+34479         RUSSELL  dynamic_TF_carry       2025-03-14 20:00:00  2025-03-17 15:00:07.305000  2025-03-17 15:00:07             241207.305                 NaN
+34482         RUSSELL  dynamic_TF_carry       2025-03-14 20:00:00  2025-03-17 15:00:22.018000  2025-03-17 15:00:22             241222.018                 NaN
+34483         RUSSELL  dynamic_TF_carry       2025-03-14 20:00:00  2025-03-17 15:00:27.159000  2025-03-17 15:00:27             241227.159                 NaN
+34484         RUSSELL  dynamic_TF_carry       2025-03-14 20:00:00  2025-03-17 15:00:32.276000  2025-03-17 15:00:32             241232.276                 NaN
+34485         RUSSELL  dynamic_TF_carry       2025-03-14 20:00:00  2025-03-17 15:00:37.172000  2025-03-17 15:00:37             241237.172                 NaN
+
+
+==============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                   
+==============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
+34475             MIB  dynamic_TF_carry  [-1]                38645.0               None   38700.0    38695.0       38705.0     38705.0      38705.0     55.0     -5.0      10.0         -0.0                 NaN           5.0
+34476    COPPER-micro  dynamic_TF_carry   [1]                 3.9205               None   4.91375     4.9145         4.913       4.913       4.9145 -0.99325 -0.00075       0.0      -0.0015                 NaN      -0.00075
+34480       EUR_micro  dynamic_TF_carry   [1]                 1.0939               None   1.09715     1.0972        1.0971      1.0971       1.0972 -0.00325 -0.00005       0.0      -0.0001                 NaN      -0.00005
+34477       EUR_micro  dynamic_TF_carry   [1]                 1.0939               None   1.09705     1.0971         1.097       1.097       1.0972 -0.00315 -0.00005   -0.0001      -0.0002                 NaN      -0.00015
+34481     SP500_micro  dynamic_TF_carry   [1]                 5632.0               None   5649.25     5649.5        5649.0      5649.0       5655.0   -17.25    -0.25      -5.5         -6.0                 NaN         -5.75
+34478     SP500_micro  dynamic_TF_carry   [1]                 5632.0               None  5649.125    5649.25        5649.0      5649.0      5649.25  -17.125   -0.125       0.0        -0.25                 NaN        -0.125
+34479         RUSSELL  dynamic_TF_carry   [1]                 2041.4               None    2052.4     2052.5        2052.3      2052.3       2052.3    -11.0     -0.1       0.2          0.0                 NaN           0.1
+34482         RUSSELL  dynamic_TF_carry   [1]                 2041.4               None    2052.4     2052.5        2052.3      2052.3       2054.4    -11.0     -0.1      -1.9         -2.1                 NaN          -2.0
+34483         RUSSELL  dynamic_TF_carry   [1]                 2041.4               None   2054.35     2054.4        2054.3      2054.3       2054.6   -12.95    -0.05      -0.2         -0.3                 NaN         -0.25
+34484         RUSSELL  dynamic_TF_carry   [1]                 2041.4               None   2054.55     2054.6        2054.5      2054.5       2054.9   -13.15    -0.05      -0.3         -0.4                 NaN         -0.35
+34485         RUSSELL  dynamic_TF_carry   [1]                 2041.4               None    2054.8     2054.9        2054.7      2054.7       2054.3    -13.4     -0.1       0.6          0.4                 NaN           0.5
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34475             MIB  dynamic_TF_carry  [-1]     6396.520038    85.984253    -7.81675     15.633501             -0.0                     NaN           7.81675
+34476    COPPER-micro  dynamic_TF_carry   [1]        1.172099 -8474.113433   -6.398777           0.0       -12.797554                     NaN         -6.398777
+34480       EUR_micro  dynamic_TF_carry   [1]        0.091966  -353.393203   -5.436819           0.0       -10.873637                     NaN         -5.436819
+34477       EUR_micro  dynamic_TF_carry   [1]        0.091966  -342.519566   -5.436819    -10.873637       -21.747274                     NaN        -16.310456
+34481     SP500_micro  dynamic_TF_carry   [1]       875.59263  -197.009424   -2.855209    -62.814599       -68.525017                     NaN        -65.669808
+34478     SP500_micro  dynamic_TF_carry   [1]       875.59263   -195.58182   -1.427605           0.0        -2.855209                     NaN         -1.427605
+34479         RUSSELL  dynamic_TF_carry   [1]      407.520593  -269.925009   -2.453864      4.907727              0.0                     NaN          2.453864
+34482         RUSSELL  dynamic_TF_carry   [1]      407.520593  -269.925009   -2.453864    -46.623411       -51.531138                     NaN        -49.077274
+34483         RUSSELL  dynamic_TF_carry   [1]      407.520593  -317.775352   -1.226932     -4.907727        -7.361591                     NaN         -6.134659
+34484         RUSSELL  dynamic_TF_carry   [1]      407.520593   -322.68308   -1.226932     -7.361591        -9.815455                     NaN         -8.588523
+34485         RUSSELL  dynamic_TF_carry   [1]      407.520593  -328.817739   -2.453864     14.723182         9.815455                     NaN         12.269319
+
+
+=========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                       
+=========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point   delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34475             MIB  dynamic_TF_carry  [-1]             4.206921   231.380638   -21.034603      42.069207              -0.0                      NaN          21.034603
+34476    COPPER-micro  dynamic_TF_carry   [1]          1933.585215 -1920.533515    -1.450189            0.0         -2.900378                      NaN          -1.450189
+34480       EUR_micro  dynamic_TF_carry   [1]          9667.926075    -31.42076    -0.483396            0.0         -0.966793                      NaN          -0.483396
+34477       EUR_micro  dynamic_TF_carry   [1]          9667.926075   -30.453967    -0.483396      -0.966793         -1.933585                      NaN          -1.450189
+34481     SP500_micro  dynamic_TF_carry   [1]              3.86717    -66.70869    -0.966793     -21.269437        -23.203023                      NaN          -22.23623
+34478     SP500_micro  dynamic_TF_carry   [1]              3.86717   -66.225294    -0.483396            0.0         -0.966793                      NaN          -0.483396
+34479         RUSSELL  dynamic_TF_carry   [1]              3.86717   -42.538875    -0.386717       0.773434               0.0                      NaN           0.386717
+34482         RUSSELL  dynamic_TF_carry   [1]              3.86717   -42.538875    -0.386717      -7.347624         -8.121058                      NaN          -7.734341
+34483         RUSSELL  dynamic_TF_carry   [1]              3.86717   -50.079857    -0.193359      -0.773434         -1.160151                      NaN          -0.966793
+34484         RUSSELL  dynamic_TF_carry   [1]              3.86717   -50.853291    -0.193359      -1.160151         -1.546868                      NaN           -1.35351
+34485         RUSSELL  dynamic_TF_carry   [1]              3.86717   -51.820084    -0.386717       2.320302          1.546868                      NaN           1.933585
+
+delay_cash Sum
+                                   delay_cash
+strategy_name    instrument_code             
+dynamic_TF_carry COPPER-micro    -1920.533515
+                 EUR_micro         -61.874727
+                 MIB               231.380638
+                 RUSSELL          -237.830981
+                 SP500_micro      -132.933984
+delay_cash Total Sum
+                   delay_cash
+strategy_name                
+dynamic_TF_carry -2121.792569
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry COPPER-micro       -1.450189
+                 EUR_micro          -0.966793
+                 MIB               -21.034603
+                 RUSSELL            -1.546868
+                 SP500_micro        -1.450189
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -26.448642
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry COPPER-micro               0.0
+                 EUR_micro            -0.966793
+                 MIB                  42.069207
+                 RUSSELL              -6.187473
+                 SP500_micro         -21.269437
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry      13.645504
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry COPPER-micro            -2.900378
+                 EUR_micro               -2.900378
+                 MIB                          -0.0
+                 RUSSELL                 -9.281209
+                 SP500_micro            -24.169815
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry         -39.25178
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry COPPER-micro                           0
+                 EUR_micro                              0
+                 MIB                                    0
+                 RUSSELL                                0
+                 SP500_micro                            0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry COPPER-micro             -1.450189
+                 EUR_micro                -1.933585
+                 MIB                      21.034603
+                 RUSSELL                  -7.734341
+                 SP500_micro             -22.719626
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry         -12.803138
 
 ********************************************************************************
                                  END OF REPORT                                  
