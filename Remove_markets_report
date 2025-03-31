@@ -1,15 +1,15 @@
 
 ********************************************************************************
-              Removed markets report produced on 28/03/2025 23:08               
+              Removed markets report produced on 31/03/2025 23:08               
 ********************************************************************************
 
 
 List of markets which should be marked as untradeable due to risk, liquidity or cost issues
-Following should be removed from trading (add to config.bad_markets) [0.300000 threshold]: ['MUMMY'] 
+Following should be removed from trading (add to config.bad_markets) [0.300000 threshold]: ['MUMMY', 'ETHER-micro'] 
 
 
 
-Following should be allowed to trade (delete from config.bad_markets) [0.300000 threshold]: ['EU-CONSTRUCTION', 'MSCIEMASIA', 'EU-MID']
+Following should be allowed to trade (delete from config.bad_markets) [0.300000 threshold]: ['EU-MID', 'EU-CONSTRUCTION', 'MSCIEMASIA']
 
 
 
@@ -17,7 +17,7 @@ Markets too expensive (SR cost per trade > 0.010): ['AEX_mini', 'BOVESPA', 'BUTT
 
 
 
-Markets not enough risk volume (Volume in $m ann. risk per day < 1.50): ['AEX_mini', 'AUDJPY', 'AUD_micro', 'BBCOMM', 'BONO', 'BOVESPA', 'BUTTER', 'CAD_micro', 'CH10', 'CHEESE', 'CHFJPY', 'CHF_micro', 'CLP', 'CNH-onshore', 'COAL-GEORDIE', 'COPPER-mini', 'CORN_mini', 'COTTON', 'CZK', 'DJSTX-SMALL', 'EPRA-EUROPE', 'EU-CHEM', 'EU-DJ-OIL', 'EU-DJ-TECH', 'EU-DJ-TELECOM', 'EU-DJ-UTIL', 'EU-FOOD', 'EU-HOUSE', 'EU-INSURE', 'EU-MEDIA', 'EU-REALESTATE', 'EU-RETAIL', 'EU-TRAVEL', 'EURAUD', 'EURCAD', 'EUROSTX-LARGE', 'EUROSTX-SMALL', 'EUROSTX200-LARGE', 'FTSEVIET', 'GAS-PEN', 'GASOILINE_micro', 'GBPCHF', 'GBPJPY', 'GBP_micro', 'GICS', 'HIGHYIELD', 'HOUSE-US', 'IBEX_mini', 'IG', 'INR', 'IRS', 'JGB-SGX-mini', 'JGB-mini', 'JP-REALESTATE', 'JPY_mini', 'KRWUSD', 'LUMBER-new', 'MILKDRY', 'MILKWET', 'MSCIWORLD', 'MUMMY', 'OATIES', 'OMX', 'PLN', 'RUR', 'SGD', 'SGD_mini', 'SMI-MID', 'SOYBEAN_mini', 'STEEL', 'SUGAR16', 'SWISSLEAD', 'TWD', 'TWD-mini', 'VNKI', 'WHEAT_ICE', 'WHEAT_mini', 'WHEY']
+Markets not enough risk volume (Volume in $m ann. risk per day < 1.50): ['AEX_mini', 'AUDJPY', 'AUD_micro', 'BBCOMM', 'BONO', 'BOVESPA', 'BUTTER', 'CAD_micro', 'CH10', 'CHEESE', 'CHFJPY', 'CHF_micro', 'CLP', 'CNH-onshore', 'COAL-GEORDIE', 'COPPER-mini', 'CORN_mini', 'COTTON', 'CZK', 'DJSTX-SMALL', 'EPRA-EUROPE', 'ETHER-micro', 'EU-CHEM', 'EU-DJ-OIL', 'EU-DJ-TECH', 'EU-DJ-TELECOM', 'EU-DJ-UTIL', 'EU-HOUSE', 'EU-INSURE', 'EU-MEDIA', 'EU-REALESTATE', 'EU-RETAIL', 'EU-TRAVEL', 'EURAUD', 'EURCAD', 'EUROSTX-LARGE', 'EUROSTX-SMALL', 'EUROSTX200-LARGE', 'FTSEVIET', 'GAS-PEN', 'GASOILINE_micro', 'GBPCHF', 'GBPJPY', 'GBP_micro', 'GICS', 'HIGHYIELD', 'HOUSE-US', 'IG', 'INR', 'IRS', 'JGB-mini', 'JP-REALESTATE', 'JPY_mini', 'KRWUSD', 'LUMBER-new', 'MILKDRY', 'MILKWET', 'MSCIWORLD', 'MUMMY', 'OATIES', 'OMX', 'PLN', 'RUR', 'SGD', 'SGD_mini', 'SMI-MID', 'SOYBEAN_mini', 'STEEL', 'SUGAR16', 'SWISSLEAD', 'TWD', 'TWD-mini', 'VNKI', 'WHEAT_ICE', 'WHEAT_mini', 'WHEY']
 
 
 
@@ -25,7 +25,7 @@ Markets not enough contract volume (Volume in contracts per day < 100): ['AEX_mi
 
 
 
-Markets too safe (Annual % std. dev < 5.0): ['BOBL', 'BTP3', 'CAD2', 'CAD5', 'CNH', 'EURIBOR', 'EURIBOR-ICE', 'FED', 'GBPEUR', 'HIGHYIELD', 'HOUSE-US', 'INR', 'JGB', 'JGB-SGX-mini', 'JGB-mini', 'KR10', 'KR3', 'RUR', 'SARONA', 'SGD', 'SGD_mini', 'SHATZ', 'SOFR', 'SONIA3', 'TWD-mini', 'US2', 'US3', 'US5']
+Markets too safe (Annual % std. dev < 5.0): ['BOBL', 'BTP3', 'CAD2', 'CAD5', 'CNH', 'EURIBOR', 'EURIBOR-ICE', 'FED', 'GBPEUR', 'HIGHYIELD', 'HOUSE-US', 'IG', 'INR', 'JGB', 'JGB-SGX-mini', 'JGB-mini', 'KR10', 'KR3', 'RUR', 'SARONA', 'SGD', 'SGD_mini', 'SHATZ', 'SOFR', 'SONIA3', 'TWD-mini', 'US2', 'US3', 'US5']
 
 
 
@@ -65,6 +65,7 @@ exclude_instrument_lists:
     - CZK 
     - DJSTX-SMALL 
     - EPRA-EUROPE 
+    - ETHER-micro 
     - EU-CHEM 
     - EU-DJ-OIL 
     - EU-DJ-TECH 
@@ -172,12 +173,12 @@ exclude_instrument_lists:
     - CZK 
     - DJSTX-SMALL 
     - EPRA-EUROPE 
+    - ETHER-micro 
     - EU-CHEM 
     - EU-DJ-OIL 
     - EU-DJ-TECH 
     - EU-DJ-TELECOM 
     - EU-DJ-UTIL 
-    - EU-FOOD 
     - EU-HOUSE 
     - EU-INSURE 
     - EU-MEDIA 
@@ -203,7 +204,6 @@ exclude_instrument_lists:
     - GICS 
     - HIGHYIELD 
     - HOUSE-US 
-    - IBEX_mini 
     - IG 
     - INR 
     - IRS 
