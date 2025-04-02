@@ -1,10 +1,10 @@
 
 ********************************************************************************
-                 Reconcile report produced on 01/04/2025 22:50                  
+                 Reconcile report produced on 02/04/2025 22:50                  
 ********************************************************************************
 
 
-Breaks Optimal vs actual []
+Breaks Optimal vs actual ['dynamic_TF_carry CRUDE_W_micro']
  Breaks Instrument vs Contract []
  Breaks Broker vs Contract []
 
@@ -39,41 +39,43 @@ Breaks Optimal vs actual []
 ===============================================================
 
    instrument_code contract_date          expiry_date  position
-6          BITCOIN      20250425  2025-04-25 00:00:00      -4.0
-17            BUXL      20250606  2025-06-06 00:00:00      -1.0
-3              CAD      20250617  2025-06-17 00:00:00      -1.0
-8            CAD10      20250619  2025-06-19 00:00:00       1.0
-4              CHF      20250616  2025-06-16 00:00:00      -1.0
-11    COPPER-micro      20250626  2025-06-26 00:00:00      -1.0
-9              DAX      20250620  2025-06-20 00:00:00       1.0
-15         FEEDCOW      20250828  2025-08-28 00:00:00       1.0
-18             GBP      20250616  2025-06-16 00:00:00       4.0
-12          KOSDAQ      20250612  2025-06-12 00:00:00      -3.0
-2          LEANHOG      20250613  2025-06-13 00:00:00      -2.0
-1              MIB      20250620  2025-06-20 00:00:00       1.0
-14        MSCISING      20250429  2025-04-29 00:00:00       2.0
-10           MUMMY      20250612  2025-06-12 00:00:00       1.0
-13          NIKKEI      20250612  2025-06-12 00:00:00       1.0
-7          RUSSELL      20250620  2025-06-20 00:00:00      -2.0
-0      SP500_micro      20250620  2025-06-20 00:00:00      -1.0
-5            TOPIX      20250612  2025-06-12 00:00:00       1.0
-16          YENEUR      20250616  2025-06-16 00:00:00       1.0
+15         BITCOIN      20250425  2025-04-25 00:00:00      -4.0
+18            BUXL      20250606  2025-06-06 00:00:00      -1.0
+4              CAD      20250617  2025-06-17 00:00:00      -1.0
+14           CAD10      20250619  2025-06-19 00:00:00       1.0
+16             CHF      20250616  2025-06-16 00:00:00      -1.0
+17    COPPER-micro      20250626  2025-06-26 00:00:00      -1.0
+8              DAX      20250620  2025-06-20 00:00:00       1.0
+3          FEEDCOW      20250828  2025-08-28 00:00:00       1.0
+1              GBP      20250616  2025-06-16 00:00:00       4.0
+7           KOSDAQ      20250612  2025-06-12 00:00:00      -3.0
+11         LEANHOG      20250613  2025-06-13 00:00:00      -2.0
+5              MIB      20250620  2025-06-20 00:00:00       1.0
+6         MSCISING      20250429  2025-04-29 00:00:00       2.0
+2            MUMMY      20250612  2025-06-12 00:00:00       1.0
+0           NIKKEI      20250612  2025-06-12 00:00:00       1.0
+13         RUSSELL      20250620  2025-06-20 00:00:00      -2.0
+10     SP500_micro      20250620  2025-06-20 00:00:00      -1.0
+12           TOPIX      20250612  2025-06-12 00:00:00       1.0
+9           YENEUR      20250616  2025-06-16 00:00:00       1.0
 
 
-=============================================================================
-                                Trades in DB                                 
-=============================================================================
+===============
+ Trades in DB  
+===============
 
-          strategy_name contract_date       fill_datetime  fill  filled_price
-TOPIX  dynamic_TF_carry    [20250600] 2025-04-01 02:02:12  [-1]       2680.25
+Empty DataFrame
+Columns: [strategy_name, contract_date, fill_datetime, fill, filled_price]
+Index: []
 
 
-=========================================================================
-                           Trades from broker                            
-=========================================================================
+==================
+Trades from broker
+==================
 
-      strategy_name contract_date       fill_datetime  fill  filled_price
-TOPIX                  [20250612] 2025-04-01 02:02:12  [-1]       2680.25
+Empty DataFrame
+Columns: [strategy_name, contract_date, fill_datetime, fill, filled_price]
+Index: []
 
 
 ==========================================================
@@ -142,7 +144,7 @@ dynamic_TF_carry GAS-LAST                0       0   False
 dynamic_TF_carry FTSETAIWAN              0       0   False
 dynamic_TF_carry NOK                     0       0   False
 dynamic_TF_carry OATIES                  0       0   False
-dynamic_TF_carry CRUDE_W_micro           0       0   False
+dynamic_TF_carry CRUDE_W_micro           0       2    True
 dynamic_TF_carry KOSDAQ                 -3      -3   False
 dynamic_TF_carry GASOIL                  0       0   False
 dynamic_TF_carry US10U                   0       0   False
