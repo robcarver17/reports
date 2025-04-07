@@ -1,10 +1,10 @@
 
 ********************************************************************************
-                 Reconcile report produced on 04/04/2025 22:50                  
+                 Reconcile report produced on 07/04/2025 22:50                  
 ********************************************************************************
 
 
-Breaks Optimal vs actual []
+Breaks Optimal vs actual ['dynamic_TF_carry GBP', 'dynamic_TF_carry FEEDCOW', 'dynamic_TF_carry SP500_micro', 'dynamic_TF_carry CRUDE_W_micro', 'dynamic_TF_carry KOSDAQ', 'dynamic_TF_carry MSCISING', 'dynamic_TF_carry SILVER', 'dynamic_TF_carry RUSSELL', 'dynamic_TF_carry NZD', 'dynamic_TF_carry GAS-PEN', 'dynamic_TF_carry NASDAQ_micro', 'dynamic_TF_carry EU-BANKS']
  Breaks Instrument vs Contract []
  Breaks Broker vs Contract []
 
@@ -37,85 +37,41 @@ Breaks Optimal vs actual []
 ===============================================================
 
    instrument_code contract_date          expiry_date  position
-14       ALUMINIUM      20250626  2025-06-26 00:00:00      -1.0
-1          BITCOIN      20250425  2025-04-25 00:00:00      -4.0
-6              CAD      20250617  2025-06-17 00:00:00      -1.0
-8            CAD10      20250619  2025-06-19 00:00:00       1.0
-5     COPPER-micro      20250626  2025-06-26 00:00:00      -1.0
-12             DOW      20250620  2025-06-20 00:00:00      -1.0
+16       ALUMINIUM      20250626  2025-06-26 00:00:00      -1.0
+11         BITCOIN      20250425  2025-04-25 00:00:00      -4.0
+8              CAD      20250617  2025-06-17 00:00:00      -1.0
+14           CAD10      20250619  2025-06-19 00:00:00       1.0
+10    COPPER-micro      20250626  2025-06-26 00:00:00      -1.0
+9              DOW      20250620  2025-06-20 00:00:00      -1.0
 0         EU-BANKS      20250620  2025-06-20 00:00:00       4.0
-10         FEEDCOW      20250828  2025-08-28 00:00:00       1.0
-15             GBP      20250616  2025-06-16 00:00:00       4.0
-3           KOSDAQ      20250612  2025-06-12 00:00:00      -3.0
-4          LEANHOG      20250613  2025-06-13 00:00:00      -2.0
-2          LIVECOW      20250829  2025-08-29 00:00:00       1.0
-16        MSCISING      20250429  2025-04-29 00:00:00       3.0
-7            MUMMY      20250612  2025-06-12 00:00:00       6.0
+5          FEEDCOW      20250828  2025-08-28 00:00:00       1.0
+3              GBP      20250616  2025-06-16 00:00:00       4.0
+4           KOSDAQ      20250612  2025-06-12 00:00:00      -3.0
+7          LEANHOG      20250613  2025-06-13 00:00:00      -2.0
+1          LIVECOW      20250829  2025-08-29 00:00:00       1.0
+6         MSCISING      20250429  2025-04-29 00:00:00       3.0
+12           MUMMY      20250612  2025-06-12 00:00:00       6.0
 13         RUSSELL      20250620  2025-06-20 00:00:00      -4.0
-9      SP500_micro      20250620  2025-06-20 00:00:00      -1.0
-11          YENEUR      20250616  2025-06-16 00:00:00       1.0
+15     SP500_micro      20250620  2025-06-20 00:00:00      -1.0
+2           YENEUR      20250616  2025-06-16 00:00:00       1.0
 
 
-=========================================================================================
-                                      Trades in DB                                       
-=========================================================================================
+===============
+ Trades in DB  
+===============
 
-                  strategy_name contract_date           fill_datetime  fill  filled_price
-TOPIX          dynamic_TF_carry    [20250600] 2025-04-04 02:00:32.000  [-1]      2498.000
-NIKKEI         dynamic_TF_carry    [20250600] 2025-04-04 02:02:28.000  [-1]     34045.000
-MSCISING       dynamic_TF_carry    [20250400] 2025-04-04 02:02:30.000   [1]       382.250
-MUMMY          dynamic_TF_carry    [20250600] 2025-04-04 02:03:08.000   [1]       607.000
-MUMMY          dynamic_TF_carry    [20250600] 2025-04-04 02:03:38.000   [1]       606.000
-MUMMY          dynamic_TF_carry    [20250600] 2025-04-04 02:03:43.000   [1]       608.000
-MUMMY          dynamic_TF_carry    [20250600] 2025-04-04 02:00:48.000   [1]       604.000
-MUMMY          dynamic_TF_carry    [20250600] 2025-04-04 02:02:35.000   [1]       606.000
-DAX            dynamic_TF_carry    [20250600] 2025-04-04 08:10:05.000  [-1]     21797.000
-BUXL           dynamic_TF_carry    [20250600] 2025-04-04 08:10:54.000   [1]       122.480
-EU-BANKS       dynamic_TF_carry    [20250600] 2025-04-04 08:19:20.000   [1]       169.050
-EU-BANKS       dynamic_TF_carry    [20250600] 2025-04-04 08:19:27.000   [1]       169.000
-EU-BANKS       dynamic_TF_carry    [20250600] 2025-04-04 08:19:31.000   [1]       169.000
-EU-BANKS       dynamic_TF_carry    [20250600] 2025-04-04 08:10:07.000   [1]       169.400
-ALUMINIUM      dynamic_TF_carry    [20250600] 2025-04-04 14:00:26.000  [-1]      2271.750
-CRUDE_W_micro  dynamic_TF_carry    [20250700] 2025-04-04 14:00:06.000  [-1]        61.080
-CRUDE_W_micro  dynamic_TF_carry    [20250700] 2025-04-04 14:00:27.000  [-1]        61.110
-CHF            dynamic_TF_carry    [20250600] 2025-04-04 15:00:07.000   [1]         1.183
-DOW            dynamic_TF_carry    [20250600] 2025-04-04 15:00:09.000  [-1]     39787.000
-RUSSELL        dynamic_TF_carry    [20250600] 2025-04-04 15:00:14.000  [-1]      1845.400
-RUSSELL        dynamic_TF_carry    [20250600] 2025-04-04 15:00:05.000  [-1]      1845.700
-LIVECOW        dynamic_TF_carry    [20250800] 2025-04-04 15:30:04.000   [1]       197.000
-MIB            dynamic_TF_carry    [20250600] 2025-04-04 19:30:03.497   [0]           NaN
-MIB            dynamic_TF_carry    [20250600] 2025-04-04 08:19:19.000  [-1]     35745.000
+Empty DataFrame
+Columns: [strategy_name, contract_date, fill_datetime, fill, filled_price]
+Index: []
 
 
-=================================================================================
-                               Trades from broker                                
-=================================================================================
+==================
+Trades from broker
+==================
 
-              strategy_name contract_date       fill_datetime  fill  filled_price
-TOPIX                          [20250612] 2025-04-04 02:00:32  [-1]      2498.000
-MUMMY                          [20250612] 2025-04-04 02:03:43   [1]       608.000
-MUMMY                          [20250612] 2025-04-04 02:03:38   [1]       606.000
-MUMMY                          [20250612] 2025-04-04 02:03:08   [1]       607.000
-MUMMY                          [20250612] 2025-04-04 02:02:35   [1]       606.000
-MSCISING                       [20250429] 2025-04-04 02:02:30   [1]       382.250
-NIKKEI                         [20250612] 2025-04-04 02:02:28  [-1]     34045.000
-MUMMY                          [20250612] 2025-04-04 02:00:48   [1]       604.000
-MIB                            [20250620]                 NaT   [0]           NaN
-LIVECOW                        [20250829] 2025-04-04 15:30:04   [1]       197.000
-RUSSELL                        [20250620] 2025-04-04 15:00:14  [-1]      1845.400
-DOW                            [20250620] 2025-04-04 15:00:09  [-1]     39787.000
-CHF                            [20250616] 2025-04-04 15:00:07   [1]         1.183
-RUSSELL                        [20250620] 2025-04-04 15:00:05  [-1]      1845.700
-CRUDE_W_micro                  [20250618] 2025-04-04 14:00:27  [-1]        61.110
-ALUMINIUM                      [20250626] 2025-04-04 14:00:26  [-1]      2271.750
-CRUDE_W_micro                  [20250618] 2025-04-04 14:00:06  [-1]        61.080
-EU-BANKS                       [20250620] 2025-04-04 08:19:31   [1]       169.000
-EU-BANKS                       [20250620] 2025-04-04 08:19:27   [1]       169.000
-EU-BANKS                       [20250620] 2025-04-04 08:19:20   [1]       169.050
-MIB                            [20250620] 2025-04-04 08:19:19  [-1]     35745.000
-BUXL                           [20250606] 2025-04-04 08:10:54   [1]       122.480
-EU-BANKS                       [20250620] 2025-04-04 08:10:07   [1]       169.400
-DAX                            [20250620] 2025-04-04 08:10:05  [-1]     21797.000
+Empty DataFrame
+Columns: [strategy_name, contract_date, fill_datetime, fill, filled_price]
+Index: []
 
 
 ==========================================================
@@ -133,7 +89,7 @@ dynamic_TF_carry EU-DJ-UTIL              0       0   False
 dynamic_TF_carry MILK                    0       0   False
 dynamic_TF_carry FTSE250                 0       0   False
 dynamic_TF_carry SUGAR11                 0       0   False
-dynamic_TF_carry GBP                     4       4   False
+dynamic_TF_carry GBP                     4       2    True
 dynamic_TF_carry COCOA                   0       0   False
 dynamic_TF_carry RUR                     0       0   False
 dynamic_TF_carry EURIBOR-ICE             0       0   False
@@ -167,11 +123,11 @@ dynamic_TF_carry PLN                     0       0   False
 dynamic_TF_carry CRUDE_ICE               0       0   False
 dynamic_TF_carry SEK                     0       0   False
 dynamic_TF_carry EU-TECH                 0       0   False
-dynamic_TF_carry FEEDCOW                 1       1   False
+dynamic_TF_carry FEEDCOW                 1       0    True
 dynamic_TF_carry CAD5                    0       0   False
 dynamic_TF_carry MUMMY                   6       6   False
 dynamic_TF_carry GBPEUR                  0       0   False
-dynamic_TF_carry SP500_micro            -1      -1   False
+dynamic_TF_carry SP500_micro            -1       0    True
 dynamic_TF_carry HOUSE-US                0       0   False
 dynamic_TF_carry US30                    0       0   False
 dynamic_TF_carry LUMBER-new              0       0   False
@@ -184,8 +140,8 @@ dynamic_TF_carry GAS-LAST                0       0   False
 dynamic_TF_carry FTSETAIWAN              0       0   False
 dynamic_TF_carry NOK                     0       0   False
 dynamic_TF_carry OATIES                  0       0   False
-dynamic_TF_carry CRUDE_W_micro           0       0   False
-dynamic_TF_carry KOSDAQ                 -3      -3   False
+dynamic_TF_carry CRUDE_W_micro           0      -3    True
+dynamic_TF_carry KOSDAQ                 -3      -2    True
 dynamic_TF_carry GASOIL                  0       0   False
 dynamic_TF_carry US10U                   0       0   False
 dynamic_TF_carry BRENT_W                 0       0   False
@@ -201,10 +157,10 @@ dynamic_TF_carry CHEESE                  0       0   False
 dynamic_TF_carry AEX                     0       0   False
 dynamic_TF_carry MSCIWORLD               0       0   False
 dynamic_TF_carry JPY                     0       0   False
-dynamic_TF_carry MSCISING                3       3   False
+dynamic_TF_carry MSCISING                3       2    True
 dynamic_TF_carry IBEX_mini               0       0   False
-dynamic_TF_carry SILVER                  0       0   False
-dynamic_TF_carry RUSSELL                -4      -4   False
+dynamic_TF_carry SILVER                  0      -1    True
+dynamic_TF_carry RUSSELL                -4      -5    True
 dynamic_TF_carry MILLWHEAT               0       0   False
 dynamic_TF_carry SMI-MID                 0       0   False
 dynamic_TF_carry GBPJPY                  0       0   False
@@ -234,7 +190,7 @@ dynamic_TF_carry IRON                    0       0   False
 dynamic_TF_carry SONIA3                  0       0   False
 dynamic_TF_carry COPPER-micro           -1      -1   False
 dynamic_TF_carry EURCHF                  0       0   False
-dynamic_TF_carry NZD                     0       0   False
+dynamic_TF_carry NZD                     0      -1    True
 dynamic_TF_carry FTSEINDO                0       0   False
 dynamic_TF_carry FTSEVIET                0       0   False
 dynamic_TF_carry BRE                     0       0   False
@@ -262,7 +218,7 @@ dynamic_TF_carry CAD2                    0       0   False
 dynamic_TF_carry YENEUR                  1       1   False
 dynamic_TF_carry SPI200                  0       0   False
 dynamic_TF_carry OMX                     0       0   False
-dynamic_TF_carry GAS-PEN                 0       0   False
+dynamic_TF_carry GAS-PEN                 0      -1    True
 dynamic_TF_carry BUND                    0       0   False
 dynamic_TF_carry EUROSTX200-LARGE        0       0   False
 dynamic_TF_carry EURIBOR                 0       0   False
@@ -286,7 +242,7 @@ dynamic_TF_carry TOPIX                   0       0   False
 dynamic_TF_carry ETHANOL                 0       0   False
 dynamic_TF_carry CAD                    -1      -1   False
 dynamic_TF_carry ALUMINIUM              -1      -1   False
-dynamic_TF_carry NASDAQ_micro            0       0   False
+dynamic_TF_carry NASDAQ_micro            0      -2    True
 dynamic_TF_carry NICKEL_LME              0       0   False
 dynamic_TF_carry MSCITAIWAN              0       0   False
 dynamic_TF_carry SWISSLEAD               0       0   False
@@ -297,7 +253,7 @@ dynamic_TF_carry US-ENERGY               0       0   False
 dynamic_TF_carry VNKI                    0       0   False
 dynamic_TF_carry HANGTECH                0       0   False
 dynamic_TF_carry MIB                     0       0   False
-dynamic_TF_carry EU-BANKS                4       4   False
+dynamic_TF_carry EU-BANKS                4       2    True
 dynamic_TF_carry R1000                   0       0   False
 dynamic_TF_carry EUA                     0       0   False
 dynamic_TF_carry ZAR                     0       0   False
