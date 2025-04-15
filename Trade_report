@@ -1,16 +1,21 @@
 
 ********************************************************************************
-Trades report produced on 14/04/2025 22:50 from 13/04/2025 22:50 to 14/04/2025 22:50
+Trades report produced on 15/04/2025 22:50 from 14/04/2025 22:50 to 15/04/2025 22:50
 ********************************************************************************
 
 
 
-============================================================================================
-                                       Broker orders                                        
-============================================================================================
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
-34605      BRENT-LAST  dynamic_TF_carry    [20250700] 2025-04-14 14:00:09  [1]         64.72
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+34608      BRENT-LAST  dynamic_TF_carry    [20250800] 2025-04-15 14:00:10  [-1]         63.27
+34606        EU-BANKS  dynamic_TF_carry    [20250600] 2025-04-15 08:00:10  [-1]        168.75
+34610    NASDAQ_micro  dynamic_TF_carry    [20250600] 2025-04-15 15:00:07   [1]      19071.75
+34611         RUSSELL  dynamic_TF_carry    [20250600] 2025-04-15 15:00:08   [1]       1905.10
+34609     SP500_micro  dynamic_TF_carry    [20250600] 2025-04-15 15:00:05  [-1]       5468.00
+34607         SUGAR11  dynamic_TF_carry    [20251000] 2025-04-15 14:00:03   [1]         17.73
 
 
 =============================================================================================================================================================
@@ -18,7 +23,12 @@ Trades report produced on 14/04/2025 22:50 from 13/04/2025 22:50 to 14/04/2025 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-34605      BRENT-LAST  dynamic_TF_carry       2025-04-11 20:00:00  2025-04-14 14:00:08.918000  2025-04-14 14:00:09             237608.918               0.082
+34606        EU-BANKS  dynamic_TF_carry       2025-04-14 00:00:00  2025-04-15 08:00:09.473000  2025-04-15 08:00:10             115209.473               0.527
+34607         SUGAR11  dynamic_TF_carry       2025-04-14 00:00:00  2025-04-15 14:00:03.521000  2025-04-15 14:00:03             136803.521                 NaN
+34608      BRENT-LAST  dynamic_TF_carry       2025-04-14 00:00:00  2025-04-15 14:00:09.680000  2025-04-15 14:00:10              136809.68                0.32
+34609     SP500_micro  dynamic_TF_carry       2025-04-14 00:00:00  2025-04-15 15:00:04.975000  2025-04-15 15:00:05             140404.975               0.025
+34610    NASDAQ_micro  dynamic_TF_carry       2025-04-14 00:00:00  2025-04-15 15:00:06.714000  2025-04-15 15:00:07             140406.714               0.286
+34611         RUSSELL  dynamic_TF_carry       2025-04-14 00:00:00  2025-04-15 15:00:08.393000  2025-04-15 15:00:08             140408.393                 NaN
 
 
 ===========================================================================================================================================================================================================================
@@ -26,7 +36,12 @@ Trades report produced on 14/04/2025 22:50 from 13/04/2025 22:50 to 14/04/2025 2
 ===========================================================================================================================================================================================================================
 
       instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
-34605      BRENT-LAST  dynamic_TF_carry   [1]                  64.13               None    64.725      64.73         64.72       64.72        64.72 -0.595  -0.005      0.01          0.0                 NaN         0.005
+34606        EU-BANKS  dynamic_TF_carry  [-1]                  168.2               None     168.8     168.75        168.85      168.85       168.75    0.6   -0.05      -0.0         -0.1                 NaN         -0.05
+34607         SUGAR11  dynamic_TF_carry   [1]                  17.84               None    17.735      17.74         17.73       17.73        17.73  0.105  -0.005      0.01          0.0                 NaN         0.005
+34608      BRENT-LAST  dynamic_TF_carry  [-1]                  63.79               None     63.26      63.25         63.27       63.27        63.27  -0.53   -0.01      0.02         -0.0                 NaN          0.01
+34609     SP500_micro  dynamic_TF_carry  [-1]                 5464.0               None  5468.625     5468.5       5468.75     5468.75       5468.0  4.625  -0.125      -0.5        -0.75                 NaN        -0.625
+34610    NASDAQ_micro  dynamic_TF_carry   [1]               19044.75               None   19072.0   19072.25      19071.75    19071.75     19071.75 -27.25   -0.25       0.5          0.0                 NaN          0.25
+34611         RUSSELL  dynamic_TF_carry   [1]                 1895.8               None    1905.2     1905.3        1905.1      1905.1       1905.1   -9.4    -0.1       0.2          0.0                 NaN           0.1
 
 
 ==============================================================================================================================================================
@@ -34,7 +49,12 @@ Trades report produced on 14/04/2025 22:50 from 13/04/2025 22:50 to 14/04/2025 2
 ==============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-34605      BRENT-LAST  dynamic_TF_carry   [1]       26.202875 -227.074318   -1.908188      3.816375              0.0                     NaN          1.908188
+34606        EU-BANKS  dynamic_TF_carry  [-1]       69.156944   86.759183   -7.229932          -0.0       -14.459864                     NaN         -7.229932
+34607         SUGAR11  dynamic_TF_carry   [1]        4.791903   219.11964  -10.434269     20.868537              0.0                     NaN         10.434269
+34608      BRENT-LAST  dynamic_TF_carry  [-1]          25.608 -206.966577    -3.90503      7.810059             -0.0                     NaN           3.90503
+34609     SP500_micro  dynamic_TF_carry  [-1]     1883.342736     24.5574   -0.663714     -2.654854        -3.982281                     NaN         -3.318568
+34610    NASDAQ_micro  dynamic_TF_carry   [1]     7885.074481  -34.558963   -0.317055      0.634109              0.0                     NaN          0.317055
+34611         RUSSELL  dynamic_TF_carry   [1]      716.389845 -131.213474   -1.395888      2.791776              0.0                     NaN          1.395888
 
 
 ========================================================================================================================================================================
@@ -42,44 +62,74 @@ Trades report produced on 14/04/2025 22:50 from 13/04/2025 22:50 to 14/04/2025 2
 ========================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-34605      BRENT-LAST  dynamic_TF_carry   [1]           761.945399 -453.357512    -3.809727       7.619454               0.0                      NaN           3.809727
+34606        EU-BANKS  dynamic_TF_carry  [-1]            42.994575   25.796745    -2.149729           -0.0         -4.299458                      NaN          -2.149729
+34607         SUGAR11  dynamic_TF_carry   [1]            848.56842   89.099684    -4.242842       8.485684               0.0                      NaN           4.242842
+34608      BRENT-LAST  dynamic_TF_carry  [-1]           757.650375 -401.554699    -7.576504      15.153007              -0.0                      NaN           7.576504
+34609     SP500_micro  dynamic_TF_carry  [-1]             3.788252   17.520665    -0.473531      -1.894126         -2.841189                      NaN          -2.367657
+34610    NASDAQ_micro  dynamic_TF_carry   [1]             1.515301  -41.291945    -0.378825        0.75765               0.0                      NaN           0.378825
+34611         RUSSELL  dynamic_TF_carry   [1]             3.788252  -35.609568    -0.378825        0.75765               0.0                      NaN           0.378825
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry BRENT-LAST      -453.357512
+dynamic_TF_carry BRENT-LAST      -401.554699
+                 EU-BANKS          25.796745
+                 NASDAQ_micro     -41.291945
+                 RUSSELL          -35.609568
+                 SP500_micro       17.520665
+                 SUGAR11           89.099684
 delay_cash Total Sum
                   delay_cash
 strategy_name               
-dynamic_TF_carry -453.357512
+dynamic_TF_carry -346.039117
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry BRENT-LAST         -3.809727
+dynamic_TF_carry BRENT-LAST         -7.576504
+                 EU-BANKS           -2.149729
+                 NASDAQ_micro       -0.378825
+                 RUSSELL            -0.378825
+                 SP500_micro        -0.473531
+                 SUGAR11            -4.242842
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -3.809727
+dynamic_TF_carry   -15.200256
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry BRENT-LAST            7.619454
+dynamic_TF_carry BRENT-LAST           15.153007
+                 EU-BANKS                  -0.0
+                 NASDAQ_micro           0.75765
+                 RUSSELL                0.75765
+                 SP500_micro          -1.894126
+                 SUGAR11               8.485684
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry       7.619454
+dynamic_TF_carry      23.259867
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry BRENT-LAST                    0.0
+dynamic_TF_carry BRENT-LAST                   -0.0
+                 EU-BANKS                -4.299458
+                 NASDAQ_micro                  0.0
+                 RUSSELL                       0.0
+                 SP500_micro             -2.841189
+                 SUGAR11                       0.0
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry               0.0
+dynamic_TF_carry         -7.140646
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
 dynamic_TF_carry BRENT-LAST                             0
+                 EU-BANKS                               0
+                 NASDAQ_micro                           0
+                 RUSSELL                                0
+                 SP500_micro                            0
+                 SUGAR11                                0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -87,11 +137,16 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry BRENT-LAST                3.809727
+dynamic_TF_carry BRENT-LAST                7.576504
+                 EU-BANKS                 -2.149729
+                 NASDAQ_micro              0.378825
+                 RUSSELL                   0.378825
+                 SP500_micro              -2.367657
+                 SUGAR11                   4.242842
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry           3.809727
+dynamic_TF_carry            8.05961
 
 ********************************************************************************
                                  END OF REPORT                                  

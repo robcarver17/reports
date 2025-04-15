@@ -1,10 +1,10 @@
 
 ********************************************************************************
-                 Reconcile report produced on 14/04/2025 22:50                  
+                 Reconcile report produced on 15/04/2025 22:50                  
 ********************************************************************************
 
 
-Breaks Optimal vs actual ['dynamic_TF_carry SUGAR11', 'dynamic_TF_carry BRENT-LAST', 'dynamic_TF_carry SP500_micro', 'dynamic_TF_carry RUSSELL', 'dynamic_TF_carry NASDAQ_micro', 'dynamic_TF_carry EU-BANKS']
+Breaks Optimal vs actual []
  Breaks Instrument vs Contract []
  Breaks Broker vs Contract []
 
@@ -15,18 +15,18 @@ Breaks Optimal vs actual ['dynamic_TF_carry SUGAR11', 'dynamic_TF_carry BRENT-LA
    instrument_code contract_date          expiry_date  position
 3        ALUMINIUM      20250626  2025-06-26 00:00:00      -1.0
 11         BITCOIN      20250425  2025-04-25 00:00:00      -4.0
-5         EU-BANKS      20250620  2025-06-20 00:00:00       2.0
+7       BRENT-LAST      20250630  2025-06-30 00:00:00      -1.0
+5         EU-BANKS      20250620  2025-06-20 00:00:00       1.0
 15         GAS-PEN      20250527  2025-05-27 00:00:00      -1.0
 13             GBP      20250616  2025-06-16 00:00:00       2.0
 0             KR10      20250617  2025-06-17 00:00:00       1.0
 4          LEANHOG      20250715  2025-07-15 00:00:00      -2.0
 12           MUMMY      20250612  2025-06-12 00:00:00       7.0
 2              MXP      20250616  2025-06-16 00:00:00       1.0
-9     NASDAQ_micro      20250620  2025-06-20 00:00:00      -1.0
-8          RUSSELL      20250620  2025-06-20 00:00:00      -2.0
+9          RUSSELL      20250620  2025-06-20 00:00:00      -1.0
 10          SILVER      20250729  2025-07-29 00:00:00      -1.0
-6          SUGAR11      20250930  2025-09-30 00:00:00      -1.0
-7            US10U      20250618  2025-06-18 00:00:00      -1.0
+8      SP500_micro      20250620  2025-06-20 00:00:00      -1.0
+6            US10U      20250618  2025-06-18 00:00:00      -1.0
 14           WHEAT      20251212  2025-12-12 00:00:00      -1.0
 1           YENEUR      20250616  2025-06-16 00:00:00       1.0
 
@@ -36,38 +36,48 @@ Breaks Optimal vs actual ['dynamic_TF_carry SUGAR11', 'dynamic_TF_carry BRENT-LA
 ===============================================================
 
    instrument_code contract_date          expiry_date  position
-2        ALUMINIUM      20250626  2025-06-26 00:00:00      -1.0
-6          BITCOIN      20250425  2025-04-25 00:00:00      -4.0
-3         EU-BANKS      20250620  2025-06-20 00:00:00       2.0
-14         GAS-PEN      20250527  2025-05-27 00:00:00      -1.0
-12             GBP      20250616  2025-06-16 00:00:00       2.0
-5             KR10      20250617  2025-06-17 00:00:00       1.0
-7          LEANHOG      20250715  2025-07-15 00:00:00      -2.0
-15           MUMMY      20250612  2025-06-12 00:00:00       7.0
-13             MXP      20250616  2025-06-16 00:00:00       1.0
-8     NASDAQ_micro      20250620  2025-06-20 00:00:00      -1.0
-9          RUSSELL      20250620  2025-06-20 00:00:00      -2.0
-11          SILVER      20250729  2025-07-29 00:00:00      -1.0
-1          SUGAR11      20250930  2025-09-30 00:00:00      -1.0
-0            US10U      20250618  2025-06-18 00:00:00      -1.0
-4            WHEAT      20251212  2025-12-12 00:00:00      -1.0
-10          YENEUR      20250616  2025-06-16 00:00:00       1.0
+11       ALUMINIUM      20250626  2025-06-26 00:00:00      -1.0
+14         BITCOIN      20250425  2025-04-25 00:00:00      -4.0
+8       BRENT-LAST      20250630  2025-06-30 00:00:00      -1.0
+10        EU-BANKS      20250620  2025-06-20 00:00:00       1.0
+13         GAS-PEN      20250527  2025-05-27 00:00:00      -1.0
+15             GBP      20250616  2025-06-16 00:00:00       2.0
+0             KR10      20250617  2025-06-17 00:00:00       1.0
+2          LEANHOG      20250715  2025-07-15 00:00:00      -2.0
+7            MUMMY      20250612  2025-06-12 00:00:00       7.0
+9              MXP      20250616  2025-06-16 00:00:00       1.0
+6          RUSSELL      20250620  2025-06-20 00:00:00      -1.0
+3           SILVER      20250729  2025-07-29 00:00:00      -1.0
+12     SP500_micro      20250620  2025-06-20 00:00:00      -1.0
+1            US10U      20250618  2025-06-18 00:00:00      -1.0
+5            WHEAT      20251212  2025-12-12 00:00:00      -1.0
+4           YENEUR      20250616  2025-06-16 00:00:00       1.0
 
 
-=================================================================================
-                                  Trades in DB                                   
-=================================================================================
+====================================================================================
+                                    Trades in DB                                    
+====================================================================================
 
-               strategy_name contract_date       fill_datetime fill  filled_price
-BRENT-LAST  dynamic_TF_carry    [20250700] 2025-04-14 14:00:09  [1]         64.72
+                 strategy_name contract_date       fill_datetime  fill  filled_price
+EU-BANKS      dynamic_TF_carry    [20250600] 2025-04-15 08:00:10  [-1]        168.75
+SUGAR11       dynamic_TF_carry    [20251000] 2025-04-15 14:00:03   [1]         17.73
+BRENT-LAST    dynamic_TF_carry    [20250800] 2025-04-15 14:00:10  [-1]         63.27
+SP500_micro   dynamic_TF_carry    [20250600] 2025-04-15 15:00:05  [-1]       5468.00
+NASDAQ_micro  dynamic_TF_carry    [20250600] 2025-04-15 15:00:07   [1]      19071.75
+RUSSELL       dynamic_TF_carry    [20250600] 2025-04-15 15:00:08   [1]       1905.10
 
 
-=============================================================================
-                             Trades from broker                              
-=============================================================================
+================================================================================
+                               Trades from broker                               
+================================================================================
 
-           strategy_name contract_date       fill_datetime fill  filled_price
-BRENT-LAST                  [20250530] 2025-04-14 14:00:09  [1]         64.72
+             strategy_name contract_date       fill_datetime  fill  filled_price
+RUSSELL                       [20250620] 2025-04-15 15:00:08   [1]       1905.10
+SP500_micro                   [20250620] 2025-04-15 15:00:05  [-1]       5468.00
+NASDAQ_micro                  [20250620] 2025-04-15 15:00:07   [1]      19071.75
+SUGAR11                       [20250930] 2025-04-15 14:00:03   [1]         17.73
+BRENT-LAST                    [20250630] 2025-04-15 14:00:10  [-1]         63.27
+EU-BANKS                      [20250620] 2025-04-15 08:00:10  [-1]        168.75
 
 
 ==========================================================
@@ -84,7 +94,7 @@ dynamic_TF_carry US5                     0       0   False
 dynamic_TF_carry EU-DJ-UTIL              0       0   False
 dynamic_TF_carry MILK                    0       0   False
 dynamic_TF_carry FTSE250                 0       0   False
-dynamic_TF_carry SUGAR11                -1       0    True
+dynamic_TF_carry SUGAR11                 0       0   False
 dynamic_TF_carry GBP                     2       2   False
 dynamic_TF_carry COCOA                   0       0   False
 dynamic_TF_carry RUR                     0       0   False
@@ -104,7 +114,7 @@ dynamic_TF_carry GILT                    0       0   False
 dynamic_TF_carry CLP                     0       0   False
 dynamic_TF_carry EURCAD                  0       0   False
 dynamic_TF_carry IG                      0       0   False
-dynamic_TF_carry BRENT-LAST              0      -1    True
+dynamic_TF_carry BRENT-LAST             -1      -1   False
 dynamic_TF_carry EUR                     0       0   False
 dynamic_TF_carry LEAD_LME                0       0   False
 dynamic_TF_carry FTSE100                 0       0   False
@@ -123,7 +133,7 @@ dynamic_TF_carry FEEDCOW                 0       0   False
 dynamic_TF_carry CAD5                    0       0   False
 dynamic_TF_carry MUMMY                   7       7   False
 dynamic_TF_carry GBPEUR                  0       0   False
-dynamic_TF_carry SP500_micro             0      -1    True
+dynamic_TF_carry SP500_micro            -1      -1   False
 dynamic_TF_carry HOUSE-US                0       0   False
 dynamic_TF_carry US30                    0       0   False
 dynamic_TF_carry LUMBER-new              0       0   False
@@ -156,7 +166,7 @@ dynamic_TF_carry JPY                     0       0   False
 dynamic_TF_carry MSCISING                0       0   False
 dynamic_TF_carry IBEX_mini               0       0   False
 dynamic_TF_carry SILVER                 -1      -1   False
-dynamic_TF_carry RUSSELL                -2      -1    True
+dynamic_TF_carry RUSSELL                -1      -1   False
 dynamic_TF_carry MILLWHEAT               0       0   False
 dynamic_TF_carry SMI-MID                 0       0   False
 dynamic_TF_carry GBPJPY                  0       0   False
@@ -238,7 +248,7 @@ dynamic_TF_carry TOPIX                   0       0   False
 dynamic_TF_carry ETHANOL                 0       0   False
 dynamic_TF_carry CAD                     0       0   False
 dynamic_TF_carry ALUMINIUM              -1      -1   False
-dynamic_TF_carry NASDAQ_micro           -1       0    True
+dynamic_TF_carry NASDAQ_micro            0       0   False
 dynamic_TF_carry NICKEL_LME              0       0   False
 dynamic_TF_carry MSCITAIWAN              0       0   False
 dynamic_TF_carry SWISSLEAD               0       0   False
@@ -249,7 +259,7 @@ dynamic_TF_carry US-ENERGY               0       0   False
 dynamic_TF_carry VNKI                    0       0   False
 dynamic_TF_carry HANGTECH                0       0   False
 dynamic_TF_carry MIB                     0       0   False
-dynamic_TF_carry EU-BANKS                2       1    True
+dynamic_TF_carry EU-BANKS                1       1   False
 dynamic_TF_carry R1000                   0       0   False
 dynamic_TF_carry EUA                     0       0   False
 dynamic_TF_carry ZAR                     0       0   False
