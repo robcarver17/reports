@@ -1,15 +1,174 @@
 
 ********************************************************************************
-Trades report produced on 23/04/2025 22:50 from 22/04/2025 22:50 to 23/04/2025 22:50
+Trades report produced on 24/04/2025 22:51 from 23/04/2025 22:51 to 24/04/2025 22:51
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+34641             BTP  dynamic_TF_carry    [20250600] 2025-04-24 08:00:19   [1]       119.880
+34643   CRUDE_W_micro  dynamic_TF_carry    [20250800] 2025-04-24 14:00:10   [1]        61.600
+34644             DOW  dynamic_TF_carry    [20250600] 2025-04-24 15:00:06  [-1]     39787.000
+34642        EU-BANKS  dynamic_TF_carry    [20250600] 2025-04-24 08:00:25  [-1]       178.950
+34646         LEANHOG  dynamic_TF_carry    [20250700] 2025-04-24 15:30:11   [1]        99.975
+34645         LIVECOW  dynamic_TF_carry    [20250800] 2025-04-24 15:30:02   [1]       203.775
+34639           MUMMY  dynamic_TF_carry    [20250600] 2025-04-24 02:05:29  [-1]       657.000
+34640          NIKKEI  dynamic_TF_carry    [20250600] 2025-04-24 02:07:09   [1]     35205.000
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+34639           MUMMY  dynamic_TF_carry       2025-04-23 00:00:00  2025-04-24 02:00:29.305000  2025-04-24 02:05:29              93629.305             299.695
+34640          NIKKEI  dynamic_TF_carry       2025-04-23 00:00:00  2025-04-24 02:07:08.511000  2025-04-24 02:07:09              94028.511               0.489
+34641             BTP  dynamic_TF_carry       2025-04-23 00:00:00  2025-04-24 08:00:05.430000  2025-04-24 08:00:19              115205.43               13.57
+34642        EU-BANKS  dynamic_TF_carry       2025-04-23 00:00:00  2025-04-24 08:00:24.848000  2025-04-24 08:00:25             115224.848               0.152
+34643   CRUDE_W_micro  dynamic_TF_carry       2025-04-23 00:00:00  2025-04-24 14:00:09.944000  2025-04-24 14:00:10             136809.944               0.056
+34644             DOW  dynamic_TF_carry       2025-04-23 00:00:00  2025-04-24 15:00:04.628000  2025-04-24 15:00:06             140404.628               1.372
+34645         LIVECOW  dynamic_TF_carry       2025-04-23 00:00:00  2025-04-24 15:30:02.466000  2025-04-24 15:30:02             142202.466                 NaN
+34646         LEANHOG  dynamic_TF_carry       2025-04-23 00:00:00  2025-04-24 15:30:04.431000  2025-04-24 15:30:11             142204.431               6.569
+
+
+============================================================================================================================================================================================================================
+                                                                                                  Slippage (ticks per lot)                                                                                                  
+============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
+34639           MUMMY  dynamic_TF_carry  [-1]                  658.0               None     657.5      657.0         658.0       658.0        657.0    -0.5    -0.5      -0.0         -1.0                 NaN          -0.5
+34640          NIKKEI  dynamic_TF_carry   [1]                34985.0               None   35197.5    35200.0       35195.0     35195.0      35205.0  -212.5    -2.5      -5.0        -10.0                 NaN          -7.5
+34641             BTP  dynamic_TF_carry   [1]                 119.68               None   119.885     119.89        119.88      119.88       119.88  -0.205  -0.005      0.01          0.0                 NaN         0.005
+34642        EU-BANKS  dynamic_TF_carry  [-1]                 180.05               None   179.025     178.95         179.1       179.1       178.95  -1.025  -0.075      -0.0        -0.15                 NaN        -0.075
+34643   CRUDE_W_micro  dynamic_TF_carry   [1]                  60.94               None    61.615      61.63          61.6        61.6         61.6  -0.675  -0.015      0.03          0.0                 NaN         0.015
+34644             DOW  dynamic_TF_carry  [-1]                39706.0               None   39789.0    39785.0       39793.0     39793.0      39787.0    83.0    -4.0       2.0         -6.0                 NaN          -2.0
+34645         LIVECOW  dynamic_TF_carry   [1]                203.725               None  203.7375    203.775         203.7       203.7      203.775 -0.0125 -0.0375       0.0       -0.075                 NaN       -0.0375
+34646         LEANHOG  dynamic_TF_carry   [1]                 100.05               None    99.925      99.95          99.9        99.9       99.975   0.125  -0.025    -0.025       -0.075                 NaN         -0.05
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34639           MUMMY  dynamic_TF_carry  [-1]      266.908785  -18.732992  -18.732992          -0.0       -37.465983                     NaN        -18.732992
+34640          NIKKEI  dynamic_TF_carry   [1]    13071.384441 -162.568855   -1.912575      -3.82515        -7.650299                     NaN         -5.737724
+34641             BTP  dynamic_TF_carry   [1]        8.260032 -248.183072   -6.053246     12.106491              0.0                     NaN          6.053246
+34642        EU-BANKS  dynamic_TF_carry  [-1]        64.97994 -157.740989  -11.542024          -0.0       -23.084047                     NaN        -11.542024
+34643   CRUDE_W_micro  dynamic_TF_carry   [1]       24.375797 -276.914026   -6.153645      12.30729              0.0                     NaN          6.153645
+34644             DOW  dynamic_TF_carry  [-1]    11596.277293   71.574694   -3.449383      1.724691        -5.174074                     NaN         -1.724691
+34645         LIVECOW  dynamic_TF_carry   [1]       32.258077   -3.874998  -11.624995           0.0       -23.249991                     NaN        -11.624995
+34646         LEANHOG  dynamic_TF_carry   [1]       22.937492   54.495931  -10.899186    -10.899186       -32.697558                     NaN        -21.798372
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34639           MUMMY  dynamic_TF_carry  [-1]             5.278105   -2.639052    -2.639052           -0.0         -5.278105                      NaN          -2.639052
+34640          NIKKEI  dynamic_TF_carry   [1]              0.52781 -112.159724    -1.319526      -2.639052         -5.278105                      NaN          -3.958579
+34641             BTP  dynamic_TF_carry   [1]           854.521813 -175.176972    -4.272609       8.545218               0.0                      NaN           4.272609
+34642        EU-BANKS  dynamic_TF_carry  [-1]            42.726091  -43.794243    -3.204457           -0.0         -6.408914                      NaN          -3.204457
+34643   CRUDE_W_micro  dynamic_TF_carry   [1]            75.379252  -50.880995    -1.130689       2.261378               0.0                      NaN           1.130689
+34644             DOW  dynamic_TF_carry  [-1]             0.376896    31.28239    -1.507585       0.753793         -2.261378                      NaN          -0.753793
+34645         LIVECOW  dynamic_TF_carry   [1]           301.517007   -3.768963   -11.306888            0.0        -22.613776                      NaN         -11.306888
+34646         LEANHOG  dynamic_TF_carry   [1]           301.517007   37.689626    -7.537925      -7.537925        -22.613776                      NaN          -15.07585
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry BTP             -175.176972
+                 CRUDE_W_micro    -50.880995
+                 DOW                31.28239
+                 EU-BANKS         -43.794243
+                 LEANHOG           37.689626
+                 LIVECOW           -3.768963
+                 MUMMY             -2.639052
+                 NIKKEI          -112.159724
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -319.447933
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry BTP                -4.272609
+                 CRUDE_W_micro      -1.130689
+                 DOW                -1.507585
+                 EU-BANKS           -3.204457
+                 LEANHOG            -7.537925
+                 LIVECOW           -11.306888
+                 MUMMY              -2.639052
+                 NIKKEI             -1.319526
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -32.918731
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry BTP                   8.545218
+                 CRUDE_W_micro         2.261378
+                 DOW                   0.753793
+                 EU-BANKS                  -0.0
+                 LEANHOG              -7.537925
+                 LIVECOW                    0.0
+                 MUMMY                     -0.0
+                 NIKKEI               -2.639052
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry       1.383411
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry BTP                           0.0
+                 CRUDE_W_micro                 0.0
+                 DOW                     -2.261378
+                 EU-BANKS                -6.408914
+                 LEANHOG                -22.613776
+                 LIVECOW                -22.613776
+                 MUMMY                   -5.278105
+                 NIKKEI                  -5.278105
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry        -64.454052
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry BTP                                    0
+                 CRUDE_W_micro                          0
+                 DOW                                    0
+                 EU-BANKS                               0
+                 LEANHOG                                0
+                 LIVECOW                                0
+                 MUMMY                                  0
+                 NIKKEI                                 0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry BTP                       4.272609
+                 CRUDE_W_micro             1.130689
+                 DOW                      -0.753793
+                 EU-BANKS                 -3.204457
+                 LEANHOG                  -15.07585
+                 LIVECOW                 -11.306888
+                 MUMMY                    -2.639052
+                 NIKKEI                   -3.958579
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry          -31.53532
 
 ********************************************************************************
                                  END OF REPORT                                  
