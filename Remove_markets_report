@@ -1,6 +1,6 @@
 
 ********************************************************************************
-              Removed markets report produced on 28/04/2025 23:09               
+              Removed markets report produced on 29/04/2025 23:09               
 ********************************************************************************
 
 
@@ -9,7 +9,7 @@ Following should be removed from trading (add to config.bad_markets) [0.300000 t
 
 
 
-Following should be allowed to trade (delete from config.bad_markets) [0.300000 threshold]: ['GBPCHF', 'EU-INSURE', 'EU-CONSTRUCTION', 'EUROSTX-SMALL', 'JPY_mini', 'EU-FOOD', 'HIGHYIELD', 'R1000', 'EURCHF', 'IBEX_mini', 'AUD_micro', 'LUMBER-new', 'EU-DJ-UTIL', 'EU-MID', 'MSCIEMASIA', 'GBPEUR']
+Following should be allowed to trade (delete from config.bad_markets) [0.300000 threshold]: ['EU-MID', 'HIGHYIELD', 'EU-DJ-UTIL', 'R1000', 'EURCHF', 'JPY_mini', 'EU-FOOD', 'EU-CONSTRUCTION', 'MSCIEMASIA', 'EUROSTX-SMALL', 'AUD_micro', 'IBEX_mini', 'EU-INSURE']
 
 
 
@@ -17,7 +17,7 @@ Markets too expensive (SR cost per trade > 0.010): ['AEX_mini', 'BOVESPA', 'BUTT
 
 
 
-Markets not enough risk volume (Volume in $m ann. risk per day < 1.50): ['AEX_mini', 'AUDJPY', 'BONO', 'BOVESPA', 'BUTTER', 'CAD_micro', 'CH10', 'CHEESE', 'CHFJPY', 'CHF_micro', 'CLP', 'CNH-onshore', 'COAL-GEORDIE', 'COPPER-mini', 'CORN_mini', 'COTTON', 'CZK', 'EPRA-EUROPE', 'ETHER-micro', 'EU-CHEM', 'EU-DJ-TECH', 'EU-DJ-TELECOM', 'EU-MEDIA', 'EU-RETAIL', 'EU-TRAVEL', 'EURAUD', 'EURCAD', 'EUROSTX-LARGE', 'EUROSTX200-LARGE', 'FTSEINDO', 'GASOILINE_micro', 'GBPJPY', 'GBP_micro', 'GICS', 'IG', 'IRS', 'JGB-mini', 'JP-REALESTATE', 'KRWUSD', 'MILKDRY', 'MSCIWORLD', 'OATIES', 'OMX', 'PLN', 'RUR', 'SGD', 'SGD_mini', 'SOYBEAN_mini', 'STEEL', 'SUGAR16', 'SWISSLEAD', 'TWD', 'TWD-mini', 'VNKI', 'WHEAT_ICE', 'WHEAT_mini', 'WHEY']
+Markets not enough risk volume (Volume in $m ann. risk per day < 1.50): ['AEX_mini', 'AUDJPY', 'BONO', 'BOVESPA', 'BUTTER', 'CAD_micro', 'CH10', 'CHEESE', 'CHFJPY', 'CHF_micro', 'CLP', 'CNH-onshore', 'COAL-GEORDIE', 'COPPER-mini', 'CORN_mini', 'COTTON', 'CZK', 'EPRA-EUROPE', 'ETHER-micro', 'EU-CHEM', 'EU-DJ-TECH', 'EU-DJ-TELECOM', 'EU-MEDIA', 'EU-RETAIL', 'EU-TRAVEL', 'EURAUD', 'EURCAD', 'EUROSTX-LARGE', 'EUROSTX200-LARGE', 'FTSEINDO', 'FTSEVIET', 'GASOILINE_micro', 'GBPJPY', 'GBP_micro', 'GICS', 'IG', 'INR', 'IRS', 'JGB-mini', 'JP-REALESTATE', 'KRWUSD', 'MILKDRY', 'MSCIWORLD', 'OATIES', 'OMX', 'PLN', 'RUR', 'SGD', 'SGD_mini', 'SOYBEAN_mini', 'STEEL', 'SUGAR16', 'SWISSLEAD', 'TWD', 'TWD-mini', 'VNKI', 'WHEAT_ICE', 'WHEAT_mini', 'WHEY']
 
 
 
@@ -83,6 +83,8 @@ exclude_instrument_lists:
     - FTSEINDO 
     - FTSEVIET 
     - GASOILINE_micro 
+    - GBPCHF 
+    - GBPEUR 
     - GBPJPY 
     - GBP_micro 
     - GICS 
@@ -96,6 +98,7 @@ exclude_instrument_lists:
     - JP-REALESTATE 
     - KR3 
     - KRWUSD 
+    - LUMBER-new 
     - MILKDRY 
     - MILKWET 
     - MSCIWORLD 
