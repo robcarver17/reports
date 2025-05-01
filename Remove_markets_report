@@ -1,6 +1,6 @@
 
 ********************************************************************************
-              Removed markets report produced on 30/04/2025 23:09               
+              Removed markets report produced on 01/05/2025 23:09               
 ********************************************************************************
 
 
@@ -9,7 +9,7 @@ Following should be removed from trading (add to config.bad_markets) [0.300000 t
 
 
 
-Following should be allowed to trade (delete from config.bad_markets) [0.300000 threshold]: ['JPY_mini', 'EUROSTX-SMALL', 'EU-CONSTRUCTION', 'EU-MID', 'EU-INSURE', 'HIGHYIELD', 'EU-DJ-UTIL', 'AUD_micro', 'R1000', 'EURCHF', 'MSCIEMASIA', 'IBEX_mini', 'EU-FOOD']
+Following should be allowed to trade (delete from config.bad_markets) [0.300000 threshold]: ['EU-MID', 'JPY_mini', 'EUROSTX-SMALL', 'EU-DJ-UTIL', 'EU-FOOD', 'AUD_micro', 'EU-INSURE', 'MSCIEMASIA', 'IBEX_mini', 'R1000', 'EU-CONSTRUCTION', 'HIGHYIELD', 'EURCHF']
 
 
 
@@ -17,7 +17,7 @@ Markets too expensive (SR cost per trade > 0.010): ['AEX_mini', 'BOVESPA', 'BUTT
 
 
 
-Markets not enough risk volume (Volume in $m ann. risk per day < 1.50): ['AEX_mini', 'AUDJPY', 'BONO', 'BOVESPA', 'BUTTER', 'CAD_micro', 'CH10', 'CHEESE', 'CHFJPY', 'CHF_micro', 'CLP', 'CNH-onshore', 'COAL-GEORDIE', 'COPPER-mini', 'CORN_mini', 'COTTON', 'CZK', 'EPRA-EUROPE', 'ETHER-micro', 'EU-CHEM', 'EU-DJ-TECH', 'EU-DJ-TELECOM', 'EU-MEDIA', 'EU-RETAIL', 'EU-TRAVEL', 'EURAUD', 'EURCAD', 'EUROSTX-LARGE', 'EUROSTX200-LARGE', 'FTSEINDO', 'FTSEVIET', 'GASOILINE_micro', 'GBPJPY', 'GBP_micro', 'GICS', 'HANGENT_mini', 'IG', 'INR', 'IRS', 'JGB-mini', 'JP-REALESTATE', 'KRWUSD', 'MILKDRY', 'MILKWET', 'MSCIWORLD', 'OATIES', 'OMX', 'PLN', 'RUR', 'SGD', 'SGD_mini', 'SOYBEAN_mini', 'STEEL', 'SUGAR16', 'SWISSLEAD', 'TWD', 'TWD-mini', 'VNKI', 'WHEAT_ICE', 'WHEAT_mini', 'WHEY']
+Markets not enough risk volume (Volume in $m ann. risk per day < 1.50): ['AEX_mini', 'ALUMINIUM', 'AUDJPY', 'BBCOMM', 'BONO', 'BOVESPA', 'BUTTER', 'CAD_micro', 'CH10', 'CHEESE', 'CHFJPY', 'CHF_micro', 'CLP', 'CNH-onshore', 'COAL-GEORDIE', 'COPPER-mini', 'CORN_mini', 'COTTON', 'CZK', 'EPRA-EUROPE', 'ETHER-micro', 'EU-CHEM', 'EU-DJ-TECH', 'EU-DJ-TELECOM', 'EU-MEDIA', 'EU-RETAIL', 'EU-TRAVEL', 'EURAUD', 'EURCAD', 'EUROSTX-LARGE', 'EUROSTX200-LARGE', 'FTSEINDO', 'FTSEVIET', 'GASOILINE_micro', 'GBPJPY', 'GBP_micro', 'GICS', 'IG', 'INR', 'IRS', 'JGB-mini', 'JP-REALESTATE', 'KRWUSD', 'MILKDRY', 'MILKWET', 'MSCIWORLD', 'OATIES', 'OMX', 'PLN', 'RUR', 'SGD', 'SGD_mini', 'SOYBEAN_mini', 'STEEL', 'SUGAR16', 'SWISSLEAD', 'TWD', 'TWD-mini', 'VNKI', 'WHEAT_ICE', 'WHEAT_mini', 'WHEY']
 
 
 
@@ -137,7 +137,9 @@ Put following into config.yaml
 exclude_instrument_lists:
   bad_markets:
     - AEX_mini 
+    - ALUMINIUM 
     - AUDJPY 
+    - BBCOMM 
     - BOBL 
     - BONO 
     - BOVESPA 
@@ -181,7 +183,6 @@ exclude_instrument_lists:
     - GBPJPY 
     - GBP_micro 
     - GICS 
-    - HANGENT_mini 
     - HOUSE-US 
     - IG 
     - INR 
