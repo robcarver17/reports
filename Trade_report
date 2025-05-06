@@ -1,20 +1,21 @@
 
 ********************************************************************************
-Trades report produced on 02/05/2025 22:51 from 01/05/2025 22:51 to 02/05/2025 22:51
+Trades report produced on 06/05/2025 22:51 from 05/05/2025 22:51 to 06/05/2025 22:51
 ********************************************************************************
 
 
 
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
+============================================================================================
+                                       Broker orders                                        
+============================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-34667   CRUDE_W_micro  dynamic_TF_carry    [20250800] 2025-05-02 14:00:07  [-1]        58.070
-34668             DOW  dynamic_TF_carry    [20250600] 2025-05-02 15:00:05  [-1]     41204.000
-34666       HANG_mini  dynamic_TF_carry    [20250500] 2025-05-02 02:15:04  [-1]     22117.000
-34665     KRWUSD_mini  dynamic_TF_carry    [20250600] 2025-05-02 02:02:25  [-1]         0.698
-34664        MSCISING  dynamic_TF_carry    [20250500] 2025-05-02 02:02:16   [1]       390.700
+      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
+34671       ALUMINIUM  dynamic_TF_carry    [20250600] 2025-05-06 14:01:46  [1]     2325.2500
+34669    COPPER-micro  dynamic_TF_carry    [20250700] 2025-05-06 14:00:05  [1]        4.7435
+34672   CRUDE_W_micro  dynamic_TF_carry    [20250800] 2025-05-06 14:01:51  [1]       57.8700
+34670   CRUDE_W_micro  dynamic_TF_carry    [20250800] 2025-05-06 14:00:07  [1]       57.9100
+34673             DOW  dynamic_TF_carry    [20250600] 2025-05-06 15:00:05  [1]    40929.0000
+34674     SP500_micro  dynamic_TF_carry    [20250600] 2025-05-06 15:00:06  [1]     5611.2500
 
 
 =============================================================================================================================================================
@@ -22,11 +23,12 @@ Trades report produced on 02/05/2025 22:51 from 01/05/2025 22:51 to 02/05/2025 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-34664        MSCISING  dynamic_TF_carry       2025-05-01 00:00:00  2025-05-02 02:02:07.247000  2025-05-02 02:02:16              93727.247               8.753
-34665     KRWUSD_mini  dynamic_TF_carry       2025-05-01 00:00:00  2025-05-02 02:02:17.426000  2025-05-02 02:02:25              93737.426               7.574
-34666       HANG_mini  dynamic_TF_carry       2025-04-30 00:00:00  2025-05-02 02:15:04.204000  2025-05-02 02:15:04             180904.204                 NaN
-34667   CRUDE_W_micro  dynamic_TF_carry       2025-05-01 00:00:00  2025-05-02 14:00:06.720000  2025-05-02 14:00:07              136806.72                0.28
-34668             DOW  dynamic_TF_carry       2025-05-01 00:00:00  2025-05-02 15:00:05.039000  2025-05-02 15:00:05             140405.039                 NaN
+34669    COPPER-micro  dynamic_TF_carry       2024-02-29 00:00:00  2025-05-06 14:00:04.348000  2025-05-06 14:00:05           37375204.348               0.652
+34671       ALUMINIUM  dynamic_TF_carry       2025-05-02 16:00:00  2025-05-06 14:00:08.465000  2025-05-06 14:01:46             338408.465              97.535
+34672   CRUDE_W_micro  dynamic_TF_carry       2025-05-02 00:00:00  2025-05-06 14:01:51.620000  2025-05-06 14:01:51              396111.62                 NaN
+34670   CRUDE_W_micro  dynamic_TF_carry       2025-05-02 00:00:00  2025-05-06 14:00:06.768000  2025-05-06 14:00:07             396006.768               0.232
+34673             DOW  dynamic_TF_carry       2025-05-02 00:00:00  2025-05-06 15:00:04.938000  2025-05-06 15:00:05             399604.938               0.062
+34674     SP500_micro  dynamic_TF_carry       2025-05-02 00:00:00  2025-05-06 15:00:05.974000  2025-05-06 15:00:06             399605.974               0.026
 
 
 ============================================================================================================================================================================================================================
@@ -34,92 +36,95 @@ Trades report produced on 02/05/2025 22:51 from 01/05/2025 22:51 to 02/05/2025 2
 ============================================================================================================================================================================================================================
 
       instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
-34664        MSCISING  dynamic_TF_carry   [1]                 386.15               None    390.75      390.8         390.7       390.7        390.7    -4.6   -0.05       0.1          0.0                 NaN          0.05
-34665     KRWUSD_mini  dynamic_TF_carry  [-1]                 0.7017               None    0.6985     0.6984        0.6986      0.6986        0.698 -0.0032 -0.0001   -0.0004      -0.0006                 NaN       -0.0005
-34666       HANG_mini  dynamic_TF_carry  [-1]                22086.0               None   22112.5    22108.0       22117.0     22117.0      22117.0    26.5    -4.5       9.0         -0.0                 NaN           4.5
-34667   CRUDE_W_micro  dynamic_TF_carry  [-1]                  58.17               None     58.09      58.07         58.11       58.11        58.07   -0.08   -0.02      -0.0        -0.04                 NaN         -0.02
-34668             DOW  dynamic_TF_carry  [-1]                41047.0               None   41201.5    41199.0       41204.0     41204.0      41204.0   154.5    -2.5       5.0         -0.0                 NaN           2.5
+34669    COPPER-micro  dynamic_TF_carry   [1]                 3.9205               None     4.742     4.7425        4.7415      4.7415       4.7435 -0.8215 -0.0005    -0.001       -0.002                 NaN       -0.0015
+34671       ALUMINIUM  dynamic_TF_carry   [1]                2327.25               None  2322.875    2324.75        2321.0      2321.0      2325.25   4.375  -1.875      -0.5        -4.25                 NaN        -2.375
+34672   CRUDE_W_micro  dynamic_TF_carry   [1]                  57.31               None      57.9      57.92         57.88       57.88        57.87   -0.59   -0.02      0.05         0.01                 NaN          0.03
+34670   CRUDE_W_micro  dynamic_TF_carry   [1]                  57.31               None    57.895      57.91         57.88       57.88        57.91  -0.585  -0.015       0.0        -0.03                 NaN        -0.015
+34673             DOW  dynamic_TF_carry   [1]                41472.0               None   40930.0    40931.0       40929.0     40929.0      40929.0   542.0    -1.0       2.0          0.0                 NaN           1.0
+34674     SP500_micro  dynamic_TF_carry   [1]                 5707.5               None  5611.375     5611.5       5611.25     5611.25      5611.25  96.125  -0.125      0.25          0.0                 NaN         0.125
 
 
-==============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
-==============================================================================================================================================================
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
 
-      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-34664        MSCISING  dynamic_TF_carry   [1]       99.475994 -462.423123   -5.026338     10.052677              0.0                     NaN          5.026338
-34665     KRWUSD_mini  dynamic_TF_carry  [-1]        0.071551 -447.233461  -13.976046    -55.904183       -83.856274                     NaN        -69.880228
-34666       HANG_mini  dynamic_TF_carry  [-1]     5049.787063    52.47746   -8.911267     17.822534             -0.0                     NaN          8.911267
-34667   CRUDE_W_micro  dynamic_TF_carry  [-1]       22.724016  -35.205044   -8.801261          -0.0       -17.602522                     NaN         -8.801261
-34668             DOW  dynamic_TF_carry  [-1]     10126.23507  152.573981   -2.468835      4.937669             -0.0                     NaN          2.468835
+      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34669    COPPER-micro  dynamic_TF_carry   [1]         1.60336 -5123.616959   -3.118452     -6.236904       -12.473809                     NaN         -9.355357
+34671       ALUMINIUM  dynamic_TF_carry   [1]       573.19248    76.326891  -32.711525     -8.723073       -74.146123                     NaN        -41.434598
+34672   CRUDE_W_micro  dynamic_TF_carry   [1]       22.682088  -260.117149    -8.81753     22.043826         4.408765                     NaN         13.226296
+34670   CRUDE_W_micro  dynamic_TF_carry   [1]       22.682088  -257.912767   -6.613148           0.0       -13.226296                     NaN         -6.613148
+34673             DOW  dynamic_TF_carry   [1]     9695.756067   559.007463   -1.031379      2.062758              0.0                     NaN          1.031379
+34674     SP500_micro  dynamic_TF_carry   [1]     1480.662803   649.202504   -0.844217      1.688433              0.0                     NaN          0.844217
 
 
-========================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                       
-========================================================================================================================================================================
+=========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                       
+=========================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-34664        MSCISING  dynamic_TF_carry   [1]            57.530355 -264.639635    -2.876518       5.753036               0.0                      NaN           2.876518
-34665     KRWUSD_mini  dynamic_TF_carry  [-1]         18782.870023  -60.105184    -1.878287      -7.513148        -11.269722                      NaN          -9.391435
-34666       HANG_mini  dynamic_TF_carry  [-1]             0.968782   25.672728     -4.35952        8.71904              -0.0                      NaN            4.35952
-34667   CRUDE_W_micro  dynamic_TF_carry  [-1]             75.13148   -6.010518     -1.50263           -0.0         -3.005259                      NaN           -1.50263
-34668             DOW  dynamic_TF_carry  [-1]             0.375657   58.039068    -0.939144       1.878287              -0.0                      NaN           0.939144
+      instrument_code     strategy_name trade value_of_price_point   delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34669    COPPER-micro  dynamic_TF_carry   [1]          1876.285255 -1541.368337    -0.938143      -1.876285         -3.752571                      NaN          -2.814428
+34671       ALUMINIUM  dynamic_TF_carry   [1]            18.762853     82.08748   -35.180349      -9.381426        -79.742123                      NaN         -44.561775
+34672   CRUDE_W_micro  dynamic_TF_carry   [1]             75.05141   -44.280332    -1.501028       3.752571          0.750514                      NaN           2.251542
+34670   CRUDE_W_micro  dynamic_TF_carry   [1]             75.05141   -43.905075    -1.125771            0.0         -2.251542                      NaN          -1.125771
+34673             DOW  dynamic_TF_carry   [1]             0.375257   203.389322    -0.375257       0.750514               0.0                      NaN           0.375257
+34674     SP500_micro  dynamic_TF_carry   [1]             3.752571    360.71584    -0.469071       0.938143               0.0                      NaN           0.469071
 
 delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry CRUDE_W_micro     -6.010518
-                 DOW               58.039068
-                 HANG_mini         25.672728
-                 KRWUSD_mini      -60.105184
-                 MSCISING        -264.639635
+                                   delay_cash
+strategy_name    instrument_code             
+dynamic_TF_carry ALUMINIUM           82.08748
+                 COPPER-micro    -1541.368337
+                 CRUDE_W_micro     -88.185407
+                 DOW               203.389322
+                 SP500_micro        360.71584
 delay_cash Total Sum
                   delay_cash
 strategy_name               
-dynamic_TF_carry -247.043542
+dynamic_TF_carry -983.361102
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry CRUDE_W_micro       -1.50263
-                 DOW                -0.939144
-                 HANG_mini           -4.35952
-                 KRWUSD_mini        -1.878287
-                 MSCISING           -2.876518
+dynamic_TF_carry ALUMINIUM         -35.180349
+                 COPPER-micro       -0.938143
+                 CRUDE_W_micro      -2.626799
+                 DOW                -0.375257
+                 SP500_micro        -0.469071
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry   -11.556098
+dynamic_TF_carry   -39.589619
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry CRUDE_W_micro             -0.0
-                 DOW                   1.878287
-                 HANG_mini              8.71904
-                 KRWUSD_mini          -7.513148
-                 MSCISING              5.753036
+dynamic_TF_carry ALUMINIUM            -9.381426
+                 COPPER-micro         -1.876285
+                 CRUDE_W_micro         3.752571
+                 DOW                   0.750514
+                 SP500_micro           0.938143
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry       8.837214
+dynamic_TF_carry      -5.816484
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry CRUDE_W_micro           -3.005259
-                 DOW                          -0.0
-                 HANG_mini                    -0.0
-                 KRWUSD_mini            -11.269722
-                 MSCISING                      0.0
+dynamic_TF_carry ALUMINIUM              -79.742123
+                 COPPER-micro            -3.752571
+                 CRUDE_W_micro           -1.501028
+                 DOW                           0.0
+                 SP500_micro                   0.0
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry        -14.274981
+dynamic_TF_carry        -84.995722
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry CRUDE_W_micro                          0
+dynamic_TF_carry ALUMINIUM                              0
+                 COPPER-micro                           0
+                 CRUDE_W_micro                          0
                  DOW                                    0
-                 HANG_mini                              0
-                 KRWUSD_mini                            0
-                 MSCISING                               0
+                 SP500_micro                            0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -127,15 +132,15 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry CRUDE_W_micro             -1.50263
-                 DOW                       0.939144
-                 HANG_mini                  4.35952
-                 KRWUSD_mini              -9.391435
-                 MSCISING                  2.876518
+dynamic_TF_carry ALUMINIUM               -44.561775
+                 COPPER-micro             -2.814428
+                 CRUDE_W_micro             1.125771
+                 DOW                       0.375257
+                 SP500_micro               0.469071
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry          -2.718884
+dynamic_TF_carry         -45.406103
 
 ********************************************************************************
                                  END OF REPORT                                  
