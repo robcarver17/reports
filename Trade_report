@@ -1,100 +1,85 @@
 
 ********************************************************************************
-Trades report produced on 28/05/2025 22:50 from 27/05/2025 22:50 to 28/05/2025 22:50
+Trades report produced on 30/05/2025 22:50 from 29/05/2025 22:50 to 30/05/2025 22:50
 ********************************************************************************
 
 
 
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
+================================================================================================
+                                         Broker orders                                          
+================================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-34736     KRWUSD_mini  dynamic_TF_carry    [20250600] 2025-05-28 02:02:18   [1]          0.73
-34734     KRWUSD_mini  dynamic_TF_carry    [20250600] 2025-05-28 02:02:10   [1]          0.73
-34735        MSCISING  dynamic_TF_carry    [20250500] 2025-05-28 02:02:13  [-1]        412.30
+      instrument_code     strategy_name contract_date           fill_datetime fill  filled_price
+34737           CAD10  dynamic_TF_carry    [20250600] 2025-05-30 07:53:45.596  [1]        122.35
 
 
-=============================================================================================================================================================
-                                                                           Delays                                                                            
-=============================================================================================================================================================
+========================================================================================================================================================
+                                                                         Delays                                                                         
+========================================================================================================================================================
 
-      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-34735        MSCISING  dynamic_TF_carry       2025-05-27 05:00:00  2025-05-28 02:02:11.447000  2025-05-28 02:02:13              75731.447               1.553
-34736     KRWUSD_mini  dynamic_TF_carry       2025-05-27 04:00:00  2025-05-28 02:02:18.286000  2025-05-28 02:02:18              79338.286                 NaN
-34734     KRWUSD_mini  dynamic_TF_carry       2025-05-27 04:00:00  2025-05-28 02:02:09.197000  2025-05-28 02:02:10              79329.197               0.803
+      instrument_code     strategy_name parent_reference_datetime submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
+34737           CAD10  dynamic_TF_carry                      None            None  2025-05-30 07:53:45.596000                    NaN                 NaN
 
 
-==============================================================================================================================================================================================================================
-                                                                                                   Slippage (ticks per lot)                                                                                                   
-==============================================================================================================================================================================================================================
+==========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                 
+==========================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
-34735        MSCISING  dynamic_TF_carry  [-1]                  408.6               None     412.4     412.35        412.45      412.45        412.3      3.8    -0.05     -0.05        -0.15                 NaN          -0.1
-34736     KRWUSD_mini  dynamic_TF_carry   [1]                 0.7322               None   0.72955     0.7296        0.7295         NaN         0.73  0.00265 -0.00005   -0.0004          NaN                 NaN      -0.00045
-34734     KRWUSD_mini  dynamic_TF_carry   [1]                 0.7322               None    0.7296     0.7297        0.7295      0.7295         0.73   0.0026  -0.0001   -0.0003      -0.0005                 NaN       -0.0004
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
+34737           CAD10  dynamic_TF_carry   [1]                   None               None      None       None          None        None       122.35   NaN     NaN       NaN          NaN                 NaN           NaN
 
 
-==============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
-==============================================================================================================================================================
+============================================================================================================================================================
+                                                    Slippage (normalised by annual vol, BP of annual SR)                                                    
+============================================================================================================================================================
 
-      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-34735        MSCISING  dynamic_TF_carry  [-1]       75.682053  502.100547   -6.606586     -6.606586       -19.819758                     NaN        -13.213172
-34736     KRWUSD_mini  dynamic_TF_carry   [1]        0.088586  299.142768   -5.644203    -45.153625              NaN                     NaN        -50.797829
-34734     KRWUSD_mini  dynamic_TF_carry   [1]        0.088586  293.498565  -11.288406    -33.865219       -56.442032                     NaN        -45.153625
+      instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34737           CAD10  dynamic_TF_carry   [1]        7.911554       NaN         NaN           NaN              NaN                     NaN               NaN
 
 
-========================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                       
-========================================================================================================================================================================
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-34735        MSCISING  dynamic_TF_carry  [-1]            57.534194  218.629937     -2.87671       -2.87671         -8.630129                      NaN          -5.753419
-34736     KRWUSD_mini  dynamic_TF_carry   [1]         18547.369983    49.15053    -0.927368      -7.418948               NaN                      NaN          -8.346316
-34734     KRWUSD_mini  dynamic_TF_carry   [1]         18547.369983   48.223162    -1.854737      -5.564211         -9.273685                      NaN          -7.418948
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34737           CAD10  dynamic_TF_carry   [1]           536.840068        NaN          NaN            NaN               NaN                      NaN                NaN
 
 delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry KRWUSD_mini       97.373692
-                 MSCISING         218.629937
+                                 delay_cash
+strategy_name    instrument_code           
+dynamic_TF_carry CAD10                    0
 delay_cash Total Sum
-                  delay_cash
-strategy_name               
-dynamic_TF_carry  316.003629
+                 delay_cash
+strategy_name              
+dynamic_TF_carry          0
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry KRWUSD_mini        -2.782105
-                 MSCISING            -2.87671
+dynamic_TF_carry CAD10                      0
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -5.658815
+dynamic_TF_carry            0
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry KRWUSD_mini         -12.983159
-                 MSCISING              -2.87671
+dynamic_TF_carry CAD10                        0
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry     -15.859869
+dynamic_TF_carry              0
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry KRWUSD_mini             -9.273685
-                 MSCISING                -8.630129
+dynamic_TF_carry CAD10                           0
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry        -17.903814
+dynamic_TF_carry                 0
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry KRWUSD_mini                            0
-                 MSCISING                               0
+dynamic_TF_carry CAD10                                  0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -102,12 +87,11 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry KRWUSD_mini             -15.765264
-                 MSCISING                 -5.753419
+dynamic_TF_carry CAD10                            0
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry         -21.518684
+dynamic_TF_carry                  0
 
 ********************************************************************************
                                  END OF REPORT                                  
