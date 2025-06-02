@@ -1,24 +1,28 @@
 
 ********************************************************************************
-Trades report produced on 30/05/2025 22:50 from 29/05/2025 22:50 to 30/05/2025 22:50
+Trades report produced on 02/06/2025 22:50 from 01/06/2025 22:50 to 02/06/2025 22:50
 ********************************************************************************
 
 
 
-================================================================================================
-                                         Broker orders                                          
-================================================================================================
+============================================================================================
+                                       Broker orders                                        
+============================================================================================
 
-      instrument_code     strategy_name contract_date           fill_datetime fill  filled_price
-34737           CAD10  dynamic_TF_carry    [20250600] 2025-05-30 07:53:45.596  [1]        122.35
+      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
+34739   CRUDE_W_micro  dynamic_TF_carry    [20250800] 2025-06-02 14:00:08  [1]         62.39
+34740   CRUDE_W_micro  dynamic_TF_carry    [20250800] 2025-06-02 14:00:12  [1]         62.37
+34738       IBEX_mini  dynamic_TF_carry    [20250600] 2025-06-02 08:00:10  [1]      14095.00
 
 
-========================================================================================================================================================
-                                                                         Delays                                                                         
-========================================================================================================================================================
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
 
-      instrument_code     strategy_name parent_reference_datetime submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
-34737           CAD10  dynamic_TF_carry                      None            None  2025-05-30 07:53:45.596000                    NaN                 NaN
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+34738       IBEX_mini  dynamic_TF_carry       2025-05-30 00:00:00  2025-06-02 08:00:09.615000  2025-06-02 08:00:10             288009.615               0.385
+34739   CRUDE_W_micro  dynamic_TF_carry       2025-05-30 00:00:00  2025-06-02 14:00:08.039000  2025-06-02 14:00:08             309608.039                 NaN
+34740   CRUDE_W_micro  dynamic_TF_carry       2025-05-30 00:00:00  2025-06-02 14:00:12.745000  2025-06-02 14:00:12             309612.745                 NaN
 
 
 ==========================================================================================================================================================================================================================
@@ -26,60 +30,71 @@ Trades report produced on 30/05/2025 22:50 from 29/05/2025 22:50 to 30/05/2025 2
 ==========================================================================================================================================================================================================================
 
       instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
-34737           CAD10  dynamic_TF_carry   [1]                   None               None      None       None          None        None       122.35   NaN     NaN       NaN          NaN                 NaN           NaN
+34738       IBEX_mini  dynamic_TF_carry   [1]                14170.0               None   14100.0    14105.0       14095.0     14095.0      14095.0  70.0    -5.0      10.0          0.0                 NaN           5.0
+34739   CRUDE_W_micro  dynamic_TF_carry   [1]                  59.69               None     62.37      62.38         62.36         NaN        62.39 -2.68   -0.01     -0.01          NaN                 NaN         -0.02
+34740   CRUDE_W_micro  dynamic_TF_carry   [1]                  59.69               None     62.36      62.37         62.35       62.35        62.37 -2.67   -0.01       0.0        -0.02                 NaN         -0.01
 
 
-============================================================================================================================================================
-                                                    Slippage (normalised by annual vol, BP of annual SR)                                                    
-============================================================================================================================================================
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
 
-      instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-34737           CAD10  dynamic_TF_carry   [1]        7.911554       NaN         NaN           NaN              NaN                     NaN               NaN
+      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34738       IBEX_mini  dynamic_TF_carry   [1]     2119.394266   330.283049  -23.591646     47.183293              0.0                     NaN         23.591646
+34739   CRUDE_W_micro  dynamic_TF_carry   [1]       20.027474 -1338.161772   -4.993141     -4.993141              NaN                     NaN         -9.986282
+34740   CRUDE_W_micro  dynamic_TF_carry   [1]       20.027474 -1333.168632   -4.993141           0.0        -9.986282                     NaN         -4.993141
 
 
-=======================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                      
-=======================================================================================================================================================================
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-34737           CAD10  dynamic_TF_carry   [1]           536.840068        NaN          NaN            NaN               NaN                      NaN                NaN
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34738       IBEX_mini  dynamic_TF_carry   [1]              0.84279   58.995326    -4.213952       8.427904               0.0                      NaN           4.213952
+34739   CRUDE_W_micro  dynamic_TF_carry   [1]            74.066393 -198.497934    -0.740664      -0.740664               NaN                      NaN          -1.481328
+34740   CRUDE_W_micro  dynamic_TF_carry   [1]            74.066393  -197.75727    -0.740664            0.0         -1.481328                      NaN          -0.740664
 
 delay_cash Sum
-                                 delay_cash
-strategy_name    instrument_code           
-dynamic_TF_carry CAD10                    0
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry CRUDE_W_micro   -396.255203
+                 IBEX_mini         58.995326
 delay_cash Total Sum
-                 delay_cash
-strategy_name              
-dynamic_TF_carry          0
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -337.259877
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry CAD10                      0
+dynamic_TF_carry CRUDE_W_micro      -1.481328
+                 IBEX_mini          -4.213952
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry            0
+dynamic_TF_carry     -5.69528
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry CAD10                        0
+dynamic_TF_carry CRUDE_W_micro        -0.740664
+                 IBEX_mini             8.427904
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry              0
+dynamic_TF_carry        7.68724
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry CAD10                           0
+dynamic_TF_carry CRUDE_W_micro           -1.481328
+                 IBEX_mini                     0.0
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry                 0
+dynamic_TF_carry         -1.481328
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry CAD10                                  0
+dynamic_TF_carry CRUDE_W_micro                          0
+                 IBEX_mini                              0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -87,11 +102,12 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry CAD10                            0
+dynamic_TF_carry CRUDE_W_micro            -2.221992
+                 IBEX_mini                 4.213952
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry                  0
+dynamic_TF_carry            1.99196
 
 ********************************************************************************
                                  END OF REPORT                                  

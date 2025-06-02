@@ -1,10 +1,10 @@
 
 ********************************************************************************
-                 Reconcile report produced on 30/05/2025 22:50                  
+                 Reconcile report produced on 02/06/2025 22:50                  
 ********************************************************************************
 
 
-Breaks Optimal vs actual ['dynamic_TF_carry CRUDE_W_micro', 'dynamic_TF_carry IBEX_mini']
+Breaks Optimal vs actual []
  Breaks Instrument vs Contract []
  Breaks Broker vs Contract []
 
@@ -15,17 +15,18 @@ Breaks Optimal vs actual ['dynamic_TF_carry CRUDE_W_micro', 'dynamic_TF_carry IB
    instrument_code contract_date          expiry_date  position
 4              BTP      20250606  2025-06-06 00:00:00       1.0
 3           CANOLA      20251114  2025-11-14 00:00:00       3.0
-13   CRUDE_W_micro      20250721  2025-07-21 00:00:00      -4.0
+14   CRUDE_W_micro      20250721  2025-07-21 00:00:00      -2.0
 9              DOW      20250620  2025-06-20 00:00:00      -4.0
 5          FEEDCOW      20250925  2025-09-25 00:00:00       1.0
 8          GAS-PEN      20250625  2025-06-25 00:00:00      -1.0
 0      GAS_US_mini      20250625  2025-06-25 00:00:00      -1.0
+11       IBEX_mini      20250620  2025-06-20 00:00:00       1.0
 6         MSCIEAFA      20250620  2025-06-20 00:00:00       1.0
 10           MUMMY      20250612  2025-06-12 00:00:00       6.0
 2              MXP      20250616  2025-06-16 00:00:00       2.0
 7           NIKKEI      20250612  2025-06-12 00:00:00       1.0
-12             V2X      20250820  2025-08-20 00:00:00      -1.0
-11           WHEAT      20251212  2025-12-12 00:00:00      -1.0
+13             V2X      20250820  2025-08-20 00:00:00      -1.0
+12           WHEAT      20251212  2025-12-12 00:00:00      -1.0
 1           YENEUR      20250616  2025-06-16 00:00:00       1.0
 
 
@@ -34,37 +35,41 @@ Breaks Optimal vs actual ['dynamic_TF_carry CRUDE_W_micro', 'dynamic_TF_carry IB
 ===============================================================
 
    instrument_code contract_date          expiry_date  position
-0              BTP      20250606  2025-06-06 00:00:00       1.0
-12          CANOLA      20251114  2025-11-14 00:00:00       3.0
-4    CRUDE_W_micro      20250721  2025-07-21 00:00:00      -4.0
+13             BTP      20250606  2025-06-06 00:00:00       1.0
+0           CANOLA      20251114  2025-11-14 00:00:00       3.0
+8    CRUDE_W_micro      20250721  2025-07-21 00:00:00      -2.0
 1              DOW      20250620  2025-06-20 00:00:00      -4.0
-11         FEEDCOW      20250925  2025-09-25 00:00:00       1.0
-13         GAS-PEN      20250625  2025-06-25 00:00:00      -1.0
-6      GAS_US_mini      20250625  2025-06-25 00:00:00      -1.0
-7         MSCIEAFA      20250620  2025-06-20 00:00:00       1.0
-8            MUMMY      20250612  2025-06-12 00:00:00       6.0
-5              MXP      20250616  2025-06-16 00:00:00       2.0
-2           NIKKEI      20250612  2025-06-12 00:00:00       1.0
-10             V2X      20250820  2025-08-20 00:00:00      -1.0
-3            WHEAT      20251212  2025-12-12 00:00:00      -1.0
-9           YENEUR      20250616  2025-06-16 00:00:00       1.0
+10         FEEDCOW      20250925  2025-09-25 00:00:00       1.0
+12         GAS-PEN      20250625  2025-06-25 00:00:00      -1.0
+5      GAS_US_mini      20250625  2025-06-25 00:00:00      -1.0
+11       IBEX_mini      20250620  2025-06-20 00:00:00       1.0
+14        MSCIEAFA      20250620  2025-06-20 00:00:00       1.0
+9            MUMMY      20250612  2025-06-12 00:00:00       6.0
+3              MXP      20250616  2025-06-16 00:00:00       2.0
+7           NIKKEI      20250612  2025-06-12 00:00:00       1.0
+6              V2X      20250820  2025-08-20 00:00:00      -1.0
+2            WHEAT      20251212  2025-12-12 00:00:00      -1.0
+4           YENEUR      20250616  2025-06-16 00:00:00       1.0
+
+
+====================================================================================
+                                    Trades in DB                                    
+====================================================================================
+
+                  strategy_name contract_date       fill_datetime fill  filled_price
+IBEX_mini      dynamic_TF_carry    [20250600] 2025-06-02 08:00:10  [1]      14095.00
+CRUDE_W_micro  dynamic_TF_carry    [20250800] 2025-06-02 14:00:08  [1]         62.39
+CRUDE_W_micro  dynamic_TF_carry    [20250800] 2025-06-02 14:00:12  [1]         62.37
 
 
 ================================================================================
-                                  Trades in DB                                  
+                               Trades from broker                               
 ================================================================================
 
-          strategy_name contract_date           fill_datetime fill  filled_price
-CAD10  dynamic_TF_carry    [20250600] 2025-05-30 07:53:45.596  [1]        122.35
-
-
-==================
-Trades from broker
-==================
-
-Empty DataFrame
-Columns: [strategy_name, contract_date, fill_datetime, fill, filled_price]
-Index: []
+              strategy_name contract_date       fill_datetime fill  filled_price
+CRUDE_W_micro                  [20250721] 2025-06-02 14:00:12  [1]         62.37
+CRUDE_W_micro                  [20250721] 2025-06-02 14:00:08  [1]         62.39
+IBEX_mini                      [20250620] 2025-06-02 08:00:10  [1]      14095.00
 
 
 ==========================================================
@@ -132,7 +137,7 @@ dynamic_TF_carry GAS-LAST                0       0   False
 dynamic_TF_carry FTSETAIWAN              0       0   False
 dynamic_TF_carry NOK                     0       0   False
 dynamic_TF_carry OATIES                  0       0   False
-dynamic_TF_carry CRUDE_W_micro          -4      -2    True
+dynamic_TF_carry CRUDE_W_micro          -2      -2   False
 dynamic_TF_carry KOSDAQ                  0       0   False
 dynamic_TF_carry GASOIL                  0       0   False
 dynamic_TF_carry US10U                   0       0   False
@@ -150,7 +155,7 @@ dynamic_TF_carry AEX                     0       0   False
 dynamic_TF_carry MSCIWORLD               0       0   False
 dynamic_TF_carry JPY                     0       0   False
 dynamic_TF_carry MSCISING                0       0   False
-dynamic_TF_carry IBEX_mini               0       1    True
+dynamic_TF_carry IBEX_mini               1       1   False
 dynamic_TF_carry SILVER                  0       0   False
 dynamic_TF_carry RUSSELL                 0       0   False
 dynamic_TF_carry MILLWHEAT               0       0   False
