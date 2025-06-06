@@ -1,15 +1,174 @@
 
 ********************************************************************************
-Trades report produced on 05/06/2025 22:50 from 04/06/2025 22:50 to 05/06/2025 22:50
+Trades report produced on 06/06/2025 22:51 from 05/06/2025 22:51 to 06/06/2025 22:51
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+34762   CRUDE_W_micro  dynamic_TF_carry    [20250800] 2025-06-06 14:01:36   [1]     62.730000
+34759             DAX  dynamic_TF_carry    [20250600] 2025-06-06 08:08:45  [-1]  24293.000000
+34764             DOW  dynamic_TF_carry    [20250600] 2025-06-06 15:00:07   [1]  42931.000000
+34760              DX  dynamic_TF_carry    [20250900] 2025-06-06 14:00:04  [-1]     98.715000
+34758             MIB  dynamic_TF_carry    [20250600] 2025-06-06 08:07:56   [1]  40335.000000
+34761        MSCIEAFA  dynamic_TF_carry    [20250600] 2025-06-06 14:01:26  [-1]   2628.900000
+34757           TOPIX  dynamic_TF_carry    [20250900] 2025-06-06 02:02:06   [1]   2774.500000
+34763           US10U  dynamic_TF_carry    [20250900] 2025-06-06 15:00:05  [-1]    112.046875
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+34757           TOPIX  dynamic_TF_carry       2025-06-05 00:00:00  2025-06-06 02:02:02.051000  2025-06-06 02:02:06              93722.051               3.949
+34758             MIB  dynamic_TF_carry       2025-06-05 00:00:00  2025-06-06 08:00:05.902000  2025-06-06 08:07:56             115205.902             470.098
+34759             DAX  dynamic_TF_carry       2025-06-05 00:00:00  2025-06-06 08:08:44.728000  2025-06-06 08:08:45             115724.728               0.272
+34760              DX  dynamic_TF_carry       2025-06-05 00:00:00  2025-06-06 14:00:03.894000  2025-06-06 14:00:04             136803.894               0.106
+34761        MSCIEAFA  dynamic_TF_carry       2025-06-05 00:00:00  2025-06-06 14:00:07.336000  2025-06-06 14:01:26             136807.336              78.664
+34762   CRUDE_W_micro  dynamic_TF_carry       2025-06-05 00:00:00  2025-06-06 14:01:31.444000  2025-06-06 14:01:36             136891.444               4.556
+34763           US10U  dynamic_TF_carry       2025-06-05 00:00:00  2025-06-06 15:00:01.641000  2025-06-06 15:00:05             140401.641               3.359
+34764             DOW  dynamic_TF_carry       2025-06-05 00:00:00  2025-06-06 15:00:07.024000  2025-06-06 15:00:07             140407.024                 NaN
+
+
+===================================================================================================================================================================================================================================
+                                                                                                     Slippage (ticks per lot)                                                                                                      
+===================================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price   mid_price  side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
+34757           TOPIX  dynamic_TF_carry   [1]                 2756.0               None      2774.0     2774.75       2773.25     2773.25       2774.5     -18.0     -0.75      0.25        -1.25                 NaN          -0.5
+34758             MIB  dynamic_TF_carry   [1]                40340.0               None     40332.5     40335.0       40330.0     40330.0      40335.0       7.5      -2.5       0.0         -5.0                 NaN          -2.5
+34759             DAX  dynamic_TF_carry  [-1]                24332.0               None     24294.5     24293.0       24296.0     24296.0      24293.0     -37.5      -1.5      -0.0         -3.0                 NaN          -1.5
+34760              DX  dynamic_TF_carry  [-1]                  98.36               None      98.685      98.675        98.695      98.695       98.715     0.325     -0.01      0.04         0.02                 NaN          0.03
+34761        MSCIEAFA  dynamic_TF_carry  [-1]                 2624.3               None     2628.35      2628.2        2628.5      2628.5       2628.9      4.05     -0.15       0.7          0.4                 NaN          0.55
+34762   CRUDE_W_micro  dynamic_TF_carry   [1]                  62.53               None       62.74       62.75         62.73       62.73        62.73     -0.21     -0.01      0.02          0.0                 NaN          0.01
+34763           US10U  dynamic_TF_carry  [-1]             112.734375               None  112.054688  112.046875      112.0625    112.0625   112.046875 -0.679688 -0.007812      -0.0    -0.015625                 NaN     -0.007812
+34764             DOW  dynamic_TF_carry   [1]                42295.0               None     42931.5     42932.0       42931.0     42931.0      42931.0    -636.5      -0.5       1.0          0.0                 NaN           0.5
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34757           TOPIX  dynamic_TF_carry   [1]      526.072509 -342.158157   -14.25659      4.752197       -23.760983                     NaN         -9.504393
+34758             MIB  dynamic_TF_carry   [1]     6199.693747   12.097372   -4.032457           0.0        -8.064915                     NaN         -4.032457
+34759             DAX  dynamic_TF_carry  [-1]      3516.59745  -106.63717   -4.265487          -0.0        -8.530974                     NaN         -4.265487
+34760              DX  dynamic_TF_carry  [-1]        7.206707  450.968797  -13.875963     55.503852        27.751926                     NaN         41.627889
+34761        MSCIEAFA  dynamic_TF_carry  [-1]      438.318426    92.39858    -3.42217     15.970125         9.125786                     NaN         12.547955
+34762   CRUDE_W_micro  dynamic_TF_carry   [1]       19.176169 -109.510926   -5.214806     10.429612              0.0                     NaN          5.214806
+34763           US10U  dynamic_TF_carry  [-1]        9.164454 -741.656261   -8.524785          -0.0       -17.049569                     NaN         -8.524785
+34764             DOW  dynamic_TF_carry   [1]     7010.823188 -907.881975   -0.713183      1.426366              0.0                     NaN          0.713183
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34757           TOPIX  dynamic_TF_carry   [1]             5.123505  -92.223088    -3.842629       1.280876         -6.404381                      NaN          -2.561752
+34758             MIB  dynamic_TF_carry   [1]              4.21541   31.615571   -10.538524            0.0        -21.077048                      NaN         -10.538524
+34759             DAX  dynamic_TF_carry  [-1]             0.843082  -31.615571    -1.264623           -0.0         -2.529246                      NaN          -1.264623
+34760              DX  dynamic_TF_carry  [-1]           737.085343  239.552737    -7.370853      29.483414         14.741707                      NaN           22.11256
+34761        MSCIEAFA  dynamic_TF_carry  [-1]            36.854267  149.259782     -5.52814      25.797987         14.741707                      NaN          20.269847
+34762   CRUDE_W_micro  dynamic_TF_carry   [1]            73.708534  -15.478792    -0.737085       1.474171               0.0                      NaN           0.737085
+34763           US10U  dynamic_TF_carry  [-1]           737.085343 -500.987694    -5.758479           -0.0        -11.516958                      NaN          -5.758479
+34764             DOW  dynamic_TF_carry   [1]             0.368543 -234.577411    -0.184271       0.368543               0.0                      NaN           0.184271
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry CRUDE_W_micro    -15.478792
+                 DAX              -31.615571
+                 DOW             -234.577411
+                 DX               239.552737
+                 MIB               31.615571
+                 MSCIEAFA         149.259782
+                 TOPIX            -92.223088
+                 US10U           -500.987694
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -454.454466
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry CRUDE_W_micro      -0.737085
+                 DAX                -1.264623
+                 DOW                -0.184271
+                 DX                 -7.370853
+                 MIB               -10.538524
+                 MSCIEAFA            -5.52814
+                 TOPIX              -3.842629
+                 US10U              -5.758479
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -35.224605
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry CRUDE_W_micro         1.474171
+                 DAX                       -0.0
+                 DOW                   0.368543
+                 DX                   29.483414
+                 MIB                        0.0
+                 MSCIEAFA             25.797987
+                 TOPIX                 1.280876
+                 US10U                     -0.0
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry       58.40499
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry CRUDE_W_micro                 0.0
+                 DAX                     -2.529246
+                 DOW                           0.0
+                 DX                      14.741707
+                 MIB                    -21.077048
+                 MSCIEAFA                14.741707
+                 TOPIX                   -6.404381
+                 US10U                  -11.516958
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry        -12.044219
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry CRUDE_W_micro                          0
+                 DAX                                    0
+                 DOW                                    0
+                 DX                                     0
+                 MIB                                    0
+                 MSCIEAFA                               0
+                 TOPIX                                  0
+                 US10U                                  0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry CRUDE_W_micro             0.737085
+                 DAX                      -1.264623
+                 DOW                       0.184271
+                 DX                        22.11256
+                 MIB                     -10.538524
+                 MSCIEAFA                 20.269847
+                 TOPIX                    -2.561752
+                 US10U                    -5.758479
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry          23.180386
 
 ********************************************************************************
                                  END OF REPORT                                  
