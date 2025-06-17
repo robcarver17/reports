@@ -1,53 +1,56 @@
 
 ********************************************************************************
-Trades report produced on 16/06/2025 22:51 from 15/06/2025 22:51 to 16/06/2025 22:51
+Trades report produced on 17/06/2025 22:51 from 16/06/2025 22:51 to 17/06/2025 22:51
 ********************************************************************************
 
 
 
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
+=================================================================================================
+                                          Broker orders                                          
+=================================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-34784      BRENT-LAST  dynamic_TF_carry    [20251000] 2025-06-16 14:00:20   [1]        70.780
-34783    COPPER-micro  dynamic_TF_carry    [20250900] 2025-06-16 14:00:13  [-1]         4.869
-34786             DOW  dynamic_TF_carry    [20250900] 2025-06-16 15:00:07  [-1]     42992.000
-34782     GAS_US_mini  dynamic_TF_carry    [20250800] 2025-06-16 14:00:07  [-1]         3.775
-34787         LEANHOG  dynamic_TF_carry    [20251000] 2025-06-16 15:30:49   [1]        95.200
-34781             MIB  dynamic_TF_carry    [20250600] 2025-06-16 08:24:00  [-1]     39655.000
-34788            RICE  dynamic_TF_carry    [20250900] 2025-06-16 15:33:16  [-1]        13.560
-34785         RUSSELL  dynamic_TF_carry    [20250900] 2025-06-16 15:00:05  [-1]      2143.200
-
-
-=============================================================================================================================================================
-                                                                           Delays                                                                            
-=============================================================================================================================================================
-
-      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-34781             MIB  dynamic_TF_carry       2025-06-13 15:00:00  2025-06-16 08:24:00.078000  2025-06-16 08:24:00             235440.078                 NaN
-34782     GAS_US_mini  dynamic_TF_carry       2025-06-13 00:00:00  2025-06-16 14:00:06.948000  2025-06-16 14:00:07             309606.948               0.052
-34783    COPPER-micro  dynamic_TF_carry       2024-02-29 00:00:00  2025-06-16 14:00:08.758000  2025-06-16 14:00:13           40917608.758               4.242
-34784      BRENT-LAST  dynamic_TF_carry       2025-06-13 00:00:00  2025-06-16 14:00:18.325000  2025-06-16 14:00:20             309618.325               1.675
-34785         RUSSELL  dynamic_TF_carry       2025-06-13 00:00:00  2025-06-16 15:00:05.595000  2025-06-16 15:00:05             313205.595                 NaN
-34786             DOW  dynamic_TF_carry       2025-06-13 00:00:00  2025-06-16 15:00:07.095000  2025-06-16 15:00:07             313207.095                 NaN
-34787         LEANHOG  dynamic_TF_carry       2025-06-13 00:00:00  2025-06-16 15:30:02.232000  2025-06-16 15:30:49             315002.232              46.768
-34788            RICE  dynamic_TF_carry       2025-06-13 00:00:00  2025-06-16 15:30:50.531000  2025-06-16 15:33:16             315050.531             145.469
+      instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
+34796    COPPER-micro  dynamic_TF_carry    [20250900] 2025-06-17 14:00:09.000  [-1]      4.868000
+34795              DX  dynamic_TF_carry    [20250900] 2025-06-17 14:00:04.000  [-1]     97.805000
+34792       IBEX_mini  dynamic_TF_carry    [20250600] 2025-06-17 19:30:03.650   [0]           NaN
+34793       IBEX_mini  dynamic_TF_carry    [20250600] 2025-06-17 19:30:03.675   [0]           NaN
+34794       IBEX_mini  dynamic_TF_carry    [20250600] 2025-06-17 08:32:00.000  [-1]  13920.000000
+34789            IRON  dynamic_TF_carry    [20250900] 2025-06-17 02:02:20.000  [-1]     92.750000
+34797             JPY  dynamic_TF_carry    [20250900] 2025-06-17 15:00:07.000  [-1]      0.006971
+34790             MIB  dynamic_TF_carry    [20250900] 2025-06-17 08:00:08.000   [1]  39665.000000
+34791             V2X  dynamic_TF_carry    [20250800] 2025-06-17 08:01:16.000   [1]     20.650000
 
 
-============================================================================================================================================================================================================================
-                                                                                                  Slippage (ticks per lot)                                                                                                  
-============================================================================================================================================================================================================================
+====================================================================================================================================================================
+                                                                               Delays                                                                               
+====================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
-34781             MIB  dynamic_TF_carry  [-1]                39360.0               None   39602.5    39600.0       39605.0     39605.0      39655.0   242.5    -2.5      55.0         50.0                 NaN          52.5
-34782     GAS_US_mini  dynamic_TF_carry  [-1]                  3.705               None    3.7775      3.775          3.78         NaN        3.775  0.0725 -0.0025      -0.0          NaN                 NaN       -0.0025
-34783    COPPER-micro  dynamic_TF_carry  [-1]                 3.9215               None     4.868      4.867         4.869       4.869        4.869  0.9465  -0.001     0.002         -0.0                 NaN         0.001
-34784      BRENT-LAST  dynamic_TF_carry   [1]                   72.5               None    70.735      70.75         70.72       70.72        70.78   1.765  -0.015     -0.03        -0.06                 NaN        -0.045
-34785         RUSSELL  dynamic_TF_carry  [-1]                 2123.6               None   2142.95     2142.9        2143.0      2143.0       2143.2   19.35   -0.05       0.3          0.2                 NaN          0.25
-34786             DOW  dynamic_TF_carry  [-1]                42453.0               None   42991.5    42991.0       42992.0     42992.0      42992.0   538.5    -0.5       1.0         -0.0                 NaN           0.5
-34787         LEANHOG  dynamic_TF_carry   [1]                  94.15               None   95.2125     95.225          95.2        95.2         95.2 -1.0625 -0.0125     0.025          0.0                 NaN        0.0125
-34788            RICE  dynamic_TF_carry  [-1]                  13.86               None   13.5725      13.57        13.575      13.575        13.56 -0.2875 -0.0025     -0.01       -0.015                 NaN       -0.0125
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
+34789            IRON  dynamic_TF_carry       2025-06-16 00:00:00  2025-06-17 02:02:05.810000         2025-06-17 02:02:20               93725.81               14.19
+34790             MIB  dynamic_TF_carry       2025-06-16 00:00:00  2025-06-17 08:00:08.381000         2025-06-17 08:00:08             115208.381                 NaN
+34791             V2X  dynamic_TF_carry       2025-06-16 00:00:00  2025-06-17 08:00:13.785000         2025-06-17 08:01:16             115213.785              62.215
+34795              DX  dynamic_TF_carry       2025-06-16 00:00:00  2025-06-17 14:00:04.073000         2025-06-17 14:00:04             136804.073                 NaN
+34796    COPPER-micro  dynamic_TF_carry       2024-02-29 00:00:00  2025-06-17 14:00:09.135000         2025-06-17 14:00:09           41004009.135                 NaN
+34797             JPY  dynamic_TF_carry       2025-06-16 00:00:00  2025-06-17 15:00:03.487000         2025-06-17 15:00:07             140403.487               3.513
+34792       IBEX_mini  dynamic_TF_carry       2025-06-16 00:00:00  2025-06-17 08:01:17.571000  2025-06-17 19:30:03.650000             115277.571           41326.079
+34793       IBEX_mini  dynamic_TF_carry       2025-06-16 00:00:00  2025-06-17 08:12:07.952000  2025-06-17 19:30:03.675000             115927.952           40675.723
+34794       IBEX_mini  dynamic_TF_carry       2025-06-16 00:00:00  2025-06-17 08:22:12.832000         2025-06-17 08:32:00             116532.832             587.168
+
+
+==============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                   
+==============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay bid_ask execution versus_limit versus_parent_limit total_trading
+34789            IRON  dynamic_TF_carry  [-1]                   93.5               None      92.8      92.75         92.85       92.85        92.75      -0.7   -0.05      -0.0         -0.1                 NaN         -0.05
+34790             MIB  dynamic_TF_carry   [1]                39910.0               None   39697.5    39715.0       39680.0     39680.0      39665.0     212.5   -17.5      50.0         15.0                 NaN          32.5
+34791             V2X  dynamic_TF_carry   [1]                  19.95               None      20.7      20.75         20.65       20.65        20.65     -0.75   -0.05       0.1          0.0                 NaN          0.05
+34795              DX  dynamic_TF_carry  [-1]                 97.545               None     97.72     97.715        97.725      97.725       97.805     0.175  -0.005      0.09         0.08                 NaN         0.085
+34796    COPPER-micro  dynamic_TF_carry  [-1]                 3.9215               None     4.869     4.8675        4.8705      4.8705        4.868    0.9475 -0.0015    0.0005      -0.0025                 NaN        -0.001
+34797             JPY  dynamic_TF_carry  [-1]               0.006984               None  0.006971   0.006971      0.006972    0.006971     0.006971 -0.000013    -0.0       0.0         -0.0                 NaN           0.0
+34792       IBEX_mini  dynamic_TF_carry  [-1]                14115.0               None   14065.0    14060.0       14070.0     14070.0          NaN     -50.0    -5.0       NaN          NaN                 NaN           NaN
+34793       IBEX_mini  dynamic_TF_carry  [-1]                14115.0               None   14035.0    14030.0       14040.0     14040.0          NaN     -80.0    -5.0       NaN          NaN                 NaN           NaN
+34794       IBEX_mini  dynamic_TF_carry  [-1]                14115.0               None   13965.0    13960.0       13970.0     13970.0      13920.0    -150.0    -5.0     -40.0        -50.0                 NaN         -45.0
 
 
 ===============================================================================================================================================================
@@ -55,14 +58,15 @@ Trades report produced on 16/06/2025 22:51 from 15/06/2025 22:51 to 16/06/2025 2
 ===============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-34781             MIB  dynamic_TF_carry  [-1]     6036.995291   401.689894   -4.141133     91.104924        82.822659                     NaN         86.963792
-34782     GAS_US_mini  dynamic_TF_carry  [-1]        1.874661   386.736537  -13.335743          -0.0              NaN                     NaN        -13.335743
-34783    COPPER-micro  dynamic_TF_carry  [-1]        1.227203  7712.658829   -8.148609     16.297219             -0.0                     NaN          8.148609
-34784      BRENT-LAST  dynamic_TF_carry   [1]       22.710629   777.169151   -6.604837    -13.209674       -26.419348                     NaN        -19.814511
-34785         RUSSELL  dynamic_TF_carry  [-1]      438.293381   441.485107   -1.140788       6.84473         4.563154                     NaN          5.703942
-34786             DOW  dynamic_TF_carry  [-1]     6669.744156   807.377296   -0.749654      1.499308             -0.0                     NaN          0.749654
-34787         LEANHOG  dynamic_TF_carry   [1]       15.983643  -664.742084   -7.820495      15.64099              0.0                     NaN          7.820495
-34788            RICE  dynamic_TF_carry  [-1]        2.927105  -982.199251   -8.540863    -34.163452       -51.245178                     NaN        -42.704315
+34789            IRON  dynamic_TF_carry  [-1]       18.507185  -378.231489  -27.016535          -0.0        -54.03307                     NaN        -27.016535
+34790             MIB  dynamic_TF_carry   [1]      6113.39548   347.597339  -28.625663     81.787609        24.536283                     NaN         53.161946
+34791             V2X  dynamic_TF_carry   [1]        8.226717  -911.663812  -60.777587    121.555175              0.0                     NaN         60.777587
+34795              DX  dynamic_TF_carry  [-1]        6.993654    250.22686   -7.149339      128.6881       114.389422                     NaN        121.538761
+34796    COPPER-micro  dynamic_TF_carry  [-1]        1.198025  7908.847843  -12.520603      4.173534       -20.867672                     NaN         -8.347069
+34797             JPY  dynamic_TF_carry  [-1]        0.000764  -163.594698   -6.543788      6.543788        -6.543788                     NaN               0.0
+34792       IBEX_mini  dynamic_TF_carry  [-1]     2043.241218  -244.709237  -24.470924           NaN              NaN                     NaN               NaN
+34793       IBEX_mini  dynamic_TF_carry  [-1]     2043.241218   -391.53478  -24.470924           NaN              NaN                     NaN               NaN
+34794       IBEX_mini  dynamic_TF_carry  [-1]     2043.241218  -734.127712  -24.470924    -195.76739      -244.709237                     NaN       -220.238314
 
 
 =========================================================================================================================================================================
@@ -70,86 +74,82 @@ Trades report produced on 16/06/2025 22:51 from 15/06/2025 22:51 to 16/06/2025 2
 =========================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point   delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-34781             MIB  dynamic_TF_carry  [-1]             4.255912  1032.058638    -10.63978     234.075155        212.795596                      NaN         223.435375
-34782     GAS_US_mini  dynamic_TF_carry  [-1]          1842.577545   133.586872    -4.606444           -0.0               NaN                      NaN          -4.606444
-34783    COPPER-micro  dynamic_TF_carry  [-1]          1842.577545  1743.999646    -1.842578       3.685155              -0.0                      NaN           1.842578
-34784      BRENT-LAST  dynamic_TF_carry   [1]           737.031018  1300.859747   -11.055465     -22.110931        -44.221861                      NaN         -33.166396
-34785         RUSSELL  dynamic_TF_carry  [-1]             3.685155    71.307751    -0.184258       1.105547          0.737031                      NaN           0.921289
-34786             DOW  dynamic_TF_carry  [-1]             0.368516   198.445602    -0.184258       0.368516              -0.0                      NaN           0.184258
-34787         LEANHOG  dynamic_TF_carry   [1]           294.812407  -313.238183    -3.685155        7.37031               0.0                      NaN           3.685155
-34788            RICE  dynamic_TF_carry  [-1]          1474.062036  -423.792835    -3.685155      -14.74062        -22.110931                      NaN         -18.425775
+34789            IRON  dynamic_TF_carry  [-1]            73.704731   -51.593312    -3.685237           -0.0         -7.370473                      NaN          -3.685237
+34790             MIB  dynamic_TF_carry   [1]             4.259286   905.098248   -74.537503     212.964294         63.889288                      NaN         138.426791
+34791             V2X  dynamic_TF_carry   [1]            85.185717   -63.889288    -4.259286       8.518572               0.0                      NaN           4.259286
+34795              DX  dynamic_TF_carry  [-1]           737.047315    128.98328    -3.685237      66.334258         58.963785                      NaN          62.649022
+34796    COPPER-micro  dynamic_TF_carry  [-1]          1842.618287  1745.880827    -2.763927       0.921309         -4.606546                      NaN          -1.842618
+34797             JPY  dynamic_TF_carry  [-1]       9213091.434405  -115.163643    -4.606546       4.606546         -4.606546                      NaN                0.0
+34792       IBEX_mini  dynamic_TF_carry  [-1]             0.851857   -42.592859    -4.259286            NaN               NaN                      NaN                NaN
+34793       IBEX_mini  dynamic_TF_carry  [-1]             0.851857   -68.148574    -4.259286            NaN               NaN                      NaN                NaN
+34794       IBEX_mini  dynamic_TF_carry  [-1]             0.851857  -127.778576    -4.259286     -34.074287        -42.592859                      NaN         -38.333573
 
 delay_cash Sum
                                    delay_cash
 strategy_name    instrument_code             
-dynamic_TF_carry BRENT-LAST       1300.859747
-                 COPPER-micro     1743.999646
-                 DOW               198.445602
-                 GAS_US_mini       133.586872
-                 LEANHOG          -313.238183
-                 MIB              1032.058638
-                 RICE             -423.792835
-                 RUSSELL            71.307751
+dynamic_TF_carry COPPER-micro     1745.880827
+                 DX                 128.98328
+                 IBEX_mini        -238.520009
+                 IRON              -51.593312
+                 JPY              -115.163643
+                 MIB               905.098248
+                 V2X               -63.889288
 delay_cash Total Sum
                    delay_cash
 strategy_name                
-dynamic_TF_carry  3743.227238
+dynamic_TF_carry  2310.796103
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry BRENT-LAST        -11.055465
-                 COPPER-micro       -1.842578
-                 DOW                -0.184258
-                 GAS_US_mini        -4.606444
-                 LEANHOG            -3.685155
-                 MIB                -10.63978
-                 RICE               -3.685155
-                 RUSSELL            -0.184258
+dynamic_TF_carry COPPER-micro       -2.763927
+                 DX                 -3.685237
+                 IBEX_mini         -12.777858
+                 IRON               -3.685237
+                 JPY                -4.606546
+                 MIB               -74.537503
+                 V2X                -4.259286
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry   -35.883092
+dynamic_TF_carry  -106.315593
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry BRENT-LAST          -22.110931
-                 COPPER-micro          3.685155
-                 DOW                   0.368516
-                 GAS_US_mini               -0.0
-                 LEANHOG                7.37031
-                 MIB                 234.075155
-                 RICE                 -14.74062
-                 RUSSELL               1.105547
+dynamic_TF_carry COPPER-micro          0.921309
+                 DX                   66.334258
+                 IBEX_mini           -34.074287
+                 IRON                      -0.0
+                 JPY                   4.606546
+                 MIB                 212.964294
+                 V2X                   8.518572
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry     209.753131
+dynamic_TF_carry     259.270692
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry BRENT-LAST             -44.221861
-                 COPPER-micro                 -0.0
-                 DOW                          -0.0
-                 GAS_US_mini                     0
-                 LEANHOG                       0.0
-                 MIB                    212.795596
-                 RICE                   -22.110931
-                 RUSSELL                  0.737031
+dynamic_TF_carry COPPER-micro            -4.606546
+                 DX                      58.963785
+                 IBEX_mini              -42.592859
+                 IRON                    -7.370473
+                 JPY                     -4.606546
+                 MIB                     63.889288
+                 V2X                           0.0
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry        147.199835
+dynamic_TF_carry          63.67665
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry BRENT-LAST                             0
-                 COPPER-micro                           0
-                 DOW                                    0
-                 GAS_US_mini                            0
-                 LEANHOG                                0
+dynamic_TF_carry COPPER-micro                           0
+                 DX                                     0
+                 IBEX_mini                              0
+                 IRON                                   0
+                 JPY                                    0
                  MIB                                    0
-                 RICE                                   0
-                 RUSSELL                                0
+                 V2X                                    0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -157,18 +157,17 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry BRENT-LAST              -33.166396
-                 COPPER-micro              1.842578
-                 DOW                       0.184258
-                 GAS_US_mini              -4.606444
-                 LEANHOG                   3.685155
-                 MIB                     223.435375
-                 RICE                    -18.425775
-                 RUSSELL                   0.921289
+dynamic_TF_carry COPPER-micro             -1.842618
+                 DX                       62.649022
+                 IBEX_mini               -38.333573
+                 IRON                     -3.685237
+                 JPY                            0.0
+                 MIB                     138.426791
+                 V2X                       4.259286
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry         173.870039
+dynamic_TF_carry         161.473671
 
 ********************************************************************************
                                  END OF REPORT                                  
