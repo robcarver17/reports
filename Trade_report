@@ -1,15 +1,152 @@
 
 ********************************************************************************
-Trades report produced on 19/06/2025 22:51 from 18/06/2025 22:51 to 19/06/2025 22:51
+Trades report produced on 20/06/2025 22:51 from 19/06/2025 22:51 to 20/06/2025 22:51
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+34802              DX  dynamic_TF_carry    [20250900] 2025-06-20 14:00:04  [-1]     98.280000
+34801         EUROSTX  dynamic_TF_carry    [20250900] 2025-06-20 08:00:07  [-1]   5245.000000
+34803     GAS_US_mini  dynamic_TF_carry    [20250800] 2025-06-20 14:00:11   [1]      4.115000
+34804             JPY  dynamic_TF_carry    [20250900] 2025-06-20 15:00:04  [-1]      0.006927
+34799        MSCISING  dynamic_TF_carry    [20250600] 2025-06-20 02:02:17  [-1]    402.150000
+34800          NIKKEI  dynamic_TF_carry    [20250900] 2025-06-20 02:02:27  [-1]  38600.000000
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+34799        MSCISING  dynamic_TF_carry       2025-06-19 00:00:00  2025-06-20 02:02:06.371000  2025-06-20 02:02:17              93726.371              10.629
+34800          NIKKEI  dynamic_TF_carry       2025-06-19 00:00:00  2025-06-20 02:02:18.735000  2025-06-20 02:02:27              93738.735               8.265
+34801         EUROSTX  dynamic_TF_carry       2025-06-19 00:00:00  2025-06-20 08:00:06.800000  2025-06-20 08:00:07               115206.8                 0.2
+34802              DX  dynamic_TF_carry       2025-06-19 00:00:00  2025-06-20 14:00:04.461000  2025-06-20 14:00:04             136804.461                 NaN
+34803     GAS_US_mini  dynamic_TF_carry       2025-06-18 00:00:00  2025-06-20 14:00:10.945000  2025-06-20 14:00:11             223210.945               0.055
+34804             JPY  dynamic_TF_carry       2025-06-19 00:00:00  2025-06-20 15:00:04.005000  2025-06-20 15:00:04             140404.005                 NaN
+
+
+==============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                   
+==============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay bid_ask execution versus_limit versus_parent_limit total_trading
+34799        MSCISING  dynamic_TF_carry  [-1]                 403.35               None     402.1     402.05        402.15      402.15       402.15     -1.25   -0.05       0.1         -0.0                 NaN          0.05
+34800          NIKKEI  dynamic_TF_carry  [-1]                38575.0               None   38607.5    38605.0       38610.0     38610.0      38600.0      32.5    -2.5      -5.0        -10.0                 NaN          -7.5
+34801         EUROSTX  dynamic_TF_carry  [-1]                 5228.0               None    5245.5     5245.0        5246.0      5246.0       5245.0      17.5    -0.5      -0.0         -1.0                 NaN          -0.5
+34802              DX  dynamic_TF_carry  [-1]                  98.44               None   98.2475     98.245         98.25       98.25        98.28   -0.1925 -0.0025     0.035         0.03                 NaN        0.0325
+34803     GAS_US_mini  dynamic_TF_carry   [1]                  4.075               None    4.1125      4.115          4.11         NaN        4.115   -0.0375 -0.0025       0.0          NaN                 NaN       -0.0025
+34804             JPY  dynamic_TF_carry  [-1]               0.006943               None  0.006927   0.006927      0.006927    0.006927     0.006927 -0.000016    -0.0       0.0         -0.0                 NaN           0.0
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34799        MSCISING  dynamic_TF_carry  [-1]       61.836952 -202.144504    -8.08578      16.17156             -0.0                     NaN           8.08578
+34800          NIKKEI  dynamic_TF_carry  [-1]     7224.876187    44.98347   -3.460267     -6.920534       -13.841068                     NaN        -10.380801
+34801         EUROSTX  dynamic_TF_carry  [-1]      776.662024  225.323235   -6.437807          -0.0       -12.875613                     NaN         -6.437807
+34802              DX  dynamic_TF_carry  [-1]        6.623467 -290.633278   -3.774458     52.842414        45.293498                     NaN         49.067956
+34803     GAS_US_mini  dynamic_TF_carry   [1]        1.863158 -201.271134  -13.418076           0.0              NaN                     NaN        -13.418076
+34804             JPY  dynamic_TF_carry  [-1]        0.000727 -220.057129   -6.876785      6.876785        -6.876785                     NaN               0.0
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34799        MSCISING  dynamic_TF_carry  [-1]            57.726193  -72.157741     -2.88631       5.772619              -0.0                      NaN            2.88631
+34800          NIKKEI  dynamic_TF_carry  [-1]             0.509732   16.566293     -1.27433       -2.54866         -5.097321                      NaN          -3.822991
+34801         EUROSTX  dynamic_TF_carry  [-1]             8.545663  149.549111    -4.272832           -0.0         -8.545663                      NaN          -4.272832
+34802              DX  dynamic_TF_carry  [-1]           741.440991 -142.727391    -1.853602      25.950435          22.24323                      NaN          24.096832
+34803     GAS_US_mini  dynamic_TF_carry   [1]          1853.602476  -69.510093    -4.634006            0.0               NaN                      NaN          -4.634006
+34804             JPY  dynamic_TF_carry  [-1]       9268012.382065 -148.288198    -4.634006       4.634006         -4.634006                      NaN                0.0
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry DX              -142.727391
+                 EUROSTX          149.549111
+                 GAS_US_mini      -69.510093
+                 JPY             -148.288198
+                 MSCISING         -72.157741
+                 NIKKEI            16.566293
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -266.568019
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry DX                 -1.853602
+                 EUROSTX            -4.272832
+                 GAS_US_mini        -4.634006
+                 JPY                -4.634006
+                 MSCISING            -2.88631
+                 NIKKEI              -1.27433
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -19.555086
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry DX                   25.950435
+                 EUROSTX                   -0.0
+                 GAS_US_mini                0.0
+                 JPY                   4.634006
+                 MSCISING              5.772619
+                 NIKKEI                -2.54866
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry        33.8084
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry DX                       22.24323
+                 EUROSTX                 -8.545663
+                 GAS_US_mini                     0
+                 JPY                     -4.634006
+                 MSCISING                     -0.0
+                 NIKKEI                  -5.097321
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry          3.966239
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry DX                                     0
+                 EUROSTX                                0
+                 GAS_US_mini                            0
+                 JPY                                    0
+                 MSCISING                               0
+                 NIKKEI                                 0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry DX                       24.096832
+                 EUROSTX                  -4.272832
+                 GAS_US_mini              -4.634006
+                 JPY                            0.0
+                 MSCISING                   2.88631
+                 NIKKEI                   -3.822991
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry          14.253313
 
 ********************************************************************************
                                  END OF REPORT                                  
