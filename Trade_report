@@ -1,15 +1,113 @@
 
 ********************************************************************************
-Trades report produced on 23/06/2025 22:51 from 22/06/2025 22:51 to 23/06/2025 22:51
+Trades report produced on 24/06/2025 22:51 from 23/06/2025 22:51 to 24/06/2025 22:51
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+============================================================================================
+                                       Broker orders                                        
+============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
+34806    COPPER-micro  dynamic_TF_carry    [20250900] 2025-06-24 14:00:09  [1]         4.934
+34805   CRUDE_W_micro  dynamic_TF_carry    [20251000] 2025-06-24 14:00:03  [1]        63.810
+34807   CRUDE_W_micro  dynamic_TF_carry    [20251000] 2025-06-24 14:00:10  [1]        63.870
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+34806    COPPER-micro  dynamic_TF_carry       2024-02-29 00:00:00  2025-06-24 14:00:09.297000  2025-06-24 14:00:09           41608809.297                 NaN
+34805   CRUDE_W_micro  dynamic_TF_carry       2025-06-23 00:00:00  2025-06-24 14:00:03.172000  2025-06-24 14:00:03             136803.172                 NaN
+34807   CRUDE_W_micro  dynamic_TF_carry       2025-06-23 00:00:00  2025-06-24 14:00:09.948000  2025-06-24 14:00:10             136809.948               0.052
+
+
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+34806    COPPER-micro  dynamic_TF_carry   [1]                 3.9215               None    4.9335      4.935         4.932         NaN        4.934 -1.012 -0.0015     0.001          NaN                 NaN       -0.0005
+34805   CRUDE_W_micro  dynamic_TF_carry   [1]                  66.54               None    63.785       63.8         63.77       63.77        63.81  2.755  -0.015     -0.01        -0.04                 NaN        -0.025
+34807   CRUDE_W_micro  dynamic_TF_carry   [1]                  66.54               None    63.795      63.81         63.78       63.78        63.87  2.745  -0.015     -0.06        -0.09                 NaN        -0.075
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34806    COPPER-micro  dynamic_TF_carry   [1]        1.140668 -8871.993941  -13.150189      8.766792              NaN                     NaN         -4.383396
+34805   CRUDE_W_micro  dynamic_TF_carry   [1]       30.335559   908.175131   -4.944692     -3.296461       -13.185846                     NaN         -8.241154
+34807   CRUDE_W_micro  dynamic_TF_carry   [1]       30.335559    904.87867   -4.944692    -19.778769       -29.668153                     NaN        -24.723461
+
+
+=========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                       
+=========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point   delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34806    COPPER-micro  dynamic_TF_carry   [1]          1841.627409 -1863.726938    -2.762441       1.841627               NaN                      NaN          -0.920814
+34805   CRUDE_W_micro  dynamic_TF_carry   [1]            73.665096   202.947341    -1.104976      -0.736651         -2.946604                      NaN          -1.841627
+34807   CRUDE_W_micro  dynamic_TF_carry   [1]            73.665096    202.21069    -1.104976      -4.419906         -6.629859                      NaN          -5.524882
+
+delay_cash Sum
+                                   delay_cash
+strategy_name    instrument_code             
+dynamic_TF_carry COPPER-micro    -1863.726938
+                 CRUDE_W_micro      405.15803
+delay_cash Total Sum
+                   delay_cash
+strategy_name                
+dynamic_TF_carry -1458.568908
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry COPPER-micro       -2.762441
+                 CRUDE_W_micro      -2.209953
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry    -4.972394
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry COPPER-micro          1.841627
+                 CRUDE_W_micro        -5.156557
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry      -3.314929
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry COPPER-micro                    0
+                 CRUDE_W_micro           -9.576463
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry         -9.576463
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry COPPER-micro                           0
+                 CRUDE_W_micro                          0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry COPPER-micro             -0.920814
+                 CRUDE_W_micro             -7.36651
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry          -8.287323
 
 ********************************************************************************
                                  END OF REPORT                                  
