@@ -1,152 +1,15 @@
 
 ********************************************************************************
-Trades report produced on 25/06/2025 22:51 from 24/06/2025 22:51 to 25/06/2025 22:51
+Trades report produced on 26/06/2025 22:51 from 25/06/2025 22:51 to 26/06/2025 22:51
 ********************************************************************************
 
 
-
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
-
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-34811      BRENT-LAST  dynamic_TF_carry    [20251000] 2025-06-25 14:03:05  [-1]         65.81
-34809            BUND  dynamic_TF_carry    [20250900] 2025-06-25 08:00:10   [1]        130.89
-34810              DX  dynamic_TF_carry    [20250900] 2025-06-25 14:02:04   [1]         97.79
-34808          KOSDAQ  dynamic_TF_carry    [20250900] 2025-06-25 02:02:09   [1]       1304.10
-34813         RUSSELL  dynamic_TF_carry    [20250900] 2025-06-25 15:00:13   [1]       2167.30
-34812          YENEUR  dynamic_TF_carry    [20250900] 2025-06-25 15:00:11   [1]        168.59
-
-
-=============================================================================================================================================================
-                                                                           Delays                                                                            
-=============================================================================================================================================================
-
-      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-34808          KOSDAQ  dynamic_TF_carry       2025-06-24 00:00:00  2025-06-25 02:02:05.283000  2025-06-25 02:02:09              93725.283               3.717
-34809            BUND  dynamic_TF_carry       2025-06-24 00:00:00  2025-06-25 08:00:09.591000  2025-06-25 08:00:10             115209.591               0.409
-34810              DX  dynamic_TF_carry       2025-06-24 00:00:00  2025-06-25 14:00:03.527000  2025-06-25 14:02:04             136803.527             120.473
-34811      BRENT-LAST  dynamic_TF_carry       2025-06-24 00:00:00  2025-06-25 14:02:54.721000  2025-06-25 14:03:05             136974.721              10.279
-34812          YENEUR  dynamic_TF_carry       2025-06-24 00:00:00  2025-06-25 15:00:03.879000  2025-06-25 15:00:11             140403.879               7.121
-34813         RUSSELL  dynamic_TF_carry       2025-06-24 00:00:00  2025-06-25 15:00:12.947000  2025-06-25 15:00:13             140412.947               0.053
-
-
-===========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                  
-===========================================================================================================================================================================================================================
-
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
-34808          KOSDAQ  dynamic_TF_carry   [1]                 1306.1               None   1304.25     1304.4        1304.1      1304.1       1304.1   1.85   -0.15       0.3          0.0                 NaN          0.15
-34809            BUND  dynamic_TF_carry   [1]                 130.83               None   130.875     130.88        130.87      130.87       130.89 -0.045  -0.005     -0.01        -0.02                 NaN        -0.015
-34810              DX  dynamic_TF_carry   [1]                 97.465               None    97.755      97.76         97.75       97.75        97.79  -0.29  -0.005     -0.03        -0.04                 NaN        -0.035
-34811      BRENT-LAST  dynamic_TF_carry  [-1]                  65.52               None    65.825      65.81         65.84       65.84        65.81  0.305  -0.015      -0.0        -0.03                 NaN        -0.015
-34812          YENEUR  dynamic_TF_carry   [1]                  167.5               None   168.585     168.61        168.56      168.56       168.59 -1.085  -0.025      0.02        -0.03                 NaN        -0.005
-34813         RUSSELL  dynamic_TF_carry   [1]                 2179.7               None    2167.4     2167.5        2167.3      2167.3       2167.3   12.3    -0.1       0.2          0.0                 NaN           0.1
-
-
-==============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
-==============================================================================================================================================================
-
-      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-34808          KOSDAQ  dynamic_TF_carry   [1]      324.001852   57.098439   -4.629603      9.259206              0.0                     NaN          4.629603
-34809            BUND  dynamic_TF_carry   [1]        6.541651  -68.789971    -7.64333     -15.28666        -30.57332                     NaN         -22.92999
-34810              DX  dynamic_TF_carry   [1]        6.628248 -437.521352   -7.543472     -45.26083       -60.347773                     NaN        -52.804301
-34811      BRENT-LAST  dynamic_TF_carry  [-1]       29.667268  102.806904   -5.056077          -0.0       -10.112154                     NaN         -5.056077
-34812          YENEUR  dynamic_TF_carry   [1]       12.925875 -839.401595  -19.341051      15.47284       -23.209261                     NaN          -3.86821
-34813         RUSSELL  dynamic_TF_carry   [1]      421.748463  291.643031   -2.371082      4.742163              0.0                     NaN          2.371082
-
-
-========================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                       
-========================================================================================================================================================================
-
-      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-34808          KOSDAQ  dynamic_TF_carry   [1]             5.344701    9.887697    -0.801705        1.60341               0.0                      NaN           0.801705
-34809            BUND  dynamic_TF_carry   [1]           852.819414  -38.376874    -4.264097      -8.528194        -17.056388                      NaN         -12.792291
-34810              DX  dynamic_TF_carry   [1]           734.031152 -212.869034    -3.670156     -22.020935        -29.361246                      NaN          -25.69109
-34811      BRENT-LAST  dynamic_TF_carry  [-1]           734.031152  223.879501   -11.010467           -0.0        -22.020935                      NaN         -11.010467
-34812          YENEUR  dynamic_TF_carry   [1]           632.685119 -686.463354   -15.817128      12.653702        -18.980554                      NaN          -3.163426
-34813         RUSSELL  dynamic_TF_carry   [1]             3.670156   45.142916    -0.367016       0.734031               0.0                      NaN           0.367016
-
-delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry BRENT-LAST       223.879501
-                 BUND             -38.376874
-                 DX              -212.869034
-                 KOSDAQ             9.887697
-                 RUSSELL           45.142916
-                 YENEUR          -686.463354
-delay_cash Total Sum
-                  delay_cash
-strategy_name               
-dynamic_TF_carry -658.799148
-bid_ask_cash Sum
-                                 bid_ask_cash
-strategy_name    instrument_code             
-dynamic_TF_carry BRENT-LAST        -11.010467
-                 BUND               -4.264097
-                 DX                 -3.670156
-                 KOSDAQ             -0.801705
-                 RUSSELL            -0.367016
-                 YENEUR            -15.817128
-bid_ask_cash Total Sum
-                 bid_ask_cash
-strategy_name                
-dynamic_TF_carry   -35.930569
-execution_cash Sum
-                                 execution_cash
-strategy_name    instrument_code               
-dynamic_TF_carry BRENT-LAST                -0.0
-                 BUND                 -8.528194
-                 DX                  -22.020935
-                 KOSDAQ                 1.60341
-                 RUSSELL               0.734031
-                 YENEUR               12.653702
-execution_cash Total Sum
-                 execution_cash
-strategy_name                  
-dynamic_TF_carry     -15.557985
-versus_limit_cash Sum
-                                 versus_limit_cash
-strategy_name    instrument_code                  
-dynamic_TF_carry BRENT-LAST             -22.020935
-                 BUND                   -17.056388
-                 DX                     -29.361246
-                 KOSDAQ                        0.0
-                 RUSSELL                       0.0
-                 YENEUR                 -18.980554
-versus_limit_cash Total Sum
-                 versus_limit_cash
-strategy_name                     
-dynamic_TF_carry        -87.419123
-versus_parent_limit_cash Sum
-                                 versus_parent_limit_cash
-strategy_name    instrument_code                         
-dynamic_TF_carry BRENT-LAST                             0
-                 BUND                                   0
-                 DX                                     0
-                 KOSDAQ                                 0
-                 RUSSELL                                0
-                 YENEUR                                 0
-versus_parent_limit_cash Total Sum
-                 versus_parent_limit_cash
-strategy_name                            
-dynamic_TF_carry                        0
-total_trading_cash Sum
-                                 total_trading_cash
-strategy_name    instrument_code                   
-dynamic_TF_carry BRENT-LAST              -11.010467
-                 BUND                    -12.792291
-                 DX                       -25.69109
-                 KOSDAQ                    0.801705
-                 RUSSELL                   0.367016
-                 YENEUR                   -3.163426
-total_trading_cash Total Sum
-                 total_trading_cash
-strategy_name                      
-dynamic_TF_carry         -51.488554
+No trades
+No trades
+No trades
+No trades
+No trades
+No trades
 
 ********************************************************************************
                                  END OF REPORT                                  
