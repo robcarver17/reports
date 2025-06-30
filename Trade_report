@@ -1,15 +1,108 @@
 
 ********************************************************************************
-Trades report produced on 27/06/2025 22:51 from 26/06/2025 22:51 to 27/06/2025 22:51
+Trades report produced on 30/06/2025 22:51 from 29/06/2025 22:51 to 30/06/2025 22:51
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+============================================================================================
+                                       Broker orders                                        
+============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
+34815         GAS-PEN  dynamic_TF_carry    [20250800] 2025-06-30 14:00:40  [1]         3.527
+34814     GAS_US_mini  dynamic_TF_carry    [20250800] 2025-06-30 14:00:31  [1]         3.530
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+34814     GAS_US_mini  dynamic_TF_carry       2025-06-27 20:00:00  2025-06-30 14:00:06.429000  2025-06-30 14:00:31             237606.429              24.571
+34815         GAS-PEN  dynamic_TF_carry       2025-06-27 19:00:00  2025-06-30 14:00:36.266000  2025-06-30 14:00:40             241236.266               3.734
+
+
+============================================================================================================================================================================================================================
+                                                                                                  Slippage (ticks per lot)                                                                                                  
+============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
+34814     GAS_US_mini  dynamic_TF_carry   [1]                  3.735               None    3.5225      3.525          3.52        3.52         3.53  0.2125 -0.0025    -0.005        -0.01                 NaN       -0.0075
+34815         GAS-PEN  dynamic_TF_carry   [1]                  3.728               None     3.525      3.526         3.524       3.524        3.527   0.203  -0.001    -0.001       -0.003                 NaN        -0.002
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34814     GAS_US_mini  dynamic_TF_carry   [1]        2.132913   996.28999  -11.721059    -23.442117       -46.884235                     NaN        -35.163176
+34815         GAS-PEN  dynamic_TF_carry   [1]        2.114123  960.209207   -4.730095     -4.730095       -14.190284                     NaN         -9.460189
+
+
+=========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                       
+=========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point   delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34814     GAS_US_mini  dynamic_TF_carry   [1]          1820.996085   386.961668     -4.55249       -9.10498        -18.209961                      NaN         -13.657471
+34815         GAS-PEN  dynamic_TF_carry   [1]          7283.984339  1478.648821    -7.283984      -7.283984        -21.851953                      NaN         -14.567969
+
+delay_cash Sum
+                                   delay_cash
+strategy_name    instrument_code             
+dynamic_TF_carry GAS-PEN          1478.648821
+                 GAS_US_mini       386.961668
+delay_cash Total Sum
+                   delay_cash
+strategy_name                
+dynamic_TF_carry  1865.610489
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry GAS-PEN            -7.283984
+                 GAS_US_mini         -4.55249
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -11.836475
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry GAS-PEN              -7.283984
+                 GAS_US_mini           -9.10498
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry     -16.388965
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry GAS-PEN                -21.851953
+                 GAS_US_mini            -18.209961
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry        -40.061914
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry GAS-PEN                                0
+                 GAS_US_mini                            0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry GAS-PEN                 -14.567969
+                 GAS_US_mini             -13.657471
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry         -28.225439
 
 ********************************************************************************
                                  END OF REPORT                                  
