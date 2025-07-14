@@ -1,152 +1,15 @@
 
 ********************************************************************************
-Trades report produced on 04/07/2025 22:51 from 03/07/2025 22:51 to 04/07/2025 22:51
+Trades report produced on 14/07/2025 22:51 from 13/07/2025 22:51 to 14/07/2025 22:51
 ********************************************************************************
 
 
-
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
-
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-34831           CAD10  dynamic_TF_carry    [20250900] 2025-07-04 14:04:01  [-1]    121.500000
-34832             DOW  dynamic_TF_carry    [20250900] 2025-07-04 15:00:05   [1]  44904.000000
-34830      GOLD_micro  dynamic_TF_carry    [20250800] 2025-07-04 14:04:00  [-1]   3342.500000
-34833             JPY  dynamic_TF_carry    [20250900] 2025-07-04 15:00:10  [-1]      0.006977
-34829        MSCIEAFA  dynamic_TF_carry    [20250900] 2025-07-04 14:03:15   [1]   2664.800000
-34828           TOPIX  dynamic_TF_carry    [20250900] 2025-07-04 02:02:09  [-1]   2835.500000
-
-
-=============================================================================================================================================================
-                                                                           Delays                                                                            
-=============================================================================================================================================================
-
-      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-34828           TOPIX  dynamic_TF_carry       2025-07-03 00:00:00  2025-07-04 02:02:04.885000  2025-07-04 02:02:09              93724.885               4.115
-34829        MSCIEAFA  dynamic_TF_carry       2025-07-03 00:00:00  2025-07-04 14:00:05.429000  2025-07-04 14:03:15             136805.429             189.571
-34830      GOLD_micro  dynamic_TF_carry       2025-07-03 00:00:00  2025-07-04 14:03:59.680000  2025-07-04 14:04:00              137039.68                0.32
-34831           CAD10  dynamic_TF_carry       2025-07-03 00:00:00  2025-07-04 14:04:01.701000  2025-07-04 14:04:01             137041.701                 NaN
-34832             DOW  dynamic_TF_carry       2025-07-03 00:00:00  2025-07-04 15:00:04.071000  2025-07-04 15:00:05             140404.071               0.929
-34833             JPY  dynamic_TF_carry       2025-07-03 00:00:00  2025-07-04 15:00:06.907000  2025-07-04 15:00:10             140406.907               3.093
-
-
-==============================================================================================================================================================================================================================
-                                                                                                   Slippage (ticks per lot)                                                                                                   
-==============================================================================================================================================================================================================================
-
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay bid_ask execution versus_limit versus_parent_limit total_trading
-34828           TOPIX  dynamic_TF_carry  [-1]                2825.25               None   2835.75     2835.5        2836.0      2836.0       2835.5      10.5   -0.25      -0.0         -0.5                 NaN         -0.25
-34829        MSCIEAFA  dynamic_TF_carry   [1]                 2680.9               None    2664.9     2665.0        2664.8      2664.8       2664.8      16.0    -0.1       0.2          0.0                 NaN           0.1
-34830      GOLD_micro  dynamic_TF_carry  [-1]                 3344.1               None   3342.45     3342.4        3342.5      3342.5       3342.5     -1.65   -0.05       0.1         -0.0                 NaN          0.05
-34831           CAD10  dynamic_TF_carry  [-1]                 121.05               None   121.435     121.43        121.44      121.44        121.5     0.385  -0.005      0.07         0.06                 NaN         0.065
-34832             DOW  dynamic_TF_carry   [1]                45110.0               None   44902.0    44904.0       44900.0     44900.0      44904.0     208.0    -2.0       0.0         -4.0                 NaN          -2.0
-34833             JPY  dynamic_TF_carry  [-1]                0.00695               None  0.006978   0.006978      0.006978    0.006978     0.006977  0.000028    -0.0 -0.000001    -0.000001                 NaN     -0.000001
-
-
-==============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
-==============================================================================================================================================================
-
-      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-34828           TOPIX  dynamic_TF_carry  [-1]      429.770972  244.316175   -5.817052          -0.0       -11.634104                     NaN         -5.817052
-34829        MSCIEAFA  dynamic_TF_carry   [1]      384.167706  416.484773    -2.60303       5.20606              0.0                     NaN           2.60303
-34830      GOLD_micro  dynamic_TF_carry  [-1]      555.270969  -29.715222   -0.900461      1.800923             -0.0                     NaN          0.900461
-34831           CAD10  dynamic_TF_carry  [-1]        6.515418  590.906102   -7.674105    107.437473        92.089263                     NaN         99.763368
-34832             DOW  dynamic_TF_carry   [1]     5951.268178  349.505339   -3.360628           0.0        -6.721257                     NaN         -3.360628
-34833             JPY  dynamic_TF_carry  [-1]          0.0007  396.698123   -3.573857     -7.147714       -14.295428                     NaN        -10.721571
-
-
-========================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                       
-========================================================================================================================================================================
-
-      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-34828           TOPIX  dynamic_TF_carry  [-1]             5.066006   53.193068    -1.266502           -0.0         -2.533003                      NaN          -1.266502
-34829        MSCIEAFA  dynamic_TF_carry   [1]            36.562002  584.992029      -3.6562         7.3124               0.0                      NaN             3.6562
-34830      GOLD_micro  dynamic_TF_carry  [-1]               7.3124  -12.065461     -0.36562        0.73124              -0.0                      NaN            0.36562
-34831           CAD10  dynamic_TF_carry  [-1]           538.769884  207.426405    -2.693849      37.713892         32.326193                      NaN          35.020042
-34832             DOW  dynamic_TF_carry   [1]              0.36562   76.048964     -0.73124            0.0          -1.46248                      NaN           -0.73124
-34833             JPY  dynamic_TF_carry  [-1]       9140500.460681  253.648888    -2.285125       -4.57025           -9.1405                      NaN          -6.855375
-
-delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry CAD10            207.426405
-                 DOW               76.048964
-                 GOLD_micro       -12.065461
-                 JPY              253.648888
-                 MSCIEAFA         584.992029
-                 TOPIX             53.193068
-delay_cash Total Sum
-                   delay_cash
-strategy_name                
-dynamic_TF_carry  1163.243893
-bid_ask_cash Sum
-                                 bid_ask_cash
-strategy_name    instrument_code             
-dynamic_TF_carry CAD10              -2.693849
-                 DOW                 -0.73124
-                 GOLD_micro          -0.36562
-                 JPY                -2.285125
-                 MSCIEAFA             -3.6562
-                 TOPIX              -1.266502
-bid_ask_cash Total Sum
-                 bid_ask_cash
-strategy_name                
-dynamic_TF_carry   -10.998536
-execution_cash Sum
-                                 execution_cash
-strategy_name    instrument_code               
-dynamic_TF_carry CAD10                37.713892
-                 DOW                        0.0
-                 GOLD_micro             0.73124
-                 JPY                   -4.57025
-                 MSCIEAFA                7.3124
-                 TOPIX                     -0.0
-execution_cash Total Sum
-                 execution_cash
-strategy_name                  
-dynamic_TF_carry      41.187282
-versus_limit_cash Sum
-                                 versus_limit_cash
-strategy_name    instrument_code                  
-dynamic_TF_carry CAD10                   32.326193
-                 DOW                      -1.46248
-                 GOLD_micro                   -0.0
-                 JPY                       -9.1405
-                 MSCIEAFA                      0.0
-                 TOPIX                   -2.533003
-versus_limit_cash Total Sum
-                 versus_limit_cash
-strategy_name                     
-dynamic_TF_carry         19.190209
-versus_parent_limit_cash Sum
-                                 versus_parent_limit_cash
-strategy_name    instrument_code                         
-dynamic_TF_carry CAD10                                  0
-                 DOW                                    0
-                 GOLD_micro                             0
-                 JPY                                    0
-                 MSCIEAFA                               0
-                 TOPIX                                  0
-versus_parent_limit_cash Total Sum
-                 versus_parent_limit_cash
-strategy_name                            
-dynamic_TF_carry                        0
-total_trading_cash Sum
-                                 total_trading_cash
-strategy_name    instrument_code                   
-dynamic_TF_carry CAD10                    35.020042
-                 DOW                       -0.73124
-                 GOLD_micro                 0.36562
-                 JPY                      -6.855375
-                 MSCIEAFA                    3.6562
-                 TOPIX                    -1.266502
-total_trading_cash Total Sum
-                 total_trading_cash
-strategy_name                      
-dynamic_TF_carry          30.188746
+No trades
+No trades
+No trades
+No trades
+No trades
+No trades
 
 ********************************************************************************
                                  END OF REPORT                                  
