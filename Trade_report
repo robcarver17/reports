@@ -1,15 +1,184 @@
 
 ********************************************************************************
-Trades report produced on 14/07/2025 22:51 from 13/07/2025 22:51 to 14/07/2025 22:51
+Trades report produced on 15/07/2025 22:51 from 14/07/2025 22:51 to 15/07/2025 22:51
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+34835            BUND  dynamic_TF_carry    [20250900] 2025-07-15 08:00:11  [-1]      129.3500
+34836          CANOLA  dynamic_TF_carry    [20251100] 2025-07-15 14:00:30  [-1]      687.1000
+34840             DOW  dynamic_TF_carry    [20250900] 2025-07-15 15:00:03  [-1]    44543.0000
+34837              DX  dynamic_TF_carry    [20250900] 2025-07-15 14:00:31   [1]       97.7300
+34839              DX  dynamic_TF_carry    [20250900] 2025-07-15 14:00:38   [1]       97.7300
+34838      GOLD_micro  dynamic_TF_carry    [20250800] 2025-07-15 14:00:37   [1]     3358.2000
+34834            IRON  dynamic_TF_carry    [20250900] 2025-07-15 02:02:42   [1]       99.7000
+34842         RUSSELL  dynamic_TF_carry    [20250900] 2025-07-15 15:00:13   [1]     2252.0000
+34843         RUSSELL  dynamic_TF_carry    [20250900] 2025-07-15 15:00:19   [1]     2251.8000
+34841           US10U  dynamic_TF_carry    [20250900] 2025-07-15 15:00:11  [-1]      112.3125
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+34834            IRON  dynamic_TF_carry       2025-07-14 00:00:00  2025-07-15 02:02:07.213000  2025-07-15 02:02:42              93727.213              34.787
+34835            BUND  dynamic_TF_carry       2025-07-14 00:00:00  2025-07-15 08:00:07.962000  2025-07-15 08:00:11             115207.962               3.038
+34836          CANOLA  dynamic_TF_carry       2025-07-14 00:00:00  2025-07-15 14:00:05.526000  2025-07-15 14:00:30             136805.526              24.474
+34838      GOLD_micro  dynamic_TF_carry       2025-07-14 00:00:00  2025-07-15 14:00:36.956000  2025-07-15 14:00:37             136836.956               0.044
+34837              DX  dynamic_TF_carry       2025-07-14 00:00:00  2025-07-15 14:00:31.771000  2025-07-15 14:00:31             136831.771                 NaN
+34839              DX  dynamic_TF_carry       2025-07-14 00:00:00  2025-07-15 14:00:38.166000  2025-07-15 14:00:38             136838.166                 NaN
+34840             DOW  dynamic_TF_carry       2025-07-14 00:00:00  2025-07-15 15:00:03.831000  2025-07-15 15:00:03             140403.831                 NaN
+34841           US10U  dynamic_TF_carry       2025-07-14 00:00:00  2025-07-15 15:00:05.650000  2025-07-15 15:00:11              140405.65                5.35
+34842         RUSSELL  dynamic_TF_carry       2025-07-14 00:00:00  2025-07-15 15:00:13.555000  2025-07-15 15:00:13             140413.555                 NaN
+34843         RUSSELL  dynamic_TF_carry       2025-07-14 00:00:00  2025-07-15 15:00:18.885000  2025-07-15 15:00:19             140418.885               0.115
+
+
+===================================================================================================================================================================================================================================
+                                                                                                     Slippage (ticks per lot)                                                                                                      
+===================================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price   mid_price  side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
+34834            IRON  dynamic_TF_carry   [1]                   99.7               None       99.65        99.7          99.6        99.6         99.7      0.05     -0.05       0.0         -0.1                 NaN         -0.05
+34835            BUND  dynamic_TF_carry  [-1]                 129.16               None     129.365      129.36        129.37      129.37       129.35     0.205    -0.005     -0.01        -0.02                 NaN        -0.015
+34836          CANOLA  dynamic_TF_carry  [-1]                  682.5               None       687.3       687.2         687.4       687.4        687.1       4.8      -0.1      -0.1         -0.3                 NaN          -0.2
+34838      GOLD_micro  dynamic_TF_carry   [1]                 3358.9               None      3358.3      3358.4        3358.2      3358.2       3358.2       0.6      -0.1       0.2          0.0                 NaN           0.1
+34837              DX  dynamic_TF_carry   [1]                  97.77               None      97.805       97.81          97.8        97.8        97.73    -0.035    -0.005      0.08         0.07                 NaN         0.075
+34839              DX  dynamic_TF_carry   [1]                  97.77               None      97.805       97.81          97.8        97.8        97.73    -0.035    -0.005      0.08         0.07                 NaN         0.075
+34840             DOW  dynamic_TF_carry  [-1]                44648.0               None     44541.0     44540.0       44542.0     44542.0      44543.0    -107.0      -1.0       3.0          1.0                 NaN           2.0
+34841           US10U  dynamic_TF_carry  [-1]                  112.5               None  112.335938  112.328125     112.34375   112.34375     112.3125 -0.164062 -0.007812 -0.015625     -0.03125                 NaN     -0.023438
+34842         RUSSELL  dynamic_TF_carry   [1]                 2258.8               None      2251.6      2251.7        2251.5      2251.5       2252.0       7.2      -0.1      -0.3         -0.5                 NaN          -0.4
+34843         RUSSELL  dynamic_TF_carry   [1]                 2258.8               None      2251.9      2252.0        2251.8      2251.8       2251.8       6.9      -0.1       0.2          0.0                 NaN           0.1
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34834            IRON  dynamic_TF_carry   [1]       20.313544   24.614119  -24.614119           0.0       -49.228238                     NaN        -24.614119
+34835            BUND  dynamic_TF_carry  [-1]        6.196596  330.826779   -8.068946    -16.137892       -32.275783                     NaN        -24.206837
+34836          CANOLA  dynamic_TF_carry  [-1]      173.180881  277.166854   -5.774309     -5.774309       -17.322928                     NaN        -11.548619
+34838      GOLD_micro  dynamic_TF_carry   [1]      511.616206   11.727541    -1.95459       3.90918              0.0                     NaN           1.95459
+34837              DX  dynamic_TF_carry   [1]        6.300029  -55.555302   -7.936472    126.983548       111.110604                     NaN        119.047076
+34839              DX  dynamic_TF_carry   [1]        6.300029  -55.555302   -7.936472    126.983548       111.110604                     NaN        119.047076
+34840             DOW  dynamic_TF_carry  [-1]     5550.545522 -192.773845   -1.801625      5.404874         1.801625                     NaN          3.603249
+34841           US10U  dynamic_TF_carry  [-1]        7.455462 -220.056794  -10.478895     -20.95779        -41.91558                     NaN        -31.436685
+34842         RUSSELL  dynamic_TF_carry   [1]       413.04946  174.313265   -2.421018     -7.263053       -12.105088                     NaN          -9.68407
+34843         RUSSELL  dynamic_TF_carry   [1]       413.04946  167.050212   -2.421018      4.842035              0.0                     NaN          2.421018
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34834            IRON  dynamic_TF_carry   [1]            74.417497    3.720875    -3.720875            0.0          -7.44175                      NaN          -3.720875
+34835            BUND  dynamic_TF_carry  [-1]           869.505198  178.248566    -4.347526      -8.695052        -17.390104                      NaN         -13.042578
+34836          CANOLA  dynamic_TF_carry  [-1]            10.868985    52.17113    -1.086899      -1.086899         -3.260696                      NaN          -2.173797
+34838      GOLD_micro  dynamic_TF_carry   [1]              7.44175     4.46505    -0.744175        1.48835               0.0                      NaN           0.744175
+34837              DX  dynamic_TF_carry   [1]            744.17497  -26.046124    -3.720875      59.533998         52.092248                      NaN          55.813123
+34839              DX  dynamic_TF_carry   [1]            744.17497  -26.046124    -3.720875      59.533998         52.092248                      NaN          55.813123
+34840             DOW  dynamic_TF_carry  [-1]             0.372087  -39.813361    -0.372087       1.116262          0.372087                      NaN           0.744175
+34841           US10U  dynamic_TF_carry  [-1]            744.17497 -122.091206    -5.813867     -11.627734        -23.255468                      NaN         -17.441601
+34842         RUSSELL  dynamic_TF_carry   [1]             3.720875   26.790299    -0.372087      -1.116262         -1.860437                      NaN           -1.48835
+34843         RUSSELL  dynamic_TF_carry   [1]             3.720875   25.674036    -0.372087       0.744175               0.0                      NaN           0.372087
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry BUND             178.248566
+                 CANOLA             52.17113
+                 DOW              -39.813361
+                 DX               -52.092248
+                 GOLD_micro          4.46505
+                 IRON               3.720875
+                 RUSSELL           52.464335
+                 US10U           -122.091206
+delay_cash Total Sum
+                 delay_cash
+strategy_name              
+dynamic_TF_carry   77.07314
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry BUND               -4.347526
+                 CANOLA             -1.086899
+                 DOW                -0.372087
+                 DX                  -7.44175
+                 GOLD_micro         -0.744175
+                 IRON               -3.720875
+                 RUSSELL            -0.744175
+                 US10U              -5.813867
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -24.271353
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry BUND                 -8.695052
+                 CANOLA               -1.086899
+                 DOW                   1.116262
+                 DX                  119.067995
+                 GOLD_micro             1.48835
+                 IRON                       0.0
+                 RUSSELL              -0.372087
+                 US10U               -11.627734
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry      99.890836
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry BUND                   -17.390104
+                 CANOLA                  -3.260696
+                 DOW                      0.372087
+                 DX                     104.184496
+                 GOLD_micro                    0.0
+                 IRON                     -7.44175
+                 RUSSELL                 -1.860437
+                 US10U                  -23.255468
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry         51.348129
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry BUND                                   0
+                 CANOLA                                 0
+                 DOW                                    0
+                 DX                                     0
+                 GOLD_micro                             0
+                 IRON                                   0
+                 RUSSELL                                0
+                 US10U                                  0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry BUND                    -13.042578
+                 CANOLA                   -2.173797
+                 DOW                       0.744175
+                 DX                      111.626246
+                 GOLD_micro                0.744175
+                 IRON                     -3.720875
+                 RUSSELL                  -1.116262
+                 US10U                   -17.441601
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry          75.619482
 
 ********************************************************************************
                                  END OF REPORT                                  
