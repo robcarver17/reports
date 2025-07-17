@@ -1,15 +1,97 @@
 
 ********************************************************************************
-Trades report produced on 16/07/2025 22:51 from 15/07/2025 22:51 to 16/07/2025 22:51
+Trades report produced on 17/07/2025 22:51 from 16/07/2025 22:51 to 17/07/2025 22:51
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+34844           CAD10  dynamic_TF_carry    [20250900] 2025-07-17 14:00:10  [-1]        119.38
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+34844           CAD10  dynamic_TF_carry       2025-07-16 00:00:00  2025-07-17 14:00:06.691000  2025-07-17 14:00:10             136806.691               3.309
+
+
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+34844           CAD10  dynamic_TF_carry  [-1]                 119.41               None   119.375     119.37        119.38      119.38       119.38 -0.035  -0.005      0.01         -0.0                 NaN         0.005
+
+
+=============================================================================================================================================================
+                                                    Slippage (normalised by annual vol, BP of annual SR)                                                     
+=============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol  delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34844           CAD10  dynamic_TF_carry  [-1]        7.053566 -49.620289   -7.088613     14.177225             -0.0                     NaN          7.088613
+
+
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34844           CAD10  dynamic_TF_carry  [-1]           544.453207 -19.055862    -2.722266       5.444532              -0.0                      NaN           2.722266
+
+delay_cash Sum
+                                 delay_cash
+strategy_name    instrument_code           
+dynamic_TF_carry CAD10           -19.055862
+delay_cash Total Sum
+                 delay_cash
+strategy_name              
+dynamic_TF_carry -19.055862
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry CAD10              -2.722266
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry    -2.722266
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry CAD10                 5.444532
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry       5.444532
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry CAD10                        -0.0
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry              -0.0
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry CAD10                                  0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry CAD10                     2.722266
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry           2.722266
 
 ********************************************************************************
                                  END OF REPORT                                  
