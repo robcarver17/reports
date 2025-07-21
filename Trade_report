@@ -1,152 +1,15 @@
 
 ********************************************************************************
-Trades report produced on 18/07/2025 22:51 from 17/07/2025 22:51 to 18/07/2025 22:51
+Trades report produced on 21/07/2025 22:51 from 20/07/2025 22:51 to 21/07/2025 22:51
 ********************************************************************************
 
 
-
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
-
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-34850             CAD  dynamic_TF_carry    [20250900] 2025-07-18 15:00:31  [-1]      0.731800
-34847             DOW  dynamic_TF_carry    [20250900] 2025-07-18 15:00:05  [-1]  44651.000000
-34845            IRON  dynamic_TF_carry    [20250900] 2025-07-18 02:00:34   [1]    101.900000
-34848             JPY  dynamic_TF_carry    [20250900] 2025-07-18 15:00:08  [-1]      0.006789
-34846     KRWUSD_mini  dynamic_TF_carry    [20250800] 2025-07-18 02:02:38  [-1]      0.720000
-34849    NASDAQ_micro  dynamic_TF_carry    [20250900] 2025-07-18 15:00:09   [1]  23278.750000
-
-
-=============================================================================================================================================================
-                                                                           Delays                                                                            
-=============================================================================================================================================================
-
-      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-34845            IRON  dynamic_TF_carry       2025-07-17 00:00:00  2025-07-18 02:00:30.402000  2025-07-18 02:00:34              93630.402               3.598
-34846     KRWUSD_mini  dynamic_TF_carry       2025-07-17 00:00:00  2025-07-18 02:02:08.545000  2025-07-18 02:02:38              93728.545              29.455
-34847             DOW  dynamic_TF_carry       2025-07-17 00:00:00  2025-07-18 15:00:05.195000  2025-07-18 15:00:05             140405.195                 NaN
-34848             JPY  dynamic_TF_carry       2025-07-17 00:00:00  2025-07-18 15:00:07.524000  2025-07-18 15:00:08             140407.524               0.476
-34849    NASDAQ_micro  dynamic_TF_carry       2025-07-17 00:00:00  2025-07-18 15:00:09.486000  2025-07-18 15:00:09             140409.486                 NaN
-34850             CAD  dynamic_TF_carry       2025-07-17 00:00:00  2025-07-18 15:00:11.413000  2025-07-18 15:00:31             140411.413              19.587
-
-
-================================================================================================================================================================================================================================
-                                                                                                    Slippage (ticks per lot)                                                                                                    
-================================================================================================================================================================================================================================
-
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
-34845            IRON  dynamic_TF_carry   [1]                  100.7               None    101.95      102.0         101.9       101.9        101.9     -1.25     -0.05       0.1          0.0                 NaN          0.05
-34846     KRWUSD_mini  dynamic_TF_carry  [-1]                 0.7195               None    0.7203     0.7202        0.7204      0.7204         0.72    0.0008   -0.0001   -0.0002      -0.0004                 NaN       -0.0003
-34847             DOW  dynamic_TF_carry  [-1]                44737.0               None   44652.0    44645.0       44659.0     44659.0      44651.0     -85.0      -7.0       6.0         -8.0                 NaN          -1.0
-34848             JPY  dynamic_TF_carry  [-1]                0.00677               None  0.006788   0.006788      0.006789    0.006789     0.006789  0.000019      -0.0  0.000001         -0.0                 NaN      0.000001
-34849    NASDAQ_micro  dynamic_TF_carry   [1]                23267.5               None  23279.25   23279.75      23278.75    23278.75     23278.75    -11.75      -0.5       1.0          0.0                 NaN           0.5
-34850             CAD  dynamic_TF_carry  [-1]                0.72945               None  0.731875    0.73185        0.7319      0.7319       0.7318  0.002425 -0.000025  -0.00005      -0.0001                 NaN     -0.000075
-
-
-==============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
-==============================================================================================================================================================
-
-      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-34845            IRON  dynamic_TF_carry   [1]       19.393676  -644.53999    -25.7816     51.563199              0.0                     NaN           25.7816
-34846     KRWUSD_mini  dynamic_TF_carry  [-1]        0.073583  108.721331  -13.590166    -27.180333       -54.360666                     NaN        -40.770499
-34847             DOW  dynamic_TF_carry  [-1]     5487.588237 -154.895004  -12.756059     10.933765       -14.578353                     NaN         -1.822294
-34848             JPY  dynamic_TF_carry  [-1]        0.000647  293.465698   -7.722782     15.445563             -0.0                     NaN          7.722782
-34849    NASDAQ_micro  dynamic_TF_carry   [1]     3135.039646   -37.47959   -1.594876      3.189752              0.0                     NaN          1.594876
-34850             CAD  dynamic_TF_carry  [-1]        0.040201  603.212878   -6.218689    -12.437379       -24.874758                     NaN        -18.656068
-
-
-========================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                       
-========================================================================================================================================================================
-
-      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-34845            IRON  dynamic_TF_carry   [1]             74.54231  -93.177888    -3.727116       7.454231               0.0                      NaN           3.727116
-34846     KRWUSD_mini  dynamic_TF_carry  [-1]         18635.577554   14.908462    -1.863558      -3.727116         -7.454231                      NaN          -5.590673
-34847             DOW  dynamic_TF_carry  [-1]             0.372712  -31.680482    -2.608981       2.236269         -2.981692                      NaN          -0.372712
-34848             JPY  dynamic_TF_carry  [-1]        9317788.77691  177.037987    -4.658894       9.317789              -0.0                      NaN           4.658894
-34849    NASDAQ_micro  dynamic_TF_carry   [1]             1.490846  -17.517443    -0.745423       1.490846               0.0                      NaN           0.745423
-34850             CAD  dynamic_TF_carry  [-1]         74542.310215  180.765102    -1.863558      -3.727116         -7.454231                      NaN          -5.590673
-
-delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry CAD              180.765102
-                 DOW              -31.680482
-                 IRON             -93.177888
-                 JPY              177.037987
-                 KRWUSD_mini       14.908462
-                 NASDAQ_micro     -17.517443
-delay_cash Total Sum
-                  delay_cash
-strategy_name               
-dynamic_TF_carry  230.335739
-bid_ask_cash Sum
-                                 bid_ask_cash
-strategy_name    instrument_code             
-dynamic_TF_carry CAD                -1.863558
-                 DOW                -2.608981
-                 IRON               -3.727116
-                 JPY                -4.658894
-                 KRWUSD_mini        -1.863558
-                 NASDAQ_micro       -0.745423
-bid_ask_cash Total Sum
-                 bid_ask_cash
-strategy_name                
-dynamic_TF_carry   -15.467529
-execution_cash Sum
-                                 execution_cash
-strategy_name    instrument_code               
-dynamic_TF_carry CAD                  -3.727116
-                 DOW                   2.236269
-                 IRON                  7.454231
-                 JPY                   9.317789
-                 KRWUSD_mini          -3.727116
-                 NASDAQ_micro          1.490846
-execution_cash Total Sum
-                 execution_cash
-strategy_name                  
-dynamic_TF_carry      13.044904
-versus_limit_cash Sum
-                                 versus_limit_cash
-strategy_name    instrument_code                  
-dynamic_TF_carry CAD                     -7.454231
-                 DOW                     -2.981692
-                 IRON                          0.0
-                 JPY                          -0.0
-                 KRWUSD_mini             -7.454231
-                 NASDAQ_micro                  0.0
-versus_limit_cash Total Sum
-                 versus_limit_cash
-strategy_name                     
-dynamic_TF_carry        -17.890154
-versus_parent_limit_cash Sum
-                                 versus_parent_limit_cash
-strategy_name    instrument_code                         
-dynamic_TF_carry CAD                                    0
-                 DOW                                    0
-                 IRON                                   0
-                 JPY                                    0
-                 KRWUSD_mini                            0
-                 NASDAQ_micro                           0
-versus_parent_limit_cash Total Sum
-                 versus_parent_limit_cash
-strategy_name                            
-dynamic_TF_carry                        0
-total_trading_cash Sum
-                                 total_trading_cash
-strategy_name    instrument_code                   
-dynamic_TF_carry CAD                      -5.590673
-                 DOW                      -0.372712
-                 IRON                      3.727116
-                 JPY                       4.658894
-                 KRWUSD_mini              -5.590673
-                 NASDAQ_micro              0.745423
-total_trading_cash Total Sum
-                 total_trading_cash
-strategy_name                      
-dynamic_TF_carry          -2.422625
+No trades
+No trades
+No trades
+No trades
+No trades
+No trades
 
 ********************************************************************************
                                  END OF REPORT                                  
