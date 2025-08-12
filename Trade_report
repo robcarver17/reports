@@ -1,15 +1,162 @@
 
 ********************************************************************************
-Trades report produced on 11/08/2025 22:51 from 10/08/2025 22:51 to 11/08/2025 22:51
+Trades report produced on 12/08/2025 22:51 from 11/08/2025 22:51 to 12/08/2025 22:51
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+34937         BITCOIN  dynamic_TF_carry    [20250900] 2025-08-12 15:00:04   [1]   119955.0000
+34933    COPPER-micro  dynamic_TF_carry    [20251200] 2025-08-12 14:00:06  [-1]        4.5525
+34931             DAX  dynamic_TF_carry    [20250900] 2025-08-12 08:00:11   [1]    24225.0000
+34932             DAX  dynamic_TF_carry    [20250900] 2025-08-12 08:00:16   [1]    24221.0000
+34938             DOW  dynamic_TF_carry    [20250900] 2025-08-12 15:00:06  [-1]    44316.0000
+34936     GAS_US_mini  dynamic_TF_carry    [20251000] 2025-08-12 14:00:27  [-1]        2.9800
+34935     GAS_US_mini  dynamic_TF_carry    [20251000] 2025-08-12 14:00:22  [-1]        2.9800
+34934        MSCIEAFA  dynamic_TF_carry    [20250900] 2025-08-12 14:00:08   [1]     2702.2000
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+34931             DAX  dynamic_TF_carry       2025-08-11 00:00:00  2025-08-12 08:00:09.701000  2025-08-12 08:00:11             115209.701               1.299
+34932             DAX  dynamic_TF_carry       2025-08-11 00:00:00  2025-08-12 08:00:16.159000  2025-08-12 08:00:16             115216.159                 NaN
+34933    COPPER-micro  dynamic_TF_carry       2024-02-29 00:00:00  2025-08-12 14:00:05.915000  2025-08-12 14:00:06           45842405.915               0.085
+34934        MSCIEAFA  dynamic_TF_carry       2025-08-11 00:00:00  2025-08-12 14:00:08.724000  2025-08-12 14:00:08             136808.724                 NaN
+34936     GAS_US_mini  dynamic_TF_carry       2025-08-11 00:00:00  2025-08-12 14:00:27.160000  2025-08-12 14:00:27              136827.16                 NaN
+34935     GAS_US_mini  dynamic_TF_carry       2025-08-11 00:00:00  2025-08-12 14:00:13.914000  2025-08-12 14:00:22             136813.914               8.086
+34937         BITCOIN  dynamic_TF_carry       2025-08-11 00:00:00  2025-08-12 15:00:04.410000  2025-08-12 15:00:04              140404.41                 NaN
+34938             DOW  dynamic_TF_carry       2025-08-11 00:00:00  2025-08-12 15:00:06.107000  2025-08-12 15:00:06             140406.107                 NaN
+
+
+============================================================================================================================================================================================================================
+                                                                                                  Slippage (ticks per lot)                                                                                                  
+============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
+34931             DAX  dynamic_TF_carry   [1]                24106.0               None   24222.5    24224.0       24221.0     24221.0      24225.0  -116.5    -1.5      -1.0         -4.0                 NaN          -2.5
+34932             DAX  dynamic_TF_carry   [1]                24106.0               None   24224.5    24226.0       24223.0     24223.0      24221.0  -118.5    -1.5       5.0          2.0                 NaN           3.5
+34933    COPPER-micro  dynamic_TF_carry  [-1]                    NaN               None     4.554     4.5525        4.5555      4.5555       4.5525     NaN -0.0015      -0.0       -0.003                 NaN       -0.0015
+34934        MSCIEAFA  dynamic_TF_carry   [1]                 2685.3               None   2706.35     2706.5        2706.2      2706.2       2702.2  -21.05   -0.15       4.3          4.0                 NaN          4.15
+34936     GAS_US_mini  dynamic_TF_carry  [-1]                   3.06               None    2.9825       2.98         2.985         NaN         2.98 -0.0775 -0.0025      -0.0          NaN                 NaN       -0.0025
+34935     GAS_US_mini  dynamic_TF_carry  [-1]                   3.06               None    2.9825       2.98         2.985       2.985         2.98 -0.0775 -0.0025      -0.0       -0.005                 NaN       -0.0025
+34937         BITCOIN  dynamic_TF_carry   [1]               120830.0               None  119905.0   119935.0      119875.0    119875.0     119955.0   925.0   -30.0     -20.0        -80.0                 NaN         -50.0
+34938             DOW  dynamic_TF_carry  [-1]                44099.0               None   44323.0    44322.0       44324.0     44324.0      44316.0   224.0    -1.0      -6.0         -8.0                 NaN          -7.0
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34931             DAX  dynamic_TF_carry   [1]     3423.315372 -340.313373   -4.381717     -2.921145       -11.684579                     NaN         -7.302862
+34932             DAX  dynamic_TF_carry   [1]     3423.315372 -346.155662   -4.381717     14.605724          5.84229                     NaN         10.224007
+34933    COPPER-micro  dynamic_TF_carry  [-1]        2.814672         NaN   -5.329218          -0.0       -10.658437                     NaN         -5.329218
+34934        MSCIEAFA  dynamic_TF_carry   [1]      392.339036 -536.525761   -3.823224    109.599087       101.952639                     NaN        105.775863
+34936     GAS_US_mini  dynamic_TF_carry  [-1]        1.644572 -471.247134   -15.20152          -0.0              NaN                     NaN         -15.20152
+34935     GAS_US_mini  dynamic_TF_carry  [-1]        1.644572 -471.247134   -15.20152          -0.0       -30.403041                     NaN         -15.20152
+34937         BITCOIN  dynamic_TF_carry   [1]    34114.518872  271.145551    -8.79391     -5.862606       -23.450426                     NaN        -14.656516
+34938             DOW  dynamic_TF_carry  [-1]     5257.189088   426.08321   -1.902157    -11.412943       -15.217257                     NaN          -13.3151
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34931             DAX  dynamic_TF_carry   [1]             0.865023 -100.775225    -1.297535      -0.865023         -3.460094                      NaN          -2.162558
+34932             DAX  dynamic_TF_carry   [1]             0.865023 -102.505271    -1.297535       4.325117          1.730047                      NaN           3.027582
+34933    COPPER-micro  dynamic_TF_carry  [-1]          1862.003218         NaN    -2.793005           -0.0          -5.58601                      NaN          -2.793005
+34934        MSCIEAFA  dynamic_TF_carry   [1]            37.240064 -783.903355     -5.58601     160.132277        148.960257                      NaN         154.546267
+34936     GAS_US_mini  dynamic_TF_carry  [-1]          1862.003218 -144.305249    -4.655008           -0.0               NaN                      NaN          -4.655008
+34935     GAS_US_mini  dynamic_TF_carry  [-1]          1862.003218 -144.305249    -4.655008           -0.0         -9.310016                      NaN          -4.655008
+34937         BITCOIN  dynamic_TF_carry   [1]              0.07448   68.894119    -2.234404      -1.489603          -5.95841                      NaN          -3.724006
+34938             DOW  dynamic_TF_carry  [-1]             0.372401   83.417744    -0.372401      -2.234404         -2.979205                      NaN          -2.606805
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry BITCOIN           68.894119
+                 COPPER-micro              0
+                 DAX             -203.280496
+                 DOW               83.417744
+                 GAS_US_mini     -288.610499
+                 MSCIEAFA        -783.903355
+delay_cash Total Sum
+                   delay_cash
+strategy_name                
+dynamic_TF_carry -1123.482486
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry BITCOIN            -2.234404
+                 COPPER-micro       -2.793005
+                 DAX                 -2.59507
+                 DOW                -0.372401
+                 GAS_US_mini        -9.310016
+                 MSCIEAFA            -5.58601
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -22.890905
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry BITCOIN              -1.489603
+                 COPPER-micro              -0.0
+                 DAX                   3.460094
+                 DOW                  -2.234404
+                 GAS_US_mini               -0.0
+                 MSCIEAFA            160.132277
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry     159.868364
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry BITCOIN                  -5.95841
+                 COPPER-micro             -5.58601
+                 DAX                     -1.730047
+                 DOW                     -2.979205
+                 GAS_US_mini             -9.310016
+                 MSCIEAFA               148.960257
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry        123.396569
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry BITCOIN                                0
+                 COPPER-micro                           0
+                 DAX                                    0
+                 DOW                                    0
+                 GAS_US_mini                            0
+                 MSCIEAFA                               0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry BITCOIN                  -3.724006
+                 COPPER-micro             -2.793005
+                 DAX                       0.865023
+                 DOW                      -2.606805
+                 GAS_US_mini              -9.310016
+                 MSCIEAFA                154.546267
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry         136.977459
 
 ********************************************************************************
                                  END OF REPORT                                  
