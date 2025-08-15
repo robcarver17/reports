@@ -1,15 +1,190 @@
 
 ********************************************************************************
-Trades report produced on 14/08/2025 22:51 from 13/08/2025 22:51 to 14/08/2025 22:51
+Trades report produced on 15/08/2025 22:51 from 14/08/2025 22:51 to 15/08/2025 22:51
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+34942             AEX  dynamic_TF_carry    [20250900] 2025-08-15 08:00:13   [1]     900.85000
+34944    COPPER-micro  dynamic_TF_carry    [20251200] 2025-08-15 14:00:19  [-1]       4.54700
+34941             DAX  dynamic_TF_carry    [20250900] 2025-08-15 08:00:06   [1]   24573.00000
+34947             DOW  dynamic_TF_carry    [20250900] 2025-08-15 15:00:12  [-1]   45093.00000
+34940         EU-TECH  dynamic_TF_carry    [20250900] 2025-08-15 08:00:04  [-1]     802.60000
+34943     GAS_US_mini  dynamic_TF_carry    [20251000] 2025-08-15 14:00:10  [-1]       3.00000
+34945             GBP  dynamic_TF_carry    [20250900] 2025-08-15 15:00:02   [1]       1.35690
+34946             MXP  dynamic_TF_carry    [20250900] 2025-08-15 15:00:10   [1]       0.05332
+34948             MXP  dynamic_TF_carry    [20250900] 2025-08-15 15:00:30   [1]       0.05333
+34939          SPI200  dynamic_TF_carry    [20250900] 2025-08-15 02:02:06  [-1]    8846.00000
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+34939          SPI200  dynamic_TF_carry       2025-08-14 00:00:00  2025-08-15 02:02:05.372000  2025-08-15 02:02:06              93725.372               0.628
+34940         EU-TECH  dynamic_TF_carry       2025-08-11 00:00:00  2025-08-15 08:00:03.203000  2025-08-15 08:00:04             374403.203               0.797
+34941             DAX  dynamic_TF_carry       2025-08-11 00:00:00  2025-08-15 08:00:06.178000  2025-08-15 08:00:06             374406.178                 NaN
+34942             AEX  dynamic_TF_carry       2025-08-11 00:00:00  2025-08-15 08:00:11.888000  2025-08-15 08:00:13             374411.888               1.112
+34943     GAS_US_mini  dynamic_TF_carry       2025-08-11 00:00:00  2025-08-15 14:00:04.001000  2025-08-15 14:00:10             396004.001               5.999
+34944    COPPER-micro  dynamic_TF_carry       2024-02-29 00:00:00  2025-08-15 14:00:15.786000  2025-08-15 14:00:19           46101615.786               3.214
+34945             GBP  dynamic_TF_carry       2025-08-11 00:00:00  2025-08-15 15:00:01.914000  2025-08-15 15:00:02             399601.914               0.086
+34947             DOW  dynamic_TF_carry       2025-08-11 00:00:00  2025-08-15 15:00:12.287000  2025-08-15 15:00:12             399612.287                 NaN
+34946             MXP  dynamic_TF_carry       2025-08-11 00:00:00  2025-08-15 15:00:03.982000  2025-08-15 15:00:10             399603.982               6.018
+34948             MXP  dynamic_TF_carry       2025-08-11 00:00:00  2025-08-15 15:00:17.576000  2025-08-15 15:00:30             399617.576              12.424
+
+
+================================================================================================================================================================================================================================
+                                                                                                    Slippage (ticks per lot)                                                                                                    
+================================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
+34939          SPI200  dynamic_TF_carry  [-1]                 8825.0               None    8844.5     8844.0        8845.0      8845.0       8846.0      19.5      -0.5       2.0          1.0                 NaN           1.5
+34940         EU-TECH  dynamic_TF_carry  [-1]                  808.2               None     803.8      802.2         805.4       805.4        802.6      -4.4      -1.6       0.4         -2.8                 NaN          -1.2
+34941             DAX  dynamic_TF_carry   [1]                24106.0               None   24570.5    24572.0       24569.0     24569.0      24573.0    -464.5      -1.5      -1.0         -4.0                 NaN          -2.5
+34942             AEX  dynamic_TF_carry   [1]                  893.1               None   900.475      900.8        900.15      900.15       900.85    -7.375    -0.325     -0.05         -0.7                 NaN        -0.375
+34943     GAS_US_mini  dynamic_TF_carry  [-1]                   3.06               None    2.9975      2.995           3.0         3.0          3.0   -0.0625   -0.0025     0.005         -0.0                 NaN        0.0025
+34944    COPPER-micro  dynamic_TF_carry  [-1]                    NaN               None   4.54775     4.5465         4.549       4.549        4.547       NaN  -0.00125    0.0005       -0.002                 NaN      -0.00075
+34945             GBP  dynamic_TF_carry   [1]                 1.3435               None     1.357     1.3571        1.3569      1.3569       1.3569   -0.0135   -0.0001    0.0002          0.0                 NaN        0.0001
+34947             DOW  dynamic_TF_carry  [-1]                44099.0               None   45091.5    45090.0       45093.0     45093.0      45093.0     992.5      -1.5       3.0         -0.0                 NaN           1.5
+34946             MXP  dynamic_TF_carry   [1]                0.05336               None   0.05331    0.05332        0.0533      0.0533      0.05332   0.00005  -0.00001       0.0     -0.00002                 NaN      -0.00001
+34948             MXP  dynamic_TF_carry   [1]                0.05336               None  0.053315    0.05332       0.05331     0.05331      0.05333  0.000045 -0.000005  -0.00001     -0.00002                 NaN     -0.000015
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34939          SPI200  dynamic_TF_carry  [-1]      839.560014   232.264516     -5.9555     23.822002        11.911001                     NaN         17.866501
+34940         EU-TECH  dynamic_TF_carry  [-1]      152.902345   -287.76537 -104.641953     26.160488      -183.123417                     NaN        -78.481465
+34941             DAX  dynamic_TF_carry   [1]     3207.017157 -1448.386389   -4.677243     -3.118162       -12.472649                     NaN         -7.795406
+34942             AEX  dynamic_TF_carry   [1]      267.315163   -275.89157  -12.157934     -1.870451       -26.186319                     NaN        -14.028385
+34943     GAS_US_mini  dynamic_TF_carry  [-1]        1.663921  -375.618729  -15.024749     30.049498             -0.0                     NaN         15.024749
+34944    COPPER-micro  dynamic_TF_carry  [-1]        2.559796          NaN   -4.883201       1.95328        -7.813121                     NaN         -2.929921
+34945             GBP  dynamic_TF_carry   [1]        0.091657 -1472.883051  -10.910245      21.82049              0.0                     NaN         10.910245
+34947             DOW  dynamic_TF_carry  [-1]     5260.911919   1886.55506   -2.851217      5.702433             -0.0                     NaN          2.851217
+34946             MXP  dynamic_TF_carry   [1]        0.004771   104.808732  -20.961746           0.0       -41.923493                     NaN        -20.961746
+34948             MXP  dynamic_TF_carry   [1]        0.004771    94.327858  -10.480873    -20.961746       -41.923493                     NaN        -31.442619
+
+
+=========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                       
+=========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point   delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34939          SPI200  dynamic_TF_carry  [-1]            11.999557   233.991365    -5.999779      23.999114         11.999557                      NaN          17.999336
+34940         EU-TECH  dynamic_TF_carry  [-1]            43.064007  -189.481632   -68.902412      17.225603        -120.57922                      NaN         -51.676809
+34941             DAX  dynamic_TF_carry   [1]              0.86128  -400.064627     -1.29192       -0.86128         -3.445121                      NaN            -2.1532
+34942             AEX  dynamic_TF_carry   [1]           172.256029 -1270.388213   -55.983209      -8.612801        -120.57922                      NaN         -64.596011
+34943     GAS_US_mini  dynamic_TF_carry  [-1]          1845.120579  -115.320036    -4.612801       9.225603              -0.0                      NaN           4.612801
+34944    COPPER-micro  dynamic_TF_carry  [-1]          1845.120579          NaN    -2.306401        0.92256         -3.690241                      NaN           -1.38384
+34945             GBP  dynamic_TF_carry   [1]         46128.014466  -622.728195    -4.612801       9.225603               0.0                      NaN           4.612801
+34947             DOW  dynamic_TF_carry  [-1]             0.369024   366.256435    -0.553536       1.107072              -0.0                      NaN           0.553536
+34946             MXP  dynamic_TF_carry   [1]        369024.115726    18.451206    -3.690241            0.0         -7.380482                      NaN          -3.690241
+34948             MXP  dynamic_TF_carry   [1]        369024.115726    16.606085    -1.845121      -3.690241         -7.380482                      NaN          -5.535362
+
+delay_cash Sum
+                                   delay_cash
+strategy_name    instrument_code             
+dynamic_TF_carry AEX             -1270.388213
+                 COPPER-micro               0
+                 DAX              -400.064627
+                 DOW               366.256435
+                 EU-TECH          -189.481632
+                 GAS_US_mini      -115.320036
+                 GBP              -622.728195
+                 MXP                35.057291
+                 SPI200            233.991365
+delay_cash Total Sum
+                   delay_cash
+strategy_name                
+dynamic_TF_carry -1962.677613
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry AEX               -55.983209
+                 COPPER-micro       -2.306401
+                 DAX                 -1.29192
+                 DOW                -0.553536
+                 EU-TECH           -68.902412
+                 GAS_US_mini        -4.612801
+                 GBP                -4.612801
+                 MXP                -5.535362
+                 SPI200             -5.999779
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry  -149.798221
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry AEX                  -8.612801
+                 COPPER-micro           0.92256
+                 DAX                   -0.86128
+                 DOW                   1.107072
+                 EU-TECH              17.225603
+                 GAS_US_mini           9.225603
+                 GBP                   9.225603
+                 MXP                  -3.690241
+                 SPI200               23.999114
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry      48.541233
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry AEX                    -120.57922
+                 COPPER-micro            -3.690241
+                 DAX                     -3.445121
+                 DOW                          -0.0
+                 EU-TECH                -120.57922
+                 GAS_US_mini                  -0.0
+                 GBP                           0.0
+                 MXP                    -14.760965
+                 SPI200                  11.999557
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry        -251.05521
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry AEX                                    0
+                 COPPER-micro                           0
+                 DAX                                    0
+                 DOW                                    0
+                 EU-TECH                                0
+                 GAS_US_mini                            0
+                 GBP                                    0
+                 MXP                                    0
+                 SPI200                                 0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry AEX                     -64.596011
+                 COPPER-micro              -1.38384
+                 DAX                        -2.1532
+                 DOW                       0.553536
+                 EU-TECH                 -51.676809
+                 GAS_US_mini               4.612801
+                 GBP                       4.612801
+                 MXP                      -9.225603
+                 SPI200                   17.999336
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry        -101.256988
 
 ********************************************************************************
                                  END OF REPORT                                  
