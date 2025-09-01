@@ -1,15 +1,223 @@
 
 ********************************************************************************
-Trades report produced on 22/08/2025 22:51 from 21/08/2025 22:51 to 22/08/2025 22:51
+Trades report produced on 01/09/2025 22:51 from 31/08/2025 22:51 to 01/09/2025 22:51
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=================================================================================================
+                                          Broker orders                                          
+=================================================================================================
+
+      instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
+35005   CRUDE_W_micro  dynamic_TF_carry    [20251200] 2025-09-01 14:01:09.000   [1]     63.690000
+35006   CRUDE_W_micro  dynamic_TF_carry    [20251200] 2025-09-01 14:01:16.000   [1]     63.690000
+35008             DOW  dynamic_TF_carry    [20250900] 2025-09-01 15:00:03.000   [1]  45607.000000
+35002              DX  dynamic_TF_carry    [20251200] 2025-09-01 14:00:54.000  [-1]     97.260000
+35000        EU-BANKS  dynamic_TF_carry    [20250900] 2025-09-01 09:56:01.000  [-1]    225.600000
+35007       EUR_micro  dynamic_TF_carry    [20251200] 2025-09-01 15:00:02.000  [-1]      1.178200
+34999         GAS-PEN  dynamic_TF_carry    [20250900] 2025-09-01 09:53:28.639   [1]      2.698000
+35010             JPY  dynamic_TF_carry    [20250900] 2025-09-01 15:00:07.000   [1]      0.006801
+34998             MIB  dynamic_TF_carry    [20250900] 2025-09-01 09:52:47.000   [1]  42445.000000
+35003        MSCIEAFA  dynamic_TF_carry    [20250900] 2025-09-01 14:00:57.000  [-1]   2727.400000
+35009             NZD  dynamic_TF_carry    [20250900] 2025-09-01 15:00:05.000  [-1]      0.590150
+35001            RICE  dynamic_TF_carry    [20250900] 2025-09-01 09:57:35.766   [1]     11.525000
+35004          SILVER  dynamic_TF_carry    [20251200] 2025-09-01 14:01:00.000   [1]     41.485000
+
+
+====================================================================================================================================================================
+                                                                               Delays                                                                               
+====================================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
+34998             MIB  dynamic_TF_carry       2025-08-22 00:00:00  2025-09-01 09:52:46.022000         2025-09-01 09:52:47             899566.022               0.978
+34999         GAS-PEN  dynamic_TF_carry                       NaT                         NaT  2025-09-01 09:53:28.639000                    NaN                 NaN
+35000        EU-BANKS  dynamic_TF_carry       2025-08-22 00:00:00  2025-09-01 09:56:01.434000         2025-09-01 09:56:01             899761.434                 NaN
+35001            RICE  dynamic_TF_carry                       NaT                         NaT  2025-09-01 09:57:35.766000                    NaN                 NaN
+35002              DX  dynamic_TF_carry       2025-08-22 00:00:00  2025-09-01 14:00:05.984000         2025-09-01 14:00:54             914405.984              48.016
+35003        MSCIEAFA  dynamic_TF_carry       2025-08-22 00:00:00  2025-09-01 14:00:57.313000         2025-09-01 14:00:57             914457.313                 NaN
+35004          SILVER  dynamic_TF_carry       2025-08-22 00:00:00  2025-09-01 14:00:58.997000         2025-09-01 14:01:00             914458.997               1.003
+35005   CRUDE_W_micro  dynamic_TF_carry       2025-08-22 00:00:00  2025-09-01 14:01:05.917000         2025-09-01 14:01:09             914465.917               3.083
+35006   CRUDE_W_micro  dynamic_TF_carry       2025-08-22 00:00:00  2025-09-01 14:01:14.494000         2025-09-01 14:01:16             914474.494               1.506
+35007       EUR_micro  dynamic_TF_carry       2025-08-22 00:00:00  2025-09-01 15:00:01.587000         2025-09-01 15:00:02             918001.587               0.413
+35008             DOW  dynamic_TF_carry       2025-08-22 00:00:00  2025-09-01 15:00:03.578000         2025-09-01 15:00:03             918003.578                 NaN
+35009             NZD  dynamic_TF_carry       2025-08-22 00:00:00  2025-09-01 15:00:05.226000         2025-09-01 15:00:05             918005.226                 NaN
+35010             JPY  dynamic_TF_carry       2025-08-22 20:00:00  2025-09-01 15:00:07.220000         2025-09-01 15:00:07              846007.22                 NaN
+
+
+===============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                    
+===============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay  bid_ask execution versus_limit versus_parent_limit total_trading
+34998             MIB  dynamic_TF_carry   [1]                43500.0               None   42447.5    42450.0       42445.0     42445.0      42445.0    1052.5     -2.5       5.0          0.0                 NaN           2.5
+34999         GAS-PEN  dynamic_TF_carry   [1]                    NaN               None       NaN        NaN           NaN         NaN        2.698       NaN      NaN       NaN          NaN                 NaN           NaN
+35000        EU-BANKS  dynamic_TF_carry  [-1]                 236.25               None   225.575     225.55         225.6       225.6        225.6   -10.675   -0.025      0.05         -0.0                 NaN         0.025
+35001            RICE  dynamic_TF_carry   [1]                    NaN               None       NaN        NaN           NaN         NaN       11.525       NaN      NaN       NaN          NaN                 NaN           NaN
+35002              DX  dynamic_TF_carry  [-1]                 97.225               None    97.265      97.26         97.27       97.27        97.26      0.04   -0.005      -0.0        -0.01                 NaN        -0.005
+35003        MSCIEAFA  dynamic_TF_carry  [-1]                 2774.8               None   2727.15     2727.0        2727.3      2727.3       2727.4    -47.65    -0.15       0.4          0.1                 NaN          0.25
+35004          SILVER  dynamic_TF_carry   [1]                  39.46               None   41.4875      41.49        41.485      41.485       41.485   -2.0275  -0.0025     0.005          0.0                 NaN        0.0025
+35005   CRUDE_W_micro  dynamic_TF_carry   [1]                  63.01               None    63.705      63.72         63.69       63.69        63.69    -0.695   -0.015      0.03          0.0                 NaN         0.015
+35006   CRUDE_W_micro  dynamic_TF_carry   [1]                  63.01               None      63.7      63.71         63.69       63.69        63.69     -0.69    -0.01      0.02          0.0                 NaN          0.01
+35007       EUR_micro  dynamic_TF_carry  [-1]                   1.18               None    1.1783     1.1782        1.1784      1.1784       1.1782   -0.0017  -0.0001      -0.0      -0.0002                 NaN       -0.0001
+35008             DOW  dynamic_TF_carry   [1]                45724.0               None   45606.5    45608.0       45605.0     45605.0      45607.0     117.5     -1.5       1.0         -2.0                 NaN          -0.5
+35009             NZD  dynamic_TF_carry  [-1]                 0.5871               None    0.5902    0.59015       0.59025     0.59025      0.59015    0.0031 -0.00005      -0.0      -0.0001                 NaN      -0.00005
+35010             JPY  dynamic_TF_carry   [1]               0.006823               None  0.006801   0.006801      0.006801         NaN     0.006801  0.000023     -0.0       0.0          NaN                 NaN          -0.0
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+34998             MIB  dynamic_TF_carry   [1]     5524.603708  1905.114024   -4.525211      9.050423              0.0                     NaN          4.525211
+34999         GAS-PEN  dynamic_TF_carry   [1]        1.508432          NaN         NaN           NaN              NaN                     NaN               NaN
+35000        EU-BANKS  dynamic_TF_carry  [-1]       41.277295 -2586.167557   -6.056598     12.113197             -0.0                     NaN          6.056598
+35001            RICE  dynamic_TF_carry   [1]        3.216881          NaN         NaN           NaN              NaN                     NaN               NaN
+35002              DX  dynamic_TF_carry  [-1]        6.893695    58.024037   -7.253005          -0.0       -14.506009                     NaN         -7.253005
+35003        MSCIEAFA  dynamic_TF_carry  [-1]      358.374967 -1329.612959    -4.18556     11.161494         2.790373                     NaN          6.975934
+35004          SILVER  dynamic_TF_carry   [1]        8.695708 -2331.610054   -2.874982      5.749963              0.0                     NaN          2.874982
+35005   CRUDE_W_micro  dynamic_TF_carry   [1]       16.665985  -417.017065   -9.000368     18.000737              0.0                     NaN          9.000368
+35006   CRUDE_W_micro  dynamic_TF_carry   [1]       16.665985  -414.016942   -6.000246     12.000491              0.0                     NaN          6.000246
+35007       EUR_micro  dynamic_TF_carry  [-1]        0.090018  -188.851433  -11.108908          -0.0       -22.217816                     NaN        -11.108908
+35008             DOW  dynamic_TF_carry   [1]     5124.073505   229.309747   -2.927358      1.951572        -3.903145                     NaN         -0.975786
+35009             NZD  dynamic_TF_carry  [-1]        0.050692    611.53622   -9.863487          -0.0       -19.726975                     NaN         -9.863487
+35010             JPY  dynamic_TF_carry   [1]        0.000634   358.604472   -3.940708           0.0              NaN                     NaN         -3.940708
+
+
+=========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                       
+=========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point   delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+34998             MIB  dynamic_TF_carry   [1]             4.334478  4562.038545   -10.836196      21.672392               0.0                      NaN          10.836196
+34999         GAS-PEN  dynamic_TF_carry   [1]          7387.706856          NaN          NaN            NaN               NaN                      NaN                NaN
+35000        EU-BANKS  dynamic_TF_carry  [-1]            43.344784  -462.705572     -1.08362       2.167239              -0.0                      NaN            1.08362
+35001            RICE  dynamic_TF_carry   [1]          1477.541371          NaN          NaN            NaN               NaN                      NaN                NaN
+35002              DX  dynamic_TF_carry  [-1]           738.770686    29.550827    -3.693853           -0.0         -7.387707                      NaN          -3.693853
+35003        MSCIEAFA  dynamic_TF_carry  [-1]            36.938534 -1760.121158     -5.54078      14.775414          3.693853                      NaN           9.234634
+35004          SILVER  dynamic_TF_carry   [1]           738.770686 -1497.857565    -1.846927       3.693853               0.0                      NaN           1.846927
+35005   CRUDE_W_micro  dynamic_TF_carry   [1]            73.877069   -51.344563    -1.108156       2.216312               0.0                      NaN           1.108156
+35006   CRUDE_W_micro  dynamic_TF_carry   [1]            73.877069   -50.975177    -0.738771       1.477541               0.0                      NaN           0.738771
+35007       EUR_micro  dynamic_TF_carry  [-1]           9234.63357   -15.698877    -0.923463           -0.0         -1.846927                      NaN          -0.923463
+35008             DOW  dynamic_TF_carry   [1]             0.369385    43.402778    -0.554078       0.369385         -0.738771                      NaN          -0.184693
+35009             NZD  dynamic_TF_carry  [-1]         73877.068558   229.018913    -3.693853           -0.0         -7.387707                      NaN          -3.693853
+35010             JPY  dynamic_TF_carry   [1]        9234633.56974   210.087914    -2.308658            0.0               NaN                      NaN          -2.308658
+
+delay_cash Sum
+                                   delay_cash
+strategy_name    instrument_code             
+dynamic_TF_carry CRUDE_W_micro     -102.31974
+                 DOW                43.402778
+                 DX                 29.550827
+                 EU-BANKS         -462.705572
+                 EUR_micro         -15.698877
+                 GAS-PEN                    0
+                 JPY               210.087914
+                 MIB              4562.038545
+                 MSCIEAFA        -1760.121158
+                 NZD               229.018913
+                 RICE                       0
+                 SILVER          -1497.857565
+delay_cash Total Sum
+                   delay_cash
+strategy_name                
+dynamic_TF_carry  1235.396064
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry CRUDE_W_micro      -1.846927
+                 DOW                -0.554078
+                 DX                 -3.693853
+                 EU-BANKS            -1.08362
+                 EUR_micro          -0.923463
+                 GAS-PEN                    0
+                 JPY                -2.308658
+                 MIB               -10.836196
+                 MSCIEAFA            -5.54078
+                 NZD                -3.693853
+                 RICE                       0
+                 SILVER             -1.846927
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -32.328356
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry CRUDE_W_micro         3.693853
+                 DOW                   0.369385
+                 DX                        -0.0
+                 EU-BANKS              2.167239
+                 EUR_micro                 -0.0
+                 GAS-PEN                      0
+                 JPY                        0.0
+                 MIB                  21.672392
+                 MSCIEAFA             14.775414
+                 NZD                       -0.0
+                 RICE                         0
+                 SILVER                3.693853
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry      46.372137
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry CRUDE_W_micro                 0.0
+                 DOW                     -0.738771
+                 DX                      -7.387707
+                 EU-BANKS                     -0.0
+                 EUR_micro               -1.846927
+                 GAS-PEN                         0
+                 JPY                             0
+                 MIB                           0.0
+                 MSCIEAFA                 3.693853
+                 NZD                     -7.387707
+                 RICE                            0
+                 SILVER                        0.0
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry        -13.667258
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry CRUDE_W_micro                          0
+                 DOW                                    0
+                 DX                                     0
+                 EU-BANKS                               0
+                 EUR_micro                              0
+                 GAS-PEN                                0
+                 JPY                                    0
+                 MIB                                    0
+                 MSCIEAFA                               0
+                 NZD                                    0
+                 RICE                                   0
+                 SILVER                                 0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry CRUDE_W_micro             1.846927
+                 DOW                      -0.184693
+                 DX                       -3.693853
+                 EU-BANKS                   1.08362
+                 EUR_micro                -0.923463
+                 GAS-PEN                          0
+                 JPY                      -2.308658
+                 MIB                      10.836196
+                 MSCIEAFA                  9.234634
+                 NZD                      -3.693853
+                 RICE                             0
+                 SILVER                    1.846927
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry          14.043781
 
 ********************************************************************************
                                  END OF REPORT                                  
