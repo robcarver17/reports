@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 12/09/2025 22:51 from 11/09/2025 22:51 to 12/09/2025 22:51
+Trades report produced on 15/09/2025 22:50 from 14/09/2025 22:50 to 15/09/2025 22:50
 ********************************************************************************
 
 
@@ -10,8 +10,8 @@ Trades report produced on 12/09/2025 22:51 from 11/09/2025 22:51 to 12/09/2025 2
 =============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-35055     KRWUSD_mini  dynamic_TF_carry    [20251000] 2025-09-12 02:01:15  [-1]         0.721
-35056          NIKKEI  dynamic_TF_carry    [20251200] 2025-09-12 02:01:20   [1]     44340.000
+35058          CANOLA  dynamic_TF_carry    [20251100] 2025-09-15 14:01:54  [-1]         638.0
+35059         RUSSELL  dynamic_TF_carry    [20250900] 2025-09-15 15:00:04  [-1]        2411.3
 
 
 =============================================================================================================================================================
@@ -19,17 +19,17 @@ Trades report produced on 12/09/2025 22:51 from 11/09/2025 22:51 to 12/09/2025 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-35055     KRWUSD_mini  dynamic_TF_carry       2025-09-10 00:00:00  2025-09-12 02:00:35.229000  2025-09-12 02:01:15             180035.229              39.771
-35056          NIKKEI  dynamic_TF_carry       2025-09-11 00:00:00  2025-09-12 02:01:17.434000  2025-09-12 02:01:20              93677.434               2.566
+35058          CANOLA  dynamic_TF_carry       2025-09-12 19:00:00  2025-09-15 14:00:03.234000  2025-09-15 14:01:54             241203.234             110.766
+35059         RUSSELL  dynamic_TF_carry       2025-09-12 20:00:00  2025-09-15 15:00:04.247000  2025-09-15 15:00:04             241204.247                 NaN
 
 
-============================================================================================================================================================================================================================
-                                                                                                  Slippage (ticks per lot)                                                                                                  
-============================================================================================================================================================================================================================
+==========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                 
+==========================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
-35055     KRWUSD_mini  dynamic_TF_carry  [-1]                 0.7224               None    0.7213     0.7212        0.7214      0.7214        0.721 -0.0011 -0.0001   -0.0002      -0.0004                 NaN       -0.0003
-35056          NIKKEI  dynamic_TF_carry   [1]                44130.0               None   44342.5    44345.0       44340.0     44340.0      44340.0  -212.5    -2.5       5.0          0.0                 NaN           2.5
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
+35058          CANOLA  dynamic_TF_carry  [-1]                  637.3               None     638.5      638.4         638.6       638.6        638.0   1.2    -0.1      -0.4         -0.6                 NaN          -0.5
+35059         RUSSELL  dynamic_TF_carry  [-1]                 2406.9               None    2411.5     2411.4        2411.6      2411.6       2411.3   4.6    -0.1      -0.1         -0.3                 NaN          -0.2
 
 
 ==============================================================================================================================================================
@@ -37,59 +37,59 @@ Trades report produced on 12/09/2025 22:51 from 11/09/2025 22:51 to 12/09/2025 2
 ==============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-35055     KRWUSD_mini  dynamic_TF_carry  [-1]        0.057662 -190.766096  -17.342372    -34.684745       -69.369489                     NaN        -52.027117
-35056          NIKKEI  dynamic_TF_carry   [1]     7248.158247 -293.177926   -3.449152      6.898304              0.0                     NaN          3.449152
+35058          CANOLA  dynamic_TF_carry  [-1]      149.870965   80.068878   -6.672406    -26.689626       -40.034439                     NaN        -33.362032
+35059         RUSSELL  dynamic_TF_carry  [-1]      419.787704  109.579198   -2.382156     -2.382156        -7.146469                     NaN         -4.764313
 
 
-========================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                       
-========================================================================================================================================================================
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-35055     KRWUSD_mini  dynamic_TF_carry  [-1]         18449.095256  -20.294005     -1.84491      -3.689819         -7.379638                      NaN          -5.534729
-35056          NIKKEI  dynamic_TF_carry   [1]             0.500808 -106.421799    -1.252021       2.504042               0.0                      NaN           1.252021
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+35058          CANOLA  dynamic_TF_carry  [-1]            10.656414  12.787697    -1.065641      -4.262566         -6.393849                      NaN          -5.328207
+35059         RUSSELL  dynamic_TF_carry  [-1]              3.68616  16.956337    -0.368616      -0.368616         -1.105848                      NaN          -0.737232
 
 delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry KRWUSD_mini      -20.294005
-                 NIKKEI          -106.421799
+                                 delay_cash
+strategy_name    instrument_code           
+dynamic_TF_carry CANOLA           12.787697
+                 RUSSELL          16.956337
 delay_cash Total Sum
-                  delay_cash
-strategy_name               
-dynamic_TF_carry -126.715804
+                 delay_cash
+strategy_name              
+dynamic_TF_carry  29.744035
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry KRWUSD_mini         -1.84491
-                 NIKKEI             -1.252021
+dynamic_TF_carry CANOLA             -1.065641
+                 RUSSELL            -0.368616
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -3.096931
+dynamic_TF_carry    -1.434257
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry KRWUSD_mini          -3.689819
-                 NIKKEI                2.504042
+dynamic_TF_carry CANOLA               -4.262566
+                 RUSSELL              -0.368616
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry      -1.185777
+dynamic_TF_carry      -4.631182
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry KRWUSD_mini             -7.379638
-                 NIKKEI                        0.0
+dynamic_TF_carry CANOLA                  -6.393849
+                 RUSSELL                 -1.105848
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry         -7.379638
+dynamic_TF_carry         -7.499697
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry KRWUSD_mini                            0
-                 NIKKEI                                 0
+dynamic_TF_carry CANOLA                                 0
+                 RUSSELL                                0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -97,12 +97,12 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry KRWUSD_mini              -5.534729
-                 NIKKEI                    1.252021
+dynamic_TF_carry CANOLA                   -5.328207
+                 RUSSELL                  -0.737232
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry          -4.282707
+dynamic_TF_carry          -6.065439
 
 ********************************************************************************
                                  END OF REPORT                                  
