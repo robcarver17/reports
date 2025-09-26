@@ -1,15 +1,163 @@
 
 ********************************************************************************
-Trades report produced on 25/09/2025 22:51 from 24/09/2025 22:51 to 25/09/2025 22:51
+Trades report produced on 26/09/2025 22:51 from 25/09/2025 22:51 to 26/09/2025 22:51
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+==============================================================================================
+                                        Broker orders                                         
+==============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill   filled_price
+35118         BITCOIN  dynamic_TF_carry    [20251000] 2025-09-26 15:00:05  [-1]  110430.000000
+35116   CRUDE_W_micro  dynamic_TF_carry    [20251200] 2025-09-26 14:00:14   [1]      64.710000
+35115             DAX  dynamic_TF_carry    [20251200] 2025-09-26 08:00:10  [-1]   23747.000000
+35114      FTSECHINAA  dynamic_TF_carry    [20251000] 2025-09-26 02:02:08   [1]   15189.000000
+35117             JPY  dynamic_TF_carry    [20251200] 2025-09-26 15:00:04  [-1]       0.006731
+35119         RUSSELL  dynamic_TF_carry    [20251200] 2025-09-26 15:00:07  [-1]    2450.700000
+35120            US30  dynamic_TF_carry    [20251200] 2025-09-26 15:00:09  [-1]     119.656250
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+35114      FTSECHINAA  dynamic_TF_carry       2025-09-25 00:00:00  2025-09-26 02:02:05.549000  2025-09-26 02:02:08              93725.549               2.451
+35115             DAX  dynamic_TF_carry       2025-09-25 00:00:00  2025-09-26 08:00:09.661000  2025-09-26 08:00:10             115209.661               0.339
+35116   CRUDE_W_micro  dynamic_TF_carry       2025-09-25 00:00:00  2025-09-26 14:00:06.941000  2025-09-26 14:00:14             136806.941               7.059
+35117             JPY  dynamic_TF_carry       2025-09-25 00:00:00  2025-09-26 15:00:03.385000  2025-09-26 15:00:04             140403.385               0.615
+35118         BITCOIN  dynamic_TF_carry       2025-09-25 00:00:00  2025-09-26 15:00:05.302000  2025-09-26 15:00:05             140405.302                 NaN
+35119         RUSSELL  dynamic_TF_carry       2025-09-25 00:00:00  2025-09-26 15:00:07.122000  2025-09-26 15:00:07             140407.122                 NaN
+35120            US30  dynamic_TF_carry       2025-09-25 00:00:00  2025-09-26 15:00:08.820000  2025-09-26 15:00:09              140408.82                0.18
+
+
+==================================================================================================================================================================================================================================
+                                                                                                     Slippage (ticks per lot)                                                                                                     
+==================================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price   mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
+35114      FTSECHINAA  dynamic_TF_carry   [1]                15242.0               None     15190.0    15191.0       15189.0     15189.0      15189.0      52.0      -1.0       2.0          0.0                 NaN           1.0
+35115             DAX  dynamic_TF_carry  [-1]                23668.0               None     23748.5    23747.0       23750.0     23750.0      23747.0      80.5      -1.5      -0.0         -3.0                 NaN          -1.5
+35116   CRUDE_W_micro  dynamic_TF_carry   [1]                  64.58               None       64.69       64.7         64.68       64.68        64.71     -0.11     -0.01     -0.01        -0.03                 NaN         -0.02
+35117             JPY  dynamic_TF_carry  [-1]               0.006727               None    0.006732   0.006731      0.006732    0.006732     0.006731  0.000005 -0.000001      -0.0    -0.000001                 NaN     -0.000001
+35118         BITCOIN  dynamic_TF_carry  [-1]               110535.0               None    110415.0   110400.0      110430.0    110430.0     110430.0    -120.0     -15.0      30.0         -0.0                 NaN          15.0
+35119         RUSSELL  dynamic_TF_carry  [-1]                 2428.3               None     2450.95     2450.8        2451.1      2451.1       2450.7     22.65     -0.15      -0.1         -0.4                 NaN         -0.25
+35120            US30  dynamic_TF_carry  [-1]              119.71875               None  119.640625    119.625     119.65625   119.65625    119.65625 -0.078125 -0.015625   0.03125         -0.0                 NaN      0.015625
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+35114      FTSECHINAA  dynamic_TF_carry   [1]     2288.579219  227.215207   -4.369523      8.739046              0.0                     NaN          4.369523
+35115             DAX  dynamic_TF_carry  [-1]     2977.529529   270.35836   -5.037733          -0.0       -10.075467                     NaN         -5.037733
+35116   CRUDE_W_micro  dynamic_TF_carry   [1]       15.740905  -69.881624   -6.352875     -6.352875       -19.058625                     NaN         -12.70575
+35117             JPY  dynamic_TF_carry  [-1]        0.000573   78.548918   -8.727658     -8.727658       -26.182973                     NaN        -17.455315
+35118         BITCOIN  dynamic_TF_carry  [-1]    37319.315763   -32.15493   -4.019366      8.038733             -0.0                     NaN          4.019366
+35119         RUSSELL  dynamic_TF_carry  [-1]      418.786581  540.848275   -3.581777     -2.387851        -9.551404                     NaN         -5.969628
+35120            US30  dynamic_TF_carry  [-1]       13.462632  -58.030999    -11.6062     23.212399             -0.0                     NaN           11.6062
+
+
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+35114      FTSECHINAA  dynamic_TF_carry   [1]             0.748851  38.940227    -0.748851       1.497701               0.0                      NaN           0.748851
+35115             DAX  dynamic_TF_carry  [-1]              0.87444  70.392439     -1.31166           -0.0         -2.623321                      NaN           -1.31166
+35116   CRUDE_W_micro  dynamic_TF_carry   [1]            74.885051  -8.237356    -0.748851      -0.748851         -2.246552                      NaN          -1.497701
+35117             JPY  dynamic_TF_carry  [-1]       9360631.430754  42.122841    -4.680316      -4.680316        -14.040947                      NaN          -9.360631
+35118         BITCOIN  dynamic_TF_carry  [-1]             0.074885  -8.986206    -1.123276       2.246552              -0.0                      NaN           1.123276
+35119         RUSSELL  dynamic_TF_carry  [-1]             3.744253  84.807321    -0.561638      -0.374425         -1.497701                      NaN          -0.936063
+35120            US30  dynamic_TF_carry  [-1]           748.850514 -58.503946   -11.700789      23.401579              -0.0                      NaN          11.700789
+
+delay_cash Sum
+                                 delay_cash
+strategy_name    instrument_code           
+dynamic_TF_carry BITCOIN          -8.986206
+                 CRUDE_W_micro    -8.237356
+                 DAX              70.392439
+                 FTSECHINAA       38.940227
+                 JPY              42.122841
+                 RUSSELL          84.807321
+                 US30            -58.503946
+delay_cash Total Sum
+                 delay_cash
+strategy_name              
+dynamic_TF_carry  160.53532
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry BITCOIN            -1.123276
+                 CRUDE_W_micro      -0.748851
+                 DAX                 -1.31166
+                 FTSECHINAA         -0.748851
+                 JPY                -4.680316
+                 RUSSELL            -0.561638
+                 US30              -11.700789
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry    -20.87538
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry BITCOIN               2.246552
+                 CRUDE_W_micro        -0.748851
+                 DAX                       -0.0
+                 FTSECHINAA            1.497701
+                 JPY                  -4.680316
+                 RUSSELL              -0.374425
+                 US30                 23.401579
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry       21.34224
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry BITCOIN                      -0.0
+                 CRUDE_W_micro           -2.246552
+                 DAX                     -2.623321
+                 FTSECHINAA                    0.0
+                 JPY                    -14.040947
+                 RUSSELL                 -1.497701
+                 US30                         -0.0
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry         -20.40852
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry BITCOIN                                0
+                 CRUDE_W_micro                          0
+                 DAX                                    0
+                 FTSECHINAA                             0
+                 JPY                                    0
+                 RUSSELL                                0
+                 US30                                   0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry BITCOIN                   1.123276
+                 CRUDE_W_micro            -1.497701
+                 DAX                       -1.31166
+                 FTSECHINAA                0.748851
+                 JPY                      -9.360631
+                 RUSSELL                  -0.936063
+                 US30                     11.700789
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry            0.46686
 
 ********************************************************************************
                                  END OF REPORT                                  
