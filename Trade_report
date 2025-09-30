@@ -1,15 +1,108 @@
 
 ********************************************************************************
-Trades report produced on 29/09/2025 22:51 from 28/09/2025 22:51 to 29/09/2025 22:51
+Trades report produced on 30/09/2025 22:51 from 29/09/2025 22:51 to 30/09/2025 22:51
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=================================================================================================
+                                          Broker orders                                          
+=================================================================================================
+
+      instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
+35123   CRUDE_W_micro  dynamic_TF_carry    [20260100] 2025-09-30 14:00:06.000   [1]         61.68
+35122      MSCITAIWAN  dynamic_TF_carry    [20250900] 2025-09-30 07:15:08.586  [-1]       1102.20
+
+
+====================================================================================================================================================================
+                                                                               Delays                                                                               
+====================================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
+35122      MSCITAIWAN  dynamic_TF_carry                       NaT                         NaT  2025-09-30 07:15:08.586000                    NaN                 NaN
+35123   CRUDE_W_micro  dynamic_TF_carry       2025-09-29 00:00:00  2025-09-30 14:00:06.348000         2025-09-30 14:00:06             136806.348                 NaN
+
+
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+35122      MSCITAIWAN  dynamic_TF_carry  [-1]                    NaN               None       NaN        NaN           NaN        None       1102.2    NaN     NaN       NaN          NaN                 NaN           NaN
+35123   CRUDE_W_micro  dynamic_TF_carry   [1]                  62.47               None    61.665      61.68         61.65        None        61.68  0.805  -0.015       0.0          NaN                 NaN        -0.015
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+35122      MSCITAIWAN  dynamic_TF_carry  [-1]      195.153437         NaN         NaN           NaN              NaN                     NaN               NaN
+35123   CRUDE_W_micro  dynamic_TF_carry   [1]        16.49497  488.027573   -9.093681           0.0              NaN                     NaN         -9.093681
+
+
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+35122      MSCITAIWAN  dynamic_TF_carry  [-1]            74.434115        NaN          NaN            NaN               NaN                      NaN                NaN
+35123   CRUDE_W_micro  dynamic_TF_carry   [1]            74.434115  59.919462    -1.116512            0.0               NaN                      NaN          -1.116512
+
+delay_cash Sum
+                                 delay_cash
+strategy_name    instrument_code           
+dynamic_TF_carry CRUDE_W_micro    59.919462
+                 MSCITAIWAN               0
+delay_cash Total Sum
+                 delay_cash
+strategy_name              
+dynamic_TF_carry  59.919462
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry CRUDE_W_micro      -1.116512
+                 MSCITAIWAN                 0
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry    -1.116512
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry CRUDE_W_micro              0.0
+                 MSCITAIWAN                   0
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry            0.0
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry CRUDE_W_micro                   0
+                 MSCITAIWAN                      0
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry                 0
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry CRUDE_W_micro                          0
+                 MSCITAIWAN                             0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry CRUDE_W_micro            -1.116512
+                 MSCITAIWAN                       0
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry          -1.116512
 
 ********************************************************************************
                                  END OF REPORT                                  
