@@ -1,24 +1,24 @@
 
 ********************************************************************************
-Trades report produced on 03/10/2025 22:51 from 02/10/2025 22:51 to 03/10/2025 22:51
+Trades report produced on 06/10/2025 22:51 from 05/10/2025 22:51 to 06/10/2025 22:51
 ********************************************************************************
 
 
 
-=================================================================================================
-                                          Broker orders                                          
-=================================================================================================
+============================================================================================
+                                       Broker orders                                        
+============================================================================================
 
-      instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
-35148             BRE  dynamic_TF_carry    [20251000] 2025-10-03 09:01:13.727  [-1]       0.18825
+      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
+35149             DAX  dynamic_TF_carry    [20251200] 2025-10-06 08:00:08  [1]       24499.0
 
 
-========================================================================================================================================================
-                                                                         Delays                                                                         
-========================================================================================================================================================
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
 
-      instrument_code     strategy_name parent_reference_datetime submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
-35148             BRE  dynamic_TF_carry                      None            None  2025-10-03 09:01:13.727000                    NaN                 NaN
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+35149             DAX  dynamic_TF_carry       2025-10-03 00:00:00  2025-10-06 08:00:07.219000  2025-10-06 08:00:08             288007.219               0.781
 
 
 ==========================================================================================================================================================================================================================
@@ -26,7 +26,7 @@ Trades report produced on 03/10/2025 22:51 from 02/10/2025 22:51 to 03/10/2025 2
 ==========================================================================================================================================================================================================================
 
       instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
-35148             BRE  dynamic_TF_carry  [-1]                   None               None      None       None          None        None      0.18825   NaN     NaN       NaN          NaN                 NaN           NaN
+35149             DAX  dynamic_TF_carry   [1]                24484.0               None   24491.5    24493.0       24490.0     24490.0      24499.0  -7.5    -1.5      -6.0         -9.0                 NaN          -7.5
 
 
 ============================================================================================================================================================
@@ -34,7 +34,7 @@ Trades report produced on 03/10/2025 22:51 from 02/10/2025 22:51 to 03/10/2025 2
 ============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-35148             BRE  dynamic_TF_carry  [-1]        0.016939       NaN         NaN           NaN              NaN                     NaN               NaN
+35149             DAX  dynamic_TF_carry   [1]     2919.136375 -25.69253   -5.138506    -20.554024       -30.831036                     NaN         -25.69253
 
 
 =======================================================================================================================================================================
@@ -42,44 +42,44 @@ Trades report produced on 03/10/2025 22:51 from 02/10/2025 22:51 to 03/10/2025 2
 =======================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-35148             BRE  dynamic_TF_carry  [-1]         74447.968315        NaN          NaN            NaN               NaN                      NaN                NaN
+35149             DAX  dynamic_TF_carry   [1]             0.871469  -6.536014    -1.307203      -5.228811         -7.843217                      NaN          -6.536014
 
 delay_cash Sum
                                  delay_cash
 strategy_name    instrument_code           
-dynamic_TF_carry BRE                      0
+dynamic_TF_carry DAX              -6.536014
 delay_cash Total Sum
                  delay_cash
 strategy_name              
-dynamic_TF_carry          0
+dynamic_TF_carry  -6.536014
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry BRE                        0
+dynamic_TF_carry DAX                -1.307203
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry            0
+dynamic_TF_carry    -1.307203
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry BRE                          0
+dynamic_TF_carry DAX                  -5.228811
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry              0
+dynamic_TF_carry      -5.228811
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry BRE                             0
+dynamic_TF_carry DAX                     -7.843217
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry                 0
+dynamic_TF_carry         -7.843217
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry BRE                                    0
+dynamic_TF_carry DAX                                    0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -87,11 +87,11 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry BRE                              0
+dynamic_TF_carry DAX                      -6.536014
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry                  0
+dynamic_TF_carry          -6.536014
 
 ********************************************************************************
                                  END OF REPORT                                  
