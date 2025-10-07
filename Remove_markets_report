@@ -1,11 +1,11 @@
 
 ********************************************************************************
-              Removed markets report produced on 06/10/2025 23:10               
+              Removed markets report produced on 07/10/2025 23:10               
 ********************************************************************************
 
 
 List of markets which should be marked as untradeable due to risk, liquidity or cost issues
-Following should be removed from trading (add to config.bad_markets) [0.300000 threshold]: ['EU-DJ-UTIL', 'EURCHF', 'EU-REALESTATE', 'MSCIEMASIA', 'GAS-PEN', 'VIX_mini', 'ALUMINIUM', 'AUD_micro', 'R1000'] 
+Following should be removed from trading (add to config.bad_markets) [0.300000 threshold]: ['R1000', 'VIX_mini', 'EU-DJ-UTIL', 'MSCIEMASIA', 'AUD_micro', 'GAS-PEN', 'EURCHF', 'ALUMINIUM', 'EU-REALESTATE'] 
 
 
 
@@ -17,7 +17,7 @@ Markets too expensive (SR cost per trade > 0.010): ['AEX_mini', 'BOVESPA', 'BUTT
 
 
 
-Markets not enough risk volume (Volume in $m ann. risk per day < 1.50): ['AEX_mini', 'ALUMINIUM', 'AUDJPY', 'AUD_micro', 'BBCOMM', 'BONO', 'BOVESPA', 'BUTTER', 'CAD_micro', 'CH10', 'CHFJPY', 'CHF_micro', 'CLP', 'CNH-onshore', 'COAL', 'COAL-GEORDIE', 'COPPER-mini', 'CORN_mini', 'COTTON', 'CZK', 'EPRA-EUROPE', 'EU-CHEM', 'EU-CONSTRUCTION', 'EU-DJ-OIL', 'EU-DJ-TECH', 'EU-DJ-TELECOM', 'EU-DJ-UTIL', 'EU-FOOD', 'EU-HOUSE', 'EU-INSURE', 'EU-MEDIA', 'EU-MID', 'EU-REALESTATE', 'EU-RETAIL', 'EU-TRAVEL', 'EURAUD', 'EURCAD', 'EURCHF', 'EUROSTX-LARGE', 'EUROSTX-SMALL', 'EUROSTX200-LARGE', 'FTSEINDO', 'FTSEVIET', 'GAS-PEN', 'GASOILINE_micro', 'GBPCHF', 'GBPJPY', 'GBP_micro', 'GICS', 'HIGHYIELD', 'HOUSE-US', 'IG', 'INR', 'IRS', 'JGB-mini', 'JP-REALESTATE', 'JPY_mini', 'KRWUSD', 'LEAD_LME', 'LUMBER-new', 'MILKDRY', 'MILKWET', 'MSCIEMASIA', 'MSCIWORLD', 'OATIES', 'OMX', 'PLN', 'R1000', 'SGD', 'SGD_mini', 'SMI-MID', 'SOYBEAN_mini', 'STEEL', 'SUGAR16', 'SWISSLEAD', 'TIN_LME', 'TWD-mini', 'VIX_mini', 'VNKI', 'WHEAT_ICE', 'WHEAT_mini', 'WHEY']
+Markets not enough risk volume (Volume in $m ann. risk per day < 1.50): ['AEX_mini', 'ALUMINIUM', 'AUDJPY', 'AUD_micro', 'BBCOMM', 'BONO', 'BOVESPA', 'BUTTER', 'CAD_micro', 'CH10', 'CHEESE', 'CHFJPY', 'CHF_micro', 'CLP', 'CNH-onshore', 'COAL', 'COAL-GEORDIE', 'COPPER-mini', 'CORN_mini', 'COTTON', 'CZK', 'EPRA-EUROPE', 'EU-CHEM', 'EU-CONSTRUCTION', 'EU-DJ-OIL', 'EU-DJ-TECH', 'EU-DJ-TELECOM', 'EU-DJ-UTIL', 'EU-FOOD', 'EU-HOUSE', 'EU-INSURE', 'EU-MEDIA', 'EU-MID', 'EU-REALESTATE', 'EU-RETAIL', 'EU-TRAVEL', 'EURAUD', 'EURCAD', 'EURCHF', 'EUROSTX-LARGE', 'EUROSTX-SMALL', 'EUROSTX200-LARGE', 'FTSEINDO', 'FTSEVIET', 'GAS-PEN', 'GASOILINE_micro', 'GBPCHF', 'GBPJPY', 'GBP_micro', 'GICS', 'HIGHYIELD', 'HOUSE-US', 'IG', 'INR', 'IRS', 'JGB-mini', 'JP-REALESTATE', 'JPY_mini', 'KRWUSD', 'LEAD_LME', 'LUMBER-new', 'MILKDRY', 'MILKWET', 'MSCIEMASIA', 'MSCIWORLD', 'OATIES', 'OMX', 'PLN', 'R1000', 'SGD', 'SGD_mini', 'SMI-MID', 'SOYBEAN_mini', 'STEEL', 'SUGAR16', 'SWISSLEAD', 'TIN_LME', 'TWD-mini', 'VIX_mini', 'VNKI', 'WHEAT_ICE', 'WHEAT_mini', 'WHEY']
 
 
 
@@ -165,6 +165,7 @@ exclude_instrument_lists:
     - CAD5 
     - CAD_micro 
     - CH10 
+    - CHEESE 
     - CHFJPY 
     - CHF_micro 
     - CLP 

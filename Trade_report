@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 06/10/2025 22:51 from 05/10/2025 22:51 to 06/10/2025 22:51
+Trades report produced on 07/10/2025 22:51 from 06/10/2025 22:51 to 07/10/2025 22:51
 ********************************************************************************
 
 
@@ -10,7 +10,10 @@ Trades report produced on 06/10/2025 22:51 from 05/10/2025 22:51 to 06/10/2025 2
 ============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
-35149             DAX  dynamic_TF_carry    [20251200] 2025-10-06 08:00:08  [1]       24499.0
+35153         BITCOIN  dynamic_TF_carry    [20251000] 2025-10-07 15:00:04  [1]    124845.000
+35152              DX  dynamic_TF_carry    [20251200] 2025-10-07 14:00:02  [1]        98.155
+35150     KRWUSD_mini  dynamic_TF_carry    [20251000] 2025-10-07 02:02:04  [1]         0.708
+35151     KRWUSD_mini  dynamic_TF_carry    [20251000] 2025-10-07 02:02:09  [1]         0.708
 
 
 =============================================================================================================================================================
@@ -18,68 +21,90 @@ Trades report produced on 06/10/2025 22:51 from 05/10/2025 22:51 to 06/10/2025 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-35149             DAX  dynamic_TF_carry       2025-10-03 00:00:00  2025-10-06 08:00:07.219000  2025-10-06 08:00:08             288007.219               0.781
+35150     KRWUSD_mini  dynamic_TF_carry       2025-10-06 03:00:00  2025-10-07 02:02:02.910000  2025-10-07 02:02:04               82922.91                1.09
+35151     KRWUSD_mini  dynamic_TF_carry       2025-10-06 03:00:00  2025-10-07 02:02:09.176000  2025-10-07 02:02:09              82929.176                 NaN
+35152              DX  dynamic_TF_carry       2025-10-06 00:00:00  2025-10-07 14:00:02.229000  2025-10-07 14:00:02             136802.229                 NaN
+35153         BITCOIN  dynamic_TF_carry       2025-10-06 00:00:00  2025-10-07 15:00:03.636000  2025-10-07 15:00:04             140403.636               0.364
 
 
-==========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                 
-==========================================================================================================================================================================================================================
+==============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                   
+==============================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
-35149             DAX  dynamic_TF_carry   [1]                24484.0               None   24491.5    24493.0       24490.0     24490.0      24499.0  -7.5    -1.5      -6.0         -9.0                 NaN          -7.5
-
-
-============================================================================================================================================================
-                                                    Slippage (normalised by annual vol, BP of annual SR)                                                    
-============================================================================================================================================================
-
-      instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-35149             DAX  dynamic_TF_carry   [1]     2919.136375 -25.69253   -5.138506    -20.554024       -30.831036                     NaN         -25.69253
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
+35150     KRWUSD_mini  dynamic_TF_carry   [1]                 0.7092               None    0.7082     0.7083        0.7081      0.7081        0.708    0.001  -0.0001    0.0003       0.0001                 NaN        0.0002
+35151     KRWUSD_mini  dynamic_TF_carry   [1]                 0.7092               None   0.70815     0.7082        0.7081      0.7081        0.708  0.00105 -0.00005    0.0002       0.0001                 NaN       0.00015
+35152              DX  dynamic_TF_carry   [1]                  97.82               None   98.1725     98.175         98.17       98.17       98.155  -0.3525  -0.0025      0.02        0.015                 NaN        0.0175
+35153         BITCOIN  dynamic_TF_carry   [1]               126730.0               None  124842.5   124850.0      124835.0    124835.0     124845.0   1887.5     -7.5       5.0        -10.0                 NaN          -2.5
 
 
-=======================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                      
-=======================================================================================================================================================================
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-35149             DAX  dynamic_TF_carry   [1]             0.871469  -6.536014    -1.307203      -5.228811         -7.843217                      NaN          -6.536014
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+35150     KRWUSD_mini  dynamic_TF_carry   [1]        0.053577  186.648208  -18.664821     55.994463        18.664821                     NaN         37.329642
+35151     KRWUSD_mini  dynamic_TF_carry   [1]        0.053577  195.980619    -9.33241     37.329642        18.664821                     NaN         27.997231
+35152              DX  dynamic_TF_carry   [1]        6.274561  -561.79229   -3.984342      31.87474        23.906055                     NaN         27.890397
+35153         BITCOIN  dynamic_TF_carry   [1]    41029.435426  460.035577   -1.827956      1.218637        -2.437275                     NaN         -0.609319
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+35150     KRWUSD_mini  dynamic_TF_carry   [1]         18575.069285   18.575069    -1.857507       5.572521          1.857507                      NaN           3.715014
+35151     KRWUSD_mini  dynamic_TF_carry   [1]         18575.069285   19.503823    -0.928753       3.715014          1.857507                      NaN            2.78626
+35152              DX  dynamic_TF_carry   [1]           743.002771 -261.908477    -1.857507      14.860055         11.145042                      NaN          13.002548
+35153         BITCOIN  dynamic_TF_carry   [1]               0.0743  140.241773    -0.557252       0.371501         -0.743003                      NaN          -0.185751
 
 delay_cash Sum
-                                 delay_cash
-strategy_name    instrument_code           
-dynamic_TF_carry DAX              -6.536014
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry BITCOIN          140.241773
+                 DX              -261.908477
+                 KRWUSD_mini       38.078892
 delay_cash Total Sum
                  delay_cash
 strategy_name              
-dynamic_TF_carry  -6.536014
+dynamic_TF_carry -83.587812
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry DAX                -1.307203
+dynamic_TF_carry BITCOIN            -0.557252
+                 DX                 -1.857507
+                 KRWUSD_mini         -2.78626
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -1.307203
+dynamic_TF_carry    -5.201019
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry DAX                  -5.228811
+dynamic_TF_carry BITCOIN               0.371501
+                 DX                   14.860055
+                 KRWUSD_mini           9.287535
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry      -5.228811
+dynamic_TF_carry      24.519091
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry DAX                     -7.843217
+dynamic_TF_carry BITCOIN                 -0.743003
+                 DX                      11.145042
+                 KRWUSD_mini              3.715014
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry         -7.843217
+dynamic_TF_carry         14.117053
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry DAX                                    0
+dynamic_TF_carry BITCOIN                                0
+                 DX                                     0
+                 KRWUSD_mini                            0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -87,11 +112,13 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry DAX                      -6.536014
+dynamic_TF_carry BITCOIN                  -0.185751
+                 DX                       13.002548
+                 KRWUSD_mini               6.501274
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry          -6.536014
+dynamic_TF_carry          19.318072
 
 ********************************************************************************
                                  END OF REPORT                                  
