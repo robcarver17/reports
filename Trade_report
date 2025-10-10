@@ -1,152 +1,15 @@
 
 ********************************************************************************
-Trades report produced on 09/10/2025 22:51 from 08/10/2025 22:51 to 09/10/2025 22:51
+Trades report produced on 10/10/2025 22:51 from 09/10/2025 22:51 to 10/10/2025 22:51
 ********************************************************************************
 
 
-
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
-
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-35159         BITCOIN  dynamic_TF_carry    [20251000] 2025-10-09 15:00:05   [1]    122965.000
-35156             DAX  dynamic_TF_carry    [20251200] 2025-10-09 08:00:10   [1]     24805.000
-35157              DX  dynamic_TF_carry    [20251200] 2025-10-09 14:00:05   [1]        98.685
-35158      GOLD_micro  dynamic_TF_carry    [20251200] 2025-10-09 14:00:12   [1]      4072.900
-35155      MSCITAIWAN  dynamic_TF_carry    [20251000] 2025-10-09 02:02:05   [1]      1194.400
-35154           TOPIX  dynamic_TF_carry    [20251200] 2025-10-09 02:02:03  [-1]      3256.000
-
-
-=============================================================================================================================================================
-                                                                           Delays                                                                            
-=============================================================================================================================================================
-
-      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-35154           TOPIX  dynamic_TF_carry       2025-10-08 00:00:00  2025-10-09 02:02:01.833000  2025-10-09 02:02:03              93721.833               1.167
-35155      MSCITAIWAN  dynamic_TF_carry       2025-10-08 00:00:00  2025-10-09 02:02:04.508000  2025-10-09 02:02:05              93724.508               0.492
-35156             DAX  dynamic_TF_carry       2025-10-08 00:00:00  2025-10-09 08:00:10.010000  2025-10-09 08:00:10              115210.01                 NaN
-35157              DX  dynamic_TF_carry       2025-10-08 00:00:00  2025-10-09 14:00:04.934000  2025-10-09 14:00:05             136804.934               0.066
-35158      GOLD_micro  dynamic_TF_carry       2025-10-08 00:00:00  2025-10-09 14:00:11.781000  2025-10-09 14:00:12             136811.781               0.219
-35159         BITCOIN  dynamic_TF_carry       2025-10-08 00:00:00  2025-10-09 15:00:04.997000  2025-10-09 15:00:05             140404.997               0.003
-
-
-============================================================================================================================================================================================================================
-                                                                                                  Slippage (ticks per lot)                                                                                                  
-============================================================================================================================================================================================================================
-
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
-35154           TOPIX  dynamic_TF_carry  [-1]                3252.25               None    3256.5    3256.25       3256.75     3256.75       3256.0    4.25   -0.25     -0.25        -0.75                 NaN          -0.5
-35155      MSCITAIWAN  dynamic_TF_carry   [1]                 1180.0               None    1194.8     1195.2        1194.4      1194.4       1194.4   -14.8    -0.4       0.8          0.0                 NaN           0.4
-35156             DAX  dynamic_TF_carry   [1]                24726.0               None   24801.5    24803.0       24800.0     24800.0      24805.0   -75.5    -1.5      -2.0         -5.0                 NaN          -3.5
-35157              DX  dynamic_TF_carry   [1]                  98.63               None      98.7     98.705        98.695      98.695       98.685   -0.07  -0.005      0.02         0.01                 NaN         0.015
-35158      GOLD_micro  dynamic_TF_carry   [1]                 4074.0               None    4072.8     4072.9        4072.7      4072.7       4072.9     1.2    -0.1       0.0         -0.2                 NaN          -0.1
-35159         BITCOIN  dynamic_TF_carry   [1]               124110.0               None  122972.5   122980.0      122965.0    122965.0     122965.0  1137.5    -7.5      15.0          0.0                 NaN           7.5
-
-
-==============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
-==============================================================================================================================================================
-
-      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-35154           TOPIX  dynamic_TF_carry  [-1]      497.705704   85.391828   -5.023049     -5.023049       -15.069146                     NaN        -10.046097
-35155      MSCITAIWAN  dynamic_TF_carry   [1]      201.350697 -735.035946  -19.865836     39.731673              0.0                     NaN         19.865836
-35156             DAX  dynamic_TF_carry   [1]     2832.647096 -266.535143     -5.2954     -7.060534       -17.651334                     NaN        -12.355934
-35157              DX  dynamic_TF_carry   [1]         6.39332 -109.489282   -7.820663     31.282652        15.641326                     NaN         23.461989
-35158      GOLD_micro  dynamic_TF_carry   [1]        566.4727   21.183722    -1.76531           0.0         -3.53062                     NaN          -1.76531
-35159         BITCOIN  dynamic_TF_carry   [1]    39638.503416  286.968453     -1.8921      3.784199              0.0                     NaN            1.8921
-
-
-=========================================================================================================================================================================
-                                                                       Slippage (In base currency)                                                                       
-=========================================================================================================================================================================
-
-      instrument_code     strategy_name trade value_of_price_point   delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-35154           TOPIX  dynamic_TF_carry  [-1]             4.887094    20.770149    -1.221773      -1.221773          -3.66532                      NaN          -2.443547
-35155      MSCITAIWAN  dynamic_TF_carry   [1]            74.595135 -1104.007997   -29.838054      59.676108               0.0                      NaN          29.838054
-35156             DAX  dynamic_TF_carry   [1]             0.868146   -65.544996    -1.302218      -1.736291         -4.340728                      NaN           -3.03851
-35157              DX  dynamic_TF_carry   [1]           745.951349   -52.216594    -3.729757      14.919027          7.459513                      NaN           11.18927
-35158      GOLD_micro  dynamic_TF_carry   [1]             7.459513     8.951416    -0.745951            0.0         -1.491903                      NaN          -0.745951
-35159         BITCOIN  dynamic_TF_carry   [1]             0.074595    84.851966    -0.559464       1.118927               0.0                      NaN           0.559464
-
-delay_cash Sum
-                                   delay_cash
-strategy_name    instrument_code             
-dynamic_TF_carry BITCOIN            84.851966
-                 DAX               -65.544996
-                 DX                -52.216594
-                 GOLD_micro          8.951416
-                 MSCITAIWAN      -1104.007997
-                 TOPIX              20.770149
-delay_cash Total Sum
-                   delay_cash
-strategy_name                
-dynamic_TF_carry -1107.196056
-bid_ask_cash Sum
-                                 bid_ask_cash
-strategy_name    instrument_code             
-dynamic_TF_carry BITCOIN            -0.559464
-                 DAX                -1.302218
-                 DX                 -3.729757
-                 GOLD_micro         -0.745951
-                 MSCITAIWAN        -29.838054
-                 TOPIX              -1.221773
-bid_ask_cash Total Sum
-                 bid_ask_cash
-strategy_name                
-dynamic_TF_carry   -37.397217
-execution_cash Sum
-                                 execution_cash
-strategy_name    instrument_code               
-dynamic_TF_carry BITCOIN               1.118927
-                 DAX                  -1.736291
-                 DX                   14.919027
-                 GOLD_micro                 0.0
-                 MSCITAIWAN           59.676108
-                 TOPIX                -1.221773
-execution_cash Total Sum
-                 execution_cash
-strategy_name                  
-dynamic_TF_carry      72.755997
-versus_limit_cash Sum
-                                 versus_limit_cash
-strategy_name    instrument_code                  
-dynamic_TF_carry BITCOIN                       0.0
-                 DAX                     -4.340728
-                 DX                       7.459513
-                 GOLD_micro              -1.491903
-                 MSCITAIWAN                    0.0
-                 TOPIX                    -3.66532
-versus_limit_cash Total Sum
-                 versus_limit_cash
-strategy_name                     
-dynamic_TF_carry         -2.038438
-versus_parent_limit_cash Sum
-                                 versus_parent_limit_cash
-strategy_name    instrument_code                         
-dynamic_TF_carry BITCOIN                                0
-                 DAX                                    0
-                 DX                                     0
-                 GOLD_micro                             0
-                 MSCITAIWAN                             0
-                 TOPIX                                  0
-versus_parent_limit_cash Total Sum
-                 versus_parent_limit_cash
-strategy_name                            
-dynamic_TF_carry                        0
-total_trading_cash Sum
-                                 total_trading_cash
-strategy_name    instrument_code                   
-dynamic_TF_carry BITCOIN                   0.559464
-                 DAX                       -3.03851
-                 DX                        11.18927
-                 GOLD_micro               -0.745951
-                 MSCITAIWAN               29.838054
-                 TOPIX                    -2.443547
-total_trading_cash Total Sum
-                 total_trading_cash
-strategy_name                      
-dynamic_TF_carry           35.35878
+No trades
+No trades
+No trades
+No trades
+No trades
+No trades
 
 ********************************************************************************
                                  END OF REPORT                                  
