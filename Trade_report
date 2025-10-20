@@ -1,15 +1,130 @@
 
 ********************************************************************************
-Trades report produced on 17/10/2025 22:51 from 16/10/2025 22:51 to 17/10/2025 22:51
+Trades report produced on 20/10/2025 22:51 from 19/10/2025 22:51 to 20/10/2025 22:51
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+35199    COPPER-micro  dynamic_TF_carry    [20260300] 2025-10-20 14:00:16  [-1]        5.0775
+35197   CRUDE_W_micro  dynamic_TF_carry    [20260100] 2025-10-20 14:00:07   [1]       56.4400
+35196      FTSECHINAA  dynamic_TF_carry    [20251000] 2025-10-20 02:02:08  [-1]    15021.0000
+35198     GAS_US_mini  dynamic_TF_carry    [20251200] 2025-10-20 14:00:09  [-1]        3.9100
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+35196      FTSECHINAA  dynamic_TF_carry       2025-10-17 04:00:00  2025-10-20 02:02:06.502000  2025-10-20 02:02:08             252126.502               1.498
+35197   CRUDE_W_micro  dynamic_TF_carry       2025-10-16 00:00:00  2025-10-20 14:00:06.016000  2025-10-20 14:00:07             396006.016               0.984
+35198     GAS_US_mini  dynamic_TF_carry       2025-10-16 00:00:00  2025-10-20 14:00:08.798000  2025-10-20 14:00:09             396008.798               0.202
+35199    COPPER-micro  dynamic_TF_carry       2024-02-29 00:00:00  2025-10-20 14:00:14.546000  2025-10-20 14:00:16           51804014.546               1.454
+
+
+============================================================================================================================================================================================================================
+                                                                                                  Slippage (ticks per lot)                                                                                                  
+============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay  bid_ask execution versus_limit versus_parent_limit total_trading
+35196      FTSECHINAA  dynamic_TF_carry  [-1]                15008.0               None   15023.0    15022.0       15024.0     15024.0      15021.0   15.0     -1.0      -1.0         -3.0                 NaN          -2.0
+35197   CRUDE_W_micro  dynamic_TF_carry   [1]                  56.97               None    56.455      56.47         56.44       56.44        56.44  0.515   -0.015      0.03          0.0                 NaN         0.015
+35198     GAS_US_mini  dynamic_TF_carry  [-1]                  3.625               None      3.91      3.905         3.915       3.915         3.91  0.285   -0.005     0.005       -0.005                 NaN           0.0
+35199    COPPER-micro  dynamic_TF_carry  [-1]                    NaN               None   5.07625      5.075        5.0775      5.0775       5.0775    NaN -0.00125    0.0025         -0.0                 NaN       0.00125
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+35196      FTSECHINAA  dynamic_TF_carry  [-1]     3550.962295    42.242071   -2.816138     -2.816138        -8.448414                     NaN         -5.632276
+35197   CRUDE_W_micro  dynamic_TF_carry   [1]       16.229705   317.319381   -9.242312     18.484624              0.0                     NaN          9.242312
+35198     GAS_US_mini  dynamic_TF_carry  [-1]        1.793881  1588.733845  -27.872524     27.872524       -27.872524                     NaN               0.0
+35199    COPPER-micro  dynamic_TF_carry  [-1]        1.736006          NaN   -7.200437     14.400873             -0.0                     NaN          7.200437
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+35196      FTSECHINAA  dynamic_TF_carry  [-1]             0.744142   11.162126    -0.744142      -0.744142         -2.232425                      NaN          -1.488283
+35197   CRUDE_W_micro  dynamic_TF_carry   [1]            74.414174     38.3233    -1.116213       2.232425               0.0                      NaN           1.116213
+35198     GAS_US_mini  dynamic_TF_carry  [-1]           1860.35436  530.200993    -9.301772       9.301772         -9.301772                      NaN                0.0
+35199    COPPER-micro  dynamic_TF_carry  [-1]           1860.35436         NaN    -2.325443       4.650886              -0.0                      NaN           2.325443
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry COPPER-micro              0
+                 CRUDE_W_micro       38.3233
+                 FTSECHINAA        11.162126
+                 GAS_US_mini      530.200993
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry  579.686419
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry COPPER-micro       -2.325443
+                 CRUDE_W_micro      -1.116213
+                 FTSECHINAA         -0.744142
+                 GAS_US_mini        -9.301772
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -13.487569
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry COPPER-micro          4.650886
+                 CRUDE_W_micro         2.232425
+                 FTSECHINAA           -0.744142
+                 GAS_US_mini           9.301772
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry      15.440941
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry COPPER-micro                 -0.0
+                 CRUDE_W_micro                 0.0
+                 FTSECHINAA              -2.232425
+                 GAS_US_mini             -9.301772
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry        -11.534197
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry COPPER-micro                           0
+                 CRUDE_W_micro                          0
+                 FTSECHINAA                             0
+                 GAS_US_mini                            0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry COPPER-micro              2.325443
+                 CRUDE_W_micro             1.116213
+                 FTSECHINAA               -1.488283
+                 GAS_US_mini                    0.0
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry           1.953372
 
 ********************************************************************************
                                  END OF REPORT                                  
