@@ -1,15 +1,174 @@
 
 ********************************************************************************
-Trades report produced on 24/10/2025 22:51 from 23/10/2025 22:51 to 24/10/2025 22:51
+Trades report produced on 27/10/2025 22:51 from 26/10/2025 22:51 to 27/10/2025 22:51
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+35236         BITCOIN  dynamic_TF_carry    [20251200] 2025-10-27 15:00:35  [-1]   116000.0000
+35237             BRE  dynamic_TF_carry    [20251100] 2025-10-27 15:00:39  [-1]        0.1857
+35233           CAD10  dynamic_TF_carry    [20251200] 2025-10-27 14:00:17  [-1]      123.1700
+35234       EUR_micro  dynamic_TF_carry    [20251200] 2025-10-27 15:00:20   [1]        1.1672
+35230      FTSECHINAA  dynamic_TF_carry    [20251100] 2025-10-27 02:02:07   [1]    15611.0000
+35231       GASOILINE  dynamic_TF_carry    [20260200] 2025-10-27 14:00:08   [1]        1.8455
+35232     GAS_US_mini  dynamic_TF_carry    [20251200] 2025-10-27 14:00:15   [1]        4.0000
+35235    NASDAQ_micro  dynamic_TF_carry    [20251200] 2025-10-27 15:00:22   [1]    25864.7500
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+35230      FTSECHINAA  dynamic_TF_carry       2025-10-24 00:00:00  2025-10-27 02:02:06.362000  2025-10-27 02:02:07             266526.362               0.638
+35231       GASOILINE  dynamic_TF_carry       2025-10-24 00:00:00  2025-10-27 14:00:07.951000  2025-10-27 14:00:08             309607.951               0.049
+35232     GAS_US_mini  dynamic_TF_carry       2025-10-24 00:00:00  2025-10-27 14:00:14.153000  2025-10-27 14:00:15             309614.153               0.847
+35233           CAD10  dynamic_TF_carry       2025-10-24 00:00:00  2025-10-27 14:00:16.811000  2025-10-27 14:00:17             309616.811               0.189
+35234       EUR_micro  dynamic_TF_carry       2025-10-24 00:00:00  2025-10-27 15:00:04.686000  2025-10-27 15:00:20             313204.686              15.314
+35235    NASDAQ_micro  dynamic_TF_carry       2025-10-24 00:00:00  2025-10-27 15:00:22.173000  2025-10-27 15:00:22             313222.173                 NaN
+35236         BITCOIN  dynamic_TF_carry       2025-10-24 00:00:00  2025-10-27 15:00:23.796000  2025-10-27 15:00:35             313223.796              11.204
+35237             BRE  dynamic_TF_carry       2025-10-24 20:00:00  2025-10-27 15:00:36.883000  2025-10-27 15:00:39             241236.883               2.117
+
+
+=================================================================================================================================================================================================================================
+                                                                                                    Slippage (ticks per lot)                                                                                                     
+=================================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price  mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
+35230      FTSECHINAA  dynamic_TF_carry   [1]                15415.0               None    15614.0    15615.0       15613.0     15613.0      15611.0    -199.0      -1.0       4.0          2.0                 NaN           3.0
+35231       GASOILINE  dynamic_TF_carry   [1]                 1.8445               None     1.8458     1.8461        1.8455      1.8455       1.8455   -0.0013   -0.0003    0.0006          0.0                 NaN        0.0003
+35232     GAS_US_mini  dynamic_TF_carry   [1]                   4.05               None      3.995        4.0          3.99        3.99          4.0     0.055    -0.005       0.0        -0.01                 NaN        -0.005
+35233           CAD10  dynamic_TF_carry  [-1]                 123.23               None    123.165     123.16        123.17      123.17       123.17    -0.065    -0.005      0.01         -0.0                 NaN         0.005
+35234       EUR_micro  dynamic_TF_carry   [1]                 1.1661               None    1.16725     1.1673        1.1672      1.1672       1.1672  -0.00115  -0.00005    0.0001          0.0                 NaN       0.00005
+35235    NASDAQ_micro  dynamic_TF_carry   [1]               25554.25               None  25864.375    25864.5      25864.25    25864.25     25864.75  -310.125    -0.125     -0.25         -0.5                 NaN        -0.375
+35236         BITCOIN  dynamic_TF_carry  [-1]               112000.0               None   116080.0   115970.0      116190.0    116190.0     116000.0    4080.0    -110.0      30.0       -190.0                 NaN         -80.0
+35237             BRE  dynamic_TF_carry  [-1]                0.18515               None   0.185775    0.18575        0.1858      0.1858       0.1857  0.000625 -0.000025  -0.00005      -0.0001                 NaN     -0.000075
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+35230      FTSECHINAA  dynamic_TF_carry   [1]     3334.305284 -596.825974   -2.999125     11.996502         5.998251                     NaN          8.997376
+35231       GASOILINE  dynamic_TF_carry   [1]        0.453452  -28.668951   -6.615912     13.231824              0.0                     NaN          6.615912
+35232     GAS_US_mini  dynamic_TF_carry   [1]        1.662171   330.89256  -30.081142           0.0       -60.162284                     NaN        -30.081142
+35233           CAD10  dynamic_TF_carry  [-1]        5.212913 -124.690365   -9.591567     19.183133             -0.0                     NaN          9.591567
+35234       EUR_micro  dynamic_TF_carry   [1]        0.069645 -165.124257   -7.179316     14.358631              0.0                     NaN          7.179316
+35235    NASDAQ_micro  dynamic_TF_carry   [1]     4036.297062 -768.340375    -0.30969      -0.61938        -1.238759                     NaN         -0.929069
+35236         BITCOIN  dynamic_TF_carry  [-1]    41431.811959  984.750559  -26.549647      7.240813       -45.858482                     NaN        -19.308834
+35237             BRE  dynamic_TF_carry  [-1]          0.0209  299.049004   -11.96196     -23.92392       -47.847841                     NaN         -35.88588
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+35230      FTSECHINAA  dynamic_TF_carry   [1]             0.750477 -149.345021    -0.750477        3.00191          1.500955                      NaN           2.251432
+35231       GASOILINE  dynamic_TF_carry   [1]         31520.054635  -40.976071    -9.456016      18.912033               0.0                      NaN           9.456016
+35232     GAS_US_mini  dynamic_TF_carry   [1]          1876.193728  103.190655    -9.380969            0.0        -18.761937                      NaN          -9.380969
+35233           CAD10  dynamic_TF_carry  [-1]           536.806881  -34.892447    -2.684034       5.368069              -0.0                      NaN           2.684034
+35234       EUR_micro  dynamic_TF_carry   [1]          9380.968641  -10.788114    -0.469048       0.938097               0.0                      NaN           0.469048
+35235    NASDAQ_micro  dynamic_TF_carry   [1]             1.500955 -465.483664    -0.187619      -0.375239         -0.750477                      NaN          -0.562858
+35236         BITCOIN  dynamic_TF_carry  [-1]             0.075048  306.194816    -8.255252       2.251432        -14.259072                      NaN           -6.00382
+35237             BRE  dynamic_TF_carry  [-1]          75047.74913   46.904843    -1.876194      -3.752387         -7.504775                      NaN          -5.628581
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry BITCOIN          306.194816
+                 BRE               46.904843
+                 CAD10            -34.892447
+                 EUR_micro        -10.788114
+                 FTSECHINAA      -149.345021
+                 GASOILINE        -40.976071
+                 GAS_US_mini      103.190655
+                 NASDAQ_micro    -465.483664
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -245.195002
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry BITCOIN            -8.255252
+                 BRE                -1.876194
+                 CAD10              -2.684034
+                 EUR_micro          -0.469048
+                 FTSECHINAA         -0.750477
+                 GASOILINE          -9.456016
+                 GAS_US_mini        -9.380969
+                 NASDAQ_micro       -0.187619
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -33.059611
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry BITCOIN               2.251432
+                 BRE                  -3.752387
+                 CAD10                 5.368069
+                 EUR_micro             0.938097
+                 FTSECHINAA             3.00191
+                 GASOILINE            18.912033
+                 GAS_US_mini                0.0
+                 NASDAQ_micro         -0.375239
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry      26.343915
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry BITCOIN                -14.259072
+                 BRE                     -7.504775
+                 CAD10                        -0.0
+                 EUR_micro                     0.0
+                 FTSECHINAA               1.500955
+                 GASOILINE                     0.0
+                 GAS_US_mini            -18.761937
+                 NASDAQ_micro            -0.750477
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry        -39.775307
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry BITCOIN                                0
+                 BRE                                    0
+                 CAD10                                  0
+                 EUR_micro                              0
+                 FTSECHINAA                             0
+                 GASOILINE                              0
+                 GAS_US_mini                            0
+                 NASDAQ_micro                           0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry BITCOIN                   -6.00382
+                 BRE                      -5.628581
+                 CAD10                     2.684034
+                 EUR_micro                 0.469048
+                 FTSECHINAA                2.251432
+                 GASOILINE                 9.456016
+                 GAS_US_mini              -9.380969
+                 NASDAQ_micro             -0.562858
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry          -6.715696
 
 ********************************************************************************
                                  END OF REPORT                                  
