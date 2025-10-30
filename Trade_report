@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 29/10/2025 22:51 from 28/10/2025 22:51 to 29/10/2025 22:51
+Trades report produced on 30/10/2025 22:51 from 29/10/2025 22:51 to 30/10/2025 22:51
 ********************************************************************************
 
 
@@ -10,9 +10,7 @@ Trades report produced on 29/10/2025 22:51 from 28/10/2025 22:51 to 29/10/2025 2
 =============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-35240             BRE  dynamic_TF_carry    [20251200] 2025-10-29 15:00:29   [1]       0.18595
-35238             NZD  dynamic_TF_carry    [20251200] 2025-10-29 15:00:08   [1]       0.58050
-35239     SP500_micro  dynamic_TF_carry    [20251200] 2025-10-29 15:00:10  [-1]    6938.25000
+35241            KR10  dynamic_TF_carry    [20251200] 2025-10-30 02:02:13  [-1]         116.6
 
 
 =============================================================================================================================================================
@@ -20,19 +18,15 @@ Trades report produced on 29/10/2025 22:51 from 28/10/2025 22:51 to 29/10/2025 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-35238             NZD  dynamic_TF_carry       2025-10-28 00:00:00  2025-10-29 15:00:02.771000  2025-10-29 15:00:08             140402.771               5.229
-35239     SP500_micro  dynamic_TF_carry       2025-10-28 00:00:00  2025-10-29 15:00:10.251000  2025-10-29 15:00:10             140410.251                 NaN
-35240             BRE  dynamic_TF_carry       2025-10-28 00:00:00  2025-10-29 15:00:12.180000  2025-10-29 15:00:29              140412.18               16.82
+35241            KR10  dynamic_TF_carry       2025-10-29 00:00:00  2025-10-30 02:02:04.859000  2025-10-30 02:02:13              93724.859               8.141
 
 
-================================================================================================================================================================================================================================
-                                                                                                    Slippage (ticks per lot)                                                                                                    
-================================================================================================================================================================================================================================
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
-35238             NZD  dynamic_TF_carry   [1]                 0.5793               None  0.580425    0.58045        0.5804      0.5804       0.5805 -0.001125 -0.000025  -0.00005      -0.0001                 NaN     -0.000075
-35239     SP500_micro  dynamic_TF_carry  [-1]                6924.75               None  6938.375    6938.25        6938.5      6938.5      6938.25    13.625    -0.125      -0.0        -0.25                 NaN        -0.125
-35240             BRE  dynamic_TF_carry   [1]                 0.1852               None  0.185925    0.18595        0.1859      0.1859      0.18595 -0.000725 -0.000025       0.0     -0.00005                 NaN     -0.000025
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+35241            KR10  dynamic_TF_carry  [-1]                  117.1               None   116.595     116.59         116.6       116.6        116.6 -0.505  -0.005      0.01         -0.0                 NaN         0.005
 
 
 ==============================================================================================================================================================
@@ -40,66 +34,52 @@ Trades report produced on 29/10/2025 22:51 from 28/10/2025 22:51 to 29/10/2025 2
 ==============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-35238             NZD  dynamic_TF_carry   [1]        0.041759 -269.400066   -5.986668    -11.973336       -23.946673                     NaN        -17.960004
-35239     SP500_micro  dynamic_TF_carry  [-1]      909.895046  149.742545   -1.373785          -0.0         -2.74757                     NaN         -1.373785
-35240             BRE  dynamic_TF_carry   [1]        0.020136 -360.046301   -12.41539           0.0       -24.830779                     NaN         -12.41539
+35241            KR10  dynamic_TF_carry  [-1]        5.659543 -892.298139   -8.834635      17.66927             -0.0                     NaN          8.834635
 
 
-=======================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                      
-=======================================================================================================================================================================
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-35238             NZD  dynamic_TF_carry   [1]         75618.369214 -85.070665    -1.890459      -3.780918         -7.561837                      NaN          -5.671378
-35239     SP500_micro  dynamic_TF_carry  [-1]             3.780918  51.515014    -0.472615           -0.0          -0.94523                      NaN          -0.472615
-35240             BRE  dynamic_TF_carry   [1]         75618.369214 -54.823318    -1.890459            0.0         -3.780918                      NaN          -1.890459
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+35241            KR10  dynamic_TF_carry  [-1]           527.436149 -266.355255    -2.637181       5.274361              -0.0                      NaN           2.637181
 
 delay_cash Sum
-                                 delay_cash
-strategy_name    instrument_code           
-dynamic_TF_carry BRE             -54.823318
-                 NZD             -85.070665
-                 SP500_micro      51.515014
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry KR10            -266.355255
 delay_cash Total Sum
-                 delay_cash
-strategy_name              
-dynamic_TF_carry -88.378969
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -266.355255
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry BRE                -1.890459
-                 NZD                -1.890459
-                 SP500_micro        -0.472615
+dynamic_TF_carry KR10               -2.637181
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -4.253533
+dynamic_TF_carry    -2.637181
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry BRE                        0.0
-                 NZD                  -3.780918
-                 SP500_micro               -0.0
+dynamic_TF_carry KR10                  5.274361
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry      -3.780918
+dynamic_TF_carry       5.274361
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry BRE                     -3.780918
-                 NZD                     -7.561837
-                 SP500_micro              -0.94523
+dynamic_TF_carry KR10                         -0.0
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry        -12.287985
+dynamic_TF_carry              -0.0
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry BRE                                    0
-                 NZD                                    0
-                 SP500_micro                            0
+dynamic_TF_carry KR10                                   0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -107,13 +87,11 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry BRE                      -1.890459
-                 NZD                      -5.671378
-                 SP500_micro              -0.472615
+dynamic_TF_carry KR10                      2.637181
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry          -8.034452
+dynamic_TF_carry           2.637181
 
 ********************************************************************************
                                  END OF REPORT                                  
