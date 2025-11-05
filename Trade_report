@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 04/11/2025 22:51 from 03/11/2025 22:51 to 04/11/2025 22:51
+Trades report produced on 05/11/2025 22:51 from 04/11/2025 22:51 to 05/11/2025 22:51
 ********************************************************************************
 
 
@@ -10,8 +10,7 @@ Trades report produced on 04/11/2025 22:51 from 03/11/2025 22:51 to 04/11/2025 2
 =============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-35259             DAX  dynamic_TF_carry    [20251200] 2025-11-04 08:00:09  [-1]      23900.00
-35260     SP500_micro  dynamic_TF_carry    [20251200] 2025-11-04 15:00:02   [1]       6837.75
+35261             DAX  dynamic_TF_carry    [20251200] 2025-11-05 08:00:09  [-1]       23852.0
 
 
 =============================================================================================================================================================
@@ -19,17 +18,15 @@ Trades report produced on 04/11/2025 22:51 from 03/11/2025 22:51 to 04/11/2025 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-35259             DAX  dynamic_TF_carry       2025-11-03 00:00:00  2025-11-04 08:00:07.031000  2025-11-04 08:00:09             115207.031               1.969
-35260     SP500_micro  dynamic_TF_carry       2025-11-03 00:00:00  2025-11-04 15:00:01.999000  2025-11-04 15:00:02             140401.999               0.001
+35261             DAX  dynamic_TF_carry       2025-11-04 00:00:00  2025-11-05 08:00:08.498000  2025-11-05 08:00:09             115208.498               0.502
 
 
-============================================================================================================================================================================================================================
-                                                                                                  Slippage (ticks per lot)                                                                                                  
-============================================================================================================================================================================================================================
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
-35259             DAX  dynamic_TF_carry  [-1]                24189.0               None   23901.5    23900.0       23903.0     23903.0      23900.0  -287.5    -1.5      -0.0         -3.0                 NaN          -1.5
-35260     SP500_micro  dynamic_TF_carry   [1]                6886.25               None  6837.125    6837.25        6837.0      6837.0      6837.75  49.125  -0.125      -0.5        -0.75                 NaN        -0.625
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+35261             DAX  dynamic_TF_carry  [-1]                23995.0               None   23851.0    23850.0       23852.0     23852.0      23852.0 -144.0    -1.0       2.0         -0.0                 NaN           1.0
 
 
 ==============================================================================================================================================================
@@ -37,8 +34,7 @@ Trades report produced on 04/11/2025 22:51 from 03/11/2025 22:51 to 04/11/2025 2
 ==============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-35259             DAX  dynamic_TF_carry  [-1]     3075.506348 -934.805419   -4.877246          -0.0        -9.754491                     NaN         -4.877246
-35260     SP500_micro  dynamic_TF_carry   [1]      876.909821  560.205837    -1.42546     -5.701841        -8.552761                     NaN         -7.127301
+35261             DAX  dynamic_TF_carry  [-1]     3015.342951 -477.557619   -3.316372      6.632745             -0.0                     NaN          3.316372
 
 
 ========================================================================================================================================================================
@@ -46,50 +42,44 @@ Trades report produced on 04/11/2025 22:51 from 03/11/2025 22:51 to 04/11/2025 2
 ========================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-35259             DAX  dynamic_TF_carry  [-1]             0.878241 -252.494199    -1.317361           -0.0         -2.634722                      NaN          -1.317361
-35260     SP500_micro  dynamic_TF_carry   [1]             3.810337  187.182789    -0.476292      -1.905168         -2.857753                      NaN           -2.38146
+35261             DAX  dynamic_TF_carry  [-1]             0.881825 -126.982778    -0.881825        1.76365              -0.0                      NaN           0.881825
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry DAX             -252.494199
-                 SP500_micro      187.182789
+dynamic_TF_carry DAX             -126.982778
 delay_cash Total Sum
-                 delay_cash
-strategy_name              
-dynamic_TF_carry -65.311409
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -126.982778
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry DAX                -1.317361
-                 SP500_micro        -0.476292
+dynamic_TF_carry DAX                -0.881825
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -1.793653
+dynamic_TF_carry    -0.881825
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry DAX                       -0.0
-                 SP500_micro          -1.905168
+dynamic_TF_carry DAX                    1.76365
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry      -1.905168
+dynamic_TF_carry        1.76365
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry DAX                     -2.634722
-                 SP500_micro             -2.857753
+dynamic_TF_carry DAX                          -0.0
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry         -5.492475
+dynamic_TF_carry              -0.0
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
 dynamic_TF_carry DAX                                    0
-                 SP500_micro                            0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -97,12 +87,11 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry DAX                      -1.317361
-                 SP500_micro               -2.38146
+dynamic_TF_carry DAX                       0.881825
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry          -3.698821
+dynamic_TF_carry           0.881825
 
 ********************************************************************************
                                  END OF REPORT                                  
