@@ -1,15 +1,129 @@
 
 ********************************************************************************
-Trades report produced on 07/11/2025 22:51 from 06/11/2025 22:51 to 07/11/2025 22:51
+Trades report produced on 10/11/2025 22:51 from 09/11/2025 22:51 to 10/11/2025 22:51
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+35275       AUD_micro  dynamic_TF_carry    [20251200] 2025-11-10 15:00:05   [1]        0.6529
+35271      KOSPI_mini  dynamic_TF_carry    [20251100] 2025-11-10 02:00:31  [-1]      574.4800
+35272     KRWUSD_mini  dynamic_TF_carry    [20251100] 2025-11-10 02:02:15   [1]        0.6880
+35273     KRWUSD_mini  dynamic_TF_carry    [20251100] 2025-11-10 02:02:21   [1]        0.6880
+35274     KRWUSD_mini  dynamic_TF_carry    [20251100] 2025-11-10 02:02:35   [1]        0.6880
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+35271      KOSPI_mini  dynamic_TF_carry       2025-11-07 05:00:00  2025-11-10 02:00:30.510000  2025-11-10 02:00:31              248430.51                0.49
+35272     KRWUSD_mini  dynamic_TF_carry       2025-11-07 04:00:00  2025-11-10 02:02:09.106000  2025-11-10 02:02:15             252129.106               5.894
+35273     KRWUSD_mini  dynamic_TF_carry       2025-11-07 04:00:00  2025-11-10 02:02:20.556000  2025-11-10 02:02:21             252140.556               0.444
+35274     KRWUSD_mini  dynamic_TF_carry       2025-11-07 04:00:00  2025-11-10 02:02:26.155000  2025-11-10 02:02:35             252146.155               8.845
+35275       AUD_micro  dynamic_TF_carry       2025-11-07 00:00:00  2025-11-10 15:00:04.109000  2025-11-10 15:00:05             313204.109               0.891
+
+
+==============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                   
+==============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
+35271      KOSPI_mini  dynamic_TF_carry  [-1]                 551.26               None    574.55     574.54        574.56      574.56       574.48    23.29    -0.01     -0.06        -0.08                 NaN         -0.07
+35272     KRWUSD_mini  dynamic_TF_carry   [1]                 0.6866               None    0.6882     0.6883        0.6881      0.6881        0.688  -0.0016  -0.0001    0.0003       0.0001                 NaN        0.0002
+35273     KRWUSD_mini  dynamic_TF_carry   [1]                 0.6866               None    0.6882     0.6883        0.6881         NaN        0.688  -0.0016  -0.0001    0.0003          NaN                 NaN        0.0002
+35274     KRWUSD_mini  dynamic_TF_carry   [1]                 0.6866               None   0.68825     0.6883        0.6882      0.6882        0.688 -0.00165 -0.00005    0.0003       0.0002                 NaN       0.00025
+35275       AUD_micro  dynamic_TF_carry   [1]                 0.6496               None   0.65295      0.653        0.6529      0.6529       0.6529 -0.00335 -0.00005    0.0001          0.0                 NaN       0.00005
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+35271      KOSPI_mini  dynamic_TF_carry  [-1]      156.625405  1486.987373   -0.638466     -3.830796        -5.107728                     NaN         -4.469262
+35272     KRWUSD_mini  dynamic_TF_carry   [1]        0.054713  -292.437264  -18.277329     54.831987        18.277329                     NaN         36.554658
+35273     KRWUSD_mini  dynamic_TF_carry   [1]        0.054713  -292.437264  -18.277329     54.831987              NaN                     NaN         36.554658
+35274     KRWUSD_mini  dynamic_TF_carry   [1]        0.054713  -301.575929   -9.138665     54.831987        36.554658                     NaN         45.693323
+35275       AUD_micro  dynamic_TF_carry   [1]        0.049041  -683.108062  -10.195643     20.391285              0.0                     NaN         10.195643
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+35271      KOSPI_mini  dynamic_TF_carry  [-1]            25.966388  604.757188    -0.259664      -1.557983         -2.077311                      NaN          -1.817647
+35272     KRWUSD_mini  dynamic_TF_carry   [1]         19019.651104  -30.431442    -1.901965       5.705895          1.901965                      NaN            3.80393
+35273     KRWUSD_mini  dynamic_TF_carry   [1]         19019.651104  -30.431442    -1.901965       5.705895               NaN                      NaN            3.80393
+35274     KRWUSD_mini  dynamic_TF_carry   [1]         19019.651104  -31.382424    -0.950983       5.705895           3.80393                      NaN           4.754913
+35275       AUD_micro  dynamic_TF_carry   [1]          7607.860441  -25.486332    -0.380393       0.760786               0.0                      NaN           0.380393
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry AUD_micro        -25.486332
+                 KOSPI_mini       604.757188
+                 KRWUSD_mini      -92.245308
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry  487.025547
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry AUD_micro          -0.380393
+                 KOSPI_mini         -0.259664
+                 KRWUSD_mini        -4.754913
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry     -5.39497
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry AUD_micro             0.760786
+                 KOSPI_mini           -1.557983
+                 KRWUSD_mini          17.117686
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry      16.320489
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry AUD_micro                     0.0
+                 KOSPI_mini              -2.077311
+                 KRWUSD_mini              5.705895
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry          3.628584
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry AUD_micro                              0
+                 KOSPI_mini                             0
+                 KRWUSD_mini                            0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry AUD_micro                 0.380393
+                 KOSPI_mini               -1.817647
+                 KRWUSD_mini              12.362773
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry          10.925519
 
 ********************************************************************************
                                  END OF REPORT                                  
