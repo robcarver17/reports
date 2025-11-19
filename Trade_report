@@ -1,15 +1,234 @@
 
 ********************************************************************************
-Trades report produced on 18/11/2025 22:51 from 17/11/2025 22:51 to 18/11/2025 22:51
+Trades report produced on 19/11/2025 22:51 from 18/11/2025 22:51 to 19/11/2025 22:51
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+35322             AEX  dynamic_TF_carry    [20251100] 2025-11-19 08:00:13  [-1]      931.6000
+35326         BITCOIN  dynamic_TF_carry    [20251200] 2025-11-19 15:00:05  [-1]    92175.0000
+35321             DAX  dynamic_TF_carry    [20251200] 2025-11-19 08:00:05  [-1]    23204.0000
+35320        EU-BASIC  dynamic_TF_carry    [20251200] 2025-11-19 08:00:03   [1]      577.3000
+35329       EUR_micro  dynamic_TF_carry    [20260300] 2025-11-19 15:00:31  [-1]        1.1627
+35327       EUR_micro  dynamic_TF_carry    [20260300] 2025-11-19 15:00:16  [-1]        1.1629
+35319      FTSECHINAA  dynamic_TF_carry    [20251200] 2025-11-19 02:02:15   [1]    15251.0000
+35325     GAS_US_mini  dynamic_TF_carry    [20260100] 2025-11-19 14:00:15  [-1]        4.7400
+35323      GOLD_micro  dynamic_TF_carry    [20260200] 2025-11-19 14:00:08  [-1]     4147.1000
+35317      KOSPI_mini  dynamic_TF_carry    [20251200] 2025-11-19 02:00:35   [1]      557.2600
+35316     KRWUSD_mini  dynamic_TF_carry    [20251200] 2025-11-19 02:00:31  [-1]        0.6840
+35324          SILVER  dynamic_TF_carry    [20260300] 2025-11-19 14:00:10   [1]       52.2800
+35328     SP500_micro  dynamic_TF_carry    [20251200] 2025-11-19 15:00:18  [-1]     6690.0000
+35318           TOPIX  dynamic_TF_carry    [20251200] 2025-11-19 02:00:37  [-1]     3267.7500
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+35316     KRWUSD_mini  dynamic_TF_carry       2025-11-18 00:00:00  2025-11-19 02:00:30.811000  2025-11-19 02:00:31              93630.811               0.189
+35317      KOSPI_mini  dynamic_TF_carry       2025-11-18 00:00:00  2025-11-19 02:00:33.986000  2025-11-19 02:00:35              93633.986               1.014
+35318           TOPIX  dynamic_TF_carry       2025-11-18 00:00:00  2025-11-19 02:00:36.989000  2025-11-19 02:00:37              93636.989               0.011
+35319      FTSECHINAA  dynamic_TF_carry       2025-11-18 00:00:00  2025-11-19 02:02:15.048000  2025-11-19 02:02:15              93735.048                 NaN
+35320        EU-BASIC  dynamic_TF_carry       2025-11-18 00:00:00  2025-11-19 08:00:03.404000  2025-11-19 08:00:03             115203.404                 NaN
+35321             DAX  dynamic_TF_carry       2025-11-18 00:00:00  2025-11-19 08:00:05.307000  2025-11-19 08:00:05             115205.307                 NaN
+35322             AEX  dynamic_TF_carry       2025-11-18 00:00:00  2025-11-19 08:00:11.210000  2025-11-19 08:00:13              115211.21                1.79
+35323      GOLD_micro  dynamic_TF_carry       2025-11-18 00:00:00  2025-11-19 14:00:07.189000  2025-11-19 14:00:08             136807.189               0.811
+35324          SILVER  dynamic_TF_carry       2025-11-18 00:00:00  2025-11-19 14:00:09.967000  2025-11-19 14:00:10             136809.967               0.033
+35325     GAS_US_mini  dynamic_TF_carry       2025-11-18 00:00:00  2025-11-19 14:00:15.746000  2025-11-19 14:00:15             136815.746                 NaN
+35326         BITCOIN  dynamic_TF_carry       2025-11-18 00:00:00  2025-11-19 15:00:05.692000  2025-11-19 15:00:05             140405.692                 NaN
+35328     SP500_micro  dynamic_TF_carry       2025-11-18 00:00:00  2025-11-19 15:00:17.876000  2025-11-19 15:00:18             140417.876               0.124
+35329       EUR_micro  dynamic_TF_carry       2025-11-18 00:00:00  2025-11-19 15:00:23.041000  2025-11-19 15:00:31             140423.041               7.959
+35327       EUR_micro  dynamic_TF_carry       2025-11-18 00:00:00  2025-11-19 15:00:07.223000  2025-11-19 15:00:16             140407.223               8.777
+
+
+==============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                   
+==============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
+35316     KRWUSD_mini  dynamic_TF_carry  [-1]                 0.6833               None   0.68345     0.6834        0.6835      0.6835        0.684  0.00015 -0.00005    0.0006       0.0005                 NaN       0.00055
+35317      KOSPI_mini  dynamic_TF_carry   [1]                  557.3               None    557.25     557.28        557.22      557.22       557.26     0.05    -0.03      0.02        -0.04                 NaN         -0.01
+35318           TOPIX  dynamic_TF_carry  [-1]                3264.25               None    3268.0    3267.75       3268.25     3268.25      3267.75     3.75    -0.25      -0.0         -0.5                 NaN         -0.25
+35319      FTSECHINAA  dynamic_TF_carry   [1]                15160.0               None   15252.0    15253.0       15251.0     15251.0      15251.0    -92.0     -1.0       2.0          0.0                 NaN           1.0
+35320        EU-BASIC  dynamic_TF_carry   [1]                  572.5               None    575.85      577.3         574.4       574.4        577.3    -3.35    -1.45       0.0         -2.9                 NaN         -1.45
+35321             DAX  dynamic_TF_carry  [-1]                23198.0               None   23206.0    23205.0       23207.0     23207.0      23204.0      8.0     -1.0      -1.0         -3.0                 NaN          -2.0
+35322             AEX  dynamic_TF_carry  [-1]                 929.65               None     931.4      931.2         931.6       931.6        931.6     1.75     -0.2       0.4         -0.0                 NaN           0.2
+35323      GOLD_micro  dynamic_TF_carry  [-1]                 4112.8               None   4147.55     4147.4        4147.7      4147.7       4147.1    34.75    -0.15      -0.3         -0.6                 NaN         -0.45
+35324          SILVER  dynamic_TF_carry   [1]                  51.36               None   52.2675     52.275         52.26       52.26        52.28  -0.9075  -0.0075    -0.005        -0.02                 NaN       -0.0125
+35325     GAS_US_mini  dynamic_TF_carry  [-1]                   4.58               None    4.7425       4.74         4.745         NaN         4.74   0.1625  -0.0025      -0.0          NaN                 NaN       -0.0025
+35326         BITCOIN  dynamic_TF_carry  [-1]                93800.0               None   92207.5    92175.0       92240.0         NaN      92175.0  -1592.5    -32.5      -0.0          NaN                 NaN         -32.5
+35328     SP500_micro  dynamic_TF_carry  [-1]                 6678.5               None  6689.875    6689.75        6690.0      6690.0       6690.0   11.375   -0.125      0.25         -0.0                 NaN         0.125
+35329       EUR_micro  dynamic_TF_carry  [-1]                 1.1658               None   1.16285     1.1628        1.1629      1.1629       1.1627 -0.00295 -0.00005   -0.0001      -0.0002                 NaN      -0.00015
+35327       EUR_micro  dynamic_TF_carry  [-1]                 1.1658               None    1.1628     1.1627        1.1629      1.1629       1.1629   -0.003  -0.0001    0.0002         -0.0                 NaN        0.0001
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+35316     KRWUSD_mini  dynamic_TF_carry  [-1]        0.060574   24.763047   -8.254349     99.052186        82.543488                     NaN         90.797837
+35317      KOSPI_mini  dynamic_TF_carry   [1]      152.495695    3.278781   -1.967269      1.311512        -2.623025                     NaN         -0.655756
+35318           TOPIX  dynamic_TF_carry  [-1]      542.663638    69.10358   -4.606905          -0.0        -9.213811                     NaN         -4.606905
+35319      FTSECHINAA  dynamic_TF_carry   [1]     2745.104747 -335.142038   -3.642848      7.285696              0.0                     NaN          3.642848
+35320        EU-BASIC  dynamic_TF_carry   [1]      126.353006 -265.130218 -114.757855           0.0      -229.515711                     NaN       -114.757855
+35321             DAX  dynamic_TF_carry  [-1]     3556.843251   22.491854   -2.811482     -2.811482        -8.434445                     NaN         -5.622964
+35322             AEX  dynamic_TF_carry  [-1]      128.507484  136.178839  -15.563296     31.126592             -0.0                     NaN         15.563296
+35323      GOLD_micro  dynamic_TF_carry  [-1]      877.637614  395.949301   -1.709134     -3.418267        -6.836535                     NaN         -5.127401
+35324          SILVER  dynamic_TF_carry   [1]       16.415782 -552.821679   -4.568774     -3.045849       -12.183398                     NaN         -7.614624
+35325     GAS_US_mini  dynamic_TF_carry  [-1]        1.751423  927.816782  -14.274104          -0.0              NaN                     NaN        -14.274104
+35326         BITCOIN  dynamic_TF_carry  [-1]    44623.313004 -356.876236   -7.283188          -0.0              NaN                     NaN         -7.283188
+35328     SP500_micro  dynamic_TF_carry  [-1]      889.848306  127.830777   -1.404734      2.809468             -0.0                     NaN          1.404734
+35329       EUR_micro  dynamic_TF_carry  [-1]        0.062819 -469.606676   -7.959435     -15.91887       -31.837741                     NaN        -23.878306
+35327       EUR_micro  dynamic_TF_carry  [-1]        0.062819 -477.566111   -15.91887     31.837741             -0.0                     NaN          15.91887
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+35316     KRWUSD_mini  dynamic_TF_carry  [-1]         19004.686556    2.850703    -0.950234      11.402812          9.502343                      NaN          10.452578
+35317      KOSPI_mini  dynamic_TF_carry   [1]            25.532796     1.27664    -0.765984       0.510656         -1.021312                      NaN          -0.255328
+35318           TOPIX  dynamic_TF_carry  [-1]             4.889514   18.335679    -1.222379           -0.0         -2.444757                      NaN          -1.222379
+35319      FTSECHINAA  dynamic_TF_carry   [1]             0.760187  -69.937247    -0.760187       1.520375               0.0                      NaN           0.760187
+35320        EU-BASIC  dynamic_TF_carry   [1]             44.03918 -147.531253   -63.856811            0.0       -127.713622                      NaN         -63.856811
+35321             DAX  dynamic_TF_carry  [-1]             0.880784    7.046269    -0.880784      -0.880784         -2.642351                      NaN          -1.761567
+35322             AEX  dynamic_TF_carry  [-1]            176.15672   308.27426   -35.231344      70.462688              -0.0                      NaN          35.231344
+35323      GOLD_micro  dynamic_TF_carry  [-1]             7.601875  264.165143    -1.140281      -2.280562         -4.561125                      NaN          -3.420844
+35324          SILVER  dynamic_TF_carry   [1]           760.187462 -689.870122    -5.701406      -3.800937        -15.203749                      NaN          -9.502343
+35325     GAS_US_mini  dynamic_TF_carry  [-1]          1900.468656  308.826157    -4.751172           -0.0               NaN                      NaN          -4.751172
+35326         BITCOIN  dynamic_TF_carry  [-1]             0.076019 -121.059853    -2.470609           -0.0               NaN                      NaN          -2.470609
+35328     SP500_micro  dynamic_TF_carry  [-1]             3.800937   43.235662    -0.475117       0.950234              -0.0                      NaN           0.475117
+35329       EUR_micro  dynamic_TF_carry  [-1]          9502.343278  -28.031913    -0.475117      -0.950234         -1.900469                      NaN          -1.425351
+35327       EUR_micro  dynamic_TF_carry  [-1]          9502.343278   -28.50703    -0.950234       1.900469              -0.0                      NaN           0.950234
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry AEX               308.27426
+                 BITCOIN         -121.059853
+                 DAX                7.046269
+                 EU-BASIC        -147.531253
+                 EUR_micro        -56.538943
+                 FTSECHINAA       -69.937247
+                 GAS_US_mini      308.826157
+                 GOLD_micro       264.165143
+                 KOSPI_mini          1.27664
+                 KRWUSD_mini        2.850703
+                 SILVER          -689.870122
+                 SP500_micro       43.235662
+                 TOPIX             18.335679
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -130.926905
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry AEX               -35.231344
+                 BITCOIN            -2.470609
+                 DAX                -0.880784
+                 EU-BASIC          -63.856811
+                 EUR_micro          -1.425351
+                 FTSECHINAA         -0.760187
+                 GAS_US_mini        -4.751172
+                 GOLD_micro         -1.140281
+                 KOSPI_mini         -0.765984
+                 KRWUSD_mini        -0.950234
+                 SILVER             -5.701406
+                 SP500_micro        -0.475117
+                 TOPIX              -1.222379
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -119.63166
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry AEX                  70.462688
+                 BITCOIN                   -0.0
+                 DAX                  -0.880784
+                 EU-BASIC                   0.0
+                 EUR_micro             0.950234
+                 FTSECHINAA            1.520375
+                 GAS_US_mini               -0.0
+                 GOLD_micro           -2.280562
+                 KOSPI_mini            0.510656
+                 KRWUSD_mini          11.402812
+                 SILVER               -3.800937
+                 SP500_micro           0.950234
+                 TOPIX                     -0.0
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry      78.834716
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry AEX                          -0.0
+                 BITCOIN                         0
+                 DAX                     -2.642351
+                 EU-BASIC              -127.713622
+                 EUR_micro               -1.900469
+                 FTSECHINAA                    0.0
+                 GAS_US_mini                     0
+                 GOLD_micro              -4.561125
+                 KOSPI_mini              -1.021312
+                 KRWUSD_mini              9.502343
+                 SILVER                 -15.203749
+                 SP500_micro                  -0.0
+                 TOPIX                   -2.444757
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry       -145.985041
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry AEX                                    0
+                 BITCOIN                                0
+                 DAX                                    0
+                 EU-BASIC                               0
+                 EUR_micro                              0
+                 FTSECHINAA                             0
+                 GAS_US_mini                            0
+                 GOLD_micro                             0
+                 KOSPI_mini                             0
+                 KRWUSD_mini                            0
+                 SILVER                                 0
+                 SP500_micro                            0
+                 TOPIX                                  0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry AEX                      35.231344
+                 BITCOIN                  -2.470609
+                 DAX                      -1.761567
+                 EU-BASIC                -63.856811
+                 EUR_micro                -0.475117
+                 FTSECHINAA                0.760187
+                 GAS_US_mini              -4.751172
+                 GOLD_micro               -3.420844
+                 KOSPI_mini               -0.255328
+                 KRWUSD_mini              10.452578
+                 SILVER                   -9.502343
+                 SP500_micro               0.475117
+                 TOPIX                    -1.222379
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry         -40.796943
 
 ********************************************************************************
                                  END OF REPORT                                  
