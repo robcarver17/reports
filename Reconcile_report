@@ -1,10 +1,10 @@
 
 ********************************************************************************
-                 Reconcile report produced on 19/11/2025 22:51                  
+                 Reconcile report produced on 20/11/2025 22:50                  
 ********************************************************************************
 
 
-Breaks Optimal vs actual ['dynamic_TF_carry JPY']
+Breaks Optimal vs actual ['dynamic_TF_carry CRUDE_W_micro', 'dynamic_TF_carry EUR_micro']
  Breaks Instrument vs Contract []
  Breaks Broker vs Contract []
 
@@ -23,7 +23,7 @@ Breaks Optimal vs actual ['dynamic_TF_carry JPY']
 20       GASOILINE      20260227  2026-02-27 00:00:00       1.0
 11     GAS_US_mini      20251226  2025-12-26 00:00:00      -1.0
 7       GOLD_micro      20260225  2026-02-25 00:00:00      -1.0
-22             JPY      20251215  2025-12-15 00:00:00      -1.0
+22             JPY      20251215  2025-12-15 00:00:00      -2.0
 15      KOSPI_mini      20251211  2025-12-11 00:00:00       2.0
 5             KR10      20251216  2025-12-16 00:00:00      -3.0
 4      KRWUSD_mini      20251215  2025-12-15 00:00:00      -4.0
@@ -44,70 +44,44 @@ Breaks Optimal vs actual ['dynamic_TF_carry JPY']
 
    instrument_code contract_date          expiry_date  position
 5        AUD_micro      20251215  2025-12-15 00:00:00       4.0
-2          BITCOIN      20251226  2025-12-26 00:00:00      -3.0
-7              BRE      20251128  2025-11-28 00:00:00       4.0
-4    CRUDE_W_micro      20260116  2026-01-16 00:00:00      -6.0
-18             DAX      20251219  2025-12-19 00:00:00      -3.0
-8         EU-BASIC      20251219  2025-12-19 00:00:00       1.0
-15      FTSECHINAA      20251230  2025-12-30 00:00:00       1.0
-0        GASOILINE      20260227  2026-02-27 00:00:00       1.0
-14     GAS_US_mini      20251226  2025-12-26 00:00:00      -1.0
-9       GOLD_micro      20260225  2026-02-25 00:00:00      -1.0
-17             JPY      20251215  2025-12-15 00:00:00      -1.0
-11      KOSPI_mini      20251211  2025-12-11 00:00:00       2.0
-13            KR10      20251216  2025-12-16 00:00:00      -3.0
-22     KRWUSD_mini      20251215  2025-12-15 00:00:00      -4.0
-10             MIB      20251219  2025-12-19 00:00:00       1.0
-20             MXP      20251215  2025-12-15 00:00:00       2.0
-1           NIKKEI      20260312  2026-03-12 00:00:00       1.0
-12             OAT      20251208  2025-12-08 00:00:00       2.0
-19            RICE      20260114  2026-01-14 00:00:00      -1.0
-3           SILVER      20260327  2026-03-27 00:00:00       1.0
-16     SP500_micro      20251219  2025-12-19 00:00:00      -2.0
-21           TOPIX      20251211  2025-12-11 00:00:00       2.0
-6           YENEUR      20251215  2025-12-15 00:00:00       2.0
+15         BITCOIN      20251226  2025-12-26 00:00:00      -3.0
+20             BRE      20251128  2025-11-28 00:00:00       4.0
+9    CRUDE_W_micro      20260116  2026-01-16 00:00:00      -6.0
+21             DAX      20251219  2025-12-19 00:00:00      -3.0
+0         EU-BASIC      20251219  2025-12-19 00:00:00       1.0
+3       FTSECHINAA      20251230  2025-12-30 00:00:00       1.0
+7        GASOILINE      20260227  2026-02-27 00:00:00       1.0
+6      GAS_US_mini      20251226  2025-12-26 00:00:00      -1.0
+1       GOLD_micro      20260225  2026-02-25 00:00:00      -1.0
+19             JPY      20251215  2025-12-15 00:00:00      -2.0
+2       KOSPI_mini      20251211  2025-12-11 00:00:00       2.0
+12            KR10      20251216  2025-12-16 00:00:00      -3.0
+16     KRWUSD_mini      20251215  2025-12-15 00:00:00      -4.0
+13             MIB      20251219  2025-12-19 00:00:00       1.0
+22             MXP      20251215  2025-12-15 00:00:00       2.0
+17          NIKKEI      20260312  2026-03-12 00:00:00       1.0
+18             OAT      20251208  2025-12-08 00:00:00       2.0
+11            RICE      20260114  2026-01-14 00:00:00      -1.0
+8           SILVER      20260327  2026-03-27 00:00:00       1.0
+10     SP500_micro      20251219  2025-12-19 00:00:00      -2.0
+14           TOPIX      20251211  2025-12-11 00:00:00       2.0
+4           YENEUR      20251215  2025-12-15 00:00:00       2.0
 
 
-===================================================================================
-                                   Trades in DB                                    
-===================================================================================
+===========================================================================
+                               Trades in DB                                
+===========================================================================
 
-                strategy_name contract_date       fill_datetime  fill  filled_price
-KRWUSD_mini  dynamic_TF_carry    [20251200] 2025-11-19 02:00:31  [-1]        0.6840
-KOSPI_mini   dynamic_TF_carry    [20251200] 2025-11-19 02:00:35   [1]      557.2600
-TOPIX        dynamic_TF_carry    [20251200] 2025-11-19 02:00:37  [-1]     3267.7500
-FTSECHINAA   dynamic_TF_carry    [20251200] 2025-11-19 02:02:15   [1]    15251.0000
-EU-BASIC     dynamic_TF_carry    [20251200] 2025-11-19 08:00:03   [1]      577.3000
-DAX          dynamic_TF_carry    [20251200] 2025-11-19 08:00:05  [-1]    23204.0000
-AEX          dynamic_TF_carry    [20251100] 2025-11-19 08:00:13  [-1]      931.6000
-GOLD_micro   dynamic_TF_carry    [20260200] 2025-11-19 14:00:08  [-1]     4147.1000
-SILVER       dynamic_TF_carry    [20260300] 2025-11-19 14:00:10   [1]       52.2800
-GAS_US_mini  dynamic_TF_carry    [20260100] 2025-11-19 14:00:15  [-1]        4.7400
-BITCOIN      dynamic_TF_carry    [20251200] 2025-11-19 15:00:05  [-1]    92175.0000
-SP500_micro  dynamic_TF_carry    [20251200] 2025-11-19 15:00:18  [-1]     6690.0000
-EUR_micro    dynamic_TF_carry    [20260300] 2025-11-19 15:00:31  [-1]        1.1627
-EUR_micro    dynamic_TF_carry    [20260300] 2025-11-19 15:00:16  [-1]        1.1629
+        strategy_name contract_date       fill_datetime  fill  filled_price
+JPY  dynamic_TF_carry    [20251200] 2025-11-20 15:00:06  [-1]      0.006356
 
 
-===============================================================================
-                              Trades from broker                               
-===============================================================================
+=======================================================================
+                          Trades from broker                           
+=======================================================================
 
-            strategy_name contract_date       fill_datetime  fill  filled_price
-KOSPI_mini                   [20251211] 2025-11-19 02:00:35   [1]      557.2600
-TOPIX                        [20251211] 2025-11-19 02:00:37  [-1]     3267.7500
-KRWUSD_mini                  [20251215] 2025-11-19 02:00:31  [-1]        0.6840
-FTSECHINAA                   [20251230] 2025-11-19 02:02:15   [1]    15251.0000
-DAX                          [20251219] 2025-11-19 08:00:05  [-1]    23204.0000
-AEX                          [20251121] 2025-11-19 08:00:13  [-1]      931.6000
-EU-BASIC                     [20251219] 2025-11-19 08:00:03   [1]      577.3000
-GAS_US_mini                  [20251226] 2025-11-19 14:00:15  [-1]        4.7400
-BITCOIN                      [20251226] 2025-11-19 15:00:05  [-1]    92175.0000
-GOLD_micro                   [20260225] 2025-11-19 14:00:08  [-1]     4147.1000
-SILVER                       [20260327] 2025-11-19 14:00:10   [1]       52.2800
-EUR_micro                    [20260316] 2025-11-19 15:00:31  [-1]        1.1627
-EUR_micro                    [20260316] 2025-11-19 15:00:16  [-1]        1.1629
-SP500_micro                  [20251219] 2025-11-19 15:00:18  [-1]     6690.0000
+    strategy_name contract_date       fill_datetime  fill  filled_price
+JPY                  [20251215] 2025-11-20 15:00:06  [-1]      0.006356
 
 
 ==========================================================
@@ -174,7 +148,7 @@ dynamic_TF_carry GAS-LAST                0       0   False
 dynamic_TF_carry FTSETAIWAN              0       0   False
 dynamic_TF_carry NOK                     0       0   False
 dynamic_TF_carry OATIES                  0       0   False
-dynamic_TF_carry CRUDE_W_micro          -6      -6   False
+dynamic_TF_carry CRUDE_W_micro          -6      -3    True
 dynamic_TF_carry KOSDAQ                  0       0   False
 dynamic_TF_carry GASOIL                  0       0   False
 dynamic_TF_carry US10U                   0       0   False
@@ -190,7 +164,7 @@ dynamic_TF_carry BTP3                    0       0   False
 dynamic_TF_carry CHEESE                  0       0   False
 dynamic_TF_carry AEX                     0       0   False
 dynamic_TF_carry MSCIWORLD               0       0   False
-dynamic_TF_carry JPY                    -1      -2    True
+dynamic_TF_carry JPY                    -2      -2   False
 dynamic_TF_carry MSCISING                0       0   False
 dynamic_TF_carry IBEX_mini               0       0   False
 dynamic_TF_carry SILVER                  1       1   False
@@ -239,7 +213,7 @@ dynamic_TF_carry HANGENT_mini            0       0   False
 dynamic_TF_carry COFFEE                  0       0   False
 dynamic_TF_carry REDWHEAT                0       0   False
 dynamic_TF_carry ZINC_LME                0       0   False
-dynamic_TF_carry EUR_micro               0       0   False
+dynamic_TF_carry EUR_micro               0      -2    True
 dynamic_TF_carry AUDJPY                  0       0   False
 dynamic_TF_carry SUGAR_WHITE             0       0   False
 dynamic_TF_carry SOFR                    0       0   False
