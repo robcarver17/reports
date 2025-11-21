@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 20/11/2025 22:51 from 19/11/2025 22:51 to 20/11/2025 22:51
+Trades report produced on 21/11/2025 22:51 from 20/11/2025 22:51 to 21/11/2025 22:51
 ********************************************************************************
 
 
@@ -10,7 +10,11 @@ Trades report produced on 20/11/2025 22:51 from 19/11/2025 22:51 to 20/11/2025 2
 =============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-35330             JPY  dynamic_TF_carry    [20251200] 2025-11-20 15:00:06  [-1]      0.006356
+35331   CRUDE_W_micro  dynamic_TF_carry    [20260200] 2025-11-21 14:00:09   [1]       57.9400
+35332   CRUDE_W_micro  dynamic_TF_carry    [20260200] 2025-11-21 14:00:14   [1]       57.9200
+35333   CRUDE_W_micro  dynamic_TF_carry    [20260200] 2025-11-21 14:00:19   [1]       57.9200
+35334       EUR_micro  dynamic_TF_carry    [20260300] 2025-11-21 15:00:09  [-1]        1.1584
+35335       EUR_micro  dynamic_TF_carry    [20260300] 2025-11-21 15:00:15  [-1]        1.1584
 
 
 =============================================================================================================================================================
@@ -18,15 +22,23 @@ Trades report produced on 20/11/2025 22:51 from 19/11/2025 22:51 to 20/11/2025 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-35330             JPY  dynamic_TF_carry       2025-11-19 00:00:00  2025-11-20 15:00:04.706000  2025-11-20 15:00:06             140404.706               1.294
+35331   CRUDE_W_micro  dynamic_TF_carry       2025-11-20 00:00:00  2025-11-21 14:00:08.650000  2025-11-21 14:00:09              136808.65                0.35
+35332   CRUDE_W_micro  dynamic_TF_carry       2025-11-20 00:00:00  2025-11-21 14:00:13.898000  2025-11-21 14:00:14             136813.898               0.102
+35333   CRUDE_W_micro  dynamic_TF_carry       2025-11-20 00:00:00  2025-11-21 14:00:19.357000  2025-11-21 14:00:19             136819.357                 NaN
+35334       EUR_micro  dynamic_TF_carry       2025-11-20 00:00:00  2025-11-21 15:00:04.138000  2025-11-21 15:00:09             140404.138               4.862
+35335       EUR_micro  dynamic_TF_carry       2025-11-20 00:00:00  2025-11-21 15:00:14.793000  2025-11-21 15:00:15             140414.793               0.207
 
 
 ==============================================================================================================================================================================================================================
                                                                                                    Slippage (ticks per lot)                                                                                                   
 ==============================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay bid_ask execution versus_limit versus_parent_limit total_trading
-35330             JPY  dynamic_TF_carry  [-1]               0.006386               None  0.006357   0.006357      0.006357    0.006357     0.006356 -0.000029    -0.0 -0.000001    -0.000001                 NaN     -0.000001
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
+35331   CRUDE_W_micro  dynamic_TF_carry   [1]                  58.67               None     57.95      57.96         57.94         NaN        57.94     0.72    -0.01      0.02          NaN                 NaN          0.01
+35332   CRUDE_W_micro  dynamic_TF_carry   [1]                  58.67               None     57.91      57.92          57.9         NaN        57.92     0.76    -0.01       0.0          NaN                 NaN         -0.01
+35333   CRUDE_W_micro  dynamic_TF_carry   [1]                  58.67               None     57.92      57.93         57.91       57.91        57.92     0.75    -0.01      0.01        -0.01                 NaN           0.0
+35334       EUR_micro  dynamic_TF_carry  [-1]                 1.1602               None    1.1583     1.1582        1.1584      1.1584       1.1584  -0.0019  -0.0001    0.0002         -0.0                 NaN        0.0001
+35335       EUR_micro  dynamic_TF_carry  [-1]                 1.1602               None   1.15835     1.1583        1.1584      1.1584       1.1584 -0.00185 -0.00005    0.0001         -0.0                 NaN       0.00005
 
 
 ==============================================================================================================================================================
@@ -34,52 +46,65 @@ Trades report produced on 20/11/2025 22:51 from 19/11/2025 22:51 to 20/11/2025 2
 ==============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-35330             JPY  dynamic_TF_carry  [-1]        0.000558 -524.478231    -4.48272      -8.96544        -17.93088                     NaN         -13.44816
+35331   CRUDE_W_micro  dynamic_TF_carry   [1]       16.098299   447.25223   -6.211837     12.423673              NaN                     NaN          6.211837
+35332   CRUDE_W_micro  dynamic_TF_carry   [1]       16.098299  472.099576   -6.211837           0.0              NaN                     NaN         -6.211837
+35333   CRUDE_W_micro  dynamic_TF_carry   [1]       16.098299   465.88774   -6.211837      6.211837        -6.211837                     NaN               0.0
+35334       EUR_micro  dynamic_TF_carry  [-1]        0.061517 -308.859806  -16.255779     32.511558             -0.0                     NaN         16.255779
+35335       EUR_micro  dynamic_TF_carry  [-1]        0.061517 -300.731916    -8.12789     16.255779             -0.0                     NaN           8.12789
 
 
-========================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                       
-========================================================================================================================================================================
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-35330             JPY  dynamic_TF_carry  [-1]        9571393.02054 -279.963246    -2.392848      -4.785697         -9.571393                      NaN          -7.178545
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+35331   CRUDE_W_micro  dynamic_TF_carry   [1]            76.425138  55.026099    -0.764251       1.528503               NaN                      NaN           0.764251
+35332   CRUDE_W_micro  dynamic_TF_carry   [1]            76.425138  58.083105    -0.764251            0.0               NaN                      NaN          -0.764251
+35333   CRUDE_W_micro  dynamic_TF_carry   [1]            76.425138  57.318853    -0.764251       0.764251         -0.764251                      NaN                0.0
+35334       EUR_micro  dynamic_TF_carry  [-1]           9553.14222  -18.15097    -0.955314       1.910628              -0.0                      NaN           0.955314
+35335       EUR_micro  dynamic_TF_carry  [-1]           9553.14222 -17.673313    -0.477657       0.955314              -0.0                      NaN           0.477657
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry JPY             -279.963246
+dynamic_TF_carry CRUDE_W_micro    170.428057
+                 EUR_micro        -35.824283
 delay_cash Total Sum
                   delay_cash
 strategy_name               
-dynamic_TF_carry -279.963246
+dynamic_TF_carry  134.603774
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry JPY                -2.392848
+dynamic_TF_carry CRUDE_W_micro      -2.292754
+                 EUR_micro          -1.432971
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -2.392848
+dynamic_TF_carry    -3.725725
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry JPY                  -4.785697
+dynamic_TF_carry CRUDE_W_micro         2.292754
+                 EUR_micro             2.865943
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry      -4.785697
+dynamic_TF_carry       5.158697
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry JPY                     -9.571393
+dynamic_TF_carry CRUDE_W_micro           -0.764251
+                 EUR_micro                    -0.0
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry         -9.571393
+dynamic_TF_carry         -0.764251
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry JPY                                    0
+dynamic_TF_carry CRUDE_W_micro                          0
+                 EUR_micro                              0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -87,11 +112,12 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry JPY                      -7.178545
+dynamic_TF_carry CRUDE_W_micro                  0.0
+                 EUR_micro                 1.432971
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry          -7.178545
+dynamic_TF_carry           1.432971
 
 ********************************************************************************
                                  END OF REPORT                                  
