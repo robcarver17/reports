@@ -1,53 +1,56 @@
 
 ********************************************************************************
-Trades report produced on 27/11/2025 22:51 from 26/11/2025 22:51 to 27/11/2025 22:51
+Trades report produced on 28/11/2025 22:51 from 27/11/2025 22:51 to 28/11/2025 22:51
 ********************************************************************************
 
 
 
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
+=================================================================================================
+                                          Broker orders                                          
+=================================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-35353         BITCOIN  dynamic_TF_carry    [20251200] 2025-11-27 15:00:11  [-1]  91235.000000
-35350           CAD10  dynamic_TF_carry    [20260300] 2025-11-27 14:00:14   [1]    123.140000
-35348             DAX  dynamic_TF_carry    [20251200] 2025-11-27 08:00:09   [1]  23769.000000
-35351             GBP  dynamic_TF_carry    [20251200] 2025-11-27 15:00:05   [1]      1.323400
-35354             JPY  dynamic_TF_carry    [20251200] 2025-11-27 15:00:21   [1]      0.006407
-35347          NIKKEI  dynamic_TF_carry    [20260300] 2025-11-27 02:02:06  [-1]  50265.000000
-35349          SILVER  dynamic_TF_carry    [20260300] 2025-11-27 14:00:13   [1]     53.535000
-35352     SP500_micro  dynamic_TF_carry    [20251200] 2025-11-27 15:00:09   [1]   6827.500000
-
-
-=============================================================================================================================================================
-                                                                           Delays                                                                            
-=============================================================================================================================================================
-
-      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-35347          NIKKEI  dynamic_TF_carry       2025-11-26 00:00:00  2025-11-27 02:02:05.499000  2025-11-27 02:02:06              93725.499               0.501
-35348             DAX  dynamic_TF_carry       2025-11-26 00:00:00  2025-11-27 08:00:08.124000  2025-11-27 08:00:09             115208.124               0.876
-35349          SILVER  dynamic_TF_carry       2025-11-26 00:00:00  2025-11-27 14:00:11.007000  2025-11-27 14:00:13             136811.007               1.993
-35350           CAD10  dynamic_TF_carry       2025-11-26 00:00:00  2025-11-27 14:00:14.274000  2025-11-27 14:00:14             136814.274                 NaN
-35351             GBP  dynamic_TF_carry       2025-11-26 00:00:00  2025-11-27 15:00:03.818000  2025-11-27 15:00:05             140403.818               1.182
-35352     SP500_micro  dynamic_TF_carry       2025-11-26 00:00:00  2025-11-27 15:00:06.864000  2025-11-27 15:00:09             140406.864               2.136
-35353         BITCOIN  dynamic_TF_carry       2025-11-26 00:00:00  2025-11-27 15:00:10.879000  2025-11-27 15:00:11             140410.879               0.121
-35354             JPY  dynamic_TF_carry       2025-11-26 00:00:00  2025-11-27 15:00:12.564000  2025-11-27 15:00:21             140412.564               8.436
+      instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
+35358           CAD10  dynamic_TF_carry    [20260300] 2025-11-28 14:04:24.000   [1]        122.98
+35357      FTSETAIWAN  dynamic_TF_carry    [20251200] 2025-11-28 02:02:31.000   [1]       2269.00
+35355      KOSPI_mini  dynamic_TF_carry    [20251200] 2025-11-28 02:00:32.000  [-1]        558.92
+35359     SP500_micro  dynamic_TF_carry    [20251200] 2025-11-28 15:00:03.000   [1]       6839.00
+35356           TOPIX  dynamic_TF_carry    [20251200] 2025-11-28 02:02:29.000  [-1]       3371.50
+35360           WHEAT  dynamic_TF_carry    [20261200] 2025-11-28 19:30:02.073   [0]           NaN
+35361           WHEAT  dynamic_TF_carry    [20261200] 2025-11-28 19:30:02.097   [0]           NaN
+35362           WHEAT  dynamic_TF_carry    [20261200] 2025-11-28 19:30:02.123   [0]           NaN
+35363           WHEAT  dynamic_TF_carry    [20261200] 2025-11-28 16:05:35.000  [-1]        585.50
 
 
-==============================================================================================================================================================================================================================
-                                                                                                   Slippage (ticks per lot)                                                                                                   
-==============================================================================================================================================================================================================================
+====================================================================================================================================================================
+                                                                               Delays                                                                               
+====================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay bid_ask execution versus_limit versus_parent_limit total_trading
-35347          NIKKEI  dynamic_TF_carry  [-1]                49600.0               None   50270.0    50265.0       50275.0     50275.0      50265.0     670.0    -5.0      -0.0        -10.0                 NaN          -5.0
-35348             DAX  dynamic_TF_carry   [1]                23740.0               None   23767.0    23768.0       23766.0     23766.0      23769.0     -27.0    -1.0      -1.0         -3.0                 NaN          -2.0
-35349          SILVER  dynamic_TF_carry   [1]                 53.755               None     53.54     53.545        53.535      53.535       53.535     0.215  -0.005      0.01          0.0                 NaN         0.005
-35350           CAD10  dynamic_TF_carry   [1]                 123.11               None   123.145     123.15        123.14      123.14       123.14    -0.035  -0.005      0.01          0.0                 NaN         0.005
-35351             GBP  dynamic_TF_carry   [1]                 1.3239               None    1.3233     1.3234        1.3232      1.3232       1.3234    0.0006 -0.0001       0.0      -0.0002                 NaN       -0.0001
-35352     SP500_micro  dynamic_TF_carry   [1]                6838.75               None  6827.625    6827.75        6827.5      6827.5       6827.5    11.125  -0.125      0.25          0.0                 NaN         0.125
-35353         BITCOIN  dynamic_TF_carry  [-1]                90065.0               None   91257.5    91240.0       91275.0     91275.0      91235.0    1192.5   -17.5      -5.0        -40.0                 NaN         -22.5
-35354             JPY  dynamic_TF_carry   [1]               0.006404               None  0.006407   0.006407      0.006406    0.006406     0.006407 -0.000003    -0.0       0.0    -0.000001                 NaN          -0.0
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
+35355      KOSPI_mini  dynamic_TF_carry       2025-11-27 00:00:00  2025-11-28 02:00:31.537000         2025-11-28 02:00:32              93631.537               0.463
+35356           TOPIX  dynamic_TF_carry       2025-11-27 00:00:00  2025-11-28 02:02:08.209000         2025-11-28 02:02:29              93728.209              20.791
+35357      FTSETAIWAN  dynamic_TF_carry       2025-11-27 00:00:00  2025-11-28 02:02:30.005000         2025-11-28 02:02:31              93750.005               0.995
+35358           CAD10  dynamic_TF_carry       2025-11-27 00:00:00  2025-11-28 14:00:07.004000         2025-11-28 14:04:24             136807.004             256.996
+35359     SP500_micro  dynamic_TF_carry       2025-11-26 00:00:00  2025-11-28 15:00:03.004000         2025-11-28 15:00:03             226803.004                 NaN
+35360           WHEAT  dynamic_TF_carry       2025-11-26 00:00:00  2025-11-28 15:30:01.604000  2025-11-28 19:30:02.073000             228601.604           14400.469
+35361           WHEAT  dynamic_TF_carry       2025-11-26 00:00:00  2025-11-28 15:40:07.089000  2025-11-28 19:30:02.097000             229207.089           13795.008
+35362           WHEAT  dynamic_TF_carry       2025-11-26 00:00:00  2025-11-28 15:50:11.951000  2025-11-28 19:30:02.123000             229811.951           13190.172
+35363           WHEAT  dynamic_TF_carry       2025-11-26 00:00:00  2025-11-28 16:00:17.059000         2025-11-28 16:05:35             230417.059             317.941
+
+
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+35355      KOSPI_mini  dynamic_TF_carry  [-1]                 563.48               None     558.9     558.88        558.92      558.92       558.92  -4.58   -0.02      0.04         -0.0                 NaN          0.02
+35356           TOPIX  dynamic_TF_carry  [-1]                3368.75               None   3371.75     3371.5        3372.0      3372.0       3371.5    3.0   -0.25      -0.0         -0.5                 NaN         -0.25
+35357      FTSETAIWAN  dynamic_TF_carry   [1]                 2261.5               None  2269.125    2269.25        2269.0      2269.0       2269.0 -7.625  -0.125      0.25          0.0                 NaN         0.125
+35358           CAD10  dynamic_TF_carry   [1]                 123.14               None   122.895      122.9        122.89      122.89       122.98  0.245  -0.005     -0.08        -0.09                 NaN        -0.085
+35359     SP500_micro  dynamic_TF_carry   [1]                 6828.0               None   6838.75     6839.0        6838.5      6838.5       6839.0 -10.75   -0.25       0.0         -0.5                 NaN         -0.25
+35360           WHEAT  dynamic_TF_carry  [-1]                  586.5               None     584.0     583.75        584.25      584.25          NaN   -2.5   -0.25       NaN          NaN                 NaN           NaN
+35361           WHEAT  dynamic_TF_carry  [-1]                  586.5               None     585.0     584.75        585.25      585.25          NaN   -1.5   -0.25       NaN          NaN                 NaN           NaN
+35362           WHEAT  dynamic_TF_carry  [-1]                  586.5               None   585.125     584.75         585.5         NaN          NaN -1.375  -0.375       NaN          NaN                 NaN           NaN
+35363           WHEAT  dynamic_TF_carry  [-1]                  586.5               None   585.875      585.5        586.25      586.25        585.5 -0.625  -0.375      -0.0        -0.75                 NaN        -0.375
 
 
 ==============================================================================================================================================================
@@ -55,14 +58,15 @@ Trades report produced on 27/11/2025 22:51 from 26/11/2025 22:51 to 27/11/2025 2
 ==============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-35347          NIKKEI  dynamic_TF_carry  [-1]    12144.174112   551.70487   -4.117201          -0.0        -8.234401                     NaN         -4.117201
-35348             DAX  dynamic_TF_carry   [1]     3438.864801  -78.514282   -2.907936     -2.907936        -8.723809                     NaN         -5.815873
-35349          SILVER  dynamic_TF_carry   [1]       16.426884  130.883012   -3.043791      6.087582              0.0                     NaN          3.043791
-35350           CAD10  dynamic_TF_carry   [1]         5.46404  -64.055167   -9.150738     18.301476              0.0                     NaN          9.150738
-35351             GBP  dynamic_TF_carry   [1]        0.081411   73.700228  -12.283371           0.0       -24.566743                     NaN        -12.283371
-35352     SP500_micro  dynamic_TF_carry   [1]      959.449456  115.951913    -1.30283      2.605661              0.0                     NaN           1.30283
-35353         BITCOIN  dynamic_TF_carry  [-1]    44443.609744  268.317539   -3.937574     -1.125021        -9.000169                     NaN         -5.062595
-35354             JPY  dynamic_TF_carry   [1]        0.000561  -49.008373   -4.455307           0.0        -8.910613                     NaN         -4.455307
+35355      KOSPI_mini  dynamic_TF_carry  [-1]      165.242573 -277.168281   -1.210342      2.420684             -0.0                     NaN          1.210342
+35356           TOPIX  dynamic_TF_carry  [-1]      557.474431   53.814127   -4.484511          -0.0        -8.969021                     NaN         -4.484511
+35357      FTSETAIWAN  dynamic_TF_carry   [1]      491.501814 -155.136762   -2.543226      5.086451              0.0                     NaN          2.543226
+35358           CAD10  dynamic_TF_carry   [1]        5.423975  451.698234   -9.218331   -147.493301      -165.929963                     NaN       -156.711632
+35359     SP500_micro  dynamic_TF_carry   [1]      960.278053 -111.946743   -2.603413           0.0        -5.206825                     NaN         -2.603413
+35360           WHEAT  dynamic_TF_carry  [-1]      121.483715   -205.7889   -20.57889           NaN              NaN                     NaN               NaN
+35361           WHEAT  dynamic_TF_carry  [-1]      121.483715  -123.47334   -20.57889           NaN              NaN                     NaN               NaN
+35362           WHEAT  dynamic_TF_carry  [-1]      121.483715 -113.183895  -30.868335           NaN              NaN                     NaN               NaN
+35363           WHEAT  dynamic_TF_carry  [-1]      121.483715  -51.447225  -30.868335          -0.0        -61.73667                     NaN        -30.868335
 
 
 ========================================================================================================================================================================
@@ -70,86 +74,77 @@ Trades report produced on 27/11/2025 22:51 from 26/11/2025 22:51 to 27/11/2025 2
 ========================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-35347          NIKKEI  dynamic_TF_carry  [-1]             0.483613  324.020699    -2.418065           -0.0          -4.83613                      NaN          -2.418065
-35348             DAX  dynamic_TF_carry   [1]              0.87536   -23.63471     -0.87536       -0.87536         -2.626079                      NaN          -1.750719
-35349          SILVER  dynamic_TF_carry   [1]           755.098805  162.346243    -3.775494       7.550988               0.0                      NaN           3.775494
-35350           CAD10  dynamic_TF_carry   [1]           538.017011  -18.830595    -2.690085        5.38017               0.0                      NaN           2.690085
-35351             GBP  dynamic_TF_carry   [1]         47193.675292   28.316205    -4.719368            0.0         -9.438735                      NaN          -4.719368
-35352     SP500_micro  dynamic_TF_carry   [1]             3.775494   42.002371    -0.471937       0.943874               0.0                      NaN           0.471937
-35353         BITCOIN  dynamic_TF_carry  [-1]              0.07551   90.045532    -1.321423      -0.377549         -3.020395                      NaN          -1.698972
-35354             JPY  dynamic_TF_carry   [1]       9438735.058482  -25.956521    -2.359684            0.0         -4.719368                      NaN          -2.359684
+35355      KOSPI_mini  dynamic_TF_carry  [-1]            25.591847 -117.210659    -0.511837       1.023674              -0.0                      NaN           0.511837
+35356           TOPIX  dynamic_TF_carry  [-1]             4.838465   14.515395    -1.209616           -0.0         -2.419233                      NaN          -1.209616
+35357      FTSETAIWAN  dynamic_TF_carry   [1]            30.263825 -230.761665    -3.782978       7.565956               0.0                      NaN           3.782978
+35358           CAD10  dynamic_TF_carry   [1]           538.941431  132.040651    -2.694707     -43.115314        -48.504729                      NaN         -45.810022
+35359     SP500_micro  dynamic_TF_carry   [1]             3.782978  -40.667015    -0.945745            0.0         -1.891489                      NaN          -0.945745
+35360           WHEAT  dynamic_TF_carry  [-1]            37.829781  -94.574453    -9.457445            NaN               NaN                      NaN                NaN
+35361           WHEAT  dynamic_TF_carry  [-1]            37.829781  -56.744672    -9.457445            NaN               NaN                      NaN                NaN
+35362           WHEAT  dynamic_TF_carry  [-1]            37.829781  -52.015949   -14.186168            NaN               NaN                      NaN                NaN
+35363           WHEAT  dynamic_TF_carry  [-1]            37.829781  -23.643613   -14.186168           -0.0        -28.372336                      NaN         -14.186168
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry BITCOIN           90.045532
-                 CAD10            -18.830595
-                 DAX               -23.63471
-                 GBP               28.316205
-                 JPY              -25.956521
-                 NIKKEI           324.020699
-                 SILVER           162.346243
-                 SP500_micro       42.002371
+dynamic_TF_carry CAD10            132.040651
+                 FTSETAIWAN      -230.761665
+                 KOSPI_mini      -117.210659
+                 SP500_micro      -40.667015
+                 TOPIX             14.515395
+                 WHEAT           -226.978687
 delay_cash Total Sum
                   delay_cash
 strategy_name               
-dynamic_TF_carry  578.309224
+dynamic_TF_carry -469.061979
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry BITCOIN            -1.321423
-                 CAD10              -2.690085
-                 DAX                 -0.87536
-                 GBP                -4.719368
-                 JPY                -2.359684
-                 NIKKEI             -2.418065
-                 SILVER             -3.775494
-                 SP500_micro        -0.471937
+dynamic_TF_carry CAD10              -2.694707
+                 FTSETAIWAN         -3.782978
+                 KOSPI_mini         -0.511837
+                 SP500_micro        -0.945745
+                 TOPIX              -1.209616
+                 WHEAT             -47.287226
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry   -18.631415
+dynamic_TF_carry   -56.432109
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry BITCOIN              -0.377549
-                 CAD10                  5.38017
-                 DAX                   -0.87536
-                 GBP                        0.0
-                 JPY                        0.0
-                 NIKKEI                    -0.0
-                 SILVER                7.550988
-                 SP500_micro           0.943874
+dynamic_TF_carry CAD10               -43.115314
+                 FTSETAIWAN            7.565956
+                 KOSPI_mini            1.023674
+                 SP500_micro                0.0
+                 TOPIX                     -0.0
+                 WHEAT                     -0.0
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry      12.622123
+dynamic_TF_carry     -34.525684
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry BITCOIN                 -3.020395
-                 CAD10                         0.0
-                 DAX                     -2.626079
-                 GBP                     -9.438735
-                 JPY                     -4.719368
-                 NIKKEI                   -4.83613
-                 SILVER                        0.0
-                 SP500_micro                   0.0
+dynamic_TF_carry CAD10                  -48.504729
+                 FTSETAIWAN                    0.0
+                 KOSPI_mini                   -0.0
+                 SP500_micro             -1.891489
+                 TOPIX                   -2.419233
+                 WHEAT                  -28.372336
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry        -24.640706
+dynamic_TF_carry        -81.187786
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry BITCOIN                                0
-                 CAD10                                  0
-                 DAX                                    0
-                 GBP                                    0
-                 JPY                                    0
-                 NIKKEI                                 0
-                 SILVER                                 0
+dynamic_TF_carry CAD10                                  0
+                 FTSETAIWAN                             0
+                 KOSPI_mini                             0
                  SP500_micro                            0
+                 TOPIX                                  0
+                 WHEAT                                  0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -157,18 +152,16 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry BITCOIN                  -1.698972
-                 CAD10                     2.690085
-                 DAX                      -1.750719
-                 GBP                      -4.719368
-                 JPY                      -2.359684
-                 NIKKEI                   -2.418065
-                 SILVER                    3.775494
-                 SP500_micro               0.471937
+dynamic_TF_carry CAD10                   -45.810022
+                 FTSETAIWAN                3.782978
+                 KOSPI_mini                0.511837
+                 SP500_micro              -0.945745
+                 TOPIX                    -1.209616
+                 WHEAT                   -14.186168
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry          -6.009292
+dynamic_TF_carry         -57.856735
 
 ********************************************************************************
                                  END OF REPORT                                  
