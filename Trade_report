@@ -1,56 +1,74 @@
 
 ********************************************************************************
-Trades report produced on 28/11/2025 22:51 from 27/11/2025 22:51 to 28/11/2025 22:51
+Trades report produced on 01/12/2025 22:51 from 30/11/2025 22:51 to 01/12/2025 22:51
 ********************************************************************************
 
 
 
-=================================================================================================
-                                          Broker orders                                          
-=================================================================================================
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
 
-      instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
-35358           CAD10  dynamic_TF_carry    [20260300] 2025-11-28 14:04:24.000   [1]        122.98
-35357      FTSETAIWAN  dynamic_TF_carry    [20251200] 2025-11-28 02:02:31.000   [1]       2269.00
-35355      KOSPI_mini  dynamic_TF_carry    [20251200] 2025-11-28 02:00:32.000  [-1]        558.92
-35359     SP500_micro  dynamic_TF_carry    [20251200] 2025-11-28 15:00:03.000   [1]       6839.00
-35356           TOPIX  dynamic_TF_carry    [20251200] 2025-11-28 02:02:29.000  [-1]       3371.50
-35360           WHEAT  dynamic_TF_carry    [20261200] 2025-11-28 19:30:02.073   [0]           NaN
-35361           WHEAT  dynamic_TF_carry    [20261200] 2025-11-28 19:30:02.097   [0]           NaN
-35362           WHEAT  dynamic_TF_carry    [20261200] 2025-11-28 19:30:02.123   [0]           NaN
-35363           WHEAT  dynamic_TF_carry    [20261200] 2025-11-28 16:05:35.000  [-1]        585.50
-
-
-====================================================================================================================================================================
-                                                                               Delays                                                                               
-====================================================================================================================================================================
-
-      instrument_code     strategy_name parent_reference_datetime             submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
-35355      KOSPI_mini  dynamic_TF_carry       2025-11-27 00:00:00  2025-11-28 02:00:31.537000         2025-11-28 02:00:32              93631.537               0.463
-35356           TOPIX  dynamic_TF_carry       2025-11-27 00:00:00  2025-11-28 02:02:08.209000         2025-11-28 02:02:29              93728.209              20.791
-35357      FTSETAIWAN  dynamic_TF_carry       2025-11-27 00:00:00  2025-11-28 02:02:30.005000         2025-11-28 02:02:31              93750.005               0.995
-35358           CAD10  dynamic_TF_carry       2025-11-27 00:00:00  2025-11-28 14:00:07.004000         2025-11-28 14:04:24             136807.004             256.996
-35359     SP500_micro  dynamic_TF_carry       2025-11-26 00:00:00  2025-11-28 15:00:03.004000         2025-11-28 15:00:03             226803.004                 NaN
-35360           WHEAT  dynamic_TF_carry       2025-11-26 00:00:00  2025-11-28 15:30:01.604000  2025-11-28 19:30:02.073000             228601.604           14400.469
-35361           WHEAT  dynamic_TF_carry       2025-11-26 00:00:00  2025-11-28 15:40:07.089000  2025-11-28 19:30:02.097000             229207.089           13795.008
-35362           WHEAT  dynamic_TF_carry       2025-11-26 00:00:00  2025-11-28 15:50:11.951000  2025-11-28 19:30:02.123000             229811.951           13190.172
-35363           WHEAT  dynamic_TF_carry       2025-11-26 00:00:00  2025-11-28 16:00:17.059000         2025-11-28 16:05:35             230417.059             317.941
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+35366             AEX  dynamic_TF_carry    [20251200] 2025-12-01 08:00:05   [1]     943.70000
+35376       AUD_micro  dynamic_TF_carry    [20251200] 2025-12-01 15:02:10  [-1]       0.65640
+35377       AUD_micro  dynamic_TF_carry    [20251200] 2025-12-01 15:02:32  [-1]       0.65640
+35378       AUD_micro  dynamic_TF_carry    [20251200] 2025-12-01 15:02:40  [-1]       0.65640
+35374       AUD_micro  dynamic_TF_carry    [20251200] 2025-12-01 15:01:02  [-1]       0.65640
+35373             BRE  dynamic_TF_carry    [20260100] 2025-12-01 15:00:42   [1]       0.18610
+35368             DAX  dynamic_TF_carry    [20251200] 2025-12-01 08:00:14  [-1]   23780.00000
+35364      FTSETAIWAN  dynamic_TF_carry    [20251200] 2025-12-01 02:02:08  [-1]    2273.00000
+35370             GBP  dynamic_TF_carry    [20251200] 2025-12-01 15:00:05   [1]       1.32530
+35372             MXP  dynamic_TF_carry    [20251200] 2025-12-01 15:00:22   [1]       0.05469
+35369             OAT  dynamic_TF_carry    [20251200] 2025-12-01 08:00:20  [-1]     122.54000
+35367             OAT  dynamic_TF_carry    [20251200] 2025-12-01 08:00:08  [-1]     122.55000
+35371         RUSSELL  dynamic_TF_carry    [20260300] 2025-12-01 15:00:07   [1]    2514.40000
+35375         RUSSELL  dynamic_TF_carry    [20260300] 2025-12-01 15:02:09   [1]    2510.40000
+35365           TOPIX  dynamic_TF_carry    [20251200] 2025-12-01 02:02:10   [1]    3347.25000
 
 
-===========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                  
-===========================================================================================================================================================================================================================
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
-35355      KOSPI_mini  dynamic_TF_carry  [-1]                 563.48               None     558.9     558.88        558.92      558.92       558.92  -4.58   -0.02      0.04         -0.0                 NaN          0.02
-35356           TOPIX  dynamic_TF_carry  [-1]                3368.75               None   3371.75     3371.5        3372.0      3372.0       3371.5    3.0   -0.25      -0.0         -0.5                 NaN         -0.25
-35357      FTSETAIWAN  dynamic_TF_carry   [1]                 2261.5               None  2269.125    2269.25        2269.0      2269.0       2269.0 -7.625  -0.125      0.25          0.0                 NaN         0.125
-35358           CAD10  dynamic_TF_carry   [1]                 123.14               None   122.895      122.9        122.89      122.89       122.98  0.245  -0.005     -0.08        -0.09                 NaN        -0.085
-35359     SP500_micro  dynamic_TF_carry   [1]                 6828.0               None   6838.75     6839.0        6838.5      6838.5       6839.0 -10.75   -0.25       0.0         -0.5                 NaN         -0.25
-35360           WHEAT  dynamic_TF_carry  [-1]                  586.5               None     584.0     583.75        584.25      584.25          NaN   -2.5   -0.25       NaN          NaN                 NaN           NaN
-35361           WHEAT  dynamic_TF_carry  [-1]                  586.5               None     585.0     584.75        585.25      585.25          NaN   -1.5   -0.25       NaN          NaN                 NaN           NaN
-35362           WHEAT  dynamic_TF_carry  [-1]                  586.5               None   585.125     584.75         585.5         NaN          NaN -1.375  -0.375       NaN          NaN                 NaN           NaN
-35363           WHEAT  dynamic_TF_carry  [-1]                  586.5               None   585.875      585.5        586.25      586.25        585.5 -0.625  -0.375      -0.0        -0.75                 NaN        -0.375
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+35364      FTSETAIWAN  dynamic_TF_carry       2025-11-28 00:00:00  2025-12-01 02:02:06.963000  2025-12-01 02:02:08             266526.963               1.037
+35365           TOPIX  dynamic_TF_carry       2025-11-28 00:00:00  2025-12-01 02:02:09.179000  2025-12-01 02:02:10             266529.179               0.821
+35366             AEX  dynamic_TF_carry       2025-11-28 00:00:00  2025-12-01 08:00:05.039000  2025-12-01 08:00:05             288005.039                 NaN
+35368             DAX  dynamic_TF_carry       2025-11-28 00:00:00  2025-12-01 08:00:14.013000  2025-12-01 08:00:14             288014.013                 NaN
+35369             OAT  dynamic_TF_carry       2025-11-28 16:00:00  2025-12-01 08:00:15.113000  2025-12-01 08:00:20             230415.113               4.887
+35367             OAT  dynamic_TF_carry       2025-11-28 16:00:00  2025-12-01 08:00:07.043000  2025-12-01 08:00:08             230407.043               0.957
+35370             GBP  dynamic_TF_carry       2025-11-28 00:00:00  2025-12-01 15:00:04.896000  2025-12-01 15:00:05             313204.896               0.104
+35372             MXP  dynamic_TF_carry       2025-11-28 00:00:00  2025-12-01 15:00:08.995000  2025-12-01 15:00:22             313208.995              13.005
+35373             BRE  dynamic_TF_carry       2025-11-28 00:00:00  2025-12-01 15:00:23.801000  2025-12-01 15:00:42             313223.801              18.199
+35371         RUSSELL  dynamic_TF_carry       2025-11-28 00:00:00  2025-12-01 15:00:06.731000  2025-12-01 15:00:07             313206.731               0.269
+35375         RUSSELL  dynamic_TF_carry       2025-11-28 00:00:00  2025-12-01 15:02:09.370000  2025-12-01 15:02:09              313329.37                 NaN
+35376       AUD_micro  dynamic_TF_carry       2025-11-28 17:00:00  2025-12-01 15:02:10.099000  2025-12-01 15:02:10             252130.099                 NaN
+35377       AUD_micro  dynamic_TF_carry       2025-11-28 17:00:00  2025-12-01 15:02:15.669000  2025-12-01 15:02:32             252135.669              16.331
+35378       AUD_micro  dynamic_TF_carry       2025-11-28 17:00:00  2025-12-01 15:02:37.818000  2025-12-01 15:02:40             252157.818               2.182
+35374       AUD_micro  dynamic_TF_carry       2025-11-28 17:00:00  2025-12-01 15:00:44.132000  2025-12-01 15:01:02             252044.132              17.868
+
+
+================================================================================================================================================================================================================================
+                                                                                                    Slippage (ticks per lot)                                                                                                    
+================================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
+35364      FTSETAIWAN  dynamic_TF_carry  [-1]                2281.25               None  2272.875    2272.75        2273.0      2273.0       2273.0    -8.375    -0.125      0.25         -0.0                 NaN         0.125
+35365           TOPIX  dynamic_TF_carry   [1]                3377.25               None    3347.0    3347.25       3346.75     3346.75      3347.25     30.25     -0.25       0.0         -0.5                 NaN         -0.25
+35366             AEX  dynamic_TF_carry   [1]                  946.1               None    943.65      943.8         943.5       943.5        943.7      2.45     -0.15       0.1         -0.2                 NaN         -0.05
+35368             DAX  dynamic_TF_carry  [-1]                23886.0               None   23779.0    23778.0       23780.0     23780.0      23780.0    -107.0      -1.0       2.0         -0.0                 NaN           1.0
+35369             OAT  dynamic_TF_carry  [-1]                 122.82               None   122.555     122.55        122.56      122.56       122.54    -0.265    -0.005     -0.01        -0.02                 NaN        -0.015
+35367             OAT  dynamic_TF_carry  [-1]                 122.82               None   122.545     122.54        122.55      122.55       122.55    -0.275    -0.005      0.01         -0.0                 NaN         0.005
+35370             GBP  dynamic_TF_carry   [1]                 1.3236               None    1.3251     1.3252         1.325       1.325       1.3253   -0.0015   -0.0001   -0.0001      -0.0003                 NaN       -0.0002
+35372             MXP  dynamic_TF_carry   [1]                0.05457               None   0.05468    0.05469       0.05467     0.05467      0.05469  -0.00011  -0.00001       0.0     -0.00002                 NaN      -0.00001
+35373             BRE  dynamic_TF_carry   [1]                 0.1858               None  0.186025    0.18605         0.186       0.186       0.1861 -0.000225 -0.000025  -0.00005      -0.0001                 NaN     -0.000075
+35371         RUSSELL  dynamic_TF_carry   [1]                 2516.7               None   2511.65     2514.4        2508.9      2508.9       2514.4      5.05     -2.75       0.0         -5.5                 NaN         -2.75
+35375         RUSSELL  dynamic_TF_carry   [1]                 2516.7               None    2511.7     2514.5        2508.9      2508.9       2510.4       5.0      -2.8       4.1         -1.5                 NaN           1.3
+35376       AUD_micro  dynamic_TF_carry  [-1]                 0.6552               None   0.65645     0.6564        0.6565         NaN       0.6564   0.00125  -0.00005      -0.0          NaN                 NaN      -0.00005
+35377       AUD_micro  dynamic_TF_carry  [-1]                 0.6552               None   0.65645     0.6564        0.6565      0.6565       0.6564   0.00125  -0.00005      -0.0      -0.0001                 NaN      -0.00005
+35378       AUD_micro  dynamic_TF_carry  [-1]                 0.6552               None    0.6564     0.6563        0.6565      0.6565       0.6564    0.0012   -0.0001    0.0001      -0.0001                 NaN           0.0
+35374       AUD_micro  dynamic_TF_carry  [-1]                 0.6552               None    0.6564     0.6563        0.6565      0.6565       0.6564    0.0012   -0.0001    0.0001      -0.0001                 NaN           0.0
 
 
 ==============================================================================================================================================================
@@ -58,15 +76,21 @@ Trades report produced on 28/11/2025 22:51 from 27/11/2025 22:51 to 28/11/2025 2
 ==============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-35355      KOSPI_mini  dynamic_TF_carry  [-1]      165.242573 -277.168281   -1.210342      2.420684             -0.0                     NaN          1.210342
-35356           TOPIX  dynamic_TF_carry  [-1]      557.474431   53.814127   -4.484511          -0.0        -8.969021                     NaN         -4.484511
-35357      FTSETAIWAN  dynamic_TF_carry   [1]      491.501814 -155.136762   -2.543226      5.086451              0.0                     NaN          2.543226
-35358           CAD10  dynamic_TF_carry   [1]        5.423975  451.698234   -9.218331   -147.493301      -165.929963                     NaN       -156.711632
-35359     SP500_micro  dynamic_TF_carry   [1]      960.278053 -111.946743   -2.603413           0.0        -5.206825                     NaN         -2.603413
-35360           WHEAT  dynamic_TF_carry  [-1]      121.483715   -205.7889   -20.57889           NaN              NaN                     NaN               NaN
-35361           WHEAT  dynamic_TF_carry  [-1]      121.483715  -123.47334   -20.57889           NaN              NaN                     NaN               NaN
-35362           WHEAT  dynamic_TF_carry  [-1]      121.483715 -113.183895  -30.868335           NaN              NaN                     NaN               NaN
-35363           WHEAT  dynamic_TF_carry  [-1]      121.483715  -51.447225  -30.868335          -0.0        -61.73667                     NaN        -30.868335
+35364      FTSETAIWAN  dynamic_TF_carry  [-1]      484.746903 -172.770573   -2.578665      5.157331             -0.0                     NaN          2.578665
+35365           TOPIX  dynamic_TF_carry   [1]      563.210757  537.099116   -4.438836           0.0        -8.877671                     NaN         -4.438836
+35366             AEX  dynamic_TF_carry   [1]      120.968752  202.531641  -12.399896      8.266598       -16.533195                     NaN         -4.133299
+35368             DAX  dynamic_TF_carry  [-1]     3393.191546 -315.337341   -2.947078      5.894156             -0.0                     NaN          2.947078
+35369             OAT  dynamic_TF_carry  [-1]          5.2215 -507.516964   -9.575792    -19.151584       -38.303167                     NaN        -28.727375
+35367             OAT  dynamic_TF_carry  [-1]          5.2215 -526.668548   -9.575792     19.151584             -0.0                     NaN          9.575792
+35370             GBP  dynamic_TF_carry   [1]        0.079945 -187.628141  -12.508543    -12.508543       -37.525628                     NaN        -25.017085
+35372             MXP  dynamic_TF_carry   [1]        0.004183 -262.939286  -23.903571           0.0       -47.807143                     NaN        -23.903571
+35373             BRE  dynamic_TF_carry   [1]        0.017485 -128.684554  -14.298284    -28.596568       -57.193135                     NaN        -42.894851
+35371         RUSSELL  dynamic_TF_carry   [1]      546.653788   92.380225  -50.306063           0.0      -100.612126                     NaN        -50.306063
+35375         RUSSELL  dynamic_TF_carry   [1]      546.653788   91.465569  -51.220719     75.001767       -27.439671                     NaN         23.781048
+35376       AUD_micro  dynamic_TF_carry  [-1]        0.047013  265.885332  -10.635413          -0.0              NaN                     NaN        -10.635413
+35377       AUD_micro  dynamic_TF_carry  [-1]        0.047013  265.885332  -10.635413          -0.0       -21.270827                     NaN        -10.635413
+35378       AUD_micro  dynamic_TF_carry  [-1]        0.047013  255.249919  -21.270827     21.270827       -21.270827                     NaN               0.0
+35374       AUD_micro  dynamic_TF_carry  [-1]        0.047013  255.249919  -21.270827     21.270827       -21.270827                     NaN               0.0
 
 
 ========================================================================================================================================================================
@@ -74,77 +98,103 @@ Trades report produced on 28/11/2025 22:51 from 27/11/2025 22:51 to 28/11/2025 2
 ========================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-35355      KOSPI_mini  dynamic_TF_carry  [-1]            25.591847 -117.210659    -0.511837       1.023674              -0.0                      NaN           0.511837
-35356           TOPIX  dynamic_TF_carry  [-1]             4.838465   14.515395    -1.209616           -0.0         -2.419233                      NaN          -1.209616
-35357      FTSETAIWAN  dynamic_TF_carry   [1]            30.263825 -230.761665    -3.782978       7.565956               0.0                      NaN           3.782978
-35358           CAD10  dynamic_TF_carry   [1]           538.941431  132.040651    -2.694707     -43.115314        -48.504729                      NaN         -45.810022
-35359     SP500_micro  dynamic_TF_carry   [1]             3.782978  -40.667015    -0.945745            0.0         -1.891489                      NaN          -0.945745
-35360           WHEAT  dynamic_TF_carry  [-1]            37.829781  -94.574453    -9.457445            NaN               NaN                      NaN                NaN
-35361           WHEAT  dynamic_TF_carry  [-1]            37.829781  -56.744672    -9.457445            NaN               NaN                      NaN                NaN
-35362           WHEAT  dynamic_TF_carry  [-1]            37.829781  -52.015949   -14.186168            NaN               NaN                      NaN                NaN
-35363           WHEAT  dynamic_TF_carry  [-1]            37.829781  -23.643613   -14.186168           -0.0        -28.372336                      NaN         -14.186168
+35364      FTSETAIWAN  dynamic_TF_carry  [-1]            30.256728   -253.4001    -3.782091       7.564182              -0.0                      NaN           3.782091
+35365           TOPIX  dynamic_TF_carry   [1]             4.863206  147.111984    -1.215802            0.0         -2.431603                      NaN          -1.215802
+35366             AEX  dynamic_TF_carry   [1]           175.464819  429.888807   -26.319723      17.546482        -35.092964                      NaN          -8.773241
+35368             DAX  dynamic_TF_carry  [-1]             0.877324  -93.873678    -0.877324       1.754648              -0.0                      NaN           0.877324
+35369             OAT  dynamic_TF_carry  [-1]           877.324095 -232.490885     -4.38662      -8.773241        -17.546482                      NaN         -13.159861
+35367             OAT  dynamic_TF_carry  [-1]           877.324095 -241.264126     -4.38662       8.773241              -0.0                      NaN            4.38662
+35370             GBP  dynamic_TF_carry   [1]         47276.138031  -70.914207    -4.727614      -4.727614        -14.182841                      NaN          -9.455228
+35372             MXP  dynamic_TF_carry   [1]         378209.10425  -41.603001    -3.782091            0.0         -7.564182                      NaN          -3.782091
+35373             BRE  dynamic_TF_carry   [1]          75641.82085   -17.01941    -1.891046      -3.782091         -7.564182                      NaN          -5.673137
+35371         RUSSELL  dynamic_TF_carry   [1]             3.782091    19.09956    -10.40075            0.0        -20.801501                      NaN          -10.40075
+35375         RUSSELL  dynamic_TF_carry   [1]             3.782091   18.910455   -10.589855      15.506573         -5.673137                      NaN           4.916718
+35376       AUD_micro  dynamic_TF_carry  [-1]          7564.182085    9.455228    -0.378209           -0.0               NaN                      NaN          -0.378209
+35377       AUD_micro  dynamic_TF_carry  [-1]          7564.182085    9.455228    -0.378209           -0.0         -0.756418                      NaN          -0.378209
+35378       AUD_micro  dynamic_TF_carry  [-1]          7564.182085    9.077019    -0.756418       0.756418         -0.756418                      NaN                0.0
+35374       AUD_micro  dynamic_TF_carry  [-1]          7564.182085    9.077019    -0.756418       0.756418         -0.756418                      NaN                0.0
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry CAD10            132.040651
-                 FTSETAIWAN      -230.761665
-                 KOSPI_mini      -117.210659
-                 SP500_micro      -40.667015
-                 TOPIX             14.515395
-                 WHEAT           -226.978687
+dynamic_TF_carry AEX              429.888807
+                 AUD_micro         37.064492
+                 BRE               -17.01941
+                 DAX              -93.873678
+                 FTSETAIWAN        -253.4001
+                 GBP              -70.914207
+                 MXP              -41.603001
+                 OAT             -473.755011
+                 RUSSELL           38.010015
+                 TOPIX            147.111984
 delay_cash Total Sum
-                  delay_cash
-strategy_name               
-dynamic_TF_carry -469.061979
+                 delay_cash
+strategy_name              
+dynamic_TF_carry -298.49011
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry CAD10              -2.694707
-                 FTSETAIWAN         -3.782978
-                 KOSPI_mini         -0.511837
-                 SP500_micro        -0.945745
-                 TOPIX              -1.209616
-                 WHEAT             -47.287226
+dynamic_TF_carry AEX               -26.319723
+                 AUD_micro          -2.269255
+                 BRE                -1.891046
+                 DAX                -0.877324
+                 FTSETAIWAN         -3.782091
+                 GBP                -4.727614
+                 MXP                -3.782091
+                 OAT                -8.773241
+                 RUSSELL           -20.990605
+                 TOPIX              -1.215802
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry   -56.432109
+dynamic_TF_carry   -74.628791
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry CAD10               -43.115314
-                 FTSETAIWAN            7.565956
-                 KOSPI_mini            1.023674
-                 SP500_micro                0.0
-                 TOPIX                     -0.0
-                 WHEAT                     -0.0
+dynamic_TF_carry AEX                  17.546482
+                 AUD_micro             1.512836
+                 BRE                  -3.782091
+                 DAX                   1.754648
+                 FTSETAIWAN            7.564182
+                 GBP                  -4.727614
+                 MXP                        0.0
+                 OAT                        0.0
+                 RUSSELL              15.506573
+                 TOPIX                      0.0
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry     -34.525684
+dynamic_TF_carry      35.375017
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry CAD10                  -48.504729
-                 FTSETAIWAN                    0.0
-                 KOSPI_mini                   -0.0
-                 SP500_micro             -1.891489
-                 TOPIX                   -2.419233
-                 WHEAT                  -28.372336
+dynamic_TF_carry AEX                    -35.092964
+                 AUD_micro               -2.269255
+                 BRE                     -7.564182
+                 DAX                          -0.0
+                 FTSETAIWAN                   -0.0
+                 GBP                    -14.182841
+                 MXP                     -7.564182
+                 OAT                    -17.546482
+                 RUSSELL                -26.474637
+                 TOPIX                   -2.431603
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry        -81.187786
+dynamic_TF_carry       -113.126146
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry CAD10                                  0
+dynamic_TF_carry AEX                                    0
+                 AUD_micro                              0
+                 BRE                                    0
+                 DAX                                    0
                  FTSETAIWAN                             0
-                 KOSPI_mini                             0
-                 SP500_micro                            0
+                 GBP                                    0
+                 MXP                                    0
+                 OAT                                    0
+                 RUSSELL                                0
                  TOPIX                                  0
-                 WHEAT                                  0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -152,16 +202,20 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry CAD10                   -45.810022
-                 FTSETAIWAN                3.782978
-                 KOSPI_mini                0.511837
-                 SP500_micro              -0.945745
-                 TOPIX                    -1.209616
-                 WHEAT                   -14.186168
+dynamic_TF_carry AEX                      -8.773241
+                 AUD_micro                -0.756418
+                 BRE                      -5.673137
+                 DAX                       0.877324
+                 FTSETAIWAN                3.782091
+                 GBP                      -9.455228
+                 MXP                      -3.782091
+                 OAT                      -8.773241
+                 RUSSELL                  -5.484032
+                 TOPIX                    -1.215802
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry         -57.856735
+dynamic_TF_carry         -39.253774
 
 ********************************************************************************
                                  END OF REPORT                                  
