@@ -1,16 +1,23 @@
 
 ********************************************************************************
-Trades report produced on 02/12/2025 22:51 from 01/12/2025 22:51 to 02/12/2025 22:51
+Trades report produced on 03/12/2025 22:51 from 02/12/2025 22:51 to 03/12/2025 22:51
 ********************************************************************************
 
 
 
-============================================================================================
-                                       Broker orders                                        
-============================================================================================
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
-35379       EUR_micro  dynamic_TF_carry    [20260300] 2025-12-02 15:00:52  [1]        1.1679
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+35386       AUD_micro  dynamic_TF_carry    [20260300] 2025-12-03 15:00:45   [1]       0.65880
+35382           CAD10  dynamic_TF_carry    [20260300] 2025-12-03 14:04:26  [-1]     122.31000
+35383           CAD10  dynamic_TF_carry    [20260300] 2025-12-03 14:05:24  [-1]     122.32000
+35384       EUR_micro  dynamic_TF_carry    [20260300] 2025-12-03 15:00:06   [1]       1.17230
+35380      FTSECHINAA  dynamic_TF_carry    [20260100] 2025-12-03 02:02:06   [1]   15107.00000
+35387         RUSSELL  dynamic_TF_carry    [20260300] 2025-12-03 15:00:47   [1]    2503.40000
+35381          SILVER  dynamic_TF_carry    [20260300] 2025-12-03 14:00:08   [1]      59.58500
+35385           US10U  dynamic_TF_carry    [20260300] 2025-12-03 15:00:08   [1]     115.78125
 
 
 =============================================================================================================================================================
@@ -18,15 +25,29 @@ Trades report produced on 02/12/2025 22:51 from 01/12/2025 22:51 to 02/12/2025 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-35379       EUR_micro  dynamic_TF_carry       2025-12-01 00:00:00  2025-12-02 15:00:04.629000  2025-12-02 15:00:52             140404.629              47.371
+35380      FTSECHINAA  dynamic_TF_carry       2025-12-02 00:00:00  2025-12-03 02:02:05.797000  2025-12-03 02:02:06              93725.797               0.203
+35381          SILVER  dynamic_TF_carry       2025-12-02 00:00:00  2025-12-03 14:00:07.889000  2025-12-03 14:00:08             136807.889               0.111
+35382           CAD10  dynamic_TF_carry       2025-12-02 00:00:00  2025-12-03 14:00:09.180000  2025-12-03 14:04:26              136809.18              256.82
+35383           CAD10  dynamic_TF_carry       2025-12-02 00:00:00  2025-12-03 14:05:15.381000  2025-12-03 14:05:24             137115.381               8.619
+35384       EUR_micro  dynamic_TF_carry       2025-12-02 00:00:00  2025-12-03 15:00:05.294000  2025-12-03 15:00:06             140405.294               0.706
+35385           US10U  dynamic_TF_carry       2025-12-02 00:00:00  2025-12-03 15:00:07.848000  2025-12-03 15:00:08             140407.848               0.152
+35386       AUD_micro  dynamic_TF_carry       2025-12-02 00:00:00  2025-12-03 15:00:09.931000  2025-12-03 15:00:45             140409.931              35.069
+35387         RUSSELL  dynamic_TF_carry       2025-12-02 00:00:00  2025-12-03 15:00:47.372000  2025-12-03 15:00:47             140447.372                 NaN
 
 
-==============================================================================================================================================================================================================================
-                                                                                                   Slippage (ticks per lot)                                                                                                   
-==============================================================================================================================================================================================================================
+=================================================================================================================================================================================================================================
+                                                                                                    Slippage (ticks per lot)                                                                                                     
+=================================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
-35379       EUR_micro  dynamic_TF_carry   [1]                 1.1672               None   1.16795      1.168        1.1679      1.1679       1.1679 -0.00075 -0.00005    0.0001          0.0                 NaN       0.00005
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price   mid_price side_price offside_price limit_price filled_price    delay   bid_ask execution versus_limit versus_parent_limit total_trading
+35380      FTSECHINAA  dynamic_TF_carry   [1]                15053.0               None     15109.0    15111.0       15107.0     15107.0      15107.0    -56.0      -2.0       4.0          0.0                 NaN           2.0
+35381          SILVER  dynamic_TF_carry   [1]                  59.03               None      59.575      59.58         59.57       59.57       59.585   -0.545    -0.005    -0.005       -0.015                 NaN         -0.01
+35382           CAD10  dynamic_TF_carry  [-1]                 122.13               None     122.325     122.32        122.33      122.33       122.31    0.195    -0.005     -0.01        -0.02                 NaN        -0.015
+35383           CAD10  dynamic_TF_carry  [-1]                 122.13               None      122.32     122.31        122.33      122.33       122.32     0.19     -0.01      0.01        -0.01                 NaN           0.0
+35384       EUR_micro  dynamic_TF_carry   [1]                 1.1683               None      1.1721     1.1722         1.172       1.172       1.1723  -0.0038   -0.0001   -0.0001      -0.0003                 NaN       -0.0002
+35385           US10U  dynamic_TF_carry   [1]             115.578125               None  115.765625  115.78125        115.75      115.75    115.78125  -0.1875 -0.015625       0.0     -0.03125                 NaN     -0.015625
+35386       AUD_micro  dynamic_TF_carry   [1]                 0.6567               None     0.65865     0.6593         0.658       0.658       0.6588 -0.00195  -0.00065    0.0005      -0.0008                 NaN      -0.00015
+35387         RUSSELL  dynamic_TF_carry   [1]                 2500.4               None     2503.15     2503.4        2502.9      2502.9       2503.4    -2.75     -0.25       0.0         -0.5                 NaN         -0.25
 
 
 ==============================================================================================================================================================
@@ -34,52 +55,96 @@ Trades report produced on 02/12/2025 22:51 from 01/12/2025 22:51 to 02/12/2025 2
 ==============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-35379       EUR_micro  dynamic_TF_carry   [1]        0.059119 -126.862038   -8.457469     16.914938              0.0                     NaN          8.457469
+35380      FTSECHINAA  dynamic_TF_carry   [1]     2468.554024 -226.853451   -8.101909     16.203818              0.0                     NaN          8.101909
+35381          SILVER  dynamic_TF_carry   [1]       15.718632 -346.722279   -3.180938     -3.180938        -9.542815                     NaN         -6.361877
+35382           CAD10  dynamic_TF_carry  [-1]        5.817365  335.203318   -8.594957    -17.189914       -34.379827                     NaN        -25.784871
+35383           CAD10  dynamic_TF_carry  [-1]        5.817365  326.608361  -17.189914     17.189914       -17.189914                     NaN               0.0
+35384       EUR_micro  dynamic_TF_carry   [1]        0.060212 -631.099072   -16.60787     -16.60787       -49.823611                     NaN        -33.215741
+35385           US10U  dynamic_TF_carry   [1]        5.939074 -315.705808  -26.308817           0.0       -52.617635                     NaN        -26.308817
+35386       AUD_micro  dynamic_TF_carry   [1]         0.04717 -413.398794 -137.799598    105.999691      -169.599505                     NaN        -31.799907
+35387         RUSSELL  dynamic_TF_carry   [1]      540.271622  -50.900323   -4.627302           0.0        -9.254604                     NaN         -4.627302
 
 
-=======================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                      
-=======================================================================================================================================================================
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-35379       EUR_micro  dynamic_TF_carry   [1]          9460.809543  -7.095607     -0.47304       0.946081               0.0                      NaN            0.47304
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+35380      FTSECHINAA  dynamic_TF_carry   [1]              0.75501  -42.280585    -1.510021       3.020042               0.0                      NaN           1.510021
+35381          SILVER  dynamic_TF_carry   [1]           755.010438 -411.480689    -3.775052      -3.775052        -11.325157                      NaN          -7.550104
+35382           CAD10  dynamic_TF_carry  [-1]           540.555754  105.408372    -2.702779      -5.405558        -10.811115                      NaN          -8.108336
+35383           CAD10  dynamic_TF_carry  [-1]           540.555754  102.705593    -5.405558       5.405558         -5.405558                      NaN                0.0
+35384       EUR_micro  dynamic_TF_carry   [1]          9437.630475  -35.862996    -0.943763      -0.943763         -2.831289                      NaN          -1.887526
+35385           US10U  dynamic_TF_carry   [1]           755.010438 -141.564457   -11.797038            0.0        -23.594076                      NaN         -11.797038
+35386       AUD_micro  dynamic_TF_carry   [1]           7550.10438  -14.722704    -4.907568       3.775052         -6.040084                      NaN          -1.132516
+35387         RUSSELL  dynamic_TF_carry   [1]             3.775052  -10.381394    -0.943763            0.0         -1.887526                      NaN          -0.943763
 
 delay_cash Sum
-                                 delay_cash
-strategy_name    instrument_code           
-dynamic_TF_carry EUR_micro        -7.095607
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry AUD_micro        -14.722704
+                 CAD10            208.113965
+                 EUR_micro        -35.862996
+                 FTSECHINAA       -42.280585
+                 RUSSELL          -10.381394
+                 SILVER          -411.480689
+                 US10U           -141.564457
 delay_cash Total Sum
-                 delay_cash
-strategy_name              
-dynamic_TF_carry  -7.095607
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -448.178858
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry EUR_micro           -0.47304
+dynamic_TF_carry AUD_micro          -4.907568
+                 CAD10              -8.108336
+                 EUR_micro          -0.943763
+                 FTSECHINAA         -1.510021
+                 RUSSELL            -0.943763
+                 SILVER             -3.775052
+                 US10U             -11.797038
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry     -0.47304
+dynamic_TF_carry   -31.985541
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry EUR_micro             0.946081
+dynamic_TF_carry AUD_micro             3.775052
+                 CAD10                      0.0
+                 EUR_micro            -0.943763
+                 FTSECHINAA            3.020042
+                 RUSSELL                    0.0
+                 SILVER               -3.775052
+                 US10U                      0.0
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry       0.946081
+dynamic_TF_carry       2.076279
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry EUR_micro                     0.0
+dynamic_TF_carry AUD_micro               -6.040084
+                 CAD10                  -16.216673
+                 EUR_micro               -2.831289
+                 FTSECHINAA                    0.0
+                 RUSSELL                 -1.887526
+                 SILVER                 -11.325157
+                 US10U                  -23.594076
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry               0.0
+dynamic_TF_carry        -61.894804
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry EUR_micro                              0
+dynamic_TF_carry AUD_micro                              0
+                 CAD10                                  0
+                 EUR_micro                              0
+                 FTSECHINAA                             0
+                 RUSSELL                                0
+                 SILVER                                 0
+                 US10U                                  0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -87,11 +152,17 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry EUR_micro                  0.47304
+dynamic_TF_carry AUD_micro                -1.132516
+                 CAD10                    -8.108336
+                 EUR_micro                -1.887526
+                 FTSECHINAA                1.510021
+                 RUSSELL                  -0.943763
+                 SILVER                   -7.550104
+                 US10U                   -11.797038
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry            0.47304
+dynamic_TF_carry         -29.909263
 
 ********************************************************************************
                                  END OF REPORT                                  
