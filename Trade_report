@@ -1,145 +1,15 @@
 
 ********************************************************************************
-Trades report produced on 08/12/2025 22:51 from 07/12/2025 22:51 to 08/12/2025 22:51
+Trades report produced on 09/12/2025 22:51 from 08/12/2025 22:51 to 09/12/2025 22:51
 ********************************************************************************
 
 
-
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
-
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-35398             DAX  dynamic_TF_carry    [20251200] 2025-12-08 08:00:15   [1]     24065.000
-35400     GAS_US_mini  dynamic_TF_carry    [20260100] 2025-12-08 14:00:12   [1]         5.005
-35394      KOSPI_mini  dynamic_TF_carry    [20251200] 2025-12-08 02:02:13  [-1]       579.860
-35393     KRWUSD_mini  dynamic_TF_carry    [20251200] 2025-12-08 02:00:35   [1]         0.681
-35395     KRWUSD_mini  dynamic_TF_carry    [20251200] 2025-12-08 02:02:14   [1]         0.681
-35396     KRWUSD_mini  dynamic_TF_carry    [20251200] 2025-12-08 02:02:19   [1]         0.681
-35397     KRWUSD_mini  dynamic_TF_carry    [20251200] 2025-12-08 02:02:26   [1]         0.681
-
-
-=============================================================================================================================================================
-                                                                           Delays                                                                            
-=============================================================================================================================================================
-
-      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-35394      KOSPI_mini  dynamic_TF_carry       2025-12-05 05:00:00  2025-12-08 02:02:11.927000  2025-12-08 02:02:13             248531.927               1.073
-35393     KRWUSD_mini  dynamic_TF_carry       2025-12-05 04:00:00  2025-12-08 02:00:32.563000  2025-12-08 02:00:35             252032.563               2.437
-35395     KRWUSD_mini  dynamic_TF_carry       2025-12-05 04:00:00  2025-12-08 02:02:13.695000  2025-12-08 02:02:14             252133.695               0.305
-35396     KRWUSD_mini  dynamic_TF_carry       2025-12-05 04:00:00  2025-12-08 02:02:19.491000  2025-12-08 02:02:19             252139.491                 NaN
-35397     KRWUSD_mini  dynamic_TF_carry       2025-12-05 04:00:00  2025-12-08 02:02:24.928000  2025-12-08 02:02:26             252144.928               1.072
-35398             DAX  dynamic_TF_carry       2025-12-05 00:00:00  2025-12-08 08:00:10.401000  2025-12-08 08:00:15             288010.401               4.599
-35400     GAS_US_mini  dynamic_TF_carry       2025-12-05 20:00:00  2025-12-08 14:00:11.255000  2025-12-08 14:00:12             237611.255               0.745
-
-
-==============================================================================================================================================================================================================================
-                                                                                                   Slippage (ticks per lot)                                                                                                   
-==============================================================================================================================================================================================================================
-
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
-35394      KOSPI_mini  dynamic_TF_carry  [-1]                 576.48               None    579.88     579.86         579.9       579.9       579.86      3.4    -0.02      -0.0        -0.04                 NaN         -0.02
-35393     KRWUSD_mini  dynamic_TF_carry   [1]                 0.6794               None   0.68075     0.6808        0.6807      0.6807        0.681 -0.00135 -0.00005   -0.0002      -0.0003                 NaN      -0.00025
-35395     KRWUSD_mini  dynamic_TF_carry   [1]                 0.6794               None   0.68075     0.6808        0.6807      0.6807        0.681 -0.00135 -0.00005   -0.0002      -0.0003                 NaN      -0.00025
-35396     KRWUSD_mini  dynamic_TF_carry   [1]                 0.6794               None   0.68085     0.6809        0.6808      0.6808        0.681 -0.00145 -0.00005   -0.0001      -0.0002                 NaN      -0.00015
-35397     KRWUSD_mini  dynamic_TF_carry   [1]                 0.6794               None    0.6808     0.6809        0.6807      0.6807        0.681  -0.0014  -0.0001   -0.0001      -0.0003                 NaN       -0.0002
-35398             DAX  dynamic_TF_carry   [1]                24090.0               None   24062.0    24063.0       24061.0     24061.0      24065.0     28.0     -1.0      -2.0         -4.0                 NaN          -3.0
-35400     GAS_US_mini  dynamic_TF_carry   [1]                   5.28               None    5.0075       5.01         5.005       5.005        5.005   0.2725  -0.0025     0.005          0.0                 NaN        0.0025
-
-
-===============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
-===============================================================================================================================================================
-
-      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-35394      KOSPI_mini  dynamic_TF_carry  [-1]      149.713928    227.09978   -1.335881          -0.0        -2.671762                     NaN         -1.335881
-35393     KRWUSD_mini  dynamic_TF_carry   [1]        0.055101  -245.003419   -9.074201    -36.296803       -54.445204                     NaN        -45.371003
-35395     KRWUSD_mini  dynamic_TF_carry   [1]        0.055101  -245.003419   -9.074201    -36.296803       -54.445204                     NaN        -45.371003
-35396     KRWUSD_mini  dynamic_TF_carry   [1]        0.055101   -263.15182   -9.074201    -18.148401       -36.296803                     NaN        -27.222602
-35397     KRWUSD_mini  dynamic_TF_carry   [1]        0.055101  -254.077619  -18.148401    -18.148401       -54.445204                     NaN        -36.296803
-35398             DAX  dynamic_TF_carry   [1]     3184.262477     87.93245   -3.140445     -6.280889       -12.561779                     NaN         -9.421334
-35400     GAS_US_mini  dynamic_TF_carry   [1]        2.425335  1123.556197  -10.307855      20.61571              0.0                     NaN         10.307855
-
-
-========================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                       
-========================================================================================================================================================================
-
-      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-35394      KOSPI_mini  dynamic_TF_carry  [-1]            25.495086   86.683291    -0.509902           -0.0         -1.019803                      NaN          -0.509902
-35393     KRWUSD_mini  dynamic_TF_carry   [1]         18749.695317  -25.312089    -0.937485      -3.749939         -5.624909                      NaN          -4.687424
-35395     KRWUSD_mini  dynamic_TF_carry   [1]         18749.695317  -25.312089    -0.937485      -3.749939         -5.624909                      NaN          -4.687424
-35396     KRWUSD_mini  dynamic_TF_carry   [1]         18749.695317  -27.187058    -0.937485       -1.87497         -3.749939                      NaN          -2.812454
-35397     KRWUSD_mini  dynamic_TF_carry   [1]         18749.695317  -26.249573     -1.87497       -1.87497         -5.624909                      NaN          -3.749939
-35398             DAX  dynamic_TF_carry   [1]             0.874681   24.491062    -0.874681      -1.749362         -3.498723                      NaN          -2.624042
-35400     GAS_US_mini  dynamic_TF_carry   [1]          1874.969532  510.929197    -4.687424       9.374848               0.0                      NaN           4.687424
-
-delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry DAX               24.491062
-                 GAS_US_mini      510.929197
-                 KOSPI_mini        86.683291
-                 KRWUSD_mini     -104.060809
-delay_cash Total Sum
-                  delay_cash
-strategy_name               
-dynamic_TF_carry  518.042742
-bid_ask_cash Sum
-                                 bid_ask_cash
-strategy_name    instrument_code             
-dynamic_TF_carry DAX                -0.874681
-                 GAS_US_mini        -4.687424
-                 KOSPI_mini         -0.509902
-                 KRWUSD_mini        -4.687424
-bid_ask_cash Total Sum
-                 bid_ask_cash
-strategy_name                
-dynamic_TF_carry    -10.75943
-execution_cash Sum
-                                 execution_cash
-strategy_name    instrument_code               
-dynamic_TF_carry DAX                  -1.749362
-                 GAS_US_mini           9.374848
-                 KOSPI_mini                -0.0
-                 KRWUSD_mini         -11.249817
-execution_cash Total Sum
-                 execution_cash
-strategy_name                  
-dynamic_TF_carry      -3.624331
-versus_limit_cash Sum
-                                 versus_limit_cash
-strategy_name    instrument_code                  
-dynamic_TF_carry DAX                     -3.498723
-                 GAS_US_mini                   0.0
-                 KOSPI_mini              -1.019803
-                 KRWUSD_mini            -20.624665
-versus_limit_cash Total Sum
-                 versus_limit_cash
-strategy_name                     
-dynamic_TF_carry        -25.143191
-versus_parent_limit_cash Sum
-                                 versus_parent_limit_cash
-strategy_name    instrument_code                         
-dynamic_TF_carry DAX                                    0
-                 GAS_US_mini                            0
-                 KOSPI_mini                             0
-                 KRWUSD_mini                            0
-versus_parent_limit_cash Total Sum
-                 versus_parent_limit_cash
-strategy_name                            
-dynamic_TF_carry                        0
-total_trading_cash Sum
-                                 total_trading_cash
-strategy_name    instrument_code                   
-dynamic_TF_carry DAX                      -2.624042
-                 GAS_US_mini               4.687424
-                 KOSPI_mini               -0.509902
-                 KRWUSD_mini             -15.937241
-total_trading_cash Total Sum
-                 total_trading_cash
-strategy_name                      
-dynamic_TF_carry         -14.383761
+No trades
+No trades
+No trades
+No trades
+No trades
+No trades
 
 ********************************************************************************
                                  END OF REPORT                                  
