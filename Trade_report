@@ -1,15 +1,97 @@
 
 ********************************************************************************
-Trades report produced on 12/12/2025 22:51 from 11/12/2025 22:51 to 12/12/2025 22:51
+Trades report produced on 15/12/2025 22:50 from 14/12/2025 22:50 to 15/12/2025 22:50
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+35405      FTSECHINAA  dynamic_TF_carry    [20251200] 2025-12-15 02:00:36  [-1]       15259.0
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+35405      FTSECHINAA  dynamic_TF_carry       2025-12-12 05:00:00  2025-12-15 02:00:34.873000  2025-12-15 02:00:36             248434.873               1.127
+
+
+==========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                 
+==========================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
+35405      FTSECHINAA  dynamic_TF_carry  [-1]                15194.0               None   15258.5    15258.0       15259.0     15259.0      15259.0  64.5    -0.5       1.0         -0.0                 NaN           0.5
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+35405      FTSECHINAA  dynamic_TF_carry  [-1]     2263.979472  284.896576   -2.208501      4.417001             -0.0                     NaN          2.208501
+
+
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+35405      FTSECHINAA  dynamic_TF_carry  [-1]             0.748016  48.247025    -0.374008       0.748016              -0.0                      NaN           0.374008
+
+delay_cash Sum
+                                 delay_cash
+strategy_name    instrument_code           
+dynamic_TF_carry FTSECHINAA       48.247025
+delay_cash Total Sum
+                 delay_cash
+strategy_name              
+dynamic_TF_carry  48.247025
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry FTSECHINAA         -0.374008
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry    -0.374008
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry FTSECHINAA            0.748016
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry       0.748016
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry FTSECHINAA                   -0.0
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry              -0.0
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry FTSECHINAA                             0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry FTSECHINAA                0.374008
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry           0.374008
 
 ********************************************************************************
                                  END OF REPORT                                  
