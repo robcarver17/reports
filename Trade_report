@@ -1,53 +1,38 @@
 
 ********************************************************************************
-Trades report produced on 17/12/2025 22:51 from 16/12/2025 22:51 to 17/12/2025 22:51
+Trades report produced on 18/12/2025 22:51 from 17/12/2025 22:51 to 18/12/2025 22:51
 ********************************************************************************
 
 
 
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
+=================================================================================================
+                                          Broker orders                                          
+=================================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-35450         BITCOIN  dynamic_TF_carry    [20260100] 2025-12-17 15:00:30  [-1]    90445.0000
-35451         BITCOIN  dynamic_TF_carry    [20260100] 2025-12-17 15:00:37  [-1]    90400.0000
-35449             BRE  dynamic_TF_carry    [20260100] 2025-12-17 15:00:20   [1]        0.1813
-35448   CRUDE_W_micro  dynamic_TF_carry    [20260300] 2025-12-17 14:10:32   [1]       55.9100
-35445   CRUDE_W_micro  dynamic_TF_carry    [20260300] 2025-12-17 14:00:05   [1]       56.0800
-35447       GASOILINE  dynamic_TF_carry    [20260400] 2025-12-17 14:00:22  [-1]        1.9365
-35446     GAS_US_mini  dynamic_TF_carry    [20260200] 2025-12-17 14:00:16  [-1]        3.7650
-35444           TOPIX  dynamic_TF_carry    [20260300] 2025-12-17 02:02:04   [1]     3374.5000
+      instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
+35453        EU-BASIC  dynamic_TF_carry    [20251200] 2025-12-18 08:00:04.000  [-1]        631.90
+35455            KR10  dynamic_TF_carry    [20251200] 2025-12-18 08:43:52.606   [3]        114.16
+35452           TOPIX  dynamic_TF_carry    [20260300] 2025-12-18 02:02:09.000  [-1]       3356.00
 
 
-=============================================================================================================================================================
-                                                                           Delays                                                                            
-=============================================================================================================================================================
+====================================================================================================================================================================
+                                                                               Delays                                                                               
+====================================================================================================================================================================
 
-      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-35444           TOPIX  dynamic_TF_carry       2025-12-16 00:00:00  2025-12-17 02:02:03.492000  2025-12-17 02:02:04              93723.492               0.508
-35446     GAS_US_mini  dynamic_TF_carry       2025-12-16 00:00:00  2025-12-17 14:00:07.295000  2025-12-17 14:00:16             136807.295               8.705
-35447       GASOILINE  dynamic_TF_carry       2025-12-16 00:00:00  2025-12-17 14:00:21.873000  2025-12-17 14:00:22             136821.873               0.127
-35448   CRUDE_W_micro  dynamic_TF_carry       2025-12-16 00:00:00  2025-12-17 14:10:31.921000  2025-12-17 14:10:32             137431.921               0.079
-35445   CRUDE_W_micro  dynamic_TF_carry       2025-12-16 00:00:00  2025-12-17 14:00:05.387000  2025-12-17 14:00:05             136805.387                 NaN
-35449             BRE  dynamic_TF_carry       2025-12-16 00:00:00  2025-12-17 15:00:06.059000  2025-12-17 15:00:20             140406.059              13.941
-35450         BITCOIN  dynamic_TF_carry       2025-12-16 00:00:00  2025-12-17 15:00:30.590000  2025-12-17 15:00:30              140430.59                 NaN
-35451         BITCOIN  dynamic_TF_carry       2025-12-16 00:00:00  2025-12-17 15:00:36.110000  2025-12-17 15:00:37              140436.11                0.89
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
+35452           TOPIX  dynamic_TF_carry       2025-12-17 00:00:00  2025-12-18 02:02:05.914000         2025-12-18 02:02:09              93725.914               3.086
+35453        EU-BASIC  dynamic_TF_carry       2025-12-17 16:00:00  2025-12-18 08:00:03.496000         2025-12-18 08:00:04              57603.496               0.504
+35455            KR10  dynamic_TF_carry                       NaT                         NaT  2025-12-18 08:43:52.606000                    NaN                 NaN
 
 
-================================================================================================================================================================================================================================
-                                                                                                    Slippage (ticks per lot)                                                                                                    
-================================================================================================================================================================================================================================
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
-35444           TOPIX  dynamic_TF_carry   [1]                 3383.5               None    3374.0    3374.25       3373.75     3373.75       3374.5       9.5     -0.25     -0.25        -0.75                 NaN          -0.5
-35446     GAS_US_mini  dynamic_TF_carry  [-1]                   3.66               None    3.7675      3.765          3.77        3.77        3.765    0.1075   -0.0025      -0.0       -0.005                 NaN       -0.0025
-35447       GASOILINE  dynamic_TF_carry  [-1]                 1.9208               None   1.93665     1.9365        1.9368      1.9368       1.9365   0.01585  -0.00015      -0.0      -0.0003                 NaN      -0.00015
-35448   CRUDE_W_micro  dynamic_TF_carry   [1]                  55.01               None     56.07      56.08         56.06       56.06        55.91     -1.06     -0.01      0.17         0.15                 NaN          0.16
-35445   CRUDE_W_micro  dynamic_TF_carry   [1]                  55.01               None    56.075      56.09         56.06       56.06        56.08    -1.065    -0.015      0.01        -0.02                 NaN        -0.005
-35449             BRE  dynamic_TF_carry   [1]                 0.1822               None  0.181325    0.18135        0.1813      0.1813       0.1813  0.000875 -0.000025   0.00005          0.0                 NaN      0.000025
-35450         BITCOIN  dynamic_TF_carry  [-1]                88280.0               None   90410.0    90375.0       90445.0     90445.0      90445.0    2130.0     -35.0      70.0         -0.0                 NaN          35.0
-35451         BITCOIN  dynamic_TF_carry  [-1]                88280.0               None   90425.0    90410.0       90440.0     90440.0      90400.0    2145.0     -15.0     -10.0        -40.0                 NaN         -25.0
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+35452           TOPIX  dynamic_TF_carry  [-1]                 3362.0               None  3356.375    3356.25        3356.5      3356.5       3356.0 -5.625  -0.125     -0.25         -0.5                 NaN        -0.375
+35453        EU-BASIC  dynamic_TF_carry  [-1]                  634.4               None     635.0      631.7         638.3         NaN        631.9    0.6    -3.3       0.2          NaN                 NaN          -3.1
+35455            KR10  dynamic_TF_carry   [3]                    NaN               None       NaN        NaN           NaN         NaN       114.16    NaN     NaN       NaN          NaN                 NaN           NaN
 
 
 ==============================================================================================================================================================
@@ -55,90 +40,65 @@ Trades report produced on 17/12/2025 22:51 from 16/12/2025 22:51 to 17/12/2025 2
 ==============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-35444           TOPIX  dynamic_TF_carry   [1]      516.524592  183.921543   -4.840041     -4.840041       -14.520122                     NaN         -9.680081
-35446     GAS_US_mini  dynamic_TF_carry  [-1]        2.554785  420.779089    -9.78556          -0.0        -19.57112                     NaN          -9.78556
-35447       GASOILINE  dynamic_TF_carry  [-1]        0.416279   380.75457   -3.603356          -0.0        -7.206711                     NaN         -3.603356
-35448   CRUDE_W_micro  dynamic_TF_carry   [1]       14.952429 -708.914921   -6.687877    113.693902       100.318149                     NaN        107.006026
-35445   CRUDE_W_micro  dynamic_TF_carry   [1]       14.952429 -712.258859  -10.031815      6.687877       -13.375753                     NaN         -3.343938
-35449             BRE  dynamic_TF_carry   [1]        0.022173  394.617692  -11.274791     22.549582              0.0                     NaN         11.274791
-35450         BITCOIN  dynamic_TF_carry  [-1]    42994.567118  495.411431   -8.140563     16.281127             -0.0                     NaN          8.140563
-35451         BITCOIN  dynamic_TF_carry  [-1]    42994.567118  498.900243   -3.488813     -2.325875        -9.303501                     NaN         -5.814688
+35452           TOPIX  dynamic_TF_carry  [-1]      511.016106 -110.074809   -2.446107     -4.892214        -9.784427                     NaN         -7.338321
+35453        EU-BASIC  dynamic_TF_carry  [-1]      110.925224   54.090492 -297.497709     18.030164              NaN                     NaN       -279.467545
+35455            KR10  dynamic_TF_carry   [3]        6.373943         NaN         NaN           NaN              NaN                     NaN               NaN
 
 
-========================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                       
-========================================================================================================================================================================
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-35444           TOPIX  dynamic_TF_carry   [1]             4.821168   45.801092    -1.205292      -1.205292         -3.615876                      NaN          -2.410584
-35446     GAS_US_mini  dynamic_TF_carry  [-1]          1872.722302  201.317647    -4.681806           -0.0         -9.363612                      NaN          -4.681806
-35447       GASOILINE  dynamic_TF_carry  [-1]         31461.734665  498.668494     -4.71926           -0.0          -9.43852                      NaN           -4.71926
-35448   CRUDE_W_micro  dynamic_TF_carry   [1]            74.908892  -79.403426    -0.749089      12.734512         11.236334                      NaN          11.985423
-35445   CRUDE_W_micro  dynamic_TF_carry   [1]            74.908892   -79.77797    -1.123633       0.749089         -1.498178                      NaN          -0.374544
-35449             BRE  dynamic_TF_carry   [1]          74908.89206   65.545281    -1.872722       3.745445               0.0                      NaN           1.872722
-35450         BITCOIN  dynamic_TF_carry  [-1]             0.074909   159.55594    -2.621811       5.243622              -0.0                      NaN           2.621811
-35451         BITCOIN  dynamic_TF_carry  [-1]             0.074909  160.679573    -1.123633      -0.749089         -2.996356                      NaN          -1.872722
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+35452           TOPIX  dynamic_TF_carry  [-1]             4.798729 -26.992849    -0.599841      -1.199682         -2.399364                      NaN          -1.799523
+35453        EU-BASIC  dynamic_TF_carry  [-1]            43.931204  26.358723  -144.972975       8.786241               NaN                      NaN        -136.186734
+35455            KR10  dynamic_TF_carry   [3]           504.221169        NaN          NaN            NaN               NaN                      NaN                NaN
 
 delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry BITCOIN          320.235514
-                 BRE               65.545281
-                 CRUDE_W_micro   -159.181396
-                 GASOILINE        498.668494
-                 GAS_US_mini      201.317647
-                 TOPIX             45.801092
+                                 delay_cash
+strategy_name    instrument_code           
+dynamic_TF_carry EU-BASIC         26.358723
+                 KR10                     0
+                 TOPIX           -26.992849
 delay_cash Total Sum
-                  delay_cash
-strategy_name               
-dynamic_TF_carry  972.386633
+                 delay_cash
+strategy_name              
+dynamic_TF_carry  -0.634127
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry BITCOIN            -3.745445
-                 BRE                -1.872722
-                 CRUDE_W_micro      -1.872722
-                 GASOILINE           -4.71926
-                 GAS_US_mini        -4.681806
-                 TOPIX              -1.205292
+dynamic_TF_carry EU-BASIC         -144.972975
+                 KR10                       0
+                 TOPIX              -0.599841
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry   -18.097247
+dynamic_TF_carry  -145.572816
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry BITCOIN               4.494534
-                 BRE                   3.745445
-                 CRUDE_W_micro        13.483601
-                 GASOILINE                 -0.0
-                 GAS_US_mini               -0.0
-                 TOPIX                -1.205292
+dynamic_TF_carry EU-BASIC              8.786241
+                 KR10                         0
+                 TOPIX                -1.199682
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry      20.518287
+dynamic_TF_carry       7.586559
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry BITCOIN                 -2.996356
-                 BRE                           0.0
-                 CRUDE_W_micro            9.738156
-                 GASOILINE                -9.43852
-                 GAS_US_mini             -9.363612
-                 TOPIX                   -3.615876
+dynamic_TF_carry EU-BASIC                        0
+                 KR10                            0
+                 TOPIX                   -2.399364
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry        -15.676207
+dynamic_TF_carry         -2.399364
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry BITCOIN                                0
-                 BRE                                    0
-                 CRUDE_W_micro                          0
-                 GASOILINE                              0
-                 GAS_US_mini                            0
+dynamic_TF_carry EU-BASIC                               0
+                 KR10                                   0
                  TOPIX                                  0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
@@ -147,16 +107,13 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry BITCOIN                   0.749089
-                 BRE                       1.872722
-                 CRUDE_W_micro            11.610878
-                 GASOILINE                 -4.71926
-                 GAS_US_mini              -4.681806
-                 TOPIX                    -2.410584
+dynamic_TF_carry EU-BASIC               -136.186734
+                 KR10                             0
+                 TOPIX                    -1.799523
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry            2.42104
+dynamic_TF_carry        -137.986257
 
 ********************************************************************************
                                  END OF REPORT                                  
