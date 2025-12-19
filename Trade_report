@@ -1,38 +1,38 @@
 
 ********************************************************************************
-Trades report produced on 18/12/2025 22:51 from 17/12/2025 22:51 to 18/12/2025 22:51
+Trades report produced on 19/12/2025 22:51 from 18/12/2025 22:51 to 19/12/2025 22:51
 ********************************************************************************
 
 
 
-=================================================================================================
-                                          Broker orders                                          
-=================================================================================================
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
 
-      instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
-35453        EU-BASIC  dynamic_TF_carry    [20251200] 2025-12-18 08:00:04.000  [-1]        631.90
-35455            KR10  dynamic_TF_carry    [20251200] 2025-12-18 08:43:52.606   [3]        114.16
-35452           TOPIX  dynamic_TF_carry    [20260300] 2025-12-18 02:02:09.000  [-1]       3356.00
-
-
-====================================================================================================================================================================
-                                                                               Delays                                                                               
-====================================================================================================================================================================
-
-      instrument_code     strategy_name parent_reference_datetime             submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
-35452           TOPIX  dynamic_TF_carry       2025-12-17 00:00:00  2025-12-18 02:02:05.914000         2025-12-18 02:02:09              93725.914               3.086
-35453        EU-BASIC  dynamic_TF_carry       2025-12-17 16:00:00  2025-12-18 08:00:03.496000         2025-12-18 08:00:04              57603.496               0.504
-35455            KR10  dynamic_TF_carry                       NaT                         NaT  2025-12-18 08:43:52.606000                    NaN                 NaN
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+35458      FTSETAIWAN  dynamic_TF_carry    [20251200] 2025-12-19 02:00:41  [-1]      2283.250
+35457     KRWUSD_mini  dynamic_TF_carry    [20260200] 2025-12-19 02:00:39  [-1]         0.678
+35456           TOPIX  dynamic_TF_carry    [20260300] 2025-12-19 02:00:34   [1]      3385.000
 
 
-===========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                  
-===========================================================================================================================================================================================================================
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
-35452           TOPIX  dynamic_TF_carry  [-1]                 3362.0               None  3356.375    3356.25        3356.5      3356.5       3356.0 -5.625  -0.125     -0.25         -0.5                 NaN        -0.375
-35453        EU-BASIC  dynamic_TF_carry  [-1]                  634.4               None     635.0      631.7         638.3         NaN        631.9    0.6    -3.3       0.2          NaN                 NaN          -3.1
-35455            KR10  dynamic_TF_carry   [3]                    NaN               None       NaN        NaN           NaN         NaN       114.16    NaN     NaN       NaN          NaN                 NaN           NaN
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+35456           TOPIX  dynamic_TF_carry       2025-12-18 00:00:00  2025-12-19 02:00:32.311000  2025-12-19 02:00:34              93632.311               1.689
+35457     KRWUSD_mini  dynamic_TF_carry       2025-12-18 00:00:00  2025-12-19 02:00:36.284000  2025-12-19 02:00:39              93636.284               2.716
+35458      FTSETAIWAN  dynamic_TF_carry       2025-12-18 05:00:00  2025-12-19 02:00:40.795000  2025-12-19 02:00:41              75640.795               0.205
+
+
+============================================================================================================================================================================================================================
+                                                                                                  Slippage (ticks per lot)                                                                                                  
+============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
+35456           TOPIX  dynamic_TF_carry   [1]                 3363.5               None  3384.625    3384.75        3384.5      3384.5       3385.0 -21.125  -0.125     -0.25         -0.5                 NaN        -0.375
+35457     KRWUSD_mini  dynamic_TF_carry  [-1]                 0.6783               None    0.6783     0.6782        0.6784      0.6784        0.678    -0.0 -0.0001   -0.0002      -0.0004                 NaN       -0.0003
+35458      FTSETAIWAN  dynamic_TF_carry  [-1]                 2259.0               None    2283.5    2283.25       2283.75     2283.75      2283.25    24.5   -0.25      -0.0         -0.5                 NaN         -0.25
 
 
 ==============================================================================================================================================================
@@ -40,65 +40,65 @@ Trades report produced on 18/12/2025 22:51 from 17/12/2025 22:51 to 18/12/2025 2
 ==============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-35452           TOPIX  dynamic_TF_carry  [-1]      511.016106 -110.074809   -2.446107     -4.892214        -9.784427                     NaN         -7.338321
-35453        EU-BASIC  dynamic_TF_carry  [-1]      110.925224   54.090492 -297.497709     18.030164              NaN                     NaN       -279.467545
-35455            KR10  dynamic_TF_carry   [3]        6.373943         NaN         NaN           NaN              NaN                     NaN               NaN
+35456           TOPIX  dynamic_TF_carry   [1]      506.026413 -417.468327   -2.470227     -4.940454        -9.880907                     NaN          -7.41068
+35457     KRWUSD_mini  dynamic_TF_carry  [-1]        0.051883        -0.0  -19.274247    -38.548494       -77.096989                     NaN        -57.822742
+35458      FTSETAIWAN  dynamic_TF_carry  [-1]      411.823384  594.915223   -6.070563          -0.0       -12.141127                     NaN         -6.070563
 
 
-=======================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                      
-=======================================================================================================================================================================
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-35452           TOPIX  dynamic_TF_carry  [-1]             4.798729 -26.992849    -0.599841      -1.199682         -2.399364                      NaN          -1.799523
-35453        EU-BASIC  dynamic_TF_carry  [-1]            43.931204  26.358723  -144.972975       8.786241               NaN                      NaN        -136.186734
-35455            KR10  dynamic_TF_carry   [3]           504.221169        NaN          NaN            NaN               NaN                      NaN                NaN
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+35456           TOPIX  dynamic_TF_carry   [1]             4.789794 -101.184394    -0.598724      -1.197448         -2.394897                      NaN          -1.796173
+35457     KRWUSD_mini  dynamic_TF_carry  [-1]         18680.555037        -0.0    -1.868056      -3.736111         -7.472222                      NaN          -5.604167
+35458      FTSETAIWAN  dynamic_TF_carry  [-1]            29.888888  732.277757    -7.472222           -0.0        -14.944444                      NaN          -7.472222
 
 delay_cash Sum
-                                 delay_cash
-strategy_name    instrument_code           
-dynamic_TF_carry EU-BASIC         26.358723
-                 KR10                     0
-                 TOPIX           -26.992849
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry FTSETAIWAN       732.277757
+                 KRWUSD_mini            -0.0
+                 TOPIX           -101.184394
 delay_cash Total Sum
-                 delay_cash
-strategy_name              
-dynamic_TF_carry  -0.634127
+                  delay_cash
+strategy_name               
+dynamic_TF_carry  631.093364
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry EU-BASIC         -144.972975
-                 KR10                       0
-                 TOPIX              -0.599841
+dynamic_TF_carry FTSETAIWAN         -7.472222
+                 KRWUSD_mini        -1.868056
+                 TOPIX              -0.598724
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry  -145.572816
+dynamic_TF_carry    -9.939002
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry EU-BASIC              8.786241
-                 KR10                         0
-                 TOPIX                -1.199682
+dynamic_TF_carry FTSETAIWAN                -0.0
+                 KRWUSD_mini          -3.736111
+                 TOPIX                -1.197448
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry       7.586559
+dynamic_TF_carry      -4.933559
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry EU-BASIC                        0
-                 KR10                            0
-                 TOPIX                   -2.399364
+dynamic_TF_carry FTSETAIWAN             -14.944444
+                 KRWUSD_mini             -7.472222
+                 TOPIX                   -2.394897
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry         -2.399364
+dynamic_TF_carry        -24.811563
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry EU-BASIC                               0
-                 KR10                                   0
+dynamic_TF_carry FTSETAIWAN                             0
+                 KRWUSD_mini                            0
                  TOPIX                                  0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
@@ -107,13 +107,13 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry EU-BASIC               -136.186734
-                 KR10                             0
-                 TOPIX                    -1.799523
+dynamic_TF_carry FTSETAIWAN               -7.472222
+                 KRWUSD_mini              -5.604167
+                 TOPIX                    -1.796173
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry        -137.986257
+dynamic_TF_carry         -14.872561
 
 ********************************************************************************
                                  END OF REPORT                                  
