@@ -1,195 +1,85 @@
 
 ********************************************************************************
-Trades report produced on 31/12/2025 22:51 from 30/12/2025 22:51 to 31/12/2025 22:51
+Trades report produced on 01/01/2026 22:51 from 31/12/2025 22:51 to 01/01/2026 22:51
 ********************************************************************************
 
 
 
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
+=================================================================================================
+                                          Broker orders                                          
+=================================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-35465             AEX  dynamic_TF_carry    [20260100] 2025-12-31 08:00:11   [1]      950.5000
-35473         BITCOIN  dynamic_TF_carry    [20260100] 2025-12-31 15:00:11  [-1]    88805.0000
-35475         BITCOIN  dynamic_TF_carry    [20260100] 2025-12-31 15:00:18  [-1]    88820.0000
-35472             CAD  dynamic_TF_carry    [20260300] 2025-12-31 15:00:09   [1]        0.7324
-35464      FTSECHINAA  dynamic_TF_carry    [20260100] 2025-12-31 02:02:22   [1]    15380.0000
-35470         GAS-PEN  dynamic_TF_carry    [20260200] 2025-12-31 14:02:17  [-1]        3.7740
-35469       GASOILINE  dynamic_TF_carry    [20260400] 2025-12-31 14:01:20   [1]        1.9793
-35468     GAS_US_mini  dynamic_TF_carry    [20260200] 2025-12-31 14:01:17   [1]        3.7850
-35471     GAS_US_mini  dynamic_TF_carry    [20260200] 2025-12-31 14:02:18   [1]        3.7800
-35466        MSCIEAFA  dynamic_TF_carry    [20260300] 2025-12-31 14:01:09   [1]     2913.5000
-35463      MSCITAIWAN  dynamic_TF_carry    [20260100] 2025-12-31 02:02:18   [1]     1259.8000
-35474         RUSSELL  dynamic_TF_carry    [20260300] 2025-12-31 15:00:13  [-1]     2513.1000
-35467          SILVER  dynamic_TF_carry    [20260300] 2025-12-31 14:01:12  [-1]       71.4950
+      instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
+35476             BRE  dynamic_TF_carry    [20260100] 2026-01-01 12:03:25.814  [-2]        0.1817
 
 
-=============================================================================================================================================================
-                                                                           Delays                                                                            
-=============================================================================================================================================================
+========================================================================================================================================================
+                                                                         Delays                                                                         
+========================================================================================================================================================
 
-      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-35463      MSCITAIWAN  dynamic_TF_carry       2025-12-30 00:00:00  2025-12-31 02:01:58.368000  2025-12-31 02:02:18              93718.368              19.632
-35464      FTSECHINAA  dynamic_TF_carry       2025-12-30 00:00:00  2025-12-31 02:02:19.408000  2025-12-31 02:02:22              93739.408               2.592
-35465             AEX  dynamic_TF_carry       2025-12-30 00:00:00  2025-12-31 08:00:10.381000  2025-12-31 08:00:11             115210.381               0.619
-35466        MSCIEAFA  dynamic_TF_carry       2025-12-30 00:00:00  2025-12-31 14:00:02.321000  2025-12-31 14:01:09             136802.321              66.679
-35467          SILVER  dynamic_TF_carry       2025-12-30 00:00:00  2025-12-31 14:01:11.930000  2025-12-31 14:01:12              136871.93                0.07
-35469       GASOILINE  dynamic_TF_carry       2025-12-30 00:00:00  2025-12-31 14:01:19.161000  2025-12-31 14:01:20             136879.161               0.839
-35470         GAS-PEN  dynamic_TF_carry       2025-12-29 00:00:00  2025-12-31 14:01:56.114000  2025-12-31 14:02:17             223316.114              20.886
-35468     GAS_US_mini  dynamic_TF_carry       2025-12-30 00:00:00  2025-12-31 14:01:13.609000  2025-12-31 14:01:17             136873.609               3.391
-35471     GAS_US_mini  dynamic_TF_carry       2025-12-30 00:00:00  2025-12-31 14:02:18.161000  2025-12-31 14:02:18             136938.161                 NaN
-35472             CAD  dynamic_TF_carry       2025-12-30 00:00:00  2025-12-31 15:00:01.580000  2025-12-31 15:00:09              140401.58                7.42
-35474         RUSSELL  dynamic_TF_carry       2025-12-30 00:00:00  2025-12-31 15:00:13.063000  2025-12-31 15:00:13             140413.063                 NaN
-35473         BITCOIN  dynamic_TF_carry       2025-12-30 00:00:00  2025-12-31 15:00:11.363000  2025-12-31 15:00:11             140411.363                 NaN
-35475         BITCOIN  dynamic_TF_carry       2025-12-30 00:00:00  2025-12-31 15:00:18.339000  2025-12-31 15:00:18             140418.339                 NaN
+      instrument_code     strategy_name parent_reference_datetime submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
+35476             BRE  dynamic_TF_carry                      None            None  2026-01-01 12:03:25.814000                    NaN                 NaN
 
 
-================================================================================================================================================================================================================================
-                                                                                                    Slippage (ticks per lot)                                                                                                    
-================================================================================================================================================================================================================================
+==========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                 
+==========================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
-35463      MSCITAIWAN  dynamic_TF_carry   [1]                 1256.6               None   1260.25     1260.7        1259.8      1259.8       1259.8     -3.65     -0.45       0.9          0.0                 NaN          0.45
-35464      FTSECHINAA  dynamic_TF_carry   [1]                15405.0               None   15378.5    15379.0       15378.0     15378.0      15380.0      26.5      -0.5      -1.0         -2.0                 NaN          -1.5
-35465             AEX  dynamic_TF_carry   [1]                 954.55               None    950.25     950.35        950.15      950.15        950.5       4.3      -0.1     -0.15        -0.35                 NaN         -0.25
-35466        MSCIEAFA  dynamic_TF_carry   [1]                 2919.7               None   2912.95     2913.1        2912.8      2912.8       2913.5      6.75     -0.15      -0.4         -0.7                 NaN         -0.55
-35467          SILVER  dynamic_TF_carry  [-1]                  76.23               None      71.5     71.495        71.505      71.505       71.495     -4.73    -0.005      -0.0        -0.01                 NaN        -0.005
-35469       GASOILINE  dynamic_TF_carry   [1]                 1.9772               None   1.97885      1.979        1.9787      1.9787       1.9793  -0.00165  -0.00015   -0.0003      -0.0006                 NaN      -0.00045
-35470         GAS-PEN  dynamic_TF_carry  [-1]                    4.0               None     3.777      3.776         3.778         NaN        3.774    -0.223    -0.001    -0.002          NaN                 NaN        -0.003
-35468     GAS_US_mini  dynamic_TF_carry   [1]                  3.965               None    3.7875       3.79         3.785       3.785        3.785    0.1775   -0.0025     0.005          0.0                 NaN        0.0025
-35471     GAS_US_mini  dynamic_TF_carry   [1]                  3.965               None    3.7875       3.79         3.785       3.785         3.78    0.1775   -0.0025      0.01        0.005                 NaN        0.0075
-35472             CAD  dynamic_TF_carry   [1]                0.73265               None  0.732425    0.73245        0.7324      0.7324       0.7324  0.000225 -0.000025   0.00005          0.0                 NaN      0.000025
-35474         RUSSELL  dynamic_TF_carry  [-1]                 2522.7               None   2513.25     2513.2        2513.3      2513.3       2513.1     -9.45     -0.05      -0.1         -0.2                 NaN         -0.15
-35473         BITCOIN  dynamic_TF_carry  [-1]                88530.0               None   88822.5    88815.0       88830.0     88830.0      88805.0     292.5      -7.5     -10.0        -25.0                 NaN         -17.5
-35475         BITCOIN  dynamic_TF_carry  [-1]                88530.0               None   88812.5    88805.0       88820.0     88820.0      88820.0     282.5      -7.5      15.0         -0.0                 NaN           7.5
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
+35476             BRE  dynamic_TF_carry  [-2]                   None               None      None       None          None        None       0.1817   NaN     NaN       NaN          NaN                 NaN           NaN
 
 
-===============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
-===============================================================================================================================================================
+============================================================================================================================================================
+                                                    Slippage (normalised by annual vol, BP of annual SR)                                                    
+============================================================================================================================================================
 
-      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-35463      MSCITAIWAN  dynamic_TF_carry   [1]      221.559315  -164.741438  -20.310588     40.621176              0.0                     NaN         20.310588
-35464      FTSECHINAA  dynamic_TF_carry   [1]     2120.190202   124.988786   -2.358279     -4.716558        -9.433116                     NaN         -7.074837
-35465             AEX  dynamic_TF_carry   [1]      105.379347   408.049595   -9.489525    -14.234288       -33.213339                     NaN        -23.723814
-35466        MSCIEAFA  dynamic_TF_carry   [1]      328.513534   205.470987   -4.566022    -12.176058       -21.308102                     NaN         -16.74208
-35467          SILVER  dynamic_TF_carry  [-1]       37.256042 -1269.592739   -1.342064          -0.0        -2.684128                     NaN         -1.342064
-35469       GASOILINE  dynamic_TF_carry   [1]        0.398257   -41.430572   -3.766416     -7.532831       -15.065662                     NaN        -11.299247
-35470         GAS-PEN  dynamic_TF_carry  [-1]        2.342682  -951.900447   -4.268612     -8.537224              NaN                     NaN        -12.805836
-35468     GAS_US_mini  dynamic_TF_carry   [1]        2.481925   715.170708  -10.072827     20.145654              0.0                     NaN         10.072827
-35471     GAS_US_mini  dynamic_TF_carry   [1]        2.481925   715.170708  -10.072827     40.291307        20.145654                     NaN         30.218481
-35472             CAD  dynamic_TF_carry   [1]        0.033038     68.10342   -7.567047     15.134093              0.0                     NaN          7.567047
-35474         RUSSELL  dynamic_TF_carry  [-1]      442.743658  -213.441793   -1.129322     -2.258643        -4.517287                     NaN         -3.387965
-35473         BITCOIN  dynamic_TF_carry  [-1]    37424.299285    78.157776   -2.004046     -2.672061        -6.680152                     NaN         -4.676106
-35475         BITCOIN  dynamic_TF_carry  [-1]    37424.299285    75.485715   -2.004046      4.008091             -0.0                     NaN          2.004046
+      instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+35476             BRE  dynamic_TF_carry  [-2]        0.021709       NaN         NaN           NaN              NaN                     NaN               NaN
 
 
-=========================================================================================================================================================================
-                                                                       Slippage (In base currency)                                                                       
-=========================================================================================================================================================================
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point   delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-35463      MSCITAIWAN  dynamic_TF_carry   [1]            74.320433  -271.269579   -33.444195      66.888389               0.0                      NaN          33.444195
-35464      FTSECHINAA  dynamic_TF_carry   [1]             0.743204    19.694915    -0.371602      -0.743204         -1.486409                      NaN          -1.114806
-35465             AEX  dynamic_TF_carry   [1]           174.446406   750.119544   -17.444641     -26.166961        -61.056242                      NaN         -43.611601
-35466        MSCIEAFA  dynamic_TF_carry   [1]            37.160216    250.83146    -5.574032     -14.864087        -26.012151                      NaN         -20.438119
-35467          SILVER  dynamic_TF_carry  [-1]           743.204325 -3515.356459    -3.716022           -0.0         -7.432043                      NaN          -3.716022
-35469       GASOILINE  dynamic_TF_carry   [1]         31214.581669    -51.50406    -4.682187      -9.364375        -18.728749                      NaN         -14.046562
-35470         GAS-PEN  dynamic_TF_carry  [-1]          7432.043254 -1657.345646    -7.432043     -14.864087               NaN                      NaN          -22.29613
-35468     GAS_US_mini  dynamic_TF_carry   [1]          1858.010814   329.796919    -4.645027       9.290054               0.0                      NaN           4.645027
-35471     GAS_US_mini  dynamic_TF_carry   [1]          1858.010814   329.796919    -4.645027      18.580108          9.290054                      NaN          13.935081
-35472             CAD  dynamic_TF_carry   [1]         74320.432545    16.722097    -1.858011       3.716022               0.0                      NaN           1.858011
-35474         RUSSELL  dynamic_TF_carry  [-1]             3.716022   -35.116404    -0.185801      -0.371602         -0.743204                      NaN          -0.557403
-35473         BITCOIN  dynamic_TF_carry  [-1]              0.07432    21.738727    -0.557403      -0.743204         -1.858011                      NaN          -1.300608
-35475         BITCOIN  dynamic_TF_carry  [-1]              0.07432    20.995522    -0.557403       1.114806              -0.0                      NaN           0.557403
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+35476             BRE  dynamic_TF_carry  [-2]         74320.432545        NaN          NaN            NaN               NaN                      NaN                NaN
 
 delay_cash Sum
-                                   delay_cash
-strategy_name    instrument_code             
-dynamic_TF_carry AEX               750.119544
-                 BITCOIN            42.734249
-                 CAD                16.722097
-                 FTSECHINAA         19.694915
-                 GAS-PEN         -1657.345646
-                 GASOILINE          -51.50406
-                 GAS_US_mini       659.593839
-                 MSCIEAFA           250.83146
-                 MSCITAIWAN       -271.269579
-                 RUSSELL           -35.116404
-                 SILVER          -3515.356459
+                                 delay_cash
+strategy_name    instrument_code           
+dynamic_TF_carry BRE                      0
 delay_cash Total Sum
-                   delay_cash
-strategy_name                
-dynamic_TF_carry -3790.896044
+                 delay_cash
+strategy_name              
+dynamic_TF_carry          0
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry AEX               -17.444641
-                 BITCOIN            -1.114806
-                 CAD                -1.858011
-                 FTSECHINAA         -0.371602
-                 GAS-PEN            -7.432043
-                 GASOILINE          -4.682187
-                 GAS_US_mini        -9.290054
-                 MSCIEAFA           -5.574032
-                 MSCITAIWAN        -33.444195
-                 RUSSELL            -0.185801
-                 SILVER             -3.716022
+dynamic_TF_carry BRE                        0
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry   -85.113394
+dynamic_TF_carry            0
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry AEX                 -26.166961
-                 BITCOIN               0.371602
-                 CAD                   3.716022
-                 FTSECHINAA           -0.743204
-                 GAS-PEN             -14.864087
-                 GASOILINE            -9.364375
-                 GAS_US_mini          27.870162
-                 MSCIEAFA            -14.864087
-                 MSCITAIWAN           66.888389
-                 RUSSELL              -0.371602
-                 SILVER                    -0.0
+dynamic_TF_carry BRE                          0
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry       32.47186
+dynamic_TF_carry              0
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry AEX                    -61.056242
-                 BITCOIN                 -1.858011
-                 CAD                           0.0
-                 FTSECHINAA              -1.486409
-                 GAS-PEN                         0
-                 GASOILINE              -18.728749
-                 GAS_US_mini              9.290054
-                 MSCIEAFA               -26.012151
-                 MSCITAIWAN                    0.0
-                 RUSSELL                 -0.743204
-                 SILVER                  -7.432043
+dynamic_TF_carry BRE                             0
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry       -108.026755
+dynamic_TF_carry                 0
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry AEX                                    0
-                 BITCOIN                                0
-                 CAD                                    0
-                 FTSECHINAA                             0
-                 GAS-PEN                                0
-                 GASOILINE                              0
-                 GAS_US_mini                            0
-                 MSCIEAFA                               0
-                 MSCITAIWAN                             0
-                 RUSSELL                                0
-                 SILVER                                 0
+dynamic_TF_carry BRE                                    0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -197,21 +87,11 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry AEX                     -43.611601
-                 BITCOIN                  -0.743204
-                 CAD                       1.858011
-                 FTSECHINAA               -1.114806
-                 GAS-PEN                  -22.29613
-                 GASOILINE               -14.046562
-                 GAS_US_mini              18.580108
-                 MSCIEAFA                -20.438119
-                 MSCITAIWAN               33.444195
-                 RUSSELL                  -0.557403
-                 SILVER                   -3.716022
+dynamic_TF_carry BRE                              0
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry         -52.641534
+dynamic_TF_carry                  0
 
 ********************************************************************************
                                  END OF REPORT                                  
