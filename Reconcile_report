@@ -1,10 +1,10 @@
 
 ********************************************************************************
-                 Reconcile report produced on 01/01/2026 22:51                  
+                 Reconcile report produced on 02/01/2026 22:50                  
 ********************************************************************************
 
 
-Breaks Optimal vs actual []
+Breaks Optimal vs actual ['dynamic_TF_carry CRUDE_W_micro', 'dynamic_TF_carry GAS_US_mini', 'dynamic_TF_carry TOPIX', 'dynamic_TF_carry BITCOIN']
  Breaks Instrument vs Contract []
  Breaks Broker vs Contract []
 
@@ -44,38 +44,39 @@ Breaks Optimal vs actual []
 ===============================================================
 
    instrument_code contract_date          expiry_date  position
-5              AEX      20260116  2026-01-16 00:00:00       1.0
-3        AUD_micro      20260316  2026-03-16 00:00:00       1.0
-10         BITCOIN      20260130  2026-01-30 00:00:00      -5.0
-23            BUXL      20260306  2026-03-06 00:00:00      -1.0
-8              CAD      20260317  2026-03-17 00:00:00       1.0
-7            CAD10      20260320  2026-03-20 00:00:00      -1.0
-12   CRUDE_W_micro      20260219  2026-02-19 00:00:00      -2.0
-17      FTSECHINAA      20260129  2026-01-29 00:00:00       2.0
-9          GAS-PEN      20260127  2026-01-27 00:00:00      -1.0
-20     GAS_US_mini      20260127  2026-01-27 00:00:00      -2.0
-1              GBP      20260316  2026-03-16 00:00:00       2.0
-22             JPY      20260316  2026-03-16 00:00:00      -2.0
-19     KRWUSD_mini      20260213  2026-02-13 00:00:00      -1.0
-16         LEANHOG      20260415  2026-04-15 00:00:00       1.0
-13             MIB      20260320  2026-03-20 00:00:00       1.0
-18        MSCIEAFA      20260320  2026-03-20 00:00:00       2.0
-2       MSCITAIWAN      20260129  2026-01-29 00:00:00       1.0
-6              MXP      20260316  2026-03-16 00:00:00       2.0
-11            RICE      20260313  2026-03-13 00:00:00      -1.0
+11             AEX      20260116  2026-01-16 00:00:00       1.0
+14       AUD_micro      20260316  2026-03-16 00:00:00       1.0
+7          BITCOIN      20260130  2026-01-30 00:00:00      -5.0
+1             BUXL      20260306  2026-03-06 00:00:00      -1.0
+19             CAD      20260317  2026-03-17 00:00:00       1.0
+23           CAD10      20260320  2026-03-20 00:00:00      -1.0
+20   CRUDE_W_micro      20260219  2026-02-19 00:00:00      -2.0
+9       FTSECHINAA      20260129  2026-01-29 00:00:00       2.0
+21         GAS-PEN      20260127  2026-01-27 00:00:00      -1.0
+16     GAS_US_mini      20260127  2026-01-27 00:00:00      -2.0
+10             GBP      20260316  2026-03-16 00:00:00       2.0
+8              JPY      20260316  2026-03-16 00:00:00      -2.0
+3      KRWUSD_mini      20260213  2026-02-13 00:00:00      -1.0
+12         LEANHOG      20260415  2026-04-15 00:00:00       1.0
+5              MIB      20260320  2026-03-20 00:00:00       1.0
+22        MSCIEAFA      20260320  2026-03-20 00:00:00       2.0
+18      MSCITAIWAN      20260129  2026-01-29 00:00:00       1.0
+13             MXP      20260316  2026-03-16 00:00:00       2.0
+6             RICE      20260313  2026-03-13 00:00:00      -1.0
 15         RUSSELL      20260320  2026-03-20 00:00:00       4.0
-21          SILVER      20260327  2026-03-27 00:00:00       1.0
+2           SILVER      20260327  2026-03-27 00:00:00       1.0
 0            TOPIX      20260312  2026-03-12 00:00:00       2.0
-14           WHEAT      20261214  2026-12-14 00:00:00      -1.0
-4           YENEUR      20260316  2026-03-16 00:00:00       2.0
+4            WHEAT      20261214  2026-12-14 00:00:00      -1.0
+17          YENEUR      20260316  2026-03-16 00:00:00       2.0
 
 
-===============================================================================
-                                 Trades in DB                                  
-===============================================================================
+===============
+ Trades in DB  
+===============
 
-        strategy_name contract_date           fill_datetime  fill  filled_price
-BRE  dynamic_TF_carry    [20260100] 2026-01-01 12:03:25.814  [-2]        0.1817
+Empty DataFrame
+Columns: [strategy_name, contract_date, fill_datetime, fill, filled_price]
+Index: []
 
 
 ==================
@@ -151,7 +152,7 @@ dynamic_TF_carry GAS-LAST                0       0   False
 dynamic_TF_carry FTSETAIWAN              0       0   False
 dynamic_TF_carry NOK                     0       0   False
 dynamic_TF_carry OATIES                  0       0   False
-dynamic_TF_carry CRUDE_W_micro          -2      -2   False
+dynamic_TF_carry CRUDE_W_micro          -2      -3    True
 dynamic_TF_carry KOSDAQ                  0       0   False
 dynamic_TF_carry GASOIL                  0       0   False
 dynamic_TF_carry US10U                   0       0   False
@@ -181,7 +182,7 @@ dynamic_TF_carry FANG                    0       0   False
 dynamic_TF_carry GBPCHF                  0       0   False
 dynamic_TF_carry FTSECHINAA              2       2   False
 dynamic_TF_carry STEEL                   0       0   False
-dynamic_TF_carry GAS_US_mini            -2      -2   False
+dynamic_TF_carry GAS_US_mini            -2      -1    True
 dynamic_TF_carry EU-DIV30                0       0   False
 dynamic_TF_carry SOYBEAN_mini            0       0   False
 dynamic_TF_carry TWD                     0       0   False
@@ -249,7 +250,7 @@ dynamic_TF_carry DX                      0       0   False
 dynamic_TF_carry MILKWET                 0       0   False
 dynamic_TF_carry INR                     0       0   False
 dynamic_TF_carry EUROSTX-SMALL           0       0   False
-dynamic_TF_carry TOPIX                   2       2   False
+dynamic_TF_carry TOPIX                   2       3    True
 dynamic_TF_carry CAD                     1       1   False
 dynamic_TF_carry ALUMINIUM               0       0   False
 dynamic_TF_carry NASDAQ_micro            0       0   False
@@ -302,7 +303,7 @@ dynamic_TF_carry CAC                     0       0   False
 dynamic_TF_carry JGB-SGX-mini            0       0   False
 dynamic_TF_carry BUXL                   -1      -1   False
 dynamic_TF_carry US-MATERIAL             0       0   False
-dynamic_TF_carry BITCOIN                -5      -5   False
+dynamic_TF_carry BITCOIN                -5      -6    True
 dynamic_TF_carry OAT                     0       0   False
 dynamic_TF_carry CHFJPY                  0       0   False
 
