@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 05/01/2026 22:51 from 04/01/2026 22:51 to 05/01/2026 22:51
+Trades report produced on 06/01/2026 22:51 from 05/01/2026 22:51 to 06/01/2026 22:51
 ********************************************************************************
 
 
@@ -10,10 +10,12 @@ Trades report produced on 05/01/2026 22:51 from 04/01/2026 22:51 to 05/01/2026 2
 =============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-35480         BITCOIN  dynamic_TF_carry    [20260200] 2026-01-05 15:00:03  [-1]     94250.000
-35477   CRUDE_W_micro  dynamic_TF_carry    [20260400] 2026-01-05 14:00:07  [-1]        57.490
-35479         GAS-PEN  dynamic_TF_carry    [20260200] 2026-01-05 14:00:27   [1]         3.402
-35478     GAS_US_mini  dynamic_TF_carry    [20260200] 2026-01-05 14:00:25   [1]         3.405
+35485             BRE  dynamic_TF_carry    [20260200] 2026-01-06 15:00:01   [1]        0.1851
+35483         GAS-PEN  dynamic_TF_carry    [20260300] 2026-01-06 14:00:06  [-1]        2.7950
+35484      GOLD_micro  dynamic_TF_carry    [20260400] 2026-01-06 14:00:11  [-1]     4512.1000
+35486         LEANHOG  dynamic_TF_carry    [20260400] 2026-01-06 15:30:16   [1]       91.4500
+35481           TOPIX  dynamic_TF_carry    [20260300] 2026-01-06 02:02:10   [1]     3528.7500
+35482           TOPIX  dynamic_TF_carry    [20260300] 2026-01-06 02:02:27   [1]     3529.0000
 
 
 =============================================================================================================================================================
@@ -21,21 +23,25 @@ Trades report produced on 05/01/2026 22:51 from 04/01/2026 22:51 to 05/01/2026 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-35477   CRUDE_W_micro  dynamic_TF_carry       2026-01-02 00:00:00  2026-01-05 14:00:06.939000  2026-01-05 14:00:07             309606.939               0.061
-35478     GAS_US_mini  dynamic_TF_carry       2026-01-02 00:00:00  2026-01-05 14:00:25.211000  2026-01-05 14:00:25             309625.211                 NaN
-35479         GAS-PEN  dynamic_TF_carry       2025-12-31 23:00:00  2026-01-05 14:00:26.425000  2026-01-05 14:00:27             399626.425               0.575
-35480         BITCOIN  dynamic_TF_carry       2026-01-02 00:00:00  2026-01-05 15:00:01.376000  2026-01-05 15:00:03             313201.376               1.624
+35481           TOPIX  dynamic_TF_carry       2026-01-05 00:00:00  2026-01-06 02:02:06.851000  2026-01-06 02:02:10              93726.851               3.149
+35482           TOPIX  dynamic_TF_carry       2026-01-05 00:00:00  2026-01-06 02:02:15.301000  2026-01-06 02:02:27              93735.301              11.699
+35483         GAS-PEN  dynamic_TF_carry       2026-01-05 00:00:00  2026-01-06 14:00:03.581000  2026-01-06 14:00:06             136803.581               2.419
+35484      GOLD_micro  dynamic_TF_carry       2026-01-05 00:00:00  2026-01-06 14:00:11.422000  2026-01-06 14:00:11             136811.422                 NaN
+35485             BRE  dynamic_TF_carry       2026-01-05 00:00:00  2026-01-06 15:00:01.627000  2026-01-06 15:00:01             140401.627                 NaN
+35486         LEANHOG  dynamic_TF_carry       2026-01-05 00:00:00  2026-01-06 15:30:02.904000  2026-01-06 15:30:16             142202.904              13.096
 
 
-============================================================================================================================================================================================================================
-                                                                                                  Slippage (ticks per lot)                                                                                                  
-============================================================================================================================================================================================================================
+================================================================================================================================================================================================================================
+                                                                                                    Slippage (ticks per lot)                                                                                                    
+================================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
-35477   CRUDE_W_micro  dynamic_TF_carry  [-1]                  57.04               None     57.47      57.45         57.49       57.49        57.49    0.43   -0.02      0.04         -0.0                 NaN          0.02
-35478     GAS_US_mini  dynamic_TF_carry   [1]                  3.635               None    3.4075       3.41         3.405       3.405        3.405  0.2275 -0.0025     0.005          0.0                 NaN        0.0025
-35479         GAS-PEN  dynamic_TF_carry   [1]                  3.686               None    3.4035      3.405         3.402       3.402        3.402  0.2825 -0.0015     0.003          0.0                 NaN        0.0015
-35480         BITCOIN  dynamic_TF_carry  [-1]                90825.0               None   94150.0    93505.0       94795.0     94795.0      94250.0  3325.0  -645.0     745.0       -545.0                 NaN         100.0
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
+35481           TOPIX  dynamic_TF_carry   [1]                3478.25               None    3528.5    3528.75       3528.25     3528.25      3528.75    -50.25     -0.25       0.0         -0.5                 NaN         -0.25
+35482           TOPIX  dynamic_TF_carry   [1]                3478.25               None  3528.625    3528.75        3528.5      3528.5       3529.0   -50.375    -0.125     -0.25         -0.5                 NaN        -0.375
+35483         GAS-PEN  dynamic_TF_carry  [-1]                  2.891               None     2.799      2.797         2.801       2.801        2.795    -0.092    -0.002    -0.002       -0.006                 NaN        -0.004
+35484      GOLD_micro  dynamic_TF_carry  [-1]                 4487.2               None   4512.25     4512.1        4512.4      4512.4       4512.1     25.05     -0.15      -0.0         -0.3                 NaN         -0.15
+35485             BRE  dynamic_TF_carry   [1]                 0.1837               None  0.185125    0.18515        0.1851      0.1851       0.1851 -0.001425 -0.000025   0.00005          0.0                 NaN      0.000025
+35486         LEANHOG  dynamic_TF_carry   [1]                 91.475               None   91.4625     91.475         91.45       91.45        91.45    0.0125   -0.0125     0.025          0.0                 NaN        0.0125
 
 
 ===============================================================================================================================================================
@@ -43,73 +49,82 @@ Trades report produced on 05/01/2026 22:51 from 04/01/2026 22:51 to 05/01/2026 2
 ===============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-35477   CRUDE_W_micro  dynamic_TF_carry  [-1]       14.846621   289.628195  -13.471079     26.942158             -0.0                     NaN         13.471079
-35478     GAS_US_mini  dynamic_TF_carry   [1]        2.431387   935.679842  -10.282196     20.564392              0.0                     NaN         10.282196
-35479         GAS-PEN  dynamic_TF_carry   [1]        2.412362  1171.051398   -6.217972     12.435944              0.0                     NaN          6.217972
-35480         BITCOIN  dynamic_TF_carry  [-1]    39920.331896   832.908907 -161.571803    186.621695      -136.521911                     NaN         25.049892
+35481           TOPIX  dynamic_TF_carry   [1]      495.244311 -1014.650727   -5.048014           0.0       -10.096027                     NaN         -5.048014
+35482           TOPIX  dynamic_TF_carry   [1]      495.244311 -1017.174734   -2.524007     -5.048014       -10.096027                     NaN          -7.57202
+35483         GAS-PEN  dynamic_TF_carry  [-1]        2.374165  -387.504599   -8.424013     -8.424013       -25.272039                     NaN        -16.848026
+35484      GOLD_micro  dynamic_TF_carry  [-1]      939.732631   266.565182   -1.596199          -0.0        -3.192397                     NaN         -1.596199
+35485             BRE  dynamic_TF_carry   [1]        0.020635  -690.582834  -12.115488     24.230977              0.0                     NaN         12.115488
+35486         LEANHOG  dynamic_TF_carry   [1]       17.059045     7.327491   -7.327491     14.654982              0.0                     NaN          7.327491
 
 
-=========================================================================================================================================================================
-                                                                       Slippage (In base currency)                                                                       
-=========================================================================================================================================================================
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point   delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-35477   CRUDE_W_micro  dynamic_TF_carry  [-1]            74.292549    31.945796    -1.485851       2.971702              -0.0                      NaN           1.485851
-35478     GAS_US_mini  dynamic_TF_carry   [1]           1857.31373   422.538874    -4.643284       9.286569               0.0                      NaN           4.643284
-35479         GAS-PEN  dynamic_TF_carry   [1]           7429.25492  2098.764515   -11.143882      22.287765               0.0                      NaN          11.143882
-35480         BITCOIN  dynamic_TF_carry  [-1]             0.074293   247.022726   -47.918694      55.347949        -40.489439                      NaN           7.429255
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+35481           TOPIX  dynamic_TF_carry   [1]             4.716899 -237.024194    -1.179225            0.0          -2.35845                      NaN          -1.179225
+35482           TOPIX  dynamic_TF_carry   [1]             4.716899 -237.613806    -0.589612      -1.179225          -2.35845                      NaN          -1.768837
+35483         GAS-PEN  dynamic_TF_carry  [-1]          7375.202357 -678.518617   -14.750405     -14.750405        -44.251214                      NaN         -29.500809
+35484      GOLD_micro  dynamic_TF_carry  [-1]             7.375202  184.748819     -1.10628           -0.0         -2.212561                      NaN           -1.10628
+35485             BRE  dynamic_TF_carry   [1]         73752.023571 -105.096634    -1.843801       3.687601               0.0                      NaN           1.843801
+35486         LEANHOG  dynamic_TF_carry   [1]           295.008094    3.687601    -3.687601       7.375202               0.0                      NaN           3.687601
 
 delay_cash Sum
-                                   delay_cash
-strategy_name    instrument_code             
-dynamic_TF_carry BITCOIN           247.022726
-                 CRUDE_W_micro      31.945796
-                 GAS-PEN          2098.764515
-                 GAS_US_mini       422.538874
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry BRE             -105.096634
+                 GAS-PEN         -678.518617
+                 GOLD_micro       184.748819
+                 LEANHOG            3.687601
+                 TOPIX              -474.638
 delay_cash Total Sum
-                   delay_cash
-strategy_name                
-dynamic_TF_carry  2800.271911
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -1069.81683
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry BITCOIN           -47.918694
-                 CRUDE_W_micro      -1.485851
-                 GAS-PEN           -11.143882
-                 GAS_US_mini        -4.643284
+dynamic_TF_carry BRE                -1.843801
+                 GAS-PEN           -14.750405
+                 GOLD_micro          -1.10628
+                 LEANHOG            -3.687601
+                 TOPIX              -1.768837
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry   -65.191712
+dynamic_TF_carry   -23.156924
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry BITCOIN              55.347949
-                 CRUDE_W_micro         2.971702
-                 GAS-PEN              22.287765
-                 GAS_US_mini           9.286569
+dynamic_TF_carry BRE                   3.687601
+                 GAS-PEN             -14.750405
+                 GOLD_micro                -0.0
+                 LEANHOG               7.375202
+                 TOPIX                -1.179225
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry      89.893985
+dynamic_TF_carry      -4.866826
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry BITCOIN                -40.489439
-                 CRUDE_W_micro                -0.0
-                 GAS-PEN                       0.0
-                 GAS_US_mini                   0.0
+dynamic_TF_carry BRE                           0.0
+                 GAS-PEN                -44.251214
+                 GOLD_micro              -2.212561
+                 LEANHOG                       0.0
+                 TOPIX                   -4.716899
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry        -40.489439
+dynamic_TF_carry        -51.180674
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry BITCOIN                                0
-                 CRUDE_W_micro                          0
+dynamic_TF_carry BRE                                    0
                  GAS-PEN                                0
-                 GAS_US_mini                            0
+                 GOLD_micro                             0
+                 LEANHOG                                0
+                 TOPIX                                  0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -117,14 +132,15 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry BITCOIN                   7.429255
-                 CRUDE_W_micro             1.485851
-                 GAS-PEN                  11.143882
-                 GAS_US_mini               4.643284
+dynamic_TF_carry BRE                       1.843801
+                 GAS-PEN                 -29.500809
+                 GOLD_micro                -1.10628
+                 LEANHOG                   3.687601
+                 TOPIX                    -2.948062
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry          24.702273
+dynamic_TF_carry          -28.02375
 
 ********************************************************************************
                                  END OF REPORT                                  
