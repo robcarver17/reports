@@ -1,15 +1,174 @@
 
 ********************************************************************************
-Trades report produced on 15/01/2026 22:51 from 14/01/2026 22:51 to 15/01/2026 22:51
+Trades report produced on 16/01/2026 22:51 from 15/01/2026 22:51 to 16/01/2026 22:51
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+35515            BUXL  dynamic_TF_carry    [20260300] 2026-01-16 08:00:10   [1]       111.680
+35516   CRUDE_W_micro  dynamic_TF_carry    [20260400] 2026-01-16 14:00:09   [1]        59.690
+35518       EUR_micro  dynamic_TF_carry    [20260300] 2026-01-16 15:00:06  [-1]         1.165
+35514            KR10  dynamic_TF_carry    [20260300] 2026-01-16 02:02:30  [-1]       111.590
+35513      MSCITAIWAN  dynamic_TF_carry    [20260100] 2026-01-16 02:02:09   [1]      1371.100
+35519    NASDAQ_micro  dynamic_TF_carry    [20260300] 2026-01-16 15:00:07  [-1]     25727.000
+35520         RUSSELL  dynamic_TF_carry    [20260300] 2026-01-16 15:00:09   [1]      2688.600
+35517     SP500_micro  dynamic_TF_carry    [20260300] 2026-01-16 15:00:04   [1]      6978.000
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+35513      MSCITAIWAN  dynamic_TF_carry       2026-01-15 00:00:00  2026-01-16 02:02:05.584000  2026-01-16 02:02:09              93725.584               3.416
+35514            KR10  dynamic_TF_carry       2026-01-15 00:00:00  2026-01-16 02:02:10.631000  2026-01-16 02:02:30              93730.631              19.369
+35515            BUXL  dynamic_TF_carry       2026-01-15 00:00:00  2026-01-16 08:00:10.320000  2026-01-16 08:00:10              115210.32                 NaN
+35516   CRUDE_W_micro  dynamic_TF_carry       2026-01-15 00:00:00  2026-01-16 14:00:06.378000  2026-01-16 14:00:09             136806.378               2.622
+35517     SP500_micro  dynamic_TF_carry       2026-01-15 00:00:00  2026-01-16 15:00:03.844000  2026-01-16 15:00:04             140403.844               0.156
+35518       EUR_micro  dynamic_TF_carry       2026-01-15 00:00:00  2026-01-16 15:00:05.879000  2026-01-16 15:00:06             140405.879               0.121
+35519    NASDAQ_micro  dynamic_TF_carry       2026-01-15 00:00:00  2026-01-16 15:00:07.402000  2026-01-16 15:00:07             140407.402                 NaN
+35520         RUSSELL  dynamic_TF_carry       2026-01-15 00:00:00  2026-01-16 15:00:08.905000  2026-01-16 15:00:09             140408.905               0.095
+
+
+===============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                    
+===============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price  mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
+35513      MSCITAIWAN  dynamic_TF_carry   [1]                 1351.1               None     1370.7     1371.1        1370.3      1370.3       1371.1    -19.6     -0.4       0.0         -0.8                 NaN          -0.4
+35514            KR10  dynamic_TF_carry  [-1]                 111.69               None    111.595     111.59         111.6       111.6       111.59   -0.095   -0.005      -0.0        -0.01                 NaN        -0.005
+35515            BUXL  dynamic_TF_carry   [1]                 111.74               None     111.67     111.68        111.66      111.66       111.68     0.07    -0.01       0.0        -0.02                 NaN         -0.01
+35516   CRUDE_W_micro  dynamic_TF_carry   [1]                  58.79               None      59.68      59.69         59.67       59.67        59.69    -0.89    -0.01       0.0        -0.02                 NaN         -0.01
+35517     SP500_micro  dynamic_TF_carry   [1]                 6986.5               None   6978.375     6978.5       6978.25     6978.25       6978.0    8.125   -0.125       0.5         0.25                 NaN         0.375
+35518       EUR_micro  dynamic_TF_carry  [-1]                 1.1643               None    1.16505      1.165        1.1651         NaN        1.165  0.00075 -0.00005      -0.0          NaN                 NaN      -0.00005
+35519    NASDAQ_micro  dynamic_TF_carry  [-1]                25767.5               None  25726.875   25726.75       25727.0     25727.0      25727.0  -40.625   -0.125      0.25         -0.0                 NaN         0.125
+35520         RUSSELL  dynamic_TF_carry   [1]                 2698.5               None    2688.55     2688.6        2688.5      2688.5       2688.6     9.95    -0.05       0.0         -0.1                 NaN         -0.05
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+35513      MSCITAIWAN  dynamic_TF_carry   [1]      238.531397 -821.694763  -16.769281           0.0       -33.538562                     NaN        -16.769281
+35514            KR10  dynamic_TF_carry  [-1]        5.972209 -159.070112   -8.372111          -0.0       -16.744222                     NaN         -8.372111
+35515            BUXL  dynamic_TF_carry   [1]       11.208866   62.450566   -8.921509           0.0       -17.843019                     NaN         -8.921509
+35516   CRUDE_W_micro  dynamic_TF_carry   [1]       16.689588 -533.266618    -5.99176           0.0        -11.98352                     NaN          -5.99176
+35517     SP500_micro  dynamic_TF_carry   [1]      688.128858  118.073816    -1.81652      7.266081          3.63304                     NaN          5.449561
+35518       EUR_micro  dynamic_TF_carry  [-1]        0.050868  147.439096   -9.829273          -0.0              NaN                     NaN         -9.829273
+35519    NASDAQ_micro  dynamic_TF_carry  [-1]      3570.13993 -113.791058   -0.350126      0.700253             -0.0                     NaN          0.350126
+35520         RUSSELL  dynamic_TF_carry   [1]      400.725887  248.299406   -1.247736           0.0        -2.495471                     NaN         -1.247736
+
+
+=========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                       
+=========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point   delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+35513      MSCITAIWAN  dynamic_TF_carry   [1]            74.737019 -1464.845575   -29.894808            0.0        -59.789615                      NaN         -29.894808
+35514            KR10  dynamic_TF_carry  [-1]           506.903832   -48.155864    -2.534519           -0.0         -5.069038                      NaN          -2.534519
+35515            BUXL  dynamic_TF_carry   [1]           867.648213    60.735375    -8.676482            0.0        -17.352964                      NaN          -8.676482
+35516   CRUDE_W_micro  dynamic_TF_carry   [1]            74.737019   -66.515947     -0.74737            0.0          -1.49474                      NaN           -0.74737
+35517     SP500_micro  dynamic_TF_carry   [1]             3.736851    30.361914    -0.467106       1.868425          0.934213                      NaN           1.401319
+35518       EUR_micro  dynamic_TF_carry  [-1]          9342.127389     7.006596    -0.467106           -0.0               NaN                      NaN          -0.467106
+35519    NASDAQ_micro  dynamic_TF_carry  [-1]              1.49474   -60.723828    -0.186843       0.373685              -0.0                      NaN           0.186843
+35520         RUSSELL  dynamic_TF_carry   [1]             3.736851    37.181667    -0.186843            0.0         -0.373685                      NaN          -0.186843
+
+delay_cash Sum
+                                   delay_cash
+strategy_name    instrument_code             
+dynamic_TF_carry BUXL               60.735375
+                 CRUDE_W_micro     -66.515947
+                 EUR_micro           7.006596
+                 KR10              -48.155864
+                 MSCITAIWAN      -1464.845575
+                 NASDAQ_micro      -60.723828
+                 RUSSELL            37.181667
+                 SP500_micro        30.361914
+delay_cash Total Sum
+                   delay_cash
+strategy_name                
+dynamic_TF_carry -1504.955662
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry BUXL               -8.676482
+                 CRUDE_W_micro       -0.74737
+                 EUR_micro          -0.467106
+                 KR10               -2.534519
+                 MSCITAIWAN        -29.894808
+                 NASDAQ_micro       -0.186843
+                 RUSSELL            -0.186843
+                 SP500_micro        -0.467106
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -43.161077
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry BUXL                       0.0
+                 CRUDE_W_micro              0.0
+                 EUR_micro                 -0.0
+                 KR10                      -0.0
+                 MSCITAIWAN                 0.0
+                 NASDAQ_micro          0.373685
+                 RUSSELL                    0.0
+                 SP500_micro           1.868425
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry       2.242111
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry BUXL                   -17.352964
+                 CRUDE_W_micro            -1.49474
+                 EUR_micro                       0
+                 KR10                    -5.069038
+                 MSCITAIWAN             -59.789615
+                 NASDAQ_micro                 -0.0
+                 RUSSELL                 -0.373685
+                 SP500_micro              0.934213
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry        -83.145831
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry BUXL                                   0
+                 CRUDE_W_micro                          0
+                 EUR_micro                              0
+                 KR10                                   0
+                 MSCITAIWAN                             0
+                 NASDAQ_micro                           0
+                 RUSSELL                                0
+                 SP500_micro                            0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry BUXL                     -8.676482
+                 CRUDE_W_micro             -0.74737
+                 EUR_micro                -0.467106
+                 KR10                     -2.534519
+                 MSCITAIWAN              -29.894808
+                 NASDAQ_micro              0.186843
+                 RUSSELL                  -0.186843
+                 SP500_micro               1.401319
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry         -40.918966
 
 ********************************************************************************
                                  END OF REPORT                                  
