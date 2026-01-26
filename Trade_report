@@ -1,16 +1,25 @@
 
 ********************************************************************************
-Trades report produced on 23/01/2026 22:51 from 22/01/2026 22:51 to 23/01/2026 22:51
+Trades report produced on 26/01/2026 22:51 from 25/01/2026 22:51 to 26/01/2026 22:51
 ********************************************************************************
 
 
 
-============================================================================================
-                                       Broker orders                                        
-============================================================================================
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
-35557       EUR_micro  dynamic_TF_carry    [20260300] 2026-01-23 15:00:07  [1]        1.1775
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+35566         BITCOIN  dynamic_TF_carry    [20260200] 2026-01-26 15:00:16  [-1]    88535.0000
+35564             CAD  dynamic_TF_carry    [20260300] 2026-01-26 15:00:11   [1]        0.7321
+35563   CRUDE_W_micro  dynamic_TF_carry    [20260500] 2026-01-26 14:00:09   [1]       60.3800
+35567             DOW  dynamic_TF_carry    [20260300] 2026-01-26 15:00:18   [1]    49390.0000
+35565       EUR_micro  dynamic_TF_carry    [20260300] 2026-01-26 15:00:13   [1]        1.1907
+35561      FTSECHINAA  dynamic_TF_carry    [20260100] 2026-01-26 02:02:15  [-1]    14827.0000
+35559      FTSECHINAA  dynamic_TF_carry    [20260100] 2026-01-26 02:02:08  [-1]    14821.0000
+35562     GAS_US_mini  dynamic_TF_carry    [20260300] 2026-01-26 14:00:03  [-1]        3.6950
+35560     KRWUSD_mini  dynamic_TF_carry    [20260200] 2026-01-26 02:02:09   [1]        0.6930
+35558     KRWUSD_mini  dynamic_TF_carry    [20260200] 2026-01-26 02:00:32   [1]        0.6930
 
 
 =============================================================================================================================================================
@@ -18,68 +27,139 @@ Trades report produced on 23/01/2026 22:51 from 22/01/2026 22:51 to 23/01/2026 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-35557       EUR_micro  dynamic_TF_carry       2026-01-22 00:00:00  2026-01-23 15:00:05.217000  2026-01-23 15:00:07             140405.217               1.783
+35560     KRWUSD_mini  dynamic_TF_carry       2026-01-23 03:00:00  2026-01-26 02:02:09.318000  2026-01-26 02:02:09             255729.318                 NaN
+35558     KRWUSD_mini  dynamic_TF_carry       2026-01-23 03:00:00  2026-01-26 02:00:31.850000  2026-01-26 02:00:32              255631.85                0.15
+35561      FTSECHINAA  dynamic_TF_carry       2026-01-23 05:00:00  2026-01-26 02:02:14.486000  2026-01-26 02:02:15             248534.486               0.514
+35559      FTSECHINAA  dynamic_TF_carry       2026-01-23 05:00:00  2026-01-26 02:02:08.366000  2026-01-26 02:02:08             248528.366                 NaN
+35562     GAS_US_mini  dynamic_TF_carry       2026-01-23 00:00:00  2026-01-26 14:00:03.286000  2026-01-26 14:00:03             309603.286                 NaN
+35563   CRUDE_W_micro  dynamic_TF_carry       2026-01-23 00:00:00  2026-01-26 14:00:08.760000  2026-01-26 14:00:09              309608.76                0.24
+35564             CAD  dynamic_TF_carry       2026-01-23 00:00:00  2026-01-26 15:00:05.717000  2026-01-26 15:00:11             313205.717               5.283
+35565       EUR_micro  dynamic_TF_carry       2026-01-23 00:00:00  2026-01-26 15:00:12.653000  2026-01-26 15:00:13             313212.653               0.347
+35566         BITCOIN  dynamic_TF_carry       2026-01-23 00:00:00  2026-01-26 15:00:14.803000  2026-01-26 15:00:16             313214.803               1.197
+35567             DOW  dynamic_TF_carry       2026-01-23 00:00:00  2026-01-26 15:00:17.901000  2026-01-26 15:00:18             313217.901               0.099
 
 
-============================================================================================================================================================================================================================
-                                                                                                  Slippage (ticks per lot)                                                                                                  
-============================================================================================================================================================================================================================
+================================================================================================================================================================================================================================
+                                                                                                    Slippage (ticks per lot)                                                                                                    
+================================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
-35557       EUR_micro  dynamic_TF_carry   [1]                 1.1776               None    1.1775     1.1776        1.1774      1.1774       1.1775  0.0001 -0.0001    0.0001      -0.0001                 NaN           0.0
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
+35560     KRWUSD_mini  dynamic_TF_carry   [1]                 0.6819               None   0.69305     0.6931         0.693       0.693        0.693  -0.01115  -0.00005    0.0001          0.0                 NaN       0.00005
+35558     KRWUSD_mini  dynamic_TF_carry   [1]                 0.6819               None     0.693     0.6931        0.6929      0.6929        0.693   -0.0111   -0.0001    0.0001      -0.0001                 NaN           0.0
+35561      FTSECHINAA  dynamic_TF_carry  [-1]                14865.0               None   14821.5    14821.0       14822.0         NaN      14827.0     -43.5      -0.5       6.0          NaN                 NaN           5.5
+35559      FTSECHINAA  dynamic_TF_carry  [-1]                14865.0               None   14820.5    14820.0       14821.0     14821.0      14821.0     -44.5      -0.5       1.0         -0.0                 NaN           0.5
+35562     GAS_US_mini  dynamic_TF_carry  [-1]                   3.61               None    3.7025        3.7         3.705         NaN        3.695    0.0925   -0.0025    -0.005          NaN                 NaN       -0.0075
+35563   CRUDE_W_micro  dynamic_TF_carry   [1]                   60.6               None     60.35      60.36         60.34       60.34        60.38      0.25     -0.01     -0.02        -0.04                 NaN         -0.03
+35564             CAD  dynamic_TF_carry   [1]                0.73115               None  0.732125    0.73215        0.7321      0.7321       0.7321 -0.000975 -0.000025   0.00005          0.0                 NaN      0.000025
+35565       EUR_micro  dynamic_TF_carry   [1]                 1.1848               None   1.19075     1.1908        1.1907      1.1907       1.1907  -0.00595  -0.00005    0.0001          0.0                 NaN       0.00005
+35566         BITCOIN  dynamic_TF_carry  [-1]                90335.0               None   88520.0    88505.0       88535.0     88535.0      88535.0   -1815.0     -15.0      30.0         -0.0                 NaN          15.0
+35567             DOW  dynamic_TF_carry   [1]                49243.0               None   49390.5    49391.0       49390.0     49390.0      49390.0    -147.5      -0.5       1.0          0.0                 NaN           0.5
 
 
-=============================================================================================================================================================
-                                                    Slippage (normalised by annual vol, BP of annual SR)                                                     
-=============================================================================================================================================================
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
 
-      instrument_code     strategy_name trade last_annual_vol  delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-35557       EUR_micro  dynamic_TF_carry   [1]         0.06516  15.346944  -15.346944     15.346944       -15.346944                     NaN               0.0
+      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+35560     KRWUSD_mini  dynamic_TF_carry   [1]        0.066845 -1668.035896   -7.479982     14.959963              0.0                     NaN          7.479982
+35558     KRWUSD_mini  dynamic_TF_carry   [1]        0.066845 -1660.555915  -14.959963     14.959963       -14.959963                     NaN               0.0
+35561      FTSECHINAA  dynamic_TF_carry  [-1]     1912.846722  -227.409753   -2.613905     31.366862              NaN                     NaN         28.752957
+35559      FTSECHINAA  dynamic_TF_carry  [-1]     1912.846722  -232.637563   -2.613905       5.22781             -0.0                     NaN          2.613905
+35562     GAS_US_mini  dynamic_TF_carry  [-1]        2.576123   359.066738   -9.704506    -19.409013              NaN                     NaN        -29.113519
+35563   CRUDE_W_micro  dynamic_TF_carry   [1]       16.947085   147.517994    -5.90072     -11.80144       -23.602879                     NaN        -17.702159
+35564             CAD  dynamic_TF_carry   [1]        0.034038  -286.447317   -7.344803     14.689606              0.0                     NaN          7.344803
+35565       EUR_micro  dynamic_TF_carry   [1]        0.066444  -895.496121   -7.525177     15.050355              0.0                     NaN          7.525177
+35566         BITCOIN  dynamic_TF_carry  [-1]    36064.575311  -503.263933   -4.159206      8.318412             -0.0                     NaN          4.159206
+35567             DOW  dynamic_TF_carry   [1]     5746.017113  -256.699549   -0.870168      1.740336              0.0                     NaN          0.870168
 
 
-=======================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                      
-=======================================================================================================================================================================
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-35557       EUR_micro  dynamic_TF_carry   [1]           9264.81815   0.926482    -0.926482       0.926482         -0.926482                      NaN                0.0
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+35560     KRWUSD_mini  dynamic_TF_carry   [1]         18303.888478 -204.088357    -0.915194       1.830389               0.0                      NaN           0.915194
+35558     KRWUSD_mini  dynamic_TF_carry   [1]         18303.888478 -203.173162    -1.830389       1.830389         -1.830389                      NaN                0.0
+35561      FTSECHINAA  dynamic_TF_carry  [-1]             0.732156  -31.848766    -0.366078       4.392933               NaN                      NaN           4.026855
+35559      FTSECHINAA  dynamic_TF_carry  [-1]             0.732156  -32.580921    -0.366078       0.732156              -0.0                      NaN           0.366078
+35562     GAS_US_mini  dynamic_TF_carry  [-1]          1830.388848  169.310968    -4.575972      -9.151944               NaN                      NaN         -13.727916
+35563   CRUDE_W_micro  dynamic_TF_carry   [1]            73.215554   18.303888    -0.732156      -1.464311         -2.928622                      NaN          -2.196467
+35564             CAD  dynamic_TF_carry   [1]         73215.553912  -71.385165    -1.830389       3.660778               0.0                      NaN           1.830389
+35565       EUR_micro  dynamic_TF_carry   [1]          9151.944239  -54.454068    -0.457597       0.915194               0.0                      NaN           0.457597
+35566         BITCOIN  dynamic_TF_carry  [-1]             0.073216  -132.88623    -1.098233       2.196467              -0.0                      NaN           1.098233
+35567             DOW  dynamic_TF_carry   [1]             0.366078  -53.996471    -0.183039       0.366078               0.0                      NaN           0.183039
 
 delay_cash Sum
-                                 delay_cash
-strategy_name    instrument_code           
-dynamic_TF_carry EUR_micro         0.926482
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry BITCOIN          -132.88623
+                 CAD              -71.385165
+                 CRUDE_W_micro     18.303888
+                 DOW              -53.996471
+                 EUR_micro        -54.454068
+                 FTSECHINAA       -64.429687
+                 GAS_US_mini      169.310968
+                 KRWUSD_mini     -407.261519
 delay_cash Total Sum
-                 delay_cash
-strategy_name              
-dynamic_TF_carry   0.926482
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -596.798284
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry EUR_micro          -0.926482
+dynamic_TF_carry BITCOIN            -1.098233
+                 CAD                -1.830389
+                 CRUDE_W_micro      -0.732156
+                 DOW                -0.183039
+                 EUR_micro          -0.457597
+                 FTSECHINAA         -0.732156
+                 GAS_US_mini        -4.575972
+                 KRWUSD_mini        -2.745583
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -0.926482
+dynamic_TF_carry   -12.355125
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry EUR_micro             0.926482
+dynamic_TF_carry BITCOIN               2.196467
+                 CAD                   3.660778
+                 CRUDE_W_micro        -1.464311
+                 DOW                   0.366078
+                 EUR_micro             0.915194
+                 FTSECHINAA            5.125089
+                 GAS_US_mini          -9.151944
+                 KRWUSD_mini           3.660778
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry       0.926482
+dynamic_TF_carry       5.308128
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry EUR_micro               -0.926482
+dynamic_TF_carry BITCOIN                      -0.0
+                 CAD                           0.0
+                 CRUDE_W_micro           -2.928622
+                 DOW                           0.0
+                 EUR_micro                     0.0
+                 FTSECHINAA                   -0.0
+                 GAS_US_mini                     0
+                 KRWUSD_mini             -1.830389
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry         -0.926482
+dynamic_TF_carry         -4.759011
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry EUR_micro                              0
+dynamic_TF_carry BITCOIN                                0
+                 CAD                                    0
+                 CRUDE_W_micro                          0
+                 DOW                                    0
+                 EUR_micro                              0
+                 FTSECHINAA                             0
+                 GAS_US_mini                            0
+                 KRWUSD_mini                            0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -87,11 +167,18 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry EUR_micro                      0.0
+dynamic_TF_carry BITCOIN                   1.098233
+                 CAD                       1.830389
+                 CRUDE_W_micro            -2.196467
+                 DOW                       0.183039
+                 EUR_micro                 0.457597
+                 FTSECHINAA                4.392933
+                 GAS_US_mini             -13.727916
+                 KRWUSD_mini               0.915194
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry                0.0
+dynamic_TF_carry          -7.046997
 
 ********************************************************************************
                                  END OF REPORT                                  
