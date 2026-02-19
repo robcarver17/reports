@@ -1,85 +1,95 @@
 
 ********************************************************************************
-Trades report produced on 18/02/2026 22:51 from 17/02/2026 22:51 to 18/02/2026 22:51
+Trades report produced on 19/02/2026 22:51 from 18/02/2026 22:51 to 19/02/2026 22:51
 ********************************************************************************
 
 
 
-================================================================================================
-                                         Broker orders                                          
-================================================================================================
+=================================================================================================
+                                          Broker orders                                          
+=================================================================================================
 
-      instrument_code     strategy_name contract_date           fill_datetime fill  filled_price
-35693         BITCOIN  dynamic_TF_carry    [20260300] 2026-02-18 11:01:41.906  [1]       67850.0
-
-
-========================================================================================================================================================
-                                                                         Delays                                                                         
-========================================================================================================================================================
-
-      instrument_code     strategy_name parent_reference_datetime submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
-35693         BITCOIN  dynamic_TF_carry                      None            None  2026-02-18 11:01:41.906000                    NaN                 NaN
+      instrument_code     strategy_name contract_date           fill_datetime  fill  filled_price
+35695         BITCOIN  dynamic_TF_carry    [20260300] 2026-02-19 11:26:52.315  [-1]       66535.0
+35694           TOPIX  dynamic_TF_carry    [20260300] 2026-02-19 02:00:36.000   [1]        3839.5
 
 
-==========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                 
-==========================================================================================================================================================================================================================
+====================================================================================================================================================================
+                                                                               Delays                                                                               
+====================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
-35693         BITCOIN  dynamic_TF_carry   [1]                   None               None      None       None          None        None      67850.0   NaN     NaN       NaN          NaN                 NaN           NaN
-
-
-============================================================================================================================================================
-                                                    Slippage (normalised by annual vol, BP of annual SR)                                                    
-============================================================================================================================================================
-
-      instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-35693         BITCOIN  dynamic_TF_carry   [1]    48773.373733       NaN         NaN           NaN              NaN                     NaN               NaN
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
+35694           TOPIX  dynamic_TF_carry       2026-02-17 00:00:00  2026-02-19 02:00:33.286000         2026-02-19 02:00:36             180033.286               2.714
+35695         BITCOIN  dynamic_TF_carry                       NaT                         NaT  2026-02-19 11:26:52.315000                    NaN                 NaN
 
 
-=======================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                      
-=======================================================================================================================================================================
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-35693         BITCOIN  dynamic_TF_carry   [1]             0.073709        NaN          NaN            NaN               NaN                      NaN                NaN
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+35694           TOPIX  dynamic_TF_carry   [1]                 3758.5               None   3839.75     3840.0        3839.5      3839.5       3839.5 -81.25   -0.25       0.5          0.0                 NaN          0.25
+35695         BITCOIN  dynamic_TF_carry  [-1]                    NaN               None       NaN        NaN           NaN         NaN      66535.0    NaN     NaN       NaN          NaN                 NaN           NaN
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+35694           TOPIX  dynamic_TF_carry   [1]      716.089602 -1134.634546   -3.491183      6.982366              0.0                     NaN          3.491183
+35695         BITCOIN  dynamic_TF_carry  [-1]    47848.347544          NaN         NaN           NaN              NaN                     NaN               NaN
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+35694           TOPIX  dynamic_TF_carry   [1]              4.77707 -388.136947    -1.194268       2.388535               0.0                      NaN           1.194268
+35695         BITCOIN  dynamic_TF_carry  [-1]             0.074086         NaN          NaN            NaN               NaN                      NaN                NaN
 
 delay_cash Sum
-                                 delay_cash
-strategy_name    instrument_code           
-dynamic_TF_carry BITCOIN                  0
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry BITCOIN                   0
+                 TOPIX           -388.136947
 delay_cash Total Sum
-                 delay_cash
-strategy_name              
-dynamic_TF_carry          0
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -388.136947
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
 dynamic_TF_carry BITCOIN                    0
+                 TOPIX              -1.194268
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry            0
+dynamic_TF_carry    -1.194268
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
 dynamic_TF_carry BITCOIN                      0
+                 TOPIX                 2.388535
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry              0
+dynamic_TF_carry       2.388535
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
 dynamic_TF_carry BITCOIN                         0
+                 TOPIX                         0.0
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry                 0
+dynamic_TF_carry               0.0
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
 dynamic_TF_carry BITCOIN                                0
+                 TOPIX                                  0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -88,10 +98,11 @@ total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
 dynamic_TF_carry BITCOIN                          0
+                 TOPIX                     1.194268
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry                  0
+dynamic_TF_carry           1.194268
 
 ********************************************************************************
                                  END OF REPORT                                  
