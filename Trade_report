@@ -1,16 +1,23 @@
 
 ********************************************************************************
-Trades report produced on 27/02/2026 22:51 from 26/02/2026 22:51 to 27/02/2026 22:51
+Trades report produced on 02/03/2026 22:51 from 01/03/2026 22:51 to 02/03/2026 22:51
 ********************************************************************************
 
 
 
-============================================================================================
-                                       Broker orders                                        
-============================================================================================
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
-35728           CAD10  dynamic_TF_carry    [20260600] 2026-02-27 14:08:34  [1]        122.65
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+35735             BRE  dynamic_TF_carry    [20260400] 2026-03-02 17:04:11   [1]       0.19115
+35730             BTP  dynamic_TF_carry    [20260300] 2026-03-02 08:00:13  [-1]     122.64000
+35729            BUND  dynamic_TF_carry    [20260300] 2026-03-02 08:00:06  [-1]     130.17000
+35731            BUND  dynamic_TF_carry    [20260300] 2026-03-02 08:00:14  [-1]     130.19000
+35734           CAD10  dynamic_TF_carry    [20260600] 2026-03-02 17:03:39   [1]     122.02000
+35733   CRUDE_W_micro  dynamic_TF_carry    [20260600] 2026-03-02 16:57:21   [1]      69.58000
+35732       EUR_micro  dynamic_TF_carry    [20260600] 2026-03-02 16:57:19   [1]       1.17530
+35736         LIVECOW  dynamic_TF_carry    [20260600] 2026-03-02 17:04:14  [-1]     228.32500
 
 
 =============================================================================================================================================================
@@ -18,68 +25,126 @@ Trades report produced on 27/02/2026 22:51 from 26/02/2026 22:51 to 27/02/2026 2
 =============================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-35728           CAD10  dynamic_TF_carry       2026-02-26 00:00:00  2026-02-27 14:00:08.951000  2026-02-27 14:08:34             136808.951             505.049
+35730             BTP  dynamic_TF_carry       2026-02-27 16:00:00  2026-03-02 08:00:12.068000  2026-03-02 08:00:13             230412.068               0.932
+35729            BUND  dynamic_TF_carry       2026-02-27 16:00:00  2026-03-02 08:00:05.549000  2026-03-02 08:00:06             230405.549               0.451
+35731            BUND  dynamic_TF_carry       2026-02-27 16:00:00  2026-03-02 08:00:14.484000  2026-03-02 08:00:14             230414.484                 NaN
+35732       EUR_micro  dynamic_TF_carry       2026-02-27 00:00:00  2026-03-02 16:57:18.736000  2026-03-02 16:57:19             320238.736               0.264
+35733   CRUDE_W_micro  dynamic_TF_carry       2026-02-27 00:00:00  2026-03-02 16:57:20.694000  2026-03-02 16:57:21             320240.694               0.306
+35734           CAD10  dynamic_TF_carry       2026-02-27 00:00:00  2026-03-02 16:57:23.179000  2026-03-02 17:03:39             320243.179             375.821
+35735             BRE  dynamic_TF_carry       2026-02-27 00:00:00  2026-03-02 17:03:40.424000  2026-03-02 17:04:11             320620.424              30.576
+35736         LIVECOW  dynamic_TF_carry       2026-02-27 00:00:00  2026-03-02 17:04:12.381000  2026-03-02 17:04:14             320652.381               1.619
 
 
-===========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                  
-===========================================================================================================================================================================================================================
+================================================================================================================================================================================================================================
+                                                                                                    Slippage (ticks per lot)                                                                                                    
+================================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
-35728           CAD10  dynamic_TF_carry   [1]                 122.56               None   122.565     122.57        122.56      122.56       122.65 -0.005  -0.005     -0.08        -0.09                 NaN        -0.085
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
+35730             BTP  dynamic_TF_carry  [-1]                 122.82               None   122.635     122.63        122.64      122.64       122.64    -0.185    -0.005      0.01         -0.0                 NaN         0.005
+35729            BUND  dynamic_TF_carry  [-1]                 130.28               None   130.185     130.18        130.19      130.19       130.17    -0.095    -0.005     -0.01        -0.02                 NaN        -0.015
+35731            BUND  dynamic_TF_carry  [-1]                 130.28               None   130.175     130.17        130.18      130.18       130.19    -0.105    -0.005      0.02         0.01                 NaN         0.015
+35732       EUR_micro  dynamic_TF_carry   [1]                 1.1881               None    1.1752     1.1753        1.1751      1.1751       1.1753    0.0129   -0.0001       0.0      -0.0002                 NaN       -0.0001
+35733   CRUDE_W_micro  dynamic_TF_carry   [1]                  66.56               None     69.54      69.57         69.51       69.51        69.58     -2.98     -0.03     -0.01        -0.07                 NaN         -0.04
+35734           CAD10  dynamic_TF_carry   [1]                 122.82               None   121.995      122.0        121.99      121.99       122.02     0.825    -0.005     -0.02        -0.03                 NaN        -0.025
+35735             BRE  dynamic_TF_carry   [1]                0.19335               None  0.191075     0.1911       0.19105     0.19105      0.19115  0.002275 -0.000025  -0.00005      -0.0001                 NaN     -0.000075
+35736         LIVECOW  dynamic_TF_carry  [-1]                 229.05               None    228.35    228.325       228.375     228.375      228.325      -0.7    -0.025      -0.0        -0.05                 NaN        -0.025
 
 
-============================================================================================================================================================
-                                                    Slippage (normalised by annual vol, BP of annual SR)                                                    
-============================================================================================================================================================
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
 
-      instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-35728           CAD10  dynamic_TF_carry   [1]        4.655242 -10.74058   -10.74058   -171.849275      -193.330435                     NaN       -182.589855
+      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+35730             BTP  dynamic_TF_carry  [-1]        4.576188  -404.266624  -10.926125      21.85225             -0.0                     NaN         10.926125
+35729            BUND  dynamic_TF_carry  [-1]        4.892956  -194.156669  -10.218772    -20.437544       -40.875088                     NaN        -30.656316
+35731            BUND  dynamic_TF_carry  [-1]        4.892956  -214.594213  -10.218772     40.875088        20.437544                     NaN         30.656316
+35732       EUR_micro  dynamic_TF_carry   [1]        0.084409  1528.272206  -11.847071           0.0       -23.694143                     NaN        -11.847071
+35733   CRUDE_W_micro  dynamic_TF_carry   [1]       21.287407 -1399.888665  -14.092839     -4.697613       -32.883291                     NaN        -18.790452
+35734           CAD10  dynamic_TF_carry   [1]        5.592091  1475.297987     -8.9412      -35.7648         -53.6472                     NaN           -44.706
+35735             BRE  dynamic_TF_carry   [1]        0.017255   1318.43856  -14.488336    -28.976672       -57.953343                     NaN        -43.465007
+35736         LIVECOW  dynamic_TF_carry  [-1]       32.680938  -214.192141   -7.649719          -0.0       -15.299439                     NaN         -7.649719
 
 
-=======================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                      
-=======================================================================================================================================================================
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-35728           CAD10  dynamic_TF_carry   [1]           543.200663  -2.716003    -2.716003     -43.456053         -48.88806                      NaN         -46.172056
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+35730             BTP  dynamic_TF_carry  [-1]           876.901116 -162.226706    -4.384506       8.769011              -0.0                      NaN           4.384506
+35729            BUND  dynamic_TF_carry  [-1]           876.901116  -83.305606    -4.384506      -8.769011        -17.538022                      NaN         -13.153517
+35731            BUND  dynamic_TF_carry  [-1]           876.901116  -92.074617    -4.384506      17.538022          8.769011                      NaN          13.153517
+35732       EUR_micro  dynamic_TF_carry   [1]          9342.092479  120.512993    -0.934209            0.0         -1.868418                      NaN          -0.934209
+35733   CRUDE_W_micro  dynamic_TF_carry   [1]             74.73674 -222.715485    -2.242102      -0.747367         -5.231572                      NaN           -2.98947
+35734           CAD10  dynamic_TF_carry   [1]           547.083035  451.343504    -2.735415     -10.941661        -16.412491                      NaN         -13.677076
+35735             BRE  dynamic_TF_carry   [1]         74736.739834  170.026083    -1.868418      -3.736837         -7.473674                      NaN          -5.605255
+35736         LIVECOW  dynamic_TF_carry  [-1]           298.946959 -209.262872    -7.473674           -0.0        -14.947348                      NaN          -7.473674
 
 delay_cash Sum
-                                 delay_cash
-strategy_name    instrument_code           
-dynamic_TF_carry CAD10            -2.716003
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry BRE              170.026083
+                 BTP             -162.226706
+                 BUND            -175.380223
+                 CAD10            451.343504
+                 CRUDE_W_micro   -222.715485
+                 EUR_micro        120.512993
+                 LIVECOW         -209.262872
 delay_cash Total Sum
                  delay_cash
 strategy_name              
-dynamic_TF_carry  -2.716003
+dynamic_TF_carry -27.702706
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry CAD10              -2.716003
+dynamic_TF_carry BRE                -1.868418
+                 BTP                -4.384506
+                 BUND               -8.769011
+                 CAD10              -2.735415
+                 CRUDE_W_micro      -2.242102
+                 EUR_micro          -0.934209
+                 LIVECOW            -7.473674
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -2.716003
+dynamic_TF_carry   -28.407336
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry CAD10               -43.456053
+dynamic_TF_carry BRE                  -3.736837
+                 BTP                   8.769011
+                 BUND                  8.769011
+                 CAD10               -10.941661
+                 CRUDE_W_micro        -0.747367
+                 EUR_micro                  0.0
+                 LIVECOW                   -0.0
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry     -43.456053
+dynamic_TF_carry       2.112157
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry CAD10                   -48.88806
+dynamic_TF_carry BRE                     -7.473674
+                 BTP                          -0.0
+                 BUND                    -8.769011
+                 CAD10                  -16.412491
+                 CRUDE_W_micro           -5.231572
+                 EUR_micro               -1.868418
+                 LIVECOW                -14.947348
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry         -48.88806
+dynamic_TF_carry        -54.702514
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry CAD10                                  0
+dynamic_TF_carry BRE                                    0
+                 BTP                                    0
+                 BUND                                   0
+                 CAD10                                  0
+                 CRUDE_W_micro                          0
+                 EUR_micro                              0
+                 LIVECOW                                0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -87,11 +152,17 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry CAD10                   -46.172056
+dynamic_TF_carry BRE                      -5.605255
+                 BTP                       4.384506
+                 BUND                          -0.0
+                 CAD10                   -13.677076
+                 CRUDE_W_micro             -2.98947
+                 EUR_micro                -0.934209
+                 LIVECOW                  -7.473674
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry         -46.172056
+dynamic_TF_carry         -26.295179
 
 ********************************************************************************
                                  END OF REPORT                                  
