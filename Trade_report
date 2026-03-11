@@ -1,114 +1,108 @@
 
 ********************************************************************************
-Trades report produced on 10/03/2026 22:51 from 09/03/2026 22:51 to 10/03/2026 22:51
+Trades report produced on 11/03/2026 22:51 from 10/03/2026 22:51 to 11/03/2026 22:51
 ********************************************************************************
 
 
 
-=============================================================================================================
-                                                Broker orders                                                
-=============================================================================================================
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
 
-      instrument_code          strategy_name         contract_date       fill_datetime     fill  filled_price
-35791      FTSECHINAA       dynamic_TF_carry            [20260400] 2026-03-10 02:02:06      [1]       14617.0
-35792           MUMMY  _ROLL_PSEUDO_STRATEGY  [20260300, 20260600] 2026-03-10 02:02:39  [-1, 1]          23.0
-
-
-==================================================================================================================================================================
-                                                                              Delays                                                                              
-==================================================================================================================================================================
-
-      instrument_code          strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-35791      FTSECHINAA       dynamic_TF_carry       2026-03-09 00:00:00  2026-03-10 02:02:05.356000  2026-03-10 02:02:06              93725.356               0.644
-35792           MUMMY  _ROLL_PSEUDO_STRATEGY       2026-03-09 09:00:00  2026-03-10 02:02:09.786000  2026-03-10 02:02:39              61329.786              29.214
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+35794           CAD10  dynamic_TF_carry    [20260600] 2026-03-11 14:00:09  [-1]        120.17
+35793      FTSECHINAA  dynamic_TF_carry    [20260400] 2026-03-11 02:02:04   [1]      14732.00
 
 
-===================================================================================================================================================================================================================================
-                                                                                                     Slippage (ticks per lot)                                                                                                      
-===================================================================================================================================================================================================================================
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
 
-      instrument_code          strategy_name    trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
-35791      FTSECHINAA       dynamic_TF_carry      [1]                14497.0               None   14614.0    14616.0       14612.0     14612.0      14617.0 -117.0    -2.0      -1.0         -5.0                 NaN          -3.0
-35792           MUMMY  _ROLL_PSEUDO_STRATEGY  [-1, 1]                   17.0               None     22.25       21.5          23.0        23.0         23.0   5.25   -0.75       1.5         -0.0                 NaN          0.75
-
-
-======================================================================================================================================================================
-                                                         Slippage (normalised by annual vol, BP of annual SR)                                                         
-======================================================================================================================================================================
-
-      instrument_code          strategy_name    trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-35791      FTSECHINAA       dynamic_TF_carry      [1]     2146.339261 -545.114196   -9.318191     -4.659096       -23.295478                     NaN        -13.977287
-35792           MUMMY  _ROLL_PSEUDO_STRATEGY  [-1, 1]      192.918264  272.135976  -38.876568     77.753136             -0.0                     NaN         38.876568
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+35793      FTSECHINAA  dynamic_TF_carry       2026-03-10 00:00:00  2026-03-11 02:02:03.283000  2026-03-11 02:02:04              93723.283               0.717
+35794           CAD10  dynamic_TF_carry       2026-03-10 00:00:00  2026-03-11 14:00:09.130000  2026-03-11 14:00:09              136809.13                 NaN
 
 
-===============================================================================================================================================================================
-                                                                          Slippage (In base currency)                                                                          
-===============================================================================================================================================================================
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
 
-      instrument_code          strategy_name    trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-35791      FTSECHINAA       dynamic_TF_carry      [1]             0.743481 -86.987231    -1.486961      -0.743481         -3.717403                      NaN          -2.230442
-35792           MUMMY  _ROLL_PSEUDO_STRATEGY  [-1, 1]             4.718909  24.774271    -3.539182       7.078363              -0.0                      NaN           3.539182
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+35793      FTSECHINAA  dynamic_TF_carry   [1]                14635.0               None   14729.0    14731.0       14727.0         NaN      14732.0  -94.0    -2.0      -1.0          NaN                 NaN          -3.0
+35794           CAD10  dynamic_TF_carry  [-1]                 120.45               None   120.095     120.09         120.1       120.1       120.17 -0.355  -0.005      0.08         0.07                 NaN         0.075
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+35793      FTSECHINAA  dynamic_TF_carry   [1]     2194.111501 -428.419431   -9.115307     -4.557654              NaN                     NaN        -13.672961
+35794           CAD10  dynamic_TF_carry  [-1]        7.500406 -473.307708   -6.666306    106.660892         93.32828                     NaN         99.994586
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+35793      FTSECHINAA  dynamic_TF_carry   [1]             0.743569  -69.895491    -1.487138      -0.743569               NaN                      NaN          -2.230707
+35794           CAD10  dynamic_TF_carry  [-1]           548.092033 -194.572672     -2.74046      43.847363         38.366442                      NaN          41.106903
 
 delay_cash Sum
-                                      delay_cash
-strategy_name         instrument_code           
-_ROLL_PSEUDO_STRATEGY MUMMY            24.774271
-dynamic_TF_carry      FTSECHINAA      -86.987231
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry CAD10           -194.572672
+                 FTSECHINAA       -69.895491
 delay_cash Total Sum
-                      delay_cash
-strategy_name                   
-_ROLL_PSEUDO_STRATEGY  24.774271
-dynamic_TF_carry      -86.987231
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -264.468163
 bid_ask_cash Sum
-                                      bid_ask_cash
-strategy_name         instrument_code             
-_ROLL_PSEUDO_STRATEGY MUMMY              -3.539182
-dynamic_TF_carry      FTSECHINAA         -1.486961
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry CAD10               -2.74046
+                 FTSECHINAA         -1.487138
 bid_ask_cash Total Sum
-                      bid_ask_cash
-strategy_name                     
-_ROLL_PSEUDO_STRATEGY    -3.539182
-dynamic_TF_carry         -1.486961
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry    -4.227598
 execution_cash Sum
-                                      execution_cash
-strategy_name         instrument_code               
-_ROLL_PSEUDO_STRATEGY MUMMY                 7.078363
-dynamic_TF_carry      FTSECHINAA           -0.743481
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry CAD10                43.847363
+                 FTSECHINAA           -0.743569
 execution_cash Total Sum
-                      execution_cash
-strategy_name                       
-_ROLL_PSEUDO_STRATEGY       7.078363
-dynamic_TF_carry           -0.743481
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry      43.103794
 versus_limit_cash Sum
-                                      versus_limit_cash
-strategy_name         instrument_code                  
-_ROLL_PSEUDO_STRATEGY MUMMY                        -0.0
-dynamic_TF_carry      FTSECHINAA              -3.717403
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry CAD10                   38.366442
+                 FTSECHINAA                      0
 versus_limit_cash Total Sum
-                      versus_limit_cash
-strategy_name                          
-_ROLL_PSEUDO_STRATEGY              -0.0
-dynamic_TF_carry              -3.717403
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry         38.366442
 versus_parent_limit_cash Sum
-                                      versus_parent_limit_cash
-strategy_name         instrument_code                         
-_ROLL_PSEUDO_STRATEGY MUMMY                                  0
-dynamic_TF_carry      FTSECHINAA                             0
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry CAD10                                  0
+                 FTSECHINAA                             0
 versus_parent_limit_cash Total Sum
-                      versus_parent_limit_cash
-strategy_name                                 
-_ROLL_PSEUDO_STRATEGY                        0
-dynamic_TF_carry                             0
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
 total_trading_cash Sum
-                                      total_trading_cash
-strategy_name         instrument_code                   
-_ROLL_PSEUDO_STRATEGY MUMMY                     3.539182
-dynamic_TF_carry      FTSECHINAA               -2.230442
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry CAD10                    41.106903
+                 FTSECHINAA               -2.230707
 total_trading_cash Total Sum
-                      total_trading_cash
-strategy_name                           
-_ROLL_PSEUDO_STRATEGY           3.539182
-dynamic_TF_carry               -2.230442
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry          38.876195
 
 ********************************************************************************
                                  END OF REPORT                                  
