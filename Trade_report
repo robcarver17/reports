@@ -1,85 +1,160 @@
 
 ********************************************************************************
-Trades report produced on 19/03/2026 22:51 from 18/03/2026 22:51 to 19/03/2026 22:51
+Trades report produced on 20/03/2026 22:51 from 19/03/2026 22:51 to 20/03/2026 22:51
 ********************************************************************************
 
 
 
-================================================================================================
-                                         Broker orders                                          
-================================================================================================
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
 
-      instrument_code     strategy_name contract_date           fill_datetime fill  filled_price
-35852            KR10  dynamic_TF_carry    [20260300] 2026-03-19 08:27:02.075  [3]        111.07
-
-
-========================================================================================================================================================
-                                                                         Delays                                                                         
-========================================================================================================================================================
-
-      instrument_code     strategy_name parent_reference_datetime submit_datetime               fill_datetime submit_minus_generated filled_minus_submit
-35852            KR10  dynamic_TF_carry                      None            None  2026-03-19 08:27:02.075000                    NaN                 NaN
-
-
-==========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                 
-==========================================================================================================================================================================================================================
-
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
-35852            KR10  dynamic_TF_carry   [3]                   None               None      None       None          None        None       111.07   NaN     NaN       NaN          NaN                 NaN           NaN
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+35858       AUD_micro  dynamic_TF_carry    [20260600] 2026-03-20 15:00:11   [1]       0.70300
+35856         BITCOIN  dynamic_TF_carry    [20260400] 2026-03-20 15:00:03  [-1]   70075.00000
+35857             CHF  dynamic_TF_carry    [20260600] 2026-03-20 15:00:05  [-1]       1.27875
+35855         EUROSTX  dynamic_TF_carry    [20260600] 2026-03-20 08:00:10  [-1]    5595.00000
+35860             GBP  dynamic_TF_carry    [20260600] 2026-03-20 15:00:14   [1]       1.33060
+35854       HANG_mini  dynamic_TF_carry    [20260400] 2026-03-20 02:15:04   [1]   25351.00000
+35853            KR10  dynamic_TF_carry    [20260600] 2026-03-20 02:02:23  [-1]     110.72000
+35859     SP500_micro  dynamic_TF_carry    [20260600] 2026-03-20 15:00:13  [-1]    6601.25000
+35861     SP500_micro  dynamic_TF_carry    [20260600] 2026-03-20 15:00:20  [-1]    6603.25000
 
 
-============================================================================================================================================================
-                                                    Slippage (normalised by annual vol, BP of annual SR)                                                    
-============================================================================================================================================================
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
 
-      instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-35852            KR10  dynamic_TF_carry   [3]        7.013332       NaN         NaN           NaN              NaN                     NaN               NaN
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+35853            KR10  dynamic_TF_carry       2026-03-17 00:00:00  2026-03-20 02:02:03.924000  2026-03-20 02:02:23             266523.924              19.076
+35854       HANG_mini  dynamic_TF_carry       2026-03-19 00:00:00  2026-03-20 02:15:03.816000  2026-03-20 02:15:04              94503.816               0.184
+35855         EUROSTX  dynamic_TF_carry       2026-03-19 00:00:00  2026-03-20 08:00:10.564000  2026-03-20 08:00:10             115210.564                 NaN
+35856         BITCOIN  dynamic_TF_carry       2026-03-19 00:00:00  2026-03-20 15:00:03.214000  2026-03-20 15:00:03             140403.214                 NaN
+35857             CHF  dynamic_TF_carry       2026-03-19 00:00:00  2026-03-20 15:00:04.843000  2026-03-20 15:00:05             140404.843               0.157
+35858       AUD_micro  dynamic_TF_carry       2026-03-19 00:00:00  2026-03-20 15:00:06.746000  2026-03-20 15:00:11             140406.746               4.254
+35860             GBP  dynamic_TF_carry       2026-03-19 00:00:00  2026-03-20 15:00:14.792000  2026-03-20 15:00:14             140414.792                 NaN
+35859     SP500_micro  dynamic_TF_carry       2026-03-19 00:00:00  2026-03-20 15:00:13.135000  2026-03-20 15:00:13             140413.135                 NaN
+35861     SP500_micro  dynamic_TF_carry       2026-03-19 00:00:00  2026-03-20 15:00:20.317000  2026-03-20 15:00:20             140420.317                 NaN
 
 
-=======================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                      
-=======================================================================================================================================================================
+==============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                   
+==============================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-35852            KR10  dynamic_TF_carry   [3]           507.096716        NaN          NaN            NaN               NaN                      NaN                NaN
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
+35853            KR10  dynamic_TF_carry  [-1]                 110.61               None   110.715     110.71        110.72      110.72       110.72    0.105   -0.005      0.01         -0.0                 NaN         0.005
+35854       HANG_mini  dynamic_TF_carry   [1]                25520.0               None   25352.5    25354.0       25351.0     25351.0      25351.0    167.5     -1.5       3.0          0.0                 NaN           1.5
+35855         EUROSTX  dynamic_TF_carry  [-1]                 5555.0               None    5596.5     5596.0        5597.0         NaN       5595.0     41.5     -0.5      -1.0          NaN                 NaN          -1.5
+35856         BITCOIN  dynamic_TF_carry  [-1]                70585.0               None   70085.0    70075.0       70095.0     70095.0      70075.0   -500.0    -10.0      -0.0        -20.0                 NaN         -10.0
+35857             CHF  dynamic_TF_carry  [-1]                 1.2807               None    1.2787    1.27865       1.27875     1.27875      1.27875   -0.002 -0.00005    0.0001         -0.0                 NaN       0.00005
+35858       AUD_micro  dynamic_TF_carry   [1]                 0.7076               None   0.70285     0.7029        0.7028      0.7028        0.703  0.00475 -0.00005   -0.0001      -0.0002                 NaN      -0.00015
+35860             GBP  dynamic_TF_carry   [1]                 1.3427               None   1.33055     1.3306        1.3305         NaN       1.3306  0.01215 -0.00005       0.0          NaN                 NaN      -0.00005
+35859     SP500_micro  dynamic_TF_carry  [-1]                 6658.5               None  6601.625     6601.5       6601.75     6601.75      6601.25  -56.875   -0.125     -0.25         -0.5                 NaN        -0.375
+35861     SP500_micro  dynamic_TF_carry  [-1]                 6658.5               None  6601.375    6601.25        6601.5      6601.5      6603.25  -57.125   -0.125       2.0         1.75                 NaN         1.875
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+35853            KR10  dynamic_TF_carry  [-1]        7.013332   149.714855   -7.129279     14.258558             -0.0                     NaN          7.129279
+35854       HANG_mini  dynamic_TF_carry   [1]     5492.604804   304.955492   -2.730945      5.461889              0.0                     NaN          2.730945
+35855         EUROSTX  dynamic_TF_carry  [-1]     1089.868386   380.779923    -4.58771      -9.17542              NaN                     NaN         -13.76313
+35856         BITCOIN  dynamic_TF_carry  [-1]    42413.955153  -117.885728   -2.357715          -0.0        -4.715429                     NaN         -2.357715
+35857             CHF  dynamic_TF_carry  [-1]        0.117447  -170.289833   -4.257246      8.514492             -0.0                     NaN          4.257246
+35858       AUD_micro  dynamic_TF_carry   [1]         0.07149   664.429102   -6.993991    -13.987981       -27.975962                     NaN        -20.981972
+35860             GBP  dynamic_TF_carry   [1]        0.111525  1089.437338   -4.483281           0.0              NaN                     NaN         -4.483281
+35859     SP500_micro  dynamic_TF_carry  [-1]      874.418095   -650.43256   -1.429522     -2.859044        -5.718088                     NaN         -4.288566
+35861     SP500_micro  dynamic_TF_carry  [-1]      874.418095  -653.291604   -1.429522     22.872354         20.01331                     NaN         21.442832
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+35853            KR10  dynamic_TF_carry  [-1]           497.461399   52.233447    -2.487307       4.974614              -0.0                      NaN           2.487307
+35854       HANG_mini  dynamic_TF_carry   [1]             0.952314  159.512565    -1.428471       2.856941               0.0                      NaN           1.428471
+35855         EUROSTX  dynamic_TF_carry  [-1]             8.623858  357.890107    -4.311929      -8.623858               NaN                      NaN         -12.935787
+35856         BITCOIN  dynamic_TF_carry  [-1]              0.07461  -37.304942    -0.746099           -0.0         -1.492198                      NaN          -0.746099
+35857             CHF  dynamic_TF_carry  [-1]         93262.354464 -186.524709    -4.663118       9.326235              -0.0                      NaN           4.663118
+35858       AUD_micro  dynamic_TF_carry   [1]          7460.988357   35.439695    -0.373049      -0.746099         -1.492198                      NaN          -1.119148
+35860             GBP  dynamic_TF_carry   [1]         46631.177232  566.568803    -2.331559            0.0               NaN                      NaN          -2.331559
+35859     SP500_micro  dynamic_TF_carry  [-1]             3.730494 -212.171856    -0.466312      -0.932624         -1.865247                      NaN          -1.398935
+35861     SP500_micro  dynamic_TF_carry  [-1]             3.730494  -213.10448    -0.466312       7.460988          6.528365                      NaN           6.994677
 
 delay_cash Sum
-                                 delay_cash
-strategy_name    instrument_code           
-dynamic_TF_carry KR10                     0
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry AUD_micro         35.439695
+                 BITCOIN          -37.304942
+                 CHF             -186.524709
+                 EUROSTX          357.890107
+                 GBP              566.568803
+                 HANG_mini        159.512565
+                 KR10              52.233447
+                 SP500_micro     -425.276336
 delay_cash Total Sum
                  delay_cash
 strategy_name              
-dynamic_TF_carry          0
+dynamic_TF_carry  522.53863
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry KR10                       0
+dynamic_TF_carry AUD_micro          -0.373049
+                 BITCOIN            -0.746099
+                 CHF                -4.663118
+                 EUROSTX            -4.311929
+                 GBP                -2.331559
+                 HANG_mini          -1.428471
+                 KR10               -2.487307
+                 SP500_micro        -0.932624
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry            0
+dynamic_TF_carry   -17.274155
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry KR10                         0
+dynamic_TF_carry AUD_micro            -0.746099
+                 BITCOIN                   -0.0
+                 CHF                   9.326235
+                 EUROSTX              -8.623858
+                 GBP                        0.0
+                 HANG_mini             2.856941
+                 KR10                  4.974614
+                 SP500_micro           6.528365
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry              0
+dynamic_TF_carry      14.316199
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry KR10                            0
+dynamic_TF_carry AUD_micro               -1.492198
+                 BITCOIN                 -1.492198
+                 CHF                          -0.0
+                 EUROSTX                         0
+                 GBP                             0
+                 HANG_mini                     0.0
+                 KR10                         -0.0
+                 SP500_micro              4.663118
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry                 0
+dynamic_TF_carry          1.678722
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry KR10                                   0
+dynamic_TF_carry AUD_micro                              0
+                 BITCOIN                                0
+                 CHF                                    0
+                 EUROSTX                                0
+                 GBP                                    0
+                 HANG_mini                              0
+                 KR10                                   0
+                 SP500_micro                            0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -87,11 +162,18 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry KR10                             0
+dynamic_TF_carry AUD_micro                -1.119148
+                 BITCOIN                  -0.746099
+                 CHF                       4.663118
+                 EUROSTX                 -12.935787
+                 GBP                      -2.331559
+                 HANG_mini                 1.428471
+                 KR10                      2.487307
+                 SP500_micro               5.595741
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry                  0
+dynamic_TF_carry          -2.957956
 
 ********************************************************************************
                                  END OF REPORT                                  
