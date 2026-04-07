@@ -1,15 +1,97 @@
 
 ********************************************************************************
-Trades report produced on 06/04/2026 22:51 from 05/04/2026 22:51 to 06/04/2026 22:51
+Trades report produced on 07/04/2026 22:51 from 06/04/2026 22:51 to 07/04/2026 22:51
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+============================================================================================
+                                       Broker orders                                        
+============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
+35913       EUR_micro  dynamic_TF_carry    [20260600] 2026-04-07 15:00:10  [1]          1.16
+
+
+=============================================================================================================================================================
+                                                                           Delays                                                                            
+=============================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime             submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+35913       EUR_micro  dynamic_TF_carry       2026-04-06 00:00:00  2026-04-07 15:00:03.208000  2026-04-07 15:00:10             140403.208               6.792
+
+
+==============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                   
+==============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
+35913       EUR_micro  dynamic_TF_carry   [1]                 1.1581               None   1.16005     1.1601          1.16        1.16         1.16 -0.00195 -0.00005    0.0001          0.0                 NaN       0.00005
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+35913       EUR_micro  dynamic_TF_carry   [1]        0.085142 -229.027948   -5.872511     11.745023              0.0                     NaN          5.872511
+
+
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+35913       EUR_micro  dynamic_TF_carry   [1]          9448.330858 -18.424245    -0.472417       0.944833               0.0                      NaN           0.472417
+
+delay_cash Sum
+                                 delay_cash
+strategy_name    instrument_code           
+dynamic_TF_carry EUR_micro       -18.424245
+delay_cash Total Sum
+                 delay_cash
+strategy_name              
+dynamic_TF_carry -18.424245
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry EUR_micro          -0.472417
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry    -0.472417
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry EUR_micro             0.944833
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry       0.944833
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry EUR_micro                     0.0
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry               0.0
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry EUR_micro                              0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry EUR_micro                 0.472417
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry           0.472417
 
 ********************************************************************************
                                  END OF REPORT                                  
