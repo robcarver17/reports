@@ -1,24 +1,16 @@
 
 ********************************************************************************
-Trades report produced on 14/05/2026 22:49 from 13/05/2026 22:49 to 14/05/2026 22:49
+Trades report produced on 15/05/2026 22:49 from 14/05/2026 22:49 to 15/05/2026 22:49
 ********************************************************************************
 
 
 
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
+============================================================================================
+                                       Broker orders                                        
+============================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-36014       AUD_micro  dynamic_TF_carry    [20260600] 2026-05-14 07:39:52  [-1]      0.724500
-36015       AUD_micro  dynamic_TF_carry    [20260600] 2026-05-14 07:40:41   [1]      0.724500
-36016            BUND  dynamic_TF_carry    [20260600] 2026-05-14 07:11:53  [-1]    124.930000
-36021           CAD10  dynamic_TF_carry    [20260600] 2026-05-14 11:01:33  [-1]    119.370000
-36018             DAX  dynamic_TF_carry    [20260600] 2026-05-14 07:12:01   [1]  24458.000000
-36020         GAS-PEN  dynamic_TF_carry    [20260600] 2026-05-14 11:00:35   [1]      2.828000
-36022             JPY  dynamic_TF_carry    [20260600] 2026-05-14 12:00:04  [-1]      0.006348
-36017             MIB  dynamic_TF_carry    [20260600] 2026-05-14 07:11:54  [-1]  49230.000000
-36019        MSCIEAFA  dynamic_TF_carry    [20260600] 2026-05-14 11:00:28   [1]   3088.700000
+      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
+36029    HANGENT_mini  dynamic_TF_carry    [20260500] 2026-05-15 10:44:15  [1]        8750.0
 
 
 ======================================================================================================================================================
@@ -26,135 +18,68 @@ Trades report produced on 14/05/2026 22:49 from 13/05/2026 22:49 to 14/05/2026 2
 ======================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime      submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-36014       AUD_micro  dynamic_TF_carry       1974-05-01 09:31:00  1974-05-01 10:31:00  2026-05-14 07:39:52                 3600.0        1642108132.0
-36015       AUD_micro  dynamic_TF_carry       1974-05-01 09:31:00  1974-05-01 10:31:00  2026-05-14 07:40:41                 3600.0        1642108181.0
-36016            BUND  dynamic_TF_carry       2026-05-12 00:00:00  2026-05-14 06:11:53  2026-05-14 07:11:53               195113.0              3600.0
-36017             MIB  dynamic_TF_carry       2026-05-12 00:00:00  2026-05-14 06:11:54  2026-05-14 07:11:54               195114.0              3600.0
-36018             DAX  dynamic_TF_carry       2026-05-12 00:00:00  2026-05-14 06:12:01  2026-05-14 07:12:01               195121.0              3600.0
-36019        MSCIEAFA  dynamic_TF_carry       2026-05-12 00:00:00  2026-05-14 10:00:08  2026-05-14 11:00:28               208808.0              3620.0
-36020         GAS-PEN  dynamic_TF_carry       2026-05-12 00:00:00  2026-05-14 10:00:35  2026-05-14 11:00:35               208835.0              3600.0
-36021           CAD10  dynamic_TF_carry       2026-05-12 00:00:00  2026-05-14 10:00:36  2026-05-14 11:01:33               208836.0              3657.0
-36022             JPY  dynamic_TF_carry       2026-05-12 00:00:00  2026-05-14 11:00:03  2026-05-14 12:00:04               212403.0              3601.0
+36029    HANGENT_mini  dynamic_TF_carry       1974-05-01 09:31:00  1974-05-01 10:31:00  2026-05-15 10:44:15                 3600.0        1642205595.0
 
 
-==============================================================================================================================================================================================================================
-                                                                                                   Slippage (ticks per lot)                                                                                                   
-==============================================================================================================================================================================================================================
+==========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                 
+==========================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay bid_ask execution versus_limit versus_parent_limit total_trading
-36014       AUD_micro  dynamic_TF_carry  [-1]                    NaN               None       NaN        NaN           NaN         NaN       0.7245       NaN     NaN       NaN          NaN                 NaN           NaN
-36015       AUD_micro  dynamic_TF_carry   [1]                    NaN               None       NaN        NaN           NaN         NaN       0.7245       NaN     NaN       NaN          NaN                 NaN           NaN
-36016            BUND  dynamic_TF_carry  [-1]                 124.75               None   124.925     124.92        124.93      124.93       124.93     0.175  -0.005      0.01         -0.0                 NaN         0.005
-36017             MIB  dynamic_TF_carry  [-1]                48515.0               None   49227.5    49225.0       49230.0     49230.0      49230.0     712.5    -2.5       5.0         -0.0                 NaN           2.5
-36018             DAX  dynamic_TF_carry   [1]                24010.0               None   24473.0    24474.0       24472.0     24472.0      24458.0    -463.0    -1.0      16.0         14.0                 NaN          15.0
-36019        MSCIEAFA  dynamic_TF_carry   [1]                 3067.4               None    3088.8     3088.9        3088.7      3088.7       3088.7     -21.4    -0.1       0.2          0.0                 NaN           0.1
-36020         GAS-PEN  dynamic_TF_carry   [1]                  2.814               None     2.829       2.83         2.828       2.828        2.828    -0.015  -0.001     0.002          0.0                 NaN         0.001
-36021           CAD10  dynamic_TF_carry  [-1]                 118.82               None   119.385     119.38        119.39      119.39       119.37     0.565  -0.005     -0.01        -0.02                 NaN        -0.015
-36022             JPY  dynamic_TF_carry  [-1]               0.006365               None  0.006349   0.006348      0.006349    0.006349     0.006348 -0.000016    -0.0      -0.0    -0.000001                 NaN     -0.000001
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
+36029    HANGENT_mini  dynamic_TF_carry   [1]                   None               None      None       None          None        None       8750.0   NaN     NaN       NaN          NaN                 NaN           NaN
 
 
-==============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
-==============================================================================================================================================================
+============================================================================================================================================================
+                                                    Slippage (normalised by annual vol, BP of annual SR)                                                    
+============================================================================================================================================================
 
-      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-36014       AUD_micro  dynamic_TF_carry  [-1]        0.059023         NaN         NaN           NaN              NaN                     NaN               NaN
-36015       AUD_micro  dynamic_TF_carry   [1]        0.059023         NaN         NaN           NaN              NaN                     NaN               NaN
-36016            BUND  dynamic_TF_carry  [-1]        6.986708  250.475622   -7.156446     14.312893             -0.0                     NaN          7.156446
-36017             MIB  dynamic_TF_carry  [-1]     8308.933769  857.510747    -3.00881      6.017619             -0.0                     NaN           3.00881
-36018             DAX  dynamic_TF_carry   [1]     4751.658817 -974.396559   -2.104528     33.672451        29.463395                     NaN         31.567923
-36019        MSCIEAFA  dynamic_TF_carry   [1]      604.705593  -353.89122   -1.653697      3.307395              0.0                     NaN          1.653697
-36020         GAS-PEN  dynamic_TF_carry   [1]        1.564391  -95.883958   -6.392264     12.784528              0.0                     NaN          6.392264
-36021           CAD10  dynamic_TF_carry  [-1]          7.1088  794.789571   -7.033536    -14.067072       -28.134144                     NaN        -21.100608
-36022             JPY  dynamic_TF_carry  [-1]         0.00061 -266.574916   -4.101153     -8.202305        -16.40461                     NaN        -12.303458
+      instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+36029    HANGENT_mini  dynamic_TF_carry   [1]      1568.62977       NaN         NaN           NaN              NaN                     NaN               NaN
 
 
-=========================================================================================================================================================================
-                                                                       Slippage (In base currency)                                                                       
-=========================================================================================================================================================================
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point   delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-36014       AUD_micro  dynamic_TF_carry  [-1]          7398.501803          NaN          NaN            NaN               NaN                      NaN                NaN
-36015       AUD_micro  dynamic_TF_carry   [1]          7398.501803          NaN          NaN            NaN               NaN                      NaN                NaN
-36016            BUND  dynamic_TF_carry  [-1]           866.383057   151.617035    -4.331915       8.663831              -0.0                      NaN           4.331915
-36017             MIB  dynamic_TF_carry  [-1]             4.331915  3086.489642   -10.829788      21.659576              -0.0                      NaN          10.829788
-36018             DAX  dynamic_TF_carry   [1]             0.866383  -401.135356    -0.866383      13.862129         12.129363                      NaN          12.995746
-36019        MSCIEAFA  dynamic_TF_carry   [1]            36.992509  -791.639693    -3.699251       7.398502               0.0                      NaN           3.699251
-36020         GAS-PEN  dynamic_TF_carry   [1]          7398.501803  -110.977527    -7.398502      14.797004               0.0                      NaN           7.398502
-36021           CAD10  dynamic_TF_carry  [-1]           539.770683   304.970436    -2.698853      -5.397707        -10.795414                      NaN           -8.09656
-36022             JPY  dynamic_TF_carry  [-1]       9248127.254231  -150.282068    -2.312032      -4.624064         -9.248127                      NaN          -6.936095
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+36029    HANGENT_mini  dynamic_TF_carry   [1]             0.957126        NaN          NaN            NaN               NaN                      NaN                NaN
 
 delay_cash Sum
-                                   delay_cash
-strategy_name    instrument_code             
-dynamic_TF_carry AUD_micro                  0
-                 BUND              151.617035
-                 CAD10             304.970436
-                 DAX              -401.135356
-                 GAS-PEN          -110.977527
-                 JPY              -150.282068
-                 MIB              3086.489642
-                 MSCIEAFA         -791.639693
+                                 delay_cash
+strategy_name    instrument_code           
+dynamic_TF_carry HANGENT_mini             0
 delay_cash Total Sum
-                   delay_cash
-strategy_name                
-dynamic_TF_carry  2089.042469
+                 delay_cash
+strategy_name              
+dynamic_TF_carry          0
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry AUD_micro                  0
-                 BUND               -4.331915
-                 CAD10              -2.698853
-                 DAX                -0.866383
-                 GAS-PEN            -7.398502
-                 JPY                -2.312032
-                 MIB               -10.829788
-                 MSCIEAFA           -3.699251
+dynamic_TF_carry HANGENT_mini               0
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry   -32.136724
+dynamic_TF_carry            0
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry AUD_micro                    0
-                 BUND                  8.663831
-                 CAD10                -5.397707
-                 DAX                  13.862129
-                 GAS-PEN              14.797004
-                 JPY                  -4.624064
-                 MIB                  21.659576
-                 MSCIEAFA              7.398502
+dynamic_TF_carry HANGENT_mini                 0
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry      56.359271
+dynamic_TF_carry              0
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry AUD_micro                       0
-                 BUND                         -0.0
-                 CAD10                  -10.795414
-                 DAX                     12.129363
-                 GAS-PEN                       0.0
-                 JPY                     -9.248127
-                 MIB                          -0.0
-                 MSCIEAFA                      0.0
+dynamic_TF_carry HANGENT_mini                    0
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry         -7.914178
+dynamic_TF_carry                 0
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry AUD_micro                              0
-                 BUND                                   0
-                 CAD10                                  0
-                 DAX                                    0
-                 GAS-PEN                                0
-                 JPY                                    0
-                 MIB                                    0
-                 MSCIEAFA                               0
+dynamic_TF_carry HANGENT_mini                           0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -162,18 +87,11 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry AUD_micro                        0
-                 BUND                      4.331915
-                 CAD10                     -8.09656
-                 DAX                      12.995746
-                 GAS-PEN                   7.398502
-                 JPY                      -6.936095
-                 MIB                      10.829788
-                 MSCIEAFA                  3.699251
+dynamic_TF_carry HANGENT_mini                     0
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry          24.222546
+dynamic_TF_carry                  0
 
 ********************************************************************************
                                  END OF REPORT                                  
