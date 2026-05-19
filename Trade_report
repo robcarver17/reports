@@ -1,25 +1,16 @@
 
 ********************************************************************************
-Trades report produced on 18/05/2026 22:49 from 17/05/2026 22:49 to 18/05/2026 22:49
+Trades report produced on 19/05/2026 22:49 from 18/05/2026 22:49 to 19/05/2026 22:49
 ********************************************************************************
 
 
 
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
+============================================================================================
+                                       Broker orders                                        
+============================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-36035   CRUDE_W_micro  dynamic_TF_carry    [20260900] 2026-05-18 11:00:17   [1]       90.9000
-36038             DOW  dynamic_TF_carry    [20260600] 2026-05-18 12:00:43   [1]    49770.0000
-36033         EUROSTX  dynamic_TF_carry    [20260600] 2026-05-18 05:00:08   [1]     5766.0000
-36036             GBP  dynamic_TF_carry    [20260600] 2026-05-18 12:00:04  [-1]        1.3389
-36039             GBP  dynamic_TF_carry    [20260600] 2026-05-18 12:00:50  [-1]        1.3392
-36031          KOSDAQ  dynamic_TF_carry    [20260600] 2026-05-17 23:00:00  [-1]     1835.2000
-36032            KR10  dynamic_TF_carry    [20260600] 2026-05-17 23:02:37  [-1]      105.7200
-36034        MSCIEAFA  dynamic_TF_carry    [20260600] 2026-05-18 11:00:08  [-1]     3051.0000
-36030          NIKKEI  dynamic_TF_carry    [20260900] 2026-05-17 23:00:00   [1]    61250.0000
-36037             ZAR  dynamic_TF_carry    [20260600] 2026-05-18 12:00:42   [1]        0.0602
+      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
+36040             DAX  dynamic_TF_carry    [20260600] 2026-05-19 05:00:09  [1]       24398.0
 
 
 ======================================================================================================================================================
@@ -27,144 +18,68 @@ Trades report produced on 18/05/2026 22:49 from 17/05/2026 22:49 to 18/05/2026 2
 ======================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime      submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-36030          NIKKEI  dynamic_TF_carry       2026-05-14 20:00:00  2026-05-17 22:00:00  2026-05-17 23:00:00               266400.0              3600.0
-36031          KOSDAQ  dynamic_TF_carry       2026-05-14 20:00:00  2026-05-17 22:00:00  2026-05-17 23:00:00               266400.0              3600.0
-36032            KR10  dynamic_TF_carry       2026-05-14 20:00:00  2026-05-17 22:02:35  2026-05-17 23:02:37               266555.0              3602.0
-36033         EUROSTX  dynamic_TF_carry       2026-05-14 20:00:00  2026-05-18 04:00:08  2026-05-18 05:00:08               288008.0              3600.0
-36034        MSCIEAFA  dynamic_TF_carry       2026-05-14 20:00:00  2026-05-18 10:00:04  2026-05-18 11:00:08               309604.0              3604.0
-36035   CRUDE_W_micro  dynamic_TF_carry       2026-05-14 20:00:00  2026-05-18 10:00:15  2026-05-18 11:00:17               309615.0              3602.0
-36037             ZAR  dynamic_TF_carry       2026-05-14 20:00:00  2026-05-18 11:00:05  2026-05-18 12:00:42               313205.0              3637.0
-36038             DOW  dynamic_TF_carry       2026-05-14 20:00:00  2026-05-18 11:00:43  2026-05-18 12:00:43               313243.0              3600.0
-36036             GBP  dynamic_TF_carry       2026-05-14 19:00:00  2026-05-18 11:00:01  2026-05-18 12:00:04               316801.0              3603.0
-36039             GBP  dynamic_TF_carry       2026-05-14 19:00:00  2026-05-18 11:00:50  2026-05-18 12:00:50               316850.0              3600.0
+36040             DAX  dynamic_TF_carry       2026-05-17 20:00:00  2026-05-19 04:00:08  2026-05-19 05:00:09               115208.0              3601.0
 
 
-================================================================================================================================================================================================================================
-                                                                                                    Slippage (ticks per lot)                                                                                                    
-================================================================================================================================================================================================================================
+==========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                 
+==========================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
-36030          NIKKEI  dynamic_TF_carry   [1]                61880.0               None   61290.0    61295.0       61285.0     61285.0      61250.0     590.0      -5.0      45.0         35.0                 NaN          40.0
-36031          KOSDAQ  dynamic_TF_carry  [-1]                 1944.6               None    1834.2     1834.0        1834.4      1834.4       1835.2    -110.4      -0.2       1.2          0.8                 NaN           1.0
-36032            KR10  dynamic_TF_carry  [-1]                 106.32               None   105.735     105.73        105.74      105.74       105.72    -0.585    -0.005     -0.01        -0.02                 NaN        -0.015
-36033         EUROSTX  dynamic_TF_carry   [1]                 5822.0               None    5764.5     5765.0        5764.0      5764.0       5766.0      57.5      -0.5      -1.0         -2.0                 NaN          -1.5
-36034        MSCIEAFA  dynamic_TF_carry  [-1]                 3024.5               None   3050.85     3050.7        3051.0      3051.0       3051.0     26.35     -0.15       0.3         -0.0                 NaN          0.15
-36035   CRUDE_W_micro  dynamic_TF_carry   [1]                  91.84               None     90.92      90.94          90.9        90.9         90.9      0.92     -0.02      0.04          0.0                 NaN          0.02
-36037             ZAR  dynamic_TF_carry   [1]               0.059825               None  0.060163   0.060175       0.06015     0.06015       0.0602 -0.000337 -0.000012 -0.000025     -0.00005                 NaN     -0.000037
-36038             DOW  dynamic_TF_carry   [1]                49667.0               None   49770.0    49771.0       49769.0     49769.0      49770.0    -103.0      -1.0       1.0         -1.0                 NaN           0.0
-36036             GBP  dynamic_TF_carry  [-1]                 1.3319               None     1.339     1.3389        1.3391      1.3391       1.3389    0.0071   -0.0001      -0.0      -0.0002                 NaN       -0.0001
-36039             GBP  dynamic_TF_carry  [-1]                 1.3319               None   1.33895     1.3389         1.339       1.339       1.3392   0.00705  -0.00005    0.0003       0.0002                 NaN       0.00025
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
+36040             DAX  dynamic_TF_carry   [1]                24310.0               None   24396.5    24398.0       24395.0     24395.0      24398.0 -86.5    -1.5       0.0         -3.0                 NaN          -1.5
 
 
-===============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
-===============================================================================================================================================================
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
 
-      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-36030          NIKKEI  dynamic_TF_carry   [1]    15347.251717    384.43365   -3.257912     29.321211        22.805386                     NaN         26.063298
-36031          KOSDAQ  dynamic_TF_carry  [-1]      706.579589 -1562.456682   -2.830537     16.983225         11.32215                     NaN         14.152687
-36032            KR10  dynamic_TF_carry  [-1]        7.521846  -777.734566   -6.647304    -13.294608       -26.589216                     NaN        -19.941912
-36033         EUROSTX  dynamic_TF_carry   [1]     1166.060254   493.113454   -4.287943     -8.575886       -17.151772                     NaN        -12.863829
-36034        MSCIEAFA  dynamic_TF_carry  [-1]      610.115502   431.885437   -2.458551      4.917102             -0.0                     NaN          2.458551
-36035   CRUDE_W_micro  dynamic_TF_carry   [1]       37.919817   242.617205   -5.274287     10.548574              0.0                     NaN          5.274287
-36037             ZAR  dynamic_TF_carry   [1]        0.007925  -425.857777   -15.77251     -31.54502       -63.090041                     NaN        -47.317531
-36038             DOW  dynamic_TF_carry   [1]     6684.406376  -154.089973   -1.496019      1.496019        -1.496019                     NaN               0.0
-36036             GBP  dynamic_TF_carry  [-1]        0.101026   702.790943   -9.898464          -0.0       -19.796928                     NaN         -9.898464
-36039             GBP  dynamic_TF_carry  [-1]        0.101026   697.841711   -4.949232     29.695392        19.796928                     NaN          24.74616
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+36040             DAX  dynamic_TF_carry   [1]     4829.340143 -179.113497   -3.106014           0.0        -6.212029                     NaN         -3.106014
 
 
-========================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                       
-========================================================================================================================================================================
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-36030          NIKKEI  dynamic_TF_carry   [1]             0.472266  278.636873    -2.361329      21.251965         16.529306                      NaN          18.890635
-36031          KOSDAQ  dynamic_TF_carry  [-1]             4.992657 -551.189319    -0.998531       5.991188          3.994126                      NaN           4.992657
-36032            KR10  dynamic_TF_carry  [-1]           499.265688 -292.070427    -2.496328      -4.992657         -9.985314                      NaN          -7.488985
-36033         EUROSTX  dynamic_TF_carry   [1]              8.72395  501.627104    -4.361975       -8.72395        -17.447899                      NaN         -13.085924
-36034        MSCIEAFA  dynamic_TF_carry  [-1]            37.529789  988.909947    -5.629468      11.258937              -0.0                      NaN           5.629468
-36035   CRUDE_W_micro  dynamic_TF_carry   [1]            75.059579   69.054812    -1.501192       3.002383               0.0                      NaN           1.501192
-36037             ZAR  dynamic_TF_carry   [1]        375297.892702 -126.663039    -4.691224      -9.382447        -18.764895                      NaN         -14.073671
-36038             DOW  dynamic_TF_carry   [1]             0.375298  -38.655683    -0.375298       0.375298         -0.375298                      NaN                0.0
-36036             GBP  dynamic_TF_carry  [-1]         46912.236588   333.07688    -4.691224           -0.0         -9.382447                      NaN          -4.691224
-36039             GBP  dynamic_TF_carry  [-1]         46912.236588  330.731268    -2.345612      14.073671          9.382447                      NaN          11.728059
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+36040             DAX  dynamic_TF_carry   [1]             0.867989 -75.081088    -1.301984            0.0         -2.603968                      NaN          -1.301984
 
 delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry CRUDE_W_micro     69.054812
-                 DOW              -38.655683
-                 EUROSTX          501.627104
-                 GBP              663.808148
-                 KOSDAQ          -551.189319
-                 KR10            -292.070427
-                 MSCIEAFA         988.909947
-                 NIKKEI           278.636873
-                 ZAR             -126.663039
+                                 delay_cash
+strategy_name    instrument_code           
+dynamic_TF_carry DAX             -75.081088
 delay_cash Total Sum
-                   delay_cash
-strategy_name                
-dynamic_TF_carry  1493.458415
+                 delay_cash
+strategy_name              
+dynamic_TF_carry -75.081088
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry CRUDE_W_micro      -1.501192
-                 DOW                -0.375298
-                 EUROSTX            -4.361975
-                 GBP                -7.036835
-                 KOSDAQ             -0.998531
-                 KR10               -2.496328
-                 MSCIEAFA           -5.629468
-                 NIKKEI             -2.361329
-                 ZAR                -4.691224
+dynamic_TF_carry DAX                -1.301984
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry   -29.452181
+dynamic_TF_carry    -1.301984
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry CRUDE_W_micro         3.002383
-                 DOW                   0.375298
-                 EUROSTX               -8.72395
-                 GBP                  14.073671
-                 KOSDAQ                5.991188
-                 KR10                 -4.992657
-                 MSCIEAFA             11.258937
-                 NIKKEI               21.251965
-                 ZAR                  -9.382447
+dynamic_TF_carry DAX                        0.0
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry      32.854388
+dynamic_TF_carry            0.0
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry CRUDE_W_micro                 0.0
-                 DOW                     -0.375298
-                 EUROSTX                -17.447899
-                 GBP                           0.0
-                 KOSDAQ                   3.994126
-                 KR10                    -9.985314
-                 MSCIEAFA                     -0.0
-                 NIKKEI                  16.529306
-                 ZAR                    -18.764895
+dynamic_TF_carry DAX                     -2.603968
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry        -26.049974
+dynamic_TF_carry         -2.603968
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry CRUDE_W_micro                          0
-                 DOW                                    0
-                 EUROSTX                                0
-                 GBP                                    0
-                 KOSDAQ                                 0
-                 KR10                                   0
-                 MSCIEAFA                               0
-                 NIKKEI                                 0
-                 ZAR                                    0
+dynamic_TF_carry DAX                                    0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -172,19 +87,11 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry CRUDE_W_micro             1.501192
-                 DOW                            0.0
-                 EUROSTX                 -13.085924
-                 GBP                       7.036835
-                 KOSDAQ                    4.992657
-                 KR10                     -7.488985
-                 MSCIEAFA                  5.629468
-                 NIKKEI                   18.890635
-                 ZAR                     -14.073671
+dynamic_TF_carry DAX                      -1.301984
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry           3.402207
+dynamic_TF_carry          -1.301984
 
 ********************************************************************************
                                  END OF REPORT                                  
