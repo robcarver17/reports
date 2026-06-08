@@ -1,11 +1,11 @@
 
 ********************************************************************************
-              Removed markets report produced on 05/06/2026 23:05               
+              Removed markets report produced on 08/06/2026 23:05               
 ********************************************************************************
 
 
 List of markets which should be marked as untradeable due to risk, liquidity or cost issues
-Following should be removed from trading (add to config.bad_markets) [0.300000 threshold]: ['GAS-PEN', 'VIX_mini', 'ETHER-micro', 'EURCHF', 'EU-DJ-UTIL', 'NOK'] 
+Following should be removed from trading (add to config.bad_markets) [0.300000 threshold]: ['EU-DJ-UTIL', 'NOK', 'VIX_mini', 'AUD_micro', 'GAS-PEN', 'EURCHF', 'ETHER-micro'] 
 
 
 
@@ -17,7 +17,7 @@ Markets too expensive (SR cost per trade > 0.010): ['AEX_mini', 'BOVESPA', 'BUTT
 
 
 
-Markets not enough risk volume (Volume in $m ann. risk per day < 1.50): ['AEX_mini', 'ALUMINIUM', 'AUDJPY', 'AUD_micro', 'BBCOMM', 'BONO', 'BOVESPA', 'BUTTER', 'CAD_micro', 'CH10', 'CHEESE', 'CHFJPY', 'CHF_micro', 'CLP', 'COAL-GEORDIE', 'COPPER-mini', 'CORN_mini', 'COTTON', 'CZK', 'EPRA-EUROPE', 'ETHER-micro', 'EU-CHEM', 'EU-DJ-OIL', 'EU-DJ-TECH', 'EU-DJ-TELECOM', 'EU-DJ-UTIL', 'EU-HOUSE', 'EU-MEDIA', 'EU-MID', 'EU-REALESTATE', 'EU-RETAIL', 'EU-TRAVEL', 'EURAUD', 'EURCAD', 'EURCHF', 'EUROSTX-LARGE', 'EUROSTX-SMALL', 'EUROSTX200-LARGE', 'FTSEINDO', 'GAS-PEN', 'GASOILINE_micro', 'GBPCHF', 'GBPJPY', 'GBP_micro', 'GICS', 'HIGHYIELD', 'HOUSE-US', 'IG', 'INR', 'IRS', 'JP-REALESTATE', 'JPY_mini', 'KRWUSD', 'LUMBER-new', 'MILKWET', 'NOK', 'OATIES', 'OMX', 'PLN', 'SEK', 'SGD', 'SGD_mini', 'SMI-MID', 'SOYBEAN_mini', 'STEEL', 'SUGAR16', 'SWISSLEAD', 'TWD-mini', 'VIX_mini', 'VNKI', 'WHEAT_ICE', 'WHEAT_mini', 'WHEY']
+Markets not enough risk volume (Volume in $m ann. risk per day < 1.50): ['AEX_mini', 'AUDJPY', 'AUD_micro', 'BBCOMM', 'BONO', 'BOVESPA', 'BUTTER', 'CAD_micro', 'CH10', 'CHEESE', 'CHFJPY', 'CHF_micro', 'CLP', 'COAL-GEORDIE', 'COPPER-mini', 'CORN_mini', 'COTTON', 'CZK', 'EPRA-EUROPE', 'ETHER-micro', 'EU-CHEM', 'EU-CONSTRUCTION', 'EU-DJ-OIL', 'EU-DJ-TECH', 'EU-DJ-TELECOM', 'EU-DJ-UTIL', 'EU-HOUSE', 'EU-MEDIA', 'EU-MID', 'EU-REALESTATE', 'EU-RETAIL', 'EU-TRAVEL', 'EURAUD', 'EURCAD', 'EURCHF', 'EUROSTX-LARGE', 'EUROSTX-SMALL', 'EUROSTX200-LARGE', 'FTSEINDO', 'GAS-PEN', 'GASOILINE_micro', 'GBPCHF', 'GBPJPY', 'GBP_micro', 'GICS', 'HIGHYIELD', 'HOUSE-US', 'IG', 'INR', 'IRS', 'JP-REALESTATE', 'JPY_mini', 'KRWUSD', 'LUMBER-new', 'MILKWET', 'NOK', 'OATIES', 'OMX', 'PLN', 'SEK', 'SGD', 'SGD_mini', 'SMI-MID', 'SOYBEAN_mini', 'STEEL', 'SUGAR16', 'SWISSLEAD', 'TWD-mini', 'VIX_mini', 'VNKI', 'WHEAT_ICE', 'WHEAT_mini', 'WHEY']
 
 
 
@@ -25,7 +25,7 @@ Markets not enough contract volume (Volume in contracts per day < 100): ['AEX_mi
 
 
 
-Markets too safe (Annual % std. dev < 5.0): ['BOBL', 'BTP3', 'CAD', 'CAD2', 'CAD5', 'CAD_micro', 'CH10', 'CNH', 'CNH-onshore', 'EURCAD', 'EURCHF', 'EURIBOR', 'EURIBOR-ICE', 'FED', 'GBPEUR', 'HIGHYIELD', 'HOUSE-US', 'JGB', 'JGB-SGX-mini', 'JGB-mini', 'KR3', 'SARONA', 'SGD', 'SGD_mini', 'SHATZ', 'SOFR', 'SONIA3', 'US10', 'US2', 'US3', 'US5']
+Markets too safe (Annual % std. dev < 5.0): ['BOBL', 'BTP3', 'CAD', 'CAD2', 'CAD5', 'CAD_micro', 'CNH', 'CNH-onshore', 'EURCAD', 'EURCHF', 'EURIBOR', 'EURIBOR-ICE', 'FED', 'GBPEUR', 'HIGHYIELD', 'HOUSE-US', 'JGB', 'JGB-SGX-mini', 'JGB-mini', 'KR3', 'SARONA', 'SGD', 'SGD_mini', 'SHATZ', 'SOFR', 'SONIA3', 'US10', 'US2', 'US3', 'US5']
 
 
 
@@ -39,6 +39,7 @@ exclude_instrument_lists:
   bad_markets:
     - AEX_mini 
     - AUDJPY 
+    - AUD_micro 
     - BB3M 
     - BBCOMM 
     - BOBL 
@@ -145,7 +146,6 @@ Put following into config.yaml
 exclude_instrument_lists:
   bad_markets:
     - AEX_mini 
-    - ALUMINIUM 
     - AUDJPY 
     - AUD_micro 
     - BBCOMM 
@@ -174,6 +174,7 @@ exclude_instrument_lists:
     - EPRA-EUROPE 
     - ETHER-micro 
     - EU-CHEM 
+    - EU-CONSTRUCTION 
     - EU-DJ-OIL 
     - EU-DJ-TECH 
     - EU-DJ-TELECOM 
