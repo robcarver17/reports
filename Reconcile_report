@@ -1,12 +1,12 @@
 
 ********************************************************************************
-                 Reconcile report produced on 10/06/2026 22:49                  
+                 Reconcile report produced on 11/06/2026 22:49                  
 ********************************************************************************
 
 
-Breaks Optimal vs actual []
+Breaks Optimal vs actual ['dynamic_TF_carry TOPIX', 'dynamic_TF_carry JPY', 'dynamic_TF_carry BITCOIN', 'dynamic_TF_carry RUSSELL', 'dynamic_TF_carry MXP', 'dynamic_TF_carry EUR_micro', 'dynamic_TF_carry NIKKEI', 'dynamic_TF_carry MUMMY', 'dynamic_TF_carry HANGTECH', 'dynamic_TF_carry OAT']
  Breaks Instrument vs Contract []
- Breaks Broker vs Contract []
+ Breaks Broker vs Contract [KOSDAQ/20260611]
 
 ===============================================================
                         Positions in DB                        
@@ -43,29 +43,28 @@ Breaks Optimal vs actual []
 ===============================================================
 
    instrument_code contract_date          expiry_date  position
-8          BITCOIN      20260626  2026-06-26 00:00:00      -5.0
+13         BITCOIN      20260626  2026-06-26 00:00:00      -5.0
 10             CAC      20260619  2026-06-19 00:00:00       1.0
-14           CAD10      20260918  2026-09-18 00:00:00       1.0
-16          CANOLA      20261113  2026-11-13 00:00:00       1.0
-9              CHF      20260914  2026-09-14 00:00:00      -1.0
-22        EU-BASIC      20260619  2026-06-19 00:00:00       1.0
-7           EU-OIL      20260619  2026-06-19 00:00:00       1.0
-3        EUR_micro      20260914  2026-09-14 00:00:00      -1.0
-15       GASOILINE      20260831  2026-08-31 00:00:00       1.0
-12     GAS_US_mini      20260625  2026-06-25 00:00:00      -1.0
-4     HANGENT_mini      20260629  2026-06-29 00:00:00      -1.0
-13             JPY      20260914  2026-09-14 00:00:00      -1.0
-0           KOSDAQ      20260611  2026-06-11 00:00:00      -1.0
-6             KR10      20260616  2026-06-16 00:00:00      -4.0
-21        MSCISING      20260629  2026-06-29 00:00:00       1.0
-19      MSCITAIWAN      20260629  2026-06-29 00:00:00       1.0
+6            CAD10      20260918  2026-09-18 00:00:00       1.0
+1           CANOLA      20261113  2026-11-13 00:00:00       1.0
+14             CHF      20260914  2026-09-14 00:00:00      -1.0
+2         EU-BASIC      20260619  2026-06-19 00:00:00       1.0
+15          EU-OIL      20260619  2026-06-19 00:00:00       1.0
+21       EUR_micro      20260914  2026-09-14 00:00:00      -1.0
+12       GASOILINE      20260831  2026-08-31 00:00:00       1.0
+20     GAS_US_mini      20260625  2026-06-25 00:00:00      -1.0
+0     HANGENT_mini      20260629  2026-06-29 00:00:00      -1.0
+3              JPY      20260914  2026-09-14 00:00:00      -1.0
+19            KR10      20260616  2026-06-16 00:00:00      -4.0
+16        MSCISING      20260629  2026-06-29 00:00:00       1.0
+9       MSCITAIWAN      20260629  2026-06-29 00:00:00       1.0
 5           NIKKEI      20260910  2026-09-10 00:00:00       1.0
-17             NZD      20260914  2026-09-14 00:00:00       1.0
-1              OAT      20260908  2026-09-08 00:00:00       1.0
-18        REDWHEAT      20261214  2026-12-14 00:00:00      -1.0
-11         RUSSELL      20260618  2026-06-18 00:00:00       1.0
-2            TOPIX      20260910  2026-09-10 00:00:00       1.0
-20             ZAR      20260615  2026-06-15 00:00:00       2.0
+4              NZD      20260914  2026-09-14 00:00:00       1.0
+11             OAT      20260908  2026-09-08 00:00:00       1.0
+17        REDWHEAT      20261214  2026-12-14 00:00:00      -1.0
+18         RUSSELL      20260618  2026-06-18 00:00:00       1.0
+7            TOPIX      20260910  2026-09-10 00:00:00       1.0
+8              ZAR      20260615  2026-06-15 00:00:00       2.0
 
 
 ===============
@@ -163,7 +162,7 @@ dynamic_TF_carry EU-BANKS                0       0   False
 dynamic_TF_carry GAS_US_mini            -1      -1   False
 dynamic_TF_carry PLAT                    0       0   False
 dynamic_TF_carry SOYMEAL                 0       0   False
-dynamic_TF_carry TOPIX                   1       1   False
+dynamic_TF_carry TOPIX                   1       0    True
 dynamic_TF_carry EU-INSURE               0       0   False
 dynamic_TF_carry CHINAA-CON              0       0   False
 dynamic_TF_carry MILKDRY                 0       0   False
@@ -171,14 +170,14 @@ dynamic_TF_carry ETHEREUM                0       0   False
 dynamic_TF_carry FTSE100                 0       0   False
 dynamic_TF_carry US3                     0       0   False
 dynamic_TF_carry NIKKEI400               0       0   False
-dynamic_TF_carry JPY                    -1      -1   False
+dynamic_TF_carry JPY                    -1      -2    True
 dynamic_TF_carry IBEX_mini               0       0   False
 dynamic_TF_carry CRUDE_W_micro           0       0   False
 dynamic_TF_carry DAX                     0       0   False
 dynamic_TF_carry CAD5                    0       0   False
 dynamic_TF_carry DX                      0       0   False
 dynamic_TF_carry FANG                    0       0   False
-dynamic_TF_carry BITCOIN                -5      -5   False
+dynamic_TF_carry BITCOIN                -5      -6    True
 dynamic_TF_carry US-MATERIAL             0       0   False
 dynamic_TF_carry IRS                     0       0   False
 dynamic_TF_carry EU-TECH                 0       0   False
@@ -188,7 +187,7 @@ dynamic_TF_carry EU-MID                  0       0   False
 dynamic_TF_carry FED                     0       0   False
 dynamic_TF_carry LUMBER-new              0       0   False
 dynamic_TF_carry EUA                     0       0   False
-dynamic_TF_carry RUSSELL                 1       1   False
+dynamic_TF_carry RUSSELL                 1       0    True
 dynamic_TF_carry WHEY                    0       0   False
 dynamic_TF_carry EUROSTX200-LARGE        0       0   False
 dynamic_TF_carry SP500_micro             0       0   False
@@ -203,7 +202,7 @@ dynamic_TF_carry EUROSTX-SMALL           0       0   False
 dynamic_TF_carry KOSDAQ                 -1      -1   False
 dynamic_TF_carry HIGHYIELD               0       0   False
 dynamic_TF_carry US-UTILS                0       0   False
-dynamic_TF_carry MXP                     0       0   False
+dynamic_TF_carry MXP                     0       1    True
 dynamic_TF_carry ALUMINIUM               0       0   False
 dynamic_TF_carry FTSECHINAH              0       0   False
 dynamic_TF_carry BTP                     0       0   False
@@ -218,7 +217,7 @@ dynamic_TF_carry SOFR                    0       0   False
 dynamic_TF_carry EU-FOOD                 0       0   False
 dynamic_TF_carry FTSEINDO                0       0   False
 dynamic_TF_carry CAD2                    0       0   False
-dynamic_TF_carry EUR_micro              -1      -1   False
+dynamic_TF_carry EUR_micro              -1       0    True
 dynamic_TF_carry WHEAT_ICE               0       0   False
 dynamic_TF_carry GBPJPY                  0       0   False
 dynamic_TF_carry EU-RETAIL               0       0   False
@@ -253,8 +252,8 @@ dynamic_TF_carry COTTON2                 0       0   False
 dynamic_TF_carry SP400                   0       0   False
 dynamic_TF_carry PLN                     0       0   False
 dynamic_TF_carry COFFEE                  0       0   False
-dynamic_TF_carry NIKKEI                  1       1   False
-dynamic_TF_carry MUMMY                   0       0   False
+dynamic_TF_carry NIKKEI                  1       0    True
+dynamic_TF_carry MUMMY                   0       1    True
 dynamic_TF_carry SHATZ                   0       0   False
 dynamic_TF_carry COCOA_LDN               0       0   False
 dynamic_TF_carry GBPEUR                  0       0   False
@@ -297,12 +296,12 @@ dynamic_TF_carry VIX                     0       0   False
 dynamic_TF_carry INR                     0       0   False
 dynamic_TF_carry MSCITAIWAN              1       1   False
 dynamic_TF_carry US30                    0       0   False
-dynamic_TF_carry HANGTECH                0       0   False
+dynamic_TF_carry HANGTECH                0      -1    True
 dynamic_TF_carry COPPER                  0       0   False
 dynamic_TF_carry AEX                     0       0   False
 dynamic_TF_carry US-STAPLES              0       0   False
 dynamic_TF_carry OJ                      0       0   False
-dynamic_TF_carry OAT                     1       1   False
+dynamic_TF_carry OAT                     1       0    True
 dynamic_TF_carry EU-CHEM                 0       0   False
 
 
