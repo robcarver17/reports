@@ -1,12 +1,12 @@
 
 ********************************************************************************
-                 Reconcile report produced on 15/06/2026 22:49                  
+                 Reconcile report produced on 16/06/2026 22:49                  
 ********************************************************************************
 
 
-Breaks Optimal vs actual []
+Breaks Optimal vs actual ['dynamic_TF_carry MSCIEAFA', 'dynamic_TF_carry KR10', 'dynamic_TF_carry HANGENT_mini', 'dynamic_TF_carry GBP', 'dynamic_TF_carry MSCISING', 'dynamic_TF_carry SOYOIL', 'dynamic_TF_carry COPPER-micro', 'dynamic_TF_carry JPY', 'dynamic_TF_carry CRUDE_W_micro', 'dynamic_TF_carry RUSSELL', 'dynamic_TF_carry NIKKEI', 'dynamic_TF_carry MUMMY']
  Breaks Instrument vs Contract []
- Breaks Broker vs Contract []
+ Breaks Broker vs Contract [ZAR/20260615]
 
 ===============================================================
                         Positions in DB                        
@@ -44,108 +44,47 @@ Breaks Optimal vs actual []
 ===============================================================
 
    instrument_code contract_date          expiry_date  position
-16       AUD_micro      20260914  2026-09-14 00:00:00       7.0
-23         BITCOIN      20260731  2026-07-31 00:00:00      -3.0
-7          BITCOIN      20260626  2026-06-26 00:00:00      -5.0
-3              CAC      20260619  2026-06-19 00:00:00       1.0
-18           CAD10      20260918  2026-09-18 00:00:00       2.0
-9           CANOLA      20270114  2027-01-14 00:00:00       1.0
-0           CANOLA      20261113  2026-11-13 00:00:00       1.0
-4              CHF      20260914  2026-09-14 00:00:00      -3.0
-8    CRUDE_W_micro      20260819  2026-08-19 00:00:00       4.0
-10        EU-BASIC      20260619  2026-06-19 00:00:00       1.0
-22          EU-OIL      20260619  2026-06-19 00:00:00       1.0
-6      GAS_US_mini      20260625  2026-06-25 00:00:00      -1.0
-13      GOLD_micro      20260827  2026-08-27 00:00:00      -1.0
-1              JPY      20260914  2026-09-14 00:00:00      -1.0
+18       AUD_micro      20260914  2026-09-14 00:00:00       7.0
+22         BITCOIN      20260731  2026-07-31 00:00:00      -3.0
+13         BITCOIN      20260626  2026-06-26 00:00:00      -5.0
+11             CAC      20260619  2026-06-19 00:00:00       1.0
+9            CAD10      20260918  2026-09-18 00:00:00       2.0
+2           CANOLA      20270114  2027-01-14 00:00:00       1.0
+7           CANOLA      20261113  2026-11-13 00:00:00       1.0
+3              CHF      20260914  2026-09-14 00:00:00      -3.0
+0    CRUDE_W_micro      20260819  2026-08-19 00:00:00       4.0
+5         EU-BASIC      20260619  2026-06-19 00:00:00       1.0
+10          EU-OIL      20260619  2026-06-19 00:00:00       1.0
+12     GAS_US_mini      20260625  2026-06-25 00:00:00      -1.0
+4       GOLD_micro      20260827  2026-08-27 00:00:00      -1.0
+16             JPY      20260914  2026-09-14 00:00:00      -1.0
 21            KR10      20260616  2026-06-16 00:00:00      -4.0
-19         LEANHOG      20261014  2026-10-14 00:00:00      -2.0
-15         LIVECOW      20261030  2026-10-30 00:00:00       1.0
-11        MSCISING      20260629  2026-06-29 00:00:00       1.0
-17           MUMMY      20260910  2026-09-10 00:00:00       1.0
+17         LEANHOG      20261014  2026-10-14 00:00:00      -2.0
+6          LIVECOW      20261030  2026-10-30 00:00:00       1.0
+8         MSCISING      20260629  2026-06-29 00:00:00       1.0
+20           MUMMY      20260910  2026-09-10 00:00:00       1.0
 14             MXP      20260914  2026-09-14 00:00:00       3.0
-20          NIKKEI      20260910  2026-09-10 00:00:00       1.0
-2         REDWHEAT      20261214  2026-12-14 00:00:00      -1.0
-12         RUSSELL      20260918  2026-09-18 00:00:00       2.0
-5              ZAR      20260615  2026-06-15 00:00:00       2.0
+19          NIKKEI      20260910  2026-09-10 00:00:00       1.0
+15        REDWHEAT      20261214  2026-12-14 00:00:00      -1.0
+1          RUSSELL      20260918  2026-09-18 00:00:00       2.0
 
 
-=====================================================================================
-                                    Trades in DB                                     
-=====================================================================================
+===============
+ Trades in DB  
+===============
 
-                  strategy_name contract_date       fill_datetime  fill  filled_price
-MSCITAIWAN     dynamic_TF_carry    [20260600] 2026-06-14 23:02:27  [-1]   2048.400000
-NIKKEI         dynamic_TF_carry    [20260900] 2026-06-14 23:02:28   [1]  69465.000000
-HANGTECH       dynamic_TF_carry    [20260600] 2026-06-14 23:15:05   [1]   4794.000000
-HANGENT_mini   dynamic_TF_carry    [20260600] 2026-06-14 23:15:08   [1]   8481.000000
-GASOILINE      dynamic_TF_carry    [20260900] 2026-06-15 11:00:07  [-1]      2.802500
-CANOLA         dynamic_TF_carry    [20270100] 2026-06-15 11:00:09   [1]    758.700000
-GOLD_micro     dynamic_TF_carry    [20260800] 2026-06-15 11:00:15  [-1]   4368.400000
-CAD10          dynamic_TF_carry    [20260900] 2026-06-15 11:04:48   [1]    120.860000
-CRUDE_W_micro  dynamic_TF_carry    [20260900] 2026-06-15 11:00:15   [1]     77.930000
-CRUDE_W_micro  dynamic_TF_carry    [20260900] 2026-06-15 11:05:42   [1]     77.940000
-CRUDE_W_micro  dynamic_TF_carry    [20260900] 2026-06-15 11:06:00   [1]     77.900000
-CRUDE_W_micro  dynamic_TF_carry    [20260900] 2026-06-15 11:00:04   [1]     77.900000
-JPY            dynamic_TF_carry    [20260900] 2026-06-15 12:01:10   [1]      0.006292
-NZD            dynamic_TF_carry    [20260900] 2026-06-15 12:01:12  [-1]      0.585800
-BITCOIN        dynamic_TF_carry    [20260700] 2026-06-15 12:01:18  [-1]  66695.000000
-BITCOIN        dynamic_TF_carry    [20260700] 2026-06-15 12:00:07  [-1]  66790.000000
-RUSSELL        dynamic_TF_carry    [20260900] 2026-06-15 12:01:20   [1]   3010.800000
-RUSSELL        dynamic_TF_carry    [20260900] 2026-06-15 12:00:11   [1]   3009.300000
-CHF            dynamic_TF_carry    [20260900] 2026-06-15 12:01:21  [-1]      1.274150
-CHF            dynamic_TF_carry    [20260900] 2026-06-15 12:00:12  [-1]      1.274300
-MXP            dynamic_TF_carry    [20260900] 2026-06-15 12:00:14   [1]      0.057740
-MXP            dynamic_TF_carry    [20260900] 2026-06-15 12:02:34   [1]      0.057760
-AUD_micro      dynamic_TF_carry    [20260900] 2026-06-15 12:00:10   [1]      0.706100
-AUD_micro      dynamic_TF_carry    [20260900] 2026-06-15 12:01:19   [1]      0.706100
-AUD_micro      dynamic_TF_carry    [20260900] 2026-06-15 12:02:40   [1]      0.706100
-AUD_micro      dynamic_TF_carry    [20260900] 2026-06-15 12:02:47   [1]      0.706100
-AUD_micro      dynamic_TF_carry    [20260900] 2026-06-15 12:03:01   [1]      0.706200
-AUD_micro      dynamic_TF_carry    [20260900] 2026-06-15 12:03:26   [1]      0.706100
-AUD_micro      dynamic_TF_carry    [20260900] 2026-06-15 12:04:15   [1]      0.706200
-LIVECOW        dynamic_TF_carry    [20261000] 2026-06-15 12:30:09   [1]    234.575000
-LEANHOG        dynamic_TF_carry    [20261000] 2026-06-15 12:30:18  [-1]     80.700000
-LEANHOG        dynamic_TF_carry    [20261000] 2026-06-15 12:30:24  [-1]     80.700000
+Empty DataFrame
+Columns: [strategy_name, contract_date, fill_datetime, fill, filled_price]
+Index: []
 
 
-=================================================================================
-                               Trades from broker                                
-=================================================================================
+==================
+Trades from broker
+==================
 
-              strategy_name contract_date       fill_datetime  fill  filled_price
-CHF                            [20260914] 2026-06-15 15:01:21  [-1]      1.274150
-MXP                            [20260914] 2026-06-15 15:02:34   [1]      0.057760
-AUD_micro                      [20260914] 2026-06-15 15:02:40   [1]      0.706100
-AUD_micro                      [20260914] 2026-06-15 15:02:47   [1]      0.706100
-AUD_micro                      [20260914] 2026-06-15 15:03:01   [1]      0.706200
-AUD_micro                      [20260914] 2026-06-15 15:03:26   [1]      0.706100
-AUD_micro                      [20260914] 2026-06-15 15:04:15   [1]      0.706200
-LIVECOW                        [20261030] 2026-06-15 15:30:09   [1]    234.575000
-LEANHOG                        [20261014] 2026-06-15 15:30:18  [-1]     80.700000
-LEANHOG                        [20261014] 2026-06-15 15:30:24  [-1]     80.700000
-MSCITAIWAN                     [20260629] 2026-06-15 02:02:27  [-1]   2048.400000
-NIKKEI                         [20260910] 2026-06-15 02:02:28   [1]  69465.000000
-HANGTECH                       [20260629] 2026-06-15 02:15:05   [1]   4794.000000
-HANGENT_mini                   [20260629] 2026-06-15 02:15:08   [1]   8481.000000
-CRUDE_W_micro                  [20260819] 2026-06-15 14:00:04   [1]     77.900000
-GASOILINE                      [20260831] 2026-06-15 14:00:07  [-1]      2.802500
-CANOLA                         [20270114] 2026-06-15 14:00:09   [1]    758.700000
-GOLD_micro                     [20260827] 2026-06-15 14:00:15  [-1]   4368.400000
-CRUDE_W_micro                  [20260819] 2026-06-15 14:00:15   [1]     77.930000
-CAD10                          [20260918] 2026-06-15 14:04:48   [1]    120.860000
-CRUDE_W_micro                  [20260819] 2026-06-15 14:05:42   [1]     77.940000
-CRUDE_W_micro                  [20260819] 2026-06-15 14:06:00   [1]     77.900000
-BITCOIN                        [20260731] 2026-06-15 15:00:07  [-1]  66790.000000
-AUD_micro                      [20260914] 2026-06-15 15:00:10   [1]      0.706100
-RUSSELL                        [20260918] 2026-06-15 15:00:11   [1]   3009.300000
-CHF                            [20260914] 2026-06-15 15:00:12  [-1]      1.274300
-MXP                            [20260914] 2026-06-15 15:00:14   [1]      0.057740
-JPY                            [20260914] 2026-06-15 15:01:10   [1]      0.006292
-NZD                            [20260914] 2026-06-15 15:01:12  [-1]      0.585800
-BITCOIN                        [20260731] 2026-06-15 15:01:18  [-1]  66695.000000
-AUD_micro                      [20260914] 2026-06-15 15:01:19   [1]      0.706100
-RUSSELL                        [20260918] 2026-06-15 15:01:20   [1]   3010.800000
+Empty DataFrame
+Columns: [strategy_name, contract_date, fill_datetime, fill, filled_price]
+Index: []
 
 
 ==========================================================
@@ -165,20 +104,20 @@ dynamic_TF_carry NICKEL_LME              0       0   False
 dynamic_TF_carry LIVECOW                 1       1   False
 dynamic_TF_carry MSCIEMASIA              0       0   False
 dynamic_TF_carry CZK                     0       0   False
-dynamic_TF_carry MSCIEAFA                0       0   False
+dynamic_TF_carry MSCIEAFA                0       1    True
 dynamic_TF_carry US10                    0       0   False
 dynamic_TF_carry REDWHEAT               -1      -1   False
 dynamic_TF_carry TWD                     0       0   False
-dynamic_TF_carry KR10                   -4      -4   False
+dynamic_TF_carry KR10                   -4      -3    True
 dynamic_TF_carry MIB                     0       0   False
-dynamic_TF_carry HANGENT_mini            0       0   False
+dynamic_TF_carry HANGENT_mini            0      -1    True
 dynamic_TF_carry NOK                     0       0   False
 dynamic_TF_carry EURCAD                  0       0   False
 dynamic_TF_carry EU-UTILS                0       0   False
 dynamic_TF_carry GASOILINE               0       0   False
 dynamic_TF_carry BUND                    0       0   False
-dynamic_TF_carry GBP                     0       0   False
-dynamic_TF_carry MSCISING                1       1   False
+dynamic_TF_carry GBP                     0       1    True
+dynamic_TF_carry MSCISING                1       0    True
 dynamic_TF_carry US-REALESTATE           0       0   False
 dynamic_TF_carry EUROSTX-LARGE           0       0   False
 dynamic_TF_carry EU-HOUSE                0       0   False
@@ -186,7 +125,7 @@ dynamic_TF_carry CORN                    0       0   False
 dynamic_TF_carry BOVESPA                 0       0   False
 dynamic_TF_carry EU-BASIC                1       1   False
 dynamic_TF_carry JGB                     0       0   False
-dynamic_TF_carry SOYOIL                  0       0   False
+dynamic_TF_carry SOYOIL                  0       1    True
 dynamic_TF_carry BRENT-LAST              0       0   False
 dynamic_TF_carry PALLAD                  0       0   False
 dynamic_TF_carry SOYBEAN                 0       0   False
@@ -218,7 +157,7 @@ dynamic_TF_carry SWISSLEAD               0       0   False
 dynamic_TF_carry COAL                    0       0   False
 dynamic_TF_carry RICE                    0       0   False
 dynamic_TF_carry EU-CONSTRUCTION         0       0   False
-dynamic_TF_carry COPPER-micro            0       0   False
+dynamic_TF_carry COPPER-micro            0      -1    True
 dynamic_TF_carry AUD                     0       0   False
 dynamic_TF_carry CRUDE_ICE               0       0   False
 dynamic_TF_carry EU-BANKS                0       0   False
@@ -233,9 +172,9 @@ dynamic_TF_carry ETHEREUM                0       0   False
 dynamic_TF_carry FTSE100                 0       0   False
 dynamic_TF_carry US3                     0       0   False
 dynamic_TF_carry NIKKEI400               0       0   False
-dynamic_TF_carry JPY                    -1      -1   False
+dynamic_TF_carry JPY                    -1      -2    True
 dynamic_TF_carry IBEX_mini               0       0   False
-dynamic_TF_carry CRUDE_W_micro           4       4   False
+dynamic_TF_carry CRUDE_W_micro           4       3    True
 dynamic_TF_carry DAX                     0       0   False
 dynamic_TF_carry CAD5                    0       0   False
 dynamic_TF_carry DX                      0       0   False
@@ -250,7 +189,7 @@ dynamic_TF_carry EU-MID                  0       0   False
 dynamic_TF_carry FED                     0       0   False
 dynamic_TF_carry LUMBER-new              0       0   False
 dynamic_TF_carry EUA                     0       0   False
-dynamic_TF_carry RUSSELL                 2       2   False
+dynamic_TF_carry RUSSELL                 2       1    True
 dynamic_TF_carry WHEY                    0       0   False
 dynamic_TF_carry EUROSTX200-LARGE        0       0   False
 dynamic_TF_carry SP500_micro             0       0   False
@@ -315,8 +254,8 @@ dynamic_TF_carry COTTON2                 0       0   False
 dynamic_TF_carry SP400                   0       0   False
 dynamic_TF_carry PLN                     0       0   False
 dynamic_TF_carry COFFEE                  0       0   False
-dynamic_TF_carry NIKKEI                  1       1   False
-dynamic_TF_carry MUMMY                   1       1   False
+dynamic_TF_carry NIKKEI                  1       2    True
+dynamic_TF_carry MUMMY                   1       0    True
 dynamic_TF_carry SHATZ                   0       0   False
 dynamic_TF_carry COCOA_LDN               0       0   False
 dynamic_TF_carry GBPEUR                  0       0   False
