@@ -1,15 +1,218 @@
 
 ********************************************************************************
-Trades report produced on 16/06/2026 22:49 from 15/06/2026 22:49 to 16/06/2026 22:49
+Trades report produced on 17/06/2026 22:49 from 16/06/2026 22:49 to 17/06/2026 22:49
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+36158    COPPER-micro  dynamic_TF_carry    [20260900] 2026-06-17 11:00:14  [-1]      6.572000
+36157   CRUDE_W_micro  dynamic_TF_carry    [20260900] 2026-06-17 11:00:07  [-1]     75.100000
+36161             GBP  dynamic_TF_carry    [20260900] 2026-06-17 12:00:46   [1]      1.340400
+36155    HANGENT_mini  dynamic_TF_carry    [20260700] 2026-06-16 23:15:03  [-1]   8207.000000
+36160             JPY  dynamic_TF_carry    [20260900] 2026-06-17 12:00:44  [-1]      0.006284
+36156        MSCIEAFA  dynamic_TF_carry    [20260900] 2026-06-17 11:00:04   [1]   3185.500000
+36153        MSCISING  dynamic_TF_carry    [20260600] 2026-06-16 23:01:04  [-1]    469.200000
+36152           MUMMY  dynamic_TF_carry    [20260900] 2026-06-16 23:01:01  [-1]    700.000000
+36154          NIKKEI  dynamic_TF_carry    [20260900] 2026-06-16 23:02:57   [1]  69700.000000
+36162         RUSSELL  dynamic_TF_carry    [20260900] 2026-06-17 12:00:47  [-1]   2983.700000
+36163          SOYOIL  dynamic_TF_carry    [20261000] 2026-06-17 12:30:07   [1]     68.620000
+36159             ZAR  dynamic_TF_carry    [20260600] 2026-06-17 12:44:58  [-2]      0.061400
+
+
+======================================================================================================================================================
+                                                                        Delays                                                                        
+======================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime      submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+36152           MUMMY  dynamic_TF_carry       2026-06-15 20:00:00  2026-06-16 22:00:00  2026-06-16 23:01:01                93600.0              3661.0
+36153        MSCISING  dynamic_TF_carry       2026-06-15 20:00:00  2026-06-16 22:01:03  2026-06-16 23:01:04                93663.0              3601.0
+36154          NIKKEI  dynamic_TF_carry       2026-06-15 20:00:00  2026-06-16 22:02:57  2026-06-16 23:02:57                93777.0              3600.0
+36155    HANGENT_mini  dynamic_TF_carry       2026-06-15 20:00:00  2026-06-16 22:15:02  2026-06-16 23:15:03                94502.0              3601.0
+36156        MSCIEAFA  dynamic_TF_carry       2026-06-15 20:00:00  2026-06-17 10:00:03  2026-06-17 11:00:04               136803.0              3601.0
+36157   CRUDE_W_micro  dynamic_TF_carry       2026-06-15 20:00:00  2026-06-17 10:00:06  2026-06-17 11:00:07               136806.0              3601.0
+36158    COPPER-micro  dynamic_TF_carry       2024-02-29 00:00:00  2026-06-17 10:00:13  2026-06-17 11:00:14             72525613.0              3601.0
+36159             ZAR  dynamic_TF_carry       1974-05-01 09:31:00  1974-05-01 10:31:00  2026-06-17 12:44:58                 3600.0        1645064038.0
+36160             JPY  dynamic_TF_carry       2026-06-15 20:00:00  2026-06-17 11:00:05  2026-06-17 12:00:44               140405.0              3639.0
+36161             GBP  dynamic_TF_carry       2026-06-15 20:00:00  2026-06-17 11:00:46  2026-06-17 12:00:46               140446.0              3600.0
+36162         RUSSELL  dynamic_TF_carry       2026-06-15 20:00:00  2026-06-17 11:00:47  2026-06-17 12:00:47               140447.0              3600.0
+36163          SOYOIL  dynamic_TF_carry       2026-06-15 20:00:00  2026-06-17 11:30:06  2026-06-17 12:30:07               142206.0              3601.0
+
+
+===============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                    
+===============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay  bid_ask execution versus_limit versus_parent_limit total_trading
+36152           MUMMY  dynamic_TF_carry  [-1]                  709.0               None     699.5      699.0         700.0       700.0        700.0      -9.5     -0.5       1.0         -0.0                 NaN           0.5
+36153        MSCISING  dynamic_TF_carry  [-1]                 467.95               None   469.175     469.15         469.2       469.2        469.2     1.225   -0.025      0.05         -0.0                 NaN         0.025
+36154          NIKKEI  dynamic_TF_carry   [1]                69435.0               None   69702.5    69705.0       69700.0     69700.0      69700.0    -267.5     -2.5       5.0          0.0                 NaN           2.5
+36155    HANGENT_mini  dynamic_TF_carry  [-1]                 8211.0               None    8184.5     8143.0        8226.0      8226.0       8207.0     -26.5    -41.5      64.0        -19.0                 NaN          22.5
+36156        MSCIEAFA  dynamic_TF_carry   [1]                 3164.3               None    3185.3     3185.4        3185.2      3185.2       3185.5     -21.0     -0.1      -0.1         -0.3                 NaN          -0.2
+36157   CRUDE_W_micro  dynamic_TF_carry  [-1]                  75.17               None     75.08      75.06          75.1        75.1         75.1     -0.09    -0.02      0.04         -0.0                 NaN          0.02
+36158    COPPER-micro  dynamic_TF_carry  [-1]                    NaN               None   6.57275      6.572        6.5735      6.5735        6.572       NaN -0.00075      -0.0      -0.0015                 NaN      -0.00075
+36159             ZAR  dynamic_TF_carry  [-2]                    NaN               None       NaN        NaN           NaN         NaN       0.0614       NaN      NaN       NaN          NaN                 NaN           NaN
+36160             JPY  dynamic_TF_carry  [-1]               0.006278               None  0.006285   0.006285      0.006285    0.006285     0.006284  0.000007     -0.0 -0.000001    -0.000001                 NaN     -0.000001
+36161             GBP  dynamic_TF_carry   [1]                  1.343               None   1.34045     1.3405        1.3404      1.3404       1.3404   0.00255 -0.00005    0.0001          0.0                 NaN       0.00005
+36162         RUSSELL  dynamic_TF_carry  [-1]                 2974.0               None   2983.55     2983.5        2983.6      2983.6       2983.7      9.55    -0.05       0.2          0.1                 NaN          0.15
+36163          SOYOIL  dynamic_TF_carry   [1]                  68.77               None      68.6      68.61         68.59       68.59        68.62      0.17    -0.01     -0.01        -0.03                 NaN         -0.02
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+36152           MUMMY  dynamic_TF_carry  [-1]      228.205117 -416.292155  -21.910113     43.820227             -0.0                     NaN         21.910113
+36153        MSCISING  dynamic_TF_carry  [-1]       81.720882  149.900487   -3.059194      6.118387             -0.0                     NaN          3.059194
+36154          NIKKEI  dynamic_TF_carry   [1]    19303.474163 -138.576091   -1.295104      2.590207              0.0                     NaN          1.295104
+36155    HANGENT_mini  dynamic_TF_carry  [-1]     1802.031505 -147.056252 -230.295641    355.154723      -105.436558                     NaN        124.859082
+36156        MSCIEAFA  dynamic_TF_carry   [1]      582.082469 -360.773621    -1.71797      -1.71797        -5.153909                     NaN         -3.435939
+36157   CRUDE_W_micro  dynamic_TF_carry  [-1]       34.861134  -25.816716   -5.737048     11.474096             -0.0                     NaN          5.737048
+36158    COPPER-micro  dynamic_TF_carry  [-1]        1.742226         NaN   -4.304838          -0.0        -8.609676                     NaN         -4.304838
+36159             ZAR  dynamic_TF_carry  [-2]        0.007525         NaN         NaN           NaN              NaN                     NaN               NaN
+36160             JPY  dynamic_TF_carry  [-1]         0.00042  160.840773   -5.957066    -11.914131       -23.828263                     NaN        -17.871197
+36161             GBP  dynamic_TF_carry   [1]        0.084645  301.257433   -5.907008     11.814017              0.0                     NaN          5.907008
+36162         RUSSELL  dynamic_TF_carry  [-1]      594.611061  160.609188   -0.840886      3.363543         1.681772                     NaN          2.522657
+36163          SOYOIL  dynamic_TF_carry   [1]       14.384932   118.17922   -6.951719     -6.951719       -20.855156                     NaN        -13.903438
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+36152           MUMMY  dynamic_TF_carry  [-1]             4.648834  -44.163919    -2.324417       4.648834              -0.0                      NaN           2.324417
+36153        MSCISING  dynamic_TF_carry  [-1]            58.139523   71.220916    -1.453488       2.906976              -0.0                      NaN           1.453488
+36154          NIKKEI  dynamic_TF_carry   [1]             0.464883 -124.356298    -1.162208       2.324417               0.0                      NaN           1.162208
+36155    HANGENT_mini  dynamic_TF_carry  [-1]             0.951429  -25.212876   -39.484315      60.891474        -18.077156                      NaN          21.407159
+36156        MSCIEAFA  dynamic_TF_carry   [1]            37.263655 -782.536761    -3.726366      -3.726366        -11.179097                      NaN          -7.452731
+36157   CRUDE_W_micro  dynamic_TF_carry  [-1]            74.527311   -6.707458    -1.490546       2.981092              -0.0                      NaN           1.490546
+36158    COPPER-micro  dynamic_TF_carry  [-1]          1863.182763         NaN    -1.397387           -0.0         -2.794774                      NaN          -1.397387
+36159             ZAR  dynamic_TF_carry  [-2]        372636.552665         NaN          NaN            NaN               NaN                      NaN                NaN
+36160             JPY  dynamic_TF_carry  [-1]       9315913.816618   62.882418    -2.328978      -4.657957         -9.315914                      NaN          -6.986935
+36161             GBP  dynamic_TF_carry   [1]         46579.569083  118.777901    -2.328978       4.657957               0.0                      NaN           2.328978
+36162         RUSSELL  dynamic_TF_carry  [-1]             3.726366   35.586791    -0.186318       0.745273          0.372637                      NaN           0.558955
+36163          SOYOIL  dynamic_TF_carry   [1]           447.163863   76.017857    -4.471639      -4.471639        -13.414916                      NaN          -8.943277
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry COPPER-micro              0
+                 CRUDE_W_micro     -6.707458
+                 GBP              118.777901
+                 HANGENT_mini     -25.212876
+                 JPY               62.882418
+                 MSCIEAFA        -782.536761
+                 MSCISING          71.220916
+                 MUMMY            -44.163919
+                 NIKKEI          -124.356298
+                 RUSSELL           35.586791
+                 SOYOIL            76.017857
+                 ZAR                       0
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -618.491429
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry COPPER-micro       -1.397387
+                 CRUDE_W_micro      -1.490546
+                 GBP                -2.328978
+                 HANGENT_mini      -39.484315
+                 JPY                -2.328978
+                 MSCIEAFA           -3.726366
+                 MSCISING           -1.453488
+                 MUMMY              -2.324417
+                 NIKKEI             -1.162208
+                 RUSSELL            -0.186318
+                 SOYOIL             -4.471639
+                 ZAR                        0
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -60.354641
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry COPPER-micro              -0.0
+                 CRUDE_W_micro         2.981092
+                 GBP                   4.657957
+                 HANGENT_mini         60.891474
+                 JPY                  -4.657957
+                 MSCIEAFA             -3.726366
+                 MSCISING              2.906976
+                 MUMMY                 4.648834
+                 NIKKEI                2.324417
+                 RUSSELL               0.745273
+                 SOYOIL               -4.471639
+                 ZAR                          0
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry      66.300062
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry COPPER-micro            -2.794774
+                 CRUDE_W_micro                -0.0
+                 GBP                           0.0
+                 HANGENT_mini           -18.077156
+                 JPY                     -9.315914
+                 MSCIEAFA               -11.179097
+                 MSCISING                     -0.0
+                 MUMMY                        -0.0
+                 NIKKEI                        0.0
+                 RUSSELL                  0.372637
+                 SOYOIL                 -13.414916
+                 ZAR                             0
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry         -54.40922
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry COPPER-micro                           0
+                 CRUDE_W_micro                          0
+                 GBP                                    0
+                 HANGENT_mini                           0
+                 JPY                                    0
+                 MSCIEAFA                               0
+                 MSCISING                               0
+                 MUMMY                                  0
+                 NIKKEI                                 0
+                 RUSSELL                                0
+                 SOYOIL                                 0
+                 ZAR                                    0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry COPPER-micro             -1.397387
+                 CRUDE_W_micro             1.490546
+                 GBP                       2.328978
+                 HANGENT_mini             21.407159
+                 JPY                      -6.986935
+                 MSCIEAFA                 -7.452731
+                 MSCISING                  1.453488
+                 MUMMY                     2.324417
+                 NIKKEI                    1.162208
+                 RUSSELL                   0.558955
+                 SOYOIL                   -8.943277
+                 ZAR                              0
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry           5.945421
 
 ********************************************************************************
                                  END OF REPORT                                  
