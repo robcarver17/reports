@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 22/06/2026 22:49 from 21/06/2026 22:49 to 22/06/2026 22:49
+Trades report produced on 23/06/2026 22:49 from 22/06/2026 22:49 to 23/06/2026 22:49
 ********************************************************************************
 
 
@@ -10,7 +10,18 @@ Trades report produced on 22/06/2026 22:49 from 21/06/2026 22:49 to 22/06/2026 2
 =============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-36184            KR10  dynamic_TF_carry    [20260900] 2026-06-21 23:02:30  [-1]        106.14
+36191          CANOLA  dynamic_TF_carry    [20270100] 2026-06-23 11:08:52   [1]       750.700
+36193    COPPER-micro  dynamic_TF_carry    [20260900] 2026-06-23 11:09:00   [1]         6.244
+36192   CRUDE_W_micro  dynamic_TF_carry    [20260900] 2026-06-23 11:08:58  [-1]        72.870
+36190             DAX  dynamic_TF_carry    [20260900] 2026-06-23 05:00:16   [1]     25017.000
+36196             DOW  dynamic_TF_carry    [20260900] 2026-06-23 12:00:08  [-1]     51928.000
+36189        EU-BANKS  dynamic_TF_carry    [20260900] 2026-06-23 05:00:09   [1]       296.550
+36194     GAS_US_mini  dynamic_TF_carry    [20260700] 2026-06-23 11:10:01   [1]         3.210
+36187    HANGENT_mini  dynamic_TF_carry    [20260700] 2026-06-22 23:15:02  [-1]      7881.000
+36185            KR10  dynamic_TF_carry    [20260900] 2026-06-22 23:00:00  [-1]       106.050
+36186          NIKKEI  dynamic_TF_carry    [20260900] 2026-06-22 23:02:30   [1]     72375.000
+36195         RUSSELL  dynamic_TF_carry    [20260900] 2026-06-23 12:00:05   [1]      3003.000
+36188             SMI  dynamic_TF_carry    [20260900] 2026-06-23 05:00:07   [1]     13780.000
 
 
 ======================================================================================================================================================
@@ -18,68 +29,167 @@ Trades report produced on 22/06/2026 22:49 from 21/06/2026 22:49 to 22/06/2026 2
 ======================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime      submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-36184            KR10  dynamic_TF_carry       2026-06-18 20:00:00  2026-06-21 22:02:28  2026-06-21 23:02:30               266548.0              3602.0
+36185            KR10  dynamic_TF_carry       2026-06-21 20:00:00  2026-06-22 22:00:00  2026-06-22 23:00:00                93600.0              3600.0
+36186          NIKKEI  dynamic_TF_carry       2026-06-21 20:00:00  2026-06-22 22:02:30  2026-06-22 23:02:30                93750.0              3600.0
+36187    HANGENT_mini  dynamic_TF_carry       2026-06-21 20:00:00  2026-06-22 22:15:01  2026-06-22 23:15:02                94501.0              3601.0
+36188             SMI  dynamic_TF_carry       2026-06-21 20:00:00  2026-06-23 04:00:06  2026-06-23 05:00:07               115206.0              3601.0
+36189        EU-BANKS  dynamic_TF_carry       2026-06-21 20:00:00  2026-06-23 04:00:08  2026-06-23 05:00:09               115208.0              3601.0
+36190             DAX  dynamic_TF_carry       2026-06-21 20:00:00  2026-06-23 04:00:15  2026-06-23 05:00:16               115215.0              3601.0
+36191          CANOLA  dynamic_TF_carry       2026-06-21 20:00:00  2026-06-23 10:00:03  2026-06-23 11:08:52               136803.0              4129.0
+36192   CRUDE_W_micro  dynamic_TF_carry       2026-06-21 20:00:00  2026-06-23 10:08:55  2026-06-23 11:08:58               137335.0              3603.0
+36193    COPPER-micro  dynamic_TF_carry       2024-02-29 00:00:00  2026-06-23 10:09:00  2026-06-23 11:09:00             73044540.0              3600.0
+36194     GAS_US_mini  dynamic_TF_carry       2026-06-21 20:00:00  2026-06-23 10:09:50  2026-06-23 11:10:01               137390.0              3611.0
+36195         RUSSELL  dynamic_TF_carry       2026-06-21 20:00:00  2026-06-23 11:00:05  2026-06-23 12:00:05               140405.0              3600.0
+36196             DOW  dynamic_TF_carry       2026-06-21 20:00:00  2026-06-23 11:00:07  2026-06-23 12:00:08               140407.0              3601.0
 
 
-===========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                  
-===========================================================================================================================================================================================================================
+=============================================================================================================================================================================================================================
+                                                                                                  Slippage (ticks per lot)                                                                                                   
+=============================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
-36184            KR10  dynamic_TF_carry  [-1]                 106.21               None   106.135     106.13        106.14      106.14       106.14 -0.075  -0.005      0.01         -0.0                 NaN         0.005
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay  bid_ask execution versus_limit versus_parent_limit total_trading
+36185            KR10  dynamic_TF_carry  [-1]                 105.88               None   106.065     106.06        106.07      106.07       106.05   0.185   -0.005     -0.01        -0.02                 NaN        -0.015
+36186          NIKKEI  dynamic_TF_carry   [1]                72880.0               None   72392.5    72395.0       72390.0     72390.0      72375.0   487.5     -2.5      20.0         15.0                 NaN          17.5
+36187    HANGENT_mini  dynamic_TF_carry  [-1]                 7871.0               None    7913.5     7880.0        7947.0      7947.0       7881.0    42.5    -33.5       1.0        -66.0                 NaN         -32.5
+36188             SMI  dynamic_TF_carry   [1]                13824.0               None   13778.0    13779.0       13777.0     13777.0      13780.0    46.0     -1.0      -1.0         -3.0                 NaN          -2.0
+36189        EU-BANKS  dynamic_TF_carry   [1]                  299.7               None     296.6     296.65        296.55      296.55       296.55     3.1    -0.05       0.1          0.0                 NaN          0.05
+36190             DAX  dynamic_TF_carry   [1]                25283.0               None   25014.0    25015.0       25013.0     25013.0      25017.0   269.0     -1.0      -2.0         -4.0                 NaN          -3.0
+36191          CANOLA  dynamic_TF_carry   [1]                  751.3               None    750.25      750.4         750.1       750.1        750.7    1.05    -0.15      -0.3         -0.6                 NaN         -0.45
+36192   CRUDE_W_micro  dynamic_TF_carry  [-1]                  73.18               None     72.86      72.85         72.87       72.87        72.87   -0.32    -0.01      0.02         -0.0                 NaN          0.01
+36193    COPPER-micro  dynamic_TF_carry   [1]                    NaN               None   6.24175     6.2425         6.241       6.241        6.244     NaN -0.00075   -0.0015       -0.003                 NaN      -0.00225
+36194     GAS_US_mini  dynamic_TF_carry   [1]                  3.255               None    3.2075       3.21         3.205       3.205         3.21  0.0475  -0.0025       0.0       -0.005                 NaN       -0.0025
+36195         RUSSELL  dynamic_TF_carry   [1]                 3023.1               None    3002.7     3002.8        3002.6      3002.6       3003.0    20.4     -0.1      -0.2         -0.4                 NaN          -0.3
+36196             DOW  dynamic_TF_carry  [-1]                52041.0               None   51942.0    51941.0       51943.0     51943.0      51928.0   -99.0     -1.0     -13.0        -15.0                 NaN         -14.0
 
 
-=============================================================================================================================================================
-                                                    Slippage (normalised by annual vol, BP of annual SR)                                                     
-=============================================================================================================================================================
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
 
-      instrument_code     strategy_name trade last_annual_vol  delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-36184            KR10  dynamic_TF_carry  [-1]        7.884642 -95.121627   -6.341442     12.682884             -0.0                     NaN          6.341442
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+36185            KR10  dynamic_TF_carry  [-1]        7.618804  242.820266    -6.56271     -13.12542        -26.25084                     NaN         -19.68813
+36186          NIKKEI  dynamic_TF_carry   [1]    18589.532666  262.244355   -1.344843     10.758743         8.069057                     NaN            9.4139
+36187    HANGENT_mini  dynamic_TF_carry  [-1]     1814.399214  234.237315 -184.634119      5.511466      -363.756771                     NaN       -179.122653
+36188             SMI  dynamic_TF_carry   [1]     1542.691053  298.180248   -6.482179     -6.482179       -19.446538                     NaN        -12.964359
+36189        EU-BANKS  dynamic_TF_carry   [1]       58.921862  526.120511   -8.485815     16.971629              0.0                     NaN          8.485815
+36190             DAX  dynamic_TF_carry   [1]     3716.500319  723.799211   -2.690703     -5.381407       -10.762814                     NaN          -8.07211
+36191          CANOLA  dynamic_TF_carry   [1]      153.191102    68.54184   -9.791691    -19.583383       -39.166766                     NaN        -29.375074
+36192   CRUDE_W_micro  dynamic_TF_carry  [-1]       34.178733  -93.625473   -2.925796      5.851592             -0.0                     NaN          2.925796
+36193    COPPER-micro  dynamic_TF_carry   [1]        1.720442         NaN   -4.359346     -8.718692       -17.437383                     NaN        -13.078037
+36194     GAS_US_mini  dynamic_TF_carry   [1]        1.585205   299.64581  -15.770832           0.0       -31.541664                     NaN        -15.770832
+36195         RUSSELL  dynamic_TF_carry   [1]      610.521889  334.140354   -1.637943     -3.275886        -6.551772                     NaN         -4.913829
+36196             DOW  dynamic_TF_carry  [-1]     7393.659238 -133.898516    -1.35251    -17.582633       -20.287654                     NaN        -18.935144
 
 
-=======================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                      
-=======================================================================================================================================================================
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-36184            KR10  dynamic_TF_carry  [-1]           492.599144 -36.944936    -2.462996       4.925991              -0.0                      NaN           2.462996
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+36185            KR10  dynamic_TF_carry  [-1]           491.701705   90.964816    -2.458509      -4.917017         -9.834034                      NaN          -7.375526
+36186          NIKKEI  dynamic_TF_carry   [1]             0.467119  227.720613    -1.167798       9.342384          7.006788                      NaN           8.174586
+36187    HANGENT_mini  dynamic_TF_carry  [-1]             0.963298    40.94018   -32.270495       0.963298        -63.577692                      NaN         -31.307197
+36188             SMI  dynamic_TF_carry   [1]             9.335221  429.420178    -9.335221      -9.335221        -28.005664                      NaN         -18.670443
+36189        EU-BANKS  dynamic_TF_carry   [1]            43.129437  133.701254    -2.156472       4.312944               0.0                      NaN           2.156472
+36190             DAX  dynamic_TF_carry   [1]             0.862589  232.036369    -0.862589      -1.725177         -3.450355                      NaN          -2.587766
+36191          CANOLA  dynamic_TF_carry   [1]            10.655524     11.1883    -1.598329      -3.196657         -6.393314                      NaN          -4.794986
+36192   CRUDE_W_micro  dynamic_TF_carry  [-1]            75.517293  -24.165534    -0.755173       1.510346              -0.0                      NaN           0.755173
+36193    COPPER-micro  dynamic_TF_carry   [1]          1887.932337         NaN    -1.415949      -2.831899         -5.663797                      NaN          -4.247848
+36194     GAS_US_mini  dynamic_TF_carry   [1]          1887.932337   89.676786    -4.719831            0.0         -9.439662                      NaN          -4.719831
+36195         RUSSELL  dynamic_TF_carry   [1]             3.775865   77.027639    -0.377586      -0.755173         -1.510346                      NaN          -1.132759
+36196             DOW  dynamic_TF_carry  [-1]             0.377586   -37.38106    -0.377586      -4.908624         -5.663797                      NaN          -5.286211
 
 delay_cash Sum
-                                 delay_cash
-strategy_name    instrument_code           
-dynamic_TF_carry KR10            -36.944936
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry CANOLA              11.1883
+                 COPPER-micro              0
+                 CRUDE_W_micro    -24.165534
+                 DAX              232.036369
+                 DOW               -37.38106
+                 EU-BANKS         133.701254
+                 GAS_US_mini       89.676786
+                 HANGENT_mini       40.94018
+                 KR10              90.964816
+                 NIKKEI           227.720613
+                 RUSSELL           77.027639
+                 SMI              429.420178
 delay_cash Total Sum
-                 delay_cash
-strategy_name              
-dynamic_TF_carry -36.944936
+                  delay_cash
+strategy_name               
+dynamic_TF_carry  1271.12954
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry KR10               -2.462996
+dynamic_TF_carry CANOLA             -1.598329
+                 COPPER-micro       -1.415949
+                 CRUDE_W_micro      -0.755173
+                 DAX                -0.862589
+                 DOW                -0.377586
+                 EU-BANKS           -2.156472
+                 GAS_US_mini        -4.719831
+                 HANGENT_mini      -32.270495
+                 KR10               -2.458509
+                 NIKKEI             -1.167798
+                 RUSSELL            -0.377586
+                 SMI                -9.335221
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -2.462996
+dynamic_TF_carry   -57.495538
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry KR10                  4.925991
+dynamic_TF_carry CANOLA               -3.196657
+                 COPPER-micro         -2.831899
+                 CRUDE_W_micro         1.510346
+                 DAX                  -1.725177
+                 DOW                  -4.908624
+                 EU-BANKS              4.312944
+                 GAS_US_mini                0.0
+                 HANGENT_mini          0.963298
+                 KR10                 -4.917017
+                 NIKKEI                9.342384
+                 RUSSELL              -0.755173
+                 SMI                  -9.335221
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry       4.925991
+dynamic_TF_carry     -11.540796
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry KR10                         -0.0
+dynamic_TF_carry CANOLA                  -6.393314
+                 COPPER-micro            -5.663797
+                 CRUDE_W_micro                -0.0
+                 DAX                     -3.450355
+                 DOW                     -5.663797
+                 EU-BANKS                      0.0
+                 GAS_US_mini             -9.439662
+                 HANGENT_mini           -63.577692
+                 KR10                    -9.834034
+                 NIKKEI                   7.006788
+                 RUSSELL                 -1.510346
+                 SMI                    -28.005664
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry              -0.0
+dynamic_TF_carry       -126.531872
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry KR10                                   0
+dynamic_TF_carry CANOLA                                 0
+                 COPPER-micro                           0
+                 CRUDE_W_micro                          0
+                 DAX                                    0
+                 DOW                                    0
+                 EU-BANKS                               0
+                 GAS_US_mini                            0
+                 HANGENT_mini                           0
+                 KR10                                   0
+                 NIKKEI                                 0
+                 RUSSELL                                0
+                 SMI                                    0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -87,11 +197,22 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry KR10                      2.462996
+dynamic_TF_carry CANOLA                   -4.794986
+                 COPPER-micro             -4.247848
+                 CRUDE_W_micro             0.755173
+                 DAX                      -2.587766
+                 DOW                      -5.286211
+                 EU-BANKS                  2.156472
+                 GAS_US_mini              -4.719831
+                 HANGENT_mini            -31.307197
+                 KR10                     -7.375526
+                 NIKKEI                    8.174586
+                 RUSSELL                  -1.132759
+                 SMI                     -18.670443
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry           2.462996
+dynamic_TF_carry         -69.036334
 
 ********************************************************************************
                                  END OF REPORT                                  
