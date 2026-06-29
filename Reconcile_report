@@ -1,10 +1,10 @@
 
 ********************************************************************************
-                 Reconcile report produced on 26/06/2026 22:49                  
+                 Reconcile report produced on 29/06/2026 22:49                  
 ********************************************************************************
 
 
-Breaks Optimal vs actual ['dynamic_TF_carry BITCOIN']
+Breaks Optimal vs actual ['dynamic_TF_carry CRUDE_W_micro', 'dynamic_TF_carry BITCOIN', 'dynamic_TF_carry AUD_micro']
  Breaks Instrument vs Contract []
  Breaks Broker vs Contract []
 
@@ -15,7 +15,7 @@ Breaks Optimal vs actual ['dynamic_TF_carry BITCOIN']
    instrument_code contract_date          expiry_date  position
 19             AEX      20260717  2026-07-17 00:00:00       1.0
 24       AUD_micro      20260914  2026-09-14 00:00:00       2.0
-4          BITCOIN      20260731  2026-07-31 00:00:00      -6.0
+4          BITCOIN      20260731  2026-07-31 00:00:00      -7.0
 12           CAD10      20260918  2026-09-18 00:00:00       4.0
 2           CANOLA      20261113  2026-11-13 00:00:00       1.0
 6           CANOLA      20270114  2027-01-14 00:00:00       2.0
@@ -45,51 +45,47 @@ Breaks Optimal vs actual ['dynamic_TF_carry BITCOIN']
 ===============================================================
 
    instrument_code contract_date          expiry_date  position
-16             AEX      20260717  2026-07-17 00:00:00       1.0
-24       AUD_micro      20260914  2026-09-14 00:00:00       2.0
-4          BITCOIN      20260731  2026-07-31 00:00:00      -6.0
-8            CAD10      20260918  2026-09-18 00:00:00       4.0
-7           CANOLA      20261113  2026-11-13 00:00:00       1.0
-9           CANOLA      20270114  2027-01-14 00:00:00       2.0
-6              CHF      20260914  2026-09-14 00:00:00      -3.0
-20             DOW      20260918  2026-09-18 00:00:00       1.0
-18        EU-BANKS      20260918  2026-09-18 00:00:00       2.0
-14       EUR_micro      20260914  2026-09-14 00:00:00      -1.0
-19      GOLD_micro      20260827  2026-08-27 00:00:00      -1.0
-10    HANGENT_mini      20260730  2026-07-30 00:00:00      -2.0
-12        HANGTECH      20260730  2026-07-30 00:00:00      -1.0
-3              JPY      20260914  2026-09-14 00:00:00      -2.0
-11            KR10      20260915  2026-09-15 00:00:00      -2.0
-21         LEANHOG      20261014  2026-10-14 00:00:00      -2.0
-17         LIVECOW      20261030  2026-10-30 00:00:00       1.0
-5              MXP      20260914  2026-09-14 00:00:00       3.0
-13          NIKKEI      20260910  2026-09-10 00:00:00       1.0
-15        REDWHEAT      20261214  2026-12-14 00:00:00      -1.0
-22         RUSSELL      20260918  2026-09-18 00:00:00       1.0
-23             SMI      20260918  2026-09-18 00:00:00       1.0
-0           SOYOIL      20261014  2026-10-14 00:00:00       1.0
-2            TOPIX      20260910  2026-09-10 00:00:00      -1.0
-1           YENEUR      20260914  2026-09-14 00:00:00       1.0
+14             AEX      20260717  2026-07-17 00:00:00       1.0
+23       AUD_micro      20260914  2026-09-14 00:00:00       2.0
+2          BITCOIN      20260731  2026-07-31 00:00:00      -7.0
+9            CAD10      20260918  2026-09-18 00:00:00       4.0
+19          CANOLA      20261113  2026-11-13 00:00:00       1.0
+11          CANOLA      20270114  2027-01-14 00:00:00       2.0
+4              CHF      20260914  2026-09-14 00:00:00      -3.0
+0              DOW      20260918  2026-09-18 00:00:00       1.0
+16        EU-BANKS      20260918  2026-09-18 00:00:00       2.0
+8        EUR_micro      20260914  2026-09-14 00:00:00      -1.0
+17      GOLD_micro      20260827  2026-08-27 00:00:00      -1.0
+22    HANGENT_mini      20260730  2026-07-30 00:00:00      -2.0
+15        HANGTECH      20260730  2026-07-30 00:00:00      -1.0
+5              JPY      20260914  2026-09-14 00:00:00      -2.0
+1             KR10      20260915  2026-09-15 00:00:00      -2.0
+3          LEANHOG      20261014  2026-10-14 00:00:00      -2.0
+20         LIVECOW      20261030  2026-10-30 00:00:00       1.0
+18             MXP      20260914  2026-09-14 00:00:00       3.0
+21          NIKKEI      20260910  2026-09-10 00:00:00       1.0
+24        REDWHEAT      20261214  2026-12-14 00:00:00      -1.0
+13         RUSSELL      20260918  2026-09-18 00:00:00       1.0
+12             SMI      20260918  2026-09-18 00:00:00       1.0
+10          SOYOIL      20261014  2026-10-14 00:00:00       1.0
+7            TOPIX      20260910  2026-09-10 00:00:00      -1.0
+6           YENEUR      20260914  2026-09-14 00:00:00       1.0
 
 
-=================================================================================
-                                  Trades in DB                                   
-=================================================================================
+===============================================================================
+                                 Trades in DB                                  
+===============================================================================
 
-              strategy_name contract_date       fill_datetime  fill  filled_price
-AUD_micro  dynamic_TF_carry    [20260900] 2026-06-26 12:00:03  [-1]        0.6902
-BITCOIN    dynamic_TF_carry    [20260700] 2026-06-26 12:00:04  [-1]    60305.0000
-BITCOIN    dynamic_TF_carry    [20260700] 2026-06-26 12:00:11  [-1]    60325.0000
+            strategy_name contract_date       fill_datetime  fill  filled_price
+BITCOIN  dynamic_TF_carry    [20260700] 2026-06-29 12:00:03  [-1]       59635.0
 
 
-=============================================================================
-                             Trades from broker                              
-=============================================================================
+===========================================================================
+                            Trades from broker                             
+===========================================================================
 
-          strategy_name contract_date       fill_datetime  fill  filled_price
-BITCOIN                    [20260731] 2026-06-26 15:00:04  [-1]    60305.0000
-BITCOIN                    [20260731] 2026-06-26 15:00:11  [-1]    60325.0000
-AUD_micro                  [20260914] 2026-06-26 15:00:03  [-1]        0.6902
+        strategy_name contract_date       fill_datetime  fill  filled_price
+BITCOIN                  [20260731] 2026-06-29 15:00:03  [-1]       59635.0
 
 
 ==========================================================
@@ -179,12 +175,12 @@ dynamic_TF_carry US3                     0       0   False
 dynamic_TF_carry NIKKEI400               0       0   False
 dynamic_TF_carry JPY                    -2      -2   False
 dynamic_TF_carry IBEX_mini               0       0   False
-dynamic_TF_carry CRUDE_W_micro           0       0   False
+dynamic_TF_carry CRUDE_W_micro           0      -1    True
 dynamic_TF_carry DAX                     0       0   False
 dynamic_TF_carry CAD5                    0       0   False
 dynamic_TF_carry DX                      0       0   False
 dynamic_TF_carry FANG                    0       0   False
-dynamic_TF_carry BITCOIN                -6      -7    True
+dynamic_TF_carry BITCOIN                -7      -8    True
 dynamic_TF_carry US-MATERIAL             0       0   False
 dynamic_TF_carry IRS                     0       0   False
 dynamic_TF_carry EU-TECH                 0       0   False
@@ -247,7 +243,7 @@ dynamic_TF_carry US5                     0       0   False
 dynamic_TF_carry RUBBER                  0       0   False
 dynamic_TF_carry LEANHOG                -2      -2   False
 dynamic_TF_carry OMX                     0       0   False
-dynamic_TF_carry AUD_micro               2       2   False
+dynamic_TF_carry AUD_micro               2       1    True
 dynamic_TF_carry CHF                    -3      -3   False
 dynamic_TF_carry GAS-LAST                0       0   False
 dynamic_TF_carry CRUDE_W_mini            0       0   False
