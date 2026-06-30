@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 29/06/2026 22:49 from 28/06/2026 22:49 to 29/06/2026 22:49
+Trades report produced on 30/06/2026 22:49 from 29/06/2026 22:49 to 30/06/2026 22:49
 ********************************************************************************
 
 
@@ -10,7 +10,8 @@ Trades report produced on 29/06/2026 22:49 from 28/06/2026 22:49 to 29/06/2026 2
 =============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-36218         BITCOIN  dynamic_TF_carry    [20260700] 2026-06-29 12:00:03  [-1]       59635.0
+36220       AUD_micro  dynamic_TF_carry    [20260900] 2026-06-30 12:00:04  [-1]        0.6881
+36219   CRUDE_W_micro  dynamic_TF_carry    [20261000] 2026-06-30 11:00:14  [-1]       70.2400
 
 
 ======================================================================================================================================================
@@ -18,23 +19,26 @@ Trades report produced on 29/06/2026 22:49 from 28/06/2026 22:49 to 29/06/2026 2
 ======================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime      submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-36218         BITCOIN  dynamic_TF_carry       2026-06-25 20:00:00  2026-06-29 11:00:02  2026-06-29 12:00:03               313202.0              3601.0
+36219   CRUDE_W_micro  dynamic_TF_carry       2026-06-28 20:00:00  2026-06-30 10:00:12  2026-06-30 11:00:14               136812.0              3602.0
+36220       AUD_micro  dynamic_TF_carry       2026-06-28 20:00:00  2026-06-30 11:00:03  2026-06-30 12:00:04               140403.0              3601.0
 
 
-==========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                 
-==========================================================================================================================================================================================================================
+============================================================================================================================================================================================================================
+                                                                                                  Slippage (ticks per lot)                                                                                                  
+============================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
-36218         BITCOIN  dynamic_TF_carry  [-1]                59740.0               None   59657.5    59650.0       59665.0     59665.0      59635.0 -82.5    -7.5     -15.0        -30.0                 NaN         -22.5
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
+36219   CRUDE_W_micro  dynamic_TF_carry  [-1]                  69.77               None     70.26      70.24         70.28       70.28        70.24    0.49   -0.02      -0.0        -0.04                 NaN         -0.02
+36220       AUD_micro  dynamic_TF_carry  [-1]                  0.688               None    0.6882     0.6881        0.6883      0.6883       0.6881  0.0002 -0.0001      -0.0      -0.0002                 NaN       -0.0001
 
 
-=============================================================================================================================================================
-                                                    Slippage (normalised by annual vol, BP of annual SR)                                                     
-=============================================================================================================================================================
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
 
-      instrument_code     strategy_name trade last_annual_vol  delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-36218         BITCOIN  dynamic_TF_carry  [-1]    29549.918252 -27.918859   -2.538078     -5.076156       -10.152312                     NaN         -7.614234
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+36219   CRUDE_W_micro  dynamic_TF_carry  [-1]       31.783121  154.169883   -6.292648          -0.0       -12.585297                     NaN         -6.292648
+36220       AUD_micro  dynamic_TF_carry  [-1]        0.058286   34.313555  -17.156777          -0.0       -34.313555                     NaN        -17.156777
 
 
 =======================================================================================================================================================================
@@ -42,44 +46,50 @@ Trades report produced on 29/06/2026 22:49 from 28/06/2026 22:49 to 29/06/2026 2
 =======================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-36218         BITCOIN  dynamic_TF_carry  [-1]             0.075704  -6.245552    -0.567777      -1.135555          -2.27111                      NaN          -1.703332
+36219   CRUDE_W_micro  dynamic_TF_carry  [-1]            75.606649  37.047258    -1.512133           -0.0         -3.024266                      NaN          -1.512133
+36220       AUD_micro  dynamic_TF_carry  [-1]          7560.664885   1.512133    -0.756066           -0.0         -1.512133                      NaN          -0.756066
 
 delay_cash Sum
                                  delay_cash
 strategy_name    instrument_code           
-dynamic_TF_carry BITCOIN          -6.245552
+dynamic_TF_carry AUD_micro         1.512133
+                 CRUDE_W_micro    37.047258
 delay_cash Total Sum
                  delay_cash
 strategy_name              
-dynamic_TF_carry  -6.245552
+dynamic_TF_carry  38.559391
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry BITCOIN            -0.567777
+dynamic_TF_carry AUD_micro          -0.756066
+                 CRUDE_W_micro      -1.512133
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -0.567777
+dynamic_TF_carry    -2.268199
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry BITCOIN              -1.135555
+dynamic_TF_carry AUD_micro                 -0.0
+                 CRUDE_W_micro             -0.0
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry      -1.135555
+dynamic_TF_carry           -0.0
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry BITCOIN                  -2.27111
+dynamic_TF_carry AUD_micro               -1.512133
+                 CRUDE_W_micro           -3.024266
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry          -2.27111
+dynamic_TF_carry         -4.536399
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry BITCOIN                                0
+dynamic_TF_carry AUD_micro                              0
+                 CRUDE_W_micro                          0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -87,11 +97,12 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry BITCOIN                  -1.703332
+dynamic_TF_carry AUD_micro                -0.756066
+                 CRUDE_W_micro            -1.512133
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry          -1.703332
+dynamic_TF_carry          -2.268199
 
 ********************************************************************************
                                  END OF REPORT                                  
