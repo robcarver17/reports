@@ -1,15 +1,185 @@
 
 ********************************************************************************
-Trades report produced on 08/07/2026 22:49 from 07/07/2026 22:49 to 08/07/2026 22:49
+Trades report produced on 09/07/2026 22:49 from 08/07/2026 22:49 to 09/07/2026 22:49
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+36229            BUND  dynamic_TF_carry    [20260900] 2026-07-09 05:00:23  [-1]    125.320000
+36231   CRUDE_W_micro  dynamic_TF_carry    [20261000] 2026-07-09 11:00:13   [1]     73.050000
+36233             DOW  dynamic_TF_carry    [20260900] 2026-07-09 12:00:25   [1]  52695.000000
+36234             JPY  dynamic_TF_carry    [20260900] 2026-07-09 12:00:35   [1]      0.006193
+36227            KR10  dynamic_TF_carry    [20260900] 2026-07-08 23:00:00  [-1]    105.630000
+36235         LEANHOG  dynamic_TF_carry    [20261000] 2026-07-09 12:30:04   [1]     85.900000
+36230        MSCIEAFA  dynamic_TF_carry    [20260900] 2026-07-09 11:00:05  [-1]   3125.500000
+36228           TOPIX  dynamic_TF_carry    [20260900] 2026-07-08 23:02:41   [1]   4034.750000
+36232            US10  dynamic_TF_carry    [20260900] 2026-07-09 12:00:23  [-1]    109.109375
+
+
+======================================================================================================================================================
+                                                                        Delays                                                                        
+======================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime      submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+36227            KR10  dynamic_TF_carry       2026-07-07 20:00:00  2026-07-08 22:00:00  2026-07-08 23:00:00                93600.0              3600.0
+36228           TOPIX  dynamic_TF_carry       2026-07-07 20:00:00  2026-07-08 22:02:40  2026-07-08 23:02:41                93760.0              3601.0
+36229            BUND  dynamic_TF_carry       2026-07-07 20:00:00  2026-07-09 04:00:11  2026-07-09 05:00:23               115211.0              3612.0
+36230        MSCIEAFA  dynamic_TF_carry       2026-07-07 20:00:00  2026-07-09 10:00:05  2026-07-09 11:00:05               136805.0              3600.0
+36231   CRUDE_W_micro  dynamic_TF_carry       2026-07-07 20:00:00  2026-07-09 10:00:12  2026-07-09 11:00:13               136812.0              3601.0
+36232            US10  dynamic_TF_carry       2026-07-07 20:00:00  2026-07-09 11:00:03  2026-07-09 12:00:23               140403.0              3620.0
+36233             DOW  dynamic_TF_carry       2026-07-07 20:00:00  2026-07-09 11:00:24  2026-07-09 12:00:25               140424.0              3601.0
+36234             JPY  dynamic_TF_carry       2026-07-07 20:00:00  2026-07-09 11:00:26  2026-07-09 12:00:35               140426.0              3609.0
+36235         LEANHOG  dynamic_TF_carry       2026-07-07 20:00:00  2026-07-09 11:30:01  2026-07-09 12:30:04               142201.0              3603.0
+
+
+==================================================================================================================================================================================================================================
+                                                                                                     Slippage (ticks per lot)                                                                                                     
+==================================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price   mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
+36227            KR10  dynamic_TF_carry  [-1]                 105.83               None     105.625     105.62        105.63      105.63       105.63    -0.205    -0.005      0.01         -0.0                 NaN         0.005
+36228           TOPIX  dynamic_TF_carry   [1]                 4053.0               None     4034.25     4034.5        4034.0      4034.0      4034.75     18.75     -0.25     -0.25        -0.75                 NaN          -0.5
+36229            BUND  dynamic_TF_carry  [-1]                 125.14               None     125.315     125.31        125.32      125.32       125.32     0.175    -0.005      0.01         -0.0                 NaN         0.005
+36230        MSCIEAFA  dynamic_TF_carry  [-1]                 3125.2               None      3125.3     3125.2        3125.4      3125.4       3125.5       0.1      -0.1       0.3          0.1                 NaN           0.2
+36231   CRUDE_W_micro  dynamic_TF_carry   [1]                  72.95               None       73.03      73.05         73.01       73.01        73.05     -0.08     -0.02       0.0        -0.04                 NaN         -0.02
+36232            US10  dynamic_TF_carry  [-1]             109.046875               None  109.101562  109.09375    109.109375  109.109375   109.109375  0.054688 -0.007812  0.015625         -0.0                 NaN      0.007812
+36233             DOW  dynamic_TF_carry   [1]                52618.0               None     52692.0    52693.0       52691.0     52691.0      52695.0     -74.0      -1.0      -2.0         -4.0                 NaN          -3.0
+36234             JPY  dynamic_TF_carry   [1]               0.006189               None    0.006192   0.006193      0.006192    0.006192     0.006193 -0.000003      -0.0      -0.0    -0.000001                 NaN     -0.000001
+36235         LEANHOG  dynamic_TF_carry   [1]                 85.525               None      85.875       85.9         85.85       85.85         85.9     -0.35    -0.025       0.0        -0.05                 NaN        -0.025
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+36227            KR10  dynamic_TF_carry  [-1]        7.084561 -289.361602     -7.0576       14.1152             -0.0                     NaN            7.0576
+36228           TOPIX  dynamic_TF_carry   [1]      760.164337  246.657191   -3.288763     -3.288763        -9.866288                     NaN         -6.577525
+36229            BUND  dynamic_TF_carry  [-1]         6.55728   266.87893   -7.625112     15.250225             -0.0                     NaN          7.625112
+36230        MSCIEAFA  dynamic_TF_carry  [-1]       526.25708    1.900212   -1.900212      5.700636         1.900212                     NaN          3.800424
+36231   CRUDE_W_micro  dynamic_TF_carry   [1]       31.331803  -25.533162   -6.383291           0.0       -12.766581                     NaN         -6.383291
+36232            US10  dynamic_TF_carry  [-1]        4.881171  112.037673  -16.005382     32.010764             -0.0                     NaN         16.005382
+36233             DOW  dynamic_TF_carry   [1]     6598.105053 -112.153413   -1.515587     -3.031173        -6.062347                     NaN          -4.54676
+36234             JPY  dynamic_TF_carry   [1]        0.000443  -73.429736   -5.648441    -11.296883       -22.593765                     NaN        -16.945324
+36235         LEANHOG  dynamic_TF_carry   [1]       20.820946 -168.099948  -12.007139           0.0       -24.014278                     NaN        -12.007139
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+36227            KR10  dynamic_TF_carry  [-1]           496.226242  -101.72638    -2.481131       4.962262              -0.0                      NaN           2.481131
+36228           TOPIX  dynamic_TF_carry   [1]             4.593934   86.136254    -1.148483      -1.148483          -3.44545                      NaN          -2.296967
+36229            BUND  dynamic_TF_carry  [-1]           852.764351  149.233761    -4.263822       8.527644              -0.0                      NaN           4.263822
+36230        MSCIEAFA  dynamic_TF_carry  [-1]             37.29562    3.729562    -3.729562      11.188686          3.729562                      NaN           7.459124
+36231   CRUDE_W_micro  dynamic_TF_carry   [1]             74.59124   -5.967299    -1.491825            0.0          -2.98365                      NaN          -1.491825
+36232            US10  dynamic_TF_carry  [-1]             745.9124   40.792084    -5.827441      11.654881              -0.0                      NaN           5.827441
+36233             DOW  dynamic_TF_carry   [1]             0.372956  -27.598759    -0.372956      -0.745912         -1.491825                      NaN          -1.118869
+36234             JPY  dynamic_TF_carry   [1]       9323905.000597  -30.302691    -2.330976      -4.661953         -9.323905                      NaN          -6.992929
+36235         LEANHOG  dynamic_TF_carry   [1]            298.36496 -104.427736    -7.459124            0.0        -14.918248                      NaN          -7.459124
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry BUND             149.233761
+                 CRUDE_W_micro     -5.967299
+                 DOW              -27.598759
+                 JPY              -30.302691
+                 KR10             -101.72638
+                 LEANHOG         -104.427736
+                 MSCIEAFA           3.729562
+                 TOPIX             86.136254
+                 US10              40.792084
+delay_cash Total Sum
+                 delay_cash
+strategy_name              
+dynamic_TF_carry   9.868797
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry BUND               -4.263822
+                 CRUDE_W_micro      -1.491825
+                 DOW                -0.372956
+                 JPY                -2.330976
+                 KR10               -2.481131
+                 LEANHOG            -7.459124
+                 MSCIEAFA           -3.729562
+                 TOPIX              -1.148483
+                 US10               -5.827441
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry    -29.10532
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry BUND                  8.527644
+                 CRUDE_W_micro              0.0
+                 DOW                  -0.745912
+                 JPY                  -4.661953
+                 KR10                  4.962262
+                 LEANHOG                    0.0
+                 MSCIEAFA             11.188686
+                 TOPIX                -1.148483
+                 US10                 11.654881
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry      29.777125
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry BUND                         -0.0
+                 CRUDE_W_micro            -2.98365
+                 DOW                     -1.491825
+                 JPY                     -9.323905
+                 KR10                         -0.0
+                 LEANHOG                -14.918248
+                 MSCIEAFA                 3.729562
+                 TOPIX                    -3.44545
+                 US10                         -0.0
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry        -28.433516
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry BUND                                   0
+                 CRUDE_W_micro                          0
+                 DOW                                    0
+                 JPY                                    0
+                 KR10                                   0
+                 LEANHOG                                0
+                 MSCIEAFA                               0
+                 TOPIX                                  0
+                 US10                                   0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry BUND                      4.263822
+                 CRUDE_W_micro            -1.491825
+                 DOW                      -1.118869
+                 JPY                      -6.992929
+                 KR10                      2.481131
+                 LEANHOG                  -7.459124
+                 MSCIEAFA                  7.459124
+                 TOPIX                    -2.296967
+                 US10                      5.827441
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry           0.671805
 
 ********************************************************************************
                                  END OF REPORT                                  
