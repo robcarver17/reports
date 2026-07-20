@@ -1,15 +1,138 @@
 
 ********************************************************************************
-Trades report produced on 17/07/2026 22:49 from 16/07/2026 22:49 to 17/07/2026 22:49
+Trades report produced on 20/07/2026 22:49 from 19/07/2026 22:49 to 20/07/2026 22:49
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+36257             AEX  dynamic_TF_carry    [20260700] 2026-07-20 06:01:48  [-1]       1098.25
+36258         BITCOIN  dynamic_TF_carry    [20260700] 2026-07-20 12:00:03   [1]      64405.00
+36259         BITCOIN  dynamic_TF_carry    [20260700] 2026-07-20 12:00:11   [1]      64390.00
+36260         BITCOIN  dynamic_TF_carry    [20260700] 2026-07-20 12:00:17   [1]      64415.00
+36261         BITCOIN  dynamic_TF_carry    [20260700] 2026-07-20 12:00:23   [1]      64405.00
+36262         BITCOIN  dynamic_TF_carry    [20260700] 2026-07-20 12:00:30   [1]      64430.00
+36263         BITCOIN  dynamic_TF_carry    [20260700] 2026-07-20 12:00:36   [1]      64420.00
+36264         BITCOIN  dynamic_TF_carry    [20260700] 2026-07-20 12:00:43   [1]      64415.00
+
+
+======================================================================================================================================================
+                                                                        Delays                                                                        
+======================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime      submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+36257             AEX  dynamic_TF_carry       1974-05-01 09:31:00  1974-05-01 10:31:00  2026-07-20 06:01:48                 3600.0        1647891048.0
+36258         BITCOIN  dynamic_TF_carry       2026-07-15 08:00:00  2026-07-20 11:00:02  2026-07-20 12:00:03               442802.0              3601.0
+36259         BITCOIN  dynamic_TF_carry       2026-07-15 08:00:00  2026-07-20 11:00:09  2026-07-20 12:00:11               442809.0              3602.0
+36260         BITCOIN  dynamic_TF_carry       2026-07-15 08:00:00  2026-07-20 11:00:17  2026-07-20 12:00:17               442817.0              3600.0
+36261         BITCOIN  dynamic_TF_carry       2026-07-15 08:00:00  2026-07-20 11:00:23  2026-07-20 12:00:23               442823.0              3600.0
+36262         BITCOIN  dynamic_TF_carry       2026-07-15 08:00:00  2026-07-20 11:00:30  2026-07-20 12:00:30               442830.0              3600.0
+36263         BITCOIN  dynamic_TF_carry       2026-07-15 08:00:00  2026-07-20 11:00:36  2026-07-20 12:00:36               442836.0              3600.0
+36264         BITCOIN  dynamic_TF_carry       2026-07-15 08:00:00  2026-07-20 11:00:43  2026-07-20 12:00:43               442843.0              3600.0
+
+
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+36257             AEX  dynamic_TF_carry  [-1]                    NaN               None       NaN        NaN           NaN         NaN      1098.25    NaN     NaN       NaN          NaN                 NaN           NaN
+36258         BITCOIN  dynamic_TF_carry   [1]                64970.0               None   64387.5    64395.0       64380.0     64380.0      64405.0  582.5    -7.5     -10.0        -25.0                 NaN         -17.5
+36259         BITCOIN  dynamic_TF_carry   [1]                64970.0               None   64397.5    64405.0       64390.0     64390.0      64390.0  572.5    -7.5      15.0          0.0                 NaN           7.5
+36260         BITCOIN  dynamic_TF_carry   [1]                64970.0               None   64385.0    64395.0       64375.0     64375.0      64415.0  585.0   -10.0     -20.0        -40.0                 NaN         -30.0
+36261         BITCOIN  dynamic_TF_carry   [1]                64970.0               None   64410.0    64415.0       64405.0     64405.0      64405.0  560.0    -5.0      10.0          0.0                 NaN           5.0
+36262         BITCOIN  dynamic_TF_carry   [1]                64970.0               None   64410.0    64415.0       64405.0     64405.0      64430.0  560.0    -5.0     -15.0        -25.0                 NaN         -20.0
+36263         BITCOIN  dynamic_TF_carry   [1]                64970.0               None   64425.0    64430.0       64420.0     64420.0      64420.0  545.0    -5.0      10.0          0.0                 NaN           5.0
+36264         BITCOIN  dynamic_TF_carry   [1]                64970.0               None   64425.0    64430.0       64420.0     64420.0      64415.0  545.0    -5.0      15.0          5.0                 NaN          10.0
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+36257             AEX  dynamic_TF_carry  [-1]      124.964938         NaN         NaN           NaN              NaN                     NaN               NaN
+36258         BITCOIN  dynamic_TF_carry   [1]    27860.419057  209.077975   -2.691991     -3.589321        -8.973304                     NaN         -6.281313
+36259         BITCOIN  dynamic_TF_carry   [1]    27860.419057  205.488654   -2.691991      5.383982              0.0                     NaN          2.691991
+36260         BITCOIN  dynamic_TF_carry   [1]    27860.419057  209.975305   -3.589321     -7.178643       -14.357286                     NaN        -10.767964
+36261         BITCOIN  dynamic_TF_carry   [1]    27860.419057  201.002002   -1.794661      3.589321              0.0                     NaN          1.794661
+36262         BITCOIN  dynamic_TF_carry   [1]    27860.419057  201.002002   -1.794661     -5.383982        -8.973304                     NaN         -7.178643
+36263         BITCOIN  dynamic_TF_carry   [1]    27860.419057   195.61802   -1.794661      3.589321              0.0                     NaN          1.794661
+36264         BITCOIN  dynamic_TF_carry   [1]    27860.419057   195.61802   -1.794661      5.383982         1.794661                     NaN          3.589321
+
+
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+36257             AEX  dynamic_TF_carry  [-1]           169.915462        NaN          NaN            NaN               NaN                      NaN                NaN
+36258         BITCOIN  dynamic_TF_carry   [1]             0.074286  43.271874    -0.557149      -0.742865         -1.857162                      NaN          -1.300013
+36259         BITCOIN  dynamic_TF_carry   [1]             0.074286  42.529009    -0.557149       1.114297               0.0                      NaN           0.557149
+36260         BITCOIN  dynamic_TF_carry   [1]             0.074286   43.45759    -0.742865       -1.48573         -2.971459                      NaN          -2.228594
+36261         BITCOIN  dynamic_TF_carry   [1]             0.074286  41.600428    -0.371432       0.742865               0.0                      NaN           0.371432
+36262         BITCOIN  dynamic_TF_carry   [1]             0.074286  41.600428    -0.371432      -1.114297         -1.857162                      NaN           -1.48573
+36263         BITCOIN  dynamic_TF_carry   [1]             0.074286  40.486131    -0.371432       0.742865               0.0                      NaN           0.371432
+36264         BITCOIN  dynamic_TF_carry   [1]             0.074286  40.486131    -0.371432       1.114297          0.371432                      NaN           0.742865
+
+delay_cash Sum
+                                 delay_cash
+strategy_name    instrument_code           
+dynamic_TF_carry AEX                      0
+                 BITCOIN          293.43159
+delay_cash Total Sum
+                 delay_cash
+strategy_name              
+dynamic_TF_carry  293.43159
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry AEX                        0
+                 BITCOIN            -3.342892
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry    -3.342892
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry AEX                          0
+                 BITCOIN               0.371432
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry       0.371432
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry AEX                             0
+                 BITCOIN                 -6.314351
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry         -6.314351
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry AEX                                    0
+                 BITCOIN                                0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry AEX                              0
+                 BITCOIN                  -2.971459
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry          -2.971459
 
 ********************************************************************************
                                  END OF REPORT                                  
