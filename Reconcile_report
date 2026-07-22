@@ -1,10 +1,10 @@
 
 ********************************************************************************
-                 Reconcile report produced on 21/07/2026 22:49                  
+                 Reconcile report produced on 22/07/2026 22:49                  
 ********************************************************************************
 
 
-Breaks Optimal vs actual []
+Breaks Optimal vs actual ['dynamic_TF_carry CAD10', 'dynamic_TF_carry GBP', 'dynamic_TF_carry NZD', 'dynamic_TF_carry EUR_micro']
  Breaks Instrument vs Contract []
  Breaks Broker vs Contract []
 
@@ -45,93 +45,49 @@ Breaks Optimal vs actual []
 ===============================================================
 
    instrument_code contract_date          expiry_date  position
-1              AEX      20260821  2026-08-21 00:00:00       1.0
-10         BITCOIN      20260828  2026-08-28 00:00:00      -7.0
-16            BUND      20260908  2026-09-08 00:00:00      -2.0
-24           CAD10      20260918  2026-09-18 00:00:00       3.0
-22          CANOLA      20261113  2026-11-13 00:00:00       1.0
-4           CANOLA      20270114  2027-01-14 00:00:00       2.0
-14             CHF      20260914  2026-09-14 00:00:00      -3.0
-9     COPPER-micro      20261125  2026-11-25 00:00:00      -1.0
-15        EU-BANKS      20260918  2026-09-18 00:00:00       3.0
-20       EUR_micro      20260914  2026-09-14 00:00:00      -2.0
-5        GASOILINE      20261130  2026-11-30 00:00:00       1.0
-23     GAS_US_mini      20260826  2026-08-26 00:00:00      -1.0
-21             GBP      20260914  2026-09-14 00:00:00       2.0
-12      GOLD_micro      20260827  2026-08-27 00:00:00      -1.0
-7       GOLD_micro      20261028  2026-10-28 00:00:00      -1.0
-2              JPY      20260914  2026-09-14 00:00:00      -2.0
-0             KR10      20260915  2026-09-15 00:00:00      -3.0
-6         MSCISING      20260730  2026-07-30 00:00:00       1.0
-8              MXP      20260914  2026-09-14 00:00:00       2.0
-18             NZD      20260914  2026-09-14 00:00:00       2.0
-13           R1000      20260918  2026-09-18 00:00:00       1.0
-11          SOYOIL      20261014  2026-10-14 00:00:00       1.0
-17          SOYOIL      20261214  2026-12-14 00:00:00      -1.0
-3             US10      20260921  2026-09-21 00:00:00      -1.0
-19          YENEUR      20260914  2026-09-14 00:00:00       2.0
+18             AEX      20260821  2026-08-21 00:00:00       1.0
+20         BITCOIN      20260828  2026-08-28 00:00:00      -7.0
+10            BUND      20260908  2026-09-08 00:00:00      -2.0
+9            CAD10      20260918  2026-09-18 00:00:00       3.0
+21          CANOLA      20261113  2026-11-13 00:00:00       1.0
+19          CANOLA      20270114  2027-01-14 00:00:00       2.0
+2              CHF      20260914  2026-09-14 00:00:00      -3.0
+22    COPPER-micro      20261125  2026-11-25 00:00:00      -1.0
+0         EU-BANKS      20260918  2026-09-18 00:00:00       3.0
+14       EUR_micro      20260914  2026-09-14 00:00:00      -2.0
+17       GASOILINE      20261130  2026-11-30 00:00:00       1.0
+12     GAS_US_mini      20260826  2026-08-26 00:00:00      -1.0
+3              GBP      20260914  2026-09-14 00:00:00       2.0
+23      GOLD_micro      20260827  2026-08-27 00:00:00      -1.0
+11      GOLD_micro      20261028  2026-10-28 00:00:00      -1.0
+16             JPY      20260914  2026-09-14 00:00:00      -2.0
+15            KR10      20260915  2026-09-15 00:00:00      -3.0
+8         MSCISING      20260730  2026-07-30 00:00:00       1.0
+13             MXP      20260914  2026-09-14 00:00:00       2.0
+1              NZD      20260914  2026-09-14 00:00:00       2.0
+6            R1000      20260918  2026-09-18 00:00:00       1.0
+7           SOYOIL      20261014  2026-10-14 00:00:00       1.0
+24          SOYOIL      20261214  2026-12-14 00:00:00      -1.0
+4             US10      20260921  2026-09-21 00:00:00      -1.0
+5           YENEUR      20260914  2026-09-14 00:00:00       2.0
 
 
-=====================================================================================
-                                    Trades in DB                                     
-=====================================================================================
+===============
+ Trades in DB  
+===============
 
-                  strategy_name contract_date       fill_datetime  fill  filled_price
-TOPIX          dynamic_TF_carry    [20260900] 2026-07-20 23:02:28  [-1]     3961.7500
-HANGENT_mini   dynamic_TF_carry    [20260700] 2026-07-20 23:15:11   [1]     8416.0000
-HANGENT_mini   dynamic_TF_carry    [20260700] 2026-07-20 23:15:18   [1]     8413.0000
-AEX            dynamic_TF_carry    [20260800] 2026-07-21 05:00:03   [1]     1088.6500
-DAX            dynamic_TF_carry    [20260900] 2026-07-21 05:00:04   [1]    24963.0000
-EU-BANKS       dynamic_TF_carry    [20260900] 2026-07-21 05:00:07   [1]      298.7000
-EUROSTX        dynamic_TF_carry    [20260900] 2026-07-21 05:00:14  [-1]     6265.0000
-GOLD_micro     dynamic_TF_carry    [20261000] 2026-07-21 11:00:03  [-1]     4088.4000
-CRUDE_W_micro  dynamic_TF_carry    [20261000] 2026-07-21 11:00:05  [-1]       82.1000
-COPPER-micro   dynamic_TF_carry    [20261200] 2026-07-21 11:00:07  [-1]        6.6225
-GASOILINE      dynamic_TF_carry    [20261200] 2026-07-21 11:00:15   [1]        2.6158
-SP500_micro    dynamic_TF_carry    [20260900] 2026-07-21 12:00:09  [-1]     7516.5000
-YENEUR         dynamic_TF_carry    [20260900] 2026-07-21 12:00:14   [1]      185.4700
-RUSSELL        dynamic_TF_carry    [20260900] 2026-07-21 12:00:16  [-1]     2968.7000
-DOW            dynamic_TF_carry    [20260900] 2026-07-21 12:00:18  [-1]    52223.0000
-GBP            dynamic_TF_carry    [20260900] 2026-07-21 12:00:22   [1]        1.3384
-BITCOIN        dynamic_TF_carry    [20260800] 2026-07-21 12:00:07  [-1]    67110.0000
-BITCOIN        dynamic_TF_carry    [20260800] 2026-07-21 12:00:44  [-1]    67100.0000
-BITCOIN        dynamic_TF_carry    [20260800] 2026-07-21 12:00:55  [-1]    67095.0000
-BITCOIN        dynamic_TF_carry    [20260800] 2026-07-21 12:01:01  [-1]    67070.0000
-BITCOIN        dynamic_TF_carry    [20260800] 2026-07-21 12:02:08  [-1]    67170.0000
-BITCOIN        dynamic_TF_carry    [20260800] 2026-07-21 12:02:15  [-1]    67170.0000
-BITCOIN        dynamic_TF_carry    [20260800] 2026-07-21 12:02:21  [-1]    67200.0000
-SOYOIL         dynamic_TF_carry    [20261200] 2026-07-21 12:30:03  [-1]       71.4500
+Empty DataFrame
+Columns: [strategy_name, contract_date, fill_datetime, fill, filled_price]
+Index: []
 
 
-=================================================================================
-                               Trades from broker                                
-=================================================================================
+==================
+Trades from broker
+==================
 
-              strategy_name contract_date       fill_datetime  fill  filled_price
-BITCOIN                        [20260828] 2026-07-21 15:02:21  [-1]    67200.0000
-SOYOIL                         [20261214] 2026-07-21 15:30:03  [-1]       71.4500
-BITCOIN                        [20260828] 2026-07-21 15:02:08  [-1]    67170.0000
-BITCOIN                        [20260828] 2026-07-21 15:02:15  [-1]    67170.0000
-BITCOIN                        [20260828] 2026-07-21 15:00:55  [-1]    67095.0000
-BITCOIN                        [20260828] 2026-07-21 15:01:01  [-1]    67070.0000
-GBP                            [20260914] 2026-07-21 15:00:22   [1]        1.3384
-BITCOIN                        [20260828] 2026-07-21 15:00:44  [-1]    67100.0000
-RUSSELL                        [20260918] 2026-07-21 15:00:16  [-1]     2968.7000
-DOW                            [20260918] 2026-07-21 15:00:18  [-1]    52223.0000
-SP500_micro                    [20260918] 2026-07-21 15:00:09  [-1]     7516.5000
-YENEUR                         [20260914] 2026-07-21 15:00:14   [1]      185.4700
-GASOILINE                      [20261130] 2026-07-21 14:00:15   [1]        2.6158
-BITCOIN                        [20260828] 2026-07-21 15:00:07  [-1]    67110.0000
-CRUDE_W_micro                  [20260921] 2026-07-21 14:00:05  [-1]       82.1000
-COPPER-micro                   [20261125] 2026-07-21 14:00:07  [-1]        6.6225
-EUROSTX                        [20260918] 2026-07-21 08:00:14  [-1]     6265.0000
-GOLD_micro                     [20261028] 2026-07-21 14:00:03  [-1]     4088.4000
-DAX                            [20260918] 2026-07-21 08:00:04   [1]    24963.0000
-EU-BANKS                       [20260918] 2026-07-21 08:00:07   [1]      298.7000
-AEX                            [20260821] 2026-07-21 08:00:03   [1]     1088.6500
-HANGENT_mini                   [20260730] 2026-07-21 02:15:11   [1]     8416.0000
-HANGENT_mini                   [20260730] 2026-07-21 02:15:18   [1]     8413.0000
-TOPIX                          [20260910] 2026-07-21 02:02:28  [-1]     3961.7500
+Empty DataFrame
+Columns: [strategy_name, contract_date, fill_datetime, fill, filled_price]
+Index: []
 
 
 ==========================================================
@@ -141,7 +97,7 @@ TOPIX                          [20260910] 2026-07-21 02:02:28  [-1]     3961.750
                                    current optimal  breaks
 dynamic_TF_carry KRWUSD_mini             0       0   False
 dynamic_TF_carry KR3                     0       0   False
-dynamic_TF_carry CAD10                   3       3   False
+dynamic_TF_carry CAD10                   3       2    True
 dynamic_TF_carry GICS                    0       0   False
 dynamic_TF_carry COAL-GEORDIE            0       0   False
 dynamic_TF_carry EUROSTX                 0       0   False
@@ -163,7 +119,7 @@ dynamic_TF_carry EURCAD                  0       0   False
 dynamic_TF_carry EU-UTILS                0       0   False
 dynamic_TF_carry GASOILINE               1       1   False
 dynamic_TF_carry BUND                   -2      -2   False
-dynamic_TF_carry GBP                     2       2   False
+dynamic_TF_carry GBP                     2       1    True
 dynamic_TF_carry MSCISING                1       1   False
 dynamic_TF_carry US-REALESTATE           0       0   False
 dynamic_TF_carry EUROSTX-LARGE           0       0   False
@@ -246,7 +202,7 @@ dynamic_TF_carry GBPCHF                  0       0   False
 dynamic_TF_carry CHEESE                  0       0   False
 dynamic_TF_carry SMI                     0       0   False
 dynamic_TF_carry V2X                     0       0   False
-dynamic_TF_carry NZD                     2       2   False
+dynamic_TF_carry NZD                     2       3    True
 dynamic_TF_carry EUROSTX-SMALL           0       0   False
 dynamic_TF_carry KOSDAQ                  0       0   False
 dynamic_TF_carry HIGHYIELD               0       0   False
@@ -266,7 +222,7 @@ dynamic_TF_carry SOFR                    0       0   False
 dynamic_TF_carry EU-FOOD                 0       0   False
 dynamic_TF_carry FTSEINDO                0       0   False
 dynamic_TF_carry CAD2                    0       0   False
-dynamic_TF_carry EUR_micro              -2      -2   False
+dynamic_TF_carry EUR_micro              -2      -3    True
 dynamic_TF_carry WHEAT_ICE               0       0   False
 dynamic_TF_carry GBPJPY                  0       0   False
 dynamic_TF_carry EU-RETAIL               0       0   False
