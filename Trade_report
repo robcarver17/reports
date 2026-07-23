@@ -1,15 +1,130 @@
 
 ********************************************************************************
-Trades report produced on 22/07/2026 22:49 from 21/07/2026 22:49 to 22/07/2026 22:49
+Trades report produced on 23/07/2026 22:49 from 22/07/2026 22:49 to 23/07/2026 22:49
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+36289           CAD10  dynamic_TF_carry    [20260900] 2026-07-23 11:00:09  [-1]      118.8300
+36290       EUR_micro  dynamic_TF_carry    [20260900] 2026-07-23 12:00:05  [-1]        1.1398
+36291             GBP  dynamic_TF_carry    [20260900] 2026-07-23 12:00:14  [-1]        1.3330
+36292             NZD  dynamic_TF_carry    [20260900] 2026-07-23 12:00:18   [1]        0.5785
+
+
+======================================================================================================================================================
+                                                                        Delays                                                                        
+======================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime      submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+36289           CAD10  dynamic_TF_carry       2026-07-21 20:00:00  2026-07-23 10:00:08  2026-07-23 11:00:09               136808.0              3601.0
+36290       EUR_micro  dynamic_TF_carry       2026-07-21 20:00:00  2026-07-23 11:00:04  2026-07-23 12:00:05               140404.0              3601.0
+36291             GBP  dynamic_TF_carry       2026-07-21 20:00:00  2026-07-23 11:00:06  2026-07-23 12:00:14               140406.0              3608.0
+36292             NZD  dynamic_TF_carry       2026-07-21 20:00:00  2026-07-23 11:00:15  2026-07-23 12:00:18               140415.0              3603.0
+
+
+================================================================================================================================================================================================================================
+                                                                                                    Slippage (ticks per lot)                                                                                                    
+================================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
+36289           CAD10  dynamic_TF_carry  [-1]                  119.3               None   118.815     118.81        118.82      118.82       118.83    -0.485    -0.005      0.02         0.01                 NaN         0.015
+36290       EUR_micro  dynamic_TF_carry  [-1]                 1.1436               None   1.13975     1.1397        1.1398      1.1398       1.1398  -0.00385  -0.00005    0.0001         -0.0                 NaN       0.00005
+36291             GBP  dynamic_TF_carry  [-1]                 1.3374               None   1.33295     1.3329         1.333       1.333        1.333  -0.00445  -0.00005    0.0001         -0.0                 NaN       0.00005
+36292             NZD  dynamic_TF_carry   [1]                0.58245               None  0.578475     0.5785       0.57845     0.57845       0.5785  0.003975 -0.000025       0.0     -0.00005                 NaN     -0.000025
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+36289           CAD10  dynamic_TF_carry  [-1]        5.880189 -824.803473   -8.503129     34.012514        17.006257                     NaN         25.509386
+36290       EUR_micro  dynamic_TF_carry  [-1]        0.057723 -666.982086   -8.662105      17.32421             -0.0                     NaN          8.662105
+36291             GBP  dynamic_TF_carry  [-1]        0.089029 -499.835084   -5.616125     11.232249             -0.0                     NaN          5.616125
+36292             NZD  dynamic_TF_carry   [1]        0.051248  775.644033   -4.878264           0.0        -9.756529                     NaN         -4.878264
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+36289           CAD10  dynamic_TF_carry  [-1]           531.161397 -257.613277    -2.655807      10.623228          5.311614                      NaN           7.967421
+36290       EUR_micro  dynamic_TF_carry  [-1]          9338.149328  -35.951875    -0.466907       0.933815              -0.0                      NaN           0.466907
+36291             GBP  dynamic_TF_carry  [-1]         46690.746641 -207.773823    -2.334537       4.669075              -0.0                      NaN           2.334537
+36292             NZD  dynamic_TF_carry   [1]         74705.194626  296.953149     -1.86763            0.0          -3.73526                      NaN           -1.86763
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry CAD10           -257.613277
+                 EUR_micro        -35.951875
+                 GBP             -207.773823
+                 NZD              296.953149
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -204.385826
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry CAD10              -2.655807
+                 EUR_micro          -0.466907
+                 GBP                -2.334537
+                 NZD                 -1.86763
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry    -7.324882
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry CAD10                10.623228
+                 EUR_micro             0.933815
+                 GBP                   4.669075
+                 NZD                        0.0
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry      16.226118
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry CAD10                    5.311614
+                 EUR_micro                    -0.0
+                 GBP                          -0.0
+                 NZD                      -3.73526
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry          1.576354
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry CAD10                                  0
+                 EUR_micro                              0
+                 GBP                                    0
+                 NZD                                    0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry CAD10                     7.967421
+                 EUR_micro                 0.466907
+                 GBP                       2.334537
+                 NZD                       -1.86763
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry           8.901236
 
 ********************************************************************************
                                  END OF REPORT                                  
