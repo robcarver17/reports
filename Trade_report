@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 28/07/2026 22:49 from 27/07/2026 22:49 to 28/07/2026 22:49
+Trades report produced on 29/07/2026 22:49 from 28/07/2026 22:49 to 29/07/2026 22:49
 ********************************************************************************
 
 
@@ -10,11 +10,7 @@ Trades report produced on 28/07/2026 22:49 from 27/07/2026 22:49 to 28/07/2026 2
 =============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-36299       AUD_micro  dynamic_TF_carry    [20260900] 2026-07-28 12:00:05   [1]       0.69670
-36302       AUD_micro  dynamic_TF_carry    [20260900] 2026-07-28 12:00:15   [1]       0.69660
-36303       AUD_micro  dynamic_TF_carry    [20260900] 2026-07-28 12:00:22   [1]       0.69660
-36301         BITCOIN  dynamic_TF_carry    [20260800] 2026-07-28 12:00:09  [-1]   63345.00000
-36300             NZD  dynamic_TF_carry    [20260900] 2026-07-28 12:00:07  [-1]       0.57845
+36304             NZD  dynamic_TF_carry    [20260900] 2026-07-29 12:00:07  [-1]        0.5794
 
 
 ======================================================================================================================================================
@@ -22,94 +18,68 @@ Trades report produced on 28/07/2026 22:49 from 27/07/2026 22:49 to 28/07/2026 2
 ======================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime      submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-36300             NZD  dynamic_TF_carry       2026-07-26 20:00:00  2026-07-28 11:00:07  2026-07-28 12:00:07               140407.0              3600.0
-36301         BITCOIN  dynamic_TF_carry       2026-07-26 20:00:00  2026-07-28 11:00:08  2026-07-28 12:00:09               140408.0              3601.0
-36299       AUD_micro  dynamic_TF_carry       2026-07-26 18:00:00  2026-07-28 11:00:05  2026-07-28 12:00:05               147605.0              3600.0
-36302       AUD_micro  dynamic_TF_carry       2026-07-26 18:00:00  2026-07-28 11:00:15  2026-07-28 12:00:15               147615.0              3600.0
-36303       AUD_micro  dynamic_TF_carry       2026-07-26 18:00:00  2026-07-28 11:00:21  2026-07-28 12:00:22               147621.0              3601.0
+36304             NZD  dynamic_TF_carry       2026-07-27 20:00:00  2026-07-29 11:00:01  2026-07-29 12:00:07               140401.0              3606.0
 
 
-==============================================================================================================================================================================================================================
-                                                                                                   Slippage (ticks per lot)                                                                                                   
-==============================================================================================================================================================================================================================
+================================================================================================================================================================================================================================
+                                                                                                    Slippage (ticks per lot)                                                                                                    
+================================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
-36300             NZD  dynamic_TF_carry  [-1]                0.57845               None   0.57855     0.5785        0.5786      0.5786      0.57845   0.0001 -0.00005  -0.00005     -0.00015                 NaN       -0.0001
-36301         BITCOIN  dynamic_TF_carry  [-1]                65215.0               None   63325.0    63305.0       63345.0     63345.0      63345.0  -1890.0    -20.0      40.0         -0.0                 NaN          20.0
-36299       AUD_micro  dynamic_TF_carry   [1]                 0.6985               None    0.6966     0.6967        0.6965      0.6965       0.6967   0.0019  -0.0001       0.0      -0.0002                 NaN       -0.0001
-36302       AUD_micro  dynamic_TF_carry   [1]                 0.6985               None   0.69665     0.6967        0.6966      0.6966       0.6966  0.00185 -0.00005    0.0001          0.0                 NaN       0.00005
-36303       AUD_micro  dynamic_TF_carry   [1]                 0.6985               None   0.69665     0.6967        0.6966      0.6966       0.6966  0.00185 -0.00005    0.0001          0.0                 NaN       0.00005
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
+36304             NZD  dynamic_TF_carry  [-1]                 0.5798               None  0.579375    0.57935        0.5794      0.5794       0.5794 -0.000425 -0.000025   0.00005         -0.0                 NaN      0.000025
 
 
-==============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
-==============================================================================================================================================================
+=============================================================================================================================================================
+                                                    Slippage (normalised by annual vol, BP of annual SR)                                                     
+=============================================================================================================================================================
 
-      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-36300             NZD  dynamic_TF_carry  [-1]        0.048992    20.41157  -10.205785    -10.205785       -30.617355                     NaN         -20.41157
-36301         BITCOIN  dynamic_TF_carry  [-1]    26220.053412  -720.82233    -7.62775     15.255499             -0.0                     NaN           7.62775
-36299       AUD_micro  dynamic_TF_carry   [1]        0.048353  392.944119  -20.681269           0.0       -41.362539                     NaN        -20.681269
-36302       AUD_micro  dynamic_TF_carry   [1]        0.048353  382.603484  -10.340635     20.681269              0.0                     NaN         10.340635
-36303       AUD_micro  dynamic_TF_carry   [1]        0.048353  382.603484  -10.340635     20.681269              0.0                     NaN         10.340635
+      instrument_code     strategy_name trade last_annual_vol  delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+36304             NZD  dynamic_TF_carry  [-1]        0.049113 -86.535355   -5.090315      10.18063             -0.0                     NaN          5.090315
 
 
-========================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                       
-========================================================================================================================================================================
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-36300             NZD  dynamic_TF_carry  [-1]         75252.472044    7.525247    -3.762624      -3.762624        -11.287871                      NaN          -7.525247
-36301         BITCOIN  dynamic_TF_carry  [-1]             0.075252 -142.227172    -1.505049       3.010099              -0.0                      NaN           1.505049
-36299       AUD_micro  dynamic_TF_carry   [1]          7525.247204    14.29797    -0.752525            0.0         -1.505049                      NaN          -0.752525
-36302       AUD_micro  dynamic_TF_carry   [1]          7525.247204   13.921707    -0.376262       0.752525               0.0                      NaN           0.376262
-36303       AUD_micro  dynamic_TF_carry   [1]          7525.247204   13.921707    -0.376262       0.752525               0.0                      NaN           0.376262
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+36304             NZD  dynamic_TF_carry  [-1]         75186.273994 -31.954166    -1.879657       3.759314              -0.0                      NaN           1.879657
 
 delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry AUD_micro         42.141384
-                 BITCOIN         -142.227172
-                 NZD                7.525247
+                                 delay_cash
+strategy_name    instrument_code           
+dynamic_TF_carry NZD             -31.954166
 delay_cash Total Sum
                  delay_cash
 strategy_name              
-dynamic_TF_carry -92.560541
+dynamic_TF_carry -31.954166
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry AUD_micro          -1.505049
-                 BITCOIN            -1.505049
-                 NZD                -3.762624
+dynamic_TF_carry NZD                -1.879657
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -6.772722
+dynamic_TF_carry    -1.879657
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry AUD_micro             1.505049
-                 BITCOIN               3.010099
-                 NZD                  -3.762624
+dynamic_TF_carry NZD                   3.759314
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry       0.752525
+dynamic_TF_carry       3.759314
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry AUD_micro               -1.505049
-                 BITCOIN                      -0.0
-                 NZD                    -11.287871
+dynamic_TF_carry NZD                          -0.0
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry         -12.79292
+dynamic_TF_carry              -0.0
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry AUD_micro                              0
-                 BITCOIN                                0
-                 NZD                                    0
+dynamic_TF_carry NZD                                    0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -117,13 +87,11 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry AUD_micro                      0.0
-                 BITCOIN                   1.505049
-                 NZD                      -7.525247
+dynamic_TF_carry NZD                       1.879657
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry          -6.020198
+dynamic_TF_carry           1.879657
 
 ********************************************************************************
                                  END OF REPORT                                  
