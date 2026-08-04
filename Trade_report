@@ -1,15 +1,152 @@
 
 ********************************************************************************
-Trades report produced on 03/08/2026 22:49 from 02/08/2026 22:49 to 03/08/2026 22:49
+Trades report produced on 04/08/2026 22:49 from 03/08/2026 22:49 to 04/08/2026 22:49
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+36321             CAC  dynamic_TF_carry    [20260800] 2026-08-04 05:00:09   [1]   8654.500000
+36322          CANOLA  dynamic_TF_carry    [20270100] 2026-08-04 11:03:27  [-1]    773.700000
+36323       EUR_micro  dynamic_TF_carry    [20260900] 2026-08-04 12:00:11   [1]      1.154400
+36326             JPY  dynamic_TF_carry    [20260900] 2026-08-04 12:00:21   [1]      0.006373
+36324         RUSSELL  dynamic_TF_carry    [20260900] 2026-08-04 12:00:13   [1]   3009.100000
+36325          YENEUR  dynamic_TF_carry    [20260900] 2026-08-04 12:00:15  [-1]    181.120000
+
+
+======================================================================================================================================================
+                                                                        Delays                                                                        
+======================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime      submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+36321             CAC  dynamic_TF_carry       2026-08-02 20:00:00  2026-08-04 04:00:09  2026-08-04 05:00:09               115209.0              3600.0
+36322          CANOLA  dynamic_TF_carry       2026-07-30 20:00:00  2026-08-04 10:00:05  2026-08-04 11:03:27               396005.0              3802.0
+36323       EUR_micro  dynamic_TF_carry       2026-08-02 20:00:00  2026-08-04 11:00:05  2026-08-04 12:00:11               140405.0              3606.0
+36324         RUSSELL  dynamic_TF_carry       2026-08-02 20:00:00  2026-08-04 11:00:12  2026-08-04 12:00:13               140412.0              3601.0
+36325          YENEUR  dynamic_TF_carry       2026-08-02 20:00:00  2026-08-04 11:00:14  2026-08-04 12:00:15               140414.0              3601.0
+36326             JPY  dynamic_TF_carry       2026-08-02 20:00:00  2026-08-04 11:00:16  2026-08-04 12:00:21               140416.0              3605.0
+
+
+==============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                   
+==============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay bid_ask execution versus_limit versus_parent_limit total_trading
+36321             CAC  dynamic_TF_carry   [1]                 8636.5               None   8654.75     8655.0        8654.5      8654.5       8654.5    -18.25   -0.25       0.5          0.0                 NaN          0.25
+36322          CANOLA  dynamic_TF_carry  [-1]                  767.5               None    774.55      774.4         774.7       774.7        773.7      7.05   -0.15      -0.7         -1.0                 NaN         -0.85
+36323       EUR_micro  dynamic_TF_carry   [1]                 1.1533               None    1.1543     1.1544        1.1542      1.1542       1.1544    -0.001 -0.0001       0.0      -0.0002                 NaN       -0.0001
+36324         RUSSELL  dynamic_TF_carry   [1]                 2987.9               None   3008.85     3009.0        3008.7      3008.7       3009.1    -20.95   -0.15      -0.1         -0.4                 NaN         -0.25
+36325          YENEUR  dynamic_TF_carry  [-1]                  180.3               None   181.125     181.11        181.14      181.14       181.12     0.825  -0.015      0.01        -0.02                 NaN        -0.005
+36326             JPY  dynamic_TF_carry   [1]               0.006398               None  0.006374   0.006374      0.006373    0.006373     0.006373  0.000024    -0.0  0.000001         -0.0                 NaN      0.000001
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+36321             CAC  dynamic_TF_carry   [1]     1092.636022 -167.027259   -2.288045      4.576089              0.0                     NaN          2.288045
+36322          CANOLA  dynamic_TF_carry  [-1]      192.850312  365.568503   -7.778053    -36.297582       -51.853688                     NaN        -44.075635
+36323       EUR_micro  dynamic_TF_carry   [1]        0.061825 -161.747765  -16.174777           0.0       -32.349553                     NaN        -16.174777
+36324         RUSSELL  dynamic_TF_carry   [1]      516.150061 -405.889712   -2.906132     -1.937421        -7.749684                     NaN         -4.843553
+36325          YENEUR  dynamic_TF_carry  [-1]       17.252503  478.191486   -8.694391       5.79626       -11.592521                     NaN          -2.89813
+36326             JPY  dynamic_TF_carry   [1]        0.000714  336.017734   -7.000369     14.000739             -0.0                     NaN          7.000369
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+36321             CAC  dynamic_TF_carry   [1]             8.571562 -156.430999     -2.14289       4.285781               0.0                      NaN            2.14289
+36322          CANOLA  dynamic_TF_carry  [-1]            10.602172   74.745313    -1.590326       -7.42152        -10.602172                      NaN          -9.011846
+36323       EUR_micro  dynamic_TF_carry   [1]          9311.125678   -9.311126    -0.931113            0.0         -1.862225                      NaN          -0.931113
+36324         RUSSELL  dynamic_TF_carry   [1]              3.72445  -78.027233    -0.558668      -0.372445          -1.48978                      NaN          -0.931113
+36325          YENEUR  dynamic_TF_carry  [-1]           590.445931  487.117893    -8.856689       5.904459        -11.808919                      NaN           -2.95223
+36326             JPY  dynamic_TF_carry   [1]        9311125.67785  223.467016    -4.655563       9.311126              -0.0                      NaN           4.655563
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry CAC             -156.430999
+                 CANOLA            74.745313
+                 EUR_micro         -9.311126
+                 JPY              223.467016
+                 RUSSELL          -78.027233
+                 YENEUR           487.117893
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry  541.560865
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry CAC                 -2.14289
+                 CANOLA             -1.590326
+                 EUR_micro          -0.931113
+                 JPY                -4.655563
+                 RUSSELL            -0.558668
+                 YENEUR             -8.856689
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -18.735248
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry CAC                   4.285781
+                 CANOLA                -7.42152
+                 EUR_micro                  0.0
+                 JPY                   9.311126
+                 RUSSELL              -0.372445
+                 YENEUR                5.904459
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry        11.7074
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry CAC                           0.0
+                 CANOLA                 -10.602172
+                 EUR_micro               -1.862225
+                 JPY                          -0.0
+                 RUSSELL                  -1.48978
+                 YENEUR                 -11.808919
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry        -25.763096
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry CAC                                    0
+                 CANOLA                                 0
+                 EUR_micro                              0
+                 JPY                                    0
+                 RUSSELL                                0
+                 YENEUR                                 0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry CAC                        2.14289
+                 CANOLA                   -9.011846
+                 EUR_micro                -0.931113
+                 JPY                       4.655563
+                 RUSSELL                  -0.931113
+                 YENEUR                    -2.95223
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry          -7.027848
 
 ********************************************************************************
                                  END OF REPORT                                  
