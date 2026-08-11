@@ -1,15 +1,218 @@
 
 ********************************************************************************
-Trades report produced on 10/08/2026 22:49 from 09/08/2026 22:49 to 10/08/2026 22:49
+Trades report produced on 11/08/2026 22:49 from 10/08/2026 22:49 to 11/08/2026 22:49
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+36349           CAD10  dynamic_TF_carry    [20260900] 2026-08-11 11:01:13  [-1]      118.3900
+36344          CANOLA  dynamic_TF_carry    [20270100] 2026-08-11 11:00:42  [-1]      797.5000
+36347   CRUDE_W_micro  dynamic_TF_carry    [20261100] 2026-08-11 11:00:52  [-1]       79.4500
+36350             DOW  dynamic_TF_carry    [20260900] 2026-08-11 12:00:04   [1]    54270.0000
+36343        EU-BASIC  dynamic_TF_carry    [20260900] 2026-08-11 05:00:11   [1]      841.8000
+36342         EUROSTX  dynamic_TF_carry    [20260900] 2026-08-11 05:00:03   [1]     6555.0000
+36345       GASOILINE  dynamic_TF_carry    [20261200] 2026-08-11 11:00:45   [1]        2.5844
+36348     GAS_US_mini  dynamic_TF_carry    [20261000] 2026-08-11 11:01:12  [-1]        2.8500
+36351             GBP  dynamic_TF_carry    [20260900] 2026-08-11 12:00:07   [1]        1.3500
+36346      GOLD_micro  dynamic_TF_carry    [20261000] 2026-08-11 11:00:49   [1]     4423.7000
+36341            KR10  dynamic_TF_carry    [20260900] 2026-08-10 23:02:53   [1]      105.7500
+36352          SOYOIL  dynamic_TF_carry    [20261200] 2026-08-11 12:30:07  [-1]       67.7100
+
+
+======================================================================================================================================================
+                                                                        Delays                                                                        
+======================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime      submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+36341            KR10  dynamic_TF_carry       2026-08-09 20:00:00  2026-08-10 22:02:32  2026-08-10 23:02:53                93752.0              3621.0
+36342         EUROSTX  dynamic_TF_carry       2026-08-09 20:00:00  2026-08-11 04:00:03  2026-08-11 05:00:03               115203.0              3600.0
+36343        EU-BASIC  dynamic_TF_carry       2026-08-09 20:00:00  2026-08-11 04:00:10  2026-08-11 05:00:11               115210.0              3601.0
+36344          CANOLA  dynamic_TF_carry       2026-08-09 20:00:00  2026-08-11 10:00:04  2026-08-11 11:00:42               136804.0              3638.0
+36345       GASOILINE  dynamic_TF_carry       2026-08-09 20:00:00  2026-08-11 10:00:44  2026-08-11 11:00:45               136844.0              3601.0
+36346      GOLD_micro  dynamic_TF_carry       2026-08-09 20:00:00  2026-08-11 10:00:47  2026-08-11 11:00:49               136847.0              3602.0
+36347   CRUDE_W_micro  dynamic_TF_carry       2026-08-09 20:00:00  2026-08-11 10:00:51  2026-08-11 11:00:52               136851.0              3601.0
+36348     GAS_US_mini  dynamic_TF_carry       2026-08-09 20:00:00  2026-08-11 10:00:58  2026-08-11 11:01:12               136858.0              3614.0
+36349           CAD10  dynamic_TF_carry       2026-08-09 20:00:00  2026-08-11 10:01:13  2026-08-11 11:01:13               136873.0              3600.0
+36350             DOW  dynamic_TF_carry       2026-08-09 20:00:00  2026-08-11 11:00:03  2026-08-11 12:00:04               140403.0              3601.0
+36351             GBP  dynamic_TF_carry       2026-08-09 20:00:00  2026-08-11 11:00:05  2026-08-11 12:00:07               140405.0              3602.0
+36352          SOYOIL  dynamic_TF_carry       2026-08-09 20:00:00  2026-08-11 11:30:06  2026-08-11 12:30:07               142206.0              3601.0
+
+
+==============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                   
+==============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
+36341            KR10  dynamic_TF_carry   [1]                 106.27               None   105.735     105.74        105.73      105.73       105.75    0.535   -0.005     -0.01        -0.02                 NaN        -0.015
+36342         EUROSTX  dynamic_TF_carry   [1]                 6556.0               None    6555.5     6556.0        6555.0      6555.0       6555.0      0.5     -0.5       1.0          0.0                 NaN           0.5
+36343        EU-BASIC  dynamic_TF_carry   [1]                  836.6               None    839.85      841.8         837.9       837.9        841.8    -3.25    -1.95       0.0         -3.9                 NaN         -1.95
+36344          CANOLA  dynamic_TF_carry  [-1]                  804.4               None     797.7      797.6         797.8       797.8        797.5     -6.7     -0.1      -0.1         -0.3                 NaN          -0.2
+36345       GASOILINE  dynamic_TF_carry   [1]                   2.59               None    2.5849     2.5854        2.5844      2.5844       2.5844   0.0051  -0.0005     0.001          0.0                 NaN        0.0005
+36346      GOLD_micro  dynamic_TF_carry   [1]                 4407.2               None    4423.4     4423.6        4423.2      4423.2       4423.7    -16.2     -0.2      -0.1         -0.5                 NaN          -0.3
+36347   CRUDE_W_micro  dynamic_TF_carry  [-1]                  79.46               None    79.475      79.46         79.49       79.49        79.45    0.015   -0.015     -0.01        -0.04                 NaN        -0.025
+36348     GAS_US_mini  dynamic_TF_carry  [-1]                   2.84               None    2.8575      2.855          2.86        2.86         2.85   0.0175  -0.0025    -0.005        -0.01                 NaN       -0.0075
+36349           CAD10  dynamic_TF_carry  [-1]                 118.28               None   118.365     118.36        118.37      118.37       118.39    0.085   -0.005      0.03         0.02                 NaN         0.025
+36350             DOW  dynamic_TF_carry   [1]                54016.0               None   54273.0    54276.0       54270.0     54270.0      54270.0   -257.0     -3.0       6.0          0.0                 NaN           3.0
+36351             GBP  dynamic_TF_carry   [1]                 1.3508               None   1.35005     1.3501          1.35        1.35         1.35  0.00075 -0.00005    0.0001          0.0                 NaN       0.00005
+36352          SOYOIL  dynamic_TF_carry  [-1]                  69.04               None    67.725      67.72         67.73       67.73        67.71   -1.315   -0.005     -0.01        -0.02                 NaN        -0.015
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+36341            KR10  dynamic_TF_carry   [1]        6.908127  774.450136   -7.237852    -14.475703       -28.951407                     NaN        -21.713555
+36342         EUROSTX  dynamic_TF_carry   [1]      853.589265    5.857618   -5.857618     11.715236              0.0                     NaN          5.857618
+36343        EU-BASIC  dynamic_TF_carry   [1]      203.492245 -159.711246  -95.826748           0.0      -191.653495                     NaN        -95.826748
+36344          CANOLA  dynamic_TF_carry  [-1]      187.256098 -357.798762    -5.34028      -5.34028        -16.02084                     NaN         -10.68056
+36345       GASOILINE  dynamic_TF_carry   [1]         0.89365   57.069349   -5.595034     11.190069              0.0                     NaN          5.595034
+36346      GOLD_micro  dynamic_TF_carry   [1]      996.053671 -162.641838   -2.007924     -1.003962         -5.01981                     NaN         -3.011886
+36347   CRUDE_W_micro  dynamic_TF_carry  [-1]       34.092262    4.399825   -4.399825     -2.933217       -11.732868                     NaN         -7.333042
+36348     GAS_US_mini  dynamic_TF_carry  [-1]        1.367824  127.940438  -18.277205    -36.554411       -73.108822                     NaN        -54.831616
+36349           CAD10  dynamic_TF_carry  [-1]        6.052318  140.442059   -8.261298     49.567785         33.04519                     NaN         41.306488
+36350             DOW  dynamic_TF_carry   [1]     7098.108416 -362.068293   -4.226478      8.452956              0.0                     NaN          4.226478
+36351             GBP  dynamic_TF_carry   [1]         0.08172   91.776457    -6.11843     12.236861              0.0                     NaN           6.11843
+36352          SOYOIL  dynamic_TF_carry  [-1]        15.30088  -859.42772   -3.267786     -6.535572       -13.071144                     NaN         -9.803358
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+36341            KR10  dynamic_TF_carry   [1]           523.223306  279.924469    -2.616117      -5.232233        -10.464466                      NaN           -7.84835
+36342         EUROSTX  dynamic_TF_carry   [1]             8.540749    4.270374    -4.270374       8.540749               0.0                      NaN           4.270374
+36343        EU-BASIC  dynamic_TF_carry   [1]            42.703743 -138.787164   -83.272298            0.0       -166.544597                      NaN         -83.272298
+36344          CANOLA  dynamic_TF_carry  [-1]            10.625876  -71.193371    -1.062588      -1.062588         -3.187763                      NaN          -2.125175
+36345       GASOILINE  dynamic_TF_carry   [1]         31081.756119  158.516956   -15.540878      31.081756               0.0                      NaN          15.540878
+36346      GOLD_micro  dynamic_TF_carry   [1]             7.400418 -119.886774    -1.480084      -0.740042         -3.700209                      NaN          -2.220125
+36347   CRUDE_W_micro  dynamic_TF_carry  [-1]            74.004181    1.110063    -1.110063      -0.740042         -2.960167                      NaN          -1.850105
+36348     GAS_US_mini  dynamic_TF_carry  [-1]          1850.104531   32.376829    -4.625261      -9.250523        -18.501045                      NaN         -13.875784
+36349           CAD10  dynamic_TF_carry  [-1]           531.293816   45.159974    -2.656469      15.938814         10.625876                      NaN          13.282345
+36350             DOW  dynamic_TF_carry   [1]             0.370021  -95.095373    -1.110063       2.220125               0.0                      NaN           1.110063
+36351             GBP  dynamic_TF_carry   [1]         46252.613273    34.68946    -2.312631       4.625261               0.0                      NaN           2.312631
+36352          SOYOIL  dynamic_TF_carry  [-1]           444.025087  -583.89299    -2.220125      -4.440251         -8.880502                      NaN          -6.660376
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry CAD10             45.159974
+                 CANOLA           -71.193371
+                 CRUDE_W_micro      1.110063
+                 DOW              -95.095373
+                 EU-BASIC        -138.787164
+                 EUROSTX            4.270374
+                 GASOILINE        158.516956
+                 GAS_US_mini       32.376829
+                 GBP                34.68946
+                 GOLD_micro      -119.886774
+                 KR10             279.924469
+                 SOYOIL           -583.89299
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -452.807546
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry CAD10              -2.656469
+                 CANOLA             -1.062588
+                 CRUDE_W_micro      -1.110063
+                 DOW                -1.110063
+                 EU-BASIC          -83.272298
+                 EUROSTX            -4.270374
+                 GASOILINE         -15.540878
+                 GAS_US_mini        -4.625261
+                 GBP                -2.312631
+                 GOLD_micro         -1.480084
+                 KR10               -2.616117
+                 SOYOIL             -2.220125
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -122.27695
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry CAD10                15.938814
+                 CANOLA               -1.062588
+                 CRUDE_W_micro        -0.740042
+                 DOW                   2.220125
+                 EU-BASIC                   0.0
+                 EUROSTX               8.540749
+                 GASOILINE            31.081756
+                 GAS_US_mini          -9.250523
+                 GBP                   4.625261
+                 GOLD_micro           -0.740042
+                 KR10                 -5.232233
+                 SOYOIL               -4.440251
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry      40.941028
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry CAD10                   10.625876
+                 CANOLA                  -3.187763
+                 CRUDE_W_micro           -2.960167
+                 DOW                           0.0
+                 EU-BASIC              -166.544597
+                 EUROSTX                       0.0
+                 GASOILINE                     0.0
+                 GAS_US_mini            -18.501045
+                 GBP                           0.0
+                 GOLD_micro              -3.700209
+                 KR10                   -10.464466
+                 SOYOIL                  -8.880502
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry       -203.612873
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry CAD10                                  0
+                 CANOLA                                 0
+                 CRUDE_W_micro                          0
+                 DOW                                    0
+                 EU-BASIC                               0
+                 EUROSTX                                0
+                 GASOILINE                              0
+                 GAS_US_mini                            0
+                 GBP                                    0
+                 GOLD_micro                             0
+                 KR10                                   0
+                 SOYOIL                                 0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry CAD10                    13.282345
+                 CANOLA                   -2.125175
+                 CRUDE_W_micro            -1.850105
+                 DOW                       1.110063
+                 EU-BASIC                -83.272298
+                 EUROSTX                   4.270374
+                 GASOILINE                15.540878
+                 GAS_US_mini             -13.875784
+                 GBP                       2.312631
+                 GOLD_micro               -2.220125
+                 KR10                      -7.84835
+                 SOYOIL                   -6.660376
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry         -81.335922
 
 ********************************************************************************
                                  END OF REPORT                                  
