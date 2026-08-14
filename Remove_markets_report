@@ -1,19 +1,19 @@
 
 ********************************************************************************
-              Removed markets report produced on 13/08/2026 23:06               
+              Removed markets report produced on 14/08/2026 23:06               
 ********************************************************************************
 
 
 List of markets which should be marked as untradeable due to risk, liquidity or cost issues
-Following should be removed from trading (add to config.bad_markets) [0.300000 threshold]: ['MSCIEMASIA', 'AUD_micro', 'ETHER-micro', 'EU-DJ-UTIL', 'EU-REALESTATE', 'EURCHF', 'VIX_mini', 'EU-CONSTRUCTION', 'ALUMINIUM'] 
+Following should be removed from trading (add to config.bad_markets) [0.300000 threshold]: ['VIX_mini', 'ALUMINIUM', 'EU-REALESTATE', 'EU-CONSTRUCTION', 'EU-DJ-UTIL', 'AUD_micro', 'MSCIEMASIA', 'ETHER-micro', 'EURCHF'] 
 
 
 
-Following should be allowed to trade (delete from config.bad_markets) [0.300000 threshold]: ['LUMBER-new', 'SGX']
+Following should be allowed to trade (delete from config.bad_markets) [0.300000 threshold]: ['SGX']
 
 
 
-Markets too expensive (SR cost per trade > 0.010): ['AEX_mini', 'BOVESPA', 'BUTTER', 'CH10', 'CNH-onshore', 'COAL', 'COAL-GEORDIE', 'CZK', 'EPRA-EUROPE', 'EU-MID', 'EU-REALESTATE', 'EURIBOR', 'EUROSTX-SMALL', 'EUROSTX200-LARGE', 'FTSEINDO', 'FTSEVIET', 'GASOILINE_micro', 'HOUSE-US', 'IRS', 'LEAD_LME', 'MILKDRY', 'MILKWET', 'MSCIWORLD', 'OMX', 'SMI-MID', 'STEEL', 'SUGAR16', 'SWISSLEAD', 'TWD', 'TWD-mini', 'V2X', 'VNKI', 'WHEAT_ICE', 'WHEY']
+Markets too expensive (SR cost per trade > 0.010): ['AEX_mini', 'BOVESPA', 'BUTTER', 'CH10', 'CNH-onshore', 'COAL', 'COAL-GEORDIE', 'CZK', 'EPRA-EUROPE', 'EU-MID', 'EU-REALESTATE', 'EURIBOR', 'EUROSTX-SMALL', 'EUROSTX200-LARGE', 'FTSEINDO', 'FTSEVIET', 'GASOILINE_micro', 'HOUSE-US', 'IRS', 'MILKDRY', 'MILKWET', 'MSCIWORLD', 'OMX', 'SMI-MID', 'STEEL', 'SUGAR16', 'SWISSLEAD', 'TWD', 'TWD-mini', 'V2X', 'VNKI', 'WHEAT_ICE', 'WHEY']
 
 
 
@@ -25,7 +25,7 @@ Markets not enough contract volume (Volume in contracts per day < 100): ['AEX_mi
 
 
 
-Markets too safe (Annual % std. dev < 5.0): ['BOBL', 'BONO', 'BTP3', 'BUND', 'CAD', 'CAD2', 'CAD5', 'CAD_micro', 'CH10', 'CNH', 'CNH-onshore', 'EURCAD', 'EURCHF', 'EURIBOR', 'EURIBOR-ICE', 'FED', 'GBPCHF', 'GBPEUR', 'HIGHYIELD', 'HOUSE-US', 'IG', 'INR', 'JGB', 'JGB-SGX-mini', 'JGB-mini', 'KR3', 'OAT', 'SARONA', 'SGD', 'SGD_mini', 'SHATZ', 'SOFR', 'SONIA3', 'TWD-mini', 'US10', 'US2', 'US3', 'US5']
+Markets too safe (Annual % std. dev < 5.0): ['BOBL', 'BONO', 'BTP3', 'BUND', 'CAD', 'CAD2', 'CAD5', 'CAD_micro', 'CH10', 'CNH', 'CNH-onshore', 'EURAUD', 'EURCAD', 'EURCHF', 'EURIBOR', 'EURIBOR-ICE', 'FED', 'GBPCHF', 'GBPEUR', 'HIGHYIELD', 'HOUSE-US', 'IG', 'INR', 'JGB', 'JGB-SGX-mini', 'JGB-mini', 'KR3', 'SARONA', 'SGD', 'SGD_mini', 'SHATZ', 'SOFR', 'SONIA3', 'TWD-mini', 'US10', 'US2', 'US3', 'US5']
 
 
 
@@ -108,6 +108,7 @@ exclude_instrument_lists:
     - JPY_mini 
     - KR3 
     - KRWUSD 
+    - LUMBER-new 
     - MILKDRY 
     - MILKWET 
     - MSCIEMASIA 
@@ -219,13 +220,11 @@ exclude_instrument_lists:
     - JPY_mini 
     - KR3 
     - KRWUSD 
-    - LEAD_LME 
     - MILKDRY 
     - MILKWET 
     - MSCIEMASIA 
     - MSCIWORLD 
     - NOK 
-    - OAT 
     - OATIES 
     - OMX 
     - PLN 
