@@ -1,17 +1,18 @@
 
 ********************************************************************************
-Trades report produced on 21/08/2026 22:49 from 20/08/2026 22:49 to 21/08/2026 22:49
+Trades report produced on 01/09/2026 22:49 from 31/08/2026 22:49 to 01/09/2026 22:49
 ********************************************************************************
 
 
 
-============================================================================================
-                                       Broker orders                                        
-============================================================================================
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
-36373         BITCOIN  dynamic_TF_carry    [20260800] 2026-08-21 12:00:05  [1]       77400.0
-36374         BITCOIN  dynamic_TF_carry    [20260800] 2026-08-21 12:00:11  [1]       77355.0
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+36377             AEX  dynamic_TF_carry    [20260800] 2026-09-01 16:00:36  [-1]      1103.800
+36376     GAS_US_mini  dynamic_TF_carry    [20260900] 2026-09-01 15:59:14   [1]         2.775
+36375        MSCISING  dynamic_TF_carry    [20260800] 2026-09-01 15:58:35  [-1]       535.200
 
 
 ======================================================================================================================================================
@@ -19,72 +20,86 @@ Trades report produced on 21/08/2026 22:49 from 20/08/2026 22:49 to 21/08/2026 2
 ======================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime      submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-36373         BITCOIN  dynamic_TF_carry       2026-08-19 14:00:00  2026-08-21 11:00:04  2026-08-21 12:00:05               162004.0              3601.0
-36374         BITCOIN  dynamic_TF_carry       2026-08-19 14:00:00  2026-08-21 11:00:11  2026-08-21 12:00:11               162011.0              3600.0
+36375        MSCISING  dynamic_TF_carry       1974-05-01 09:31:00  1974-05-01 10:31:00  2026-09-01 15:58:35                 3600.0        1651642055.0
+36376     GAS_US_mini  dynamic_TF_carry       1974-05-01 09:31:00  1974-05-01 10:31:00  2026-09-01 15:59:14                 3600.0        1651642094.0
+36377             AEX  dynamic_TF_carry       1974-05-01 09:31:00  1974-05-01 10:31:00  2026-09-01 16:00:36                 3600.0        1651642176.0
 
 
-============================================================================================================================================================================================================================
-                                                                                                  Slippage (ticks per lot)                                                                                                  
-============================================================================================================================================================================================================================
+==========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                 
+==========================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
-36373         BITCOIN  dynamic_TF_carry   [1]                68565.0               None   77372.5    77380.0       77365.0     77365.0      77400.0 -8807.5    -7.5     -20.0        -35.0                 NaN         -27.5
-36374         BITCOIN  dynamic_TF_carry   [1]                68565.0               None   77395.0    77405.0       77385.0     77385.0      77355.0 -8830.0   -10.0      50.0         30.0                 NaN          40.0
-
-
-===============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
-===============================================================================================================================================================
-
-      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-36373         BITCOIN  dynamic_TF_carry   [1]    26912.710859 -3272.617183   -2.786787     -7.431433       -13.005007                     NaN         -10.21822
-36374         BITCOIN  dynamic_TF_carry   [1]    26912.710859 -3280.977545   -3.715716     18.578582        11.147149                     NaN         14.862865
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
+36375        MSCISING  dynamic_TF_carry  [-1]                   None               None      None       None          None        None        535.2   NaN     NaN       NaN          NaN                 NaN           NaN
+36376     GAS_US_mini  dynamic_TF_carry   [1]                   None               None      None       None          None        None        2.775   NaN     NaN       NaN          NaN                 NaN           NaN
+36377             AEX  dynamic_TF_carry  [-1]                   None               None      None       None          None        None       1103.8   NaN     NaN       NaN          NaN                 NaN           NaN
 
 
-========================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                       
-========================================================================================================================================================================
+============================================================================================================================================================
+                                                    Slippage (normalised by annual vol, BP of annual SR)                                                    
+============================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-36373         BITCOIN  dynamic_TF_carry   [1]             0.073256 -645.200281    -0.549418      -1.465116         -2.563952                      NaN          -2.014534
-36374         BITCOIN  dynamic_TF_carry   [1]             0.073256 -646.848536    -0.732558       3.662789          2.197673                      NaN           2.930231
+      instrument_code     strategy_name trade last_annual_vol delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+36375        MSCISING  dynamic_TF_carry  [-1]       72.186057       NaN         NaN           NaN              NaN                     NaN               NaN
+36376     GAS_US_mini  dynamic_TF_carry   [1]        1.318239       NaN         NaN           NaN              NaN                     NaN               NaN
+36377             AEX  dynamic_TF_carry  [-1]      116.158699       NaN         NaN           NaN              NaN                     NaN               NaN
+
+
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+36375        MSCISING  dynamic_TF_carry  [-1]            57.696936        NaN          NaN            NaN               NaN                      NaN                NaN
+36376     GAS_US_mini  dynamic_TF_carry   [1]          1831.394497        NaN          NaN            NaN               NaN                      NaN                NaN
+36377             AEX  dynamic_TF_carry  [-1]           171.383362        NaN          NaN            NaN               NaN                      NaN                NaN
 
 delay_cash Sum
-                                   delay_cash
-strategy_name    instrument_code             
-dynamic_TF_carry BITCOIN         -1292.048818
+                                 delay_cash
+strategy_name    instrument_code           
+dynamic_TF_carry AEX                      0
+                 GAS_US_mini              0
+                 MSCISING                 0
 delay_cash Total Sum
-                   delay_cash
-strategy_name                
-dynamic_TF_carry -1292.048818
+                 delay_cash
+strategy_name              
+dynamic_TF_carry          0
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry BITCOIN            -1.281976
+dynamic_TF_carry AEX                        0
+                 GAS_US_mini                0
+                 MSCISING                   0
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -1.281976
+dynamic_TF_carry            0
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry BITCOIN               2.197673
+dynamic_TF_carry AEX                          0
+                 GAS_US_mini                  0
+                 MSCISING                     0
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry       2.197673
+dynamic_TF_carry              0
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry BITCOIN                 -0.366279
+dynamic_TF_carry AEX                             0
+                 GAS_US_mini                     0
+                 MSCISING                        0
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry         -0.366279
+dynamic_TF_carry                 0
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry BITCOIN                                0
+dynamic_TF_carry AEX                                    0
+                 GAS_US_mini                            0
+                 MSCISING                               0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -92,11 +107,13 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry BITCOIN                   0.915697
+dynamic_TF_carry AEX                              0
+                 GAS_US_mini                      0
+                 MSCISING                         0
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry           0.915697
+dynamic_TF_carry                  0
 
 ********************************************************************************
                                  END OF REPORT                                  
