@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 07/09/2026 22:49 from 06/09/2026 22:49 to 07/09/2026 22:49
+Trades report produced on 08/09/2026 22:49 from 07/09/2026 22:49 to 08/09/2026 22:49
 ********************************************************************************
 
 
@@ -10,10 +10,9 @@ Trades report produced on 07/09/2026 22:49 from 06/09/2026 22:49 to 07/09/2026 2
 =============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-36412             CHF  dynamic_TF_carry    [20260900] 2026-09-07 12:00:18   [1]       1.23715
-36413             MXP  dynamic_TF_carry    [20260900] 2026-09-07 12:00:58  [-1]       0.05909
-36411             NZD  dynamic_TF_carry    [20260900] 2026-09-07 12:00:13  [-1]       0.58835
-36414             NZD  dynamic_TF_carry    [20260900] 2026-09-07 12:02:00  [-1]       0.58840
+36416            BUXL  dynamic_TF_carry    [20260900] 2026-09-08 06:28:31   [1]        103.34
+36417             DOW  dynamic_TF_carry    [20261200] 2026-09-08 12:00:04   [1]      53349.00
+36415         EUROSTX  dynamic_TF_carry    [20260900] 2026-09-08 05:00:11  [-1]       6390.00
 
 
 ======================================================================================================================================================
@@ -21,32 +20,29 @@ Trades report produced on 07/09/2026 22:49 from 06/09/2026 22:49 to 07/09/2026 2
 ======================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime      submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-36412             CHF  dynamic_TF_carry       2026-09-03 15:00:00  2026-09-07 11:00:14  2026-09-07 12:00:18               331214.0              3604.0
-36413             MXP  dynamic_TF_carry       2026-09-03 15:00:00  2026-09-07 11:00:20  2026-09-07 12:00:58               331220.0              3638.0
-36411             NZD  dynamic_TF_carry       2026-09-03 14:00:00  2026-09-07 11:00:06  2026-09-07 12:00:13               334806.0              3607.0
-36414             NZD  dynamic_TF_carry       2026-09-03 14:00:00  2026-09-07 11:01:55  2026-09-07 12:02:00               334915.0              3605.0
+36415         EUROSTX  dynamic_TF_carry       2026-09-02 20:00:00  2026-09-08 04:00:11  2026-09-08 05:00:11               460811.0              3600.0
+36416            BUXL  dynamic_TF_carry       1974-05-01 09:31:00  1974-05-01 10:31:00  2026-09-08 06:28:31                 3600.0        1652212651.0
+36417             DOW  dynamic_TF_carry       2026-09-02 20:00:00  2026-09-08 11:00:03  2026-09-08 12:00:04               486003.0              3601.0
 
 
-================================================================================================================================================================================================================================
-                                                                                                    Slippage (ticks per lot)                                                                                                    
-================================================================================================================================================================================================================================
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
-36412             CHF  dynamic_TF_carry   [1]                 1.2394               None    1.2372    1.23725       1.23715     1.23715      1.23715    0.0022  -0.00005    0.0001          0.0                 NaN       0.00005
-36413             MXP  dynamic_TF_carry  [-1]                0.05906               None  0.059085    0.05908       0.05909     0.05909      0.05909  0.000025 -0.000005   0.00001         -0.0                 NaN      0.000005
-36411             NZD  dynamic_TF_carry  [-1]                 0.5884               None    0.5884    0.58835       0.58845     0.58845      0.58835      -0.0  -0.00005      -0.0      -0.0001                 NaN      -0.00005
-36414             NZD  dynamic_TF_carry  [-1]                 0.5884               None  0.588375    0.58835        0.5884      0.5884       0.5884 -0.000025 -0.000025   0.00005         -0.0                 NaN      0.000025
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+36415         EUROSTX  dynamic_TF_carry  [-1]                 6378.0               None    6389.5     6389.0        6390.0      6390.0       6390.0   11.5    -0.5       1.0         -0.0                 NaN           0.5
+36416            BUXL  dynamic_TF_carry   [1]                    NaN               None       NaN        NaN           NaN         NaN       103.34    NaN     NaN       NaN          NaN                 NaN           NaN
+36417             DOW  dynamic_TF_carry   [1]                54177.0               None   53336.0    53349.0       53323.0     53323.0      53349.0  841.0   -13.0       0.0        -26.0                 NaN         -13.0
 
 
-==============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
-==============================================================================================================================================================
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
 
-      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-36412             CHF  dynamic_TF_carry   [1]        0.100943  217.945282   -4.953302      9.906604              0.0                     NaN          4.953302
-36413             MXP  dynamic_TF_carry  [-1]        0.003417   73.155102   -14.63102     29.262041             -0.0                     NaN          14.63102
-36411             NZD  dynamic_TF_carry  [-1]        0.050697        -0.0   -9.862464          -0.0       -19.724928                     NaN         -9.862464
-36414             NZD  dynamic_TF_carry  [-1]        0.050697   -4.931232   -4.931232      9.862464             -0.0                     NaN          4.931232
+      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+36415         EUROSTX  dynamic_TF_carry  [-1]      774.474644   148.487753   -6.455989     12.911979             -0.0                     NaN          6.455989
+36416            BUXL  dynamic_TF_carry   [1]        9.695077          NaN         NaN           NaN              NaN                     NaN               NaN
+36417             DOW  dynamic_TF_carry   [1]     6312.570781  1332.262289  -20.593828           0.0       -41.187657                     NaN        -20.593828
 
 
 ========================================================================================================================================================================
@@ -54,57 +50,56 @@ Trades report produced on 07/09/2026 22:49 from 06/09/2026 22:49 to 07/09/2026 2
 ========================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-36412             CHF  dynamic_TF_carry   [1]          92464.51212  203.421927    -4.623226       9.246451               0.0                      NaN           4.623226
-36413             MXP  dynamic_TF_carry  [-1]        369858.048481    9.246451     -1.84929        3.69858              -0.0                      NaN            1.84929
-36411             NZD  dynamic_TF_carry  [-1]         73971.609696        -0.0     -3.69858           -0.0         -7.397161                      NaN           -3.69858
-36414             NZD  dynamic_TF_carry  [-1]         73971.609696    -1.84929     -1.84929        3.69858              -0.0                      NaN            1.84929
+36415         EUROSTX  dynamic_TF_carry  [-1]             8.587111   98.751776    -4.293555       8.587111              -0.0                      NaN           4.293555
+36416            BUXL  dynamic_TF_carry   [1]           858.711099         NaN          NaN            NaN               NaN                      NaN                NaN
+36417             DOW  dynamic_TF_carry   [1]             0.369122  310.431762    -4.798588            0.0         -9.597177                      NaN          -4.798588
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry CHF              203.421927
-                 MXP                9.246451
-                 NZD                -1.84929
+dynamic_TF_carry BUXL                      0
+                 DOW              310.431762
+                 EUROSTX           98.751776
 delay_cash Total Sum
                   delay_cash
 strategy_name               
-dynamic_TF_carry  210.819088
+dynamic_TF_carry  409.183539
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry CHF                -4.623226
-                 MXP                 -1.84929
-                 NZD                -5.547871
+dynamic_TF_carry BUXL                       0
+                 DOW                -4.798588
+                 EUROSTX            -4.293555
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry   -12.020387
+dynamic_TF_carry    -9.092144
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry CHF                   9.246451
-                 MXP                    3.69858
-                 NZD                    3.69858
+dynamic_TF_carry BUXL                         0
+                 DOW                        0.0
+                 EUROSTX               8.587111
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry      16.643612
+dynamic_TF_carry       8.587111
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry CHF                           0.0
-                 MXP                          -0.0
-                 NZD                     -7.397161
+dynamic_TF_carry BUXL                            0
+                 DOW                     -9.597177
+                 EUROSTX                      -0.0
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry         -7.397161
+dynamic_TF_carry         -9.597177
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry CHF                                    0
-                 MXP                                    0
-                 NZD                                    0
+dynamic_TF_carry BUXL                                   0
+                 DOW                                    0
+                 EUROSTX                                0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -112,13 +107,13 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry CHF                       4.623226
-                 MXP                        1.84929
-                 NZD                       -1.84929
+dynamic_TF_carry BUXL                             0
+                 DOW                      -4.798588
+                 EUROSTX                   4.293555
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry           4.623226
+dynamic_TF_carry          -0.505033
 
 ********************************************************************************
                                  END OF REPORT                                  
