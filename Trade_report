@@ -1,15 +1,108 @@
 
 ********************************************************************************
-Trades report produced on 14/09/2026 22:49 from 13/09/2026 22:49 to 14/09/2026 22:49
+Trades report produced on 15/09/2026 22:49 from 14/09/2026 22:49 to 15/09/2026 22:49
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+36468        EU-BANKS  dynamic_TF_carry    [20260900] 2026-09-15 05:00:10  [-1]        315.80
+36469          SOYOIL  dynamic_TF_carry    [20261200] 2026-09-15 12:30:03   [1]         70.38
+
+
+======================================================================================================================================================
+                                                                        Delays                                                                        
+======================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime      submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+36468        EU-BANKS  dynamic_TF_carry       2026-09-14 11:00:00  2026-09-15 04:00:08  2026-09-15 05:00:10                61208.0              3602.0
+36469          SOYOIL  dynamic_TF_carry       2026-09-14 14:00:00  2026-09-15 11:30:02  2026-09-15 12:30:03                77402.0              3601.0
+
+
+==========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                 
+==========================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
+36468        EU-BANKS  dynamic_TF_carry  [-1]                 317.55               None    315.85      315.8         315.9       315.9        315.8  -1.7   -0.05      -0.0         -0.1                 NaN         -0.05
+36469          SOYOIL  dynamic_TF_carry   [1]                  70.16               None     70.37      70.38         70.36       70.36        70.38 -0.21   -0.01       0.0        -0.02                 NaN         -0.01
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+36468        EU-BANKS  dynamic_TF_carry  [-1]       52.097425 -326.311713   -9.597403          -0.0       -19.194807                     NaN         -9.597403
+36469          SOYOIL  dynamic_TF_carry   [1]       17.723376 -118.487586   -5.642266           0.0       -11.284532                     NaN         -5.642266
+
+
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+36468        EU-BANKS  dynamic_TF_carry  [-1]            42.780322 -72.726548    -2.139016           -0.0         -4.278032                      NaN          -2.139016
+36469          SOYOIL  dynamic_TF_carry   [1]           445.029576 -93.456211    -4.450296            0.0         -8.900592                      NaN          -4.450296
+
+delay_cash Sum
+                                 delay_cash
+strategy_name    instrument_code           
+dynamic_TF_carry EU-BANKS        -72.726548
+                 SOYOIL          -93.456211
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -166.182759
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry EU-BANKS           -2.139016
+                 SOYOIL             -4.450296
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry    -6.589312
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry EU-BANKS                  -0.0
+                 SOYOIL                     0.0
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry            0.0
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry EU-BANKS                -4.278032
+                 SOYOIL                  -8.900592
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry        -13.178624
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry EU-BANKS                               0
+                 SOYOIL                                 0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry EU-BANKS                 -2.139016
+                 SOYOIL                   -4.450296
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry          -6.589312
 
 ********************************************************************************
                                  END OF REPORT                                  
