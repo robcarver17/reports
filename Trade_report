@@ -1,15 +1,97 @@
 
 ********************************************************************************
-Trades report produced on 18/09/2026 22:49 from 17/09/2026 22:49 to 18/09/2026 22:49
+Trades report produced on 21/09/2026 22:49 from 20/09/2026 22:49 to 21/09/2026 22:49
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+36483      BRENT-LAST  dynamic_TF_carry    [20261200] 2026-09-21 11:00:09  [-1]         97.23
+
+
+======================================================================================================================================================
+                                                                        Delays                                                                        
+======================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime      submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+36483      BRENT-LAST  dynamic_TF_carry       2026-09-18 15:00:00  2026-09-21 10:00:08  2026-09-21 11:00:09               241208.0              3601.0
+
+
+===========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                  
+===========================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
+36483      BRENT-LAST  dynamic_TF_carry  [-1]                   98.6               None    97.265      97.25         97.28       97.28        97.23 -1.335  -0.015     -0.02        -0.05                 NaN        -0.035
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+36483      BRENT-LAST  dynamic_TF_carry  [-1]       34.353337 -388.608535   -4.366388     -5.821851       -14.554627                     NaN        -10.188239
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+36483      BRENT-LAST  dynamic_TF_carry  [-1]           747.596477 -998.041297   -11.213947      -14.95193        -37.379824                      NaN         -26.165877
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry BRENT-LAST      -998.041297
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -998.041297
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry BRENT-LAST        -11.213947
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -11.213947
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry BRENT-LAST           -14.95193
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry      -14.95193
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry BRENT-LAST             -37.379824
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry        -37.379824
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry BRENT-LAST                             0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry BRENT-LAST              -26.165877
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry         -26.165877
 
 ********************************************************************************
                                  END OF REPORT                                  
