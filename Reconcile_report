@@ -1,19 +1,19 @@
 
 ********************************************************************************
-                 Reconcile report produced on 25/09/2026 22:49                  
+                 Reconcile report produced on 28/09/2026 22:49                  
 ********************************************************************************
 
 
-Breaks Optimal vs actual ['dynamic_TF_carry AUD_micro']
+Breaks Optimal vs actual ['dynamic_TF_carry RUSSELL']
  Breaks Instrument vs Contract []
- Breaks Broker vs Contract []
+ Breaks Broker vs Contract [SOYOIL/20261014]
 
 ===============================================================
                         Positions in DB                        
 ===============================================================
 
    instrument_code contract_date          expiry_date  position
-16       AUD_micro      20261214  2026-12-14 00:00:00      10.0
+16       AUD_micro      20261214  2026-12-14 00:00:00       9.0
 2       BRENT-LAST      20261130  2026-11-30 00:00:00       1.0
 21             BTP      20261208  2026-12-08 00:00:00      -1.0
 7             BUXL      20261208  2026-12-08 00:00:00      -2.0
@@ -45,49 +45,46 @@ Breaks Optimal vs actual ['dynamic_TF_carry AUD_micro']
 ===============================================================
 
    instrument_code contract_date          expiry_date  position
-12       AUD_micro      20261214  2026-12-14 00:00:00      10.0
-14      BRENT-LAST      20261130  2026-11-30 00:00:00       1.0
-16             BTP      20261208  2026-12-08 00:00:00      -1.0
-24            BUXL      20261208  2026-12-08 00:00:00      -2.0
-9              CAD      20261215  2026-12-15 00:00:00      -1.0
-23             CHF      20261214  2026-12-14 00:00:00      -2.0
-20    COPPER-micro      20261125  2026-11-25 00:00:00      -1.0
-19        EU-BANKS      20261218  2026-12-18 00:00:00       1.0
-15       GASOILINE      20261130  2026-11-30 00:00:00       1.0
-6       GOLD_micro      20261229  2026-12-29 00:00:00      -1.0
-5             KR10      20261215  2026-12-15 00:00:00      -1.0
-8          LEANHOG      20270414  2027-04-14 00:00:00      -1.0
-3        MILLWHEAT      20261210  2026-12-10 00:00:00       1.0
-7         MSCISING      20260929  2026-09-29 00:00:00       1.0
-2     NASDAQ_micro      20261218  2026-12-18 00:00:00       1.0
-17           R1000      20261218  2026-12-18 00:00:00       1.0
-18          RUBBER      20261130  2026-11-30 00:00:00       1.0
-0           RUBBER      20261030  2026-10-30 00:00:00       1.0
-22         SOYMEAL      20270114  2027-01-14 00:00:00       2.0
-10          SOYOIL      20261014  2026-10-14 00:00:00       1.0
-4           SOYOIL      20270114  2027-01-14 00:00:00      -1.0
-13           TOPIX      20261210  2026-12-10 00:00:00       1.0
-11            US10      20261221  2026-12-21 00:00:00      -2.0
-1            US10U      20261221  2026-12-21 00:00:00      -1.0
-21             ZAR      20261214  2026-12-14 00:00:00       1.0
+15       AUD_micro      20261214  2026-12-14 00:00:00       9.0
+19      BRENT-LAST      20261130  2026-11-30 00:00:00       1.0
+13             BTP      20261208  2026-12-08 00:00:00      -1.0
+23            BUXL      20261208  2026-12-08 00:00:00      -2.0
+21             CAD      20261215  2026-12-15 00:00:00      -1.0
+14             CHF      20261214  2026-12-14 00:00:00      -2.0
+11    COPPER-micro      20261125  2026-11-25 00:00:00      -1.0
+3         EU-BANKS      20261218  2026-12-18 00:00:00       1.0
+0        GASOILINE      20261130  2026-11-30 00:00:00       1.0
+22      GOLD_micro      20261229  2026-12-29 00:00:00      -1.0
+1             KR10      20261215  2026-12-15 00:00:00      -1.0
+9          LEANHOG      20270414  2027-04-14 00:00:00      -1.0
+17       MILLWHEAT      20261210  2026-12-10 00:00:00       1.0
+2         MSCISING      20260929  2026-09-29 00:00:00       1.0
+18    NASDAQ_micro      20261218  2026-12-18 00:00:00       1.0
+5            R1000      20261218  2026-12-18 00:00:00       1.0
+4           RUBBER      20261030  2026-10-30 00:00:00       1.0
+6           RUBBER      20261130  2026-11-30 00:00:00       1.0
+7          SOYMEAL      20270114  2027-01-14 00:00:00       2.0
+12          SOYOIL      20270114  2027-01-14 00:00:00      -1.0
+8            TOPIX      20261210  2026-12-10 00:00:00       1.0
+10            US10      20261221  2026-12-21 00:00:00      -2.0
+20           US10U      20261221  2026-12-21 00:00:00      -1.0
+16             ZAR      20261214  2026-12-14 00:00:00       1.0
 
 
-===============
- Trades in DB  
-===============
+=================================================================================
+                                  Trades in DB                                   
+=================================================================================
 
-Empty DataFrame
-Columns: [strategy_name, contract_date, fill_datetime, fill, filled_price]
-Index: []
+              strategy_name contract_date       fill_datetime  fill  filled_price
+AUD_micro  dynamic_TF_carry    [20261200] 2026-09-28 12:00:12  [-1]        0.7016
 
 
-==================
-Trades from broker
-==================
+=============================================================================
+                             Trades from broker                              
+=============================================================================
 
-Empty DataFrame
-Columns: [strategy_name, contract_date, fill_datetime, fill, filled_price]
-Index: []
+          strategy_name contract_date       fill_datetime  fill  filled_price
+AUD_micro                  [20261214] 2026-09-28 15:00:12  [-1]        0.7016
 
 
 ==========================================================
@@ -192,7 +189,7 @@ dynamic_TF_carry EU-MID                  0       0   False
 dynamic_TF_carry FED                     0       0   False
 dynamic_TF_carry LUMBER-new              0       0   False
 dynamic_TF_carry EUA                     0       0   False
-dynamic_TF_carry RUSSELL                 0       0   False
+dynamic_TF_carry RUSSELL                 0      -1    True
 dynamic_TF_carry WHEY                    0       0   False
 dynamic_TF_carry EUROSTX200-LARGE        0       0   False
 dynamic_TF_carry SP500_micro             0       0   False
@@ -245,7 +242,7 @@ dynamic_TF_carry US5                     0       0   False
 dynamic_TF_carry RUBBER                  2       2   False
 dynamic_TF_carry LEANHOG                -1      -1   False
 dynamic_TF_carry OMX                     0       0   False
-dynamic_TF_carry AUD_micro              10       9    True
+dynamic_TF_carry AUD_micro               9       9   False
 dynamic_TF_carry CHF                    -2      -2   False
 dynamic_TF_carry GAS-LAST                0       0   False
 dynamic_TF_carry CRUDE_W_mini            0       0   False
