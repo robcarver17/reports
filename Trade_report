@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 28/09/2026 22:49 from 27/09/2026 22:49 to 28/09/2026 22:49
+Trades report produced on 29/09/2026 22:49 from 28/09/2026 22:49 to 29/09/2026 22:49
 ********************************************************************************
 
 
@@ -10,7 +10,9 @@ Trades report produced on 28/09/2026 22:49 from 27/09/2026 22:49 to 28/09/2026 2
 =============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-36495       AUD_micro  dynamic_TF_carry    [20261200] 2026-09-28 12:00:12  [-1]        0.7016
+36496          RUBBER  dynamic_TF_carry    [20261100] 2026-09-28 23:02:27  [-1]        242.30
+36498         RUSSELL  dynamic_TF_carry    [20261200] 2026-09-29 12:00:07  [-1]       2836.20
+36497          SOYOIL  dynamic_TF_carry    [20261000] 2026-09-29 06:59:12  [-1]         67.25
 
 
 ======================================================================================================================================================
@@ -18,68 +20,86 @@ Trades report produced on 28/09/2026 22:49 from 27/09/2026 22:49 to 28/09/2026 2
 ======================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime      submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-36495       AUD_micro  dynamic_TF_carry       2026-09-24 20:00:00  2026-09-28 11:00:04  2026-09-28 12:00:12               313204.0              3608.0
+36496          RUBBER  dynamic_TF_carry       2026-09-27 23:00:00  2026-09-28 22:02:26  2026-09-28 23:02:27                82946.0              3601.0
+36497          SOYOIL  dynamic_TF_carry       1974-05-01 09:31:00  1974-05-01 10:31:00  2026-09-29 06:59:12                 3600.0        1654028892.0
+36498         RUSSELL  dynamic_TF_carry       2026-09-24 20:00:00  2026-09-29 11:00:06  2026-09-29 12:00:07               399606.0              3601.0
 
 
-==============================================================================================================================================================================================================================
-                                                                                                   Slippage (ticks per lot)                                                                                                   
-==============================================================================================================================================================================================================================
+==========================================================================================================================================================================================================================
+                                                                                                 Slippage (ticks per lot)                                                                                                 
+==========================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
-36495       AUD_micro  dynamic_TF_carry  [-1]                 0.7022               None   0.70175     0.7017        0.7018      0.7018       0.7016 -0.00045 -0.00005   -0.0001      -0.0002                 NaN      -0.00015
-
-
-=============================================================================================================================================================
-                                                    Slippage (normalised by annual vol, BP of annual SR)                                                     
-=============================================================================================================================================================
-
-      instrument_code     strategy_name trade last_annual_vol  delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-36495       AUD_micro  dynamic_TF_carry  [-1]        0.051302 -87.715255   -9.746139    -19.492279       -38.984558                     NaN        -29.238418
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price delay bid_ask execution versus_limit versus_parent_limit total_trading
+36496          RUBBER  dynamic_TF_carry  [-1]                  249.6               None     242.4      242.3         242.5       242.5        242.3  -7.2    -0.1      -0.0         -0.2                 NaN          -0.1
+36497          SOYOIL  dynamic_TF_carry  [-1]                    NaN               None       NaN        NaN           NaN         NaN        67.25   NaN     NaN       NaN          NaN                 NaN           NaN
+36498         RUSSELL  dynamic_TF_carry  [-1]                 2861.9               None    2836.4     2836.2        2836.6      2836.6       2836.2 -25.5    -0.2      -0.0         -0.4                 NaN          -0.2
 
 
-=======================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                      
-=======================================================================================================================================================================
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-36495       AUD_micro  dynamic_TF_carry  [-1]          7552.898614  -3.398804    -0.377645       -0.75529          -1.51058                      NaN          -1.132935
+      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+36496          RUBBER  dynamic_TF_carry  [-1]       53.971594 -1334.035081  -18.528265          -0.0        -37.05653                     NaN        -18.528265
+36497          SOYOIL  dynamic_TF_carry  [-1]       14.959415          NaN         NaN           NaN              NaN                     NaN               NaN
+36498         RUSSELL  dynamic_TF_carry  [-1]      408.347295  -624.468444   -4.897792          -0.0        -9.795583                     NaN         -4.897792
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+36496          RUBBER  dynamic_TF_carry  [-1]            37.778475 -272.005017    -3.777847           -0.0         -7.555695                      NaN          -3.777847
+36497          SOYOIL  dynamic_TF_carry  [-1]           453.341695         NaN          NaN            NaN               NaN                      NaN                NaN
+36498         RUSSELL  dynamic_TF_carry  [-1]             3.777847   -96.33511    -0.755569           -0.0         -1.511139                      NaN          -0.755569
 
 delay_cash Sum
-                                 delay_cash
-strategy_name    instrument_code           
-dynamic_TF_carry AUD_micro        -3.398804
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry RUBBER          -272.005017
+                 RUSSELL           -96.33511
+                 SOYOIL                    0
 delay_cash Total Sum
-                 delay_cash
-strategy_name              
-dynamic_TF_carry  -3.398804
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -368.340127
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry AUD_micro          -0.377645
+dynamic_TF_carry RUBBER             -3.777847
+                 RUSSELL            -0.755569
+                 SOYOIL                     0
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -0.377645
+dynamic_TF_carry    -4.533417
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry AUD_micro             -0.75529
+dynamic_TF_carry RUBBER                    -0.0
+                 RUSSELL                   -0.0
+                 SOYOIL                       0
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry       -0.75529
+dynamic_TF_carry           -0.0
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry AUD_micro                -1.51058
+dynamic_TF_carry RUBBER                  -7.555695
+                 RUSSELL                 -1.511139
+                 SOYOIL                          0
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry          -1.51058
+dynamic_TF_carry         -9.066834
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry AUD_micro                              0
+dynamic_TF_carry RUBBER                                 0
+                 RUSSELL                                0
+                 SOYOIL                                 0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -87,11 +107,13 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry AUD_micro                -1.132935
+dynamic_TF_carry RUBBER                   -3.777847
+                 RUSSELL                  -0.755569
+                 SOYOIL                           0
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry          -1.132935
+dynamic_TF_carry          -4.533417
 
 ********************************************************************************
                                  END OF REPORT                                  
