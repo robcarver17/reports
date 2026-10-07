@@ -1,15 +1,174 @@
 
 ********************************************************************************
-Trades report produced on 06/10/2026 22:49 from 05/10/2026 22:49 to 06/10/2026 22:49
+Trades report produced on 07/10/2026 22:49 from 06/10/2026 22:49 to 07/10/2026 22:49
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+36536       AUD_micro  dynamic_TF_carry    [20261200] 2026-10-07 12:00:05  [-1]        0.6944
+36531            BUXL  dynamic_TF_carry    [20261200] 2026-10-07 05:00:09   [1]      101.7600
+36534     GAS_US_mini  dynamic_TF_carry    [20261200] 2026-10-07 11:05:28  [-1]        3.4800
+36533      GOLD_micro  dynamic_TF_carry    [20261200] 2026-10-07 11:04:38  [-1]     4114.8000
+36530            KR10  dynamic_TF_carry    [20261200] 2026-10-06 23:02:31   [1]      104.5900
+36532        MSCIEAFA  dynamic_TF_carry    [20261200] 2026-10-07 11:04:35   [1]     3099.4000
+36537          SOYOIL  dynamic_TF_carry    [20270100] 2026-10-07 12:30:01   [1]       69.3500
+36535     SP500_micro  dynamic_TF_carry    [20261200] 2026-10-07 12:00:02   [1]     7828.2500
+
+
+======================================================================================================================================================
+                                                                        Delays                                                                        
+======================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime      submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+36530            KR10  dynamic_TF_carry       2026-10-05 20:00:00  2026-10-06 22:02:29  2026-10-06 23:02:31                93749.0              3602.0
+36531            BUXL  dynamic_TF_carry       2026-10-05 20:00:00  2026-10-07 04:00:08  2026-10-07 05:00:09               115208.0              3601.0
+36532        MSCIEAFA  dynamic_TF_carry       2026-10-05 20:00:00  2026-10-07 10:00:03  2026-10-07 11:04:35               136803.0              3872.0
+36533      GOLD_micro  dynamic_TF_carry       2026-10-05 20:00:00  2026-10-07 10:04:38  2026-10-07 11:04:38               137078.0              3600.0
+36534     GAS_US_mini  dynamic_TF_carry       2026-10-05 20:00:00  2026-10-07 10:05:28  2026-10-07 11:05:28               137128.0              3600.0
+36535     SP500_micro  dynamic_TF_carry       2026-10-05 20:00:00  2026-10-07 11:00:02  2026-10-07 12:00:02               140402.0              3600.0
+36536       AUD_micro  dynamic_TF_carry       2026-10-05 20:00:00  2026-10-07 11:00:03  2026-10-07 12:00:05               140403.0              3602.0
+36537          SOYOIL  dynamic_TF_carry       2026-10-05 20:00:00  2026-10-07 11:30:01  2026-10-07 12:30:01               142201.0              3600.0
+
+
+============================================================================================================================================================================================================================
+                                                                                                  Slippage (ticks per lot)                                                                                                  
+============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
+36530            KR10  dynamic_TF_carry   [1]                 104.66               None   104.585     104.59        104.58      104.58       104.59   0.075  -0.005       0.0        -0.01                 NaN        -0.005
+36531            BUXL  dynamic_TF_carry   [1]                 102.08               None    101.73     101.74        101.72      101.72       101.76    0.35   -0.01     -0.02        -0.04                 NaN         -0.03
+36532        MSCIEAFA  dynamic_TF_carry   [1]                 3146.1               None   3097.65     3097.8        3097.5      3097.5       3099.4   48.45   -0.15      -1.6         -1.9                 NaN         -1.75
+36533      GOLD_micro  dynamic_TF_carry  [-1]                 4204.7               None    4115.1     4115.0        4115.2      4115.2       4114.8   -89.6    -0.1      -0.2         -0.4                 NaN          -0.3
+36534     GAS_US_mini  dynamic_TF_carry  [-1]                   3.41               None    3.4825       3.48         3.485       3.485         3.48  0.0725 -0.0025      -0.0       -0.005                 NaN       -0.0025
+36535     SP500_micro  dynamic_TF_carry   [1]                7881.75               None  7828.375     7828.5       7828.25     7828.25      7828.25  53.375  -0.125      0.25          0.0                 NaN         0.125
+36536       AUD_micro  dynamic_TF_carry  [-1]                 0.6979               None    0.6945     0.6944        0.6946      0.6946       0.6944 -0.0034 -0.0001      -0.0      -0.0002                 NaN       -0.0001
+36537          SOYOIL  dynamic_TF_carry   [1]                  70.12               None     69.34      69.35         69.33       69.33        69.35    0.78   -0.01       0.0        -0.02                 NaN         -0.01
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+36530            KR10  dynamic_TF_carry   [1]        7.019008  106.852708   -7.123514           0.0       -14.247028                     NaN         -7.123514
+36531            BUXL  dynamic_TF_carry   [1]       11.801545  296.571347   -8.473467    -16.946934       -33.893868                     NaN        -25.420401
+36532        MSCIEAFA  dynamic_TF_carry   [1]      420.002872  1153.56354   -3.571404    -38.094978       -45.237786                     NaN        -41.666382
+36533      GOLD_micro  dynamic_TF_carry  [-1]      896.713605 -999.204199   -1.115183     -2.230367        -4.460733                     NaN          -3.34555
+36534     GAS_US_mini  dynamic_TF_carry  [-1]        1.527201  474.724676  -16.369816          -0.0       -32.739633                     NaN        -16.369816
+36535     SP500_micro  dynamic_TF_carry   [1]      817.640712  652.792837   -1.528789      3.057578              0.0                     NaN          1.528789
+36536       AUD_micro  dynamic_TF_carry  [-1]        0.048874  -695.67234  -20.460951          -0.0       -40.921902                     NaN        -20.460951
+36537          SOYOIL  dynamic_TF_carry   [1]       15.860249  491.795562   -6.305071           0.0       -12.610143                     NaN         -6.305071
+
+
+=========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                       
+=========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point   delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+36530            KR10  dynamic_TF_carry   [1]           563.560072    42.267005      -2.8178            0.0         -5.635601                      NaN            -2.8178
+36531            BUXL  dynamic_TF_carry   [1]           847.644384   296.675534    -8.476444     -16.952888        -33.905775                      NaN         -25.429332
+36532        MSCIEAFA  dynamic_TF_carry   [1]            37.735137  1828.267391    -5.660271     -60.376219         -71.69676                      NaN          -66.03649
+36533      GOLD_micro  dynamic_TF_carry  [-1]             7.547027  -676.213656    -0.754703      -1.509405         -3.018811                      NaN          -2.264108
+36534     GAS_US_mini  dynamic_TF_carry  [-1]          1886.756854   136.789872    -4.716892           -0.0         -9.433784                      NaN          -4.716892
+36535     SP500_micro  dynamic_TF_carry   [1]             3.773514   201.411294    -0.471689       0.943378               0.0                      NaN           0.471689
+36536       AUD_micro  dynamic_TF_carry  [-1]          7547.027415   -25.659893    -0.754703           -0.0         -1.509405                      NaN          -0.754703
+36537          SOYOIL  dynamic_TF_carry   [1]           452.821645   353.200883    -4.528216            0.0         -9.056433                      NaN          -4.528216
+
+delay_cash Sum
+                                   delay_cash
+strategy_name    instrument_code             
+dynamic_TF_carry AUD_micro         -25.659893
+                 BUXL              296.675534
+                 GAS_US_mini       136.789872
+                 GOLD_micro       -676.213656
+                 KR10               42.267005
+                 MSCIEAFA         1828.267391
+                 SOYOIL            353.200883
+                 SP500_micro       201.411294
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry  2156.73843
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry AUD_micro          -0.754703
+                 BUXL               -8.476444
+                 GAS_US_mini        -4.716892
+                 GOLD_micro         -0.754703
+                 KR10                 -2.8178
+                 MSCIEAFA           -5.660271
+                 SOYOIL             -4.528216
+                 SP500_micro        -0.471689
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -28.180718
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry AUD_micro                 -0.0
+                 BUXL                -16.952888
+                 GAS_US_mini               -0.0
+                 GOLD_micro           -1.509405
+                 KR10                       0.0
+                 MSCIEAFA            -60.376219
+                 SOYOIL                     0.0
+                 SP500_micro           0.943378
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry     -77.895134
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry AUD_micro               -1.509405
+                 BUXL                   -33.905775
+                 GAS_US_mini             -9.433784
+                 GOLD_micro              -3.018811
+                 KR10                    -5.635601
+                 MSCIEAFA                -71.69676
+                 SOYOIL                  -9.056433
+                 SP500_micro                   0.0
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry        -134.25657
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry AUD_micro                              0
+                 BUXL                                   0
+                 GAS_US_mini                            0
+                 GOLD_micro                             0
+                 KR10                                   0
+                 MSCIEAFA                               0
+                 SOYOIL                                 0
+                 SP500_micro                            0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry AUD_micro                -0.754703
+                 BUXL                    -25.429332
+                 GAS_US_mini              -4.716892
+                 GOLD_micro               -2.264108
+                 KR10                       -2.8178
+                 MSCIEAFA                 -66.03649
+                 SOYOIL                   -4.528216
+                 SP500_micro               0.471689
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry        -106.075852
 
 ********************************************************************************
                                  END OF REPORT                                  
