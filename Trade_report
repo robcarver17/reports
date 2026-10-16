@@ -1,15 +1,119 @@
 
 ********************************************************************************
-Trades report produced on 15/10/2026 22:49 from 14/10/2026 22:49 to 15/10/2026 22:49
+Trades report produced on 16/10/2026 22:49 from 15/10/2026 22:49 to 16/10/2026 22:49
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+36580             CAD  dynamic_TF_carry    [20261200] 2026-10-16 11:00:05   [1]       0.70915
+36579    NASDAQ_micro  dynamic_TF_carry    [20261200] 2026-10-16 11:00:04  [-1]   29834.00000
+36581     SP500_micro  dynamic_TF_carry    [20261200] 2026-10-16 11:00:07   [1]    7783.25000
+
+
+======================================================================================================================================================
+                                                                        Delays                                                                        
+======================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime      submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+36579    NASDAQ_micro  dynamic_TF_carry       2026-10-14 20:00:00  2026-10-16 11:00:03  2026-10-16 11:00:04               140403.0                 1.0
+36580             CAD  dynamic_TF_carry       2026-10-14 20:00:00  2026-10-16 11:00:05  2026-10-16 11:00:05               140405.0                 0.0
+36581     SP500_micro  dynamic_TF_carry       2026-10-14 20:00:00  2026-10-16 11:00:07  2026-10-16 11:00:07               140407.0                 0.0
+
+
+=================================================================================================================================================================================================================================
+                                                                                                    Slippage (ticks per lot)                                                                                                     
+=================================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price  mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
+36579    NASDAQ_micro  dynamic_TF_carry  [-1]                30117.5               None  29832.375    29832.0      29832.75    29832.75      29834.0  -285.125    -0.375       2.0         1.25                 NaN         1.625
+36580             CAD  dynamic_TF_carry   [1]                 0.7068               None   0.709075     0.7091       0.70905     0.70905      0.70915 -0.002275 -0.000025  -0.00005      -0.0001                 NaN     -0.000075
+36581     SP500_micro  dynamic_TF_carry   [1]                 7784.5               None   7783.375     7783.5       7783.25     7783.25      7783.25     1.125    -0.125      0.25          0.0                 NaN         0.125
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+36579    NASDAQ_micro  dynamic_TF_carry  [-1]     5320.939623 -535.854605   -0.704763      3.758735         2.349209                     NaN          3.053972
+36580             CAD  dynamic_TF_carry   [1]        0.033653 -676.008333   -7.428663    -14.857326       -29.714652                     NaN        -22.285989
+36581     SP500_micro  dynamic_TF_carry   [1]      867.169648    12.97324   -1.441471      2.882942              0.0                     NaN          1.441471
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+36579    NASDAQ_micro  dynamic_TF_carry  [-1]             1.503986 -428.823883    -0.563995       3.007971          1.879982                      NaN           2.443977
+36580             CAD  dynamic_TF_carry   [1]         75199.278087 -171.078358    -1.879982      -3.759964         -7.519928                      NaN          -5.639946
+36581     SP500_micro  dynamic_TF_carry   [1]             3.759964    4.229959    -0.469995       0.939991               0.0                      NaN           0.469995
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry CAD             -171.078358
+                 NASDAQ_micro    -428.823883
+                 SP500_micro        4.229959
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -595.672282
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry CAD                -1.879982
+                 NASDAQ_micro       -0.563995
+                 SP500_micro        -0.469995
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry    -2.913972
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry CAD                  -3.759964
+                 NASDAQ_micro          3.007971
+                 SP500_micro           0.939991
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry       0.187998
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry CAD                     -7.519928
+                 NASDAQ_micro             1.879982
+                 SP500_micro                   0.0
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry         -5.639946
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry CAD                                    0
+                 NASDAQ_micro                           0
+                 SP500_micro                            0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry CAD                      -5.639946
+                 NASDAQ_micro              2.443977
+                 SP500_micro               0.469995
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry          -2.725974
 
 ********************************************************************************
                                  END OF REPORT                                  
