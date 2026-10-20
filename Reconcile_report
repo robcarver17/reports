@@ -1,10 +1,10 @@
 
 ********************************************************************************
-                 Reconcile report produced on 19/10/2026 22:49                  
+                 Reconcile report produced on 20/10/2026 22:49                  
 ********************************************************************************
 
 
-Breaks Optimal vs actual []
+Breaks Optimal vs actual ['dynamic_TF_carry COPPER-micro', 'dynamic_TF_carry AUD_micro']
  Breaks Instrument vs Contract []
  Breaks Broker vs Contract []
 
@@ -45,71 +45,49 @@ Breaks Optimal vs actual []
 ===============================================================
 
    instrument_code contract_date          expiry_date  position
-2       BRENT-LAST      20261130  2026-11-30 00:00:00       1.0
-4              BTP      20261208  2026-12-08 00:00:00      -1.0
-0              CAD      20261215  2026-12-15 00:00:00      -4.0
-22           CAD10      20261218  2026-12-18 00:00:00       1.0
-18             CHF      20261214  2026-12-14 00:00:00      -3.0
-5     COPPER-micro      20270224  2027-02-24 00:00:00      -2.0
-23        EU-BASIC      20261218  2026-12-18 00:00:00       1.0
-24       EUR_micro      20261214  2026-12-14 00:00:00      -1.0
-3        GASOILINE      20261231  2026-12-31 00:00:00       1.0
-1      GAS_US_mini      20261124  2026-11-24 00:00:00      -1.0
-11            KR10      20261215  2026-12-15 00:00:00       1.0
-8          LEANHOG      20270414  2027-04-14 00:00:00      -2.0
-21             OAT      20261208  2026-12-08 00:00:00      -1.0
-7             PLAT      20270127  2027-01-27 00:00:00      -1.0
-12           R1000      20261218  2026-12-18 00:00:00       1.0
+13      BRENT-LAST      20261130  2026-11-30 00:00:00       1.0
+1              BTP      20261208  2026-12-08 00:00:00      -1.0
+22             CAD      20261215  2026-12-15 00:00:00      -4.0
+23           CAD10      20261218  2026-12-18 00:00:00       1.0
+0              CHF      20261214  2026-12-14 00:00:00      -3.0
+3     COPPER-micro      20270224  2027-02-24 00:00:00      -2.0
+2         EU-BASIC      20261218  2026-12-18 00:00:00       1.0
+5        EUR_micro      20261214  2026-12-14 00:00:00      -1.0
+21       GASOILINE      20261231  2026-12-31 00:00:00       1.0
+12     GAS_US_mini      20261124  2026-11-24 00:00:00      -1.0
+14            KR10      20261215  2026-12-15 00:00:00       1.0
+18         LEANHOG      20270414  2027-04-14 00:00:00      -2.0
+11             OAT      20261208  2026-12-08 00:00:00      -1.0
+6             PLAT      20270127  2027-01-27 00:00:00      -1.0
+7            R1000      20261218  2026-12-18 00:00:00       1.0
 10        REDWHEAT      20270514  2027-05-14 00:00:00      -1.0
 15          RUBBER      20261130  2026-11-30 00:00:00       1.0
-17         RUSSELL      20261218  2026-12-18 00:00:00      -1.0
-16           SHATZ      20261208  2026-12-08 00:00:00      -2.0
-20         SOYMEAL      20270114  2027-01-14 00:00:00       2.0
-6      SP500_micro      20261218  2026-12-18 00:00:00       1.0
-13         SUGAR11      20270430  2027-04-30 00:00:00       2.0
-19            US10      20261221  2026-12-21 00:00:00      -3.0
-9            US10U      20261221  2026-12-21 00:00:00      -1.0
-14             ZAR      20261214  2026-12-14 00:00:00       1.0
+8          RUSSELL      20261218  2026-12-18 00:00:00      -1.0
+19           SHATZ      20261208  2026-12-08 00:00:00      -2.0
+24         SOYMEAL      20270114  2027-01-14 00:00:00       2.0
+17     SP500_micro      20261218  2026-12-18 00:00:00       1.0
+20         SUGAR11      20270430  2027-04-30 00:00:00       2.0
+9             US10      20261221  2026-12-21 00:00:00      -3.0
+4            US10U      20261221  2026-12-21 00:00:00      -1.0
+16             ZAR      20261214  2026-12-14 00:00:00       1.0
 
 
-====================================================================================
-                                    Trades in DB                                    
-====================================================================================
+===============
+ Trades in DB  
+===============
 
-                 strategy_name contract_date       fill_datetime  fill  filled_price
-KR10          dynamic_TF_carry    [20261200] 2026-10-18 22:02:54   [1]     106.63000
-BUXL          dynamic_TF_carry    [20261200] 2026-10-19 04:00:06   [1]     103.68000
-COPPER-micro  dynamic_TF_carry    [20270300] 2026-10-19 10:10:21   [1]       6.67150
-NASDAQ_micro  dynamic_TF_carry    [20261200] 2026-10-19 11:00:05  [-1]   29705.00000
-R1000         dynamic_TF_carry    [20261200] 2026-10-19 11:00:13   [1]    2527.20000
-RUSSELL       dynamic_TF_carry    [20261200] 2026-10-19 11:00:15  [-1]    2738.80000
-SP500_micro   dynamic_TF_carry    [20261200] 2026-10-19 11:00:21  [-1]    7734.50000
-SP500_micro   dynamic_TF_carry    [20261200] 2026-10-19 11:00:06  [-1]    7733.75000
-CAD           dynamic_TF_carry    [20261200] 2026-10-19 11:00:42   [1]       0.71095
-CAD           dynamic_TF_carry    [20261200] 2026-10-19 11:00:11   [1]       0.71105
-REDWHEAT      dynamic_TF_carry    [20270500] 2026-10-19 11:30:21  [-1]     719.25000
-CAD10         dynamic_TF_carry    [20261200] 2026-10-19 16:30:04   [0]           NaN
-CAD10         dynamic_TF_carry    [20261200] 2026-10-19 10:11:11   [1]     116.25000
+Empty DataFrame
+Columns: [strategy_name, contract_date, fill_datetime, fill, filled_price]
+Index: []
 
 
-================================================================================
-                               Trades from broker                               
-================================================================================
+==================
+Trades from broker
+==================
 
-             strategy_name contract_date       fill_datetime  fill  filled_price
-SP500_micro                   [20261218] 2026-10-19 15:00:21  [-1]    7734.50000
-RUSSELL                       [20261218] 2026-10-19 15:00:15  [-1]    2738.80000
-REDWHEAT                      [20270514] 2026-10-19 15:30:21  [-1]     719.25000
-CAD                           [20261215] 2026-10-19 15:00:42   [1]       0.71095
-SP500_micro                   [20261218] 2026-10-19 15:00:06  [-1]    7733.75000
-NASDAQ_micro                  [20261218] 2026-10-19 15:00:05  [-1]   29705.00000
-R1000                         [20261218] 2026-10-19 15:00:13   [1]    2527.20000
-CAD                           [20261215] 2026-10-19 15:00:11   [1]       0.71105
-CAD10                         [20261218]                 NaT   [0]           NaN
-BUXL                          [20261208] 2026-10-19 08:00:06   [1]     103.68000
-CAD10                         [20261218] 2026-10-19 14:11:11   [1]     116.25000
-COPPER-micro                  [20270224] 2026-10-19 14:10:21   [1]       6.67150
-KR10                          [20261215] 2026-10-19 02:02:54   [1]     106.63000
+Empty DataFrame
+Columns: [strategy_name, contract_date, fill_datetime, fill, filled_price]
+Index: []
 
 
 ==========================================================
@@ -182,7 +160,7 @@ dynamic_TF_carry SWISSLEAD               0       0   False
 dynamic_TF_carry COAL                    0       0   False
 dynamic_TF_carry RICE                    0       0   False
 dynamic_TF_carry EU-CONSTRUCTION         0       0   False
-dynamic_TF_carry COPPER-micro           -2      -2   False
+dynamic_TF_carry COPPER-micro           -2      -1    True
 dynamic_TF_carry AUD                     0       0   False
 dynamic_TF_carry CRUDE_ICE               0       0   False
 dynamic_TF_carry EU-BANKS                0       0   False
@@ -267,7 +245,7 @@ dynamic_TF_carry US5                     0       0   False
 dynamic_TF_carry RUBBER                  1       1   False
 dynamic_TF_carry LEANHOG                -2      -2   False
 dynamic_TF_carry OMX                     0       0   False
-dynamic_TF_carry AUD_micro               0       0   False
+dynamic_TF_carry AUD_micro               0       7    True
 dynamic_TF_carry CHF                    -3      -3   False
 dynamic_TF_carry GAS-LAST                0       0   False
 dynamic_TF_carry CRUDE_W_mini            0       0   False
