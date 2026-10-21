@@ -1,15 +1,138 @@
 
 ********************************************************************************
-Trades report produced on 20/10/2026 22:49 from 19/10/2026 22:49 to 20/10/2026 22:49
+Trades report produced on 21/10/2026 22:49 from 20/10/2026 22:49 to 21/10/2026 22:49
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+============================================================================================
+                                       Broker orders                                        
+============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
+36596       AUD_micro  dynamic_TF_carry    [20261200] 2026-10-21 11:00:05  [1]        0.7015
+36597       AUD_micro  dynamic_TF_carry    [20261200] 2026-10-21 11:01:06  [1]        0.7016
+36598       AUD_micro  dynamic_TF_carry    [20261200] 2026-10-21 11:02:14  [1]        0.7017
+36599       AUD_micro  dynamic_TF_carry    [20261200] 2026-10-21 11:03:01  [1]        0.7016
+36600       AUD_micro  dynamic_TF_carry    [20261200] 2026-10-21 11:03:37  [1]        0.7018
+36601       AUD_micro  dynamic_TF_carry    [20261200] 2026-10-21 11:03:44  [1]        0.7017
+36602       AUD_micro  dynamic_TF_carry    [20261200] 2026-10-21 11:03:50  [1]        0.7017
+36595    COPPER-micro  dynamic_TF_carry    [20270300] 2026-10-21 10:00:08  [1]        6.6600
+
+
+======================================================================================================================================================
+                                                                        Delays                                                                        
+======================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime      submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+36595    COPPER-micro  dynamic_TF_carry       2024-02-29 00:00:00  2026-10-21 10:00:07  2026-10-21 10:00:08             83412007.0                 1.0
+36596       AUD_micro  dynamic_TF_carry       2026-10-19 14:00:00  2026-10-21 11:00:04  2026-10-21 11:00:05               162004.0                 1.0
+36597       AUD_micro  dynamic_TF_carry       2026-10-19 14:00:00  2026-10-21 11:00:12  2026-10-21 11:01:06               162012.0                54.0
+36598       AUD_micro  dynamic_TF_carry       2026-10-19 14:00:00  2026-10-21 11:02:13  2026-10-21 11:02:14               162133.0                 1.0
+36599       AUD_micro  dynamic_TF_carry       2026-10-19 14:00:00  2026-10-21 11:02:20  2026-10-21 11:03:01               162140.0                41.0
+36600       AUD_micro  dynamic_TF_carry       2026-10-19 14:00:00  2026-10-21 11:03:07  2026-10-21 11:03:37               162187.0                30.0
+36601       AUD_micro  dynamic_TF_carry       2026-10-19 14:00:00  2026-10-21 11:03:44  2026-10-21 11:03:44               162224.0                 0.0
+36602       AUD_micro  dynamic_TF_carry       2026-10-19 14:00:00  2026-10-21 11:03:50  2026-10-21 11:03:50               162230.0                 0.0
+
+
+==============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                   
+==============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
+36595    COPPER-micro  dynamic_TF_carry   [1]                    NaN               None   6.65875     6.6595         6.658       6.658         6.66      NaN -0.00075   -0.0005       -0.002                 NaN      -0.00125
+36596       AUD_micro  dynamic_TF_carry   [1]                 0.6994               None   0.70155     0.7016        0.7015      0.7015       0.7015 -0.00215 -0.00005    0.0001          0.0                 NaN       0.00005
+36597       AUD_micro  dynamic_TF_carry   [1]                 0.6994               None    0.7015     0.7016        0.7014      0.7014       0.7016  -0.0021  -0.0001       0.0      -0.0002                 NaN       -0.0001
+36598       AUD_micro  dynamic_TF_carry   [1]                 0.6994               None   0.70155     0.7016        0.7015      0.7015       0.7017 -0.00215 -0.00005   -0.0001      -0.0002                 NaN      -0.00015
+36599       AUD_micro  dynamic_TF_carry   [1]                 0.6994               None   0.70165     0.7017        0.7016      0.7016       0.7016 -0.00225 -0.00005    0.0001          0.0                 NaN       0.00005
+36600       AUD_micro  dynamic_TF_carry   [1]                 0.6994               None   0.70165     0.7017        0.7016      0.7016       0.7018 -0.00225 -0.00005   -0.0001      -0.0002                 NaN      -0.00015
+36601       AUD_micro  dynamic_TF_carry   [1]                 0.6994               None   0.70175     0.7018        0.7017      0.7017       0.7017 -0.00235 -0.00005    0.0001          0.0                 NaN       0.00005
+36602       AUD_micro  dynamic_TF_carry   [1]                 0.6994               None   0.70175     0.7018        0.7017      0.7017       0.7017 -0.00235 -0.00005    0.0001          0.0                 NaN       0.00005
+
+
+==============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
+==============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+36595    COPPER-micro  dynamic_TF_carry   [1]        1.364106         NaN   -5.498106     -3.665404       -14.661616                     NaN          -9.16351
+36596       AUD_micro  dynamic_TF_carry   [1]        0.049456 -434.732483  -10.110058     20.220115              0.0                     NaN         10.110058
+36597       AUD_micro  dynamic_TF_carry   [1]        0.049456 -424.622425  -20.220115           0.0       -40.440231                     NaN        -20.220115
+36598       AUD_micro  dynamic_TF_carry   [1]        0.049456 -434.732483  -10.110058    -20.220115       -40.440231                     NaN        -30.330173
+36599       AUD_micro  dynamic_TF_carry   [1]        0.049456 -454.952598  -10.110058     20.220115              0.0                     NaN         10.110058
+36600       AUD_micro  dynamic_TF_carry   [1]        0.049456 -454.952598  -10.110058    -20.220115       -40.440231                     NaN        -30.330173
+36601       AUD_micro  dynamic_TF_carry   [1]        0.049456 -475.172714  -10.110058     20.220115              0.0                     NaN         10.110058
+36602       AUD_micro  dynamic_TF_carry   [1]        0.049456 -475.172714  -10.110058     20.220115              0.0                     NaN         10.110058
+
+
+=======================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                      
+=======================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+36595    COPPER-micro  dynamic_TF_carry   [1]          1869.228756        NaN    -1.401922      -0.934614         -3.738458                      NaN          -2.336536
+36596       AUD_micro  dynamic_TF_carry   [1]          7476.915025 -16.075367    -0.373846       0.747692               0.0                      NaN           0.373846
+36597       AUD_micro  dynamic_TF_carry   [1]          7476.915025 -15.701522    -0.747692            0.0         -1.495383                      NaN          -0.747692
+36598       AUD_micro  dynamic_TF_carry   [1]          7476.915025 -16.075367    -0.373846      -0.747692         -1.495383                      NaN          -1.121537
+36599       AUD_micro  dynamic_TF_carry   [1]          7476.915025 -16.823059    -0.373846       0.747692               0.0                      NaN           0.373846
+36600       AUD_micro  dynamic_TF_carry   [1]          7476.915025 -16.823059    -0.373846      -0.747692         -1.495383                      NaN          -1.121537
+36601       AUD_micro  dynamic_TF_carry   [1]          7476.915025  -17.57075    -0.373846       0.747692               0.0                      NaN           0.373846
+36602       AUD_micro  dynamic_TF_carry   [1]          7476.915025  -17.57075    -0.373846       0.747692               0.0                      NaN           0.373846
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry AUD_micro       -116.639874
+                 COPPER-micro              0
+delay_cash Total Sum
+                  delay_cash
+strategy_name               
+dynamic_TF_carry -116.639874
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry AUD_micro          -2.990766
+                 COPPER-micro       -1.401922
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry    -4.392688
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry AUD_micro             1.495383
+                 COPPER-micro         -0.934614
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry       0.560769
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry AUD_micro               -4.486149
+                 COPPER-micro            -3.738458
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry         -8.224607
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry AUD_micro                              0
+                 COPPER-micro                           0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry AUD_micro                -1.495383
+                 COPPER-micro             -2.336536
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry          -3.831919
 
 ********************************************************************************
                                  END OF REPORT                                  
