@@ -1,23 +1,19 @@
 
 ********************************************************************************
-Trades report produced on 21/10/2026 22:49 from 20/10/2026 22:49 to 21/10/2026 22:49
+Trades report produced on 22/10/2026 22:49 from 21/10/2026 22:49 to 22/10/2026 22:49
 ********************************************************************************
 
 
 
-============================================================================================
-                                       Broker orders                                        
-============================================================================================
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
 
-      instrument_code     strategy_name contract_date       fill_datetime fill  filled_price
-36596       AUD_micro  dynamic_TF_carry    [20261200] 2026-10-21 11:00:05  [1]        0.7015
-36597       AUD_micro  dynamic_TF_carry    [20261200] 2026-10-21 11:01:06  [1]        0.7016
-36598       AUD_micro  dynamic_TF_carry    [20261200] 2026-10-21 11:02:14  [1]        0.7017
-36599       AUD_micro  dynamic_TF_carry    [20261200] 2026-10-21 11:03:01  [1]        0.7016
-36600       AUD_micro  dynamic_TF_carry    [20261200] 2026-10-21 11:03:37  [1]        0.7018
-36601       AUD_micro  dynamic_TF_carry    [20261200] 2026-10-21 11:03:44  [1]        0.7017
-36602       AUD_micro  dynamic_TF_carry    [20261200] 2026-10-21 11:03:50  [1]        0.7017
-36595    COPPER-micro  dynamic_TF_carry    [20270300] 2026-10-21 10:00:08  [1]        6.6600
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+36605             CAD  dynamic_TF_carry    [20261200] 2026-10-22 11:00:17   [1]        0.7144
+36606             DOW  dynamic_TF_carry    [20261200] 2026-10-22 11:00:20   [1]    52977.0000
+36603         EURO600  dynamic_TF_carry    [20261200] 2026-10-22 04:00:10   [1]      641.2000
+36604         RUSSELL  dynamic_TF_carry    [20261200] 2026-10-22 11:00:03  [-1]     2798.9000
 
 
 ======================================================================================================================================================
@@ -25,29 +21,21 @@ Trades report produced on 21/10/2026 22:49 from 20/10/2026 22:49 to 21/10/2026 2
 ======================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime      submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-36595    COPPER-micro  dynamic_TF_carry       2024-02-29 00:00:00  2026-10-21 10:00:07  2026-10-21 10:00:08             83412007.0                 1.0
-36596       AUD_micro  dynamic_TF_carry       2026-10-19 14:00:00  2026-10-21 11:00:04  2026-10-21 11:00:05               162004.0                 1.0
-36597       AUD_micro  dynamic_TF_carry       2026-10-19 14:00:00  2026-10-21 11:00:12  2026-10-21 11:01:06               162012.0                54.0
-36598       AUD_micro  dynamic_TF_carry       2026-10-19 14:00:00  2026-10-21 11:02:13  2026-10-21 11:02:14               162133.0                 1.0
-36599       AUD_micro  dynamic_TF_carry       2026-10-19 14:00:00  2026-10-21 11:02:20  2026-10-21 11:03:01               162140.0                41.0
-36600       AUD_micro  dynamic_TF_carry       2026-10-19 14:00:00  2026-10-21 11:03:07  2026-10-21 11:03:37               162187.0                30.0
-36601       AUD_micro  dynamic_TF_carry       2026-10-19 14:00:00  2026-10-21 11:03:44  2026-10-21 11:03:44               162224.0                 0.0
-36602       AUD_micro  dynamic_TF_carry       2026-10-19 14:00:00  2026-10-21 11:03:50  2026-10-21 11:03:50               162230.0                 0.0
+36603         EURO600  dynamic_TF_carry       2026-10-20 20:00:00  2026-10-22 04:00:09  2026-10-22 04:00:10               115209.0                 1.0
+36604         RUSSELL  dynamic_TF_carry       2026-10-20 20:00:00  2026-10-22 11:00:02  2026-10-22 11:00:03               140402.0                 1.0
+36605             CAD  dynamic_TF_carry       2026-10-20 20:00:00  2026-10-22 11:00:04  2026-10-22 11:00:17               140404.0                13.0
+36606             DOW  dynamic_TF_carry       2026-10-20 20:00:00  2026-10-22 11:00:19  2026-10-22 11:00:20               140419.0                 1.0
 
 
-==============================================================================================================================================================================================================================
-                                                                                                   Slippage (ticks per lot)                                                                                                   
-==============================================================================================================================================================================================================================
+================================================================================================================================================================================================================================
+                                                                                                    Slippage (ticks per lot)                                                                                                    
+================================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
-36595    COPPER-micro  dynamic_TF_carry   [1]                    NaN               None   6.65875     6.6595         6.658       6.658         6.66      NaN -0.00075   -0.0005       -0.002                 NaN      -0.00125
-36596       AUD_micro  dynamic_TF_carry   [1]                 0.6994               None   0.70155     0.7016        0.7015      0.7015       0.7015 -0.00215 -0.00005    0.0001          0.0                 NaN       0.00005
-36597       AUD_micro  dynamic_TF_carry   [1]                 0.6994               None    0.7015     0.7016        0.7014      0.7014       0.7016  -0.0021  -0.0001       0.0      -0.0002                 NaN       -0.0001
-36598       AUD_micro  dynamic_TF_carry   [1]                 0.6994               None   0.70155     0.7016        0.7015      0.7015       0.7017 -0.00215 -0.00005   -0.0001      -0.0002                 NaN      -0.00015
-36599       AUD_micro  dynamic_TF_carry   [1]                 0.6994               None   0.70165     0.7017        0.7016      0.7016       0.7016 -0.00225 -0.00005    0.0001          0.0                 NaN       0.00005
-36600       AUD_micro  dynamic_TF_carry   [1]                 0.6994               None   0.70165     0.7017        0.7016      0.7016       0.7018 -0.00225 -0.00005   -0.0001      -0.0002                 NaN      -0.00015
-36601       AUD_micro  dynamic_TF_carry   [1]                 0.6994               None   0.70175     0.7018        0.7017      0.7017       0.7017 -0.00235 -0.00005    0.0001          0.0                 NaN       0.00005
-36602       AUD_micro  dynamic_TF_carry   [1]                 0.6994               None   0.70175     0.7018        0.7017      0.7017       0.7017 -0.00235 -0.00005    0.0001          0.0                 NaN       0.00005
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
+36603         EURO600  dynamic_TF_carry   [1]                  645.2               None    641.25      641.3         641.2       641.2        641.2      3.95     -0.05       0.1          0.0                 NaN          0.05
+36604         RUSSELL  dynamic_TF_carry  [-1]                 2783.6               None    2799.9     2799.8        2800.0      2800.0       2798.9      16.3      -0.1      -0.9         -1.1                 NaN          -1.0
+36605             CAD  dynamic_TF_carry   [1]                 0.7136               None  0.714425    0.71445        0.7144      0.7144       0.7144 -0.000825 -0.000025   0.00005          0.0                 NaN      0.000025
+36606             DOW  dynamic_TF_carry   [1]                52869.0               None   52975.0    52976.0       52974.0     52974.0      52977.0    -106.0      -1.0      -1.0         -3.0                 NaN          -2.0
 
 
 ==============================================================================================================================================================
@@ -55,71 +43,73 @@ Trades report produced on 21/10/2026 22:49 from 20/10/2026 22:49 to 21/10/2026 2
 ==============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-36595    COPPER-micro  dynamic_TF_carry   [1]        1.364106         NaN   -5.498106     -3.665404       -14.661616                     NaN          -9.16351
-36596       AUD_micro  dynamic_TF_carry   [1]        0.049456 -434.732483  -10.110058     20.220115              0.0                     NaN         10.110058
-36597       AUD_micro  dynamic_TF_carry   [1]        0.049456 -424.622425  -20.220115           0.0       -40.440231                     NaN        -20.220115
-36598       AUD_micro  dynamic_TF_carry   [1]        0.049456 -434.732483  -10.110058    -20.220115       -40.440231                     NaN        -30.330173
-36599       AUD_micro  dynamic_TF_carry   [1]        0.049456 -454.952598  -10.110058     20.220115              0.0                     NaN         10.110058
-36600       AUD_micro  dynamic_TF_carry   [1]        0.049456 -454.952598  -10.110058    -20.220115       -40.440231                     NaN        -30.330173
-36601       AUD_micro  dynamic_TF_carry   [1]        0.049456 -475.172714  -10.110058     20.220115              0.0                     NaN         10.110058
-36602       AUD_micro  dynamic_TF_carry   [1]        0.049456 -475.172714  -10.110058     20.220115              0.0                     NaN         10.110058
+36603         EURO600  dynamic_TF_carry   [1]       68.312242  578.227256   -7.319332     14.638665              0.0                     NaN          7.319332
+36604         RUSSELL  dynamic_TF_carry  [-1]       448.77426  363.211562   -2.228292    -20.054626        -24.51121                     NaN        -22.282918
+36605             CAD  dynamic_TF_carry   [1]        0.033451 -246.632704   -7.473718     14.947437              0.0                     NaN          7.473718
+36606             DOW  dynamic_TF_carry   [1]     5626.418566 -188.396933    -1.77733      -1.77733        -5.331989                     NaN         -3.554659
 
 
-=======================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                      
-=======================================================================================================================================================================
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-36595    COPPER-micro  dynamic_TF_carry   [1]          1869.228756        NaN    -1.401922      -0.934614         -3.738458                      NaN          -2.336536
-36596       AUD_micro  dynamic_TF_carry   [1]          7476.915025 -16.075367    -0.373846       0.747692               0.0                      NaN           0.373846
-36597       AUD_micro  dynamic_TF_carry   [1]          7476.915025 -15.701522    -0.747692            0.0         -1.495383                      NaN          -0.747692
-36598       AUD_micro  dynamic_TF_carry   [1]          7476.915025 -16.075367    -0.373846      -0.747692         -1.495383                      NaN          -1.121537
-36599       AUD_micro  dynamic_TF_carry   [1]          7476.915025 -16.823059    -0.373846       0.747692               0.0                      NaN           0.373846
-36600       AUD_micro  dynamic_TF_carry   [1]          7476.915025 -16.823059    -0.373846      -0.747692         -1.495383                      NaN          -1.121537
-36601       AUD_micro  dynamic_TF_carry   [1]          7476.915025  -17.57075    -0.373846       0.747692               0.0                      NaN           0.373846
-36602       AUD_micro  dynamic_TF_carry   [1]          7476.915025  -17.57075    -0.373846       0.747692               0.0                      NaN           0.373846
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+36603         EURO600  dynamic_TF_carry   [1]            41.959124  165.738541    -2.097956       4.195912               0.0                      NaN           2.097956
+36604         RUSSELL  dynamic_TF_carry  [-1]             3.729534   60.791407    -0.372953      -3.356581         -4.102488                      NaN          -3.729534
+36605             CAD  dynamic_TF_carry   [1]         74590.683624  -61.537314    -1.864767       3.729534               0.0                      NaN           1.864767
+36606             DOW  dynamic_TF_carry   [1]             0.372953  -39.533062    -0.372953      -0.372953          -1.11886                      NaN          -0.745907
 
 delay_cash Sum
                                   delay_cash
 strategy_name    instrument_code            
-dynamic_TF_carry AUD_micro       -116.639874
-                 COPPER-micro              0
+dynamic_TF_carry CAD              -61.537314
+                 DOW              -39.533062
+                 EURO600          165.738541
+                 RUSSELL           60.791407
 delay_cash Total Sum
                   delay_cash
 strategy_name               
-dynamic_TF_carry -116.639874
+dynamic_TF_carry  125.459572
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry AUD_micro          -2.990766
-                 COPPER-micro       -1.401922
+dynamic_TF_carry CAD                -1.864767
+                 DOW                -0.372953
+                 EURO600            -2.097956
+                 RUSSELL            -0.372953
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -4.392688
+dynamic_TF_carry     -4.70863
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry AUD_micro             1.495383
-                 COPPER-micro         -0.934614
+dynamic_TF_carry CAD                   3.729534
+                 DOW                  -0.372953
+                 EURO600               4.195912
+                 RUSSELL              -3.356581
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry       0.560769
+dynamic_TF_carry       4.195912
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry AUD_micro               -4.486149
-                 COPPER-micro            -3.738458
+dynamic_TF_carry CAD                           0.0
+                 DOW                      -1.11886
+                 EURO600                       0.0
+                 RUSSELL                 -4.102488
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry         -8.224607
+dynamic_TF_carry         -5.221348
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry AUD_micro                              0
-                 COPPER-micro                           0
+dynamic_TF_carry CAD                                    0
+                 DOW                                    0
+                 EURO600                                0
+                 RUSSELL                                0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -127,12 +117,14 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry AUD_micro                -1.495383
-                 COPPER-micro             -2.336536
+dynamic_TF_carry CAD                       1.864767
+                 DOW                      -0.745907
+                 EURO600                   2.097956
+                 RUSSELL                  -3.729534
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry          -3.831919
+dynamic_TF_carry          -0.512718
 
 ********************************************************************************
                                  END OF REPORT                                  
