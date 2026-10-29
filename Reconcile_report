@@ -1,10 +1,10 @@
 
 ********************************************************************************
-                 Reconcile report produced on 28/10/2026 22:49                  
+                 Reconcile report produced on 29/10/2026 22:49                  
 ********************************************************************************
 
 
-Breaks Optimal vs actual ['dynamic_TF_carry SOYMEAL']
+Breaks Optimal vs actual ['dynamic_TF_carry CAD10', 'dynamic_TF_carry US10', 'dynamic_TF_carry MSCISING', 'dynamic_TF_carry US10U', 'dynamic_TF_carry SOYMEAL', 'dynamic_TF_carry DAX', 'dynamic_TF_carry RUSSELL', 'dynamic_TF_carry SP500_micro', 'dynamic_TF_carry KOSDAQ', 'dynamic_TF_carry DOW']
  Breaks Instrument vs Contract [SOYMEAL]
  Breaks Broker vs Contract []
 
@@ -50,34 +50,34 @@ Breaks Optimal vs actual ['dynamic_TF_carry SOYMEAL']
 
    instrument_code contract_date          expiry_date  position
 28       AUD_micro      20261214  2026-12-14 00:00:00      12.0
-1       BRENT-LAST      20261130  2026-11-30 00:00:00       1.0
-2              BTP      20261208  2026-12-08 00:00:00      -1.0
-23             CAD      20261215  2026-12-15 00:00:00      -3.0
+22      BRENT-LAST      20261130  2026-11-30 00:00:00       1.0
+1              BTP      20261208  2026-12-08 00:00:00      -1.0
+18             CAD      20261215  2026-12-15 00:00:00      -3.0
 7              CHF      20261214  2026-12-14 00:00:00      -2.0
-27   CRUDE_W_micro      20270119  2027-01-19 00:00:00       1.0
-8              DOW      20261218  2026-12-18 00:00:00       1.0
-19         EURO600      20261218  2026-12-18 00:00:00       1.0
-5        EUR_micro      20261214  2026-12-14 00:00:00      -1.0
-20       GASOILINE      20261231  2026-12-31 00:00:00       1.0
-24     GAS_US_mini      20261124  2026-11-24 00:00:00      -1.0
-11     GAS_US_mini      20261228  2026-12-28 00:00:00      -1.0
-4             KR10      20261215  2026-12-15 00:00:00       1.0
-25         LEANHOG      20270414  2027-04-14 00:00:00      -2.0
-16             OAT      20261208  2026-12-08 00:00:00      -1.0
-14            PLAT      20270127  2027-01-27 00:00:00      -1.0
-21           R1000      20261218  2026-12-18 00:00:00       1.0
-26        REDWHEAT      20270514  2027-05-14 00:00:00      -1.0
-12          RUBBER      20261130  2026-11-30 00:00:00       1.0
-18         RUSSELL      20261218  2026-12-18 00:00:00      -4.0
-6            SHATZ      20261208  2026-12-08 00:00:00      -2.0
-13          SILVER      20261229  2026-12-29 00:00:00      -1.0
-10     SP500_micro      20261218  2026-12-18 00:00:00       1.0
-0           SPI200      20261217  2026-12-17 00:00:00       1.0
-17         SUGAR11      20270430  2027-04-30 00:00:00       2.0
-15           TOPIX      20261210  2026-12-10 00:00:00      -1.0
+11   CRUDE_W_micro      20270119  2027-01-19 00:00:00       1.0
+0              DOW      20261218  2026-12-18 00:00:00       1.0
+25         EURO600      20261218  2026-12-18 00:00:00       1.0
+2        EUR_micro      20261214  2026-12-14 00:00:00      -1.0
+15       GASOILINE      20261231  2026-12-31 00:00:00       1.0
+27     GAS_US_mini      20261228  2026-12-28 00:00:00      -1.0
+6      GAS_US_mini      20261124  2026-11-24 00:00:00      -1.0
+8             KR10      20261215  2026-12-15 00:00:00       1.0
+21         LEANHOG      20270414  2027-04-14 00:00:00      -2.0
+10             OAT      20261208  2026-12-08 00:00:00      -1.0
+5             PLAT      20270127  2027-01-27 00:00:00      -1.0
+24           R1000      20261218  2026-12-18 00:00:00       1.0
+9         REDWHEAT      20270514  2027-05-14 00:00:00      -1.0
+13          RUBBER      20261130  2026-11-30 00:00:00       1.0
+16         RUSSELL      20261218  2026-12-18 00:00:00      -4.0
+23           SHATZ      20261208  2026-12-08 00:00:00      -2.0
+14          SILVER      20261229  2026-12-29 00:00:00      -1.0
+4      SP500_micro      20261218  2026-12-18 00:00:00       1.0
+17          SPI200      20261217  2026-12-17 00:00:00       1.0
+20         SUGAR11      20270430  2027-04-30 00:00:00       2.0
+12           TOPIX      20261210  2026-12-10 00:00:00      -1.0
 3             US10      20261221  2026-12-21 00:00:00      -3.0
-22           US10U      20261221  2026-12-21 00:00:00      -1.0
-9              ZAR      20261214  2026-12-14 00:00:00       1.0
+19           US10U      20261221  2026-12-21 00:00:00      -1.0
+26             ZAR      20261214  2026-12-14 00:00:00       1.0
 
 
 ===============
@@ -105,7 +105,7 @@ Index: []
                                    current optimal  breaks
 dynamic_TF_carry KRWUSD_mini             0       0   False
 dynamic_TF_carry KR3                     0       0   False
-dynamic_TF_carry CAD10                   0       0   False
+dynamic_TF_carry CAD10                   0       1    True
 dynamic_TF_carry GICS                    0       0   False
 dynamic_TF_carry COAL-GEORDIE            0       0   False
 dynamic_TF_carry EUROSTX                 0       0   False
@@ -116,7 +116,7 @@ dynamic_TF_carry LIVECOW                 0       0   False
 dynamic_TF_carry MSCIEMASIA              0       0   False
 dynamic_TF_carry CZK                     0       0   False
 dynamic_TF_carry MSCIEAFA                0       0   False
-dynamic_TF_carry US10                   -3      -3   False
+dynamic_TF_carry US10                   -3      -2    True
 dynamic_TF_carry REDWHEAT               -1      -1   False
 dynamic_TF_carry TWD                     0       0   False
 dynamic_TF_carry KR10                    1       1   False
@@ -128,7 +128,7 @@ dynamic_TF_carry EU-UTILS                0       0   False
 dynamic_TF_carry GASOILINE               1       1   False
 dynamic_TF_carry BUND                    0       0   False
 dynamic_TF_carry GBP                     0       0   False
-dynamic_TF_carry MSCISING                0       0   False
+dynamic_TF_carry MSCISING                0      -1    True
 dynamic_TF_carry US-REALESTATE           0       0   False
 dynamic_TF_carry EUROSTX-LARGE           0       0   False
 dynamic_TF_carry EU-HOUSE                0       0   False
@@ -153,7 +153,7 @@ dynamic_TF_carry EPRA-EUROPE             0       0   False
 dynamic_TF_carry HANG_mini               0       0   False
 dynamic_TF_carry BRENT_W                 0       0   False
 dynamic_TF_carry CAC                     0       0   False
-dynamic_TF_carry US10U                  -1      -1   False
+dynamic_TF_carry US10U                  -1       0    True
 dynamic_TF_carry FTSEVIET                0       0   False
 dynamic_TF_carry EU-OIL                  0       0   False
 dynamic_TF_carry EU-REALESTATE           0       0   False
@@ -174,7 +174,7 @@ dynamic_TF_carry CRUDE_ICE               0       0   False
 dynamic_TF_carry EU-BANKS                0       0   False
 dynamic_TF_carry GAS_US_mini            -2      -2   False
 dynamic_TF_carry PLAT                   -1      -1   False
-dynamic_TF_carry SOYMEAL                -2      -1    True
+dynamic_TF_carry SOYMEAL                -3      -1    True
 dynamic_TF_carry TOPIX                  -1      -1   False
 dynamic_TF_carry EU-INSURE               0       0   False
 dynamic_TF_carry CHINAA-CON              0       0   False
@@ -186,7 +186,7 @@ dynamic_TF_carry NIKKEI400               0       0   False
 dynamic_TF_carry JPY                     0       0   False
 dynamic_TF_carry IBEX_mini               0       0   False
 dynamic_TF_carry CRUDE_W_micro           1       1   False
-dynamic_TF_carry DAX                     0       0   False
+dynamic_TF_carry DAX                     0       1    True
 dynamic_TF_carry CAD5                    0       0   False
 dynamic_TF_carry DX                      0       0   False
 dynamic_TF_carry FANG                    0       0   False
@@ -200,10 +200,10 @@ dynamic_TF_carry EU-MID                  0       0   False
 dynamic_TF_carry FED                     0       0   False
 dynamic_TF_carry LUMBER-new              0       0   False
 dynamic_TF_carry EUA                     0       0   False
-dynamic_TF_carry RUSSELL                -4      -4   False
+dynamic_TF_carry RUSSELL                -4      -2    True
 dynamic_TF_carry WHEY                    0       0   False
 dynamic_TF_carry EUROSTX200-LARGE        0       0   False
-dynamic_TF_carry SP500_micro             1       1   False
+dynamic_TF_carry SP500_micro             1       0    True
 dynamic_TF_carry FTSE250                 0       0   False
 dynamic_TF_carry EURCHF                  0       0   False
 dynamic_TF_carry GBPCHF                  0       0   False
@@ -212,7 +212,7 @@ dynamic_TF_carry SMI                     0       0   False
 dynamic_TF_carry V2X                     0       0   False
 dynamic_TF_carry NZD                     0       0   False
 dynamic_TF_carry EUROSTX-SMALL           0       0   False
-dynamic_TF_carry KOSDAQ                  0       0   False
+dynamic_TF_carry KOSDAQ                  0      -1    True
 dynamic_TF_carry HIGHYIELD               0       0   False
 dynamic_TF_carry US-UTILS                0       0   False
 dynamic_TF_carry MXP                     0       0   False
@@ -299,7 +299,7 @@ dynamic_TF_carry KOSPI                   0       0   False
 dynamic_TF_carry EURAUD                  0       0   False
 dynamic_TF_carry CH10                    0       0   False
 dynamic_TF_carry BRE                     0       0   False
-dynamic_TF_carry DOW                     1       1   False
+dynamic_TF_carry DOW                     1       0    True
 dynamic_TF_carry SMI-MID                 0       0   False
 dynamic_TF_carry CANOLA                  0       0   False
 dynamic_TF_carry EU-AUTO                 0       0   False
