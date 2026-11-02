@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 30/10/2026 22:49 from 29/10/2026 22:49 to 30/10/2026 22:49
+Trades report produced on 02/11/2026 22:49 from 01/11/2026 22:49 to 02/11/2026 22:49
 ********************************************************************************
 
 
@@ -10,7 +10,10 @@ Trades report produced on 30/10/2026 22:49 from 29/10/2026 22:49 to 30/10/2026 2
 =============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-36625          KOSDAQ  dynamic_TF_carry    [20261200] 2026-10-30 02:00:36  [-1]        1200.9
+36626      BRENT-LAST  dynamic_TF_carry    [20270100] 2026-11-02 14:00:02  [-1]      106.6600
+36627       GASOILINE  dynamic_TF_carry    [20270100] 2026-11-02 14:00:09  [-1]        2.9053
+36628         RUSSELL  dynamic_TF_carry    [20261200] 2026-11-02 15:00:01   [1]     2859.9000
+36629         RUSSELL  dynamic_TF_carry    [20261200] 2026-11-02 15:00:08   [1]     2856.2000
 
 
 ======================================================================================================================================================
@@ -18,68 +21,90 @@ Trades report produced on 30/10/2026 22:49 from 29/10/2026 22:49 to 30/10/2026 2
 ======================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime      submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-36625          KOSDAQ  dynamic_TF_carry       2026-10-29 00:00:00  2026-10-30 02:00:35  2026-10-30 02:00:36                93635.0                 1.0
+36626      BRENT-LAST  dynamic_TF_carry       2026-10-29 20:00:00  2026-11-02 14:00:02  2026-11-02 14:00:02               324002.0                 0.0
+36627       GASOILINE  dynamic_TF_carry       2026-10-29 20:00:00  2026-11-02 14:00:09  2026-11-02 14:00:09               324009.0                 0.0
+36628         RUSSELL  dynamic_TF_carry       2026-10-29 00:00:00  2026-11-02 15:00:01  2026-11-02 15:00:01               399601.0                 0.0
+36629         RUSSELL  dynamic_TF_carry       2026-10-29 00:00:00  2026-11-02 15:00:08  2026-11-02 15:00:08               399608.0                 0.0
 
 
-===========================================================================================================================================================================================================================
-                                                                                                 Slippage (ticks per lot)                                                                                                  
-===========================================================================================================================================================================================================================
+============================================================================================================================================================================================================================
+                                                                                                  Slippage (ticks per lot)                                                                                                  
+============================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price  delay bid_ask execution versus_limit versus_parent_limit total_trading
-36625          KOSDAQ  dynamic_TF_carry  [-1]                 1259.6               None   1201.15     1201.0        1201.3      1201.3       1200.9 -58.45   -0.15      -0.1         -0.4                 NaN         -0.25
-
-
-==============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
-==============================================================================================================================================================
-
-      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-36625          KOSDAQ  dynamic_TF_carry  [-1]      712.390682 -820.476762   -2.105586     -1.403724        -5.614897                     NaN          -3.50931
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
+36626      BRENT-LAST  dynamic_TF_carry  [-1]                 111.66               None   106.675     106.66        106.69      106.69       106.66  -4.985  -0.015      -0.0        -0.03                 NaN        -0.015
+36627       GASOILINE  dynamic_TF_carry  [-1]                 3.0477               None    2.9062     2.9059        2.9065      2.9065       2.9053 -0.1415 -0.0003   -0.0006      -0.0012                 NaN       -0.0009
+36628         RUSSELL  dynamic_TF_carry   [1]                 2868.0               None   2853.65     2854.7        2852.6      2852.6       2859.9   14.35   -1.05      -5.2         -7.3                 NaN         -6.25
+36629         RUSSELL  dynamic_TF_carry   [1]                 2868.0               None   2857.15     2859.9        2854.4      2854.4       2856.2   10.85   -2.75       3.7         -1.8                 NaN          0.95
 
 
-========================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                       
-========================================================================================================================================================================
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-36625          KOSDAQ  dynamic_TF_carry  [-1]             5.596139 -327.094302    -0.839421      -0.559614         -2.238455                      NaN          -1.399035
+      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+36626      BRENT-LAST  dynamic_TF_carry  [-1]       41.402996 -1204.019157   -3.622926          -0.0        -7.245852                     NaN         -3.622926
+36627       GASOILINE  dynamic_TF_carry  [-1]        1.078494 -1312.015045   -2.781657     -5.563315       -11.126629                     NaN         -8.344972
+36628         RUSSELL  dynamic_TF_carry   [1]      438.851001   326.990253  -23.926116   -118.491242      -166.343474                     NaN       -142.417358
+36629         RUSSELL  dynamic_TF_carry   [1]      438.851001   247.236533  -62.663637     84.311076       -41.016199                     NaN         21.647438
+
+
+=========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                       
+=========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point   delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+36626      BRENT-LAST  dynamic_TF_carry  [-1]           746.045956 -3719.039093   -11.190689           -0.0        -22.381379                      NaN         -11.190689
+36627       GASOILINE  dynamic_TF_carry  [-1]          31333.93017 -4433.751119    -9.400179     -18.800358        -37.600716                      NaN         -28.200537
+36628         RUSSELL  dynamic_TF_carry   [1]              3.73023    53.528797    -3.916741     -19.397195        -27.230677                      NaN         -23.313936
+36629         RUSSELL  dynamic_TF_carry   [1]              3.73023    40.472993   -10.258132       13.80185         -6.714414                      NaN           3.543718
 
 delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry KOSDAQ          -327.094302
+                                   delay_cash
+strategy_name    instrument_code             
+dynamic_TF_carry BRENT-LAST      -3719.039093
+                 GASOILINE       -4433.751119
+                 RUSSELL            94.001791
 delay_cash Total Sum
-                  delay_cash
-strategy_name               
-dynamic_TF_carry -327.094302
+                   delay_cash
+strategy_name                
+dynamic_TF_carry -8058.788421
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry KOSDAQ             -0.839421
+dynamic_TF_carry BRENT-LAST        -11.190689
+                 GASOILINE          -9.400179
+                 RUSSELL           -14.174873
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -0.839421
+dynamic_TF_carry   -34.765742
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry KOSDAQ               -0.559614
+dynamic_TF_carry BRENT-LAST                -0.0
+                 GASOILINE           -18.800358
+                 RUSSELL              -5.595345
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry      -0.559614
+dynamic_TF_carry     -24.395703
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry KOSDAQ                  -2.238455
+dynamic_TF_carry BRENT-LAST             -22.381379
+                 GASOILINE              -37.600716
+                 RUSSELL                -33.945091
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry         -2.238455
+dynamic_TF_carry        -93.927186
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry KOSDAQ                                 0
+dynamic_TF_carry BRENT-LAST                             0
+                 GASOILINE                              0
+                 RUSSELL                                0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -87,11 +112,13 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry KOSDAQ                   -1.399035
+dynamic_TF_carry BRENT-LAST              -11.190689
+                 GASOILINE               -28.200537
+                 RUSSELL                 -19.770218
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry          -1.399035
+dynamic_TF_carry         -59.161444
 
 ********************************************************************************
                                  END OF REPORT                                  
