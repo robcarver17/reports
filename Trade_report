@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 03/11/2026 22:49 from 02/11/2026 22:49 to 03/11/2026 22:49
+Trades report produced on 04/11/2026 22:49 from 03/11/2026 22:49 to 04/11/2026 22:49
 ********************************************************************************
 
 
@@ -10,10 +10,17 @@ Trades report produced on 03/11/2026 22:49 from 02/11/2026 22:49 to 03/11/2026 2
 =============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-36630     KRWUSD_mini  dynamic_TF_carry    [20261200] 2026-11-03 02:00:56   [1]         0.746
-36633        MSCISING  dynamic_TF_carry    [20261100] 2026-11-03 02:03:07  [-1]       474.250
-36632          RUBBER  dynamic_TF_carry    [20261200] 2026-11-03 02:01:11  [-1]       245.900
-36631           TOPIX  dynamic_TF_carry    [20261200] 2026-11-03 02:00:59   [1]      3950.750
+36635      BRENT-LAST  dynamic_TF_carry    [20270200] 2026-11-04 14:00:08   [1]     98.350000
+36638           CAD10  dynamic_TF_carry    [20261200] 2026-11-04 14:02:22   [1]    117.470000
+36637   CRUDE_W_micro  dynamic_TF_carry    [20270300] 2026-11-04 14:02:21   [1]     89.240000
+36641             DOW  dynamic_TF_carry    [20261200] 2026-11-04 15:00:10  [-1]  53009.000000
+36643             JPY  dynamic_TF_carry    [20261200] 2026-11-04 15:00:14  [-1]      0.006328
+36634            KR10  dynamic_TF_carry    [20261200] 2026-11-04 02:02:13   [1]    108.570000
+36640         RUSSELL  dynamic_TF_carry    [20261200] 2026-11-04 15:00:08   [1]   2868.100000
+36644     SP500_micro  dynamic_TF_carry    [20261200] 2026-11-04 15:00:15  [-1]   7726.250000
+36636         SUGAR11  dynamic_TF_carry    [20270500] 2026-11-04 14:01:27  [-1]     17.920000
+36639            US10  dynamic_TF_carry    [20261200] 2026-11-04 15:00:06   [1]    106.671875
+36642           US10U  dynamic_TF_carry    [20261200] 2026-11-04 15:00:11   [1]    108.125000
 
 
 ======================================================================================================================================================
@@ -21,95 +28,158 @@ Trades report produced on 03/11/2026 22:49 from 02/11/2026 22:49 to 03/11/2026 2
 ======================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime      submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-36630     KRWUSD_mini  dynamic_TF_carry       2026-11-02 00:00:00  2026-11-03 02:00:32  2026-11-03 02:00:56                93632.0                24.0
-36631           TOPIX  dynamic_TF_carry       2026-11-02 00:00:00  2026-11-03 02:00:58  2026-11-03 02:00:59                93658.0                 1.0
-36632          RUBBER  dynamic_TF_carry       2026-11-02 03:00:00  2026-11-03 02:01:01  2026-11-03 02:01:11                82861.0                10.0
-36633        MSCISING  dynamic_TF_carry       2026-11-02 00:00:00  2026-11-03 02:03:06  2026-11-03 02:03:07                93786.0                 1.0
+36634            KR10  dynamic_TF_carry       2026-11-03 00:00:00  2026-11-04 02:02:12  2026-11-04 02:02:13                93732.0                 1.0
+36635      BRENT-LAST  dynamic_TF_carry       2026-11-02 00:00:00  2026-11-04 14:00:07  2026-11-04 14:00:08               223207.0                 1.0
+36636         SUGAR11  dynamic_TF_carry       2026-11-02 00:00:00  2026-11-04 14:00:11  2026-11-04 14:01:27               223211.0                76.0
+36637   CRUDE_W_micro  dynamic_TF_carry       2026-11-02 00:00:00  2026-11-04 14:02:17  2026-11-04 14:02:21               223337.0                 4.0
+36638           CAD10  dynamic_TF_carry       2026-11-02 00:00:00  2026-11-04 14:02:22  2026-11-04 14:02:22               223342.0                 0.0
+36639            US10  dynamic_TF_carry       2026-11-02 00:00:00  2026-11-04 15:00:06  2026-11-04 15:00:06               226806.0                 0.0
+36640         RUSSELL  dynamic_TF_carry       2026-11-02 00:00:00  2026-11-04 15:00:08  2026-11-04 15:00:08               226808.0                 0.0
+36641             DOW  dynamic_TF_carry       2026-11-02 00:00:00  2026-11-04 15:00:09  2026-11-04 15:00:10               226809.0                 1.0
+36642           US10U  dynamic_TF_carry       2026-11-02 00:00:00  2026-11-04 15:00:11  2026-11-04 15:00:11               226811.0                 0.0
+36643             JPY  dynamic_TF_carry       2026-11-02 00:00:00  2026-11-04 15:00:13  2026-11-04 15:00:14               226813.0                 1.0
+36644     SP500_micro  dynamic_TF_carry       2026-11-02 00:00:00  2026-11-04 15:00:15  2026-11-04 15:00:15               226815.0                 0.0
 
 
-============================================================================================================================================================================================================================
-                                                                                                  Slippage (ticks per lot)                                                                                                  
-============================================================================================================================================================================================================================
+===================================================================================================================================================================================================================================
+                                                                                                     Slippage (ticks per lot)                                                                                                      
+===================================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
-36630     KRWUSD_mini  dynamic_TF_carry   [1]                 0.7446               None    0.7458     0.7459        0.7457      0.7457        0.746 -0.0012 -0.0001   -0.0001      -0.0003                 NaN       -0.0002
-36631           TOPIX  dynamic_TF_carry   [1]                 3945.0               None  3950.875     3951.0       3950.75     3950.75      3950.75  -5.875  -0.125      0.25          0.0                 NaN         0.125
-36632          RUBBER  dynamic_TF_carry  [-1]                  247.9               None     246.0      245.9         246.1       246.1        245.9    -1.9    -0.1      -0.0         -0.2                 NaN          -0.1
-36633        MSCISING  dynamic_TF_carry  [-1]                 479.25               None     474.3     474.25        474.35      474.35       474.25   -4.95   -0.05      -0.0         -0.1                 NaN         -0.05
-
-
-==============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
-==============================================================================================================================================================
-
-      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-36630     KRWUSD_mini  dynamic_TF_carry   [1]        0.065261 -183.877002  -15.323083    -15.323083        -45.96925                     NaN        -30.646167
-36631           TOPIX  dynamic_TF_carry   [1]      649.132175  -90.505451   -1.925648      3.851296              0.0                     NaN          1.925648
-36632          RUBBER  dynamic_TF_carry  [-1]       58.327115  -325.74901  -17.144685          -0.0        -34.28937                     NaN        -17.144685
-36633        MSCISING  dynamic_TF_carry  [-1]       74.809164 -661.683637   -6.683673          -0.0       -13.367346                     NaN         -6.683673
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price   mid_price  side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
+36634            KR10  dynamic_TF_carry   [1]                 108.04               None     108.575      108.58        108.57      108.57       108.57    -0.535    -0.005      0.01          0.0                 NaN         0.005
+36635      BRENT-LAST  dynamic_TF_carry   [1]                 101.34               None       98.32       98.33         98.31       98.31        98.35      3.02     -0.01     -0.02        -0.04                 NaN         -0.03
+36636         SUGAR11  dynamic_TF_carry  [-1]                  18.48               None      17.935       17.93         17.94       17.94        17.92    -0.545    -0.005     -0.01        -0.02                 NaN        -0.015
+36637   CRUDE_W_micro  dynamic_TF_carry   [1]                  90.76               None      89.265       89.29         89.24       89.24        89.24     1.495    -0.025      0.05          0.0                 NaN         0.025
+36638           CAD10  dynamic_TF_carry   [1]                 117.45               None     117.475      117.48        117.47      117.47       117.47    -0.025    -0.005      0.01          0.0                 NaN         0.005
+36639            US10  dynamic_TF_carry   [1]              106.84375               None  106.679688    106.6875    106.671875  106.671875   106.671875  0.164062 -0.007812  0.015625          0.0                 NaN      0.007812
+36640         RUSSELL  dynamic_TF_carry   [1]                 2827.4               None      2868.4      2868.6        2868.2      2868.2       2868.1     -41.0      -0.2       0.5          0.1                 NaN           0.3
+36641             DOW  dynamic_TF_carry  [-1]                52320.0               None     53013.5     53012.0       53015.0     53015.0      53009.0     693.5      -1.5      -3.0         -6.0                 NaN          -4.5
+36642           US10U  dynamic_TF_carry   [1]                108.375               None  108.132812  108.140625       108.125     108.125      108.125  0.242188 -0.007812  0.015625          0.0                 NaN      0.007812
+36643             JPY  dynamic_TF_carry  [-1]               0.006354               None    0.006328    0.006327      0.006328    0.006328     0.006328 -0.000026 -0.000001  0.000001         -0.0                 NaN           0.0
+36644     SP500_micro  dynamic_TF_carry  [-1]                 7615.5               None    7727.375     7727.25        7727.5      7727.5      7726.25   111.875    -0.125      -1.0        -1.25                 NaN        -1.125
 
 
-========================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                       
-========================================================================================================================================================================
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
 
-      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-36630     KRWUSD_mini  dynamic_TF_carry   [1]         18637.939389  -22.365527    -1.863794      -1.863794         -5.591382                      NaN          -3.727588
-36631           TOPIX  dynamic_TF_carry   [1]             4.724206  -27.754713    -0.590526       1.181052               0.0                      NaN           0.590526
-36632          RUBBER  dynamic_TF_carry  [-1]            37.275879   -70.82417    -3.727588           -0.0         -7.455176                      NaN          -3.727588
-36633        MSCISING  dynamic_TF_carry  [-1]            58.234461 -288.260584    -2.911723           -0.0         -5.823446                      NaN          -2.911723
+      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+36634            KR10  dynamic_TF_carry   [1]        6.079624  -879.988664   -8.224193     16.448386              0.0                     NaN          8.224193
+36635      BRENT-LAST  dynamic_TF_carry   [1]       41.402996   729.415818   -2.415284     -4.830568        -9.661137                     NaN         -7.245852
+36636         SUGAR11  dynamic_TF_carry  [-1]        5.303804 -1027.564356   -9.427196    -18.854392       -37.708784                     NaN        -28.281588
+36637   CRUDE_W_micro  dynamic_TF_carry   [1]       34.714484   430.655979   -7.201605      14.40321              0.0                     NaN          7.201605
+36638           CAD10  dynamic_TF_carry   [1]        7.008135   -35.672827   -7.134565     14.269131              0.0                     NaN          7.134565
+36639            US10  dynamic_TF_carry   [1]        5.806755   282.537318  -13.454158     26.908316              0.0                     NaN         13.454158
+36640         RUSSELL  dynamic_TF_carry   [1]      438.851001  -934.257866   -4.557355     11.393389         2.278678                     NaN          6.836033
+36641             DOW  dynamic_TF_carry  [-1]     5861.816308  1183.080403   -2.558934     -5.117868       -10.235735                     NaN         -7.676801
+36642           US10U  dynamic_TF_carry   [1]        7.286943   332.358152  -10.721231     21.442461              0.0                     NaN         10.721231
+36643             JPY  dynamic_TF_carry  [-1]        0.000462  -574.181774  -10.833618     10.833618       -10.833618                     NaN               0.0
+36644     SP500_micro  dynamic_TF_carry  [-1]      914.752919  1223.007849   -1.366489    -10.931914       -13.664892                     NaN        -12.298403
+
+
+=========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                       
+=========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point   delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+36634            KR10  dynamic_TF_carry   [1]           553.631176  -296.192679    -2.768156       5.536312               0.0                      NaN           2.768156
+36635      BRENT-LAST  dynamic_TF_carry   [1]           742.776499  2243.185026    -7.427765      -14.85553         -29.71106                      NaN         -22.283295
+36636         SUGAR11  dynamic_TF_carry  [-1]           831.909678  -453.390775    -4.159548      -8.319097        -16.638194                      NaN         -12.478645
+36637   CRUDE_W_micro  dynamic_TF_carry   [1]             74.27765   111.045087    -1.856941       3.713882               0.0                      NaN           1.856941
+36638           CAD10  dynamic_TF_carry   [1]           531.732049   -13.293301     -2.65866        5.31732               0.0                      NaN            2.65866
+36639            US10  dynamic_TF_carry   [1]           742.776499   121.861769    -5.802941      11.605883               0.0                      NaN           5.802941
+36640         RUSSELL  dynamic_TF_carry   [1]             3.713882  -152.269182    -0.742776       1.856941          0.371388                      NaN           1.114165
+36641             DOW  dynamic_TF_carry  [-1]             0.371388   257.557751    -0.557082      -1.114165         -2.228329                      NaN          -1.671247
+36642           US10U  dynamic_TF_carry   [1]           742.776499   179.891183    -5.802941      11.605883               0.0                      NaN           5.802941
+36643             JPY  dynamic_TF_carry  [-1]       9284706.231895  -246.044715    -4.642353       4.642353         -4.642353                      NaN                0.0
+36644     SP500_micro  dynamic_TF_carry  [-1]             3.713882   415.490604    -0.464235      -3.713882         -4.642353                      NaN          -4.178118
 
 delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry KRWUSD_mini      -22.365527
-                 MSCISING        -288.260584
-                 RUBBER            -70.82417
-                 TOPIX            -27.754713
+                                   delay_cash
+strategy_name    instrument_code             
+dynamic_TF_carry BRENT-LAST       2243.185026
+                 CAD10             -13.293301
+                 CRUDE_W_micro     111.045087
+                 DOW               257.557751
+                 JPY              -246.044715
+                 KR10             -296.192679
+                 RUSSELL          -152.269182
+                 SP500_micro       415.490604
+                 SUGAR11          -453.390775
+                 US10              121.861769
+                 US10U             179.891183
 delay_cash Total Sum
-                  delay_cash
-strategy_name               
-dynamic_TF_carry -409.204994
+                   delay_cash
+strategy_name                
+dynamic_TF_carry  2167.840767
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry KRWUSD_mini        -1.863794
-                 MSCISING           -2.911723
-                 RUBBER             -3.727588
-                 TOPIX              -0.590526
+dynamic_TF_carry BRENT-LAST         -7.427765
+                 CAD10               -2.65866
+                 CRUDE_W_micro      -1.856941
+                 DOW                -0.557082
+                 JPY                -4.642353
+                 KR10               -2.768156
+                 RUSSELL            -0.742776
+                 SP500_micro        -0.464235
+                 SUGAR11            -4.159548
+                 US10               -5.802941
+                 US10U              -5.802941
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -9.093631
+dynamic_TF_carry   -36.883401
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
-dynamic_TF_carry KRWUSD_mini          -1.863794
-                 MSCISING                  -0.0
-                 RUBBER                    -0.0
-                 TOPIX                 1.181052
+dynamic_TF_carry BRENT-LAST           -14.85553
+                 CAD10                  5.31732
+                 CRUDE_W_micro         3.713882
+                 DOW                  -1.114165
+                 JPY                   4.642353
+                 KR10                  5.536312
+                 RUSSELL               1.856941
+                 SP500_micro          -3.713882
+                 SUGAR11              -8.319097
+                 US10                 11.605883
+                 US10U                11.605883
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry      -0.682742
+dynamic_TF_carry      16.275901
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry KRWUSD_mini             -5.591382
-                 MSCISING                -5.823446
-                 RUBBER                  -7.455176
-                 TOPIX                         0.0
+dynamic_TF_carry BRENT-LAST              -29.71106
+                 CAD10                         0.0
+                 CRUDE_W_micro                 0.0
+                 DOW                     -2.228329
+                 JPY                     -4.642353
+                 KR10                          0.0
+                 RUSSELL                  0.371388
+                 SP500_micro             -4.642353
+                 SUGAR11                -16.638194
+                 US10                          0.0
+                 US10U                         0.0
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry        -18.870004
+dynamic_TF_carry        -57.490901
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
-dynamic_TF_carry KRWUSD_mini                            0
-                 MSCISING                               0
-                 RUBBER                                 0
-                 TOPIX                                  0
+dynamic_TF_carry BRENT-LAST                             0
+                 CAD10                                  0
+                 CRUDE_W_micro                          0
+                 DOW                                    0
+                 JPY                                    0
+                 KR10                                   0
+                 RUSSELL                                0
+                 SP500_micro                            0
+                 SUGAR11                                0
+                 US10                                   0
+                 US10U                                  0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -117,14 +187,21 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry KRWUSD_mini              -3.727588
-                 MSCISING                 -2.911723
-                 RUBBER                   -3.727588
-                 TOPIX                     0.590526
+dynamic_TF_carry BRENT-LAST              -22.283295
+                 CAD10                      2.65866
+                 CRUDE_W_micro             1.856941
+                 DOW                      -1.671247
+                 JPY                            0.0
+                 KR10                      2.768156
+                 RUSSELL                   1.114165
+                 SP500_micro              -4.178118
+                 SUGAR11                 -12.478645
+                 US10                      5.802941
+                 US10U                     5.802941
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry          -9.776373
+dynamic_TF_carry           -20.6075
 
 ********************************************************************************
                                  END OF REPORT                                  
