@@ -1,15 +1,211 @@
 
 ********************************************************************************
-Trades report produced on 05/11/2026 22:49 from 04/11/2026 22:49 to 05/11/2026 22:49
+Trades report produced on 06/11/2026 22:49 from 05/11/2026 22:49 to 06/11/2026 22:49
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+36647      BRENT-LAST  dynamic_TF_carry    [20270200] 2026-11-06 14:00:06  [-1]     94.800000
+36645             BTP  dynamic_TF_carry    [20261200] 2026-11-06 12:18:44   [1]    113.000000
+36656             CAD  dynamic_TF_carry    [20261200] 2026-11-06 15:00:21   [1]      0.710500
+36649           CAD10  dynamic_TF_carry    [20261200] 2026-11-06 14:04:31   [1]    118.280000
+36651           CAD10  dynamic_TF_carry    [20261200] 2026-11-06 14:06:40   [1]    118.310000
+36648   CRUDE_W_micro  dynamic_TF_carry    [20270300] 2026-11-06 14:00:14   [1]     85.370000
+36650   CRUDE_W_micro  dynamic_TF_carry    [20270300] 2026-11-06 14:05:28   [1]     85.550000
+36657             DOW  dynamic_TF_carry    [20261200] 2026-11-06 15:00:27  [-1]  51520.000000
+36653             DOW  dynamic_TF_carry    [20261200] 2026-11-06 15:00:13  [-1]  51526.000000
+36652             GBP  dynamic_TF_carry    [20261200] 2026-11-06 15:00:11   [1]      1.336200
+36655             JPY  dynamic_TF_carry    [20261200] 2026-11-06 15:00:18  [-1]      0.006335
+36654     SP500_micro  dynamic_TF_carry    [20261200] 2026-11-06 15:00:14  [-1]   7454.500000
+36646         SUGAR11  dynamic_TF_carry    [20270500] 2026-11-06 14:00:03  [-1]     17.780000
+
+
+======================================================================================================================================================
+                                                                        Delays                                                                        
+======================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime      submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+36645             BTP  dynamic_TF_carry       2026-11-06 00:00:00  2026-11-06 12:18:31  2026-11-06 12:18:44                44311.0                13.0
+36646         SUGAR11  dynamic_TF_carry       2026-11-06 00:00:00  2026-11-06 14:00:03  2026-11-06 14:00:03                50403.0                 0.0
+36647      BRENT-LAST  dynamic_TF_carry       2026-11-05 00:00:00  2026-11-06 14:00:06  2026-11-06 14:00:06               136806.0                 0.0
+36648   CRUDE_W_micro  dynamic_TF_carry       2026-11-05 00:00:00  2026-11-06 14:00:14  2026-11-06 14:00:14               136814.0                 0.0
+36650   CRUDE_W_micro  dynamic_TF_carry       2026-11-05 00:00:00  2026-11-06 14:05:24  2026-11-06 14:05:28               137124.0                 4.0
+36649           CAD10  dynamic_TF_carry       2026-11-06 00:00:00  2026-11-06 14:00:15  2026-11-06 14:04:31                50415.0               256.0
+36651           CAD10  dynamic_TF_carry       2026-11-06 00:00:00  2026-11-06 14:05:29  2026-11-06 14:06:40                50729.0                71.0
+36652             GBP  dynamic_TF_carry       2026-11-05 00:00:00  2026-11-06 15:00:05  2026-11-06 15:00:11               140405.0                 6.0
+36654     SP500_micro  dynamic_TF_carry       2026-11-05 00:00:00  2026-11-06 15:00:14  2026-11-06 15:00:14               140414.0                 0.0
+36655             JPY  dynamic_TF_carry       2026-11-05 00:00:00  2026-11-06 15:00:15  2026-11-06 15:00:18               140415.0                 3.0
+36657             DOW  dynamic_TF_carry       2026-11-05 00:00:00  2026-11-06 15:00:27  2026-11-06 15:00:27               140427.0                 0.0
+36653             DOW  dynamic_TF_carry       2026-11-05 00:00:00  2026-11-06 15:00:12  2026-11-06 15:00:13               140412.0                 1.0
+36656             CAD  dynamic_TF_carry       2026-11-05 00:00:00  2026-11-06 15:00:19  2026-11-06 15:00:21               140419.0                 2.0
+
+
+===============================================================================================================================================================================================================================
+                                                                                                   Slippage (ticks per lot)                                                                                                    
+===============================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price     delay  bid_ask execution versus_limit versus_parent_limit total_trading
+36645             BTP  dynamic_TF_carry   [1]                 113.45               None   112.985     112.99        112.98      112.98        113.0     0.465   -0.005     -0.01        -0.02                 NaN        -0.015
+36646         SUGAR11  dynamic_TF_carry  [-1]                  17.71               None     17.77      17.76         17.78       17.78        17.78      0.06    -0.01      0.02         -0.0                 NaN          0.01
+36647      BRENT-LAST  dynamic_TF_carry  [-1]                  94.91               None    94.855      94.84         94.87         NaN         94.8    -0.055   -0.015     -0.04          NaN                 NaN        -0.055
+36648   CRUDE_W_micro  dynamic_TF_carry   [1]                  85.44               None     85.34      85.37         85.31       85.31        85.37       0.1    -0.03       0.0        -0.06                 NaN         -0.03
+36650   CRUDE_W_micro  dynamic_TF_carry   [1]                  85.44               None    85.525      85.55          85.5        85.5        85.55    -0.085   -0.025       0.0        -0.05                 NaN        -0.025
+36649           CAD10  dynamic_TF_carry   [1]                 118.12               None   118.265     118.27        118.26      118.26       118.28    -0.145   -0.005     -0.01        -0.02                 NaN        -0.015
+36651           CAD10  dynamic_TF_carry   [1]                 118.12               None   118.275     118.28        118.27      118.27       118.31    -0.155   -0.005     -0.03        -0.04                 NaN        -0.035
+36652             GBP  dynamic_TF_carry   [1]                 1.3458               None   1.33615     1.3362        1.3361      1.3361       1.3362   0.00965 -0.00005       0.0      -0.0001                 NaN      -0.00005
+36654     SP500_micro  dynamic_TF_carry  [-1]                 7383.0               None    7455.5    7455.25       7455.75     7455.75       7454.5      72.5    -0.25     -0.75        -1.25                 NaN          -1.0
+36655             JPY  dynamic_TF_carry  [-1]               0.006353               None  0.006335   0.006334      0.006335    0.006335     0.006335 -0.000018     -0.0  0.000001          0.0                 NaN           0.0
+36657             DOW  dynamic_TF_carry  [-1]                51615.0               None   51526.5    51525.0       51528.0     51528.0      51520.0     -88.5     -1.5      -5.0         -8.0                 NaN          -6.5
+36653             DOW  dynamic_TF_carry  [-1]                51615.0               None   51528.5    51526.0       51531.0     51531.0      51526.0     -86.5     -2.5      -0.0         -5.0                 NaN          -2.5
+36656             CAD  dynamic_TF_carry   [1]                0.71565               None   0.71045     0.7105        0.7104      0.7104       0.7105    0.0052 -0.00005       0.0      -0.0001                 NaN      -0.00005
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+36645             BTP  dynamic_TF_carry   [1]          7.6067   611.303207   -6.573153    -13.146306       -26.292611                     NaN        -19.719458
+36646         SUGAR11  dynamic_TF_carry  [-1]        5.305778   113.084271  -18.847378     37.694757             -0.0                     NaN         18.847378
+36647      BRENT-LAST  dynamic_TF_carry  [-1]       45.617323   -12.056823   -3.288225     -8.768599              NaN                     NaN        -12.056823
+36648   CRUDE_W_micro  dynamic_TF_carry   [1]       37.988954    26.323441   -7.897032           0.0       -15.794065                     NaN         -7.897032
+36650   CRUDE_W_micro  dynamic_TF_carry   [1]       37.988954   -22.374925    -6.58086           0.0        -13.16172                     NaN          -6.58086
+36649           CAD10  dynamic_TF_carry   [1]        6.731178  -215.415482    -7.42812     -14.85624        -29.71248                     NaN         -22.28436
+36651           CAD10  dynamic_TF_carry   [1]        6.731178  -230.271722    -7.42812     -44.56872       -59.424961                     NaN        -51.996841
+36652             GBP  dynamic_TF_carry   [1]         0.07959  1212.463633   -6.282195           0.0        -12.56439                     NaN         -6.282195
+36654     SP500_micro  dynamic_TF_carry  [-1]     1376.638053   526.645329   -1.816018     -5.448055        -9.080092                     NaN         -7.264074
+36655             JPY  dynamic_TF_carry  [-1]         0.00046  -396.679099    -5.43396     10.867921              0.0                     NaN           5.43396
+36657             DOW  dynamic_TF_carry  [-1]     9220.703582   -95.979661   -1.626774      -5.42258        -8.676128                     NaN         -7.049354
+36653             DOW  dynamic_TF_carry  [-1]     9220.703582   -93.810629    -2.71129          -0.0         -5.42258                     NaN          -2.71129
+36656             CAD  dynamic_TF_carry   [1]        0.037599  1383.022705  -13.298295           0.0        -26.59659                     NaN        -13.298295
+
+
+========================================================================================================================================================================
+                                                                      Slippage (In base currency)                                                                       
+========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+36645             BTP  dynamic_TF_carry   [1]           833.581811  387.615542    -4.167909      -8.335818        -16.671636                      NaN         -12.503727
+36646         SUGAR11  dynamic_TF_carry  [-1]           834.886321   50.093179    -8.348863      16.697726              -0.0                      NaN           8.348863
+36647      BRENT-LAST  dynamic_TF_carry  [-1]           745.434215  -40.998882   -11.181513     -29.817369               NaN                      NaN         -40.998882
+36648   CRUDE_W_micro  dynamic_TF_carry   [1]            74.543422    7.454342    -2.236303            0.0         -4.472605                      NaN          -2.236303
+36650   CRUDE_W_micro  dynamic_TF_carry   [1]            74.543422   -6.336191    -1.863586            0.0         -3.727171                      NaN          -1.863586
+36649           CAD10  dynamic_TF_carry   [1]           530.331684  -76.898094    -2.651658      -5.303317        -10.606634                      NaN          -7.954975
+36651           CAD10  dynamic_TF_carry   [1]           530.331684  -82.201411    -2.651658     -15.909951        -21.213267                      NaN         -18.561609
+36652             GBP  dynamic_TF_carry   [1]         46589.638464  449.590011    -2.329482            0.0         -4.658964                      NaN          -2.329482
+36654     SP500_micro  dynamic_TF_carry  [-1]             3.727171  270.219903    -0.931793      -2.795378         -4.658964                      NaN          -3.727171
+36655             JPY  dynamic_TF_carry  [-1]       9317927.692881  -170.05218    -2.329482       4.658964               0.0                      NaN           2.329482
+36657             DOW  dynamic_TF_carry  [-1]             0.372717  -32.985464    -0.559076      -1.863586         -2.981737                      NaN          -2.422661
+36653             DOW  dynamic_TF_carry  [-1]             0.372717   -32.24003    -0.931793           -0.0         -1.863586                      NaN          -0.931793
+36656             CAD  dynamic_TF_carry   [1]         74543.421543  387.625792    -3.727171            0.0         -7.454342                      NaN          -3.727171
+
+delay_cash Sum
+                                  delay_cash
+strategy_name    instrument_code            
+dynamic_TF_carry BRENT-LAST       -40.998882
+                 BTP              387.615542
+                 CAD              387.625792
+                 CAD10           -159.099505
+                 CRUDE_W_micro      1.118151
+                 DOW              -65.225494
+                 GBP              449.590011
+                 JPY              -170.05218
+                 SP500_micro      270.219903
+                 SUGAR11           50.093179
+delay_cash Total Sum
+                   delay_cash
+strategy_name                
+dynamic_TF_carry  1110.886518
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry BRENT-LAST        -11.181513
+                 BTP                -4.167909
+                 CAD                -3.727171
+                 CAD10              -5.303317
+                 CRUDE_W_micro      -4.099888
+                 DOW                -1.490868
+                 GBP                -2.329482
+                 JPY                -2.329482
+                 SP500_micro        -0.931793
+                 SUGAR11            -8.348863
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -43.910287
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry BRENT-LAST          -29.817369
+                 BTP                  -8.335818
+                 CAD                        0.0
+                 CAD10               -21.213267
+                 CRUDE_W_micro              0.0
+                 DOW                  -1.863586
+                 GBP                        0.0
+                 JPY                   4.658964
+                 SP500_micro          -2.795378
+                 SUGAR11              16.697726
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry     -42.668728
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry BRENT-LAST                      0
+                 BTP                    -16.671636
+                 CAD                     -7.454342
+                 CAD10                  -31.819901
+                 CRUDE_W_micro           -8.199776
+                 DOW                     -4.845322
+                 GBP                     -4.658964
+                 JPY                           0.0
+                 SP500_micro             -4.658964
+                 SUGAR11                      -0.0
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry        -78.308906
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry BRENT-LAST                             0
+                 BTP                                    0
+                 CAD                                    0
+                 CAD10                                  0
+                 CRUDE_W_micro                          0
+                 DOW                                    0
+                 GBP                                    0
+                 JPY                                    0
+                 SP500_micro                            0
+                 SUGAR11                                0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry BRENT-LAST              -40.998882
+                 BTP                     -12.503727
+                 CAD                      -3.727171
+                 CAD10                   -26.516584
+                 CRUDE_W_micro            -4.099888
+                 DOW                      -3.354454
+                 GBP                      -2.329482
+                 JPY                       2.329482
+                 SP500_micro              -3.727171
+                 SUGAR11                   8.348863
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry         -86.579014
 
 ********************************************************************************
                                  END OF REPORT                                  
