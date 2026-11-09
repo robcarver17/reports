@@ -1,10 +1,10 @@
 
 ********************************************************************************
-                 Reconcile report produced on 06/11/2026 22:49                  
+                 Reconcile report produced on 09/11/2026 22:49                  
 ********************************************************************************
 
 
-Breaks Optimal vs actual ['dynamic_TF_carry CAD', 'dynamic_TF_carry KR10', 'dynamic_TF_carry AUD_micro']
+Breaks Optimal vs actual []
  Breaks Instrument vs Contract []
  Breaks Broker vs Contract []
 
@@ -13,7 +13,7 @@ Breaks Optimal vs actual ['dynamic_TF_carry CAD', 'dynamic_TF_carry KR10', 'dyna
 ===============================================================
 
    instrument_code contract_date          expiry_date  position
-22       AUD_micro      20261214  2026-12-14 00:00:00      12.0
+22       AUD_micro      20261214  2026-12-14 00:00:00       8.0
 20             CAD      20261215  2026-12-15 00:00:00      -2.0
 3            CAD10      20261218  2026-12-18 00:00:00       3.0
 21             CHF      20261214  2026-12-14 00:00:00      -2.0
@@ -27,7 +27,7 @@ Breaks Optimal vs actual ['dynamic_TF_carry CAD', 'dynamic_TF_carry KR10', 'dyna
 9              GBP      20261214  2026-12-14 00:00:00       1.0
 13             JPY      20261214  2026-12-14 00:00:00      -2.0
 8           KOSDAQ      20261210  2026-12-10 00:00:00      -1.0
-7             KR10      20261215  2026-12-15 00:00:00       2.0
+7             KR10      20261215  2026-12-15 00:00:00       3.0
 19     KRWUSD_mini      20261221  2026-12-21 00:00:00       1.0
 18         LEANHOG      20270414  2027-04-14 00:00:00      -2.0
 26        MSCISING      20261127  2026-11-27 00:00:00      -1.0
@@ -49,75 +49,59 @@ Breaks Optimal vs actual ['dynamic_TF_carry CAD', 'dynamic_TF_carry KR10', 'dyna
 ===============================================================
 
    instrument_code contract_date          expiry_date  position
-19       AUD_micro      20261214  2026-12-14 00:00:00      12.0
-17             CAD      20261215  2026-12-15 00:00:00      -2.0
-5            CAD10      20261218  2026-12-18 00:00:00       3.0
-23             CHF      20261214  2026-12-14 00:00:00      -2.0
-28   CRUDE_W_micro      20270219  2027-02-19 00:00:00       3.0
+23       AUD_micro      20261214  2026-12-14 00:00:00       8.0
+16             CAD      20261215  2026-12-15 00:00:00      -2.0
+2            CAD10      20261218  2026-12-18 00:00:00       3.0
+4              CHF      20261214  2026-12-14 00:00:00      -2.0
 1    CRUDE_W_micro      20270119  2027-01-19 00:00:00       1.0
-11             DOW      20261218  2026-12-18 00:00:00      -2.0
-14         EURO600      20261218  2026-12-18 00:00:00       1.0
-6        EUR_micro      20261214  2026-12-14 00:00:00      -1.0
-2      GAS_US_mini      20261124  2026-11-24 00:00:00      -1.0
-22     GAS_US_mini      20261228  2026-12-28 00:00:00      -1.0
-24             GBP      20261214  2026-12-14 00:00:00       1.0
-12             JPY      20261214  2026-12-14 00:00:00      -2.0
-16          KOSDAQ      20261210  2026-12-10 00:00:00      -1.0
-7             KR10      20261215  2026-12-15 00:00:00       2.0
-25     KRWUSD_mini      20261221  2026-12-21 00:00:00       1.0
-0          LEANHOG      20270414  2027-04-14 00:00:00      -2.0
-8         MSCISING      20261127  2026-11-27 00:00:00      -1.0
-13             OAT      20261208  2026-12-08 00:00:00      -1.0
-27            PLAT      20270127  2027-01-27 00:00:00      -1.0
-15           R1000      20261218  2026-12-18 00:00:00       1.0
-3         REDWHEAT      20270514  2027-05-14 00:00:00      -1.0
-21         RUSSELL      20261218  2026-12-18 00:00:00      -1.0
-26           SHATZ      20261208  2026-12-08 00:00:00      -2.0
-18          SILVER      20261229  2026-12-29 00:00:00      -1.0
-4      SP500_micro      20261218  2026-12-18 00:00:00      -1.0
-10          SPI200      20261217  2026-12-17 00:00:00       1.0
-9             US10      20261221  2026-12-21 00:00:00      -2.0
-20             ZAR      20261214  2026-12-14 00:00:00       1.0
-
-
-=====================================================================================
-                                    Trades in DB                                     
-=====================================================================================
-
-                  strategy_name contract_date       fill_datetime  fill  filled_price
-BTP            dynamic_TF_carry    [20261200] 2026-11-06 12:18:44   [1]    113.000000
-SUGAR11        dynamic_TF_carry    [20270500] 2026-11-06 14:00:03  [-1]     17.780000
-BRENT-LAST     dynamic_TF_carry    [20270200] 2026-11-06 14:00:06  [-1]     94.800000
-CRUDE_W_micro  dynamic_TF_carry    [20270300] 2026-11-06 14:00:14   [1]     85.370000
-CRUDE_W_micro  dynamic_TF_carry    [20270300] 2026-11-06 14:05:28   [1]     85.550000
-CAD10          dynamic_TF_carry    [20261200] 2026-11-06 14:04:31   [1]    118.280000
-CAD10          dynamic_TF_carry    [20261200] 2026-11-06 14:06:40   [1]    118.310000
-GBP            dynamic_TF_carry    [20261200] 2026-11-06 15:00:11   [1]      1.336200
-SP500_micro    dynamic_TF_carry    [20261200] 2026-11-06 15:00:14  [-1]   7454.500000
-JPY            dynamic_TF_carry    [20261200] 2026-11-06 15:00:18  [-1]      0.006335
-DOW            dynamic_TF_carry    [20261200] 2026-11-06 15:00:27  [-1]  51520.000000
-DOW            dynamic_TF_carry    [20261200] 2026-11-06 15:00:13  [-1]  51526.000000
-CAD            dynamic_TF_carry    [20261200] 2026-11-06 15:00:21   [1]      0.710500
+3    CRUDE_W_micro      20270219  2027-02-19 00:00:00       3.0
+15             DOW      20261218  2026-12-18 00:00:00      -2.0
+21         EURO600      20261218  2026-12-18 00:00:00       1.0
+13       EUR_micro      20261214  2026-12-14 00:00:00      -1.0
+20     GAS_US_mini      20261124  2026-11-24 00:00:00      -1.0
+10     GAS_US_mini      20261228  2026-12-28 00:00:00      -1.0
+19             GBP      20261214  2026-12-14 00:00:00       1.0
+27             JPY      20261214  2026-12-14 00:00:00      -2.0
+26          KOSDAQ      20261210  2026-12-10 00:00:00      -1.0
+22            KR10      20261215  2026-12-15 00:00:00       3.0
+12     KRWUSD_mini      20261221  2026-12-21 00:00:00       1.0
+25         LEANHOG      20270414  2027-04-14 00:00:00      -2.0
+6         MSCISING      20261127  2026-11-27 00:00:00      -1.0
+7              OAT      20261208  2026-12-08 00:00:00      -1.0
+5             PLAT      20270127  2027-01-27 00:00:00      -1.0
+17           R1000      20261218  2026-12-18 00:00:00       1.0
+18        REDWHEAT      20270514  2027-05-14 00:00:00      -1.0
+14         RUSSELL      20261218  2026-12-18 00:00:00      -1.0
+11           SHATZ      20261208  2026-12-08 00:00:00      -2.0
+28          SILVER      20261229  2026-12-29 00:00:00      -1.0
+24     SP500_micro      20261218  2026-12-18 00:00:00      -1.0
+0           SPI200      20261217  2026-12-17 00:00:00       1.0
+8             US10      20261221  2026-12-21 00:00:00      -2.0
+9              ZAR      20261214  2026-12-14 00:00:00       1.0
 
 
 =================================================================================
-                               Trades from broker                                
+                                  Trades in DB                                   
 =================================================================================
 
               strategy_name contract_date       fill_datetime  fill  filled_price
-DOW                            [20261218] 2026-11-06 15:00:13  [-1]  51526.000000
-GBP                            [20261214] 2026-11-06 15:00:11   [1]      1.336200
-JPY                            [20261214] 2026-11-06 15:00:18  [-1]      0.006335
-SP500_micro                    [20261218] 2026-11-06 15:00:14  [-1]   7454.500000
-CAD10                          [20261218] 2026-11-06 14:06:40   [1]    118.310000
-CRUDE_W_micro                  [20270219] 2026-11-06 14:05:28   [1]     85.550000
-BRENT-LAST                     [20261230] 2026-11-06 14:00:06  [-1]     94.800000
-SUGAR11                        [20270430] 2026-11-06 14:00:03  [-1]     17.780000
-CAD10                          [20261218] 2026-11-06 14:04:31   [1]    118.280000
-CRUDE_W_micro                  [20270219] 2026-11-06 14:00:14   [1]     85.370000
-BTP                            [20261208] 2026-11-06 12:18:44   [1]    113.000000
-DOW                            [20261218] 2026-11-06 15:00:27  [-1]  51520.000000
-CAD                            [20261215] 2026-11-06 15:00:21   [1]      0.710500
+KR10       dynamic_TF_carry    [20261200] 2026-11-09 02:02:12   [1]      109.0900
+AUD_micro  dynamic_TF_carry    [20261200] 2026-11-09 15:00:03  [-1]        0.6896
+AUD_micro  dynamic_TF_carry    [20261200] 2026-11-09 15:00:10  [-1]        0.6896
+AUD_micro  dynamic_TF_carry    [20261200] 2026-11-09 15:00:32  [-1]        0.6897
+AUD_micro  dynamic_TF_carry    [20261200] 2026-11-09 15:00:44  [-1]        0.6896
+
+
+=============================================================================
+                             Trades from broker                              
+=============================================================================
+
+          strategy_name contract_date       fill_datetime  fill  filled_price
+KR10                       [20261215] 2026-11-09 02:02:12   [1]      109.0900
+AUD_micro                  [20261214] 2026-11-09 15:00:03  [-1]        0.6896
+AUD_micro                  [20261214] 2026-11-09 15:00:32  [-1]        0.6897
+AUD_micro                  [20261214] 2026-11-09 15:00:10  [-1]        0.6896
+AUD_micro                  [20261214] 2026-11-09 15:00:44  [-1]        0.6896
 
 
 ==========================================================
@@ -130,16 +114,15 @@ dynamic_TF_carry CAD10                   3       3   False
 dynamic_TF_carry GICS                    0       0   False
 dynamic_TF_carry COAL-GEORDIE            0       0   False
 dynamic_TF_carry EUROSTX                 0       0   False
-dynamic_TF_carry CAD                    -2      -1    True
+dynamic_TF_carry CAD                    -2      -2   False
 dynamic_TF_carry EURIBOR                 0       0   False
-dynamic_TF_carry NICKEL_LME              0       0   False
 dynamic_TF_carry LIVECOW                 0       0   False
 dynamic_TF_carry MSCIEMASIA              0       0   False
 dynamic_TF_carry CZK                     0       0   False
 dynamic_TF_carry MSCIEAFA                0       0   False
 dynamic_TF_carry US10                   -2      -2   False
 dynamic_TF_carry REDWHEAT               -1      -1   False
-dynamic_TF_carry KR10                    2       3    True
+dynamic_TF_carry KR10                    3       3   False
 dynamic_TF_carry MIB                     0       0   False
 dynamic_TF_carry HANGENT_mini            0       0   False
 dynamic_TF_carry NOK                     0       0   False
@@ -175,12 +158,10 @@ dynamic_TF_carry CAC                     0       0   False
 dynamic_TF_carry US10U                   0       0   False
 dynamic_TF_carry EU-OIL                  0       0   False
 dynamic_TF_carry EU-REALESTATE           0       0   False
-dynamic_TF_carry TIN_LME                 0       0   False
 dynamic_TF_carry KOSPI_mini              0       0   False
 dynamic_TF_carry US2                     0       0   False
 dynamic_TF_carry EU-MEDIA                0       0   False
 dynamic_TF_carry GASOIL                  0       0   False
-dynamic_TF_carry COPPER_LME              0       0   False
 dynamic_TF_carry SWISSLEAD               0       0   False
 dynamic_TF_carry COAL                    0       0   False
 dynamic_TF_carry RICE                    0       0   False
@@ -266,11 +247,10 @@ dynamic_TF_carry US20                    0       0   False
 dynamic_TF_carry US5                     0       0   False
 dynamic_TF_carry LEANHOG                -2      -2   False
 dynamic_TF_carry OMX                     0       0   False
-dynamic_TF_carry AUD_micro              12       8    True
+dynamic_TF_carry AUD_micro               8       8   False
 dynamic_TF_carry CHF                    -2      -2   False
 dynamic_TF_carry GAS-LAST                0       0   False
 dynamic_TF_carry CRUDE_W_mini            0       0   False
-dynamic_TF_carry ZINC_LME                0       0   False
 dynamic_TF_carry EURO600                 1       1   False
 dynamic_TF_carry HEATOIL                 0       0   False
 dynamic_TF_carry EU-DJ-TELECOM           0       0   False
@@ -312,7 +292,6 @@ dynamic_TF_carry SMI-MID                 0       0   False
 dynamic_TF_carry CANOLA                  0       0   False
 dynamic_TF_carry EU-AUTO                 0       0   False
 dynamic_TF_carry IG                      0       0   False
-dynamic_TF_carry LEAD_LME                0       0   False
 dynamic_TF_carry VIX                     0       0   False
 dynamic_TF_carry INR                     0       0   False
 dynamic_TF_carry MSCITAIWAN              0       0   False
