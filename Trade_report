@@ -1,123 +1,15 @@
 
 ********************************************************************************
-Trades report produced on 09/11/2026 22:49 from 08/11/2026 22:49 to 09/11/2026 22:49
+Trades report produced on 10/11/2026 22:49 from 09/11/2026 22:49 to 10/11/2026 22:49
 ********************************************************************************
 
 
-
-=============================================================================================
-                                        Broker orders                                        
-=============================================================================================
-
-      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-36659       AUD_micro  dynamic_TF_carry    [20261200] 2026-11-09 15:00:03  [-1]        0.6896
-36660       AUD_micro  dynamic_TF_carry    [20261200] 2026-11-09 15:00:10  [-1]        0.6896
-36661       AUD_micro  dynamic_TF_carry    [20261200] 2026-11-09 15:00:32  [-1]        0.6897
-36662       AUD_micro  dynamic_TF_carry    [20261200] 2026-11-09 15:00:44  [-1]        0.6896
-36658            KR10  dynamic_TF_carry    [20261200] 2026-11-09 02:02:12   [1]      109.0900
-
-
-======================================================================================================================================================
-                                                                        Delays                                                                        
-======================================================================================================================================================
-
-      instrument_code     strategy_name parent_reference_datetime      submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-36658            KR10  dynamic_TF_carry       2026-11-06 00:00:00  2026-11-09 02:02:08  2026-11-09 02:02:12               266528.0                 4.0
-36659       AUD_micro  dynamic_TF_carry       2026-11-06 00:00:00  2026-11-09 15:00:02  2026-11-09 15:00:03               313202.0                 1.0
-36660       AUD_micro  dynamic_TF_carry       2026-11-06 00:00:00  2026-11-09 15:00:10  2026-11-09 15:00:10               313210.0                 0.0
-36661       AUD_micro  dynamic_TF_carry       2026-11-06 00:00:00  2026-11-09 15:00:17  2026-11-09 15:00:32               313217.0                15.0
-36662       AUD_micro  dynamic_TF_carry       2026-11-06 00:00:00  2026-11-09 15:00:39  2026-11-09 15:00:44               313239.0                 5.0
-
-
-==============================================================================================================================================================================================================================
-                                                                                                   Slippage (ticks per lot)                                                                                                   
-==============================================================================================================================================================================================================================
-
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
-36658            KR10  dynamic_TF_carry   [1]                  109.4               None   109.075     109.08        109.07      109.07       109.09    0.325   -0.005     -0.01        -0.02                 NaN        -0.015
-36659       AUD_micro  dynamic_TF_carry  [-1]                 0.6862               None    0.6896     0.6895        0.6897      0.6897       0.6896   0.0034  -0.0001    0.0001      -0.0001                 NaN           0.0
-36660       AUD_micro  dynamic_TF_carry  [-1]                 0.6862               None   0.68965     0.6896        0.6897         NaN       0.6896  0.00345 -0.00005      -0.0          NaN                 NaN      -0.00005
-36661       AUD_micro  dynamic_TF_carry  [-1]                 0.6862               None   0.68965     0.6896        0.6897      0.6897       0.6897  0.00345 -0.00005    0.0001         -0.0                 NaN       0.00005
-36662       AUD_micro  dynamic_TF_carry  [-1]                 0.6862               None    0.6897     0.6896        0.6898      0.6898       0.6896   0.0035  -0.0001      -0.0      -0.0002                 NaN       -0.0001
-
-
-==============================================================================================================================================================
-                                                     Slippage (normalised by annual vol, BP of annual SR)                                                     
-==============================================================================================================================================================
-
-      instrument_code     strategy_name trade last_annual_vol   delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-36658            KR10  dynamic_TF_carry   [1]        6.271469  518.219907   -7.972614    -15.945228       -31.890456                     NaN        -23.917842
-36659       AUD_micro  dynamic_TF_carry  [-1]         0.05555  612.064393  -18.001894     18.001894       -18.001894                     NaN               0.0
-36660       AUD_micro  dynamic_TF_carry  [-1]         0.05555   621.06534   -9.000947          -0.0              NaN                     NaN         -9.000947
-36661       AUD_micro  dynamic_TF_carry  [-1]         0.05555   621.06534   -9.000947     18.001894             -0.0                     NaN          9.000947
-36662       AUD_micro  dynamic_TF_carry  [-1]         0.05555  630.066287  -18.001894          -0.0       -36.003788                     NaN        -18.001894
-
-
-========================================================================================================================================================================
-                                                                      Slippage (In base currency)                                                                       
-========================================================================================================================================================================
-
-      instrument_code     strategy_name trade value_of_price_point  delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-36658            KR10  dynamic_TF_carry   [1]           554.495434  180.211016    -2.772477      -5.544954        -11.089909                      NaN          -8.317432
-36659       AUD_micro  dynamic_TF_carry  [-1]          7471.049682   25.401569    -0.747105       0.747105         -0.747105                      NaN                0.0
-36660       AUD_micro  dynamic_TF_carry  [-1]          7471.049682   25.775121    -0.373552           -0.0               NaN                      NaN          -0.373552
-36661       AUD_micro  dynamic_TF_carry  [-1]          7471.049682   25.775121    -0.373552       0.747105              -0.0                      NaN           0.373552
-36662       AUD_micro  dynamic_TF_carry  [-1]          7471.049682   26.148674    -0.747105           -0.0          -1.49421                      NaN          -0.747105
-
-delay_cash Sum
-                                  delay_cash
-strategy_name    instrument_code            
-dynamic_TF_carry AUD_micro        103.100486
-                 KR10             180.211016
-delay_cash Total Sum
-                  delay_cash
-strategy_name               
-dynamic_TF_carry  283.311502
-bid_ask_cash Sum
-                                 bid_ask_cash
-strategy_name    instrument_code             
-dynamic_TF_carry AUD_micro          -2.241315
-                 KR10               -2.772477
-bid_ask_cash Total Sum
-                 bid_ask_cash
-strategy_name                
-dynamic_TF_carry    -5.013792
-execution_cash Sum
-                                 execution_cash
-strategy_name    instrument_code               
-dynamic_TF_carry AUD_micro              1.49421
-                 KR10                 -5.544954
-execution_cash Total Sum
-                 execution_cash
-strategy_name                  
-dynamic_TF_carry      -4.050744
-versus_limit_cash Sum
-                                 versus_limit_cash
-strategy_name    instrument_code                  
-dynamic_TF_carry AUD_micro               -2.241315
-                 KR10                   -11.089909
-versus_limit_cash Total Sum
-                 versus_limit_cash
-strategy_name                     
-dynamic_TF_carry        -13.331224
-versus_parent_limit_cash Sum
-                                 versus_parent_limit_cash
-strategy_name    instrument_code                         
-dynamic_TF_carry AUD_micro                              0
-                 KR10                                   0
-versus_parent_limit_cash Total Sum
-                 versus_parent_limit_cash
-strategy_name                            
-dynamic_TF_carry                        0
-total_trading_cash Sum
-                                 total_trading_cash
-strategy_name    instrument_code                   
-dynamic_TF_carry AUD_micro                -0.747105
-                 KR10                     -8.317432
-total_trading_cash Total Sum
-                 total_trading_cash
-strategy_name                      
-dynamic_TF_carry          -9.064536
+No trades
+No trades
+No trades
+No trades
+No trades
+No trades
 
 ********************************************************************************
                                  END OF REPORT                                  
