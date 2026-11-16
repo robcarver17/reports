@@ -1,6 +1,6 @@
 
 ********************************************************************************
-Trades report produced on 13/11/2026 22:49 from 12/11/2026 22:49 to 13/11/2026 22:49
+Trades report produced on 16/11/2026 22:49 from 15/11/2026 22:49 to 16/11/2026 22:49
 ********************************************************************************
 
 
@@ -10,8 +10,7 @@ Trades report produced on 13/11/2026 22:49 from 12/11/2026 22:49 to 13/11/2026 2
 =============================================================================================
 
       instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
-36669       AUD_micro  dynamic_TF_carry    [20261200] 2026-11-13 15:00:07  [-1]        0.6788
-36670            CORN  dynamic_TF_carry    [20271200] 2026-11-13 15:30:07  [-1]      483.2500
+36671       AUD_micro  dynamic_TF_carry    [20261200] 2026-11-16 15:00:06  [-1]        0.6737
 
 
 ======================================================================================================================================================
@@ -19,17 +18,15 @@ Trades report produced on 13/11/2026 22:49 from 12/11/2026 22:49 to 13/11/2026 2
 ======================================================================================================================================================
 
       instrument_code     strategy_name parent_reference_datetime      submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
-36669       AUD_micro  dynamic_TF_carry       2026-11-10 00:00:00  2026-11-13 15:00:02  2026-11-13 15:00:07               313202.0                 5.0
-36670            CORN  dynamic_TF_carry       2026-11-10 00:00:00  2026-11-13 15:30:05  2026-11-13 15:30:07               315005.0                 2.0
+36671       AUD_micro  dynamic_TF_carry       2026-11-10 00:00:00  2026-11-16 15:00:05  2026-11-16 15:00:06               572405.0                 1.0
 
 
-==============================================================================================================================================================================================================================
-                                                                                                   Slippage (ticks per lot)                                                                                                   
-==============================================================================================================================================================================================================================
+============================================================================================================================================================================================================================
+                                                                                                  Slippage (ticks per lot)                                                                                                  
+============================================================================================================================================================================================================================
 
-      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price    delay  bid_ask execution versus_limit versus_parent_limit total_trading
-36669       AUD_micro  dynamic_TF_carry  [-1]                  0.686               None   0.67885     0.6788        0.6789      0.6789       0.6788 -0.00715 -0.00005      -0.0      -0.0001                 NaN      -0.00005
-36670            CORN  dynamic_TF_carry  [-1]                  489.5               None   483.125      483.0        483.25      483.25       483.25   -6.375   -0.125      0.25         -0.0                 NaN         0.125
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price mid_price side_price offside_price limit_price filled_price   delay bid_ask execution versus_limit versus_parent_limit total_trading
+36671       AUD_micro  dynamic_TF_carry  [-1]                  0.686               None    0.6738     0.6737        0.6739      0.6739       0.6737 -0.0122 -0.0001      -0.0      -0.0002                 NaN       -0.0001
 
 
 ===============================================================================================================================================================
@@ -37,8 +34,7 @@ Trades report produced on 13/11/2026 22:49 from 12/11/2026 22:49 to 13/11/2026 2
 ===============================================================================================================================================================
 
       instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
-36669       AUD_micro  dynamic_TF_carry  [-1]        0.059944 -1192.778188   -8.341106          -0.0       -16.682212                     NaN         -8.341106
-36670            CORN  dynamic_TF_carry  [-1]       58.912669 -1082.110204  -21.217847     42.435694             -0.0                     NaN         21.217847
+36671       AUD_micro  dynamic_TF_carry  [-1]        0.059944 -2035.229915  -16.682212          -0.0       -33.364425                     NaN        -16.682212
 
 
 =======================================================================================================================================================================
@@ -46,50 +42,44 @@ Trades report produced on 13/11/2026 22:49 from 12/11/2026 22:49 to 13/11/2026 2
 =======================================================================================================================================================================
 
       instrument_code     strategy_name trade value_of_price_point delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
-36669       AUD_micro  dynamic_TF_carry  [-1]          7555.152614 -54.019341    -0.377758           -0.0         -0.755515                      NaN          -0.377758
-36670            CORN  dynamic_TF_carry  [-1]            37.775763 -240.82049     -4.72197       9.443941              -0.0                      NaN            4.72197
+36671       AUD_micro  dynamic_TF_carry  [-1]           7577.47973 -92.445253    -0.757748           -0.0         -1.515496                      NaN          -0.757748
 
 delay_cash Sum
                                  delay_cash
 strategy_name    instrument_code           
-dynamic_TF_carry AUD_micro       -54.019341
-                 CORN            -240.82049
+dynamic_TF_carry AUD_micro       -92.445253
 delay_cash Total Sum
-                  delay_cash
-strategy_name               
-dynamic_TF_carry -294.839831
+                 delay_cash
+strategy_name              
+dynamic_TF_carry -92.445253
 bid_ask_cash Sum
                                  bid_ask_cash
 strategy_name    instrument_code             
-dynamic_TF_carry AUD_micro          -0.377758
-                 CORN                -4.72197
+dynamic_TF_carry AUD_micro          -0.757748
 bid_ask_cash Total Sum
                  bid_ask_cash
 strategy_name                
-dynamic_TF_carry    -5.099728
+dynamic_TF_carry    -0.757748
 execution_cash Sum
                                  execution_cash
 strategy_name    instrument_code               
 dynamic_TF_carry AUD_micro                 -0.0
-                 CORN                  9.443941
 execution_cash Total Sum
                  execution_cash
 strategy_name                  
-dynamic_TF_carry       9.443941
+dynamic_TF_carry           -0.0
 versus_limit_cash Sum
                                  versus_limit_cash
 strategy_name    instrument_code                  
-dynamic_TF_carry AUD_micro               -0.755515
-                 CORN                         -0.0
+dynamic_TF_carry AUD_micro               -1.515496
 versus_limit_cash Total Sum
                  versus_limit_cash
 strategy_name                     
-dynamic_TF_carry         -0.755515
+dynamic_TF_carry         -1.515496
 versus_parent_limit_cash Sum
                                  versus_parent_limit_cash
 strategy_name    instrument_code                         
 dynamic_TF_carry AUD_micro                              0
-                 CORN                                   0
 versus_parent_limit_cash Total Sum
                  versus_parent_limit_cash
 strategy_name                            
@@ -97,12 +87,11 @@ dynamic_TF_carry                        0
 total_trading_cash Sum
                                  total_trading_cash
 strategy_name    instrument_code                   
-dynamic_TF_carry AUD_micro                -0.377758
-                 CORN                       4.72197
+dynamic_TF_carry AUD_micro                -0.757748
 total_trading_cash Total Sum
                  total_trading_cash
 strategy_name                      
-dynamic_TF_carry           4.344213
+dynamic_TF_carry          -0.757748
 
 ********************************************************************************
                                  END OF REPORT                                  
