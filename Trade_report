@@ -1,15 +1,218 @@
 
 ********************************************************************************
-Trades report produced on 19/11/2026 22:49 from 18/11/2026 22:49 to 19/11/2026 22:49
+Trades report produced on 20/11/2026 22:49 from 19/11/2026 22:49 to 20/11/2026 22:49
 ********************************************************************************
 
 
-No trades
-No trades
-No trades
-No trades
-No trades
-No trades
+
+=============================================================================================
+                                        Broker orders                                        
+=============================================================================================
+
+      instrument_code     strategy_name contract_date       fill_datetime  fill  filled_price
+36697         BITCOIN  dynamic_TF_carry    [20261200] 2026-11-20 15:00:02  [-1]  61995.000000
+36695   CRUDE_W_micro  dynamic_TF_carry    [20270300] 2026-11-20 14:00:07  [-1]     80.480000
+36693             DAX  dynamic_TF_carry    [20261200] 2026-11-20 08:00:15  [-1]  25238.000000
+36699             DOW  dynamic_TF_carry    [20261200] 2026-11-20 15:00:05   [1]  49628.000000
+36692         EURO600  dynamic_TF_carry    [20261200] 2026-11-20 08:00:08   [1]    634.000000
+36696      GOLD_micro  dynamic_TF_carry    [20270200] 2026-11-20 14:00:16  [-1]   3601.600000
+36691       HANG_mini  dynamic_TF_carry    [20261200] 2026-11-20 02:15:08  [-1]  22426.000000
+36701             JPY  dynamic_TF_carry    [20261200] 2026-11-20 15:00:10   [1]      0.006304
+36690          KOSDAQ  dynamic_TF_carry    [20261200] 2026-11-20 02:02:08   [1]   1079.000000
+36694        MSCIEAFA  dynamic_TF_carry    [20261200] 2026-11-20 14:00:04  [-1]   2929.100000
+36698    NASDAQ_micro  dynamic_TF_carry    [20261200] 2026-11-20 15:00:03  [-1]  26469.750000
+36700         RUSSELL  dynamic_TF_carry    [20261200] 2026-11-20 15:00:06  [-1]   2676.800000
+
+
+======================================================================================================================================================
+                                                                        Delays                                                                        
+======================================================================================================================================================
+
+      instrument_code     strategy_name parent_reference_datetime      submit_datetime        fill_datetime submit_minus_generated filled_minus_submit
+36690          KOSDAQ  dynamic_TF_carry       2026-11-19 00:00:00  2026-11-20 02:02:07  2026-11-20 02:02:08                93727.0                 1.0
+36691       HANG_mini  dynamic_TF_carry       2026-11-19 00:00:00  2026-11-20 02:15:07  2026-11-20 02:15:08                94507.0                 1.0
+36692         EURO600  dynamic_TF_carry       2026-11-19 00:00:00  2026-11-20 08:00:07  2026-11-20 08:00:08               115207.0                 1.0
+36693             DAX  dynamic_TF_carry       2026-11-19 00:00:00  2026-11-20 08:00:15  2026-11-20 08:00:15               115215.0                 0.0
+36694        MSCIEAFA  dynamic_TF_carry       2026-11-19 00:00:00  2026-11-20 14:00:04  2026-11-20 14:00:04               136804.0                 0.0
+36695   CRUDE_W_micro  dynamic_TF_carry       2026-11-19 00:00:00  2026-11-20 14:00:07  2026-11-20 14:00:07               136807.0                 0.0
+36696      GOLD_micro  dynamic_TF_carry       2026-11-19 00:00:00  2026-11-20 14:00:15  2026-11-20 14:00:16               136815.0                 1.0
+36697         BITCOIN  dynamic_TF_carry       2026-11-19 00:00:00  2026-11-20 15:00:01  2026-11-20 15:00:02               140401.0                 1.0
+36698    NASDAQ_micro  dynamic_TF_carry       2026-11-19 00:00:00  2026-11-20 15:00:03  2026-11-20 15:00:03               140403.0                 0.0
+36699             DOW  dynamic_TF_carry       2026-11-19 00:00:00  2026-11-20 15:00:05  2026-11-20 15:00:05               140405.0                 0.0
+36700         RUSSELL  dynamic_TF_carry       2026-11-19 00:00:00  2026-11-20 15:00:06  2026-11-20 15:00:06               140406.0                 0.0
+36701             JPY  dynamic_TF_carry       2026-11-19 00:00:00  2026-11-20 15:00:08  2026-11-20 15:00:10               140408.0                 2.0
+
+
+=================================================================================================================================================================================================================================
+                                                                                                    Slippage (ticks per lot)                                                                                                     
+=================================================================================================================================================================================================================================
+
+      instrument_code     strategy_name trade parent_reference_price parent_limit_price  mid_price side_price offside_price limit_price filled_price     delay   bid_ask execution versus_limit versus_parent_limit total_trading
+36690          KOSDAQ  dynamic_TF_carry   [1]                 1087.5               None     1079.1     1079.2        1079.0      1079.0       1079.0       8.4      -0.1       0.2          0.0                 NaN           0.1
+36691       HANG_mini  dynamic_TF_carry  [-1]                22826.0               None    22424.0    22422.0       22426.0     22426.0      22426.0    -402.0      -2.0       4.0         -0.0                 NaN           2.0
+36692         EURO600  dynamic_TF_carry   [1]                  640.4               None     634.05      634.1         634.0       634.0        634.0      6.35     -0.05       0.1          0.0                 NaN          0.05
+36693             DAX  dynamic_TF_carry  [-1]                25608.0               None    25241.5    25240.0       25243.0     25243.0      25238.0    -366.5      -1.5      -2.0         -5.0                 NaN          -3.5
+36694        MSCIEAFA  dynamic_TF_carry  [-1]                 2958.6               None    2927.35     2927.2        2927.5      2927.5       2929.1    -31.25     -0.15       1.9          1.6                 NaN          1.75
+36695   CRUDE_W_micro  dynamic_TF_carry  [-1]                  80.49               None       80.5      80.48         80.52       80.52        80.48      0.01     -0.02      -0.0        -0.04                 NaN         -0.02
+36696      GOLD_micro  dynamic_TF_carry  [-1]                 3701.6               None    3601.85     3601.7        3602.0      3602.0       3601.6    -99.75     -0.15      -0.1         -0.4                 NaN         -0.25
+36697         BITCOIN  dynamic_TF_carry  [-1]                62435.0               None    62017.5    61945.0       62090.0     62090.0      61995.0    -417.5     -72.5      50.0        -95.0                 NaN         -22.5
+36698    NASDAQ_micro  dynamic_TF_carry  [-1]                26602.5               None  26467.125    26464.5      26469.75    26469.75     26469.75  -135.375    -2.625      5.25         -0.0                 NaN         2.625
+36699             DOW  dynamic_TF_carry   [1]                49226.0               None    49622.0    49628.0       49616.0     49616.0      49628.0    -396.0      -6.0       0.0        -12.0                 NaN          -6.0
+36700         RUSSELL  dynamic_TF_carry  [-1]                 2662.2               None    2676.45     2676.1        2676.8      2676.8       2676.8     14.25     -0.35       0.7         -0.0                 NaN          0.35
+36701             JPY  dynamic_TF_carry   [1]               0.006274               None   0.006303   0.006304      0.006302    0.006302     0.006304 -0.000028 -0.000001      -0.0    -0.000001                 NaN     -0.000001
+
+
+===============================================================================================================================================================
+                                                     Slippage (normalised by annual vol, BP of annual SR)                                                      
+===============================================================================================================================================================
+
+      instrument_code     strategy_name trade last_annual_vol    delay_vol bid_ask_vol execution_vol versus_limit_vol versus_parent_limit_vol total_trading_vol
+36690          KOSDAQ  dynamic_TF_carry   [1]      755.366181   111.204343   -1.323861      2.647722              0.0                     NaN          1.323861
+36691       HANG_mini  dynamic_TF_carry  [-1]     5028.690414  -799.412903   -3.977179      7.954357             -0.0                     NaN          3.977179
+36692         EURO600  dynamic_TF_carry   [1]       83.171658   763.481234   -6.011663     12.023327              0.0                     NaN          6.011663
+36693             DAX  dynamic_TF_carry  [-1]     4394.476191   -834.00156   -3.413376     -4.551168        -11.37792                     NaN         -7.964544
+36694        MSCIEAFA  dynamic_TF_carry  [-1]      537.669737  -581.211808   -2.789817     35.337678        29.758045                     NaN         32.547861
+36695   CRUDE_W_micro  dynamic_TF_carry  [-1]       34.278283     2.917299   -5.834598          -0.0       -11.669196                     NaN         -5.834598
+36696      GOLD_micro  dynamic_TF_carry  [-1]      991.222527 -1006.333061   -1.513283     -1.008855        -4.035421                     NaN         -2.522138
+36697         BITCOIN  dynamic_TF_carry  [-1]    31766.829471  -131.426399  -22.822548     15.739688       -29.905408                     NaN          -7.08286
+36698    NASDAQ_micro  dynamic_TF_carry  [-1]     7606.365242  -177.975939   -3.451057      6.902114             -0.0                     NaN          3.451057
+36699             DOW  dynamic_TF_carry   [1]     9262.845267  -427.514428   -6.477491           0.0       -12.954983                     NaN         -6.477491
+36700         RUSSELL  dynamic_TF_carry  [-1]       609.24538   233.895906   -5.744812     11.489623             -0.0                     NaN          5.744812
+36701             JPY  dynamic_TF_carry   [1]        0.000442  -644.081219  -11.299671    -11.299671       -33.899012                     NaN        -22.599341
+
+
+=========================================================================================================================================================================
+                                                                       Slippage (In base currency)                                                                       
+=========================================================================================================================================================================
+
+      instrument_code     strategy_name trade value_of_price_point   delay_cash bid_ask_cash execution_cash versus_limit_cash versus_parent_limit_cash total_trading_cash
+36690          KOSDAQ  dynamic_TF_carry   [1]             5.705741    47.928222    -0.570574       1.141148               0.0                      NaN           0.570574
+36691       HANG_mini  dynamic_TF_carry  [-1]              0.97236  -390.888823    -1.944721       3.889441              -0.0                      NaN           1.944721
+36692         EURO600  dynamic_TF_carry   [1]            41.876644   265.916689    -2.093832       4.187664               0.0                      NaN           2.093832
+36693             DAX  dynamic_TF_carry  [-1]             0.837533    -306.9558    -1.256299      -1.675066         -4.187664                      NaN          -2.931365
+36694        MSCIEAFA  dynamic_TF_carry  [-1]            38.119925 -1191.247665    -5.717989      72.427858          60.99188                      NaN          66.709869
+36695   CRUDE_W_micro  dynamic_TF_carry  [-1]            76.239851     0.762399    -1.524797           -0.0         -3.049594                      NaN          -1.524797
+36696      GOLD_micro  dynamic_TF_carry  [-1]             7.623985  -760.492509    -1.143598      -0.762399         -3.049594                      NaN          -1.905996
+36697         BITCOIN  dynamic_TF_carry  [-1]              0.07624   -31.830138    -5.527389       3.811993         -7.242786                      NaN          -1.715397
+36698    NASDAQ_micro  dynamic_TF_carry  [-1]             1.524797  -206.419395    -4.002592       8.005184              -0.0                      NaN           4.002592
+36699             DOW  dynamic_TF_carry   [1]             0.381199  -150.954904    -2.287196            0.0         -4.574391                      NaN          -2.287196
+36700         RUSSELL  dynamic_TF_carry  [-1]             3.811993    54.320894    -1.334197       2.668395              -0.0                      NaN           1.334197
+36701             JPY  dynamic_TF_carry   [1]       9529981.321237  -271.604468    -4.764991      -4.764991        -14.294972                      NaN          -9.529981
+
+delay_cash Sum
+                                   delay_cash
+strategy_name    instrument_code             
+dynamic_TF_carry BITCOIN           -31.830138
+                 CRUDE_W_micro       0.762399
+                 DAX                -306.9558
+                 DOW              -150.954904
+                 EURO600           265.916689
+                 GOLD_micro       -760.492509
+                 HANG_mini        -390.888823
+                 JPY              -271.604468
+                 KOSDAQ             47.928222
+                 MSCIEAFA        -1191.247665
+                 NASDAQ_micro     -206.419395
+                 RUSSELL            54.320894
+delay_cash Total Sum
+                   delay_cash
+strategy_name                
+dynamic_TF_carry -2941.465499
+bid_ask_cash Sum
+                                 bid_ask_cash
+strategy_name    instrument_code             
+dynamic_TF_carry BITCOIN            -5.527389
+                 CRUDE_W_micro      -1.524797
+                 DAX                -1.256299
+                 DOW                -2.287196
+                 EURO600            -2.093832
+                 GOLD_micro         -1.143598
+                 HANG_mini          -1.944721
+                 JPY                -4.764991
+                 KOSDAQ             -0.570574
+                 MSCIEAFA           -5.717989
+                 NASDAQ_micro       -4.002592
+                 RUSSELL            -1.334197
+bid_ask_cash Total Sum
+                 bid_ask_cash
+strategy_name                
+dynamic_TF_carry   -32.168175
+execution_cash Sum
+                                 execution_cash
+strategy_name    instrument_code               
+dynamic_TF_carry BITCOIN               3.811993
+                 CRUDE_W_micro             -0.0
+                 DAX                  -1.675066
+                 DOW                        0.0
+                 EURO600               4.187664
+                 GOLD_micro           -0.762399
+                 HANG_mini             3.889441
+                 JPY                  -4.764991
+                 KOSDAQ                1.141148
+                 MSCIEAFA             72.427858
+                 NASDAQ_micro          8.005184
+                 RUSSELL               2.668395
+execution_cash Total Sum
+                 execution_cash
+strategy_name                  
+dynamic_TF_carry      88.929228
+versus_limit_cash Sum
+                                 versus_limit_cash
+strategy_name    instrument_code                  
+dynamic_TF_carry BITCOIN                 -7.242786
+                 CRUDE_W_micro           -3.049594
+                 DAX                     -4.187664
+                 DOW                     -4.574391
+                 EURO600                       0.0
+                 GOLD_micro              -3.049594
+                 HANG_mini                    -0.0
+                 JPY                    -14.294972
+                 KOSDAQ                        0.0
+                 MSCIEAFA                 60.99188
+                 NASDAQ_micro                 -0.0
+                 RUSSELL                      -0.0
+versus_limit_cash Total Sum
+                 versus_limit_cash
+strategy_name                     
+dynamic_TF_carry         24.592879
+versus_parent_limit_cash Sum
+                                 versus_parent_limit_cash
+strategy_name    instrument_code                         
+dynamic_TF_carry BITCOIN                                0
+                 CRUDE_W_micro                          0
+                 DAX                                    0
+                 DOW                                    0
+                 EURO600                                0
+                 GOLD_micro                             0
+                 HANG_mini                              0
+                 JPY                                    0
+                 KOSDAQ                                 0
+                 MSCIEAFA                               0
+                 NASDAQ_micro                           0
+                 RUSSELL                                0
+versus_parent_limit_cash Total Sum
+                 versus_parent_limit_cash
+strategy_name                            
+dynamic_TF_carry                        0
+total_trading_cash Sum
+                                 total_trading_cash
+strategy_name    instrument_code                   
+dynamic_TF_carry BITCOIN                  -1.715397
+                 CRUDE_W_micro            -1.524797
+                 DAX                      -2.931365
+                 DOW                      -2.287196
+                 EURO600                   2.093832
+                 GOLD_micro               -1.905996
+                 HANG_mini                 1.944721
+                 JPY                      -9.529981
+                 KOSDAQ                    0.570574
+                 MSCIEAFA                 66.709869
+                 NASDAQ_micro              4.002592
+                 RUSSELL                   1.334197
+total_trading_cash Total Sum
+                 total_trading_cash
+strategy_name                      
+dynamic_TF_carry          56.761054
 
 ********************************************************************************
                                  END OF REPORT                                  
