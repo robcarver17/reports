@@ -1,11 +1,11 @@
 
 ********************************************************************************
-              Removed markets report produced on 20/11/2026 23:05               
+              Removed markets report produced on 24/11/2026 23:05               
 ********************************************************************************
 
 
 List of markets which should be marked as untradeable due to risk, liquidity or cost issues
-Following should be removed from trading (add to config.bad_markets) [0.300000 threshold]: ['MSCIEMASIA', 'EU-DJ-UTIL', 'AUD_micro', 'ALUMINIUM'] 
+Following should be removed from trading (add to config.bad_markets) [0.300000 threshold]: ['AUD_micro', 'IBEX_mini', 'MSCIEMASIA', 'EU-DJ-UTIL', 'ALUMINIUM'] 
 
 
 
@@ -17,7 +17,7 @@ Markets too expensive (SR cost per trade > 0.010): ['AEX_mini', 'BUTTER', 'CH10'
 
 
 
-Markets not enough risk volume (Volume in $m ann. risk per day < 1.50): ['AEX_mini', 'ALUMINIUM', 'AUDJPY', 'AUD_micro', 'BBCOMM', 'BONO', 'BOVESPA', 'BUTTER', 'CAD_micro', 'CH10', 'CHEESE', 'CHFJPY', 'CHF_micro', 'CLP', 'COAL-GEORDIE', 'COPPER-mini', 'CORN_mini', 'COTTON', 'CZK', 'EPRA-EUROPE', 'EU-CHEM', 'EU-CONSTRUCTION', 'EU-DJ-OIL', 'EU-DJ-TECH', 'EU-DJ-TELECOM', 'EU-DJ-UTIL', 'EU-HOUSE', 'EU-MEDIA', 'EU-MID', 'EU-REALESTATE', 'EU-RETAIL', 'EU-TRAVEL', 'EURAUD', 'EURCAD', 'EURCHF', 'EUROSTX-LARGE', 'EUROSTX-SMALL', 'EUROSTX200-LARGE', 'GASOILINE_micro', 'GBPCHF', 'GBPJPY', 'GBP_micro', 'GICS', 'HIGHYIELD', 'HOUSE-US', 'IG', 'INR', 'IRS', 'JP-REALESTATE', 'JPY_mini', 'KRWUSD', 'LUMBER-new', 'MILKDRY', 'MILKWET', 'MSCIEMASIA', 'MSCIWORLD', 'NOK', 'OATIES', 'OMX', 'PLN', 'SMI-MID', 'SOYBEAN_mini', 'STEEL', 'SUGAR16', 'SWISSLEAD', 'VIX_mini', 'VNKI', 'WHEAT_ICE', 'WHEAT_mini', 'WHEY']
+Markets not enough risk volume (Volume in $m ann. risk per day < 1.50): ['AEX_mini', 'ALUMINIUM', 'AUDJPY', 'AUD_micro', 'BBCOMM', 'BONO', 'BOVESPA', 'BUTTER', 'CAD_micro', 'CH10', 'CHEESE', 'CHFJPY', 'CHF_micro', 'CLP', 'COAL-GEORDIE', 'COPPER-mini', 'CORN_mini', 'COTTON', 'CZK', 'EPRA-EUROPE', 'EU-CHEM', 'EU-CONSTRUCTION', 'EU-DJ-OIL', 'EU-DJ-TECH', 'EU-DJ-TELECOM', 'EU-DJ-UTIL', 'EU-HOUSE', 'EU-MEDIA', 'EU-MID', 'EU-REALESTATE', 'EU-RETAIL', 'EU-TRAVEL', 'EURAUD', 'EURCAD', 'EURCHF', 'EUROSTX-LARGE', 'EUROSTX-SMALL', 'EUROSTX200-LARGE', 'GASOILINE_micro', 'GBPCHF', 'GBPJPY', 'GBP_micro', 'GICS', 'HIGHYIELD', 'HOUSE-US', 'IBEX_mini', 'IG', 'INR', 'IRS', 'JP-REALESTATE', 'JPY_mini', 'KRWUSD', 'LUMBER-new', 'MILKDRY', 'MILKWET', 'MSCIEMASIA', 'MSCIWORLD', 'NOK', 'OATIES', 'OMX', 'PLN', 'SMI-MID', 'SOYBEAN_mini', 'STEEL', 'SUGAR16', 'SWISSLEAD', 'VNKI', 'WHEAT_ICE', 'WHEAT_mini', 'WHEY']
 
 
 
@@ -94,6 +94,7 @@ exclude_instrument_lists:
     - GICS 
     - HIGHYIELD 
     - HOUSE-US 
+    - IBEX_mini 
     - IG 
     - INR 
     - IRS 
@@ -200,6 +201,7 @@ exclude_instrument_lists:
     - GICS 
     - HIGHYIELD 
     - HOUSE-US 
+    - IBEX_mini 
     - IG 
     - INR 
     - IRS 
@@ -231,7 +233,6 @@ exclude_instrument_lists:
     - US3 
     - US5 
     - V2X 
-    - VIX_mini 
     - VNKI 
     - WHEAT_ICE 
     - WHEAT_mini 
